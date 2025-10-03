@@ -1,0 +1,166 @@
+## Abstract  
+**Major Topics:**  
+- Establishes a hierarchical classification of **-moic ontotypes**: monobody categories defined by gravitational rounding, fusion status, and structural physics.  
+- Categories:  
+  - **Planemo [sci]:** gravitationally rounded body, no fusion; includes dwarf planets and large moons.  
+  - **Intermo [NEW]:** transitional-mass bodies between planemos and stars; may fuse deuterium (brown dwarfs).  
+  - **Stellamo [sci/neo]:** hydrogen-fusing stars; foundational stellar monobodies.  
+  - **Supermo [EXPANDED]:** high-mass stellar remnants (e.g., black holes, neutron stars) beyond stellamo scale but sub-galactic.  
+  - **Ultramo [EXPANDED]:** supermassive objects (SMBHs) in galactic centers, 10⁶–10⁹ ⨁.  
+  - **Hypermo [EXPANDED]:** speculative hypermassive monobodies (>10⁹ ⨁), e.g. primordial collapses.  
+- Provides a summary grid of categories, prefixes, abbreviations, and mass ranges (in Earth masses).  
+
+**Key Terms & Symbols:**  
+- **Planemo [sci].**  
+- **Intermo [NEW].**  
+- **Stellamo [sci/neo].**  
+- **Supermo [EXPANDED].**  
+- **Ultramo [EXPANDED].**  
+- **Hypermo [EXPANDED].**  
+
+**Cross-Check Notes:**  
+- **Planemo, Stellamo** already appear in canon.  
+- **Supermo, Ultramo, Hypermo** existed in mass interval tables, but this file adds full narrative definitions.  
+- **Intermo** is a new introduction.  
+- **Status:** [EXPANDED + NEW] — consolidates the -moic classification scheme; introduces Intermo
+---
+---
+
+
+
+# WCB Canonical -moic Ontotypes
+_A classification of mass-based cosmic bodies by gravitational, structural, and fusion characteristics._
+## 🔵 **Planemo**
+> A gravitationally rounded object in the mass range typical of planemos and planemo analogs.
+- **Mass Range**:  
+    0.000167 ⨁ ≤ m < 4.131 kt (1.67 demiterrans to 4.131 kiloterrans)    
+- **Fusion Status**: No fusion    
+- **Examples**: Earth, Mercury, Ganymede, Kepler-22b    
+- **Notes**: May include isolated or satellite-bound bodies; includes dwarf planemos and major moons above hydrostatic threshold.
+## 🟠 **Intermo**
+> A transitional-mass object between planemos and stars.
+- **Mass Range**:  
+    4.131 kt < m ≤ 2.664 myt (4.131 kiloterrans to 2.664 myriaterrans)
+- **Fusion Status**: Sub-stellar; may fuse deuterium    
+- **Examples**: Brown dwarfs, isolated non-hydrogen fusors    
+- **Notes**: Symbolic “liminal” zone; fusion is partial or temporary.
+## 🔴 **Stellamo**
+> A self-luminous object that sustains hydrogen fusion at its core. The foundational unit of stellar systems.
+- **Mass Range**:  
+    2.664 myt < m ≤ 1 hxt (2.664 myriaterrans to 1 hexaterran)    
+- **Fusion Status**: Core hydrogen fusion    
+- **Examples**: Proxima Centauri, the Sun, Sirius A    
+- **Notes**: All main-sequence stars fall here; upper bound set by radiation pressure limits (~300 ⊙).
+## 🔵 **Supermo**
+> A high-mass monobody object that exceeds the stellar mass range but is **not yet galactic** in scope. Includes most known neutron stars and stellar black holes.
+- **Mass Range**:  
+    1 hxt < m ≤ 1 Mt (100,000 ⨁ – 1,000,000 ⨁)    
+- **Common Forms**:   
+     - Black Holes that have exceeded stellamo mass but not yet achieved ultramo mass
+## 🟣 **Ultramo**
+> A **supermassive** object — typically a black hole — existing at the centers of galaxies or as relics of early cosmic formation.
+- **Mass Range**:  
+    1 Mt < m ≤ 1 Gt (1 million – 1 billion ⨁)    
+- **Common Forms**:    
+    - SMBHs        
+## 🔴 **Hypermo**
+> A speculative class of **hypermassive monobodies**, potentially forming during early universe conditions or beyond current observational limits.
+- **Mass Range**:  
+    m >1 Gt (>1 billion ⨁)    
+- **Speculative Examples**:    
+    - Primordial hypercollapses        
+    - Direct-collapse black holes from Population III stars        
+    - Core seeds of hypermassive galaxies
+### 🧭 Summary Grid (Expanded)
+
+| Name     | Prefix | Abbr. | Mass Range (⨁)            |
+| -------- | ------ | ----- | ------------------------- |
+| Stellamo | —      | —     | 26,641 – 100,000          |
+| Supermo  | super- | smt   | 100,000 – 1,000,000       |
+| Ultramo  | ultra- | umt   | 1,000,000 – 1,000,000,000 |
+| Hypermo  | hyper- | hmt   | >1,000,000,000            |
+[[Classification Rule — The Monobody Condition ✓]]
+
+---
+
+
+
+**Major Topics:**  
+- Defines the **Anthropic Norm**: the universe and its functioning as presently perceived, absent extreme or rare conditions.  
+- Closely tied to the **Mediocritic Principle of State**:  
+  - The majority of matter and energy in the current epoch exists within a **statistically dominant modal band** of states.  
+  - Extreme states (e.g., black holes, neutronium, degenerate matter) may be numerous but are **exceptions**, not norm-defining.  
+- Key insights for worldbuilding:  
+  1. **Rarity ≠ Normativity**: unusual states, even if interesting, should not define the baseline.  
+  2. **Normativity = Modal, not Mean**: the “normal” universe is not the statistical average, but the modal cluster where most matter/energy exists most of the time.  
+- Examples:  
+  - The universe is filled with stars, but is not “mostly plasma” under current conditions.  
+  - Neutron stars exist, but the cosmos is not composed of neutronium.  
+  - Rocky planemos form from volatiles, but the universe remains overwhelmingly hydrogen and helium gas.  
+
+**Key Terms & Symbols:**  
+- **Anthropic Norm [NEW].**  
+- **Mediocritic Principle of State [NEW].**  
+- **Modal Cluster [sci].**  
+
+**Cross-Check Notes:**  
+- No prior mention of these terms in canon; both are newly introduced philosophical-structural concepts.  
+- Complements existing WCB philosophical principles (e.g., Protagorean Principle).  
+- **Status:** [NEW] — establishes a normative philosophical baseline for worldbuilding.  
+---
+---
+
+
+# The Anthropic Norm
+
+The universe and its functioning as we currently perceive it, absent any extreme conditions.
+
+### The Anthropic Norm & the Mediocritic Principle of State
+
+> The vast majority of matter and energy in the universe exists within a narrow, statistically dominant band of physical states —  from which it deviates only rarely and locally, within the current cosmological epoch.
+
+This leads to two foundational insights for thesiastic modeling:
+1. **Rarity is not normativity.**  
+    Extreme states — from black holes to degenerate matter — may be _numerous_, but they are not **norm-defining**. They are **local exceptions** to a global pattern.    
+2. **Normativity is modal, not mean.**  
+    The Anthropic Norm does not lie at the statistical _average_, but at the **modal cluster**:  
+    the zone in which **most matter and energy exist most of the time** under current universal conditions.
+Thus:
+- The universe is filled with stars, but is mostly _not_ plasma.  
+    _(It was **at one time** — but that was a different epoch.)_    
+- Neutron stars are real, but the universe is _not_ mostly neutronium.    
+- Volatiles can form rocky planemos — but the cosmos is _overwhelmingly_ hydrogen and helium in gaseous form.
+
+
+
+## Abstract
+**Major Topics:**  
+- Definition of the **SANC Principle** (*Science-Adjacent, No Calculus*).  
+- Scope of mathematical tools for WCB: algebra, geometry, trigonometry.  
+- Exclusion of higher-level tools: calculus, tensors, advanced astrophysics.  
+- Guiding philosophy: “Rigor without rigidity.”  
+
+**Key Terms & Symbols:**  
+- SANC = Science-Adjacent, No Calculus.  
+
+**Cross-Check Notes:**  
+- Canon as of Glossary v1.212.  
+- Reinforces the methodological boundaries of WCB — mathematical accessibility for builders without requiring advanced formal training.  
+- Companion mottos: *Simple, Approximate, Notationally Clear* and *Sufficient and Necessary Constructs*.  
+
+---
+---
+
+
+# 🔑 The SANC Principle
+
+**SANC = Science-Adjacent, No Calculus.**
+
+- ✅ We use **algebra, geometry, and trigonometry** — the practical tools any builder can wield.  
+- 🚫 We skip **calculus, tensors, and full astrophysics** — that’s outside our scope.  
+- 🎯 Goal: **Rigor without rigidity.** Enough math to make worlds believable, never so much that it strangles imagination.  
+
+*Think of SANC as your worldmaking passport: it gets you everywhere you need to go,  
+but it won’t weigh you down with equations better left to astrophysicists.*
+
+---

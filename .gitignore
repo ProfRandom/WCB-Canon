@@ -1,0 +1,44 @@
+# === WBN .gitignore ===
+
+# Obsidian workspace system files
+.obsidian/
+.obsidian/plugins/
+
+# OS-generated system cruft
+.DS_Store
+Thumbs.db
+.AppleDouble
+.Spotlight-V100
+.Trashes
+._*
+desktop.ini
+
+# Temporary + backup files
+*.tmp
+*.swp
+*~
+
+# Graphics + design assets (heavy, not source)
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.afdesign
+
+# Export artifacts (not source of truth)
+*.pdf
+*.zip
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.html
+*.epub
+*.docx
+*.xlsx
+*.xltx
+
+# === Notes ===
+# Markdown files (*.md) are the SOURCE and should always be tracked.
+# If you ever accidentally add an ignore rule for *.md, remove it immediately.
