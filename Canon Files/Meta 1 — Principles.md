@@ -9,8 +9,6 @@
   - **Ultramo [EXPANDED]:** supermassive objects (SMBHs) in galactic centers, 10⁶–10⁹ ⨁.  
   - **Hypermo [EXPANDED]:** speculative hypermassive monobodies (>10⁹ ⨁), e.g. primordial collapses.  
 - Provides a summary grid of categories, prefixes, abbreviations, and mass ranges (in Earth masses).  
-- Adds the symbolic unit:  
-  - **Mirandion (ℳ) [NEW]:** smallest significant mass unit, equal to Miranda’s mass (0.00001⨁), marking the threshold of numerothesiastic significance.  
 
 **Key Terms & Symbols:**  
 - **Planemo [sci].**  
@@ -19,13 +17,12 @@
 - **Supermo [EXPANDED].**  
 - **Ultramo [EXPANDED].**  
 - **Hypermo [EXPANDED].**  
-- **Mirandion (ℳ) [NEW].**  
 
 **Cross-Check Notes:**  
 - **Planemo, Stellamo** already appear in canon.  
 - **Supermo, Ultramo, Hypermo** existed in mass interval tables, but this file adds full narrative definitions.  
-- **Intermo** and **Mirandion (ℳ)** are new introductions.  
-- **Status:** [EXPANDED + NEW] — consolidates the -moic classification scheme; introduces Intermo and Mirandion.  
+- **Intermo** is a new introduction.  
+- **Status:** [EXPANDED + NEW] — consolidates the -moic classification scheme; introduces Intermo
 ---
 ---
 
@@ -88,10 +85,6 @@ _A classification of mass-based cosmic bodies by gravitational, structural, and 
 
 
 
-**Mirandion (ℳ)**  
-The smallest symbolically significant mass unit in WCB — equal to the mass of Uranus’s moon Miranda.  
-It is both a numerothesiastic threshold (0.00001 ⨁) and a mirandothesiastic sigil of **the smallest quantity that still transforms meaning**.  
-The name resonates with _mirari_ — “to marvel” — anchoring the Mirandion at the boundary of the measurable and the meaningful.## Abstract  
 **Major Topics:**  
 - Defines the **Anthropic Norm**: the universe and its functioning as presently perceived, absent extreme or rare conditions.  
 - Closely tied to the **Mediocritic Principle of State**:  
