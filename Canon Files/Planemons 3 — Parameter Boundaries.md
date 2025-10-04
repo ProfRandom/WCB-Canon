@@ -1,7 +1,7 @@
 
 ## Abstract  
 **Major Topics:**  
-- Simplified relationships among planemo parameters (m, ρ, g, r, vₑ) when one parameter is set to unity (Earth-normal).  
+- Simplified relationships among planemon parameters (m, ρ, g, r, vₑ) when one parameter is set to unity (Earth-normal).  
 - Demonstrates that if **any two parameters equal 1 simultaneously, all five must equal 1**.  
 - Provides worked equivalences for each “ground state” case:  
   - m = 1 → other parameters derived directly.  
@@ -12,7 +12,7 @@
 - Highlights **paramount geotic worlds** as those with g = 1, i.e., Earth-normal gravity, yielding minimal physiological stress for humans.  
 
 **Key Terms & Symbols:**  
-- **m** — Planemo mass (⨁).  
+- **m** — planemon mass (⨁).  
 - **ρ** — Density (⨁).  
 - **g** — Surface gravity (⨁).  
 - **r** — Radius (⨁).  
@@ -78,7 +78,7 @@ The equations above also allow determination of any of the three remaining param
 ## Abstract  
 **Major Topics:**  
 - Defines two inner-boundary orbital constraints relative to stars:  
-  - **Innermost Stable Limital (ISL):** Minimum orbit distance where a planemo’s orbit remains dynamically stable given the stellar radius and luminosity class.  
+  - **Innermost Stable Limital (ISL):** Minimum orbit distance where a planemon’s orbit remains dynamically stable given the stellar radius and luminosity class.  
     - Formula: ISL ≈ k × R.  
     - k-values vary by luminosity class (e.g., 2–3 for main sequence, 15–25 for supergiants).  
   - **Critical Viability Limital (CVL):** Minimum orbit distance where stellar flux does not exceed the maximum tolerable level for animotic viability.  
@@ -166,7 +166,7 @@ A planet with no axial tilt (or a very, very modest one — anything <2.5°)
 
 - If eccentricity is low (e < 0.10), no major seasonal variation through the year.
 - All days are the same length, everywhere, all year long.
-- "Seasonal" constellations still occur, because the direction the "night side" of the planemo faces still changes as it orbits.
+- "Seasonal" constellations still occur, because the direction the "night side" of the planemon faces still changes as it orbits.
 - No change in the size of the star in the sky during orbit.
 - From a stellar standpoint, the concept of a "year" would be meaningless
 	- ONLY changes like the slow rotation of the night sky from night to night, or the period of a major moon would be available for calendrical development.

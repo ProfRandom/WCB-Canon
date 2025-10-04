@@ -1597,3 +1597,30 @@ $$
 … an orbital habitability index of 95.8% that of the nucleal orbit.  Slightly cooler, but not drastically so.
 
 
+## Parameter Ranges by Spectral Class
+
+**Abstract:**  
+This file presents a tabulated set of **stellar parameters by spectral class (O–M)**, with high, mean, and low values given for each. Parameters included are:  
+
+- **Effective temperature (K)**  
+- **Thermal Interval Constant (þ)** — the step size in Kelvin that defines subclass increments  
+- **Temperature (T⊙)** relative to the Sun  
+- **Radius (R⊙)** relative to the Sun  
+- **Luminosity (L⊙)** relative to the Sun  
+- **Mass (M⊙)** relative to the Sun  
+- **Frequency (Q⊙)** relative to the Sun  
+
+The table serves as a **ready reference for stellar design** in worldbuilding, allowing thesiasts to quickly identify plausible ranges of physical values across the standard stellar sequence. It systematizes how subclass divisions are calculated (using the TIC, þ) and provides both absolute and relative values for major stellar quantities.  
+
+**Canon Links:**  
+- Connects to **Spectral Classes, Types, and Parameters** (M002 Stars series).  
+- Uses the **Thermal Interval Constant (þ) [neo]** as defined elsewhere in WCB.  
+- Values support calculations in **Habitable Zones**, **Fundamental Orbits**, and related stellar-orbital frameworks.  
+
+**Lexical Tags:**  
+- **[sci]** Spectral Classes, Tempera
+---
+---
+
+
+

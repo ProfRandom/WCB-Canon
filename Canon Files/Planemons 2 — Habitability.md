@@ -1,7 +1,7 @@
 
 ## Abstract
 **Major Topics:**  
-- Exploration of what defines an “Earth-like” planemo.  
+- Exploration of what defines an “Earth-like” planemon.  
 - Reference baseline: Earth’s absolute physical parameters (mass, radius, density, gravity, escape velocity).  
 - Lack of consensus in astrophysics: ranges vs. environmental conditions.  
 - Distinction between **physical similarity** and **habitability classifications** (habitable, parahabitable, hospitable, xenotic, exotic).  
@@ -15,18 +15,18 @@
 - “Earth-like” = physical conformity, not animosustent criteria.  
 
 **Cross-Check Notes:**  
-- Reinforces WCB convention: lowercase symbols (m, r) for planemo parameters.  
+- Reinforces WCB convention: lowercase symbols (m, r) for planemon parameters.  
 - Distinguish clearly between **Earth-like (physical)** and **animocentric classifications** (habitable, parahabitable, hospitable, xenotic, exotic).  
-- Connects to glossary entries: animosustent (canon v1.21), planemo parameters.  
+- Connects to glossary entries: animosustent (canon v1.21), planemon parameters.  
 - Prevent conflation of “Earth-like” with life-supporting qualities.  
 
 ---
 ---
 
 
-## Earth-like Planemos: What Does That Even Mean?
+## Earth-like planemons: What Does That Even Mean?
 
-Let's revisit the _physical properties_ of planemos:
+Let's revisit the _physical properties_ of planemons:
 ![[Physical Properties of Planets ✓]]
 
 We have established that Earth is our standard, and that its _relative_ mass is 1.0M⨁, its _relative_ radius is 1.0R⨁, etc.  But here are its _absolute_ parameters
@@ -37,7 +37,7 @@ We have established that Earth is our standard, and that its _relative_ mass is 
 **Surface Gravity**: 9.8 m/sec²
 **Escape Velocity**: 11.186 km/sec
 
-Sadly, but perhaps predictably, there is no generally agreed-upon definition of what makes a planemo "Earth-like", beyond either a loosely defined range of physical parameters or a rather more rigid set of environmental conditions.
+Sadly, but perhaps predictably, there is no generally agreed-upon definition of what makes a planemon "Earth-like", beyond either a loosely defined range of physical parameters or a rather more rigid set of environmental conditions.
 
 
 
@@ -81,7 +81,7 @@ The extreme atmospheric composition, runaway greenhouse effect, lack of a protec
 
 ## Venus as Geotic
 
-By the numbers, Venus is a **Geotic planemo**:  
+By the numbers, Venus is a **Geotic planemon**:  
 
 - **Mass (m):** 0.815 ⨁  
 - **Radius (r):** 0.949 ⨁  
@@ -135,7 +135,7 @@ This distinction illustrates why the WCB taxonomy separates **Geotic envelopes**
 
 **Cross-Check Notes:**  
 - Reinforces prior geotic bounds with expanded atmospheric, rotational, orbital, and magnetic criteria.  
-- Clarifies *why* gravity corridor (0.5–1.5 ⨁) defines Geotic worlds: outside this, planemos may be Telluric/parahabitable but not Geotic.  
+- Clarifies *why* gravity corridor (0.5–1.5 ⨁) defines Geotic worlds: outside this, planemons may be Telluric/parahabitable but not Geotic.  
 - Orbital period C not freely chosen: constrained by Kepler’s Third Law, tying world design to stellar parameters.  
 - Magnetosphere thresholds emphasize that both too weak and too strong fields can undermine habitability.  
 - Complements and extends core Geotic definitions; functions as a reference sheet for designers setting secondary parameters.  
@@ -190,28 +190,28 @@ Some; most not easily.  Others are completely independent of the physical parame
             - Non-volatile surface conditions                
 - Beyond 120ᵈ, the temperature contrast between day and night becomes too extreme for habitability **without technological aid** (which puts in the _parahabitable_ spectrum).  
 	- Even a perfect ocean–atmosphere system may fail to smooth the thermal tide.  
-	- Planemos in this range may be Tellurics, but they are _not_ Geotics.
+	- planemons in this range may be Tellurics, but they are _not_ Geotics.
 
-> **Keppy**: Do we know what other (if any) of a planemo's physical parameters may affect its rotational period?
+> **Keppy**: Do we know what other (if any) of a planemon's physical parameters may affect its rotational period?
 
 As a matter of fact, astrophysicists are beginning to **simulate probable spin states** for Earth-like exoplanets under different formation conditions. A few recurring themes:
-- Tidal locking is expected for planemos in the habitable zones of **M-dwarfs**, due to proximity.    
+- Tidal locking is expected for planemons in the habitable zones of **M-dwarfs**, due to proximity.    
 - Initial rotation rates may depend on:    
     - Accretion history        
     - Giant impacts (e.g., the Moon-forming event)        
     - Early tidal evolution
 - **Resonant rotations**
 	- Mercury's 3:2 spin-orbit resonance may be **more common than full tidal locking**
-- Close-in planemos may be more likely **spin slowly or be tidally locked**
-- Moons (especially those whose mass is a significant fraction of the planemo's) can stabilize or slow a planemo's rotation rate
+- Close-in planemons may be more likely **spin slowly or be tidally locked**
+- Moons (especially those whose mass is a significant fraction of the planemon's) can stabilize or slow a planemon's rotation rate
 	- This is happening with Earth; our day is lengthening by ≈ 17 microseconds per year, or 1 second every 58800 years
 - Giant impacts can reset rotation direction and/or speed
 
 **Orbital Eccentricity (e)**
 - e ∈ ⟨0 ∧ 0.25⟩ — General Geotic Tolerance
 - e ∈ ⟨0.01 ∧ 0.10⟩ — Earth-clone ideal range
-	- In multi-planemo systems, stable configurations usually result in e < 0.10 per planemo
-	- In single-planemo (only-child) or widely spaced systems, values up to e ≈ 0.25 may remain dynamically stable, but tend to reduce overall habitability
+	- In multi-planemon systems, stable configurations usually result in e < 0.10 per planemon
+	- In single-planemon (only-child) or widely spaced systems, values up to e ≈ 0.25 may remain dynamically stable, but tend to reduce overall habitability
 	- Risks of e > 0.25
 		- Large insolation differentials between periastron and apastron
 		- Pronounced climatic volatility
@@ -222,19 +222,19 @@ As a matter of fact, astrophysicists are beginning to **simulate probable spin s
 
 **Orbital Period (C)**
 - This parameter **can't be freely chosen** — it's governed by **Kepler's Third Law**, originally formulated as $$P^2 \propto a^3$$and later regularized by Newton to account for the total mass of the system
-- The orbital period depends on both the distance of the planemo's orbit and the _combined masses of the star(s) and planemo_.
+- The orbital period depends on both the distance of the planemon's orbit and the _combined masses of the star(s) and planemon_.
 $$C = \sqrt{\dfrac{a^3}{M + m}}$$
 where:
-- C = the orbital period of the planemo in perannum
-- a = the planemo's orbit's **semi-major axis** in ***Astronomical Units***
+- C = the orbital period of the planemon in perannum
+- a = the planemon's orbit's **semi-major axis** in ***Astronomical Units***
 - M = the mass of the star in solar units (⊙)
-- m = the mass of the planemo (also in solar units)
+- m = the mass of the planemon (also in solar units)
 - In most systems, m « M and can be neglected for quick calculations:
-$$C = \sqrt{\dfrac{a^3}{M}}$$	...However, if the planemo's mass exceeds ≈ 10% of the mass of the star(s), its contribution to the period of its orbit begins to have noticeable effects.  This is especially relevant for:
-		- Super-Jovian mass planemos orbiting red-dwarf stars (q.v.)
-		- Binary planemo systems
+$$C = \sqrt{\dfrac{a^3}{M}}$$	...However, if the planemon's mass exceeds ≈ 10% of the mass of the star(s), its contribution to the period of its orbit begins to have noticeable effects.  This is especially relevant for:
+		- Super-Jovian mass planemons orbiting red-dwarf stars (q.v.)
+		- Binary planemon systems
 			- See *Sidebar Module – Two-body Systems*
-			- See also *Sidebar Module – Double-planemo or Planemo-moon*?
+			- See also *Sidebar Module – Double-planemon or planemon-moon*?
 
 - I include _C_ here not because it's adjustable, but because it’s **crucial to the seasonal dynamics** of a world:   
     - It modulates how **axial tilt ($\varepsilon_x$)** and **eccentricity (e)** express over time        
@@ -242,7 +242,7 @@ $$C = \sqrt{\dfrac{a^3}{M}}$$	...However, if the planemo's mass exceeds ≈ 10% 
     - It affects the **precession timescale (χ)** through long-term resonances
 - In short: _IF_ you _declare C_, that choice *constrains what kind of star your system can have*.
 	- See *Sidebar Module – Stars, Planetary Orbits, and Habitable Zones* for details
-- *Note that the masses of other planemos in the system have no effect in this equation!*
+- *Note that the masses of other planemons in the system have no effect in this equation!*
 
 **Obliquity (Axial tilt) ($\varepsilon_x$)**
 - $\varepsilon_x$ ∈ ⟨0° ∧ 5°⟩ — Negligible seasonal variation
@@ -252,12 +252,12 @@ $$C = \sqrt{\dfrac{a^3}{M}}$$	...However, if the planemo's mass exceeds ≈ 10% 
 - $\varepsilon_x$ > 45° — Potentially unstable
 	- Polar and tropical regions actually reverse!
 
-A planemo does not _have_ to have an axial tilt, but most do, because their mass isn't evenly distributed throughout their volume, and that mass is tugged on by the host star(s), companion Moons, other planemos in their star system, etc.
+A planemon does not _have_ to have an axial tilt, but most do, because their mass isn't evenly distributed throughout their volume, and that mass is tugged on by the host star(s), companion Moons, other planemons in their star system, etc.
 
 **Precession Cycle (χ)**
 - χ ∈ ⟨15 ∧ 60⟩ ky — General Geotics range
 - χ ∈ ⟨20 ∧ 30⟩ ky — Earth-clone ideal range
-	- Note: If your planemo has an axial tilt ($\varepsilon_x ≠ 0$), it *will* have an axial precession period.
+	- Note: If your planemon has an axial tilt ($\varepsilon_x ≠ 0$), it *will* have an axial precession period.
 - < 5 ky
 	- Too fast
 	- Rapid climatic swings
@@ -273,38 +273,38 @@ A planemo does not _have_ to have an axial tilt, but most do, because their mass
 	- Modulates long-term climate, but with slower variability
 - > 60 ky
 	- May mute precessional influence
-	- Planemo becomes dependent on *ε* or *e* (or a combination) for seasonal variation
+	- planemon becomes dependent on *ε* or *e* (or a combination) for seasonal variation
 - Habitability-Relevant Impacts of Axial Precession
 	- Precession alone doesn't cause climate variation—but it _modulates_ how obliquity and eccentricity combine with seasons.
-	- Precession rate is influenced by planemo tilt, mass distribution, rotation rate, and gravitational interactions (especially from moons or nearby planemos).
+	- Precession rate is influenced by planemon tilt, mass distribution, rotation rate, and gravitational interactions (especially from moons or nearby planemons).
 	- Moderately long precessional periods (25–30 kyr) help establish stable, regular Milankovitch cycles conducive to long-term ecosystem resilience. 
 	- Affected by:
 		- Axial tilt ($\varepsilon_x$) — higher tilts tend to precess faster.
 		- Rotation rate — faster rotation yields a stronger equatorial bulge (which enhances precession).
-		- Internal structure — core-to-mantle mass distribution changes the planemo’s moment of inertia.
-		- Gravitational interactions — especially from moons or other planemos in the system.
+		- Internal structure — core-to-mantle mass distribution changes the planemon’s moment of inertia.
+		- Gravitational interactions — especially from moons or other planemons in the system.
 
 **Obliquity Azimuth ($\zeta_{n}$)**
-- $\zeta_{n}$ ∈ ⟨0° ∧ 359°⟩ — Measure of the _directionality_ of the planemos' obliquity relative to the periastron of its orbit.
+- $\zeta_{n}$ ∈ ⟨0° ∧ 359°⟩ — Measure of the _directionality_ of the planemons' obliquity relative to the periastron of its orbit.
 - $\zeta_0$ is _defined_ as the orientation when the plamemo's northern hemisphere is tilted precisely away from the star or system **barycenter (ḅ)** (northern solstice) at periastron.
 	- This is called ***periaptic zero***.
-- $\zeta_{90}$ would indicate that northern solstice has _precessed_ 90° around the planemo's orbital path from **periaptic zero**.
-- $\zeta_{180}$ would indicate that the northern solstice is occurring at _apastron_, the point in the planemo's orbit _farthest away_ from the star/barycenter.
+- $\zeta_{90}$ would indicate that northern solstice has _precessed_ 90° around the planemon's orbital path from **periaptic zero**.
+- $\zeta_{180}$ would indicate that the northern solstice is occurring at _apastron_, the point in the planemon's orbit _farthest away_ from the star/barycenter.
 - IMPORTANT:
-	- For $\varepsilon_0$ planemos (they have no axial tilt), $\zeta_x$ is _undefined_.
+	- For $\varepsilon_0$ planemons (they have no axial tilt), $\zeta_x$ is _undefined_.
 
 **Magnetosphere (radiation shielding) ($B_{surf}$)**
 - $B_{surf}$ refers to the **surface magnetic field strength**, measured in **microteslas (μT)**.    
 	- For Earth, the typical surface field ranges between **25–65 μT**, depending on latitude and local crustal anomalies.
 - $B_{surf} \lt 5 \mu T$ — Unshielded; high cosmic radiation exposure, especially polar regions- 
-- $B_{surf} \in \langle5 \wedge 20\rangle \mu T$ — Minimal shielding; planemo parahabitable without O₃ layer and/or thick tmosphere
+- $B_{surf} \in \langle5 \wedge 20\rangle \mu T$ — Minimal shielding; planemon parahabitable without O₃ layer and/or thick tmosphere
 - $B_{surf} \in \langle20 \wedge 40\rangle \mu T$ — Weak field; still protective but slightly more porous
 - $B_{surf} \in \langle40 \wedge 70\rangle \mu T$ — Comparable to Earth; effective radiation shielding
 	- $B_{surf} \in \langle25 \wedge 65\rangle \mu T$ — Earth's typical magnetosphere strength range
 - $B_{surf} \in \langle70, ..,100\rangle \mu T$ — Significant shielding, but with growing secondary effects
 - $B_{surf} \gt 100 \mu T$ — Magnetosphere begins trapping too much radiation
 	- Where the magnetosphere is concerned, there is such a thing as "too much of a good thing"; once the field strength exceeds ~100 μT, the magnetosphere may begin to trap radiation instead of deflecting it — causing the very problems it’s meant to prevent.
-- $B_{surf} \gt 400 \mu T$ — Gas giant strength; radiation belts around planemo make space travel exceedingly hazardous.
+- $B_{surf} \gt 400 \mu T$ — Gas giant strength; radiation belts around planemon make space travel exceedingly hazardous.
 - Why It Matters
 	- A strong magnetic field deflects charged particles from the stellar wind, forming a **magnetosphere**.   
 		- Without this protection:    
@@ -313,7 +313,7 @@ A planemo does not _have_ to have an axial tilt, but most do, because their mass
             - **Ozone layers** and other protective atmospheric chemistry can degrade
         - Mars is the cautionary tale: once magnetically active, its **core solidified early**, its field collapsed, and it lost most of its atmosphere to space.
 - What Generates It?
-	- A planemo’s magnetic field typically arises from a **dynamo effect** — the movement of **conductive fluid** (usually liquid iron) in its outer core:
+	- A planemon’s magnetic field typically arises from a **dynamo effect** — the movement of **conductive fluid** (usually liquid iron) in its outer core:
 	- Requires:
 	    - **Electrically conductive material**
         - **Rotation** (faster helps)
@@ -322,7 +322,7 @@ A planemo does not _have_ to have an axial tilt, but most do, because their mass
 	    - **Core size and composition** (metallicity)
 	    - **Rotation rate (d)** — faster rotation generally strengthens dynamo action
 	    - **Internal heat flux** — related to mass, age, and radioactive element content
-- See _Sidebar Module – Estimating Planetary Magnetospheres_ for details on estimating magnetospheres according to planemo parameters.
+- See _Sidebar Module – Estimating Planetary Magnetospheres_ for details on estimating magnetospheres according to planemon parameters.
 
 # Continuation: Recommendations
 
@@ -404,34 +404,34 @@ To be Geotic is to stand within the habitable corridor of possibility — not at
   - >1.5 ⨁ (≈16.8 km/s) → volatile over-retention, crushing pressures, runaway greenhouse, tech bottlenecks.  
 
 ### Superhabitables  
-- Introduces **Superhabitable worlds**: planemos potentially *more conducive to life than Earth*.  
+- Introduces **Superhabitable worlds**: planemons potentially *more conducive to life than Earth*.  
 - Traits: slightly higher mass (1.2–2.0 ⨁), moderate density (0.8–1.1 ⨁), g ≈ 1.1–1.4 ⨁, long tectonic lifespans, stronger magnetospheres, larger/ecologically diverse surfaces, thicker atmospheres.  
 - Not “superhuman-friendly” — may be hostile for humans but rich for biospheres.  
 - Shows habitability is a **plateau, not a peak**: higher mass can create opportunities, not just risks.  
 
 **Key Terms & Symbols:**  
 - **Parahabitable Envelope** — ⟨0.5–1.5⟩ ⨁ range across core parameters.  
-- **Superhabitable Planemos** — Worlds optimized for life’s flourishing, not human comfort
+- **Superhabitable planemons** — Worlds optimized for life’s flourishing, not human comfort
 ---
 ---
 
 
 # Justifying Parahabitable Parameter Limits
 
-We have specified that the five foundational parameters for _terrestrial-class_ planemos are:
+We have specified that the five foundational parameters for _terrestrial-class_ planemons are:
 
 ![[Physical Properties of Planets ✓]]
 
-While [[Planemo Classes ✓]] defines five envelopes — **Lithic**, **Geotic**, **Gaean**, **Rheatic**, and **Xenotic** — each with their own astrophysical and biological implications, this sidebar focuses on the rationale for preferring a narrower, _parahabitable_ range:
+While [[planemon Classes ✓]] defines five envelopes — **Lithic**, **Geotic**, **Gaean**, **Rheatic**, and **Xenotic** — each with their own astrophysical and biological implications, this sidebar focuses on the rationale for preferring a narrower, _parahabitable_ range:
 
 $$\text{parameter} \in \langle0.5 \wedge 1.5\rangle\oplus$$
-This envelope is not meant to describe strict habitability in the Gaean sense. Rather, it defines a **flexible but centered range** where human life can be sustained or engineered, and where ecological and technological systems remain dynamically stable without extreme compensatory mechanisms. It reflects not only biological tolerance, but also **civilizational viability** — balancing survivability, mobility, infrastructure, and long-term planemo homeostasis.
+This envelope is not meant to describe strict habitability in the Gaean sense. Rather, it defines a **flexible but centered range** where human life can be sustained or engineered, and where ecological and technological systems remain dynamically stable without extreme compensatory mechanisms. It reflects not only biological tolerance, but also **civilizational viability** — balancing survivability, mobility, infrastructure, and long-term planemon homeostasis.
 
 These ranges are further filtered through a **mirandothesiastic sieve** — one that refuses to sever scientific measure from lived perspective. The goal is not simply to model what could exist, but to prioritize what could _matter_: to ecosystems, to civilizations, to meaning-making beings.
 
 The ⟨0.5–1.5⟩⨁ band is wide enough to encompass variation, but narrow enough to preserve structural coherence across simulations, worldbuilding systems, and narrative plausibility. It balances the gravitational, metabolic, atmospheric, and material constraints that shape whether a world feels _inhabitable_ or merely _endurable_.
 
-However, good scholarship requires more than assertion. It demands that we **justify** these limits — or at least **validate** them — using first principles, observed planemo behavior, and biospheric plausibility.
+However, good scholarship requires more than assertion. It demands that we **justify** these limits — or at least **validate** them — using first principles, observed planemon behavior, and biospheric plausibility.
 
 This sidebar examines the reasoning behind each boundary, explores edge cases, and outlines the physical, chemical, and ecological consequences of exceeding these thresholds.
 # Mass
@@ -439,10 +439,10 @@ This sidebar examines the reasoning behind each boundary, explores edge cases, a
 - **Inadequate Long-Term Atmosphere Retention**
 	- Lower mass means **lower escape velocity**, unless density is artificially high   
 	- Even with decent surface gravity, **thermal escape and sputtering** gradually strip the atmosphere
-	- **Solar wind** may erode the upper atmosphere unless magnetic protection is present (which low-mass planemos rarely have)
+	- **Solar wind** may erode the upper atmosphere unless magnetic protection is present (which low-mass planemons rarely have)
 - **Thin or Transient Atmospheres**
 	- CO₂, CH₄, H₂O vapor — essential for warming and biochemistry — are lost over geologic time
-    - Even if the planemo starts with an atmosphere, it won’t necessarily **keep** it
+    - Even if the planemon starts with an atmosphere, it won’t necessarily **keep** it
     - Results in environments like:
         - Mars (0.107⨁ mass): thin CO₂ atmosphere, mostly lost
         - Mercury (0.055⨁): essentially no atmosphere
@@ -456,10 +456,10 @@ This sidebar examines the reasoning behind each boundary, explores edge cases, a
     - Once tectonics stop:
         - Outgassing slows or ceases
         - CO₂ cycle halts → greenhouse regulation fails
-        - planemo becomes geologically dead
+        - planemon becomes geologically dead
     - Without active geology, **habitable climates cannot self-stabilize**
 - **Orbital Vulnerability**
-	- Low-mass planemos are more susceptible to:
+	- Low-mass planemons are more susceptible to:
         - **Tidal locking** (especially around M-dwarfs)
         - **Orbital perturbations** (easily nudged by other bodies)
         - **Catastrophic impacts** (less gravitational buffering)
@@ -468,7 +468,7 @@ This sidebar examines the reasoning behind each boundary, explores edge cases, a
     - No volcanism or weathering to regulate composition
     - You get **toxic skies** or inert ones — but not breathable ones
 - **Conclusion**:
-	- Planemos below ~0.500⨁ mass face compounding risks:
+	- planemons below ~0.500⨁ mass face compounding risks:
         - Atmospheric loss
         - Magnetic weakness
 	    - Thermal stagnation
@@ -493,7 +493,7 @@ This sidebar examines the reasoning behind each boundary, explores edge cases, a
 	- Massive interiors = **enormous thermal budgets**
     - Some super-Earths may have:
         - **Hyperactive tectonics** → unstable continents, relentless volcanism
-        - Or **locked crusts** from extreme pressure → stagnant lid planemos
+        - Or **locked crusts** from extreme pressure → stagnant lid planemons
     - Neither scenario favors long-term habitability:
         - Volatile cycling is either too fast or too halted
         - **Climate regulation fails**
@@ -512,7 +512,7 @@ This sidebar examines the reasoning behind each boundary, explores edge cases, a
 - **Launch Barrier and Tech Suppression**
 	- Escape velocity may exceed **25 km/s**
     - Space access becomes **technologically and economically prohibitive**
-    - Civilizations may be trapped **planemo-bound**, or face extreme energy costs for satellite networks and off-world activity
+    - Civilizations may be trapped **planemon-bound**, or face extreme energy costs for satellite networks and off-world activity
     - Cultural evolution diverges as the **cosmic horizon closes**
 - **Conclusion**:  
 	- Worlds above ~1.500⨁ mass may still be ontosomic — but the **surface environment** becomes increasingly hostile to Earthlike biospheres.
@@ -523,7 +523,7 @@ This sidebar examines the reasoning behind each boundary, explores edge cases, a
 
 ## Superhabitables and Mass: Beyond “Just Right”
 
-In 2014, René Heller and John Armstrong proposed the existence of **superhabitable planemos** — worlds that may be **more conducive to life** than Earth, even if not ideal for humans. These planemos are theorized to exceed Earth's habitability not by matching its parameters exactly, but by surpassing them in specific, life-favoring ways.
+In 2014, René Heller and John Armstrong proposed the existence of **superhabitable planemons** — worlds that may be **more conducive to life** than Earth, even if not ideal for humans. These planemons are theorized to exceed Earth's habitability not by matching its parameters exactly, but by surpassing them in specific, life-favoring ways.
 ### 📌 Definition:
 
 > A **superhabitable** world is one that provides **enhanced conditions** for the _emergence, proliferation, and persistence_ of life — especially diverse, adaptive, and long-lasting biospheres.
@@ -588,7 +588,7 @@ In 2014, René Heller and John Armstrong proposed the existence of **superhabita
     - Gases like N₂, O₂, H₂O vapor **escape more easily**
     - Atmosphere must be **cold and massive** to stay intact — or supplemented by continual outgassing
 - **High Insolation = Runaway Loss**
-	- In warm stellar zones, low-density planemos **cannot retain atmospheres**
+	- In warm stellar zones, low-density planemons **cannot retain atmospheres**
     - Solar UV + X-rays strip volatiles rapidly
     - Left with:
         - Frozen surface (if far from star)
@@ -630,19 +630,19 @@ In 2014, René Heller and John Armstrong proposed the existence of **superhabita
     - Noise transmission altered — **quiet, eerie landscapes**, or rapid atmospheric thumps
 - **Conclusion**:  
 	- Density below ~0.500⨁ means your world is likely an **iceball, a gas-rich bloater, or a crust over a subsurface ocean**. 
-	- Even if mass or gravity fall within Geotic bounds, the planemo’s internal
+	- Even if mass or gravity fall within Geotic bounds, the planemon’s internal
 	- Such a world may be ontosomic, or even **parahabitable**, under exotic conditions — but its suitability for Earthlike surface biospheres is **nearly nil**.
 ## Above ≈ 1.500⨁
 - **Strong Indicator of Iron-Heavy Composition**
 	- High density often means a **large metallic core** and a **thin rocky mantle**
     - Possible formation pathways:
         - **Mantle stripping** via giant impacts (Mercury is the classic example: ρ ≈ 1.684⨁)
-        - **Primordial metal-rich protoplanemo** that never accreted much silicate material
+        - **Primordial metal-rich protoplanemon** that never accreted much silicate material
         - **Volatile loss** in early system formation
-    - These planemos are **compact and massive** for their size, with unusually high surface gravity
+    - These planemons are **compact and massive** for their size, with unusually high surface gravity
 - **Extreme Surface Gravity — Even at Modest Mass**
 	- For a given mass, high density = small radius → **gravity spikes**
-    - A 1.000 ⨁ mass planemo with 1.8⨁ density has:
+    - A 1.000 ⨁ mass planemon with 1.8⨁ density has:
         - Radius ≈ 0.800 ⨁
         - Gravity ≈ 1.560 ⨁
         - Escape velocity ≈ 1.400–1.500 ⨁
@@ -662,7 +662,7 @@ In 2014, René Heller and John Armstrong proposed the existence of **superhabita
 	- High gravity and escape velocity allow for:    
 	    - **Strong atmospheric retention**        
 	    - But risk of retaining **undesirable volatiles** (e.g., sulfur, chlorine, CO)
-	- Without tectonics or outgassing, planemo may lack:    
+	- Without tectonics or outgassing, planemon may lack:    
 	    - Greenhouse gases        
 	    - Surface pressure        
 	    - Atmospheric replenishment
@@ -690,7 +690,7 @@ In 2014, René Heller and John Armstrong proposed the existence of **superhabita
 	- Visual perception altered by atmospheric thickness and refractive index    
 	- The world may _look_ Earthlike — but it will **feel alien**
 - **Conclusion**:  
-	- planemos with ρ > 1.500⨁ are **metal-heavy, compact, and structurally intense**.
+	- planemons with ρ > 1.500⨁ are **metal-heavy, compact, and structurally intense**.
 	- While they may retain atmospheres and shield themselves magnetically, their geology and surface conditions **work against biospheric diversity and long-term climate stability**.
 	- They may be ontosomic — but their suitability for Earthlike life is tenuous, and their evolutionary trajectories are likely to be **slow, deep, and strange**.
 
@@ -703,7 +703,7 @@ In 2014, René Heller and John Armstrong proposed the existence of **superhabita
 	- A large enough **metallic core** to sustain a dynamo    
 	- A thick enough **mantle** to power tectonics for billions of years    
 	- A **modest radius expansion** that keeps surface gravity in the ⟨1.100 ∧ 1.400⟩ ⨁ range (still biomechanically plausible)
-- This density window supports _structural stability, energetic cycling, and ecological flexibility_ without pushing the planemo into extremes.
+- This density window supports _structural stability, energetic cycling, and ecological flexibility_ without pushing the planemon into extremes.
 
  ### Why Not Lower (< 0.800⨁)?
 - Suggests **ice-rich or gas-dominated** composition
@@ -736,7 +736,7 @@ In 2014, René Heller and John Armstrong proposed the existence of **superhabita
 # Gravity
 ## Below ≈ 0.5⨁
 - Poor Atmospheric Retention
-	- A planemo **struggles to retain a dense atmosphere**, especially light molecules like N₂ or O₂.    
+	- A planemon **struggles to retain a dense atmosphere**, especially light molecules like N₂ or O₂.    
 - This leads to:    
     - **Thin or nonexistent atmospheres**        
     - **Poor UV and radiation shielding**        
@@ -823,7 +823,7 @@ In 2014, René Heller and John Armstrong proposed the existence of **superhabita
 		- May result from **mantle stripping**, **impact history**, or metal-rich formation zone
 - **High Gravity at Modest Mass**
 	- Small radius concentrates surface gravity
-		- Even a 1.000 ⨁ mass planemo with 0.75⨁ radius yields:
+		- Even a 1.000 ⨁ mass planemon with 0.75⨁ radius yields:
 			- Gravity ≈ 1.78⨁
 			- Escape velocity ≈ 1.55⨁
 	- **Biomechanical, atmospheric, and tectonic thresholds breached early**
@@ -860,7 +860,7 @@ In 2014, René Heller and John Armstrong proposed the existence of **superhabita
 		- Implies high ice or gas content
 		- Possibly a rocky core with a **bloated volatile envelope**
 - **Low Surface Gravity — Even at Earthlike Mass**
-	- A 1.000 ⨁ mass planemo with 1.3⨁ radius has:
+	- A 1.000 ⨁ mass planemon with 1.3⨁ radius has:
 		- Gravity ≈ 0.59⨁
 		- Escape velocity ≈ 0.88⨁
 	- Volatile loss becomes **more likely** — especially without magnetic field
@@ -869,7 +869,7 @@ In 2014, René Heller and John Armstrong proposed the existence of **superhabita
 	- Unless paired with **very cold temperatures**, gases are easily lost
 	- N₂, O₂, and even H₂O vapor escape rapidly under stellar radiation
 - **Internal Structuring May Be Weak**
-	- Large, icy planemos may be **poorly differentiated**
+	- Large, icy planemons may be **poorly differentiated**
 	- May lack a distinct core or layered mantle
 	- Tectonics and volcanism unlikely — crust may be soft, slushy, or chaotic
 - **Limited Magnetosphere**
@@ -931,7 +931,7 @@ In 2014, René Heller and John Armstrong proposed the existence of **superhabita
 
 ## What It Is — and Why It Matters
 
-Escape velocity ($v_e$) is the speed a body must reach to completely escape a planemo’s gravitational influence without further propulsion. On Earth, $v_e ≈ 11.19$ km/s.  
+Escape velocity ($v_e$) is the speed a body must reach to completely escape a planemon’s gravitational influence without further propulsion. On Earth, $v_e ≈ 11.19$ km/s.  
 This isn't just a rocket science number — it governs whether a world can:
 - **Retain an atmosphere**
 - **Allow for viable space access**
@@ -947,8 +947,8 @@ $$
 v_e = \sqrt{\frac{2GM}{R}}
 $$Where:
 - $G$ is the gravitational constant  
-- $M$ is the planemo’s mass  
-- $R$ is the planemo’s radius
+- $M$ is the planemon’s mass  
+- $R$ is the planemon’s radius
 
 In relative units:
 $$
@@ -1072,8 +1072,8 @@ Let's examine what happens outside this window.
 - **Cryosphere** — ice-covered portions of the hydrosphere, strongly latitude-dependent.  
 
 **Cross-Check Notes:**  
-- Connects directly with **Gaean Planemos** (Earth-like envelope definition) and **Geotic Guidelines** (extended habitability).  
-- Provides *pattern-based classification*, useful alongside **Ground States** and **Rheatic Planemos**.  
+- Connects directly with **Gaean planemons** (Earth-like envelope definition) and **Geotic Guidelines** (extended habitability).  
+- Provides *pattern-based classification*, useful alongside **Ground States** and **Rheatic planemons**.  
 - No explicit new symbols; introduces several neolexical classifications (*thalassoplanet, aquaplanet*).  
 - Stages additional glossary updates for **hydrospheric balance** and related world types.  
 ---
@@ -1084,7 +1084,7 @@ Let's examine what happens outside this window.
 
 > **Habitability is shaped by _exposed land_, not just crustal proportion.**
 
-A planemo might have:
+A planemon might have:
 
 - The **same total volume of felsic crust** as Earth,    
 - The **same hydrospheric volume**,    
