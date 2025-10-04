@@ -193,7 +193,7 @@ Because so many significant bodies in a planemo system have masses best expresse
 > **In short:** The μt unit supports clarity without abandoning scalar precision — a vital aid to both symbolic modeling and thesiastic storytelling.
 
 ---
-[[WCB Canonical -moic Ontotypes ✓]]
+[[WCB Canonical mononic Morphotypes ✓]]
 ## Abstract  
 **Major Topics:**  
 - Introduces methods for **estimating the strength and extent of planetary magnetospheres** using simplified dynamo scaling laws.  

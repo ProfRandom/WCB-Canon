@@ -1,10 +1,10 @@
 
 ## Abstract  
 **Major Topics:**  
-- Defines the **Stellamo Framework**, a master map for classifying **stellar monobodies (stellamos)**.  
+- Defines the **Stellamo Framework**, a master map for classifying **stellar monons (stellamos)**.  
 - Structure:  
   - **Trunk (shared levels):**  
-    - Frame → Monobody.  
+    - Frame → Monon.  
     - Group → Stellamo.  
   - **Spectral Branch (surface physics):**  
     - Spectral Class (O–M).  
@@ -24,7 +24,7 @@
   - Betelgeuse = M2Ia.  
 
 **Key Terms & Symbols:**  
-- **Stellamo [NEW]:** stellar monobody; root classification unit.  
+- **Stellamo [NEW]:** stellar monon; root classification unit.  
 - **Spectral Class/Subclass/Type [sci].**  
 - **Luminosity Class [sci].**  
 - **Evolutionary Phase [sci].**  
@@ -38,11 +38,11 @@
 
 
 # ⭐ Stellamo Framework (Master Map)
-All **Stellamos** (stellar monobodies) share a **common trunk** — then branch into two complementary classification systems.
+All **Stellamos** (stellar monons) share a **common trunk** — then branch into two complementary classification systems.
 
 ---
 ## 🌳 Trunk (Shared Levels)
-- **Frame** → Monobody    
+- **Frame** → Monon    
 - **Group** → Stellamo   
 
 ---

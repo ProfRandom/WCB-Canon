@@ -1,24 +1,24 @@
 
 ## Abstract  
 **Major Topics:**  
-- Clarifies the relationship between informal **-moic monobody terms** (micromo, minimos, midimos) and the formal **symbolic terran mass intervals** (demiterran, pentiterran, milliterran, centiterran, etc.).  
+- Clarifies the relationship between informal **mononic  terms** (micromo, minimos, midimos) and the formal **symbolic terran mass intervals** (demiterran, pentiterran, milliterran, centiterran, etc.).  
 - Establishes boundary conditions:  
   - **Micromos:** bodies below the demiterran scale.  
   - **Minimos:** spans demiterran + pentiterran ranges.  
   - **Midimos:** equivalent to milliterrans.  
   - **Planemos:** strictly ≥ centiterran (planetary-mass).  
 - Provides worked mapping with Solar System bodies (e.g., Ceres, Pluto, Titan, Earth).  
-- Emphasizes distinction between **monobodies** vs. **planemos**: micromos, minimos, and midimos are monobodies but **not** planetary-mass objects.  
+- Emphasizes distinction between **monons** vs. **planemos**: micromos, minimos, and midimos are monons but **not** planetary-mass objects.  
 
 **Key Terms & Symbols:**  
 - **Micromo [neo].**  
 - **Minimo [neo].**  
 - **Midimo [neo].**  
-- **Ontotype–Terran Mapping [meta].**  
+- **Morphotype–Terran Mapping [meta].**  
 
 **Cross-Check Notes:**  
-- Complements **Meta 1 — Principles.md** (ontotype definitions) without revising them.  
-- Expands practical guidance for how informal -moic terms overlap with symbolic terran intervals.  
+- Complements **Meta 1 — Principles.md** (morphotype definitions) without revising them.  
+- Expands practical guidance for how informal mononic terms overlap with symbolic terran intervals.  
 - No contradictions with existing canon.  
 - **Status:** [EXPANDED] clarification, not revision.  
 ---
@@ -26,9 +26,9 @@
 
 
 
-## 📎 Sidebar: Revised Ontotype Mapping
+## 📎 Sidebar: Revised Morphotype Mapping
 
-Asteroidal and planetary bodies can be classified by **ontotype** — a size/mass tier that reflects their gravitational and geophysical character.
+Asteroidal and planetary bodies can be classified by **morphotype** — a size/mass tier that reflects their gravitational and geophysical character.
 
 ---
 

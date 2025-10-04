@@ -1,13 +1,13 @@
 ## Abstract  
 **Major Topics:**  
-- Establishes a hierarchical classification of **-moic ontotypes**: monobody categories defined by gravitational rounding, fusion status, and structural physics.  
+- Establishes a hierarchical classification of **mononic morphotypes**: monon categories defined by gravitational rounding, fusion status, and structural physics.  
 - Categories:  
   - **Planemo [sci]:** gravitationally rounded body, no fusion; includes dwarf planets and large moons.  
   - **Intermo [NEW]:** transitional-mass bodies between planemos and stars; may fuse deuterium (brown dwarfs).  
-  - **Stellamo [sci/neo]:** hydrogen-fusing stars; foundational stellar monobodies.  
+  - **Stellamo [sci/neo]:** hydrogen-fusing stars; foundational stellar monons.  
   - **Supermo [EXPANDED]:** high-mass stellar remnants (e.g., black holes, neutron stars) beyond stellamo scale but sub-galactic.  
   - **Ultramo [EXPANDED]:** supermassive objects (SMBHs) in galactic centers, 10⁶–10⁹ ⨁.  
-  - **Hypermo [EXPANDED]:** speculative hypermassive monobodies (>10⁹ ⨁), e.g. primordial collapses.  
+  - **Hypermo [EXPANDED]:** speculative hypermassive monons (>10⁹ ⨁), e.g. primordial collapses.  
 - Provides a summary grid of categories, prefixes, abbreviations, and mass ranges (in Earth masses).  
 
 **Key Terms & Symbols:**  
@@ -22,13 +22,13 @@
 - **Planemo, Stellamo** already appear in canon.  
 - **Supermo, Ultramo, Hypermo** existed in mass interval tables, but this file adds full narrative definitions.  
 - **Intermo** is a new introduction.  
-- **Status:** [EXPANDED + NEW] — consolidates the -moic classification scheme; introduces Intermo
+- **Status:** [EXPANDED + NEW] — consolidates the mononic classification scheme; introduces Intermo
 ---
 ---
 
 
 
-# WCB Canonical -moic Ontotypes
+# WCB Canonical mononic Morphotypes
 _A classification of mass-based cosmic bodies by gravitational, structural, and fusion characteristics._
 ## 🔵 **Planemo**
 > A gravitationally rounded object in the mass range typical of planemos and planemo analogs.
@@ -52,7 +52,7 @@ _A classification of mass-based cosmic bodies by gravitational, structural, and 
 - **Examples**: Proxima Centauri, the Sun, Sirius A    
 - **Notes**: All main-sequence stars fall here; upper bound set by radiation pressure limits (~300 ⊙).
 ## 🔵 **Supermo**
-> A high-mass monobody object that exceeds the stellar mass range but is **not yet galactic** in scope. Includes most known neutron stars and stellar black holes.
+> A high-mass monon object that exceeds the stellar mass range but is **not yet galactic** in scope. Includes most known neutron stars and stellar black holes.
 - **Mass Range**:  
     1 hxt < m ≤ 1 Mt (100,000 ⨁ – 1,000,000 ⨁)    
 - **Common Forms**:   
@@ -64,7 +64,7 @@ _A classification of mass-based cosmic bodies by gravitational, structural, and 
 - **Common Forms**:    
     - SMBHs        
 ## 🔴 **Hypermo**
-> A speculative class of **hypermassive monobodies**, potentially forming during early universe conditions or beyond current observational limits.
+> A speculative class of **hypermassive monons**, potentially forming during early universe conditions or beyond current observational limits.
 - **Mass Range**:  
     m >1 Gt (>1 billion ⨁)    
 - **Speculative Examples**:    
@@ -79,7 +79,7 @@ _A classification of mass-based cosmic bodies by gravitational, structural, and 
 | Supermo  | super- | smt   | 100,000 – 1,000,000       |
 | Ultramo  | ultra- | umt   | 1,000,000 – 1,000,000,000 |
 | Hypermo  | hyper- | hmt   | >1,000,000,000            |
-[[Classification Rule — The Monobody Condition ✓]]
+[[Classification Rule — The Monon Condition ✓]]
 
 ---
 
