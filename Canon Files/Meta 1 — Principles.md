@@ -1,3 +1,36 @@
+
+## Mononic and Morphological Axes  
+
+All physical bodies (*monons*) in the WCB framework are described along two orthogonal axes:  
+their **Mononic class**, which defines scale and self-coherence,  
+and their **Morphological character**, which defines material composition and structure.  
+A third, contextual layer — the **Categorical Envelope** — arises from the interaction of the two.
+
+| **Axis** | **Defines** | **Typical Examples** | **Field of Study** |
+|:--|:--|:--|:--|
+| **Mononic (Vertical)** | Scale / mass domain — the degree of self-coherence under gravity | micromon → minimon → planemon → stellamon → ultramon | **Mononics** |
+| **Morphological (Horizontal)** | Material / structural composition — what the body is made of | lithic, rheatic, hydruric, cryic, metalluric | **Morphology** |
+| **Categorical / Environmental Envelope** | Contextual synthesis of Mononic class + dominant Morphotype | geotic, telluric, rheatic, xenotic | — |
+
+### Examples
+- **Earth:** lithic planemon → *geotic* category.  
+- **Jupiter:** rheatic planemon → *rheatic* category.  
+- **Ceres:** hydruric minimon → *asteroidal* category.  
+
+### Definitions
+- **Morphotype [neo]:** the primary compositional descriptor of a monon — its dominant physical “substance” or structural character (e.g., *lithic*, *rheatic*, *hydruric*).  
+- **Category / Envelope [meta]:** an emergent classification expressing systemic context and behavior, derived from the combination of a monon’s mass domain and its morphotype (e.g., *geotic*, *telluric*, *xenotic*).  
+
+> **Summary:**  
+> The *Mononic axis* quantifies — how massive and self-coherent a body is.  
+> The *Morphological axis* qualifies — what the body is made of.  
+> The *Categorical envelope* contextualizes — how those traits express within a stellar system.
+
+---
+---
+---
+
+
 ## Abstract  
 **Major Topics:**  
 - Establishes a hierarchical classification of **mononic morphotypes**: monon categories defined by gravitational rounding, fusion status, and structural physics.  
