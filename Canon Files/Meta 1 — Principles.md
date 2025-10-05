@@ -1,5 +1,35 @@
 
-## Mononic and Morphological Axes  
+# Mononic and Morphological Axes  
+
+## Abstract  
+**Major Topics:**  
+- Establishes a hierarchical classification of **mononic morphotypes**: monon categories defined by gravitational rounding, fusion status, and structural physics.  
+- Categories:  
+  - **Planemon [sci]:** gravitationally rounded body, no fusion; includes dwarf planets and large moons.  
+  - **Intermon [NEW]:** transitional-mass bodies between planemos and stars; may fuse deuterium (brown dwarfs).  
+  - **Stellamon [sci/neo]:** hydrogen-fusing stars; foundational stellar monons.  
+  - **Supermon [EXPANDED]:** high-mass stellar remnants (e.g., black holes, neutron stars) beyond stellamo scale but sub-galactic.  
+  - **Ultramon [EXPANDED]:** supermassive objects (SMBHs) in galactic centers, 10⁶–10⁹ ⨁.  
+  - **Hypermon [EXPANDED]:** speculative hypermassive monons (>10⁹ ⨁), e.g. primordial collapses.  
+- Provides a summary grid of categories, prefixes, abbreviations, and mass ranges (in Earth masses).  
+
+**Key Terms & Symbols:**  
+- **Planemon [sci].**  
+- **Intermon [NEW].**  
+- **Stellamon [sci/neo].**  
+- **Supermon [EXPANDED].**  
+- **Ultramon [EXPANDED].**  
+- **Hypermon [EXPANDED].**  
+
+**Cross-Check Notes:**  
+- **Planemon, Stellamon** already appear in canon.  
+- **Supermon, Ultramon, Hypermon** existed in mass interval tables, but this file adds full narrative definitions.  
+- **Intermon** is a new introduction.  
+- **Status:** [EXPANDED + NEW] — consolidates the mononic classification scheme; introduces Intermon
+---
+---
+
+
 
 All physical bodies (*monons*) in the WCB framework are described along two orthogonal axes:  
 their **Mononic class**, which defines scale and self-coherence,  
@@ -30,91 +60,65 @@ A third, contextual layer — the **Categorical Envelope** — arises from the i
 ---
 ---
 
-
-## Abstract  
-**Major Topics:**  
-- Establishes a hierarchical classification of **mononic morphotypes**: monon categories defined by gravitational rounding, fusion status, and structural physics.  
-- Categories:  
-  - **Planemo [sci]:** gravitationally rounded body, no fusion; includes dwarf planets and large moons.  
-  - **Intermo [NEW]:** transitional-mass bodies between planemos and stars; may fuse deuterium (brown dwarfs).  
-  - **Stellamo [sci/neo]:** hydrogen-fusing stars; foundational stellar monons.  
-  - **Supermo [EXPANDED]:** high-mass stellar remnants (e.g., black holes, neutron stars) beyond stellamo scale but sub-galactic.  
-  - **Ultramo [EXPANDED]:** supermassive objects (SMBHs) in galactic centers, 10⁶–10⁹ ⨁.  
-  - **Hypermo [EXPANDED]:** speculative hypermassive monons (>10⁹ ⨁), e.g. primordial collapses.  
-- Provides a summary grid of categories, prefixes, abbreviations, and mass ranges (in Earth masses).  
-
-**Key Terms & Symbols:**  
-- **Planemo [sci].**  
-- **Intermo [NEW].**  
-- **Stellamo [sci/neo].**  
-- **Supermo [EXPANDED].**  
-- **Ultramo [EXPANDED].**  
-- **Hypermo [EXPANDED].**  
-
-**Cross-Check Notes:**  
-- **Planemo, Stellamo** already appear in canon.  
-- **Supermo, Ultramo, Hypermo** existed in mass interval tables, but this file adds full narrative definitions.  
-- **Intermo** is a new introduction.  
-- **Status:** [EXPANDED + NEW] — consolidates the mononic classification scheme; introduces Intermo
----
----
-
-
-
-# WCB Canonical mononic Morphotypes
+# WCB Canonical Mononic Morphotypes
 _A classification of mass-based cosmic bodies by gravitational, structural, and fusion characteristics._
-## 🔵 **Planemo**
+## 🔵 **Planemon**
 > A gravitationally rounded object in the mass range typical of planemos and planemo analogs.
-- **Mass Range**:  
-    0.000167 ⨁ ≤ m < 4.131 kt (1.67 demiterrans to 4.131 kiloterrans)    
+- **Mass Range**:
+	- 167 dmt ⨁ ≤ m < 4.131 kt (1.67 demiterrans to 4.131 kiloterrans)
+	- 0.000167 ⨁ ≤ m < 4.131 kt 
 - **Fusion Status**: No fusion    
 - **Examples**: Earth, Mercury, Ganymede, Kepler-22b    
 - **Notes**: May include isolated or satellite-bound bodies; includes dwarf planemos and major moons above hydrostatic threshold.
-## 🟠 **Intermo**
+## 🟠 **Intermon**
 > A transitional-mass object between planemos and stars.
 - **Mass Range**:  
-    4.131 kt < m ≤ 2.664 myt (4.131 kiloterrans to 2.664 myriaterrans)
+    - 4.131 kt < m ≤ 2.664 myt (4.131 kiloterrans to 2.664 myriaterrans)
+	- 13♃ < m < 80♃
 - **Fusion Status**: Sub-stellar; may fuse deuterium    
 - **Examples**: Brown dwarfs, isolated non-hydrogen fusors    
 - **Notes**: Symbolic “liminal” zone; fusion is partial or temporary.
-## 🔴 **Stellamo**
+## 🔴 **Stellamon**
 > A self-luminous object that sustains hydrogen fusion at its core. The foundational unit of stellar systems.
-- **Mass Range**:  
-    2.664 myt < m ≤ 1 hxt (2.664 myriaterrans to 1 hexaterran)    
+- **Mass Range**:
+	- 2.664 myt < m ≤ 1 hxt (2.664 myriaterrans to 1 hexaterran)    
+	- 80♃ < m < 31,466♃
+	- 0.08⊙ < m < 300⊙ 
 - **Fusion Status**: Core hydrogen fusion    
 - **Examples**: Proxima Centauri, the Sun, Sirius A    
-- **Notes**: All main-sequence stars fall here; upper bound set by radiation pressure limits (~300 ⊙).
-## 🔵 **Supermo**
+- **Notes**: All main-sequence stars fall here; upper bound set by radiation pressure limits to approximately (M = 300⊙).
+## 🔵 **Supermon**
 > A high-mass monon object that exceeds the stellar mass range but is **not yet galactic** in scope. Includes most known neutron stars and stellar black holes.
 - **Mass Range**:  
-    1 hxt < m ≤ 1 Mt (100,000 ⨁ – 1,000,000 ⨁)    
+    1  hxt < m ≤ 1 Mt (100,000 ⨁ – 1,000,000 ⨁)    
 - **Common Forms**:   
      - Black Holes that have exceeded stellamo mass but not yet achieved ultramo mass
-## 🟣 **Ultramo**
+## 🟣 **Ultramon**
 > A **supermassive** object — typically a black hole — existing at the centers of galaxies or as relics of early cosmic formation.
 - **Mass Range**:  
-    1 Mt < m ≤ 1 Gt (1 million – 1 billion ⨁)    
+    1  Mt < m ≤ 1 Gt (1 million – 1 billion ⨁)    
 - **Common Forms**:    
     - SMBHs        
-## 🔴 **Hypermo**
+## 🔴 **Hypermon**
 > A speculative class of **hypermassive monons**, potentially forming during early universe conditions or beyond current observational limits.
 - **Mass Range**:  
-    m >1 Gt (>1 billion ⨁)    
+    m >1  Gt (>1 billion ⨁)    
 - **Speculative Examples**:    
     - Primordial hypercollapses        
     - Direct-collapse black holes from Population III stars        
     - Core seeds of hypermassive galaxies
 ### 🧭 Summary Grid (Expanded)
 
-| Name     | Prefix | Abbr. | Mass Range (⨁)            |
-| -------- | ------ | ----- | ------------------------- |
-| Stellamo | —      | —     | 26,641 – 100,000          |
-| Supermo  | super- | smt   | 100,000 – 1,000,000       |
-| Ultramo  | ultra- | umt   | 1,000,000 – 1,000,000,000 |
-| Hypermo  | hyper- | hmt   | >1,000,000,000            |
-[[Classification Rule — The Monon Condition ✓]]
+| Name      | Prefix | Abbr. | Mass Range (⨁)                  |
+| --------- | ------ | ----- | ------------------------------- |
+| Stellamon | —      | —     | 26,641 – 100,000 (0.08⊙ - 300⊙) |
+| Supermon  | super- | smt   | 100,000 – 1,000,000             |
+| Ultramon  | ultra- | umt   | 1,000,000 – 1,000,000,000       |
+| Hypermon  | hyper- | hmt   | >1,000,000,000                  |
 
 ---
+
+# The Anthropic Norm
 
 
 
@@ -144,8 +148,6 @@ _A classification of mass-based cosmic bodies by gravitational, structural, and 
 ---
 
 
-# The Anthropic Norm
-
 The universe and its functioning as we currently perceive it, absent any extreme conditions.
 
 ### The Anthropic Norm & the Mediocritic Principle of State
@@ -162,9 +164,11 @@ Thus:
 - The universe is filled with stars, but is mostly _not_ plasma.  
     _(It was **at one time** — but that was a different epoch.)_    
 - Neutron stars are real, but the universe is _not_ mostly neutronium.    
-- Volatiles can form rocky planemos — but the cosmos is _overwhelmingly_ hydrogen and helium in gaseous form.
+- Volatiles can form rocky planemons — but the cosmos is _overwhelmingly_ hydrogen and helium in gaseous form.
 
 
+
+# 🔑 The SANC Principle
 
 ## Abstract
 **Major Topics:**  
@@ -185,7 +189,6 @@ Thus:
 ---
 
 
-# 🔑 The SANC Principle
 
 **SANC = Science-Adjacent, No Calculus.**
 

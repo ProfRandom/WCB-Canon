@@ -96,33 +96,39 @@ And all of these materials have their own inherent densities.  Water, for instan
 
 The following table defines the **official WCB symbolic mass intervals** — logarithmic divisions of monon mass based on powers of ten relative to Earth (⨁). These are used for measurement and comparison only. They are **not categorical classes**, and do **not imply world type**.
 
-| Intervals   | Min. Mass ≥   | Max. Mass <    | Power |
-| ----------- | ------------- | -------------- | ----- |
-| deniterran  | 0.0000000001  | 0.000000001    | 10⁻¹⁰ |
-| nanoterran  | 0.000000001   | 0.00000001     | 10⁻⁹  |
-| oktiterran  | 0.00000001    | 0.0000001      | 10⁻⁸  |
-| septiterran | 0.0000001     | 0.000001       | 10⁻⁷  |
-| microterran | 0.000001      | 0.00001        | 10⁻⁶  |
-| pentiterran | 0.00001       | 0.0001         | 10⁻⁵  |
-| demiterran  | 0.0001        | 0.001          | 10⁻⁴  |
-| milliterran | 0.001         | 0.01           | 10⁻³  |
-| centiterran | 0.01          | 0.1            | 10⁻²  |
-| deciterran  | 0.1           | 1              | 10⁻¹  |
-| terran      | 1             | 10             | 10⁰   |
-| dekaterran  | 10            | 100            | 10¹   |
-| hectoterran | 100           | 1000           | 10²   |
-| kiloterran  | 1000          | 10000          | 10³   |
-| myriaterran | 10000         | 100000         | 10⁴   |
-| hexaterran  | 100000        | 1000000        | 10⁵   |
-| megaterran  | 1000000       | 10000000       | 10⁶   |
-| heptoterran | 10000000      | 100000000      | 10⁷   |
-| octoterran  | 100000000     | 1000000000     | 10⁸   |
-| gigaterran  | 1000000000    | 10000000000    | 10⁹   |
-| denoterran  | 10000000000   | 100000000000   | 10¹⁰  |
-| ondoterran  | 100000000000  | 1000000000000  | 10¹¹  |
-| teraterran  | 1000000000000 | 10000000000000 | 10¹²  |
+| Intervals    | Abbreviation | Min. Mass ≥         | Max. Mass <          | Power | Notes  |
+| ------------ | ------------ | ------------------- | -------------------- | ----- | ------ |
+| deniterran   | dnt          | 0.0000000001        | 0.000000001          | 10⁻¹⁰ | WCB    |
+| nanoterran   | nnt          | 0.000000001         | 0.00000001           | 10⁻⁹  | WCB    |
+| oktiterran   | okt          | 0.00000001          | 0.0000001            | 10⁻⁸  | WCB    |
+| septiterran  | spt          | 0.0000001           | 0.000001             | 10⁻⁷  | WCB    |
+| microterran  | μt           | 0.000001            | 0.00001              | 10⁻⁶  | SI     |
+| pentiterran  | pnt          | 0.00001             | 0.0001               | 10⁻⁵  | WCB    |
+| demiterran   | dmt          | 0.0001              | 0.001                | 10⁻⁴  | WCB    |
+| milliterran  | mmt          | 0.001               | 0.01                 | 10⁻³  | WCB/SI |
+| centiterran  | ctt          | 0.01                | 0.1                  | 10⁻²  | WCB    |
+| deciterran   | dct          | 0.1                 | 1                    | 10⁻¹  | WCB    |
+| terran       | t            | 1                   | 10                   | 10⁰   | WCB    |
+| dekaterran   | dkt          | 10                  | 100                  | 10¹   | WCB    |
+| hectoterran  | hct          | 100                 | 1000                 | 10²   | WCB    |
+| kiloterran   | kt           | 1000                | 10000                | 10³   | SI     |
+| myriaterran  | myt          | 10000               | 100000               | 10⁴   | WCB    |
+| hexaterran   | hxt          | 100000              | 1000000              | 10⁵   | WCB    |
+| megaterran   | Mt           | 1000000             | 10000000             | 10⁶   | SI     |
+| heptoterran  | hpt          | 10000000            | 100000000            | 10⁷   | WCB    |
+| octoterran   | ott          | 100000000           | 1000000000           | 10⁸   | WCB    |
+| gigaterran   | Gt           | 1000000000          | 10000000000          | 10⁹   | SI     |
+| denoterran   | ddt          | 10000000000         | 100000000000         | 10¹⁰  | WCB    |
+| ondoterran   | ont          | 100000000000        | 1000000000000        | 10¹¹  | WCB    |
+| teraterran   | trt          | 1000000000000       | 10000000000000       | 10¹²  | WCB    |
+| triskaterran | tkt          | 10000000000000      | 100000000000000      | 10¹³  | WCB    |
+| quadraterran | qdt          | 100000000000000     | 1000000000000000     | 10¹⁴  | WCB    |
+| petaterran   | Pt           | 1000000000000000    | 10000000000000000    | 10¹⁵  | SI     |
+| sexaterran   | sxt          | 10000000000000000   | 100000000000000000   | 10¹⁶  | WCB    |
+| septaterran  | spt          | 100000000000000000  | 1000000000000000000  | 10¹⁷  | WCB    |
+| exaterran    | Et           | 1000000000000000000 | 10000000000000000000 | 10¹⁸  | SI     |
 > Notes:
-> 1. Where official SI prefixes exist (e.g. deci-, centi-, kilo-, mega-), WCB uses them directly.
+> 1. Where official SI prefixes exist (e.g. micro-, milli-, deci-, centi-, kilo-, mega-, giga-, tera-, peta-, exa-), WCB uses them directly.
 > 2. For intermediate powers without SI prefixes, WCB adopts consistent **neologisms** based on the exponent’s magnitude:.
 > 	• Exponents **below zero** use an **-i** ending (unless overridden by SI, e.g. _micro_, not _micri_).
 > 	• Exponents **above zero** use an **-o** ending (unless overridden by SI, e.g. _mega_, not _mego_).
@@ -136,6 +142,8 @@ The following table defines the **official WCB symbolic mass intervals** — log
 > 	• Any value exceeding that threshold — even slightly — is considered to **round up** to the next symbolic interval.
 > 		• **Example:**
 > 		$\qquad$ 9.9999901 ⨁ → **10.0 ⨁**, placing the body in the **dekaterran** interval.
+> 6. The **deniterran** is the lowest mass on this scale because objects below this mass are not capable of achieving hydrostatic equilibrium under their own gravity.
+> 7.  The exaterran is the largest mass on this scale, corresponding to the realistic upper limit for Ultra-massive Black Holes (UMBHs), about $10^{12}$⊙ masses.
 
 ## The Microterran Scale
 Because so many significant bodies in a stellamon system have masses best expressed as a **millionth of a terran** (μ⨁), WCB defines an optional **_microterran scale_** for intuitive symbolic modeling. This scale maps cleanly to the standard symbolic intervals and absolute powers of ten.
