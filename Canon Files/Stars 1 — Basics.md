@@ -991,11 +991,11 @@ A "Sun-like star" is a broad term used to describe stars that share characterist
 For thesiastic purposes, our classifications relate directly to the _habitability potential of orbiting planemos_, rather than just their parent stars’ physical resemblance to the Sun.
 
 **Solar Analogs**:
-- Stars whose *perannual orbits* fall within ⟨0.500, 4.850⟩ AU, spanning from the Inner Parahabitable Zone to the Outer Parahabitable Zone (H₀ – H₅), spectral types F2 – K9.
+- Stars whose *perannual orbits* fall within ⟨0.500 ∧ 4.850⟩ AU, spanning from the Inner Parahabitable Zone to the Outer Parahabitable Zone (H₀ – H₅), spectral types F2 – K9.
 **Solar Cognates**:
-- Stars whose *perannual orbits* fall within ⟨0.750, 1.770⟩ AU, spanning from the Inner Habitable Zone to the Outer Habitable Zone (H₁ – H₄), spectral types F7.62 – K1.11.
+- Stars whose *perannual orbits* fall within ⟨0.750 ∧ 1.770⟩ AU, spanning from the Inner Habitable Zone to the Outer Habitable Zone (H₁ – H₄), spectral types F7.62 – K1.11.
 **Solar Twins**:
-- Stars whose *perannual orbits* fall within ⟨0.950, 1.385⟩ AU, spanning the Hospitable Zone (H₂ – H₃), spectral types G1.04 – G7.73.
+- Stars whose *perannual orbits* fall within ⟨0.950 ∧ 1.385⟩ AU, spanning the Hospitable Zone (H₂ – H₃), spectral types G1.04 – G7.73.
 *Thus*:
 - All *Solar Twins* are also *Solar Cognates* and *Solar Analogs*.
 - All *Solar Cognates* are also *Solar Analogs*.
