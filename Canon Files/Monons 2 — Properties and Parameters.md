@@ -1,3 +1,7 @@
+---
+title: ""
+---
+
 ## Abstract  
 **Major Topics:**  
 - Defines **five fundamental physical properties** of monons:  
@@ -23,9 +27,6 @@
 - **Inverse-square law [sci]** already established in stellar/orbital contexts.  
 - **Sed ego dico [meta]** consistent with existing editorial conventions.  
 - **Status:** [EXPANDED] — reinforces existing canon with emphasis on emergent and interdependent properties.  
-
----
----
 
 ## Physical Properties of Monons
 
@@ -84,10 +85,6 @@ And all of these materials have their own inherent densities.  Water, for instan
 - Neither symbolic intervals nor the μ-terran scale appeared in prior canon abstracts.  
 - This is the **first introduction** of a systematic symbolic framework for monon mass measurement.  
 - **Status:** [NEW] — establishes an entirely new symbolic measurement system for monon masses.  
----
----
-
-
 
 # Principle of Mass Measurement
 
@@ -127,6 +124,7 @@ The following table defines the **official WCB symbolic mass intervals** — log
 | sexaterran   | sxt          | 10000000000000000   | 100000000000000000   | 10¹⁶  | WCB    |
 | septaterran  | spt          | 100000000000000000  | 1000000000000000000  | 10¹⁷  | WCB    |
 | exaterran    | Et           | 1000000000000000000 | 10000000000000000000 | 10¹⁸  | SI     |
+
 > Notes:
 > 1. Where official SI prefixes exist (e.g. micro-, milli-, deci-, centi-, kilo-, mega-, giga-, tera-, peta-, exa-), WCB uses them directly.
 > 2. For intermediate powers without SI prefixes, WCB adopts consistent **neologisms** based on the exponent’s magnitude:.
@@ -159,6 +157,7 @@ Because so many significant bodies in a stellamon system have masses best expres
 | hectomicro     | 100               | 1000              | *demiterran*        | *0.0001*           | *0.001*            | *10⁻⁴*              |
 | kilomicro      | 1000              | 10000             | *milliterran*       | *0.001*            | *0.01*             | *10⁻³*              |
 | myriamicro     | 10000             | 100000            | *centiterran*       | *0.01*             | *0.1*              | *10⁻²*              |
+
 ### Interpretive Guidance
 - The **μ-terran scale** improves readability and narrative clarity for small-mass bodies such as **Vesta**, **Miranda**, and **Ceres**.    
 - It is especially useful for monons with masses between **10⁻⁶ ⨁ and 10⁻¹ ⨁**, where decimal ⨁ values become visually dense or cognitively opaque.    
@@ -172,7 +171,7 @@ Because so many significant bodies in a stellamon system have masses best expres
     > “Miranda is **1 demimicroterran** in mass.”
 > **In short:** The μt unit supports clarity without abandoning scalar precision — a vital aid to both symbolic modeling and thesiastic storytelling.
 
----
+
 ## Abstract  
 **Major Topics:**  
 - Introduces methods for **estimating the strength and extent of planetary magnetospheres** using simplified dynamo scaling laws.  
@@ -194,8 +193,6 @@ Because so many significant bodies in a stellamon system have masses best expres
 - No duplicate abstract exists; this is the **canonical magnetosphere reference**.  
 - Glossary updates required for **M, Bsurf, and dynamo scaling exponents (p, q, r)**.  
 - Closely related to notes on **habitability envelopes, atmospheric retention, and stellar wind interaction**.  
----
----
 
 # Estimating Planetary Magnetospheres
 
@@ -223,8 +220,10 @@ Values of $p$, $q$, and $r$ vary depending on assumptions about:
 - Core thermal convection mode (thermal vs. compositional)    
 - Rotational regime (rapid vs. slow)    
 - Efficiency of magnetic field generation
-    
+
+
  🧭 **Rule-of-Thumb Exponent Ranges**
+ 
 
 | Exponent | Typical Value (approx.) | Notes                                                                  |
 | -------- | ----------------------- | ---------------------------------------------------------------------- |
@@ -232,17 +231,18 @@ Values of $p$, $q$, and $r$ vary depending on assumptions about:
 | $q$      | ⟨2.0 ∧ 2.5⟩            | Core radius has a strong effect — bigger cores mean more dynamo volume |
 | $r$      | ⟨1.0 ∧ 1.5⟩            | Faster spin increases field strength, up to saturation                 |
 
+
 These aren't exact, but they give a ballpark for building **comparative models** — e.g.:
 
 > “A world with a core 1.2× Earth’s radius, 1.1× Earth’s core density, and a 16-hour day could have a magnetic field **2–3× stronger** than Earth’s, all else equal.”
 
----
 
 Or simply provide example profiles:
 
 - Earth: ρ = 1.0⨁, d = 24h → $B_{surf}$ ∈ ⟨25 ∧ 65> μT    
 - Super-Earth: ρ = 1.3⨁, d = 16h → $B_{surf}$ ∈ ⟨80 ..120⟩ μT    
 - Mars: ρ = 0.71⨁, d = 24.6h → $B_{surf}$ ≈ 0 μT (solid core)## Abstract  
+
 **Major Topics:**  
 - Extended parameters for defining geotic (human-hospitable) conditions.  
 - Habitability ranges for rotation period (D), orbital eccentricity (e), orbital period (C), axial tilt (εₓ), precession cycle (χ), and obliquity azimuth (ζₙ).  
@@ -271,13 +271,9 @@ Or simply provide example profiles:
 - Magnetosphere thresholds emphasize that both too weak and too strong fields can undermine habitability.  
 - Complements and extends core Geotic definitions; functions as a reference sheet for designers setting secondary parameters.  
 
----
----
-
 
 # Extended Geotic Habitability Guidelines
 
-There are other parameters that have to do with habitability:
 
 | Parameter                                                                                                                      | Value(s)                                                                                                                                                                                                          |
 | ------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -296,6 +292,9 @@ There are other parameters that have to do with habitability:
 | **Magnetosphere (radiation shielding) ($B_{surf}$)**                                                                           | ≈ ⟨25 ∧ 65⟩ μT (microtesla)                                                                                                                                                                                       |
 | **Land (lithosphere)-water (hydrosphere) proportion**                                                                          | 30%-70%                                                                                                                                                                                                           |
 | **Hydrospheric distribution**                                                                                                  | Five major oceans<br>Numerous smaller seas                                                                                                                                                                        |
+
+
+
 > **Keppy**: Uh... wow.  Not sure what to make of all that, frankly.
 
 Yes, that's a lot.
@@ -491,9 +490,6 @@ Yes, with the caveats listed above.  The point, here, though, is that while grav
 - Integrates with prior note **Example: When Good Values Go Bad** (edge-case validation).  
 - Ensure consistent update: “WCB” → “WCB” across this file and related notes.  
 
----
----
-
 
 # Close-focus on Parameter Precedence
 Elsewhere, I stated that
@@ -619,9 +615,6 @@ By anchoring your model in _m_ and _ρ_, you ensure that all derived parameters 
 **Cross-Check Notes:**  
 - **[NEW]** All notation is new [ins] — no overlaps with existing canon.  
 - Serves as the **symbolic foundation** for other randomization methods (e.g., Orbit Randomization).  
----
----
-
 
 # Range Constraints & Random Assignment
 
@@ -642,7 +635,6 @@ By anchoring your model in _m_ and _ρ_, you ensure that all derived parameters 
 
 ⚠️ Do not combine `!` with dot-prefixed/suffixed forms. Use the logical inverse instead (e.g., `.>`, `>.`).
 
----
 
 ## 📏 Range Connectives
 
@@ -657,7 +649,6 @@ By anchoring your model in _m_ and _ρ_, you ensure that all derived parameters 
 | ⊽      | Left-exclusive exterior  | ▢ < a or ▢ ≥ b | Edge-grazing exterior    |
 | ⩡      | Right-exclusive exterior | ▢ ≤ a or ▢ > b | Edge-grazing exterior    |
 
----
 
 ## 🎲 Random Assignment Syntax
 
@@ -673,7 +664,7 @@ Use `⟨⟨ ⟩⟩` to indicate **random value assignment** from a specified ran
 - = → assignment
 - .= → mandated assignment (value must be generated)
 
----
+
 ## 🎲 Random Assignment Syntax With Weighting
 
 $$
@@ -692,8 +683,6 @@ Where:
 > Because ⟨⟨0 ∧ 1⟩⟩ represents a continuous uniform variable, and because the exponent $p \in (0, \infty)$ continuously reshapes that distribution, the **biasing space** is symmetric about $p = 1$: bias toward *a* for $0 < p < 1$, bias toward *b* for $p > 1$.
 
 
----
-
 ## 🔬 Precision Inference Rule
 
 > The **decimal precision of a randomized result** is inferred from the **most precise** range endpoint.
@@ -706,7 +695,6 @@ Where:
 
 This rule applies **even if the endpoints are excluded** from the valid output range.
 
----
 
 ## ❌ Invalid Forms
 
@@ -716,7 +704,6 @@ This rule applies **even if the endpoints are excluded** from the valid output r
 | x ∈ !⟨a ∧ b⟩  | ❌ Ambiguous: use `⩜` or `⩝` instead |
 | x !.∈ ...     | ❌ Invalid modifier stacking         |
 
----
 
 ## 📜 Axioms
 
@@ -725,7 +712,6 @@ This rule applies **even if the endpoints are excluded** from the valid output r
 
 All range connectives, including obscure ones like `⩡`, are retained in W101 to ensure semantic closure and support future or edge-case modeling needs.
 
----
 
 ## 🌌 Example Use
 

@@ -1,3 +1,6 @@
+---
+title: ""
+---
 
 ## Abstract  
 **Major Topics:**  
@@ -37,8 +40,8 @@
 - Provides quantitative criteria for **stable orbital zones** around and within binary systems.  
 - Serves as the foundation for later sections on **Roche geometry**, **Hill spheres**, and **habitable zone modeling** in multi-star environments.  
 
----
----
+___
+___
 
 ## Chaos Zone
 $$

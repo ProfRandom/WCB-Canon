@@ -1,3 +1,6 @@
+---
+title: ""
+---
 
 ## Abstract  
 **Major Topics:**  
@@ -36,9 +39,9 @@
 - Complements **Roche Lobe Geometry** by describing the analogous stability boundary in **extreme mass-ratio systems**.  
 - Forms the theoretical foundation for satellite-system design, ring stability, and capture mechanics in both planetary and stellar contexts.  
 - Serves as a bridge to later sections on **Roche Limits** and **gravitational capture thresholds**. 
+___
+___
 
----
----
 
 ## Hill Sphere
 In any multi-body system, the **Hill sphere** defines the region around a smaller body within which its own gravity dominates over the tidal influence of a larger primary.  Within this sphere, satellites, rings, or retained debris can maintain long-term stable orbits around the smaller body.

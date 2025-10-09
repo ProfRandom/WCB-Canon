@@ -1,3 +1,6 @@
+---
+title: ""
+---
 
 ## Abstract  
 **Major Topics:**  
@@ -22,6 +25,9 @@
 - **C–P-type Conformations [conf]** align with established lithic and carbonic forms.  
 - **Density and composition correlations [phys]** cross-referenced with *Monons 2 — Properties and Parameters*.  
 - **Status:** [EXPANDED] — adds physical detail, compositional taxonomy, and system-level context for small-body populations.  
+
+___
+___
 
 
 ## 🪨 Asteroid Types  

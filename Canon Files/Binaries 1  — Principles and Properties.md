@@ -1,3 +1,7 @@
+---
+title: ""
+---
+
 ## Abstract  
 **Major Topics:**  
 - Introduces the **fundamental geometry and parameters of binary star systems**.  
@@ -37,8 +41,9 @@
 - Establishes a quantitative basis for subsequent sections on **Roche geometry**, **Hill spheres**, and **orbital stability zones**.  
 - Provides canonical formulae and constants for world-building applications involving binary or multiple stellar systems.  
 
----
----
+___
+
+
 
 
 This section focuses on binary systems in general. While higher-multiplicity arrangements are common and fascinating, they introduce significant mathematical and physical complexity beyond the current scope of this guide.

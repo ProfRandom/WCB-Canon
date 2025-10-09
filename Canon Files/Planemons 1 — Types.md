@@ -1,3 +1,6 @@
+---
+title: ""
+---
 
 ## Abstract  
 **Major Topics:**  
@@ -23,8 +26,8 @@
 - Broader corridors allow for habitability beyond strict shirtsleeve optimum.  
 - Complements **Gaean** and **Gravity One Corridor** entries by defining the wider viable zone.  
 
----
----
+___
+___
 
 ## Geotic
 **Geotic** := ⟨ m ∧ ρ ∧ g ∧ r ∧ vₑ ⟩
@@ -83,8 +86,9 @@ $$
 - About 17.7% of Geotics fall within/near this corridor.  
 - Provides reference framework for distinguishing **hospitable** (Gaean) vs. merely **habitable** (Geotic) worlds.  
 
----
----
+___
+___
+
 
 
 ## Gaean
@@ -160,8 +164,10 @@ In short:
 - Consolidates external “superhabitable” terminology under the WCB neolex **Rheatic**.  
 - Provides numeric corridors to distinguish Rheatics from Geotics and Gaeans.  
 - Complements **Justifying Parahabitable Parameter Limits** by filling in the higher-mass end of the spectrum.  
----
----
+
+___
+___
+
 
 
 # Rheatic Plamemos
@@ -222,9 +228,9 @@ $$
 - Introduces **Telluric** as a new umbrella category.  
 - Integrates existing WCB planemon types (Geotic, Gaean, Rheatic, Xenotic, Parahabitable) under this umbrella.  
 - **Status:** [NEW + EXPANDED] — Telluric is newly defined; expands canon by clarifying relationships among existing planemon classes.  
----
----
 
+___
+___
 
 # Telluric planemons
 
@@ -274,10 +280,9 @@ $$
 - **Xenotic** does not appear in earlier canon abstracts — this file introduces it formally.  
 - Distinction is clear: **Telluric = structure**, **Gaean = Earthlike habitability**, **Xenotic = alien biosphere potential**.  
 - **Status:** [NEW] — introduces Xenotic as a new category of planemons defined by biotic potential outside Earth norms.  
----
----
 
-
+___
+___
 # Xenotic planemons
 ## Xenotic
 **Xenotic** := ⟨ m ∧ ρ ∧ g ∧ r ∧ vₑ ⟩
@@ -358,10 +363,9 @@ $$
 - Rheatic planemons are already part of WCB classification.  
 - “Superhabitable” remains external-only, acknowledged but not canonized.  
 - **Status:** [EXPANDED + EXO] — expands habitability framework with external criteria; adopts internal Rheatic equivalent.  
----
----
 
-
+___
+___
 # Superhabitable planemons
 
 **Definition**  
@@ -378,7 +382,7 @@ The concept of *superhabitable planemons* was proposed by René Heller and John 
 
 ---
 
-**planemon Characteristics**  
+**Planemon Characteristics**  
 - **Mass**: ⟨2.0 ∧ 3.0⟩⨁ (optimum ≈ 2.0⨁)  
 - **Radius**: ⟨1.260 ∧ 1.442⟩⨁ (maintains Earthlike density and gravity)  
 - **Geology**: Larger tectonic–volcanic cycling, longer plate tectonic activity, strong carbon–silicate cycle, thicker atmosphere retention.  
@@ -388,7 +392,6 @@ The concept of *superhabitable planemons* was proposed by René Heller and John 
 - **Atmosphere**: Thicker than Earth’s; O₂ concentration > 20.95%.  
 - **Orbit**: Closer to the center of the host system’s habitable zone than Earth is in the Solar System.  
   - Solar System example: center of optimistic HZ ≈ 1.26 AU; center of conservative HZ ≈ 1.16 AU.
-	  - [[M002 - Stars — 04 Thermozone Orbits ✓]]
 
 ---
 
@@ -441,8 +444,12 @@ In *Worlds by the Numbers*, **Rheatic planemons** encompass the superhabitable c
 - Glossary entries for Astatoid, Ceroid, Fluxoid, Ulsoid, Exotoid, Cryptoid were **updated in v1.222** to replace placeholder structural definitions with these refined compositional/conformational definitions.  
 - Reinforces WCB’s hierarchical taxonomy: **Stellamo → planemon → Micromo → Conformations**.  
 - Aligns terminology with the broader WCB classification framework and avoids conflict with deprecated placeholder definitions.  
----
----
+
+
+
+___
+___
+
 
 ### **✅ 1. Micromo is the umbrella term for all small stellar system bodies (SSSBs).**
 

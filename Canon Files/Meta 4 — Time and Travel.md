@@ -1,3 +1,6 @@
+---
+title: ""
+---
 
 ## Abstract  
 **Major Topics:**  
@@ -24,8 +27,10 @@
 - Expands **Meta 2 — Math Tools** by applying relativistic equations to travel/narrative contexts.  
 - Introduces new [neo] and [exo] terms, but all clearly marked.  
 - Serves as a **bridge between real physics (sci) and fictional FTL (exo/neo)** in WCB.  
----
----
+
+___
+___
+
 
 
 # Interstellar Distances

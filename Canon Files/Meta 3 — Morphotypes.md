@@ -1,3 +1,6 @@
+---
+title: ""
+---
 
 ## Abstract  
 **Major Topics:**  
@@ -21,8 +24,10 @@
 - Expands practical guidance for how informal mononic terms overlap with symbolic terran intervals.  
 - No contradictions with existing canon.  
 - **Status:** [EXPANDED] clarification, not revision.  
----
----
+
+___
+___
+
 
 
 

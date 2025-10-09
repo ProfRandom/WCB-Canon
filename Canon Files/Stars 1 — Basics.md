@@ -1,3 +1,7 @@
+---
+title: ""
+---
+
 ## Abstract  
 **Major Topics:**  
 - Defines the **stellar spectral classification system** (O, B, A, F, G, K, M; plus L, T, Y) in a **linearized temperature model** for WCB use.  
@@ -30,8 +34,10 @@
 - Supports interpolation (decimal values, e.g. G2.3, G2.9) without creating new types.  
 - Forms the **baseline module** for stellar characterization in WCB.  
 - Connects stellar parameters (L⊙, R⊙, M⊙, Q⊙) to habitability modeling.  
----
----
+
+___
+___
+
 
 
 # Stars and Spectral Classes: The Fusion-Fueled Continuum
@@ -287,8 +293,10 @@ Essel's spectral type is *G9.192*.
 - Stars: **T primary, R secondary**.  
 - Planemos: **m primary, ρ secondary**.  
 - Provides unified framework for comparing stellar and planetary parameters.  
----
----
+
+___
+___
+
 
 
 # Stellar Parametrics
@@ -472,9 +480,9 @@ $$
 - Builds directly on **Habitable Zone Limits (H₀–H₅)** from v1.219.  
 - Adds layered refinement: narrower **Hospitable Zone** within the wider HZ.  
 - Introduces **Ontozones** and **zone notation system** for systematic classification.  
-- Establishes Frost Line (ϝ) as a formal WCB parameter.  
----
----
+___
+___
+
 
 
 ## The Nucleal Orbit

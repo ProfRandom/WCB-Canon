@@ -1,3 +1,7 @@
+---
+title: ""
+---
+
 ## Abstract
 **Major Topics:**  
 - Methods for estimating seasonal lengths on eccentric orbits.  
@@ -24,10 +28,8 @@
 - Kepler method more exact; captures asymmetry without fudge.  
 - Overlaps with **Orbital Eccentricity and Seasonal Effects.md** (flux and climate implications).  
 - Important: WCB distinguishes between generic orbital period (P) and sidereal chronum (C).  
-
-
----
----
+___
+___
 
 
 # 📖 Season-Length Estimation Methods

@@ -1,0 +1,57 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "WorldCrafting Canon (Development Build)"
+  author: "Gizmo Conrad"
+  date: today
+  chapters:
+    - index.qmd
+    - part: "Meta Framework"
+      chapters:
+        - "Canon Files/Meta 1 — Principles.md"
+        - "Canon Files/Meta 2 — Math Tools.md"
+        - "Canon Files/Meta 3 — Morphotypes.md"
+        - "Canon Files/Meta 4 — Time and Travel.md"
+    - part: "Stellar Systems"
+      chapters:
+        - "Canon Files/Stars 1 — Basics.md"
+        - "Canon Files/Stars 2 — Structure and Evolution.md"
+        - "Canon Files/Stars 3 — Observation and Measurement.md"
+    - part: "Planetary Systems"
+      chapters:
+        - "Canon Files/Planemons 1 — Types.md"
+        - "Canon Files/Planemons 2 — Habitability.md"
+        - "Canon Files/Planemons 3 — Parameter Boundaries.md"
+    - part: "Orbital Mechanics"
+      chapters:
+        - "Canon Files/Orbits 1 — Dynamics.md"
+        - "Canon Files/Orbits 2 — Climate and Time.md"
+        - "Canon Files/Orbits 3 — Resonances.md"
+    - part: "Mononic Classes"
+      chapters:
+        - "Canon Files/Monons 1 — Framework and Equations.md"
+        - "Canon Files/Monons 2 — Properties and Parameters.md"
+        - "Canon Files/Monons 3 — Small Star System Bodies - Asteroids.md"
+    - part: "Binary Systems"
+      chapters:
+        - "Canon Files/Binaries 1  — Principles and Properties.md"
+        - "Canon Files/Binaries 2 — Star Systems, Planemon Orbits.md"
+        - "Canon Files/Binaries 3 — Roche Lobes.md"
+        - "Canon Files/Binaries 4 — The Hill Sphere.md"
+        - "Canon Files/Binaries 5 — The Roche Limit.md"
+    - "Canon Files/WCB Phonetic Pronunciation Guide.md"
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    number-sections: true
+  pdf:
+    documentclass: book
+    geometry: margin=1in
+    toc: true
+    number-sections: true
+  epub:
+    toc: true

@@ -1,3 +1,7 @@
+---
+title: ""
+---
+
 ## Abstract  
 **Major Topics:**  
 - Definition of **mean motion resonance**: two (or more) bodies orbiting a common primary with orbital periods in an integer ratio (*a:b*).  
@@ -18,10 +22,9 @@
 - Introduces resonance “order” concept, not formalized in canon elsewhere.  
 - No collisions with existing definitions.  
 - To be grouped into **Orbits 3 — Resonances** (with Synodion, Synodial Epoch).  
----
----
 
-
+___
+___
 
 # Mean Motion Resonance
 

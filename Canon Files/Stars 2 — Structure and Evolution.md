@@ -1,3 +1,6 @@
+---
+title: ""
+---
 
 ## Abstract  
 **Major Topics:**  
@@ -5,7 +8,7 @@
 - Structure:  
   - **Trunk (shared levels):**  
     - Frame → Monon.  
-    - Group → Stellamo.  
+    - Group → Stellamon.  
   - **Spectral Branch (surface physics):**  
     - Spectral Class (O–M).  
     - Spectral Subclass (decimal divisions, e.g. G2, M5).  
@@ -33,14 +36,18 @@
 - Spectral and luminosity classifications are already canonical.  
 - **Stellamo [NEW]** is introduced here for the first time as a formal organizing term.  
 - **Status:** [EXPANDED + NEW] — expands stellar classification into a dual-branch framework; introduces Stellamo as a new root concept.  
----
----
+
+___
+___
+
 
 
 # ⭐ Stellamo Framework (Master Map)
 All **Stellamos** (stellar monons) share a **common trunk** — then branch into two complementary classification systems.
 
+
 ---
+
 ## 🌳 Trunk (Shared Levels)
 - **Frame** → Monon    
 - **Group** → Stellamo   
@@ -53,6 +60,7 @@ Focus: **What the star _is_, by surface temperature and spectral features**
 - **Spectral Type** → Spectral Class + Luminosity Class (e.g. G2V, K3III)    
 
 ---
+
 ## 💡 Luminosity Branch (Structure / Evolutionary Stage)
 Focus: **What the star _does_, by size, brightness, and life-cycle**
 - **Luminosity Class** → Morphological grouping by stellar radius & brightness    
@@ -69,6 +77,7 @@ Focus: **What the star _does_, by size, brightness, and life-cycle**
     - Protostar → Main sequence → Giant → White dwarf → Remnant (NS/BH)
         
 ---
+
 ## 🔄 Intersections
 
 - **Spectral Type** = Intersection of **Spectral Class/Subclass** with **Luminosity Class**    
@@ -77,6 +86,7 @@ Focus: **What the star _does_, by size, brightness, and life-cycle**
     - Rigel = **B8Ia**.        
 
 ---
+
 ## 🧭 Principle
 - **Spectral Branch** = _surface physics_ (temperature, color, composition).    
 - **Luminosity Branch** = _structural physics_ (radius, brightness, lifecycle stage).    
@@ -114,8 +124,10 @@ Focus: **What the star _does_, by size, brightness, and life-cycle**
 - **Generational reinterpretation [neo]** is unique to WCB, offering a more intuitive framing.  
 - **Metallicity [sci]** is established science, formally abstracted here for the first time.  
 - **Status:** [NEW + EXO] — incorporates the real-world stellar population system, and introduces the generational reinterpretation for WCB use.  
----
----
+
+___
+___
+
 
 
 # Stellar Populations
@@ -180,8 +192,10 @@ Newly formed stars, then don't have basic compositions in any fundamental way di
 - Stellar lifetimes and solar analog ranges already canonical; this file reframes them in terms of biological timescales.  
 - **Habstar** is an external term; acknowledged here but not adopted into WCB usage.  
 - **Status:** [EXPANDED] — expands canon with habitability timescales and biological evolution benchmarks.  
----
----
+
+___
+___
+
 
 
 # Stellar Lifetimes and System Habitability
@@ -275,8 +289,11 @@ Margaret C. Turnbull and Jill C. Tarter, “Target Selection for SETI. I. A Cata
 - Shows habitability is time-dependent, not static — must account for stellar aging.  
 - Connects to **parahabitable classification** (outer HZ zones).  
 - Complements earlier HZ framework by adding a temporal axis.  
----
----
+
+
+___
+___
+
 
 
 As with all stars (even the most stable and long-lived) the Sun's luminosity has varied over its lifetime. Shortly after its formation, its luminosity was about $70\%$[^1] of its current value, and the luminosity has experienced an average increase of about $6.7\%$ per billion years to its present value. When the Sun was 1 billion years old, its luminosity was about $76.7$% of its current value of $3.828 \times 10^{26}$ W. Thus the habitable zone limits and the nucleal orbit of a star, all of which are *dependent upon its luminosity*, will also be different depending on its age, and vary as the star ages.
@@ -351,9 +368,8 @@ Thereafter, the Sun will enter its red giant phase and its luminosity will shoot
 - Expands habitable zone framework by highlighting limitations of **stellar lifetimes and radii**.  
 - Connects to **Stellar Lifetimes and System Habitability** (short giant lifespans).  
 - Introduces terminology to distinguish **theoretical HZs** from **practical human-centered habitability**.  
----
----
-
+___
+___
 
 # 'Habitable Zones' of Giant Stars
 Remember that although the habitable zone limits are *calculated* using the luminosity of the star, they are *measured* in distance from its center of mass. Thus, a giant star like Aldebaran, with a radius of $44.2$⊙ and a luminosity of $439$⊙, will have much larger fundamental orbits than the Sun.
@@ -460,8 +476,8 @@ You _can_ calculate thermozones (and hence orbital architectures) for giant and 
 - Complements *M002 — Stars: 01WCBectral Classes* (which already introduces the linearized scale).  
 - This note serves as a **sidebar critique and justification** for adopting the WCB linearized system.  
 - No new glossary terms or symbols required; all terms already established in existing canon.  
----
----
+___
+___
 
 
 # Mind the Gap – The Shortcomings of the Traditional Spectral Scale

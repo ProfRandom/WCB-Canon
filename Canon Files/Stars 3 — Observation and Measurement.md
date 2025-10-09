@@ -1,3 +1,6 @@
+---
+title: ""
+---
 
 ## Abstract  
 **Major Topics:**  
@@ -34,8 +37,11 @@
 - Builds on canonical discussions of apparent brightness and luminosity.  
 - Introduces magnitude scale, parsec, distance modulus, and Vega standard candle to WCB canon for the first time.  
 - **Status:** [NEW] — establishes a full stellar magnitude framework within WCB.  
----
----
+
+
+___
+___
+
 
 
 # Stellar Magnitude and The Distance Modulus
@@ -166,8 +172,9 @@ This gives us a rough approximation of any star's absolute magnitude and we can 
 - Examples provide concrete context (Mars orbit, Kalveru–Dynon system).  
 - Ensure no collision with existing brightness/flux notation elsewhere.  
 
----
----
+___
+___
+
 
 
 # Apparent Brightness

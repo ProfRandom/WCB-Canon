@@ -1,3 +1,6 @@
+---
+title: ""
+---
 
 ## Abstract  
 **Major Topics:**  
@@ -17,8 +20,9 @@
 - Reinforces **Core Parameter Precedence** by showing equivalences and constraints.  
 - Serves as the mathematical backbone for all mononic monoclassifications (Geotic, Gaean, Rheatic).  
 - Companion to **Geotic Ground States**, which simplifies these identities when one or more parameters = 1.  
----
----
+
+___
+___
 
 
 # Monon Equations of State

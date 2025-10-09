@@ -1,3 +1,7 @@
+---
+title: ""
+---
+
 ## Abstract
 **Major Topics:**  
 - Methods for placing and sizing asteroid belts between two major perturbers.  
@@ -29,8 +33,9 @@
 - Canonical distinction: gap resonances = frequency > 1.5, trap resonances = frequency ≤ 1.5.  
 - Belt placement formulas integrate with broader Orbit Design Methods.  
 
----
----
+___
+___
+
 
 
 

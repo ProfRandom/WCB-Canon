@@ -1,3 +1,6 @@
+---
+title: ""
+---
 
 ## Abstract  
 **Major Topics:**  
@@ -24,8 +27,9 @@
 - Expands the WCB **Core Parameter Precedence** framework by showing interdependencies in normalized form.  
 - Emphasizes that g = 1 is not just a mathematical simplification but the **biological optimum** for hospitable worlds.  
 - Serves as both a teaching tool (equation simplification) and a design guide (highlighting gravity’s primacy).  
----
----
+___
+___
+
 
 
 ## Geotic Ground States

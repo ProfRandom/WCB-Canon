@@ -1,3 +1,8 @@
+---
+title: ""
+---
+
+
 ## Abstract  
 **Major Topics:**  
 - Defines the **Roche Limit** as the critical distance from a massive primary where tidal forces exceed a secondary body’s self-gravitational cohesion.  
@@ -35,8 +40,8 @@
 - Provides the theoretical framework for **ring formation**, **tidal capture**, and **disruption cascades**.  
 - Serves as a transition from binary gravitational dynamics to **planetary ring and debris-disk modeling** in later sections.  
 
----
----
+___
+___
 
 ## Roche Limit
 

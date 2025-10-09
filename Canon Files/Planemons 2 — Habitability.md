@@ -1,3 +1,6 @@
+---
+title: ""
+---
 
 ## Abstract
 **Major Topics:**  
@@ -20,8 +23,8 @@
 - Connects to glossary entries: animosustent (canon v1.21), planemon parameters.  
 - Prevent conflation of “Earth-like” with life-supporting qualities.  
 
----
----
+___
+___
 
 
 ## Earth-like planemons: What Does That Even Mean?

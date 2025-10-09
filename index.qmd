@@ -1,0 +1,29 @@
+---
+title: "WorldCrafting Canon"
+subtitle: "Foundational Framework and Technical Notes"
+author: "Gizmo Conrad"
+date: today
+format:
+  html:
+    toc: false
+  pdf:
+    toc: false
+  epub:
+    toc: false
+---
+
+# Preface
+
+Welcome to the **WorldCrafting Canon**, the evolving reference framework for the physical, cosmological, and mythosophical principles underlying the Myndhre setting.
+
+This development build includes preliminary and canonical notes spanning:
+- Meta-frameworks and mathematical tools,
+- Stellar and planetary structures,
+- Orbital dynamics,
+- Mononic classifications,
+- Binary systems,
+- and supporting phonetic and terminological standards.
+
+---
+
+_Note: This is a pre-release scaffold for testing Quarto build integrity and cross-format rendering. Content order and completeness are not final._

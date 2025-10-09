@@ -42,3 +42,6 @@ desktop.ini
 # === Notes ===
 # Markdown files (*.md) are the SOURCE and should always be tracked.
 # If you ever accidentally add an ignore rule for *.md, remove it immediately.
+
+/.quarto/
+**/*.quarto_ipynb

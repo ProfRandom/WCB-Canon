@@ -1,5 +1,7 @@
 ---
+title: ""
 ---
+
 ## Abstract  
 **Major Topics:**  
 - Introduces the concept of the **Roche lobe** — the gravitational domain surrounding each star in a binary system within which orbiting material remains bound to that star.  
@@ -39,8 +41,9 @@
 - Provides the theoretical foundation for subsequent sections on **Roche limits**, **mass transfer**, and **accretion physics**.  
 - Connects geometric configuration to **observational categories** (Algol-type, W Ursae Majoris-type).  
 
----
----
+___
+___
+
 
 ## Roche Lobe Geometry
 

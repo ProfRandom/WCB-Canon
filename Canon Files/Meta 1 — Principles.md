@@ -1,3 +1,6 @@
+---
+title: ""
+---
 
 # Mononic and Morphological Axes  
 
@@ -26,9 +29,8 @@
 - **Supermon, Ultramon, Hypermon** existed in mass interval tables, but this file adds full narrative definitions.  
 - **Intermon** is a new introduction.  
 - **Status:** [EXPANDED + NEW] — consolidates the mononic classification scheme; introduces Intermon
----
----
-
+___
+___
 
 
 All physical bodies (*monons*) in the WCB framework are described along two orthogonal axes:  
@@ -36,11 +38,11 @@ their **Mononic class**, which defines scale and self-coherence,
 and their **Morphological character**, which defines material composition and structure.  
 A third, contextual layer — the **Categorical Envelope** — arises from the interaction of the two.
 
-| **Axis** | **Defines** | **Typical Examples** | **Field of Study** |
-|:--|:--|:--|:--|
-| **Mononic (Vertical)** | Scale / mass domain — the degree of self-coherence under gravity | micromon → minimon → planemon → stellamon → ultramon | **Mononics** |
-| **Morphological (Horizontal)** | Material / structural composition — what the body is made of | lithic, rheatic, hydruric, cryic, metalluric | **Morphology** |
-| **Categorical / Environmental Envelope** | Contextual synthesis of Mononic class + dominant Morphotype | geotic, telluric, rheatic, xenotic | — |
+| **Axis**                                 | **Defines**                                                      | **Typical Examples**                                 | **Field of Study** |
+| :--------------------------------------- | :--------------------------------------------------------------- | :--------------------------------------------------- | :----------------- |
+| **Mononic (Vertical)**                   | Scale / mass domain — the degree of self-coherence under gravity | micromon → minimon → planemon → stellamon → ultramon | **Mononics**       |
+| **Morphological (Horizontal)**           | Material / structural composition — what the body is made of     | lithic, rheatic, hydruric, cryic, metalluric         | **Morphology**     |
+| **Categorical / Environmental Envelope** | Contextual synthesis of Mononic class + dominant Morphotype      | geotic, telluric, rheatic, xenotic                   | —                  |
 
 ### Examples
 - **Earth:** lithic planemon → *geotic* category.  
@@ -56,9 +58,6 @@ A third, contextual layer — the **Categorical Envelope** — arises from the i
 > The *Morphological axis* qualifies — what the body is made of.  
 > The *Categorical envelope* contextualizes — how those traits express within a stellar system.
 
----
----
----
 
 # WCB Canonical Mononic Morphotypes
 _A classification of mass-based cosmic bodies by gravitational, structural, and fusion characteristics._

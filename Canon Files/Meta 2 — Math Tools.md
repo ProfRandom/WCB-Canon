@@ -1,3 +1,6 @@
+---
+title: ""
+---
 
 ## Abstract
 **Major Topics:**  
@@ -27,9 +30,8 @@
 - Directrix is definitional: appears in geometry but not physical orbits (noted explicitly).  
 - “Solve the Rest” matrix designed for symbolic algebra; reinforces WCB’s **SANC** approach.  
 - Overlaps with **Orbital Eccentricity and Seasonal Effects.md** (use of rₚ, rₐ).  
-
----
----
+___
+___
 
 
 
