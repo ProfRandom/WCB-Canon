@@ -1,6 +1,12 @@
 project:
   type: book
   output-dir: _book
+  exclude:
+    - "Canon Files_backup/**"
+    - "Canon Files_math_backup/**"
+    - "Canon Files_preReplace/**"
+    - "_book/**"
+    - "_freeze/**"
 
 book:
   title: "WorldCrafting Canon (Development Build)"
