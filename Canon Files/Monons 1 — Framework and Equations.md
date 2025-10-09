@@ -60,8 +60,7 @@ ___
 - Provides the **master map** for all other monon-related classifications.  
 - Ensures that **physical identity** (Conformation) and **biospheric identity** (Ontosomic) can coexist without collision.  
 - Anchors subordinate classifications (e.g., Gaean, Rheatic, Hydrostate subtypes).  
----
----
+
 
 
 # 🌍 Planemon Framework (Master Map)
@@ -69,12 +68,14 @@ ___
 All **planemons** (planetary monons) share a **common trunk** — then branch into two complementary classification systems.
 
 ---
+
 ## 🌳 Trunk (Shared Levels)
 
 - **Frame** → Monon    
 - **Group** → Planemon   
 
 ---
+
 ## 🪨 Conformation Branch (Structural / Physical)
 Focus: **What the planemon is made of**
 - **Order** → Composition families    
@@ -90,6 +91,7 @@ Focus: **What the planemon is made of**
     - Ulsic → Neutraform, Quarkform, etc.        
 
 ---
+
 ## 🌱 Ontosomic Branch (Life-Relevance / Biospheric)
 Focus: **How the planemon relates to life (esp. Earthlike envelopes)**
 - **Class** → Broad livability envelopes    
@@ -114,6 +116,7 @@ Focus: **How the planemon relates to life (esp. Earthlike envelopes)**
     - Serenal (stable, calm, serene environment)        
 
 ---
+
 ## 🧭 Principle
 - **Conformation** = _physical chemistry_ of the body.    
 - **Ontosomy** = _life-relevance_ of the body.    
@@ -143,9 +146,6 @@ Focus: **How the planemon relates to life (esp. Earthlike envelopes)**
 - Complements **Mononic Mass Classes** (size taxonomy), creating a two-axis classification system (mass × composition).  
 - “Haliform” here = Gas Giants → ensure no confusion with earlier Haliform (halogen-bearing lithic variant).  
 - Overlaps with terms already staged in Glossary: Lithic, Astatic, Aetheric, Ulsic.  
-
----
----
 
 
 ## Monon Morphotypes and Conformations
@@ -197,8 +197,6 @@ These are intended to categorize monons _in their current configuration_.  A mon
 - This file provides the **systemic backbone** for all WCB classification work.  
 - All major terms are already present in the glossary as of v1.222.  
 - Future consideration: whether **terracentric prefixes** warrant their own glossary entry or remain embedded in this reference note.  
----
----
 
 
 # Monon Mass Classes and monoclasses
@@ -598,9 +596,6 @@ These are intended to categorize monons _in their current configuration_.  A mon
 - Rule resolves ambiguity: a system of planemons is not itself a planemon.  
 - Complements **Mononic Mass Classes** and **Mononic Compositions** (**morphotypes**) as monoclass framework foundations.  
 - Ensure consistent usage: “–mon” suffix always denotes singular gravitationally self-bound entities, never systems.  
-
----
----
 
 # Classification Rule — The Monon Condition
 

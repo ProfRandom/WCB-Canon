@@ -143,8 +143,6 @@ _A classification of mass-based cosmic bodies by gravitational, structural, and 
 - No prior mention of these terms in canon; both are newly introduced philosophical-structural concepts.  
 - Complements existing WCB philosophical principles (e.g., Protagorean Principle).  
 - **Status:** [NEW] — establishes a normative philosophical baseline for worldbuilding.  
----
----
 
 
 The universe and its functioning as we currently perceive it, absent any extreme conditions.
@@ -183,10 +181,6 @@ Thus:
 - Canon as of Glossary v1.212.  
 - Reinforces the methodological boundaries of WCB — mathematical accessibility for builders without requiring advanced formal training.  
 - Companion mottos: *Simple, Approximate, Notationally Clear* and *Sufficient and Necessary Constructs*.  
-
----
----
-
 
 
 **SANC = Science-Adjacent, No Calculus.**

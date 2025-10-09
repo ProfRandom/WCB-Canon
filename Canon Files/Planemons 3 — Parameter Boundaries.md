@@ -105,8 +105,6 @@ The equations above also allow determination of any of the three remaining param
 - ISL ties orbital mechanics to stellar radius scaling.  
 - CVL ties biological viability to stellar flux limits.  
 - Both act as **inner habitability boundaries**, complementing habitable zone definitions (H₀–H₅).  
----
----
 
 
 # ISL: Innermost Stable Limital
@@ -158,9 +156,6 @@ Where:
 - Relates to glossary terms: obliquity (ε), eccentricity (e), periastron/apastron.  
 - Complements **Orbital Eccentricity and Seasonal Effects.md** by exploring a special case.  
 - Conceptual overlap with habitability/seasonality discussions in climate-related notes.  
-
----
----
 
 
 # A Zero-Obliquity Planet

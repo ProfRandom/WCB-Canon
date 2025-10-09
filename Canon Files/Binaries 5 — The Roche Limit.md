@@ -64,6 +64,7 @@ Where:
 > **Rule of thumb:** Fluid bodies (like icy moons) are disrupted near $\sim 2.5\,R_p$, while rigid, rocky bodies survive slightly closer (~1.5 – 2 $R_p$).
 
 ---
+
 ### Relation to Roche Lobe and Hill Sphere
 
 | Regime          | Controlling Effect                       | Outcome                 |

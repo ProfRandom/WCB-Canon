@@ -246,16 +246,13 @@ So, Kalveru appears about 70% as bright from Dynon as the Sun does from Earth.
 - Overlaps with climate/habitability notes; relates to **Orbital Eccentricity and Seasonal Effects.md** (seasonal insolation context).  
 - Ensure no symbol collision: albedo consistently A.  
 
----
----
 
-
-| planemo Type                | Estimated Albedo (A) |
+| Planemon Type                | Estimated Albedo (A) |
 | --------------------------- | -------------------- |
-| Snowball planemo            | ⟨0.6 ∧ 0.8⟩          |
+| Snowball planemon            | ⟨0.6 ∧ 0.8⟩          |
 | Cloudy temperate Earthlike  | ⟨0.25 ∧ 0.35⟩        |
 | Rocky desert world          | ⟨0.15 ∧ 0.25⟩        |
-| Ocean planemo (few clouds)  | ⟨0.05 ..0.15⟩        |
+| Ocean planemon (few clouds)  | ⟨0.05 ..0.15⟩        |
 | Thick sulfur clouds (Venus) | ~0.75                |
 
 # Planetary Albedo Estimator

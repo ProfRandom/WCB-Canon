@@ -45,6 +45,7 @@ The *obliquity azimuth* of your planet's obliquity is determined by the point in
 |    270 | Northern hemisphere tilted directly away three-fourths orbit after periastron            |
 
 ---
+
 ## 1. Sinusoidal Approximation (Fast vs. Slow Half)
 Here is a quick, algebra-only method that captures the *main effect of eccentricity* on seasons:
 $$
@@ -167,6 +168,7 @@ If you’re working with a strongly eccentric orbit, leave the fudge aside — t
 Ultimately, whether you ‘fudge’ is up to you as the worldbuilder: do you want clean numbers, or do you want raw extremes? Both choices are defensible.
 
 ---
+
 #### Worked Example: Rosetta (Sinusoidal Approximation, Sidereal Chronum)
 Given:  
 - $\phi = 180^\circ$  
@@ -283,6 +285,7 @@ Where:
 - The $+2\pi$ in the autumn term closes the loop back to the next winter.
 
 ---
+
 ### Step 5 — Scale to Year Length
 
 Multiply each fraction by the chronum ($C$) to convert fractions into diurns:
@@ -295,7 +298,9 @@ $$
 \Delta t_\text{winter} = f_\text{winter}\,C
 \end{gather}
 $$
+
 ---
+
 #### Worked Example: Earth (Kepler’s Method, Sidereal Year)
 Given:  
 - $\phi = 0^\circ$  
@@ -382,6 +387,7 @@ Observed Earth season lengths (tropical year):
 - It captures the correct pattern — two longer seasons and two shorter — without needing any fudge factors.
 
 ---
+
 #### Worked Example: Rosetta (Kepler’s Method, Sidereal Chronum)
 Given:  
 - $\phi = 180^\circ$  
@@ -495,9 +501,6 @@ This is exactly the kind of asymmetry you would expect on a world with such an o
 - Conditions for polar day/night align with habitability and cultural calendar considerations.  
 - Closely related to climate/seasonal notes and obliquity orientation concepts.  
 
----
----
-
 
 # Workflow for Calculating Azimuthal Intersections
 #### **Step 1: Input**
@@ -506,12 +509,15 @@ This is exactly the kind of asymmetry you would expect on a world with such an o
 - **Fraction of the apical chronum ($C_f$)**: Time since the summer solstice, as a fraction of the chronum.
 
 ---
+
 #### **Step 2: Calculate Star’s Declination**
 Over the course of the apical chronum, a star’s declination shifts north and south of the celestial equator in a sinusoidal pattern. This north–south swing is what causes the east–west drift of the star’s rising and setting azimems along the horizon.
 $$
 \delta = \epsilon \cos(2 \pi C_f)
 $$
+
 ---
+
 #### **Step 3: Calculate Maximum and Minimum Altitudes**
 1. **Maximum Altitude ($h_\text{max}$):**
    $$
@@ -524,6 +530,7 @@ $$
    $$
 
 ---
+
 #### **Step 4: Condition Check**
 - **If $h_\text{max} > 0^\circ$ and $h_\text{min} < 0^\circ$:**
     - The star's path intersects the horizon. **Proceed to Step 5**.
@@ -532,6 +539,7 @@ $$
     - If $h_\text{max} \leq 0^\circ$: The star never rises above the horizon (continuous night).
 
 ---
+
 #### **Step 5: Calculate Center Offset ($altitudem$)**
 If the condition in Step 4 is satisfied:
 $$
@@ -590,8 +598,7 @@ $$
 - No existing abstract covers obliquity directly; this file provides the **canonical reference**.  
 - Several new glossary entries required for v1.223 (parameters listed above).  
 - Closely related to WCB notes on **season length, orbital eccentricity, and planetary orientation**.  
----
----
+
 # Obliquity — Planetary Orientation  
 
 ## Current Obliquity (Axial tilt) ($\varepsilon$) 
@@ -703,6 +710,7 @@ Thus, for Earth in ~13,000 years, northern summer will occur near December–Feb
 > **Note:** $χ$ is undefined for $\varepsilon = 0$, since there is no obliquity to precess. In practice, some frameworks may assign $\chi = 0$ for bookkeeping, but this has no physical meaning.
 
 ---
+
 ## Earth’s Current Seasons 
 | Season | Start        | End          | Length (days) | Why length differs                  |     |
 | ------ | ------------ | ------------ | ------------- | ----------------------------------- | --- |
@@ -738,10 +746,6 @@ Thus, for Earth in ~13,000 years, northern summer will occur near December–Feb
 - **Axial Tilt (ε)** and prograde/retrograde spin already appear in canon; this file reinforces them with explicit examples.  
 - **Solar Reversal [NEW]** is a newly introduced descriptive label for inverted sunrise/sunset.  
 - **Status:** [EXPANDED + NEW] — expands on existing axial tilt and rotation terms, introduces solar reversal as a worldbuilding descriptor.  
----
----
-
-
 
 > **Keppy**: Wait… isn’t retrograde motion an orbital thing?  
 
@@ -858,9 +862,6 @@ So:
 - All terms already appear in canon; this file adds consolidated precision and relationships.  
 - Should be considered a **reference supplement**, not a conceptual expansion.  
 - **Status:** [EXPANDED: Reference/Tabulation] — reinforces existing canon with high-precision tabulation and synodic calculations.  
----
----
-
 
 ### Types of “Day”
 
@@ -931,9 +932,6 @@ The **synodic period** between the **_ephemeris day_** and the **_stellar day_**
 - All major parameters (P₀, H, composition fractions) are already canonical.  
 - **Pressure Plausibility Chart [neo]** is newly introduced as a heuristic tool.  
 - **Status:** [EXPANDED + NEW] — expands on existing atmospheric equations; introduces the new Pressure Plausibility Chart heuristic.  
----
----
-
 
 
 # Planning A Detailed Atmosphere

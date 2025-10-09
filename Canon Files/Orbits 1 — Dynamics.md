@@ -212,10 +212,6 @@ $$
 - Potential overlaps with glossary entries on *solar day*, *sidereal day*, *stellar day*, and *synodic period*.  
 - Candidate staging milestone: Glossary v1.215 (Harmonic Period added).  
 
----
----
-
-
 
 _Harmonic periods_ are crucial for understanding how a planet's rotational and orbital cycles synchronize.  The harmonic period $H$ is the time interval over which the two independent motions align in their periodicity.
 $$
@@ -289,8 +285,7 @@ $$
 - **[NEW]** Basal radius (B) and cutoff (Ω).  
 - No conflicts with existing canon.  
 - Extends *Range Constraints & Random Assignment*; best read together.  
----
----
+
 
 
 # Orbit Randomization Notation
@@ -355,9 +350,6 @@ $$
 - Deprecated symbols: ß, rₚ, rₐ (legacy only).  
 - Ḋ introduced in Glossary v1.211 as preferred WCB metric.  
 - Overlaps conceptually with orbital design/insolation notes; interacts with climate/habitability discussions.  
-
----
----
 
 
 # Orbital Eccentricity and Seasonal Effects
@@ -425,10 +417,6 @@ $$
 - Uses standard astronomical terms: **declination, latitude**.  
 - No new symbolic conventions introduced.  
 - **Status:** [EXPANDED] — broadens existing canon by applying sky-path methods to planetary ring shading and climate effects.  
----
----
-
-
 
 ### **Quick Method for Ring Shadows (Approximation)**  
 

@@ -121,6 +121,7 @@ $$
 - For a mass ratio of $^{M_S}/_{M_P} = 0.8$, the system requires $\acute{e} \geq 0.8519$ for the primary and secondary orbits to adjoin tangentially (see below).
 
 ---
+
 # Relative Orbit of the Secondary
 There are times (such as when the Secondary is less massive than the Primary — typically $\frac{M_1}{M_2} \gtrsim 80$, the approximate star/brown dwarf mass dividing line, but it works for sub-stellamon bodies as well — it is convenient to treat the Primary as stationary and the Secondary as following the relative orbit alone.  Therefore,
 $$
@@ -172,6 +173,7 @@ B_{max} &= \frac{\mathcal{a}(1 + e)\; M_0}{M_0 + 1}
 \end{align}
 $$
 Note that in both sets of equations, the math works out such that the dimensions of the barycenter's "orbit" *precisely match* those of the Primary's orbit; this is incredibly convenient, as it allows us to directly compare the geometry of the barycenter's orbit to the physical dimensions of the Primary, in particular the Primary's radius ($R_P$) — more on this below.
+
 # Constant Equalities
 Some relationships between the masses of the Primary and Secondary and their related orbital separations are constant:
 $$
@@ -279,6 +281,7 @@ Empirically, binary systems trace a clear trend:
 This relation has been confirmed repeatedly—from **Duquennoy & Mayor (1991)** and **Raghavan et al. (2010)** to **Moe & Di Stefano (2017)** and modern **Gaia DR3** samples.
 
 ---
+
 #### 2. **Physical Cause — Tidal Circularization**
 
 Close binaries experience **tidal friction**: each star raises bulges on its companion.  
@@ -293,12 +296,14 @@ so even a modest change in separation produces a huge difference in damping time
 Systems that are young and close become circular long before wide pairs even notice tides.
 
 ---
+
 #### 3. **Residual Eccentricities and Anomalies**
 - **“Twin” binaries** (nearly equal-mass, short-period) are most circularized.    
 - **Eccentric short-period outliers** often show evidence of a **third companion** pumping eee through Kozai–Lidov cycles.    
 - **Post-mass-transfer pairs** can re-acquire modest eccentricity as mass loss changes the potential.    
 
 ---
+
 #### 4. **Approximate Empirical Envelope**
 
 For solar-type primaries, the upper bound of observed eccentricities can be sketched as

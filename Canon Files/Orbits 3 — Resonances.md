@@ -71,9 +71,6 @@ However, an interesting phenomenon also occurs, such that Ganymede, Europa, and 
 - Canon has no prior abstract of synodic periods.  
 - Complements Orbits 1 (Dynamics), but distinct: this covers non-integer commensurabilities.  
 - **Status:** [NEW] — establishes synodion framework as part of orbital resonance canon.  
----
----
-
 
 ## The Synodian: Non-Integer Resonances
 When two bodies orbit a central body, but their orbital periods are:
@@ -281,9 +278,6 @@ The answer is "yes" and we can calculate that, too.
 - No prior canon coverage of epochal cycles; this is a new layer building on the **Synodion** framework.  
 - Depends on GCD/LCM math tools (already canonized in **The Euclidean Algorithm**).  
 - **Status:** [NEW] — introduces full synodial epoch framework as part of resonance canon.  
----
----
-
 
 ## The Synodial Epoch
 

@@ -39,6 +39,7 @@ title: ""
 - Complements **Roche Lobe Geometry** by describing the analogous stability boundary in **extreme mass-ratio systems**.  
 - Forms the theoretical foundation for satellite-system design, ring stability, and capture mechanics in both planetary and stellar contexts.  
 - Serves as a bridge to later sections on **Roche Limits** and **gravitational capture thresholds**. 
+- 
 ___
 ___
 
@@ -49,6 +50,7 @@ In any multi-body system, the **Hill sphere** defines the region around a smalle
 Conceptually, the Hill sphere is the **circum-orbital analog** of the Roche lobe:  where the Roche lobe marks the boundary between *two comparable masses*, the Hill sphere marks the boundary between a **primary** and a **much smaller secondary**.
 
 ---
+
 ### Classical Formulation
 For a secondary body of mass $M_2$ orbiting a much larger primary of mass $M_1$ at semi-major axis $\alpha$, the radius of its Hill sphere is approximated by:
 $$
@@ -64,12 +66,14 @@ Where:
 - $M_1$ = mass of the primary (star, planet, etc.)
 
 ---
+
 ### Interpretation
 - Inside $H_r$, the secondary’s gravity dominates; small bodies can orbit it stably.  
 - Near or beyond $H_r$, tidal forces from the primary destabilize those orbits.  
 - The Hill sphere thus defines the **outer boundary of a planet’s satellite system** or, in stellar terms, the **limit of gravitational capture**.
 
 ---
+
 ### Rule of Thumb
 - Long-term stable satellite orbits typically require  
   $$
@@ -81,6 +85,7 @@ Where:
 - For eccentric orbits, replace $\alpha$ with the **periapsis distance**, $\alpha(1 - e)$, to account for stronger tidal effects at closest approach.
 
 ---
+
 ### Comparison with Roche Lobe
 
 | Concept | Regime | Definition | Shape |
@@ -92,6 +97,7 @@ Where:
 > the Hill sphere is the *personal domain* of a subordinate.
 
 ---
+
 ### Example — Earth’s Hill Sphere
 
 For Earth ($M_2 = 1\,M_\oplus$) orbiting the Sun ($M_1 = 1\,M_\odot$) at $\alpha = 1\,\text{AU}$:

@@ -836,9 +836,6 @@ $$
 - No new glossary entries beyond 𝒩 and 𝒫 (already staged in prior files).  
 - This section functions as a **bridge note**, unifying the thermal and temporal anchors in WCB orbital design.  
 - Emphasizes **approximation vs. precision**: usable shortcuts exist, but exact calculation is preferable.  
----
----
-
 
 
 We have explored both [[M002 - Stars — 03 The Nucleal Orbit ✓|The Nucleal Orbit]] and [[M002 - Stars — 05 The Perannual Orbit ✓|The Perannual Orbit]].  These two are not *limiting distances*, but **orbital environs** which both describe and contribute to the ontosomic nature of planemos.
@@ -904,8 +901,6 @@ $$
 - No **new glossary entries** introduced; the adjustments are refinements to existing equations.  
 - Functions as a **supportive methods note** — improves accuracy and usability of WCB stellar modeling.  
 - Directly prepares for *Stars 08: Sun-Like Stars*, where these refined forms are applied.  
----
----
 
 
 # Stars — 2.07 Fine-tuning Stellar Parameters
@@ -968,8 +963,6 @@ The Standard Parameter Equations (see [[M002 - Stars — 02 Parameters ✓]]):
 - **New glossary entries needed:** Solar Analog, Solar Cognate, Solar Twin, Orbital Habitability Index (OHI).  
 - All other symbols and terms already staged in prior files (𝒩, 𝒫, thermozones, H₀–H₅, λ).  
 - This section bridges stellar classification with **habitability indices**, anchoring “Sun-like” terminology directly to WCB orbital framework.  
----
----
 
 
 # Solar Analogs, Cognates, and Twins
@@ -1262,9 +1255,6 @@ Values of *D* < 0.500$\mathcal{N}$ and > 4.850$\mathcal{N}$ return *negative num
 - **New glossary entries needed:** Orbital Interval, Orbital Gap, Intrabasal Orbit Calculation, Extrabasal Orbit Calculation, Basal Orbit, Ω (system cutoff).  
 - Builds on previous anchors (𝒩, 𝒫, thermozones) to enable **statistically grounded system generation**.  
 - Provides WCB’s baseline method for populating star systems with planemo orbits.  
----
----
-
 
 # Fleshing Out A Star System
 
@@ -1316,10 +1306,12 @@ However, a cursory survey of the Exoplanet Catalog seems to reveal a range of �
 **Orbital interval ranges**
 
 | Inner | Outer | Description  |
-| ----: | ----: | ------------ |
+| -----:| -----:| ------------ |
 |   1.4 |     2 | Conservative |
 |   1.2 |   3.5 | Medial       |
 |     1 |     5 | Optimistic   |
+
+
 ## Calculating Other Orbits
 This brings us to methods of calculating other orbits in a star system.  In practice, any method the worldmakerchooses is _valid_, including just putting planemos where "it feels right"; however, even using this method _should_ ideally take into account the above statistics and try to avoid an orbital interval between a given planemo and its nearest neighbor of $< 1.500\;AU$ or $> 2.000\;AU$.
 
@@ -1397,6 +1389,7 @@ We now have a system of five orbits:
 |    3    | 0.298    |
 |    4    | 0.482    |
 | 5 (*N*) | 0.834    |
+
 We could stop here and have a fully legitimate star system, but let's say we want extranucleal orbits, as well.  Again, beginning with the nucleal orbit $B = 0.834\;AU$, and setting an outermost orbit of $\Omega = 35.0\;AU$:
 $$
   r_0 = 0.834;\; \Omega = 35.0:
@@ -1431,6 +1424,7 @@ This expands our system to 11 orbits:
 |    9    |  11.379  |
 |   10    |  18.298  |
 |   11    |  33.357  |
+
 … and we can proceed to design planemos for each orbit, or eliminate some orbits and install asteroid belts, or adjust orbital intervals to suit our needs.... the sky's the limit.
 
 > **Hippy**: Oh, ha-ha...
@@ -1466,8 +1460,6 @@ With this method, a worldmaker can quickly generate a full planemo system that i
 - **New glossary entries needed:** Δ (distance ratio), F (stellar flux).  
 - Reinforces prior entries: thermozones, ontozones, 𝒩, 𝒫, orbital intervals.  
 - Serves as a practical example of reconciling WCB rules with real stellar constraints.  
----
----
 
 
 # Calculating the Thermozones
@@ -1503,6 +1495,7 @@ And we can add these to our orbits table from above and determine the thermozone
 |         9          |  11.379  | Cryozone                    | Xenotic                   |
 |         10         |  18.298  | Cryozone                    | Xenotic                   |
 |         11         |  33.357  | Cryozone                    | Xenotic                   |
+
 And, we can calculate the perannual orbital distance and the star's spectral type by:
 **Perannual Orbit**
 $$
@@ -1568,6 +1561,7 @@ Excellent thought... let's work that through.  Here's a modified orbit table tak
 |         9         |  11.379  | Cryozone                    | Xenotic                   | 1.608    |
 |        10         |  18.298  | Cryozone                    | Xenotic                   | 1.823    |
 |        11         |  33.357  | Cryozone                    | Xenotic                   | 1.778    |
+
 The interval between the perannual orbit and the next closer-in orbit is:
 $$
 I = \dfrac{0.969}{0.482} = 1.927\;AU
@@ -1627,8 +1621,6 @@ The table serves as a **ready reference for stellar design** in worldbuilding, a
 
 **Lexical Tags:**  
 - **[sci]** Spectral Classes, Tempera
----
----
 
 
 

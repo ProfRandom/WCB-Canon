@@ -283,6 +283,7 @@ ___
 
 ___
 ___
+
 # Xenotic planemons
 ## Xenotic
 **Xenotic** := ⟨ m ∧ ρ ∧ g ∧ r ∧ vₑ ⟩
@@ -366,6 +367,7 @@ $$
 
 ___
 ___
+
 # Superhabitable planemons
 
 **Definition**  

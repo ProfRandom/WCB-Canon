@@ -86,9 +86,6 @@ Asteroidal and planetary bodies can be classified by **morphotype** — a size/m
 - **Midimos (milliterrans):** the iconic “major dwarfs and big icy moons” (Pluto, Europa, Triton).  
 - **Planemos:** planetary-scale bodies (Luna and up).
 
----
----
-
 ### **Solar System Bodies Below 0.02 M⨁**
 
 (using WCB symbolic mass intervals)

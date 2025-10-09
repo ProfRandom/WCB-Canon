@@ -53,6 +53,7 @@ All **Stellamos** (stellar monons) share a **common trunk** — then branch into
 - **Group** → Stellamo   
 
 ---
+
 ## 🌈 Spectral Branch (Temperature / Spectrum)
 Focus: **What the star _is_, by surface temperature and spectral features**
 - **Spectral Class** → Broad categories (O, B, A, F, G, K, M)    
@@ -368,6 +369,7 @@ Thereafter, the Sun will enter its red giant phase and its luminosity will shoot
 - Expands habitable zone framework by highlighting limitations of **stellar lifetimes and radii**.  
 - Connects to **Stellar Lifetimes and System Habitability** (short giant lifespans).  
 - Introduces terminology to distinguish **theoretical HZs** from **practical human-centered habitability**.  
+
 ___
 ___
 
@@ -476,6 +478,7 @@ You _can_ calculate thermozones (and hence orbital architectures) for giant and 
 - Complements *M002 — Stars: 01WCBectral Classes* (which already introduces the linearized scale).  
 - This note serves as a **sidebar critique and justification** for adopting the WCB linearized system.  
 - No new glossary terms or symbols required; all terms already established in existing canon.  
+
 ___
 ___
 

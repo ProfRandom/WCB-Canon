@@ -60,6 +60,7 @@ When the Roche lobes **touch** (or one star even slightly _overflows_ its own lo
 | **Contact Binary**       | Both stars fill or slightly overflow their Roche lobes, sharing a common envelope. | The stars exchange mass and energy directly through $L_1$; the system behaves like a single, distorted body. | W Ursae Majoris-type systems. |
 
 ---
+
 ## Eggleton’s Approximation of Roche Lobe Radii
 
 For practical modeling, the Roche-lobe radius ($R_L$) can be approximated by the empirical fit derived by **Eggleton (1983)**.  Expressed in a general form:
@@ -83,6 +84,7 @@ Where:
 - $f(x)$ = dimensionless scaling function describing the fractional Roche-lobe radius  
 
 ---
+
 #### Interpretation
 - $R_{L,1}$ and $R_{L,2}$ give the **effective radii** of each star’s gravitational domain within the binary system.  
 - Because $f(x)$ is not symmetric, the two lobes differ in size unless $M_1 = M_2$.  
@@ -90,5 +92,6 @@ Where:
 - For unequal masses, the lower-mass star has the *larger fractional lobe* (a smaller star but a larger gravitational domain relative to its own mass).  
 
 ---
+
 #### Practical Rule of Thumb
 For typical mass ratios in close binaries ($0.2 \le \frac{M_2}{M_1} \le 5$), Eggleton’s formula is accurate to within 1% — far more than sufficient for system-design or orbit-stability work in WCB.  

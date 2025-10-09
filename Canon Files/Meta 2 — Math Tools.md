@@ -820,9 +820,6 @@ $$
 - Neither term appeared in canon previously.  
 - This file establishes both as new canonical entries.  
 - **Status:** [NEW] — introduces Euclidean Algorithm and GCD into WCB canon with worked examples.  
----
----
-
 
 
 # The Euclidean Algorithm
