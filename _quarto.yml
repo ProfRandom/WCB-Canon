@@ -32,7 +32,6 @@ book:
     - part: "Mononic Classes"
       chapters:
         - "Canon Files/Monons 1 — Framework and Equations.md"
-        - "Canon Files/Monons 2 — Properties and Parameters.md"
         - "Canon Files/Monons 3 — Small Star System Bodies - Asteroids.md"
     - part: "Binary Systems"
       chapters:
