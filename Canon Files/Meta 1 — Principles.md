@@ -2,55 +2,50 @@
 title: ""
 ---
 
+## Abstract  
+**Major Topics:**  
+- Establishes the **Mononic Matrix** — a unified framework describing all self-gravitating bodies (*monons*) across two principal axes:  
+  - the **Mononic Axis**, defining mass scale and gravitational coherence, and  
+  - the **Morphological Axis**, defining material composition and structural character.  
+  A third contextual layer, the **Categorical Envelope**, emerges from the interaction of these two.  
+- Expands the Mononic hierarchy into **three fundamental mass domains** governed by the physics of self-gravitation and fusion onset:  
+  - **Stereomons [neo]:** all monons with masses below the stellar ignition threshold (**< 0.08 ⊙**); includes all non-fusional bodies such as brown dwarfs, planemons, moons, and asteroids.  
+  - **Stellamons [sci/neo]:** all monons within the hydrogen-fusion stability range (**⟨0.08 ∧ 300⟩ ⊙**); subdivided by the **Spectral-Class System (q.v.)** governing thermodynamic and photometric behavior.  
+  - **Peramons [neo]:** all monons with masses exceeding the upper stellar-stability limit (**> 300 ⊙**); bodies in the trans-stellar regime of radiative instability, pair-creation collapse, or exotic compact states.  
+- Defines the **Mononic Continuum** as the complete grammar of self-gravitating individuality, linking sub-stellar, stellar, and trans-stellar mass domains under a single hierarchical ontology.  
+- Clarifies the relationship between **Mononic class** (scale), **Morphotype** (composition), and **Category/Envelope** (contextual expression), preserving the tri-axial interpretive structure of the WCB framework.  
+- Reaffirms the methodological boundaries of WCB through the **SANC Principle** (*Science-Adjacent, No Calculus*): worldbuilding tools employ algebra, geometry, and trigonometry to achieve analytic clarity without advanced formalism — “**rigor without rigidity**.”  
+
+**Key Terms & Symbols:**  
+- **Stereomon [neo]:** sub-stellar monon (< 0.08 ⊙).  
+- **Stellamon [sci/neo]:** stellar monon (⟨0.08 ∧ 300⟩ ⊙).  
+- **Peramon [neo]:** trans-stellar monon (> 300 ⊙).  
+- **Mononic Continuum** — total spectrum of self-gravitating bodies.  
+- **Mononic Axis / Morphological Axis / Categorical Envelope** — orthogonal components of the Matrix.  
+- **SANC Principle** — “Science-Adjacent, No Calculus.”  
+
+**Cross-Check Notes:**  
+- Merges and updates prior abstracts on **Mononic Morphotypes** and the **SANC Principle**, introducing the **Mononic Mass Domains** (Stereomon → Stellamon → Peramon).  
+- Harmonizes with **Stars 2 — Spectral Frameworks** for subdivision within the Stellamonic Domain.  
+- Supersedes earlier two-abstract structure; serves as the authoritative overview for *Meta 1 — Principles.*  
+
 
 # Mononic and Morphological Axes  
-
-## Abstract  1
-**Major Topics:**  
-- Establishes a hierarchical classification of **mononic morphotypes**: monon categories defined by gravitational rounding, fusion status, and structural physics.  
-- Categories:  
-  - **Planemon [sci]:** gravitationally rounded body, no fusion; includes dwarf planets and large moons.  
-  - **Intermon [NEW]:** transitional-mass bodies between planemons and stars; may fuse deuterium (brown dwarfs).  
-  - **Stellamon [sci/neo]:** hydrogen-fusing stars; foundational stellar monons.  
-  - **Supermon [EXPANDED]:** high-mass stellar remnants (e.g., black holes, neutron stars) beyond stellamon scale but sub-galactic.  
-  - **Ultramon [EXPANDED]:** supermassive objects (SMBHs) in galactic centers, 10⁶–10⁹ ⨁.  
-  - **Hypermon [EXPANDED]:** speculative hypermassive monons (>10⁹ ⨁), e.g. primordial collapses.  
-- Provides a summary grid of categories, prefixes, abbreviations, and mass ranges (in Earth masses).  
-
-**Key Terms & Symbols:**  
-- **Planemon [sci].**  
-- **Intermon [NEW].**  
-- **Stellamon [sci/neo].**  
-- **Supermon [EXPANDED].**  
-- **Ultramon [EXPANDED].**  
-- **Hypermon [EXPANDED].**  
-
-**Cross-Check Notes:**  
-- **Planemon, Stellamon** already appear in canon.  
-- **Supermon, Ultramon, Hypermon** existed in mass interval tables, but this file adds full narrative definitions.  
-- **Intermon** is a new introduction.  
-- **Status:** [EXPANDED + NEW] — consolidates the mononic classification scheme; introduces Intermon
-
-## Abstract 2
-**Major Topics:**  
-- Definition of the **SANC Principle** (*Science-Adjacent, No Calculus*).  
-- Scope of mathematical tools for WCB: algebra, geometry, trigonometry.  
-- Exclusion of higher-level tools: calculus, tensors, advanced astrophysics.  
-- Guiding philosophy: “Rigor without rigidity.”  
-
-**Key Terms & Symbols:**  
-- SANC = Science-Adjacent, No Calculus.  
-
-**Cross-Check Notes:**  
-- Canon as of Glossary v1.212.  
-- Reinforces the methodological boundaries of WCB — mathematical accessibility for builders without requiring advanced formal training.  
-- Companion mottos: *Simple, Approximate, Notationally Clear* and *Sufficient and Necessary Constructs*.  
 
 # The Mononic Matrix
 
 All physical bodies (*monons*) in the WCB framework are described along two orthogonal axes:  
 their **Mononic class**, which defines scale and self-coherence,  
 and their **Morphological character**, which defines material composition and structure.  
+
+> At the broadest scale, all monons fall into one of three **mass domains** governed by the physics of self-gravitation and fusion onset.  
+> - **Stereomons** — all monons with masses below the stellar ignition threshold (**< 0.08 ⊙**); this collective includes every non-fusional body from brown dwarfs and planemons to micromons and asteroids.  
+> - **Stellamons** — all monons with masses in the stable hydrogen-fusion range (**⟨0.08 ∧ 300⟩ ⊙**); these are subdivided by the **spectral-class system** (q.v.) that defines their thermodynamic and photometric behavior.  
+> - **Peramons** — all monons whose masses exceed the upper stellar-stability limit (**> 300 ⊙**); these represent the **trans-stellar regime** of radiative instability, pair-creation collapse, or exotic compact states.  
+>  
+> Together, these three domains describe the **Mononic Continuum** from sub-stellar to trans-stellar mass, uniting all self-gravitating bodies under a single hierarchical grammar.
+
+
 A third, contextual layer — the **Categorical Envelope** — arises from the interaction of the two.
 
 | **Axis**                                 | **Defines**                                                      | **Typical Examples**                                 | **Field of Study** |
