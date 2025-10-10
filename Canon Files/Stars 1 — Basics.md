@@ -92,12 +92,12 @@ For example:
 
 This allows for relatively simple mathematical treatment of the relationship between spectral type (T) and surface temperature (K).
 $$
-\begin{align}
+\begin{aligned}
 \mathcal{S} &= \dfrac{\kappa - K}{þ} \\ \\
 \kappa & = \mathcal{S} þ + K \\ \\
 K &= \kappa - \mathcal{S} þ \\ \\
 þ &= \dfrac{\kappa - K}{\mathcal{S}} \\
-\end{align}
+\end{aligned}
 $$
 
 Where:
@@ -139,12 +139,12 @@ Let's run the numbers for the Sun
 - What is the Sun's spectral type ($\mathcal{S}$)
 Running the numbers:
 $$
-\begin{align}
+\begin{aligned}
 \mathcal{S} &= \dfrac{\kappa - K}{þ} \\
 \mathcal{S} &= \dfrac{6000 - 5800}{100} \\
 \mathcal{S} &= \dfrac{200}{100} \\
 \mathcal{S} &= 2\;✓
-\end{align}
+\end{aligned}
 $$
 The Sun is spectral type *G2*.
 
@@ -156,22 +156,22 @@ The Sun is spectral type *G2*.
 - What is the Sun's Kelvin temperature (K)
 Running the numbers:
 $$
-\begin{align}
+\begin{aligned}
 K &= \kappa - \mathcal{S} þ \\
 K &= 6000 - (2)(100) \\
 K &= 6000 - 200 \\
 K &= 5800\;✓
-\end{align}
+\end{aligned}
 $$
 The surface temperature of the Sun is *5800K*.
 
 ### Converting Between Absolute Kelvin (K) And Solar Relative (T)
 Nothing could be simpler:
 $$
-\begin{align}
+\begin{aligned}
 T &= \dfrac{K}{5800} \\ \\
 K &= 5800T
-\end{align}
+\end{aligned}
 $$
 For instance: the Sun's surface temperature is K = 5800:
 $$
@@ -187,20 +187,20 @@ Let's say we have a star called Essem that we want to be spectral type *F3.65*. 
 - The thermal interval constant for spectral class F is þ = 150.
 Working through the equation:
 $$
-\begin{align}
+\begin{aligned}
 K &= \kappa - \mathcal{S} þ \\
 K &= 7500 - (3.65)(150) \\
 K &= 7500 - 547.5 \\
 K &= 6952.5\;✓
-\end{align}
+\end{aligned}
 $$
 What is Essem's relative surface temperature?
 $$
-\begin{align}
+\begin{aligned}
 T = \dfrac{K}{5800} \\ \\
 T = \dfrac{6952.5}{5800} \\ \\
 T = 1.199\;✓
-\end{align}
+\end{aligned}
 $$
 Essem's relative temperature is *T = 1.199*⊙.
 
@@ -222,12 +222,12 @@ Looking at our table we see that this value falls in spectral class G:
 
 The spectral type is:
 $$
-\begin{align}
+\begin{aligned}
 \mathcal{S} &= \dfrac{\kappa - K}{þ} \\ \\
 \mathcal{S} &= \dfrac{6000 - 5080.8}{100} \\ \\
 \mathcal{S} &= \dfrac{919.2}{100} \\ \\
 \mathcal{S} &= 9.192\;✓
-\end{align}
+\end{aligned}
 $$
 Essel's spectral type is *G9.192*.
 ### Parameter Ranges By Spectral Class
@@ -382,11 +382,11 @@ Where:
 
 Because the form $\dfrac{X_s}{X_{Sun}}$ is the standard for converting a parameter to solar units, and $T = \dfrac{K_s}{K_{Sun}}$, this equation becomes:
 $$
-\begin{align}
+\begin{aligned}
 L &= R^2T^4, \qquad \text{with derivations of} \\ \\
 R &= \dfrac{\sqrt{L}}{T^2}, \qquad
 T = \sqrt[4]{\dfrac{L}{R^2}}
-\end{align}
+\end{aligned}
 $$
 ## Parameter Calculation Precedence
 The above being the case, there is a "best" order for calculating stellar parameters when starting from any given parameter (though it is always best start with *K* or *T* whenever possible).
@@ -394,58 +394,58 @@ The above being the case, there is a "best" order for calculating stellar parame
 #### Starting with Temperature (*T*) or (*K*)
 **Primary dependency chain**: T/K → R → L → M → Q
 $$
-\begin{gather}
+\begin{aligned}
 T = \dfrac{K}{5800} \quad or \quad K = 5800T \\
 R = T^{1.8} \\
 L = R^2T^4 \\
 M = T^{1.98} \quad or \quad M = \sqrt[0.9]{R} \\
 \mathcal{Q} = T^{-5} \quad or \quad \mathcal{Q} = M^{-2.5}
-\end{gather}
+\end{aligned}
 $$
 #### Starting with Mass (*M*)
 **Primary dependency chain**: M → T/K → R → L → Q
 $$
-\begin{gather}
+\begin{aligned}
 T = \sqrt[1.98]{M} \\
 K = 5800T \\
 R = T^{1.8} \quad or \quad R = M^{0.9} \\
 L = R^2T^4 \\
 Q = T^{-5} \quad or \quad Q = M^{-2.5}
-\end{gather}
+\end{aligned}
 $$
 #### Starting with Radius (*R*)
 **Primary dependency chain**: R → T → K → L → M → 𝒬
 $$
-\begin{gather}
+\begin{aligned}
 T = \sqrt[1.8]{R} \\
 K = 5800T \\
 L = R^2T^4 \\
 M = T^{1.98} \\
 \mathcal{Q} = T^{-5} \quad or \quad \mathcal{Q} = M^{-2.5}
-\end{gather}
+\end{aligned}
 $$
 #### Starting With Luminosity (*L*)
 **Primary dependency chain**: L → T → K → R → M → Q
 $$
-\begin{gather}
+\begin{aligned}
 T = \sqrt[7.6]{L} \\
 K = 5800T \\
 R = T^{1.8} \\
 M = T^{1.98} \\
 Q = T^{-5} \quad or \quad Q = M^{-2.5}
-\end{gather}
+\end{aligned}
 $$
 #### Starting with Lifetime (*𝒬*)
 \**As soon as you assume you'd never want to do this, you'll find a case for doing it.*\*
 **Primary dependency chain**: 𝒬 → T → K → R → L → M
 $$
-\begin{gather}
+\begin{aligned}
 T=\mathcal{Q}^{-0.2} \\
 K = 5800T \\
 R=\mathcal{Q}^{-0.36} \\
 L = R^2T^4 \\
 M = \sqrt[3]{L}
-\end{gather}
+\end{aligned}
 $$      
 
  
@@ -520,11 +520,11 @@ $$
 $$
 … or, in other words: between 95% of the nucleal orbit distance to 1.385 times (138.5%) the nucleal orbit distance.  In the case of our hypothetical $L = 0.5⊙$ star and its $\mathcal{N}$ nucleal orbit, the range of its habitable zone calculates to:
 $$
-\begin{gather}
+\begin{aligned}
 \mathcal{N} = 0.7071\; AU \\
 \text{Inner Edge} = 0.950 \mathcal{N} = (0.950)(0.7071) = 0.6717\; AU \\
 \text{Outer Edge} = 1.385 \mathcal{N} = (1.385)(0.7071) = 0.9793\; AU
-\end{gather}
+\end{aligned}
 $$
 > **Keppy**: So ... the *outer edge* of this star's habitable zone is *closer to its star* than *Earth orbits from the Sun*.....
 
@@ -740,11 +740,11 @@ There is one remaining essential star system orbit, which I have called the **pe
 ##### IMPORTANT
 > "One Earth Year" in this case is the duration of Earth's complete orbit around the Sun relative to the larger reference frame of the "fixed" stars; thus this is called the **sidereal year**, from the Latin *sidus*, "star".  This is measured and denoted in terms of **ephemeris days** — which are *defined* to be exactly 86400 _seconds_ in duration. Thus, the sidereal year (and, consequently, the perannual year) has a duration of:
 $$\
-\begin{gather}
+\begin{aligned}
 365.256363004 \quad \text{Ephemeris Days} \\
 or \\
 365^d\;6^h\;9^m\; 9.763545^s
-\end{gather}
+\end{aligned}
 $$
 > This is _not_ a "year" as experienced by inhabitants on the surface of a planemon on this orbit (that is called the **tropical year**, which is in part dependent upon the _rotational period_ of the planemon, itself); this is the **sidereal year**.
 > 
@@ -758,11 +758,11 @@ The perannual orbit is determined not by the luminosity of the star(s) in the sy
 
 The perannual orbit is an *orbital distance*, but it is predicated on the **period** of that orbit — how long it takes the planemon to complete one entire orbit (measured in Earth years).  **ANY** planemon orbital period is calculated (in relative terms) by:
 $$
-\begin{align}
+\begin{aligned}
 	P &= \sqrt{\dfrac{a^3}{M+m}} \\
 	a &= \sqrt[3]{P^2 (M+m)} \\
 	M + m &= \dfrac{a^3}{P^2} \qquad \text{Believe it or not, this has its uses}
-\end{align}
+\end{aligned}
 $$
 Where:
 - *P* = the planemon's orbital period in Earth sidereal years
@@ -778,19 +778,19 @@ In many cases (such as that of Earth), *m* is such a small number that it can be
 
 Calculating with **only** the Sun's mass:
 $$
-\begin{align}
+\begin{aligned}
 	P &= \sqrt{\dfrac{a^3}{M}} = \sqrt{\dfrac{1^3}{1}} = \sqrt{\dfrac{1}{1}} = \sqrt{1} = 1\;\text{years}		
-\end{align}
+\end{aligned}
 $$
 Calculating with **both** masses:
 $$
-\begin{align}
+\begin{aligned}
 	P &= \sqrt{\dfrac{a^3}{M + m}} \\
 	 &= \sqrt{\dfrac{1^3}{1 + 0.000003003}} \\
 	 &= \sqrt{\dfrac{1}{1.000003003}} \\
 	 &= \sqrt{0.999997} \\
 	 P &= 0.9999985\;\text{years}		
-\end{align}
+\end{aligned}
 $$
 … a difference of about 47.384 _seconds_.
 
@@ -812,10 +812,10 @@ $$
 
 For clarity, we denote the _distance_ of the perannual orbit with a $\mathcal{P}$ (for _perannual_), so our equation becomes:
 $$
-\begin{align}
+\begin{aligned}
 \mathcal{P} &= \sqrt[3]{M+m} &&\text{When taking into account both masses} \\
 \mathcal{P} &= \sqrt[3]{M} &&\text{When using only the central mass} \\
-\end{align}
+\end{aligned}
 $$
 
 ## Abstract  
@@ -878,10 +878,10 @@ $$
 $$
 And, by extension either can be *approximated* from the other by:
 $$
-\begin{align}
+\begin{aligned}
 \mathcal{P} &\approx \sqrt[6]{mathcal{N}^2} \approx \sqrt[3]{\mathcal{N}} \\
 \mathcal{N} &\approx \mathcal{P}^3
-\end{align}
+\end{aligned}
 $$
 **REMEMBER**
 - Both $\mathcal{N}$ and $\mathcal{P}$ are measured in astronomical units, not time!
@@ -1044,7 +1044,7 @@ $$
 $$
 … and solve for L:
 $$
-\begin{align}
+\begin{aligned}
 \sqrt[11.4]{L} &= 0.500\sqrt{L} \\
 0.500 &= \dfrac{\sqrt[11.4]{L}}{\sqrt{L}} \\
 &= L^{\frac{1}{11.4} -{\frac{1}{2}}} \\
@@ -1052,7 +1052,7 @@ $$
 0.500 &= L^{-0.4123} \\
 L &= \sqrt[-0.4123]{0.500} \\
 &= 5.372\; ✓
-\end{align}
+\end{aligned}
 $$
 Converting luminosity to temperature:
 $$
@@ -1069,9 +1069,9 @@ $$
 
 … and we can calculate the spectral class and type:
 $$
-\begin{align}
+\begin{aligned}
 \mathcal{S} &= \dfrac{\kappa - K}{þ}
-\end{align}
+\end{aligned}
 $$
 Where:
 - K = the star's surface temperature in Kelvin
@@ -1109,7 +1109,7 @@ $$
 $$
 … and solve for L:
 $$
-\begin{align}
+\begin{aligned}
 \sqrt[11.4]{L} &= 4.850\sqrt{L} \\
 4.850 &= \dfrac{\sqrt[11.4]{L}}{\sqrt{L}} \\
 &= L^{\frac{1}{11.4} -{\frac{1}{2}}} \\
@@ -1117,7 +1117,7 @@ $$
 4.850 &= L^{-0.4123} \\
 L &= \sqrt[-0.4123]{4.850} \\
 &= 0.022\; ✓
-\end{align}
+\end{aligned}
 $$
 Converting luminosity to temperature:
 $$
@@ -1146,14 +1146,14 @@ The exact math yields **F1.76 – K9.97**. For presentation, we **round inward**
 This logic can be extended for any Hₓ value:
 By generalizing the scaling factor **λ**, we can calculate the relative stellar luminosity for **any** perannual orbit distance:
 $$
-\begin{align}
+\begin{aligned}
 \sqrt[11.4]{L} &= \lambda\sqrt{L} \\
 \lambda &= \dfrac{\sqrt[11.4]{L}}{\sqrt{L}} \\
 &= L^{\frac{1}{11.4} - {\frac{1}{2}}} \\
 &= L^{\frac{2}{22.8}-\frac{11.4}{22.8}} = L^{-\frac{9.4}{22.8}} \\
 \lambda &= L^{-0.4123} \\
 \therefore L &= \sqrt[-0.4123]{\lambda} \; ✓
-\end{align}
+\end{aligned}
 $$
 # A Final Determination
 Substituting all of the $H_x$ values in for λ:
@@ -1170,17 +1170,17 @@ Substituting all of the $H_x$ values in for λ:
 > **Keppy**: Seems like a lot of calculating and converting...
 
 Well, without going into the gory details, you can calculate the relative or Kelvin temperature directly by:
-$$\begin{gather}
+$$\begin{aligned}
 K =5800(\lambda^{-0.3191}) \\[1em]
 T = \lambda^{-0.3191}
-\end{gather}
+\end{aligned}
 $$
 … which will allow you to calculate the spectral type for any perannual orbit at any orbital distance, and the reverse calculations are:
 $$
-\begin{gather}
+\begin{aligned}
 \lambda = \sqrt[-0.3191]{\dfrac{K}{5800}} \\[1em]
 \lambda = \sqrt[-0.3191]{T}
-\end{gather}
+\end{aligned}
 $$      
 … which will give you the orbital distance of the perannual orbit for a star of any given Kelvin temperature (*K*) or relative temperature (*T*), since $T=\frac{K}{5800}$.
 #### Thermal Axis for Perannual Orbits
@@ -1196,22 +1196,19 @@ The OHI provides a scalar measure (0.00–1.00) of the _relative biological viab
 $$
 H_I =
 \begin{cases}
-  \quad 2\dfrac{D}{\mathcal{N}} - 1 & \text{if } {D} \leq {\mathcal{N}} \quad \text{(intranucleal)} \\[1em]
-  -0.26\dfrac{D}{\mathcal{N}} + 1.26 & \text{if } {D} \gt {\mathcal{N}} \quad \text{(extranucleal)}
+  \quad 2\dfrac{D}{\mathcal{N}} - 1 & \text{if } {D} ≤ {\mathcal{N}} \quad \text{(intranucleal)} \\[1em]
+  -0.26\dfrac{D}{\mathcal{N}} + 1.26 & \text{if } {D} > {\mathcal{N}} \quad \text{(extranucleal)}
 \end{cases}
-$$
-
-$$
 \text{Where } R = \dfrac{D}{\mathcal{N}}: \quad H_I =
 \begin{cases}
-  \quad 2R - 1 & \text{if } R \leq 1 \quad \text{(intranucleal)} \\
-  -0.26R + 1.26 & \text{if } R \gt 1 \quad \text{(extranucleal)}
+  \quad 2R - 1 & \text{if } R ≤ 1 \quad \text{(intranucleal)} \\
+  -0.26R + 1.26 & \text{if } R > 1 \quad \text{(extranucleal)}
 \end{cases}
 $$
 
 Where:
 - $H_I$ = the numeric value of the orbit's habitability index
-- *D* = the orbit's distance in AU
+- *$D$* = the orbit's distance in AU
 - $\mathcal{N}$ = the nucleal orbit's distance in AU
 
 Values of *D* < 0.500$\mathcal{N}$ and > 4.850$\mathcal{N}$ return *negative numbers* for $H_I$, indicating that the orbit is not hospitable, habitable, or parahabitable for Earth-type lifeforms.
@@ -1335,13 +1332,13 @@ Most of the time, you'll have pre-established a particular orbit  — usually ei
 $$
 r_i = B;\; \Omega = \text{«▢»}: \qquad
 r_{i-1} = \frac{r_i}{⟨⟨ \text{min} ∧ \text{max} ⟩⟩}
-\quad \text{while } r_{i-1} \geq \Omega
+\quad \text{while } r_{i-1} ≥ \Omega
 $$
 **Extrabasal Orbit Calculation Process**
 $$
 r_i = B;\; \Omega = \text{«▢»}: \qquad
 r_{i+1} = r_i \cdot ⟨⟨ \text{min} ∧ \text{max} ⟩⟩
-\quad \text{while } r_{i+1} \leq \Omega
+\quad \text{while } r_{i+1} ≤ \Omega
 $$
 Where:
 - *B* = basal orbital radius (e.g. the nucleal orbit $\mathcal{N}$)
@@ -1355,7 +1352,7 @@ The **intrabasal** and **extrabasal** forms can be used independently depending 
   If you begin at the **basal orbit** (innermost, nucleal, perannual, etc.), use the **intrabasal** form to expand inward via divisive steps:
 $$
   r_0 = B;\; \Omega = «▢»:
-  \quad r_{i-1} = \dfrac{r_i} {⟨⟨1.200 ∧ 3.500⟩⟩}, \text{ while } r_{i-1} \geq \Omega
+  \quad r_{i-1} = \dfrac{r_i} {⟨⟨1.200 ∧ 3.500⟩⟩}, \text{ while } r_{i-1} ≥ \Omega
 $$
 Where:
 - *Ω* = the minimum safe orbital distance  —  usually taken to be $a = 0.100\;AU$.
@@ -1364,7 +1361,7 @@ Where:
   If you begin at an **innermost orbit** (e.g. a thermal, Roche, or design constraint), use the **intrabasal** form to expand outward via multiplicative steps:
 $$
   r_0 = B;\; \Omega = «▢»:
-  \quad r_{i+1} = r_i \cdot ⟨⟨1.200 ∧ 3.500⟩⟩, \text{ while } r_{i+1} \leq \Omega
+  \quad r_{i+1} = r_i \cdot ⟨⟨1.200 ∧ 3.500⟩⟩, \text{ while } r_{i+1} ≤ \Omega
 $$
 Where:
 - *Ω* = the farthest orbit desired for a planemon in the system — based on whatever criterion desired, but physically limited to the Hill Sphere radius of the central mass.
@@ -1381,16 +1378,14 @@ Let us say we've identified our nucleal orbit ($\mathcal{N}$) as $\mathcal{N} = 
 ### Working Inward
 $$
   r_0 = 0.834;\; \Omega = 0.100:
-  \quad r_{i-1} = \dfrac{r_i} {⟨⟨1.200 ∧ 3.500⟩⟩}, \text{ while } r_{i-1} \geq 0.100
-$$
-$$
-\begin{align}
+  \quad r_{i-1} = \dfrac{r_i} {⟨⟨1.200 ∧ 3.500⟩⟩}, \text{ while } r_{i-1} ≥ 0.100
+\begin{aligned}
 r_{i-1} &= \dfrac{0.834} {1.723} = 0.482\;AU \qquad 1.732 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
 r_{i-1} &= \dfrac{0.482} {1.616} = 0.298\;AU \qquad 1.616 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
 r_{i-1} &= \dfrac{0.298} {1.573} = 0.190\;AU \qquad 1.573 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
 r_{i-1} &= \dfrac{0.190} {1.884} = 0.101\;AU \qquad 1.884 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
 r_{i-1} &= \dfrac{0.101} {1.963} = 0.051\;AU \qquad 1.963 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU}\;✘ \\[1em]
-\end{align}
+\end{aligned}
 $$
 We stop at the fourth randomized orbit, because the next orbit randomly generated fails the $r ≥ 0.100\;AU$ test.
 We now have a system of five orbits:
@@ -1406,10 +1401,8 @@ We now have a system of five orbits:
 We could stop here and have a fully legitimate star system, but let's say we want extranucleal orbits, as well.  Again, beginning with the nucleal orbit $B = 0.834\;AU$, and setting an outermost orbit of $\Omega = 35.0\;AU$:
 $$
   r_0 = 0.834;\; \Omega = 35.0:
-  \quad r_{i+1} = r_i \cdot ⟨⟨1.200 ∧ 3.500⟩⟩, \text{ while } r_{i+1} \leq 35.0
-$$
-$$
-\begin{align}
+  \quad r_{i+1} = r_i \cdot ⟨⟨1.200 ∧ 3.500⟩⟩, \text{ while } r_{i+1} ≤ 35.0
+\begin{aligned}
 r_{i+1} &= 0.834(1.829) = 1.525\;AU \qquad 1.829 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
 r_{i+1} &= 1.525(1.969) = 3.003\;AU \qquad 1.969 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
 r_{i+1} &= 3.003(1.578) = 4.739\;AU \qquad 1.578 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
@@ -1418,7 +1411,7 @@ r_{i+1} &= 7.332(1.552) = 11.379\;AU \qquad 1.552 := \text{Randomized interval b
 r_{i+1} &= 11.379(1.608) = 18.298\;AU \qquad 1.608 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
 r_{i+1} &= 18.298(1.823) = 33.357\;AU \qquad 1.823 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
 r_{i+1} &= 33.357(1.778) = 59.309\;AU \qquad 1.778 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \; ✘ \\[1em]
-\end{align}
+\end{aligned}
 $$
 We stop at the seventh iteration, as the next value exceeds $\Omega = 35.0\;AU$.
 
@@ -1478,14 +1471,14 @@ With this method, a worldmaker can quickly generate a full planemon system that 
 # Calculating the Thermozones
 Since we know our nucleal orbit is $\mathcal{N} = 0.834\;AU$, we can calculate the thermozone limits:
 $$
-\begin{align}
+\begin{aligned}
 H_0 = 0.500\mathcal{N} &= 0.500(0.834) = 0.417\;AU \\
 H_1 = 0.750\mathcal{N} &= 0.750(0.834) = 0.626\;AU \\
 H_2 = 0.950\mathcal{N} &= 0.950(0.834) = 0.792\;AU \\
 H_3 = 1.385\mathcal{N} &= 1.385(0.834) = 1.115\;AU \\
 H_4 = 1.770\mathcal{N} &= 1.770(0.834) = 1.476\;AU \\
 H_5 = 4.850\mathcal{N} &= 4.850(0.834) = 4.045\;AU \quad \text{Frost Line} \\
-\end{align}
+\end{aligned}
 $$
 And we can add these to our orbits table from above and determine the thermozones and ontozones of the orbits:
 
@@ -1512,22 +1505,22 @@ And we can add these to our orbits table from above and determine the thermozone
 And, we can calculate the perannual orbital distance and the star's spectral type by:
 **Perannual Orbit**
 $$
-\begin{align}
+\begin{aligned}
 L &= \mathcal{N}^2 = 0.834^2 = 0.696 \\
 M &= \sqrt[3.8]{L} = \sqrt[3.8]{0.696} = 0.909 \\
 A &= \sqrt[3]{0.909} = 0.969\;AU\;✓
-\end{align}
+\end{aligned}
 $$
 The perannual orbit in this system is at $A = 0.969\;AU$.
 
 **Spectral Type**
 $$
-\begin{align}
+\begin{aligned}
 L &= 0.696 \\
 T &= \sqrt[7.6]{L} = \sqrt[7.6]{0.696} = 0.953\odot \\
 K &= 5800T = 5800(0.953) = 5529.92 \quad \text{Spectral Class G: κ = 6000; þ = 100} \\[2em]
 \mathcal{S} &= \dfrac{\kappa - K}{100} = \dfrac{6000 - 5529.92}{100} = \dfrac{470.08}{100} = 4.701\\
-\end{align}
+\end{aligned}
 $$
 The spectral type of our star is $G4.701$.
 
@@ -1605,9 +1598,9 @@ F = \dfrac{1}{1.162^2}= \dfrac{1}{1.350} = 0.741
 $$
 … about 74.1% of the stellar flux as the nucleal orbit does... but that's still:
 $$
-\begin{gather}
+\begin{aligned}
 H_I = -0.26\dfrac{D}{\mathcal{N}} + 1.26 = -0.26\dfrac{0.969}{0.834} + 1.26 = -0.26(1.162) + 1.26 = -0.302 + 1.26 = 0.958
-\end{gather}
+\end{aligned}
 $$
 … an orbital habitability index of 95.8% that of the nucleal orbit.  Slightly cooler, but not drastically so.
 

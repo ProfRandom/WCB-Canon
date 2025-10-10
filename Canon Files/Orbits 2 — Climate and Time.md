@@ -68,7 +68,7 @@ To get the actual correction in diurns, it is multiplied by the full length of t
 ### Step 3 — Seasonal Adjustment
 True anomaly of each season midpoint is tied to the obliquity azimuth $\phi$:
 $$
-\begin{align}
+\begin{aligned}
 &\nu = (\phi + 90n) \bmod 360 \\[1em]
 &\begin{cases}
 n = 0 &\text{spring equinox} \\
@@ -76,7 +76,7 @@ n = 1 &\text{summer solstice} \\
 n = 2 &\text{autumn equinox} \\
 n = 3 &\text{winter solstice}
 \end{cases}
-\end{align}
+\end{aligned}
 $$
 #### Worked Example: Earth (Sinusoidal Approximation, Sidereal Chronum)
 Given:  
@@ -96,20 +96,19 @@ $$
 True anomalies from $\phi = 0$:
 $$
 \nu = (\phi + 90n) \bmod 360
+\left\{
+\begin{array}{rlll}
+n = 0 & \nu = 270^\circ & & \text{spring equinox}\\
+n = 1 & \nu = 0^\circ   & & \text{summer solstice}\\
+n = 2 & \nu = 90^\circ  & & \text{autumn equinox}\\
+n = 3 & \nu = 180^\circ & & \text{winter solstice}
+\end{array}
+\right.
 $$
-$$
-\begin{cases}
-n = 0 & \nu = 270^\circ & \text{spring equinox} \\
-n = 1 & \nu = 0^\circ & \text{summer solstice} \\
-n = 2 & \nu = 90^\circ   & \text{autumn equinox} \\
-n = 3 & \nu = 180^\circ  & \text{winter solstice}
-\end{cases}
-$$
+
 **Step 4 — Apply the Formula**
 $$
 \Delta t \;\approx\; \frac{C}{4} + \left(\frac{2e}{\pi} C \times \sin\nu\right)
-$$
-$$
 \begin{cases}
 n=0;\;\nu=270^\circ;\;\sin\nu=1 & \Delta t_\text{spring} \approx 91.31 + 3.88 = 95.20 \\
 n=1;\;\nu=0^\circ;\;\sin\nu=0 & \Delta t_\text{summer} \approx 91.31 \\
@@ -143,7 +142,7 @@ When using the sinusoidal method, you have two options:
 1. **Accept the values as returned.**  
    - This keeps the math simple and transparent.  
    - The approximation will always add up to the correct year length ($C$).  
-   - Errors are usually small if $e \leq 0.1$ (a few diurns at most for Earth-like orbits).  
+   - Errors are usually small if $e ≤ 0.1$ (a few diurns at most for Earth-like orbits).  
 
 2. **Apply the generalized fudge factor.**  
    - To break the “paired seasons” pattern and create four distinct values, redistribute part of the correction term.  
@@ -183,21 +182,19 @@ $$
 True anomalies from $\phi = 180^\circ$:
 $$
 \nu = (\phi + 90n) \bmod 360
+\left\{
+\begin{array}{rlll}
+n = 0 & \nu = 0^\circ   & & \text{spring equinox} \\
+n = 1 & \nu = 90^\circ  & & \text{summer solstice} \\
+n = 2 & \nu = 180^\circ & & \text{autumn equinox} \\
+n = 3 & \nu = 270^\circ & & \text{winter solstice}
+\end{array}
+\right.
 $$
-$$
-\begin{cases}
-n = 0 & \nu = 0^\circ & \text{spring equinox} \\
-n = 1 & \nu = 90^\circ & \text{summer solstice} \\
-n = 2 & \nu = 180^\circ   & \text{autumn equinox} \\
-n = 3 & \nu = 270^\circ  & \text{winter solstice}
-\end{cases}
-$$
+
 **Step 4 — Apply the Formula**
 $$
 \Delta t \;\approx\; \frac{C}{4} + \left(\frac{2e}{\pi} C \times \sin\nu\right)
-$$
-
-$$
 \begin{cases}
 n=0;\;\nu=0^\circ;\;\sin\nu=-1 & \Delta t_\text{spring} \approx 123.0 - 15.66 = 107.3 \\
 n=1;\;\nu=90^\circ;\;\sin\nu=0 & \Delta t_\text{summer} \approx 123.0 \\
@@ -235,7 +232,7 @@ This more precise method uses full orbital geometry to derive season lengths.
 ### Step 1 — Choose True Anomalies
 Pick the true anomalies ($\nu$) for the four seasonal markers, offset by obliquity azimuth $\phi$:
 $$
-\begin{align}
+\begin{aligned}
 &\nu = (\phi + 90n) \bmod 360 \\[1em]
 &\begin{cases}
 n = 0; \;\text{spring equinox} \\
@@ -243,7 +240,7 @@ n = 1; \;\text{summer solstice} \\
 n = 2; \;\text{autumn equinox} \\
 n = 3; \;\text{winter solstice} \\
 \end{cases}
-\end{align}
+\end{aligned}
 $$
 ### Step 2 — Convert to Eccentric Anomaly
 For each $\nu$, compute the eccentric anomaly $E$:
@@ -259,12 +256,12 @@ $$
 
 Once you have the mean anomalies for each seasonal marker:
 $$
-\begin{align}
+\begin{aligned}
 &M_\text{spring} \\
 &M_\text{summer} \\
 &M_\text{autumn} \\
 &M_\text{winter} 
-\end{align}
+\end{aligned}
 $$
 subtract them in sequence to get the fractional year lengths:
 $$
@@ -287,12 +284,12 @@ Where:
 Multiply each fraction by the chronum ($C$) to convert fractions into diurns:
 
 $$
-\begin{gather}
-\Delta t_\text{spring} = f_\text{spring}\,C, \\
-\Delta t_\text{summer} = f_\text{summer}\,C, \\
-\Delta t_\text{autumn} = f_\text{autumn}\,C, \\
-\Delta t_\text{winter} = f_\text{winter}\,C
-\end{gather}
+\begin{aligned}
+&\Delta t_\text{spring} = f_\text{spring}\,C, \\
+&\Delta t_\text{summer} = f_\text{summer}\,C, \\
+&\Delta t_\text{autumn} = f_\text{autumn}\,C, \\
+&\Delta t_\text{winter} = f_\text{winter}\,C
+\end{aligned}
 $$
 
 
@@ -305,16 +302,20 @@ Given:
 **Step 1 — True Anomalies**
 Seasonal markers from $\phi = 0^\circ$:  
 $$
-\nu = (\phi + 90n) \bmod 360
+\begin{aligned}
+\nu &= (\phi + 90n) \bmod 360 \;
+\left\{
+\begin{array}{rlcll}
+n = 0 & \nu = 0^\circ   & & \text{spring equinox} \\
+n = 1 & \nu = 90^\circ  & & \text{summer solstice} \\
+n = 2 & \nu = 180^\circ & & \text{autumn equinox} \\
+n = 3 & \nu = 270^\circ & & \text{winter solstice}
+\end{array}
+\right.
+\end{aligned}
 $$
-$$
-\begin{cases}
-n = 0 & \nu = 270^\circ & \text{spring equinox} \\
-n = 1 & \nu = 0^\circ & \text{summer solstice} \\
-n = 2 & \nu = 90^\circ & \text{autumn equinox} \\
-n = 3 & \nu = 180^\circ & \text{winter solstice}
-\end{cases}
-$$
+
+
 **Step 2 — Convert to Eccentric Anomaly**
 $$
 E = 2 \arctan \!\left( \sqrt{\tfrac{1-e}{1+e}} \;\tan \tfrac{\nu}{2} \right)
@@ -337,26 +338,27 @@ F_\text{winter} &= \frac{M_\text{spring} - M_\text{winter}}{2\pi}
 $$
 Numerical results:  
 $$
-\begin{align}
+\begin{aligned}
 &F_\text{spring} \approx 0.2553, \\[.5em]
 &F_\text{summer} \approx 0.2553, \\[.5em]
 &F_\text{autumn} \approx 0.2447 \\[0.5em]
 &F_\text{winter} \approx 0.2447, \\[.5em]
-\end{align}
+\end{aligned}
 $$
 **Step 5 — Scale to chronum length**
 Multiply each fraction by $C$ to get season lengths in diurns:  
 $$
-\begin{gather}
-\Delta t = F \times C \\[1em]
-\begin{cases}
-\Delta t_\text{spring} &\approx 0.2553 \times 365.2564 = 93.3 \\
-\Delta t_\text{summer} &\approx 0.2553 \times 365.2564 = 93.3 \\
-\Delta t_\text{autumn} &≈ 0.2447 \times 365.2564 = 89.4 \\
-\Delta t_\text{winter} &≈ 0.2447 \times 365.2564 = 89.4
-\end{cases}
-\end{gather}
+\Delta t = F \times C \quad
+\left\{
+\begin{array}{lll}
+\Delta t_\text{spring} & \approx & 0.2553 \times 365.2564 = 93.3 \\
+\Delta t_\text{summer} & \approx & 0.2553 \times 365.2564 = 93.3 \\
+\Delta t_\text{autumn} & \approx & 0.2447 \times 365.2564 = 89.4 \\
+\Delta t_\text{winter} & \approx & 0.2447 \times 365.2564 = 89.4
+\end{array}
+\right.
 $$
+
 **Result:**  
 - Spring ≈ 93.3 d  
 - Summer ≈ 93.3 d  
@@ -391,16 +393,19 @@ Given:
 **Step 1 — True Anomalies**
 Seasonal markers from $\phi = 180^\circ$:  
 $$
-\begin{gather}
-&\nu = (\phi + 90n) \bmod 360 \\[1em]
-&\begin{cases}
-n &= 0 & \nu = 0^\circ & \text{spring equinox} \\
-n &= 1 & \nu = 90^\circ & \text{summer solstice} \\
-n &= 2 & \nu = 180^\circ & \text{autumn equinox} \\
-n &= 3 & \nu = 270^\circ & \text{winter solstice}
-\end{cases}
-\end{gather}
+\begin{aligned}
+\nu &= (\phi + 90n) \bmod 360 \\[1em]
+&\left\{
+\begin{array}{rlll}
+n = 0 & \nu = 0^\circ   & & \text{spring equinox} \\
+n = 1 & \nu = 90^\circ  & & \text{summer solstice} \\
+n = 2 & \nu = 180^\circ & & \text{autumn equinox} \\
+n = 3 & \nu = 270^\circ & & \text{winter solstice}
+\end{array}
+\right.
+\end{aligned}
 $$
+
 **Step 2 — Convert to Eccentric Anomaly**
 $$
 E = 2 \arctan \!\left( \sqrt{\tfrac{1-e}{1+e}} \;\tan \tfrac{\nu}{2} \right)
@@ -422,12 +427,12 @@ F_\text{winter} &= \frac{M_\text{spring} - M_\text{winter}}{2\pi}
 $$
 Numerical results:  
 $$
-\begin{align}
+\begin{aligned}
 &F_\text{spring} \approx 0.2180, \\
 &F_\text{summer} \approx 0.2537, \\
 &F_\text{autumn} \approx 0.2820, \\
 &F_\text{winter} \approx 0.2463
-\end{align}
+\end{aligned}
 $$
 **Step 5 — Scale to Year Length**
 Multiply each fraction by $C$:  
@@ -527,7 +532,7 @@ $$
     - The star's path intersects the horizon. **Proceed to Step 5**.
 - **Otherwise Stop:**
     - If $h_\text{min} > 0^\circ$: The star never dips below the horizon (continuous daylight).
-    - If $h_\text{max} \leq 0^\circ$: The star never rises above the horizon (continuous night).
+    - If $h_\text{max} ≤ 0^\circ$: The star never rises above the horizon (continuous night).
 
 
 #### **Step 5: Calculate Center Offset ($altitudem$)**
@@ -540,10 +545,10 @@ $$
 #### **Step 6: Calculate the Azimuthal Angle and Azimems**
 For the star’s path intersections with the horizon ($y = 0^\circ$):
 $$
-\begin{gather}
+\begin{aligned}
 Z = \text{ Azimuthem } \cdot \sqrt{1 - \left(\frac{\text{Altitudem}}{\text{Obliquem}}\right)^2} \\
 Z_e = +Z \quad\text{;}\quad Z_w = -Z
-\end{gather}
+\end{aligned}
 $$
 ...where:
 - $Azimuthem$ = the great-circle line that connects due east to due west through the observer’s position (passing through the zenith and nadir). Its angular measure is always $180^\circ$.
@@ -557,7 +562,7 @@ $$
 ### **Key Considerations**
 - **No Intersections (Skip Step 5 and 6)**:
     - If $h_\text{min} > 0^\circ$: The star’s path lies entirely above the horizon.
-    - If $h_\text{max} \leq 0^\circ$: The star’s path lies entirely below the horizon.
+    - If $h_\text{max} ≤ 0^\circ$: The star’s path lies entirely below the horizon.
 
 
 

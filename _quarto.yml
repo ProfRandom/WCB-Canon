@@ -1,13 +1,7 @@
 project:
   type: book
   output-dir: _book
-  exclude:
-    - "Canon Files_backup/**"
-    - "Canon Files_math_backup/**"
-    - "Canon Files_preReplace/**"
-    - "_book/**"
-    - "_freeze/**"
-
+  
 book:
   title: "WorldCrafting Canon (Development Build)"
   author: "Gizmo Conrad"
@@ -48,6 +42,9 @@ book:
         - "Canon Files/Binaries 4 — The Hill Sphere.md"
         - "Canon Files/Binaries 5 — The Roche Limit.md"
     - "Canon Files/WCB Phonetic Pronunciation Guide.md"
+
+execute:
+  warning: false   # Suppresses math-conversion & render warnings
 
 format:
   html:

@@ -68,23 +68,23 @@ A binary system is described by a total of nine dimensions:
 These are related through a series of equations, which may seem daunting at first, but are quite straightforward once they are understood.
 ### Primary Dimensions
 $$
-\begin{align}
+\begin{aligned}
 P_{avg} &= \mathcal{A} \times\dfrac{M_S}{M_P+M_S} \qquad &&\text{Primary average distance}\\[1em]
 P_{min} &= P_{avg}(1 - e) \qquad &&\text{Primary minimum distance} \\[1em]
 P_{max} &= P_{avg}(1 + e) \qquad &&\text{Primary maximum distance} 
-\end{align}
+\end{aligned}
 $$
 ### Secondary Dimensions
 $$
-\begin{align}
+\begin{aligned}
 S_{avg} &= \mathcal{A} \times\dfrac{M_P}{M_P+M_S} \qquad &&\text{Secondary average distance}\\[1em]
 S_{min} &= S_{avg}(1 - e) \qquad &&\text{Secondary minimum distance} \\[1em]
 S_{max} &= S_{avg}(1 + e) \qquad &&\text{Secondary maximum distance}
-\end{align}
+\end{aligned}
 $$
 ### Total (Overall) Dimensions
 $$
-\begin{gather}
+\begin{aligned}
 T_{min} = \mathcal{A}(1 - e)
 = P_{min} + S_{min} = T_{max}\left(\dfrac{1 - e}{1 + e}\right) \\
 T_{max} = \mathcal{A}(1 + e)
@@ -92,13 +92,13 @@ T_{max} = \mathcal{A}(1 + e)
 \mathcal{A} = \dfrac{T_{min}}{1 - e}
 = \dfrac{T_{max}}{1 + e}
 = P_{avg} + S_{avg}\\[0.5em]
-\end{gather}
+\end{aligned}
 $$
 ### Eccentricity Relationships
 > In the equations below a subscript dot $_{\bullet}$ means *any two matching parameters*; e.g.  $Max_{\bullet} - Min_{\bullet}$ means any maximum value minus any minimum value of the same parameter, such as $P_{max} - P_{min}$.
 #### System Eccentricity
 $$
-\begin{align}
+\begin{aligned}
 e &= \dfrac{Max_\bullet - Min_{\bullet}}{Max_\bullet + Min_{\bullet}}
 \;\;=\;\; \left[1 - \dfrac{Min_{\bullet}}{Avg_{\bullet}}\right]
 \;\;=\;\; \left[\dfrac{Max_{\bullet}}{Avg_{\bullet}} - 1\right] \\[1em]
@@ -106,53 +106,53 @@ e &= \dfrac{Max_\bullet - Min_{\bullet}}{Max_\bullet + Min_{\bullet}}
 \quad = \quad 1 - \left(P_{min} \times \dfrac{M_P + M_S}{\mathcal{A} \times M_S}\right) \\[1em]
 &= \left(S_{max} \times \dfrac{M_P + M_S}{\mathcal{A} \times M_P}\right) - 1
 \quad = \quad 1 - \left(S_{min} \times \dfrac{M_P + M_S}{\mathcal{A} \times M_P}\right) \\[1em]
-\end{align}
+\end{aligned}
 $$
 #### The Crux Metric ($\acute{e}$)
 > The circle $_{\circ}$ subscript is used to indicate expressions in which all terms share the **same positional magnitude** (e.g., max, min, or average), regardless of parameter type.
 $$
-\begin{align}
+\begin{aligned}
 \acute{e} = \dfrac{M_P - M_S}{M_P + M_S}
 = \dfrac{|S_{\circ} - P_{\circ}|}{S_{\circ} + P_{\circ}} 
 = \dfrac{|S_{\circ} - P_{\circ}|}{T_{\circ}}
-\end{align}
+\end{aligned}
 $$
-- $é$ (e-prime) is the system eccentricity value at which the orbits of the stars become *_adjoined tangential_* $(e \gt 0; M_P \neq M_S)$
-- For a mass ratio of $^{M_S}/_{M_P} = 0.8$, the system requires $\acute{e} \geq 0.8519$ for the primary and secondary orbits to adjoin tangentially (see below).
+- $é$ (e-prime) is the system eccentricity value at which the orbits of the stars become *_adjoined tangential_* $(e > 0; M_P \neq M_S)$
+- For a mass ratio of $^{M_S}/_{M_P} = 0.8$, the system requires $\acute{e} ≥ 0.8519$ for the primary and secondary orbits to adjoin tangentially (see below).
 
 
 # Relative Orbit of the Secondary
-There are times (such as when the Secondary is less massive than the Primary — typically $\frac{M_1}{M_2} \gtrsim 80$, the approximate star/brown dwarf mass dividing line, but it works for sub-stellamon bodies as well — it is convenient to treat the Primary as stationary and the Secondary as following the relative orbit alone.  Therefore,
+There are times (such as when the Secondary is less massive than the Primary — typically $\frac{M_1}{M_2} >rsim 80$, the approximate star/brown dwarf mass dividing line, but it works for sub-stellamon bodies as well — it is convenient to treat the Primary as stationary and the Secondary as following the relative orbit alone.  Therefore,
 $$
-\begin{gather}
+\begin{aligned}
 R_{min} = T_{min} \\[0.5em]
 R_{avg} = \mathcal{A} \\[0.5em]
 R_{max} = T_{max} \\
-\end{gather}
+\end{aligned}
 $$
 For instance, in the case of the Earth-Sun system:
 $$
-\begin{align}
+\begin{aligned}
 \mathcal{A} &= 1.0 AU \\[0.5em]
 P_{avg} &= \mathcal{A} \times\dfrac{M_S}{M_P+M_S} \\[1em]
 &= 1.0 \times \frac{1}{333000+1} \\[1em]
 &= 1.0 \times \frac{1}{333001} = 3.009299 \times 10^{-6} AU \\[1.5em]
 1 \text{ AU } &= 1.496 \times 10^6 \text{ km} \\
 \therefore P_{avg} &= 3.009299 \times 10^{-6} \times 1.496 \times 10^8 ≈ 449 \text{ km}  
-\end{align}
+\end{aligned}
 $$
 
 Considering that the Sun’s radius is $696{,}340$ km, a wobble of only $≈ 450$ km ($\approx 0.065\%$) is justifiably negligible, so the math works out well enough by just treating the Sun as stationary and the Earth as orbiting it.
 # Barycentrics
 Similarly to the Relative Orbit of the Secondary, when dealing with a system where $M_S ≈ M_P$, it becomes more convenient to think of the masses as stationary and their barycenter "orbiting" between them. **|graphic to be added|**
 $$
-\begin{align}
+\begin{aligned}
 B_{min} &=   \frac{\mathcal{a}(1 - e)\; M_S}{M_P + M_S} 
 = \frac{T_{min}\; M_S}{M_P + M_S} = B_{avg}(1 - e) = \mathbf{P_{min}} \\[2em]
 B_{avg} &= \frac{\mathcal{a}\; M_S}{M_P + M_S} = \mathbf{P_{avg}} \\[2em]
 B_{max} &= \frac{\mathcal{a}(1 + e)\; M_S}{M_P + M_S} 
 = \frac{T_{max}\; M_S}{M_P + M_S} = B_{avg}(1 + e) = \mathbf{P_{max}}
-\end{align}
+\end{aligned}
 $$
 Where:
 - $\mathcal{a}$ = the average separation between the Primary in and the Secondary expressed in terms of the radius of the Primary
@@ -162,21 +162,21 @@ Where:
 
 If the mass of the Secondary ($M_S$) is expressed in terms of the mass of the Primary ($M_P$) the equations become:
 $$
-\begin{align}
+\begin{aligned}
 M_0 &= \frac{M_S}{M_P} \\[1em]
 B_{min} &= \frac{\mathcal{a}(1 - e)\; M_0}{M_0 + 1} 
 = \frac{T_{min}\; M_0}{M_0 + 1} = B_{avg}(1 - e) = \mathbf{P_{min}} \\[2em]
 B_{avg} &= \frac{\mathcal{a}\; M_0}{M_0 + 1} = \mathbf{P_{avg}} \\[2em]
 B_{max} &= \frac{\mathcal{a}(1 + e)\; M_0}{M_0 + 1} 
 = \frac{T_{max}\; M_0}{M_0 + 1} = B_{avg}(1 + e) = \mathbf{P_{max}}
-\end{align}
+\end{aligned}
 $$
 Note that in both sets of equations, the math works out such that the dimensions of the barycenter's "orbit" *precisely match* those of the Primary's orbit; this is incredibly convenient, as it allows us to directly compare the geometry of the barycenter's orbit to the physical dimensions of the Primary, in particular the Primary's radius ($R_P$) — more on this below.
 
 # Constant Equalities
 Some relationships between the masses of the Primary and Secondary and their related orbital separations are constant:
 $$
-\begin{align}
+\begin{aligned}
 &\frac{S_\circ}{P_\circ} = \frac{M_P}{M_S} \qquad
 &&\frac{P_\circ}{S_\circ} = \frac{M_S}{M_P} \\[1em]
 &\frac{P_\circ}{T_\circ} = \frac{M_S}{M_P + M_S}   \qquad
@@ -185,12 +185,12 @@ $$
 &&\frac{T_\circ}{S_\circ} = \frac{M_S}{M_P} + 1 \\[3em]
 &\frac{Min_\bullet}{Max_\bullet} = \frac{1 - e}{1 + e} \qquad
 &&\frac{Max_\bullet}{Min_\bullet} = \frac{1 + e}{1 - e}
-\end{align}
+\end{aligned}
 $$
 
 Again, if the mass of the Secondary ($M_S$) is expressed in terms of the mass of the Primary ($M_P$), the equations become:
 $$
-\begin{align}
+\begin{aligned}
 &M_0 = \frac{M_S}{M_P} \\[1em]
 &\frac{S_\circ}{P_\circ} = \frac{1}{M_0} \qquad
 &&\frac{P_\circ}{S_\circ} = M_0 \\[1em]
@@ -200,7 +200,7 @@ $$
 &&\frac{T_\circ}{S_\circ} = M_0 + 1 \\[3em]
 &\frac{Min_\bullet}{Max_\bullet} = \frac{1 - e}{1 + e} \qquad
 &&\frac{Max_\bullet}{Min_\bullet} = \frac{1 + e}{1 - e}
-\end{align}
+\end{aligned}
 $$
 
 ## Mass Pairings
@@ -254,17 +254,17 @@ Where:
 #### Limiting Eccentricity ($\bar{e}$)
 For close-binaries, the two stars should never approach closer than $T_{min} = 0.10$ AU (ideally $0.15$ AU).  The eccentricity of the system which forces this limit can be calculated by:
 $$
-\begin{align}
+\begin{aligned}
 \bar{e} = \dfrac{T_{max} - 0.100}{T_{max} + 0.100}
-\end{align}
+\end{aligned}
 $$
 - $ē$ (e-bar) is the largest system eccentricity that can be used with a given $T_{max}$ , while ensuring that $T_{min} ≥ 0.100$.
 
 If you know what eccentricity you want the system to have and need to figure out the minimum maximum separation $T_{max}$ that will maintain $T_{min} ≥ 0.100$ AU, you can calculate it by:
 $$
-\begin{align}
-T_{max} \geq 0.100\left(\dfrac{1 + \bar{e}}{1 - \bar{e}}\right)
-\end{align}
+\begin{aligned}
+T_{max} ≥ 0.100\left(\dfrac{1 + \bar{e}}{1 - \bar{e}}\right)
+\end{aligned}
 $$
 ### The Period–Eccentricity Relation
 

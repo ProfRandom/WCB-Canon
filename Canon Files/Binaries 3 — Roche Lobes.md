@@ -63,7 +63,7 @@ When the Roche lobes **touch** (or one star even slightly _overflows_ its own lo
 
 For practical modeling, the Roche-lobe radius ($R_L$) can be approximated by the empirical fit derived by **Eggleton (1983)**.  Expressed in a general form:
 $$
-\begin{align}
+\begin{aligned}
 \text{Define: }&\quad
 f(x) =
 \frac{0.49\,x^{\tfrac{2}{3}}}
@@ -74,7 +74,7 @@ f(x) =
 	f\!\left(\frac{M_1}{M_2}\right) \\[1em]
 \text{Roche Lobe $M_2$:}&\quad R_{L,2} = \mathcal{a}\,
 	f\!\left(\frac{M_2}{M_1}\right)
-\end{align}
+\end{aligned}
 $$
 Where:
 - $\mathcal{a}$ = average separation of the binary stars (in AU)  

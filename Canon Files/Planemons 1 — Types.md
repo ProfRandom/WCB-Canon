@@ -38,11 +38,11 @@ title: ""
 
 $$\text{GEOTIC} := \left\{ (m, \rho) \in \mathbb{R}^2 \ \middle|\
 \begin{aligned}
-&0.30 \leq m \leq 3.35 \\
-&0.85 \leq \rho \leq 1.25 \\
-&0.60 \leq g(m, \rho) \leq 1.65 \\
-&0.60 \leq r(m, \rho) \leq 1.50 \\
-&0.65 \leq v_e(m, \rho) \leq 1.50
+&0.30 ≤ m ≤ 3.35 \\
+&0.85 ≤ \rho ≤ 1.25 \\
+&0.60 ≤ g(m, \rho) ≤ 1.65 \\
+&0.60 ≤ r(m, \rho) ≤ 1.50 \\
+&0.65 ≤ v_e(m, \rho) ≤ 1.50
 \end{aligned}
 \right\}
 $$
@@ -98,11 +98,11 @@ $$
 
 $$\text{GAEAN} := \left\{ (m, \rho) \in \mathbb{R}^2 \ \middle|\
 \begin{aligned}
-&0.45 \leq m \leq 1.85 \\
-&0.85 \leq \rho \leq 1.25 \\
-&0.90 \leq g(m, \rho) \leq 1.10 \\
-&0.70 \leq r(m, \rho) \leq 1.30 \\
-&0.80 \leq v_e(m, \rho) \leq 1.20
+&0.45 ≤ m ≤ 1.85 \\
+&0.85 ≤ \rho ≤ 1.25 \\
+&0.90 ≤ g(m, \rho) ≤ 1.10 \\
+&0.70 ≤ r(m, \rho) ≤ 1.30 \\
+&0.80 ≤ v_e(m, \rho) ≤ 1.20
 \end{aligned}
 \right\}
 $$
@@ -175,11 +175,11 @@ r := ⟨0.90 ∧ 1.50⟩⨁
 vₑ := ⟨0.95 ∧ 1.50⟩⨁
 $$\text{RHEATIC} := \left\{ (m, \rho) \in \mathbb{R}^2 \ \middle|\
 \begin{aligned}
-&1.00 \leq m \leq 3.00 \\
-&0.85 \leq \rho \leq 1.25 \\
-&0.85 \leq g(m, \rho) \leq 1.70 \\
-&0.90 \leq r(m, \rho) \leq 1.50 \\
-&0.95 \leq v_e(m, \rho) \leq 1.50
+&1.00 ≤ m ≤ 3.00 \\
+&0.85 ≤ \rho ≤ 1.25 \\
+&0.85 ≤ g(m, \rho) ≤ 1.70 \\
+&0.90 ≤ r(m, \rho) ≤ 1.50 \\
+&0.95 ≤ v_e(m, \rho) ≤ 1.50
 \end{aligned}
 \right\}
 $$
@@ -285,11 +285,11 @@ r := ⟨0.02 ∧ 11.00⟩⨁
 vₑ := ⟨0.02 ∧ 25.00⟩⨁
 $$\text{XENOTIC} := \left\{ (m, \rho) \in \mathbb{R}^2 \ \middle|\
 \begin{aligned}
-&0.0001 \leq m \leq 4131 \\
-&0.01 \leq \rho \leq 7.00 \\
-&0.002 \leq g(m, \rho) \leq 60.00 \\
-&0.02 \leq r(m, \rho) \leq 11.00 \\
-&0.02 \leq v_e(m, \rho) \leq 25.00
+&0.0001 ≤ m ≤ 4131 \\
+&0.01 ≤ \rho ≤ 7.00 \\
+&0.002 ≤ g(m, \rho) ≤ 60.00 \\
+&0.02 ≤ r(m, \rho) ≤ 11.00 \\
+&0.02 ≤ v_e(m, \rho) ≤ 25.00
 \end{aligned}
 \right\}
 $$

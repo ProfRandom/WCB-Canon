@@ -184,9 +184,6 @@ $$
 ### 📏 Index Rule
 $$
 \sqrt[n]{x} = x^{\frac{1}{n}}, \qquad \sqrt[-n]{x} = \frac{1}{\sqrt[n]{x}} = x^{-\frac{1}{n}}
-$$
-
-$$
 \sqrt[m]{\frac{x^n}{x^p}} = x^{\frac{n - p}{m}}, \qquad \sqrt[m]{x^n x^p} = x^{\frac{n + p}{m}}
 $$
 
@@ -194,9 +191,6 @@ $$
 ### 🔁 Power Rule
 $$
 (x^m)^n = x^{mn}, \qquad (x^{-m})^n = x^{-mn}
-$$
-
-$$
 \sqrt[n]{\sqrt[m]{x}} = \sqrt[nm]{x}, \qquad \sqrt[n]{x^{\frac{1}{m}}} = x^{\frac{1}{nm}}
 $$
 
@@ -266,9 +260,6 @@ $$
 ## 📊 Powers and Logs
 $$
 x^y = z \quad \Rightarrow \quad y = \frac{\log z}{\log x} = \log_x z
-$$
-
-$$
 x = z^{\frac{1}{y}} = \sqrt[y]{z}
 $$
 
@@ -312,14 +303,8 @@ $$
 $$
 l = \frac{s}{1 + r}, \qquad
 u = \frac{rs}{1 + r}
-$$
-
-$$
 l = s \cdot \left(\frac{1}{1 + r}\right), \qquad
 u = s \cdot \left(\frac{r}{1 + r}\right)
-$$
-
-$$
 l = \frac{s - d}{2}, \qquad
 u = \frac{s + d}{2}, \qquad
 l = \frac{(s - d) \cdot r}{1 + r}, \qquad
@@ -339,13 +324,7 @@ $$
 ### 🧮 Inequality Notes
 $$
 m \gg \frac{1}{2} u \quad \text{(if } u < 0 \text{ and } l > 0\text{)}
-$$
-
-$$
 m = \frac{1}{2} u \quad \text{(if } l = 0\text{)}
-$$
-
-$$
 m = u = l \quad \text{(if } u = l\text{)}
 $$
 
@@ -353,13 +332,7 @@ $$
 ### ✖️ Product & Quotient
 $$
 \text{Product } = xy = \frac{s^2 - d^2}{4}
-$$
-
-$$
 \text{Quotient } = \frac{x + d}{x - d} = \frac{(x + y) + (x - y)}{(x + y) - (x - y)}
-$$
-
-$$
 \frac{s}{d} = \frac{x + y}{x - y}, \qquad \frac{d}{s} = \frac{x - y}{x + y}
 $$
 
@@ -410,9 +383,6 @@ Given:
 Then:
 $$
 \text{pct} = \frac{6 - 0}{10 - 0} = \frac{6}{10} = 0.60
-$$
-
-$$
 z = 0.60 \cdot (6 - 4) + 4 = 0.60(2) + 4 = 5.2
 $$
 
@@ -457,9 +427,6 @@ $$
 Expanded forms:
 $$
 \Sigma = \frac{u^2 + u}{2} - \frac{l^2 - l}{2}
-$$
-
-$$
 \Sigma = \frac{(u^2 + u) - (l^2 - l)}{2}, \qquad
 \Sigma = \frac{u^2 - l^2 + u + l}{2}, \qquad
 \Sigma = \frac{u^2 - l^2 + s}{2}
@@ -542,10 +509,10 @@ This version is symmetric and may be more intuitive in nested radical systems.
 Given two points:
 
 $$
-\begin{gather}
+\begin{aligned}
 P_1 = (x_1, y_1) \\[6pt]
 P_2 = (x_2, y_2)
-\end{gather}
+\end{aligned}
 $$
 
 
@@ -574,12 +541,12 @@ $$
 
 ### 🔃 Converting from Point–Slope to Slope–Intercept
 $$
-\begin{align}
+\begin{aligned}
 \text{Start with point–slope:} \quad & y - y_1 = m(x - x_1) \\[6pt]
 \text{Distribute the slope:} \quad & y = mx - mx_1 + y_1 \\[6pt]
 \text{Group constants:} \quad & y = mx + (y_1 - mx_1) \\[6pt]
 \text{Therefore:} \quad & b = y_1 - mx_1
-\end{align}
+\end{aligned}
 $$
 
 > 🧠 **Note:** The subscripts vanish because their values get absorbed into the constant \( b \).  
@@ -676,9 +643,6 @@ $$
 Plug into conversion formula:
 $$
 K - 273.15 = \frac{5}{9}(F - 32)
-$$
-
-$$
 -17.7778 = \frac{5}{9}(F - 32)
 $$
 
@@ -795,7 +759,7 @@ The last _non-zero remainder_ is the greatest common divisor between $a$ and $b$
 
 ### Example
 $$
-\begin{gather}
+\begin{aligned}
 a = 2436 \qquad b = 1172 \\
 r = a\;mod\;b = 92 \\[1em]
 a = 1172 \qquad b = 92 \\
@@ -808,7 +772,7 @@ a = 24 \qquad b = 20 \\
 r = a\;mod\;b = 4\; ✓ \\[1em]
 a = 20 \qquad b = 4 \\
 ⟶ r = a\;mod\;b = 0 \\
-\end{gather}
+\end{aligned}
 $$
 If you don't have a tool that directly calculates modulos, $r$ can manually be calculated by:
 $$
@@ -822,51 +786,37 @@ $$
 \underline{-2344}  \quad &\text{\scriptsize(Subtracted: $2\times1172$)} \\[-0.3ex]
 \phantom{ }\,\,92 \quad &\leftarrow \text{\scriptsize(Remainder)}
 \end{array}
-$$
-$$
 \begin{array}{r@{}l}
    12 \quad &\text{\scriptsize(Quotient)} \\[-0.2ex]
 92\,)\,\overline{1172}  \quad &\text{\scriptsize(Dividend)} \\[-0.4ex]
 \underline{-1104}  \quad &\text{\scriptsize(Subtracted: $12\times92$)} \\[-0.3ex]
 \phantom{}\,\,68 \quad &\leftarrow \text{\scriptsize(Remainder)}
 \end{array}
-$$
-$$
 \begin{array}{r@{}l}
    1 \quad &\text{\scriptsize(Quotient)} \\[-0.2ex]
 68\,)\,\overline{92}  \quad &\text{\scriptsize(Dividend)} \\[-0.4ex]
 \underline{-68}  \quad &\text{\scriptsize(Subtracted: $1\times68$)} \\[-0.3ex]
 \phantom{}\,\,24 \quad &\leftarrow \text{\scriptsize(Remainder)}
 \end{array}
-$$
-$$
 \begin{array}{r@{}l}
    2 \quad &\text{\scriptsize(Quotient)} \\[-0.2ex]
 24\,)\,\overline{68}  \quad &\text{\scriptsize(Dividend)} \\[-0.4ex]
 \underline{-48}  \quad &\text{\scriptsize(Subtracted: $2\times24$)} \\[-0.3ex]
 \phantom{}\,\,20 \quad &\leftarrow \text{\scriptsize(Remainder)}
 \end{array}
-$$
-$$
 \begin{array}{r@{}l}
    1 \quad &\text{\scriptsize(Quotient)} \\[-0.2ex]
 20\,)\,\overline{24}  \quad &\text{\scriptsize(Dividend)} \\[-0.4ex]
 \underline{-20}  \quad &\text{\scriptsize(Subtracted: $1\times20$)} \\[-0.3ex]
 \phantom{}\,\,\mathbf{4} \; \boldsymbol{\checkmark} &\leftarrow \text{\scriptsize(Remainder)}
 \end{array}
-$$
-$$
 \begin{array}{r@{}l}
    5 \quad &\text{\scriptsize(Quotient)} \\[-0.2ex]
 4\,)\,\overline{20}  \quad &\text{\scriptsize(Dividend)} \\[-0.4ex]
 \underline{-20}  \quad &\text{\scriptsize(Subtracted: $5\times4$)} \\[-0.3ex]
 \phantom{}\,\,0 \quad &\leftarrow \text{\scriptsize(Remainder)}
 \end{array}
-$$
-$$
 \text{Since this remainder is } 0 \text{, the previous remainder is the GCD}
-$$
-$$
 \begin{array}{c c c}
 \therefore \; \gcd(2436,1172) = 4 
 \end{array}

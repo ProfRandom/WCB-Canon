@@ -71,7 +71,7 @@ $$
 
 Calculating the warp factor from the speed is a function of the cube-root of the velocity of the ship and the speed of light:
 $$
-f = \sqrt[3]\frac{v}{c}
+f = \sqrt[3]{\frac{v}{c}}
 $$
 - Here, again if one is expressing $v$ as multiples of lightspeed, $c$ is always 1 and the equation can simplify to:
 $$
@@ -187,16 +187,16 @@ f_{TOS} = \sqrt[3]{v} \qquad f_{TNG} = \sqrt[\frac{10}{3}]{v}
 $$
 For example the _Orville_, taking 10 light years per hour as the standard, would have a "c-speed" of:
 $$
-\begin{align}
+\begin{aligned}
 &\frac{10 \text{ly}}{hour} \times 8766\;\text{hours per year} = 
-\end{align}
+\end{aligned}
 $$
 So it's equivalent warp factors would be:
 $$
-\begin{align}
+\begin{aligned}
 f_{TOS} &= \sqrt[3]{87660} = \mathbf{44.42} \\
 f_{TNG} &= \sqrt[\frac{10}{3}]{87660} = \mathbf{30.4}
-\end{align}
+\end{aligned}
 $$
 ## The Devil's In The Details
 There were (frequent) inconsistencies in _ST:TOS_.  For instance, in the episode "By Any Other Name" (2/23/1968), the Kelvan commander, Rojan, states that the _Enterprise_ engines would be modified to allow travel to the Andromeda Galaxy in 300 Earth-years, and that the ship's cruising speed would thus be warp 11.
@@ -288,25 +288,25 @@ Now let posit the Serelemene flagship, _Tonqua_, is on a defense/rescue mission 
 
 The number of vaults required depends on the chosen vault magnitude.  At one light-year per vault, it is $4835$ vaults; at 100 light-years per vault it is $48.35$ vaults (or, more likely $48$ vaults of $100$ light-years and a final vault of $35$ light-years.).  Let's say Captain Talua decides to make $100$ light-year vaults.  That means that after each vault, the _Tonqua_ will have to spend 100 minutes recharging its drive before it can vault again.
 $$
-\begin{align}
+\begin{aligned}
 T &= 48\;\text{vaults} \times 100\;\text{minutes} = 4800\;\text{minutes} \\[0.5em]
 &= \frac{4800\;\text{minutes}}{60\;\text{minutes/hour}} = 80\;\text{hours} \\[0.5em]
 &= \frac{80\;\text{hours}}{24\;\text{hr/day}} = 3.\overline{3}\;\text{days} \\[0.5em]
 &≈ 3\;\text{days, } 8\;\text{hours}
-\end{align}
+\end{aligned}
 $$
 (We don't need to account for the recharge time after the last $35$ light-year vault, because it will transpire at the destination.)
 
 This equates to an apparent velocity of:
 $$
-\begin{align}
+\begin{aligned}
 v &= \frac{D}{T} = \frac{4800}{3.\overline{3}} = 1440\;\text{light-years per day} \\[0.5em]
 &\text{Remember that the last vault adds recharge time, but not travel time!} \\[0.5em]
 &= 1440\;\text{ly/day} \times 365.25\;\text{days} \\[0.5em]
 &= 525960\;\text{light-years per year} \\[0.5em]
 &= 525960c \\[1.5em]
 f_{TOS} &= \sqrt[\frac{10}{3}]{525960} = 80.721
-\end{align}
+\end{aligned}
 $$
 To put it another way, a _ST:TOS_ ship at warp $8$ would need $9.44$ days to cover the same distance.
 
@@ -344,11 +344,11 @@ Let's further say that the military-supported trade syndicate (KaltaiSys) has a 
 
 Thus, these ships are capable of:
 $$
-\begin{align}
+\begin{aligned}
 r &= \frac{1500\;\text{light years}}{10\;\text{days}} = 150\;\text{ly/day} \\[0.5em]
 v &= 150\;\text{ly/day} \times 365.25\;\text{days/yr} = 54787.5\;\text{light-years/yr} \\[0.5em]
 &= 54787.5c
-\end{align}
+\end{aligned}
 $$
 This equates to:
 - _ST:TOS_ warp $37.9$
@@ -391,10 +391,10 @@ To the outside observer, the rod would appear to be only about $14.1$ cm in leng
 
 For example: to those inside the ship, one minute would be sixty seconds long.  To those looking in from outside, a minute on the ship would last:
 $$
-\begin{align}
+\begin{aligned}
 \gamma &= \frac{1}{\sqrt{1 - 0.99^2}} = \frac{1}{\sqrt{1 - 0.98}} = \frac{1}{\sqrt{0.0199}} = \frac{1}{0.1411} = 7.089 \\[0.5em]
 T_\gamma &= 60 \times 7.089 ≈ 425\;\text{seconds}
-\end{align}
+\end{aligned}
 $$
 … just over 425 seconds — or 7.089 minutes (7ᵐ 5.33ˢ).
 

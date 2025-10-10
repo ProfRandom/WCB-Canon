@@ -18,7 +18,7 @@ title: ""
   and the simplified canonical form:  
   $$\alpha \ge \mathcal{F}(e)\,\mathcal{A}, \qquad \mathcal{F}(e) = 4.1e^2 + 2.0e + 3.5$$  
 - Provides tabulated $\mathcal{F}(e)$ values for typical binary eccentricities, showing that stability boundaries rise roughly quadratically with $e$.  
-- Notes a simplified linear approximation ($\alpha \gtrsim \mathcal{A}(3.5 + 4.0e)$) for rapid estimation.  
+- Notes a simplified linear approximation ($\alpha >rsim \mathcal{A}(3.5 + 4.0e)$) for rapid estimation.  
 - Incorporates **Quarles et al. (2018, 2020)** results defining the **S-type stability limit** for wide binaries:  
   $$\mathcal{Q}_L = 0.08\,\mathcal{A} = 0.08\left(\frac{T_{\min}}{1 - e}\right)$$  
   linking circumstellar orbital stability directly to the stars’ *closest approach* ($T_{\min}$).  
@@ -57,7 +57,7 @@ For clarity:
 
 ## P-type Orbit (around both stars in a close-binary)
 $$
-\alpha \gtrsim 3.0\,\mathcal{A}
+\alpha >rsim 3.0\,\mathcal{A}
 $$
 ### Deep Dive: The Empirical Stability Relation
 Numerical simulations (Holman & Wiegert 1999, *AJ* 117:621) yield a widely used fit for **circumbinary (P-type)** stability:
@@ -86,11 +86,11 @@ $$
 | 0.5 |       4.7        |               4–5 ×               |
 | 0.7 |       6.2        |                6 ×                |
 
-> **Rule of thumb:** circumbinary (P-type) planets remain stable when  $\displaystyle\alpha \gtrsim \mathcal{F}(e)\;\mathcal{A}$ , rising roughly quadratically with binary eccentricity.
+> **Rule of thumb:** circumbinary (P-type) planets remain stable when  $\displaystyle\alpha >rsim \mathcal{F}(e)\;\mathcal{A}$ , rising roughly quadratically with binary eccentricity.
 
 A quicker (but less precise) linear form is:
 $$
-\alpha \gtrsim \mathcal{A}\,(3.5 + 4.0e)
+\alpha >rsim \mathcal{A}\,(3.5 + 4.0e)
 $$
 
 ## S-type Orbit (around one star in a wide binary)
@@ -120,4 +120,4 @@ $$
 $$
 e \le \mathcal{Q}_e = 0.92
 $$
-- $\mathcal{Q}_e$ is the maximum binary eccentricity that still allows any stable circumstellar orbit, such that $T_{\min} \geq \mathcal{Q}_L$.
+- $\mathcal{Q}_e$ is the maximum binary eccentricity that still allows any stable circumstellar orbit, such that $T_{\min} ≥ \mathcal{Q}_L$.

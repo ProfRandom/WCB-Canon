@@ -425,15 +425,15 @@ A monon does not _have_ to have an axial tilt, but most do, because their mass i
 **Magnetosphere (radiation shielding) ($B_{surf}$)**
 - $B_{surf}$ refers to the **surface magnetic field strength**, measured in **microteslas (μT)**.    
 	- For Earth, the typical surface field ranges between **25–65 μT**, depending on latitude and local crustal anomalies.
-- $B_{surf} \lt 5 \mu T$ — Unshielded; high cosmic radiation exposure, especially polar regions- 
+- $B_{surf} < 5 \mu T$ — Unshielded; high cosmic radiation exposure, especially polar regions- 
 - $B_{surf} \in \langle5 \wedge 20\rangle \mu T$ — Minimal shielding; monon parahabitable without O₃ layer and/or thick tmosphere
 - $B_{surf} \in \langle20 \wedge 40\rangle \mu T$ — Weak field; still protective but slightly more porous
 - $B_{surf} \in \langle40 \wedge 70\rangle \mu T$ — Comparable to Earth; effective radiation shielding
 	- $B_{surf} \in \langle25 \wedge 65\rangle \mu T$ — Earth's typical magnetosphere strength range
 - $B_{surf} \in \langle70, ..,100\rangle \mu T$ — Significant shielding, but with growing secondary effects
-- $B_{surf} \gt 100 \mu T$ — Magnetosphere begins trapping too much radiation
+- $B_{surf} > 100 \mu T$ — Magnetosphere begins trapping too much radiation
 	- Where the magnetosphere is concerned, there is such a thing as "too much of a good thing"; once the field strength exceeds ~100 μT, the magnetosphere may begin to trap radiation instead of deflecting it — causing the very problems it’s meant to prevent.
-- $B_{surf} \gt 400 \mu T$ — Gas giant strength; radiation belts around monon make space travel exceedingly hazardous.
+- $B_{surf} > 400 \mu T$ — Gas giant strength; radiation belts around monon make space travel exceedingly hazardous.
 - Why It Matters
 	- A strong magnetic field deflects charged particles from the stellar wind, forming a **magnetosphere**.   
 		- Without this protection:    
@@ -551,10 +551,10 @@ Because they’re **experiential**, _g_ and _vₑ_ serve as **thresholds for hab
 - **Radius** (_r_)
 We treat radius as an **emergent quantity**, derived from the interplay between _m_ and _ρ_. Once those are specified, _r_ is computed using:
 $$
-\begin{align}
+\begin{aligned}
 r &= \sqrt[3]{\frac{3 m}{4 \pi \rho}} &&\qquad \text{Absolute Calculation} \\
 r &= \sqrt[3]{\frac{m}{\rho}} &&\qquad \text{Relative calculation}
-\end{align}
+\end{aligned}
 $$
 By defining _ρ_ as uncompressed, we sidestep recursive compression modeling and free _r_ to play its proper role as a derived result.
 

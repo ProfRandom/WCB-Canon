@@ -93,29 +93,29 @@ Let's imagine a system of three bodies, the central body (_centron_ $\dot{C}$) a
 
 For this example, we will define:
 $$
-\begin{align}
+\begin{aligned}
 P_\alpha = 24.36\; \text{days} \\
 P_\beta = 11.72\; \text{days}
-\end{align}
+\end{aligned}
 $$
 ![[synodion01.jpg|300]]
 The above figure illustrates the starting configuration of our system ($T_0$).  The starting angle at which all three bodies are lined up we call the _base angle_, denoted by $B^\theta$.
 
 We can already make some determinations about our system:
 $$
-\begin{align}
+\begin{aligned}
 P_\delta = P_\alpha - P_\beta = 24.36 - 11.72 = 12.64\; \text{days} \\
 P_Q = \dfrac{P_\beta}{P_\alpha} = \dfrac{11.72}{24.36} = 0.481\; \text{days}
-\end{align}
+\end{aligned}
 $$
 The ratio of their orbits ($P_Q$) is not an integer, so these orbitons are not in a mean motion resonance; for every orbit of $M_\beta$, $M_\alpha$ only completes $0.481$ of its orbit, because $M_\alpha$ takes $12.64$ days longer to orbit the centron than does $M_\beta$.
 
 Since a full orbit for _either_ orbiton is $360^\circ$, we can figure out how many degrees of their orbit each orbiton completes within the system base time unit, which in this case would be $1$ day.
 $$
-\begin{align}
+\begin{aligned}
 \theta_\alpha &= \dfrac{360^\circ}{24.36} = 14.778^\circ \qquad \text{The \emph{minor unit angle}}\\
 \theta_\beta &= \dfrac{360^\circ}{11.72} = 30.717^\circ  \qquad \text{The \emph{major unit angle}}\\
-\end{align}
+\end{aligned}
 $$
 
 This tells us how many degrees $M_\alpha$ "lags behind" $M_\beta$ per day:
@@ -158,14 +158,14 @@ Here's the really cool thing: we can calculate exactly _where_ and _when_ $T_1, 
 #### The When
 The synodic period (mentioned above) is the period of time that transpires between any two synodoi:
 $$
-\begin{equation}
+\begin{aligned}
 \begin{split}
 \Sigma &= \dfrac{P_\alpha \times P_\beta}{|P_\alpha - P_\beta|} \\
 &= \dfrac{24.36 \times 11.72}{|24.26 - 11.72|} \\
 &= \dfrac{285.499}{12.64} \\
 \Sigma &= 22.587\; \text{days ✓}
 \end{split}
-\end{equation}
+\end{aligned}
 $$
 So, each synodos occurs just over $22\frac{1}{2}$ days after the preceding one.
 
@@ -177,10 +177,10 @@ So, each synodos occurs just over $22\frac{1}{2}$ days after the preceding one.
 
 Notice that the synodion, $22.587$ days is more than two orbits of $M_\beta$ and less than one orbit of $M_\alpha$.  If we divide the lengths of each orbiton's period by the length of the synodion:
 $$
-\begin{align}
+\begin{aligned}
 F_\alpha &= \dfrac{P_\alpha}{\Sigma} = \dfrac{24.36}{22.587} = 0.9272\; \text{orbit}\\
 F_\beta &= \dfrac{P_\beta}{\Sigma} = \dfrac{11.72}{22.587} = 1.9272\; \text{orbits}
-\end{align}
+\end{aligned}
 $$
 Do you see it?  The decimal fraction of both of these quotients is the same: $0.9272$.  We designate this as the _synodial fraction_, and denote it as $F_\Sigma$, and it helps us to answer the question of "where" the synodoi take place.
 
@@ -201,14 +201,14 @@ where S is the number of the synodos after $T_0$; e.g. for synodos $T_6, S = 6$.
 ## Diving Deeper
 Above, we learned about the synodic period equation:
 $$
-\begin{align}
+\begin{aligned}
 \Sigma &= \dfrac{P_\alpha \times P_\beta}{|P_\alpha - P_\beta|} \\
-\end{align}
+\end{aligned}
 $$
 Here is a comprehensive listing of the related equations:
 $$
 \begin{aligned}
-&&& \text{Given: } P_\alpha > P_\beta \\[1em]
+& \text{Given: } P_\alpha > P_\beta \\[1em]
 \Sigma &= \dfrac{P_\alpha P_\beta}{|P_\alpha - P_\beta|}
 & P_\alpha &= \dfrac{\Sigma P_\beta}{\Sigma - P_\beta}
 & P_\beta &= \dfrac{\Sigma P_\alpha}{\Sigma + P_\alpha} \\[1em]
@@ -220,10 +220,10 @@ $$
 $$
 \begin{array}{rcl}
 Q &= \dfrac{P_\beta}{P_\alpha} 
-&&&P_\alpha = P_\beta \times R = \dfrac{P_\beta}{Q} 
+&P_\alpha = P_\beta \times R = \dfrac{P_\beta}{Q} 
 = \left(\dfrac{\Sigma}{Q} - \Sigma\right) = \Sigma(R - 1) \\[1em]
 R &= \dfrac{P_\alpha}{P_\beta} 
-&&&P_\beta = P_\alpha \times Q = \dfrac{P_\alpha}{R}
+&P_\beta = P_\alpha \times Q = \dfrac{P_\alpha}{R}
 = \left(\Sigma - \dfrac{\Sigma}{R}\right) = \Sigma(1-Q)
 \end{array}
 $$
@@ -286,9 +286,9 @@ The _epochal aggregate_ ($Y_0$) is the total number of synodia that transpire wi
 
 Whereas we used the synodic formula:
 $$
-\begin{align}
+\begin{aligned}
 \Sigma &= \dfrac{P_\alpha \times P_\beta}{|P_\alpha - P_\beta|} \\
-\end{align}
+\end{aligned}
 $$
 to calculate the synodic period, we need to use a different method to calculate the Epochal Aggregate; we employ both the *Least Common Multiple* (LCM) and the *Greatest Common Divisor* (GCD):
 $$
@@ -304,14 +304,14 @@ P'_\alpha = 24.36 \times 100 = 2436 \quad \text{and} \quad P'_\beta = 11.72 \tim
 $$
 Now we can compute the LCM by:
 $$
-\begin{equation}
+\begin{aligned}
 \begin{split}
 LCM(a, b) &= \dfrac{a \times b}{GCD(a, b)} \\[0.5em]
 &= \dfrac{2436 \times 1172}{GCD(2436, 1172)} \\[0.5em]
 &= \dfrac{2854992}{4} \\
 &= 713748\; ✓
 \end{split}
-\end{equation}
+\end{aligned}
 $$
 Now, _since we normalized our inputs_ by scaling up by a factor of $10^2 = 100$, we need to scale this result _down_ by the same factor:
 $$
@@ -319,24 +319,24 @@ Y_0 = \dfrac{713748}{100} = 7137.48\; \text{days } ✓
 $$
 The _epochal interval_ ($\Psi$) is calculated by dividing the Epochal Aggregate ($Y_0$) by the synodic period ($\Sigma$):
 $$
-\begin{equation}
+\begin{aligned}
 \begin{split}
 \Psi &= \dfrac{Y_0}{\Sigma} \\[0.5em]
 &= \dfrac{7137.48}{22.587} \\[0.5em]
 &= 316\; \text{synodia}
 \end{split}
-\end{equation}
+\end{aligned}
 $$
 This reveals that $T_{316}$ occurs in the same configuration at the base angle $B^\theta$.  We can double-check by supplying $S=316$ to our synodian instance angle ($\widehat{\Theta}$) equation:
 $$
-\begin{equation}
+\begin{aligned}
 \begin{split}
 \widehat{\Theta} &= 360^\circ - MOD((S \times \Lambda_\Theta), 360^\circ) \\
 &= 360^\circ - MOD((316 \times 26.203^\circ), 360^\circ) \\
 &= 360^\circ - 360^\circ \\
 &= 0\; ✓
 \end{split}
-\end{equation}
+\end{aligned}
 $$
 To convert the epochal aggregate $\Psi = 7137.48$ days into something more useful, we can divide by the number of days in a sidereal year ($≈ 365.2564$):
 $$
@@ -355,10 +355,10 @@ Y_{/4} = \dfrac{Y_0}{4}
 $$
 In our worked example above, the quarter synodial epoch is:
 $$
-\begin{gather}
+\begin{aligned}
 Y_{/4} = \dfrac{Y_0}{4} = \dfrac{7137.48}{4} = 1784.37\; \text{days} \\[0.5em]
 Y_{/4}^y = \dfrac{Y_{/4}}{365.2564} = \dfrac{1784.37}{365.2564} ≈ 4.89\; \text{years}
-\end{gather}
+\end{aligned}
 $$
 ### Quarter Epochal Interval
 Similarly, a _quarter epochal interval_ ($\Psi_{/4}$) is the number of _common synodoi_ that occur between cardinal synodoi:
@@ -368,17 +368,17 @@ $$
 ### The Epochal Complements
 There are two of these, the _epochal major complement_ ($Y_\alpha$) and the _epochal minor complement_ ($Y_\beta$), which are the number of complete orbits of orbiton $M_\alpha$ and $M_\beta$, respectively, per each synodial epoch:
 $$
-\begin{align}
+\begin{aligned}
 Y_\alpha &= \dfrac{Y_0}{P_\alpha} \\[1em]
 Y_\beta &= \dfrac{Y_0}{P_\beta}
-\end{align}
+\end{aligned}
 $$
 In our worked example above:
 $$
-\begin{align}
+\begin{aligned}
 Y_\alpha &= \dfrac{Y_0}{P_\alpha} = \dfrac{7137.48}{24.36} = 293\; \text{orbits }✓ \\[1em]
 Y_\beta &= \dfrac{Y_0}{P_\beta} = \dfrac{7137.48}{11.72} = 609\; \text{orbits }✓
-\end{align}
+\end{aligned}
 $$
 
 

@@ -218,12 +218,12 @@ Consulting our [[Stellar Thermal Interval Constant Table ✓]]
 
 Applying our Spectral Class calculation from Kelvin temperature:
 $$
-\begin{align}
+\begin{aligned}
 \mathcal{S} &= \dfrac{\kappa - K}{þ} \\ \\
  &= \dfrac{7500 - 7379}{150} \\ \\
  &= \dfrac{121}{150} \\ \\
 \mathcal{S} &= 0.807 \\ \\
-\end{align}
+\end{aligned}
 $$So, no Main Sequence star above spectral type F0.81 will have _total Main Sequence lifetime_ long enough to qualify as "habitable".
 
 Since we have specified (in [[M002 - Stars — 08 `Sun-Like` Stars]]) that the spectral type range for stars with perannual orbits within the parahabitable zone (see [[M002 - Stars — 04 Thermozone Orbits]]), and since F2 is "later" on the spectral class continuum than F0.81, we know that all stars defined as "solar analogs" have lifetimes long enough to be "habitable" system hosts.
@@ -285,7 +285,7 @@ As with all stars (even the most stable and long-lived) the Sun's luminosity has
 
 For instance, the habitable zones for the Sun on its billion-year birthday were:
 $$
-\begin{align}
+\begin{aligned}
 H_0 = 0.500\sqrt{0.767} = 0.438 \\
 H_1 = 0.750\sqrt{0.767} = 0.6578 \\
 H_2 = 0.950\sqrt{0.767} = 0.832 \\
@@ -293,7 +293,7 @@ N = \sqrt{0.767} = 0.876 \\
 H_3 = 1.385\sqrt{0.767} = 1.213 \\
 H_4 = 1.770\sqrt{0.767} = 1.550 \\
 H_5 = 4.850\sqrt{0.767} = 4.248 \\
-\end{align}
+\end{aligned}
 $$
 Compare these numbers with the semi-major axes of the Solar terrestrial planets: at that time, Venus was 0.066 AU within the optimistic habitable zone (it’s $0.027$ AU outside now) and Mars was within the optimistic habitable zone by $0.026$ AU. (Neither was within the conservative habitable zone.) The Earth was $0.124$ AU beyond the nucleal orbit at that time.
 
@@ -312,7 +312,7 @@ So, in about $600$ ka, the luminosity of the Sun will have increased enough that
 
 By around 5.5 billion years from now (when the Sun is about 10 billion years old and nearing the end of its Main Sequence lifetime) the Sun's luminosity will have increased to about $2.02$ times its current value, yielding the following figures for the habitable zone limits and the nucleal orbit at that time:
 $$
-\begin{align}
+\begin{aligned}
 H_0 = 0.500\sqrt{2.02} = 0.711 \\
 H_1 = 0.750\sqrt{2.02} = 1.066 \\
 H_2 = 0.950\sqrt{2.02} = 1.350 \\
@@ -320,7 +320,7 @@ N = \sqrt{2.02} = 1.421 \\
 H_3 = 1.385\sqrt{2.02} = 1.947 \\
 H_4 = 1.770\sqrt{2.02} = 2.516 \\
 H_5 = 4.850\sqrt{2.02} = 6.893 \\
-\end{align}
+\end{aligned}
 $$
 So, by that time, Venus may very well be mostly molten, Earth will be desiccated and sterilized,  Mars will be just $0.103$ AU beyond the new nucleal orbit, and Jupiter (at $5.204$ AU), will be within the outer boundary of the parahabitable zone.
 
@@ -368,7 +368,7 @@ Using Aldebaran's correct (measured) mass value, its perannual orbit falls at $\
 
 Aldebaran’s habitable zone limits and nucleal orbit calculate to be:
 $$
-\begin{align}
+\begin{aligned}
 H_0 = 0.500\sqrt{439} = 10.476 \\
 H_1 = 0.750\sqrt{439} = 15.714 \\
 H_2 = 0.950\sqrt{439} = 19.905 \\
@@ -376,7 +376,7 @@ N = \sqrt{439} = 20.952 \\
 H_3 = 1.385\sqrt{439} = 29.019 \\
 H_4 = 1.770\sqrt{439} = 37.086 \\
 H_5 = 4.850\sqrt{439} = 101.619 \\
-\end{align}
+\end{aligned}
 $$
 The orbital period of the nucleal orbit is:
 $$
@@ -387,23 +387,23 @@ $$
 ### Extending Into The Supergiant Realm
 The theoretical maximum mass for a star is 200 M⊙.  We can't use the standard $L=M^{3.8}$ equation for stars above about 20 M⊙, so we have to choose the _lesser_ between:
 $$
-\begin{align}
+\begin{aligned}
 L &= k \times M^{1.5}\;, \text{where } k=1.12 \times10^3 \\[1em]
 &\text{or} \\
 L_{Edd} &= 3.2 \times 10^4 \left(\dfrac{M_*}{M_⊙}\right)L⊙ \quad \text{(The Eddington Limit)} 
-\end{align}
+\end{aligned}
 $$
 In our case the equations return:
 $$
-\begin{align}
+\begin{aligned}
 L_{MS} &= 1.12 \times 10^3 \times (200^{1.5}) = 1.12 \times 10^3 \times (2.828 \times 10^3) = 3.168 \times 10^6 \\[1em]
 &\text{and} \\
 L_{Edd} &= 3.2 \times 10^4 \left(\dfrac{200}{1}\right)L⊙ = 6.4 \times 10^6
-\end{align}
+\end{aligned}
 $$
 … so we'd go with the $L_{MS}$ value, and calculate the thermozone limits by:
 $$
-\begin{align}
+\begin{aligned}
 H_0 &= 0.500\sqrt{3.168 \times 10^6} = 889.94 \\
 H_1 &= 0.750\sqrt{3.168 \times 10^6} = 1334.92 \\
 H_2 &= 0.950\sqrt{3.168 \times 10^6} = 1690.89 \\
@@ -411,7 +411,7 @@ N &= \sqrt{3.168 \times 10^6} = 1779.89 \\
 H_3 &= 1.385\sqrt{3.168 \times 10^6} = 2465.14 \\
 H_4 &= 1.770\sqrt{3.168 \times 10^6} = 3150.40 \\
 H_5 &= 4.850\sqrt{3.168 \times 10^6} = 8632.46 \quad \text{(almost 14\% of a lightyear)} \\
-\end{align}
+\end{aligned}
 $$
 … but a perannual orbit of only
 $$
@@ -422,7 +422,7 @@ $$
 ### Working With a Known Star
 The largest known star currently is Stephenson 2-18, with a radius of $R = 2150⊙\;(9.999AU)$, a measured luminosity of $L = 440000⊙$, and an upper estimated mass value of $M = 45⊙$.  These values yield thermozone limits of:
 $$
-\begin{align}
+\begin{aligned}
 H_0 &= 0.500\sqrt{440000} = 331.66 \\
 H_1 &= 0.750\sqrt{440000} = 497.49 \\
 H_2 &= 0.950\sqrt{440000} = 630.16 \\
@@ -430,7 +430,7 @@ N &= \sqrt{440000} = 663.32 \\
 H_3 &= 1.385\sqrt{440000} = 918.71 \\
 H_4 &= 1.770\sqrt{440000} = 1174.09 \\
 H_5 &= 4.850\sqrt{440000} = 3217.13 \\
-\end{align}
+\end{aligned}
 $$
 … and a perannual orbit of:
 $$

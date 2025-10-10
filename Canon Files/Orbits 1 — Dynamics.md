@@ -43,7 +43,7 @@ title: ""
 ## Placing The Belt and Identifying Its Dimensions
 
 $$
-\begin{align}
+\begin{aligned}
 a_i &= &&\text{Inner orbit distance} \\
 a_o &= &&\text{Outer orbit distance} \\[0.5em]
 m_i &= &&\text{Mass of inner body in Terrans} \\
@@ -60,7 +60,7 @@ W_{belt} &= \Delta a \times \beta \qquad &&\text{Belt width calculation}\\[0.5em
 w_i &= \frac{m_i}{m_i + m_o} \qquad w_o = \frac{m_o}{m_i + m_o} \quad &&\text{Belt inner and outer edge adjustments} \\[0.5em]
 W_i &= W_{belt} \times w_i \qquad W_o = W_{belt} \times w_o \quad && \text{Belt inner and outer edge offset calculations}\\[0.5em]
 B_i &= a_s - W_i \qquad B_o = a_s + W_o \qquad &&\text{Belt inner and outer edge calculations}
-\end{align}
+\end{aligned}
 $$
 
 ## Calculating Resonant Orbits
@@ -107,17 +107,17 @@ $$Where:
 
 ##### Inner Orbit Resonances
 $$
-\begin{align}
+\begin{aligned}
 a_x &= \sqrt[3]{\Big((P_i \times k)^2 \, M\odot\Big)} \\[0.5em]
  \text{Where: } k &\in \{1.67, 2.00, 2.25, 2.33, 2.50, 2.67, 3.00, 3.50, 4.00, 5.00\}
-\end{align}
+\end{aligned}
 $$
 ##### Outer Orbit Resonances
 $$
-\begin{align}
+\begin{aligned}
 a_x &= \sqrt[3]{\left(\frac{P_o}{k}\right)^2 M\odot} \\[0.5em]
  \text{Where: } k &\in \{1.67, 2.00, 2.25, 2.33, 2.50, 2.67, 3.00, 3.50, 4.00, 5.00\}
- \end{align}
+ \end{aligned}
 $$
 ### Details: Resonance Scalers
 *Sorted in order of frequency*
@@ -158,10 +158,10 @@ $$
 ## Justification
 For a resonance gap in an asteroid belt to be significant, it should be ≥ 0.1% of the orbital radius of the gap, itself.
 $$
-\begin{gather}
-\frac{m_p}{M_*} \geq 10^{-6} \\
-\therefore m_p \geq \frac{M_*}{10^6}
-\end{gather}
+\begin{aligned}
+\frac{m_p}{M_*} ≥ 10^{-6} \\
+\therefore m_p ≥ \frac{M_*}{10^6}
+\end{aligned}
 $$
 Where:
 - $m_{p}$ = the mass of the perturber in Terrans
@@ -171,7 +171,7 @@ Where:
 ### Example:
 Given: $M_* = 333000 M_⨁ = 333000(1)$ (for the Sun):
 $$
-m_p \geq \frac{333000}{10^6} = 0.333 m_⨁
+m_p ≥ \frac{333000}{10^6} = 0.333 m_⨁
 $$
 **Meaning:**
 - A body must be **at least 0.333 Earth masses** (~⅓⨁) to carve a **recognizable Kirkwood gap** in a main-belt analogue.
@@ -183,10 +183,10 @@ g_w = a \times \sqrt{\frac{m_i + m_o}{333000M⊙}} \qquad \text{Preferred method
 $$
 or
 $$
-\begin{gather}
+\begin{aligned}
 g_{quad} = \sqrt{g_i^2 + g_o^2} \qquad \text{Requires calculating $g_i$ and $g_o$ first by:} \\[1em]
 g_i = a \times \sqrt{\frac{m_i}{333000M⊙}} \quad\text{and}\quad g_o = a \times \sqrt{\frac{m_o}{333000M⊙}}
-\end{gather}
+\end{aligned}
 $$
 Both methods are algebraically equivalent: the $g_{quad}$ form expands ***exactly*** into the $g_w$ expression:
 $$
@@ -230,16 +230,14 @@ $$
 P_1 = 86400^s &\text{solar day}\\
 P_2 = 86164.090531^s &\text{sidereal day}
 \end{array}
-$$
-$$
-\begin{equation}
+\begin{aligned}
 \begin{split}
 H &= \dfrac{P_1 \times P_2}{|P_1 - P_2|} \\[0.5em]
 &= \dfrac{86400 \times 86164.090531}{|86400 - 86164.090531|} \\[0.5em]
 &= \dfrac{7444577422}{235.9094692} \\[0.5em]
 H &= 31556924.9854376^s\; \checkmark
 \end{split}
-\end{equation}
+\end{aligned}
 $$
 … we find that the harmonic period between the solar day and the sidereal day is approximately the length of the _tropical year_, differing from the official value of $31556925.216^s$ by an excess of only $0.2306^s$.
 
@@ -250,16 +248,14 @@ $$
 P_1 = 86400^s &\text{solar day}\\
 P_2 = 86164.0989^s &\text{stellar day}
 \end{array}
-$$
-$$
-\begin{equation}
+\begin{aligned}
 \begin{split}
 H &= \dfrac{P_1 \times P_2}{|P_1 - P_2|} \\[0.5em]
 &= \dfrac{86400 \times 86164.0989}{|86400 - 86164.0989|} \\[0.5em]
 &= \dfrac{7444578145}{235.901096} \\[0.5em]
 H &= 31558048.1047344^s\; \checkmark
 \end{split}
-\end{equation}
+\end{aligned}
 $$
 … a difference of only $101.65737^s$ longer than the official length of the _sidereal year_: $31558149.7635456^s$.
 
@@ -297,14 +293,14 @@ The notation is fully symbolic and compatible with WCB's randomization and range
 $$
 r_i = B;\; \Omega = \text{«▢»}: \qquad
 r_{i-1} = \frac{r_i}{⟨⟨ \text{min} ∧ \text{max} ⟩⟩}
-\quad \text{while } r_i \geq \Omega
+\quad \text{while } r_i ≥ \Omega
 $$
 
 **Extrabasal**
 $$
 r_i = B;\; \Omega = \text{«▢»}: \qquad
 r_{i+1} = r_i \cdot ⟨⟨ \text{min} ∧ \text{max} ⟩⟩
-\quad \text{while } r_i \leq \Omega
+\quad \text{while } r_i ≤ \Omega
 $$
 Where:
 - B = basal orbital radius (e.g. the nucleal orbit $\mathcal{N}$)
@@ -318,13 +314,13 @@ The **intrabasal** and **extrabasal** forms can be used independently depending 
   If you begin at the **innermost permissible orbit** (e.g. a thermal, Roche, or design constraint), use the **extrabasal** form to expand outward via multiplicative steps:
 $$
   r_0 = «inner limit»;\; L = «system edge»:
-  \quad r_{i+1} = r_i \cdot ⟨⟨min ∧ max⟩⟩, \text{ while } r_{i+1} \leq L
+  \quad r_{i+1} = r_i \cdot ⟨⟨min ∧ max⟩⟩, \text{ while } r_{i+1} ≤ L
 $$
 - 🧭 **Outward-Only Generation**  
   If you begin at the **outermost permissible orbit** (e.g. a thermal or design constraint), use the **extrabasal** form to expand outward via multiplicative steps:
 $$
   r_0 = «inner limit»;\; L = «system edge»:
-  \quad r_{i-1} = \dfrac{r_i} {⟨⟨min ∧ max⟩⟩}, \text{ while } r_{i+1} \leq L
+  \quad r_{i-1} = \dfrac{r_i} {⟨⟨min ∧ max⟩⟩}, \text{ while } r_{i+1} ≤ L
 $$
 
 > Either method can fully define a system — or both can be combined with a central anchor (e.g. nucleal orbit) to scaffold a bidirectional structure.
