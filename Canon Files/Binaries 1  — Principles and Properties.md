@@ -6,14 +6,14 @@ title: ""
 ## Abstract  
 **Major Topics:**  
 - Introduces the **fundamental geometry and parameters of binary star systems**.  
-- Defines **primary** ($M_P$) and **secondary** ($M_S$) bodies, their relationship to the **barycenter** (ḅ), and how mass ratio determines orbital extent.  
+- Defines **primary** ($M_1$) and **secondary** ($M_2$) bodies, their relationship to the **barycenter** (ḅ), and how mass ratio determines orbital extent.  
 - Derives nine key **dimensional parameters** of binary motion: minimum, average, and maximum separations for the total system ($T$), the primary ($P$), and the secondary ($S$).  
 - Establishes core formulas linking:  
   - barycentric distances ($P_\bullet$, $S_\bullet$) to total separation ($T_\bullet$),  
   - orbital **eccentricity** ($e$) to maximum/minimum/average positions, and  
   - constant proportionalities between stellar **mass ratios** and **orbital distances**.  
 - Introduces the **Crux Metric** ($\acute{e}$) — the eccentricity at which unequal-mass orbits become tangentially adjoined.  
-- Explains **relative-orbit simplification**, where the more massive body is treated as stationary when $M_P \gg M_S$.  
+- Explains **relative-orbit simplification**, where the more massive body is treated as stationary when $M_1 \gg M_2$.  
 - Defines **barycentric motion** equivalence: the barycenter’s “orbit” mirrors that of the primary, scaled by mass ratio.  
 - Summarizes **constant equalities** that remain invariant across all binary configurations.  
 - Incorporates **observational context** for multiplicity among solar-type stars (Duquennoy & Mayor 1991; Raghavan et al. 2010).  
@@ -26,7 +26,7 @@ title: ""
 - Summarizes observed regimes (short-, intermediate-, and long-period binaries) and anomalies driven by third-body interactions or post-transfer effects.  
 
 **Key Terms & Symbols:**  
-- **$M_P$, $M_S$** — primary and secondary masses.  
+- **$M_1$, $M_2$** — primary and secondary masses.  
 - **$\mathcal{A}$** — average separation of binary components.  
 - **$T_{min}$, $T_{max}$** — minimum and maximum stellar separations.  
 - **$P_\bullet$, $S_\bullet$** — barycentric distances of primary and secondary.  
@@ -66,10 +66,19 @@ A binary system is described by a total of nine dimensions:
 - $e$: a dimensionless value that describes the deviation of the orbital paths from perfectly circular; $e = 0$ means the orbit is a circle
 
 These are related through a series of equations, which may seem daunting at first, but are quite straightforward once they are understood.
+
+### Mass-fraction Equations
+$$
+\begin{array}{ll}
+&\nu = \dfrac{M_1}{M_1 + M_2} & \text{Primary Mass Fraction} \\[1em]
+&\mu = \dfrac{M_2}{M_1 + M_2} & \text{Secondary Mass Fraction}
+\end{array}
+$$
+
 ### Primary Dimensions
 $$
 \begin{aligned}
-P_{avg} &= \mathcal{A} \times\dfrac{M_S}{M_P+M_S} \qquad &&\text{Primary average distance}\\[1em]
+P_{avg} &= \mathcal{A} \times\dfrac{M_2}{M_1+M_2} = \mu\,\mathcal{A} \qquad &&\text{Primary average distance}\\[1em]
 P_{min} &= P_{avg}(1 - e) \qquad &&\text{Primary minimum distance} \\[1em]
 P_{max} &= P_{avg}(1 + e) \qquad &&\text{Primary maximum distance} 
 \end{aligned}
@@ -77,7 +86,7 @@ $$
 ### Secondary Dimensions
 $$
 \begin{aligned}
-S_{avg} &= \mathcal{A} \times\dfrac{M_P}{M_P+M_S} \qquad &&\text{Secondary average distance}\\[1em]
+S_{avg} &= \mathcal{A} \times\dfrac{M_1}{M_1+M_2} = \nu\,\mathcal{A} \qquad &&\text{Secondary average distance}\\[1em]
 S_{min} &= S_{avg}(1 - e) \qquad &&\text{Secondary minimum distance} \\[1em]
 S_{max} &= S_{avg}(1 + e) \qquad &&\text{Secondary maximum distance}
 \end{aligned}
@@ -102,23 +111,23 @@ $$
 e &= \dfrac{Max_\bullet - Min_{\bullet}}{Max_\bullet + Min_{\bullet}}
 \;\;=\;\; \left[1 - \dfrac{Min_{\bullet}}{Avg_{\bullet}}\right]
 \;\;=\;\; \left[\dfrac{Max_{\bullet}}{Avg_{\bullet}} - 1\right] \\[1em]
-&= \left(P_{max} \times \dfrac{M_P + M_S}{\mathcal{A} \times M_S}\right) - 1
-\quad = \quad 1 - \left(P_{min} \times \dfrac{M_P + M_S}{\mathcal{A} \times M_S}\right) \\[1em]
-&= \left(S_{max} \times \dfrac{M_P + M_S}{\mathcal{A} \times M_P}\right) - 1
-\quad = \quad 1 - \left(S_{min} \times \dfrac{M_P + M_S}{\mathcal{A} \times M_P}\right) \\[1em]
+&= \left(P_{max} \times \dfrac{M_1 + M_2}{\mathcal{A} \times M_2}\right) - 1
+\quad = \quad 1 - \left(P_{min} \times \dfrac{M_1 + M_2}{\mathcal{A} \times M_2}\right) \\[1em]
+&= \left(S_{max} \times \dfrac{M_1 + M_2}{\mathcal{A} \times M_1}\right) - 1
+\quad = \quad 1 - \left(S_{min} \times \dfrac{M_1 + M_2}{\mathcal{A} \times M_1}\right) \\[1em]
 \end{aligned}
 $$
 #### The Crux Metric ($\acute{e}$)
 > The circle $_{\circ}$ subscript is used to indicate expressions in which all terms share the **same positional magnitude** (e.g., max, min, or average), regardless of parameter type.
 $$
 \begin{aligned}
-\acute{e} = \dfrac{M_P - M_S}{M_P + M_S}
+\acute{e} = \dfrac{M_1 - M_2}{M_1 + M_2}
 = \dfrac{|S_{\circ} - P_{\circ}|}{S_{\circ} + P_{\circ}} 
 = \dfrac{|S_{\circ} - P_{\circ}|}{T_{\circ}}
 \end{aligned}
 $$
-- $é$ (e-prime) is the system eccentricity value at which the orbits of the stars become *_adjoined tangential_* $(e > 0; M_P \neq M_S)$
-- For a mass ratio of $^{M_S}/_{M_P} = 0.8$, the system requires $\acute{e} ≥ 0.8519$ for the primary and secondary orbits to adjoin tangentially (see below).
+- $é$ (e-prime) is the system eccentricity value at which the orbits of the stars become *_adjoined tangential_* $(e > 0; M_1 \neq M_2)$
+- For a mass ratio of $^{M_2}/_{M_1} = 0.8$, the system requires $\acute{e} ≥ 0.8519$ for the primary and secondary orbits to adjoin tangentially (see below).
 
 
 # Relative Orbit of the Secondary
@@ -134,7 +143,7 @@ For instance, in the case of the Earth-Sun system:
 $$
 \begin{aligned}
 \mathcal{A} &= 1.0 AU \\[0.5em]
-P_{avg} &= \mathcal{A} \times\dfrac{M_S}{M_P+M_S} \\[1em]
+P_{avg} &= \mu\,\mathcal{A} \\[1em]
 &= 1.0 \times \frac{1}{333000+1} \\[1em]
 &= 1.0 \times \frac{1}{333001} = 3.009299 \times 10^{-6} AU \\[1.5em]
 1 \text{ AU } &= 1.496 \times 10^6 \text{ km} \\
@@ -143,67 +152,35 @@ P_{avg} &= \mathcal{A} \times\dfrac{M_S}{M_P+M_S} \\[1em]
 $$
 
 Considering that the Sun’s radius is $696{,}340$ km, a wobble of only $≈ 450$ km ($\approx 0.065\%$) is justifiably negligible, so the math works out well enough by just treating the Sun as stationary and the Earth as orbiting it.
-# Barycentrics
-Similarly to the Relative Orbit of the Secondary, when dealing with a system where $M_S ≈ M_P$, it becomes more convenient to think of the masses as stationary and their barycenter "orbiting" between them. **|graphic to be added|**
-$$
-\begin{aligned}
-B_{min} &=   \frac{\mathcal{a}(1 - e)\; M_S}{M_P + M_S} 
-= \frac{T_{min}\; M_S}{M_P + M_S} = B_{avg}(1 - e) = \mathbf{P_{min}} \\[2em]
-B_{avg} &= \frac{\mathcal{a}\; M_S}{M_P + M_S} = \mathbf{P_{avg}} \\[2em]
-B_{max} &= \frac{\mathcal{a}(1 + e)\; M_S}{M_P + M_S} 
-= \frac{T_{max}\; M_S}{M_P + M_S} = B_{avg}(1 + e) = \mathbf{P_{max}}
-\end{aligned}
-$$
-Where:
-- $\mathcal{a}$ = the average separation between the Primary in and the Secondary expressed in terms of the radius of the Primary
-- $M_P$ = the mass of the Primary
-- $M_S$ = the mass of the Secondary
-- $e$ = the eccentricity of the system
-
-If the mass of the Secondary ($M_S$) is expressed in terms of the mass of the Primary ($M_P$) the equations become:
-$$
-\begin{aligned}
-M_0 &= \frac{M_S}{M_P} \\[1em]
-B_{min} &= \frac{\mathcal{a}(1 - e)\; M_0}{M_0 + 1} 
-= \frac{T_{min}\; M_0}{M_0 + 1} = B_{avg}(1 - e) = \mathbf{P_{min}} \\[2em]
-B_{avg} &= \frac{\mathcal{a}\; M_0}{M_0 + 1} = \mathbf{P_{avg}} \\[2em]
-B_{max} &= \frac{\mathcal{a}(1 + e)\; M_0}{M_0 + 1} 
-= \frac{T_{max}\; M_0}{M_0 + 1} = B_{avg}(1 + e) = \mathbf{P_{max}}
-\end{aligned}
-$$
-Note that in both sets of equations, the math works out such that the dimensions of the barycenter's "orbit" *precisely match* those of the Primary's orbit; this is incredibly convenient, as it allows us to directly compare the geometry of the barycenter's orbit to the physical dimensions of the Primary, in particular the Primary's radius ($R_P$) — more on this below.
-
 # Constant Equalities
 Some relationships between the masses of the Primary and Secondary and their related orbital separations are constant:
 $$
 \begin{aligned}
-&\frac{S_\circ}{P_\circ} = \frac{M_P}{M_S} \qquad
-&&\frac{P_\circ}{S_\circ} = \frac{M_S}{M_P} \\[1em]
-&\frac{P_\circ}{T_\circ} = \frac{M_S}{M_P + M_S}   \qquad
-&&\frac{S_\circ}{T_\circ} = \frac{M_P}{M_P + M_S} \\[1em]
-&\frac{T_\circ}{P_\circ} = \frac{M_P}{M_S} + 1   \qquad
-&&\frac{T_\circ}{S_\circ} = \frac{M_S}{M_P} + 1 \\[3em]
+&\varrho = \frac{M_2}{M_1} = \frac{P_\circ}{S_\circ} \qquad
+&&\varphi = \frac{M_1}{M_2} = \frac{S_\circ}{P_\circ}\\[1em]
+&\mu = \frac{P_\circ}{T_\circ} = \frac{M_2}{M_1 + M_2}   \qquad
+&&\nu = \frac{S_\circ}{T_\circ} = \frac{M_1}{M_1 + M_2} \\[1em]
+&\frac{T_\circ}{S_\circ} = \frac{M_2}{M_1} + 1 = \varrho + 1   \qquad
+&&\frac{T_\circ}{P_\circ} = \frac{M_1}{M_2} + 1 = \varphi + 1 \\[3em]
 &\frac{Min_\bullet}{Max_\bullet} = \frac{1 - e}{1 + e} \qquad
 &&\frac{Max_\bullet}{Min_\bullet} = \frac{1 + e}{1 - e}
 \end{aligned}
 $$
 
-Again, if the mass of the Secondary ($M_S$) is expressed in terms of the mass of the Primary ($M_P$), the equations become:
+Again, if the mass of the Secondary ($M_2$) is expressed in terms of the mass of the Primary ($M_1$), the equations become:
+
 $$
 \begin{aligned}
-&M_0 = \frac{M_S}{M_P} \\[1em]
-&\frac{S_\circ}{P_\circ} = \frac{1}{M_0} \qquad
-&&\frac{P_\circ}{S_\circ} = M_0 \\[1em]
-&\frac{P_\circ}{T_\circ} = \frac{M_0}{M_0 + 1}   \qquad
-&&\frac{S_\circ}{T_\circ} = \frac{1}{M_0 + 1} \\[1em]
-&\frac{T_\circ}{P_\circ} = \frac{1}{M_0} + 1   \qquad
-&&\frac{T_\circ}{S_\circ} = M_0 + 1 \\[3em]
-&\frac{Min_\bullet}{Max_\bullet} = \frac{1 - e}{1 + e} \qquad
-&&\frac{Max_\bullet}{Min_\bullet} = \frac{1 + e}{1 - e}
+&\frac{S_\circ}{P_\circ} = \frac{1}{\varrho} = \varphi \qquad
+&&\frac{P_\circ}{S_\circ} = \varrho = \frac{1}{\varphi} \\[1em]
+&\frac{P_\circ}{T_\circ} = \frac{\varrho}{\varrho + 1}   \qquad
+&&\frac{S_\circ}{T_\circ} = \frac{1}{\varrho + 1} \\[1em]
+&\frac{T_\circ}{P_\circ} = \frac{1}{\varrho} + 1   \qquad
+&&\frac{T_\circ}{S_\circ} = \varrho + 1
 \end{aligned}
 $$
 
-## Mass Pairings
+## Stellamon Mass Pairings
 Solar analog stars are more often than not found in binary or multiple systems than not, with over half exhibiting multiplicity.
 
 - **Duquennoy & Mayor (1991)** originally found that approximately **57%** of solar-type stars (spectral types F6-K3 — more-or-less what WCB calls **Solar Cognates**) in the solar neighborhood are part of binary or higher-order systems.
