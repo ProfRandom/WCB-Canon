@@ -2,52 +2,42 @@
 title: ""
 ---
 
-
 ## Abstract  
 **Major Topics:**  
-- Introduces the **fundamental geometry and parameters of binary star systems**.  
-- Defines **primary** ($M_1$) and **secondary** ($M_2$) bodies, their relationship to the **barycenter** (ḅ), and how mass ratio determines orbital extent.  
-- Derives nine key **dimensional parameters** of binary motion: minimum, average, and maximum separations for the total system ($T$), the primary ($P$), and the secondary ($S$).  
-- Establishes core formulas linking:  
-  - barycentric distances ($P_\bullet$, $S_\bullet$) to total separation ($T_\bullet$),  
-  - orbital **eccentricity** ($e$) to maximum/minimum/average positions, and  
-  - constant proportionalities between stellar **mass ratios** and **orbital distances**.  
-- Introduces the **Crux Metric** ($\acute{e}$) — the eccentricity at which unequal-mass orbits become tangentially adjoined.  
-- Explains **relative-orbit simplification**, where the more massive body is treated as stationary when $M_1 \gg M_2$.  
-- Defines **barycentric motion** equivalence: the barycenter’s “orbit” mirrors that of the primary, scaled by mass ratio.  
-- Summarizes **constant equalities** that remain invariant across all binary configurations.  
-- Incorporates **observational context** for multiplicity among solar-type stars (Duquennoy & Mayor 1991; Raghavan et al. 2010).  
-- Develops an **empirical model of companion-mass trends** (Moe & Di Stefano 2017; Li et al. 2022) showing that primary spectral class constrains secondary mass range.  
-- Provides a **stochastic formulation** for secondary mass selection:  
-  $$M_2 = M_1 \times ⟨⟨a ∧ b⟩⟩^{k}$$  
-  with optional bias exponent $k$ to emulate observed distributions.  
-- Discusses **orbital-eccentricity limits** ensuring physical separation ($T_{min} ≥ 0.10$ AU).  
-- Outlines the **period–eccentricity relation** and its physical origin in **tidal circularization**, linking orbital period to eccentricity damping timescales.  
-- Summarizes observed regimes (short-, intermediate-, and long-period binaries) and anomalies driven by third-body interactions or post-transfer effects.  
+- Defines the **fundamental geometric and mass relationships** governing all binary and barycentric systems in the WCB framework.  
+- Establishes nine primary **dimensional parameters** describing the separations between the two bodies and their barycenter:  
+  - **System dimensions (Tₘᵢₙ, 𝒜, Tₘₐₓ)** — minimum, average, and maximum separations between the two bodies.  
+  - **Primary dimensions (Pₘᵢₙ, Pₐᵥg, Pₘₐₓ)** — corresponding distances of the primary from the barycenter.  
+  - **Secondary dimensions (Sₘᵢₙ, Sₐᵥg, Sₘₐₓ)** — distances of the secondary from the barycenter.  
+- Introduces the **mass-fraction system**:  
+  - **μ = M₂ / (M₁ + M₂)** — secondary mass fraction (defines the primary’s barycentric orbit).  
+  - **ν = M₁ / (M₁ + M₂)** — primary mass fraction (defines the secondary’s barycentric orbit).  
+  - Demonstrates that **Pₐᵥg = μ 𝒜** and **Sₐᵥg = ν 𝒜**, preserving μ + ν = 1.  
+- Defines the complementary **simple mass ratios** for direct comparison:  
+  - **ϱ = M₂ / M₁** (secondary-to-primary ratio).  
+  - **φ = M₁ / M₂** (primary-to-secondary ratio).  
+  - Relates these to the barycentric fractions through μ = ϱ / (1 + ϱ) and ν = φ / (1 + φ).  
+- Derives complete expressions for all nine binary dimensions as functions of 𝒜, e, μ, and ν, establishing the standard WCB notation for barycentric geometry.  
+- Provides **eccentricity equivalences** for any paired parameter set and introduces the **Crux Metric (é)** — a measure of orbital tangency and mass asymmetry, identifying the threshold at which primary and secondary orbits adjoin.  
+- Demonstrates limiting cases (hierarchical vs. co-dominant) and applies the framework to the **Sun–Earth** system as validation.  
 
 **Key Terms & Symbols:**  
-- **$M_1$, $M_2$** — primary and secondary masses.  
-- **$\mathcal{A}$** — average separation of binary components.  
-- **$T_{min}$, $T_{max}$** — minimum and maximum stellar separations.  
-- **$P_\bullet$, $S_\bullet$** — barycentric distances of primary and secondary.  
-- **$e$** — orbital eccentricity.  
-- **$\acute{e}$** — *Crux Metric*, eccentricity where orbits adjoin tangentially.  
-- **$\bar{e}$** — limiting eccentricity ensuring $T_{min} ≥ 0.10$ AU.  
-- **$k$** — weighting exponent for stochastic mass pairing.  
-- **$\mu$** — binary mass ratio = $M_2 / (M_1 + M_2)$.  
-- **$P_{circ}$** — circularization period threshold (~10 days for solar-type systems).  
+- **M₁, M₂** — primary and secondary masses.  
+- **μ, ν** — barycentric mass fractions (secondary / primary).  
+- **ϱ, φ** — simple mass ratios (secondary ↔ primary).  
+- **𝒜** — mean system separation (semi-major axis).  
+- **e** — orbital eccentricity.  
+- **P₍•₎, S₍•₎, T₍•₎** — primary, secondary, and total orbital dimensions (min/avg/max).  
+- **é (Crux Metric):** eccentricity at which orbits become tangential.  
 
 **Cross-Check Notes:**  
-- Complements **Stars 1 — Basics** by applying stellar parameters to multi-body configurations.  
-- Establishes a quantitative basis for subsequent sections on **Roche geometry**, **Hill spheres**, and **orbital stability zones**.  
-- Provides canonical formulae and constants for world-building applications involving binary or multiple stellar systems.  
+- Supersedes earlier drafts that duplicated barycentric expressions.  
+- Aligns μ, ν, ϱ, φ notation with the **Stellamonic** and **Stereomonic** frameworks of *Meta 1 — Principles*.  
+- Provides the algebraic foundation for subsequent modules: *Binaries 2 — Star Systems and Planemon Orbits* and *Binaries 6 — Barycentric Geometry*.  
 
-
-
-
-
-This section focuses on binary systems in general. While higher-multiplicity arrangements are common and fascinating, they introduce significant mathematical and physical complexity beyond the current scope of this guide.
 # The Basics
+This section focuses on binary systems in general. While higher-multiplicity arrangements are common and fascinating, they introduce significant mathematical and physical complexity beyond the current scope of this guide.
+
 Binary systems consist of two bodies bound in a mutual gravitational relationship, each tracing an orbital path around a shared center of mass known as the **barycenter** (_ḅ_). This point, ||shown as a black X in the figure||, _always_ lies along the line connecting the centers of the two bodies and is not a massive object itself, but a calculated position determined by the masses and separation of the components.
 
 When the two objects are of unequal masses ($M_2 < M_1$), the more massive object (the **primary body**) orbits on an elliptical path, on average closer to the barycenter, while the **secondary body** traces a *larger* elliptical path on average farther from the barycenter. Both orbits share the same eccentricity ($e$), and are synchronized in period, preserving the balance of angular momentum.  They differ only in extent.
