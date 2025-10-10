@@ -3,7 +3,7 @@ title: ""
 ---
 
 
-## Abstract  
+## Abstract  1 
 **Major Topics:**  
 - Defines **five fundamental physical properties** of monons:  
   - **Mass (m):** total matter present (distinct from weight).  
@@ -28,6 +28,130 @@ title: ""
 - **Inverse-square law [sci]** already established in stellar/orbital contexts.  
 - **Sed ego dico [meta]** consistent with existing editorial conventions.  
 - **Status:** [EXPANDED] — reinforces existing canon with emphasis on emergent and interdependent properties.  
+
+## Abstract  2
+**Major Topics:**  
+- Establishes that **monon masses are numerically defined** and serve only as measurements — not as categorical labels for world type.  
+- Defines the **WCB symbolic mass intervals**, logarithmically divided by powers of ten relative to Earth mass (⨁).  
+- Introduces symbolic naming scheme:  
+  - **Below 1 ⨁:** intervals use “-i” endings (e.g., microterran, centiterran).  
+  - **Above 1 ⨁:** intervals use “-o” endings (e.g., kiloterran, gigaterran).  
+  - Where SI prefixes exist (e.g., kilo-, mega-), WCB adopts them directly.  
+- Provides explicit table of intervals from **deniterran (10⁻¹⁰ ⨁)** through **teraterran (10¹² ⨁)**.  
+- Clarifies rounding rules: each interval spans up to one demiterran (10⁻⁴ ⨁) less than the next power of ten; bodies at the threshold round upward.  
+- Notes practical importance of **negative intervals** for moons, asteroids, and micro-monons.  
+- Introduces the **Microterran Scale (μt)**:  
+  - A shorthand symbolic scale for masses between 10⁻⁶ ⨁ and 10⁻¹ ⨁.  
+  - Improves readability and narrative clarity for small bodies (e.g., Ceres, Miranda, Vesta).  
+  - Allows statements like “Ceres is 157 μt” instead of 0.000157 ⨁.  
+
+**Key Terms & Symbols:**  
+- **Symbolic Mass Intervals [NEW]:** deniterran, nanoterran, oktiterran, septiterran, microterran, pentiterran, demiterran, milliterran, centiterran, deciterran, terran, dekaterran, hectoterran, kiloterran, myriaterran, hexaterran, megaterran, heptoterran, octoterran, gigaterran, denoterran, ondoterran, teraterran.  
+- **Microterran Scale (μt) [NEW].**  
+- **⨁ (Terran mass unit) [ins].**  
+
+**Cross-Check Notes:**  
+- Neither symbolic intervals nor the μ-terran scale appeared in prior canon abstracts.  
+- This is the **first introduction** of a systematic symbolic framework for monon mass measurement.  
+- **Status:** [NEW] — establishes an entirely new symbolic measurement system for monon masses.  
+
+## Abstract  3
+**Major Topics:**  
+- Introduces methods for **estimating the strength and extent of planetary magnetospheres** using simplified dynamo scaling laws.  
+- Defines the planetary **magnetic moment (M)** as the primary parameter, derived from core radius (rc), core density (ρc), and rotation period (d).  
+- Relates magnetic moment to **surface magnetic field strength (Bsurf)** through empirical scaling relations.  
+- Discusses how **exponents (p, q, r)** in these formulas vary across different dynamo models (e.g., Stevenson, Driscoll & Olson).  
+- Emphasizes the protective role of magnetospheres in shielding planetary atmospheres from stellar wind and cosmic radiation, with implications for long-term **habitability**.  
+- Provides normalized formulas for use in worldbuilding, with Terran values as benchmarks.  
+
+**Key Terms & Symbols:**  
+- **M (Magnetic Moment):** Strength of a planet’s magnetic field.  
+- **Bsurf (Surface Magnetic Field Strength):** Field strength at planetary surface.  
+- **rc (Core Radius):** Planetary core radius (relative to Earth).  
+- **ρc (Core Density):** Planetary core density (relative to Earth).  
+- **d (Day Length):** Rotation period of the planet.  
+- **p, q, r:** Exponents in dynamo scaling laws.  
+
+**Cross-Check Notes:**  
+- No duplicate abstract exists; this is the **canonical magnetosphere reference**.  
+- Glossary updates required for **M, Bsurf, and dynamo scaling exponents (p, q, r)**.  
+- Closely related to notes on **habitability envelopes, atmospheric retention, and stellar wind interaction**.  
+
+## Abstract  4
+
+**Major Topics:**  
+- Extended parameters for defining geotic (human-hospitable) conditions.  
+- Habitability ranges for rotation period (D), orbital eccentricity (e), orbital period (C), axial tilt (εₓ), precession cycle (χ), and obliquity azimuth (ζₙ).  
+- Magnetosphere strength (Bsurf) as radiation shielding criterion.  
+- Atmospheric baseline conditions: pressure, scale height, composition, ozone presence.  
+- Surface balance of land and water.  
+- Geotic gravity corridor (0.5–1.5 ⨁) as strict human-hospitable bound.  
+
+**Key Terms & Symbols:**  
+- **D** — Rotational period (diurn length).  
+- **e** — Orbital eccentricity.  
+- **C** — Orbital period (sidereal chronum).  
+- **εₓ** — Axial tilt (obliquity).  
+- **χ** — Axial precession cycle.  
+- **ζₙ** — Obliquity azimuth relative to periapsis.  
+- **Bsurf** — Surface magnetic field strength (μT).  
+- **Tₛ** — Average surface temperature (K).  
+- **H** — Atmospheric scale height (km).  
+- **g** — Surface gravity (⨁).  
+- Land–sea distribution (lithosphere–hydrosphere balance).  
+
+**Cross-Check Notes:**  
+- Reinforces prior geotic bounds with expanded atmospheric, rotational, orbital, and magnetic criteria.  
+- Clarifies *why* gravity corridor (0.5–1.5 ⨁) defines Geotic worlds: outside this, monons may be Telluric/parahabitable but not Geotic.  
+- Orbital period C not freely chosen: constrained by Kepler’s Third Law, tying world design to stellar parameters.  
+- Magnetosphere thresholds emphasize that both too weak and too strong fields can undermine habitability.  
+- Complements and extends core Geotic definitions; functions as a reference sheet for designers setting secondary parameters.  
+
+## Abstract 5
+**Major Topics:**  
+- Five core monon parameters: mass (m), density (ρ), surface gravity (g), escape velocity (vₑ), and radius (r).  
+- Distinction between **physical properties** (m, ρ) and **emergent properties** (g, vₑ, r).  
+- WCB convention: density (ρ) treated as **uncompressed density** to avoid recursive modeling.  
+- Symbolic precedence hierarchy:  
+  1. Mass (m), Uncompressed Density (ρ) — composition-driven.  
+  2. Surface Gravity (g), Escape Velocity (vₑ) — experiential.  
+  3. Radius (r) — emergent.  
+- Validation: computed values for g, vₑ, and r from Geotic-range m and ρ remain within acceptable Geotic bounds.  
+
+**Key Terms & Symbols:**  
+- m = mass.  
+- ρ = uncompressed density.  
+- g = surface gravity.  
+- vₑ = escape velocity.  
+- r = radius (emergent).  
+- Geotic range: ⟨0.5 ∧ 1.5⟩⨁.  
+- Order of calculation: begin with m and ρ for valid outputs.  
+
+**Cross-Check Notes:**  
+- Canonical clarification: radius (r) is *not* arbitrarily chosen — it emerges from m and ρ.  
+- Replaces recursive compression modeling with a WCB-friendly simplification.  
+- Geotic range justification links to habitability framework.  
+- Integrates with prior note **Example: When Good Values Go Bad** (edge-case validation).  
+- Ensure consistent update: “WCB” → “WCB” across this file and related notes.  
+
+## Abstract  6
+**Major Topics:**  
+- Defines a **symbolic grammar for constraints**:  
+  - **Evaluative** (truth tests), **Comparative** (descriptions), **Prescriptive** (soft rules), **Mandative** (hard rules).  
+- Introduces **range connectives** for closed, open, half-open, and exterior ranges (∧, ∨, ⩜, ⩝, ⊼, ⩟, ⊽, ⩡).  
+- Establishes **random assignment syntax** with ⟨⟨ ⟩⟩ brackets to select values from ranges, including mandated vs. optional assignments.  
+- Adds the **precision inference rule**: result precision matches the most precise endpoint.  
+- Provides **axiomatic justification** (WCB Axiom 7.1 — Symbolcrafter’s Creed) for including a wide range of connectives to preserve semantic completeness.  
+
+**Key Terms & Symbols:**  
+- Constraint operators: `≤.`, `.≤`.  
+- Range connectives: ∧, ∨, ⩜, ⩝, ⊼, ⩟, ⊽, ⩡.  
+- Randomization operator: ⟨⟨ ⟩⟩.  
+- Precision inference rule.  
+
+**Cross-Check Notes:**  
+- **[NEW]** All notation is new [ins] — no overlaps with existing canon.  
+- Serves as the **symbolic foundation** for other randomization methods (e.g., Orbit Randomization).  
 
 ## Physical Properties of Monons
 
@@ -61,31 +185,7 @@ And all of these materials have their own inherent densities.  Water, for instan
 
 
 
-## Abstract  
-**Major Topics:**  
-- Establishes that **monon masses are numerically defined** and serve only as measurements — not as categorical labels for world type.  
-- Defines the **WCB symbolic mass intervals**, logarithmically divided by powers of ten relative to Earth mass (⨁).  
-- Introduces symbolic naming scheme:  
-  - **Below 1 ⨁:** intervals use “-i” endings (e.g., microterran, centiterran).  
-  - **Above 1 ⨁:** intervals use “-o” endings (e.g., kiloterran, gigaterran).  
-  - Where SI prefixes exist (e.g., kilo-, mega-), WCB adopts them directly.  
-- Provides explicit table of intervals from **deniterran (10⁻¹⁰ ⨁)** through **teraterran (10¹² ⨁)**.  
-- Clarifies rounding rules: each interval spans up to one demiterran (10⁻⁴ ⨁) less than the next power of ten; bodies at the threshold round upward.  
-- Notes practical importance of **negative intervals** for moons, asteroids, and micro-monons.  
-- Introduces the **Microterran Scale (μt)**:  
-  - A shorthand symbolic scale for masses between 10⁻⁶ ⨁ and 10⁻¹ ⨁.  
-  - Improves readability and narrative clarity for small bodies (e.g., Ceres, Miranda, Vesta).  
-  - Allows statements like “Ceres is 157 μt” instead of 0.000157 ⨁.  
 
-**Key Terms & Symbols:**  
-- **Symbolic Mass Intervals [NEW]:** deniterran, nanoterran, oktiterran, septiterran, microterran, pentiterran, demiterran, milliterran, centiterran, deciterran, terran, dekaterran, hectoterran, kiloterran, myriaterran, hexaterran, megaterran, heptoterran, octoterran, gigaterran, denoterran, ondoterran, teraterran.  
-- **Microterran Scale (μt) [NEW].**  
-- **⨁ (Terran mass unit) [ins].**  
-
-**Cross-Check Notes:**  
-- Neither symbolic intervals nor the μ-terran scale appeared in prior canon abstracts.  
-- This is the **first introduction** of a systematic symbolic framework for monon mass measurement.  
-- **Status:** [NEW] — establishes an entirely new symbolic measurement system for monon masses.  
 
 # Principle of Mass Measurement
 
@@ -173,27 +273,7 @@ Because so many significant bodies in a stellamon system have masses best expres
 > **In short:** The μt unit supports clarity without abandoning scalar precision — a vital aid to both symbolic modeling and thesiastic storytelling.
 
 
-## Abstract  
-**Major Topics:**  
-- Introduces methods for **estimating the strength and extent of planetary magnetospheres** using simplified dynamo scaling laws.  
-- Defines the planetary **magnetic moment (M)** as the primary parameter, derived from core radius (rc), core density (ρc), and rotation period (d).  
-- Relates magnetic moment to **surface magnetic field strength (Bsurf)** through empirical scaling relations.  
-- Discusses how **exponents (p, q, r)** in these formulas vary across different dynamo models (e.g., Stevenson, Driscoll & Olson).  
-- Emphasizes the protective role of magnetospheres in shielding planetary atmospheres from stellar wind and cosmic radiation, with implications for long-term **habitability**.  
-- Provides normalized formulas for use in worldbuilding, with Terran values as benchmarks.  
 
-**Key Terms & Symbols:**  
-- **M (Magnetic Moment):** Strength of a planet’s magnetic field.  
-- **Bsurf (Surface Magnetic Field Strength):** Field strength at planetary surface.  
-- **rc (Core Radius):** Planetary core radius (relative to Earth).  
-- **ρc (Core Density):** Planetary core density (relative to Earth).  
-- **d (Day Length):** Rotation period of the planet.  
-- **p, q, r:** Exponents in dynamo scaling laws.  
-
-**Cross-Check Notes:**  
-- No duplicate abstract exists; this is the **canonical magnetosphere reference**.  
-- Glossary updates required for **M, Bsurf, and dynamo scaling exponents (p, q, r)**.  
-- Closely related to notes on **habitability envelopes, atmospheric retention, and stellar wind interaction**.  
 
 # Estimating Planetary Magnetospheres
 
@@ -242,35 +322,10 @@ Or simply provide example profiles:
 
 - Earth: ρ = 1.0⨁, d = 24h → $B_{surf}$ ∈ ⟨25 ∧ 65> μT    
 - Super-Earth: ρ = 1.3⨁, d = 16h → $B_{surf}$ ∈ ⟨80 ..120⟩ μT    
-- Mars: ρ = 0.71⨁, d = 24.6h → $B_{surf}$ ≈ 0 μT (solid core)## Abstract  
+- Mars: ρ = 0.71⨁, d = 24.6h → $B_{surf}$ ≈ 0 μT (solid core)
 
-**Major Topics:**  
-- Extended parameters for defining geotic (human-hospitable) conditions.  
-- Habitability ranges for rotation period (D), orbital eccentricity (e), orbital period (C), axial tilt (εₓ), precession cycle (χ), and obliquity azimuth (ζₙ).  
-- Magnetosphere strength (Bsurf) as radiation shielding criterion.  
-- Atmospheric baseline conditions: pressure, scale height, composition, ozone presence.  
-- Surface balance of land and water.  
-- Geotic gravity corridor (0.5–1.5 ⨁) as strict human-hospitable bound.  
 
-**Key Terms & Symbols:**  
-- **D** — Rotational period (diurn length).  
-- **e** — Orbital eccentricity.  
-- **C** — Orbital period (sidereal chronum).  
-- **εₓ** — Axial tilt (obliquity).  
-- **χ** — Axial precession cycle.  
-- **ζₙ** — Obliquity azimuth relative to periapsis.  
-- **Bsurf** — Surface magnetic field strength (μT).  
-- **Tₛ** — Average surface temperature (K).  
-- **H** — Atmospheric scale height (km).  
-- **g** — Surface gravity (⨁).  
-- Land–sea distribution (lithosphere–hydrosphere balance).  
 
-**Cross-Check Notes:**  
-- Reinforces prior geotic bounds with expanded atmospheric, rotational, orbital, and magnetic criteria.  
-- Clarifies *why* gravity corridor (0.5–1.5 ⨁) defines Geotic worlds: outside this, monons may be Telluric/parahabitable but not Geotic.  
-- Orbital period C not freely chosen: constrained by Kepler’s Third Law, tying world design to stellar parameters.  
-- Magnetosphere thresholds emphasize that both too weak and too strong fields can undermine habitability.  
-- Complements and extends core Geotic definitions; functions as a reference sheet for designers setting secondary parameters.  
 
 
 # Extended Geotic Habitability Guidelines
@@ -464,32 +519,7 @@ but we didn't really explain _why_ those are our bounds.  What _are_ the physica
 
 > **Keppy**: But some life forms _might_ still evolve on worlds like these...?
 
-Yes, with the caveats listed above.  The point, here, though, is that while gravities outside the g ∈ ⟨0.5 ∧ 1.5⟩⨁ range are _certainly_ possible — even _probable_ — and while life _might evolve_ under these conditions, these worlds would be Tellurics in the _parahabitable_ range, outside even _habitable_, and certainly not _hospitable to humans_ which is our core criterion for **Geotic worlds**.## Abstract
-**Major Topics:**  
-- Five core monon parameters: mass (m), density (ρ), surface gravity (g), escape velocity (vₑ), and radius (r).  
-- Distinction between **physical properties** (m, ρ) and **emergent properties** (g, vₑ, r).  
-- WCB convention: density (ρ) treated as **uncompressed density** to avoid recursive modeling.  
-- Symbolic precedence hierarchy:  
-  1. Mass (m), Uncompressed Density (ρ) — composition-driven.  
-  2. Surface Gravity (g), Escape Velocity (vₑ) — experiential.  
-  3. Radius (r) — emergent.  
-- Validation: computed values for g, vₑ, and r from Geotic-range m and ρ remain within acceptable Geotic bounds.  
-
-**Key Terms & Symbols:**  
-- m = mass.  
-- ρ = uncompressed density.  
-- g = surface gravity.  
-- vₑ = escape velocity.  
-- r = radius (emergent).  
-- Geotic range: ⟨0.5 ∧ 1.5⟩⨁.  
-- Order of calculation: begin with m and ρ for valid outputs.  
-
-**Cross-Check Notes:**  
-- Canonical clarification: radius (r) is *not* arbitrarily chosen — it emerges from m and ρ.  
-- Replaces recursive compression modeling with a WCB-friendly simplification.  
-- Geotic range justification links to habitability framework.  
-- Integrates with prior note **Example: When Good Values Go Bad** (edge-case validation).  
-- Ensure consistent update: “WCB” → “WCB” across this file and related notes.  
+Yes, with the caveats listed above.  The point, here, though, is that while gravities outside the g ∈ ⟨0.5 ∧ 1.5⟩⨁ range are _certainly_ possible — even _probable_ — and while life _might evolve_ under these conditions, these worlds would be Tellurics in the _parahabitable_ range, outside even _habitable_, and certainly not _hospitable to humans_ which is our core criterion for **Geotic worlds**.
 
 
 # Close-focus on Parameter Precedence
@@ -598,25 +628,6 @@ However:
 > - Guarantee valid outputs for _g_, _vₑ_, and _r_ if kept within the Geotic range    
 
 By anchoring your model in _m_ and _ρ_, you ensure that all derived parameters remain within acceptable bounds — streamlining your creative process and avoiding invalid combinations.
-## Abstract  
-**Major Topics:**  
-- Defines a **symbolic grammar for constraints**:  
-  - **Evaluative** (truth tests), **Comparative** (descriptions), **Prescriptive** (soft rules), **Mandative** (hard rules).  
-- Introduces **range connectives** for closed, open, half-open, and exterior ranges (∧, ∨, ⩜, ⩝, ⊼, ⩟, ⊽, ⩡).  
-- Establishes **random assignment syntax** with ⟨⟨ ⟩⟩ brackets to select values from ranges, including mandated vs. optional assignments.  
-- Adds the **precision inference rule**: result precision matches the most precise endpoint.  
-- Provides **axiomatic justification** (WCB Axiom 7.1 — Symbolcrafter’s Creed) for including a wide range of connectives to preserve semantic completeness.  
-
-**Key Terms & Symbols:**  
-- Constraint operators: `≤.`, `.≤`.  
-- Range connectives: ∧, ∨, ⩜, ⩝, ⊼, ⩟, ⊽, ⩡.  
-- Randomization operator: ⟨⟨ ⟩⟩.  
-- Precision inference rule.  
-
-**Cross-Check Notes:**  
-- **[NEW]** All notation is new [ins] — no overlaps with existing canon.  
-- Serves as the **symbolic foundation** for other randomization methods (e.g., Orbit Randomization).  
-
 # Range Constraints & Random Assignment
 
 ## 🧱 Core Constraint Classes

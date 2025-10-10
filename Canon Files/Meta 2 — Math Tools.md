@@ -3,7 +3,7 @@ title: ""
 ---
 
 
-## Abstract
+## Abstract 1
 **Major Topics:**  
 - Comprehensive algebraic toolkit for ellipse geometry and orbital mechanics.  
 - Full glossary of ellipse parameters: semi-major axis (a), semi-minor axis (b), linear eccentricity (c), eccentricity (e), flattening (f), axes (i, j), vertices, co-vertices, foci.  
@@ -31,6 +31,58 @@ title: ""
 - Directrix is definitional: appears in geometry but not physical orbits (noted explicitly).  
 - “Solve the Rest” matrix designed for symbolic algebra; reinforces WCB’s **SANC** approach.  
 - Overlaps with **Orbital Eccentricity and Seasonal Effects.md** (use of rₚ, rₐ).  
+
+## Abstract 2
+**Major Topics:**  
+- Reference sheet of exponent and logarithm rules for worldbuilding math.  
+- General-use algebraic identities and transformations.  
+- Ratio, sum/difference, mean, product/quotient relationships between bounds.  
+- Percentage calculations and range transformations.  
+- Integer sequences, summations, odd/even sequences.  
+- Special transforms (involutive, reciprocal percentages).  
+- Generalized metallic mean formula.  
+- Point–slope and slope–intercept line equations.  
+- Temperature scale conversions (Fahrenheit, Celsius, Kelvin).  
+
+**Key Terms & Symbols:**  
+- Exponents, roots, logs (standard algebra rules).  
+- Variables for bounds: u (upper), l (lower), s (sum), d (difference), r (ratio), m (mean), p (product), q (quotient).  
+- Percentages: p, x, n, v.  
+- Σ = summation over integer ranges.  
+- Metallic mean: Nₓ.  
+- Line equations: slope (m), intercept (b), points (x₁, y₁), (x₂, y₂).  
+- Temperature variables: F (Fahrenheit), C (Celsius), K (Kelvin).  
+
+**Cross-Check Notes:**  
+- Functions as a **toolbox reference** rather than a conceptual note.  
+- Reinforces WCB’s **SANC** principle: simple, approximate, notationally clear.  
+- Purely mathematical — no worldbuilding-specific notation introduced beyond standard algebra.  
+- Should remain a **utility reference** to support other canon notes.  
+
+## Abstract  3
+**Major Topics:**  
+- Presents the **Euclidean Algorithm** as a systematic way to compute the **greatest common divisor (GCD)** of two integers.  
+- Algorithm steps:  
+  1. Start with integers a > b.  
+  2. Divide a by b, record remainder r.  
+  3. Replace a with b, b with r.  
+  4. Repeat until r = 0. The last non-zero remainder is the GCD.  
+- Provides both modular notation ($r = a \;mod\; b$) and longhand remainder calculation:  
+  $$
+  r = a - \left(b \times \left\lfloor \tfrac{a}{b} \right\rfloor \right)
+  $$  
+- Includes a complete worked example (2436, 1172 → gcd = 4), with step-by-step divisions.  
+- Notes applications in worldbuilding, especially for **simplifying ratios** and finding integer relationships in **synodic systems**.  
+
+**Key Terms & Symbols:**  
+- **Euclidean Algorithm [NEW].**  
+- **Greatest Common Divisor (GCD) [NEW].**  
+
+**Cross-Check Notes:**  
+- Neither term appeared in canon previously.  
+- This file establishes both as new canonical entries.  
+- **Status:** [NEW] — introduces Euclidean Algorithm and GCD into WCB canon with worked examples.  
+
 
 
 
@@ -142,32 +194,10 @@ Each row lists two known parameters and what you can solve from them using canon
 | c, e               | a, b, m            |                $a = \dfrac{c}{e},\ b = a\sqrt{1 - e^2},\ m = \dfrac{a}{e}$                 |
 | a, s               | m, e, c, b         |               $m = a + s,\ e = \dfrac{a}{m},\ c = ae,\ b = a\sqrt{1 - e^2}$                |
 | a, n               | m, c, e, b         |              $m = n + c,\ c = m - n,\ e = \dfrac{a}{m},\ b = a\sqrt{1 - e^2}$              |
-> 🔍 *Note: This matrix is designed for symbolic manipulation. Some results require substitution into multiple chained equations.*## Abstract
-**Major Topics:**  
-- Reference sheet of exponent and logarithm rules for worldbuilding math.  
-- General-use algebraic identities and transformations.  
-- Ratio, sum/difference, mean, product/quotient relationships between bounds.  
-- Percentage calculations and range transformations.  
-- Integer sequences, summations, odd/even sequences.  
-- Special transforms (involutive, reciprocal percentages).  
-- Generalized metallic mean formula.  
-- Point–slope and slope–intercept line equations.  
-- Temperature scale conversions (Fahrenheit, Celsius, Kelvin).  
+> 🔍 *Note: This matrix is designed for symbolic manipulation. Some results require substitution into multiple chained equations.*
+> 
 
-**Key Terms & Symbols:**  
-- Exponents, roots, logs (standard algebra rules).  
-- Variables for bounds: u (upper), l (lower), s (sum), d (difference), r (ratio), m (mean), p (product), q (quotient).  
-- Percentages: p, x, n, v.  
-- Σ = summation over integer ranges.  
-- Metallic mean: Nₓ.  
-- Line equations: slope (m), intercept (b), points (x₁, y₁), (x₂, y₂).  
-- Temperature variables: F (Fahrenheit), C (Celsius), K (Kelvin).  
-
-**Cross-Check Notes:**  
-- Functions as a **toolbox reference** rather than a conceptual note.  
-- Reinforces WCB’s **SANC** principle: simple, approximate, notationally clear.  
-- Purely mathematical — no worldbuilding-specific notation introduced beyond standard algebra.  
-- Should remain a **utility reference** to support other canon notes.  
+ 
 
 
 A reference sheet of exponent and logarithm rules useful in constructing systems of thermal, gravitational, orbital, and energetic relationships in scientifically-grounded worldbuilding.
@@ -717,30 +747,6 @@ $$
 > For example:  
 > - Correct: **273.15 K**  ✓
 > - Incorrect: **273.15 °K** – or – **273.15 degrees Kelvin**
-
-## Abstract  
-**Major Topics:**  
-- Presents the **Euclidean Algorithm** as a systematic way to compute the **greatest common divisor (GCD)** of two integers.  
-- Algorithm steps:  
-  1. Start with integers a > b.  
-  2. Divide a by b, record remainder r.  
-  3. Replace a with b, b with r.  
-  4. Repeat until r = 0. The last non-zero remainder is the GCD.  
-- Provides both modular notation ($r = a \;mod\; b$) and longhand remainder calculation:  
-  $$
-  r = a - \left(b \times \left\lfloor \tfrac{a}{b} \right\rfloor \right)
-  $$  
-- Includes a complete worked example (2436, 1172 → gcd = 4), with step-by-step divisions.  
-- Notes applications in worldbuilding, especially for **simplifying ratios** and finding integer relationships in **synodic systems**.  
-
-**Key Terms & Symbols:**  
-- **Euclidean Algorithm [NEW].**  
-- **Greatest Common Divisor (GCD) [NEW].**  
-
-**Cross-Check Notes:**  
-- Neither term appeared in canon previously.  
-- This file establishes both as new canonical entries.  
-- **Status:** [NEW] — introduces Euclidean Algorithm and GCD into WCB canon with worked examples.  
 
 
 # The Euclidean Algorithm

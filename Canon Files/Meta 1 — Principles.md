@@ -5,7 +5,7 @@ title: ""
 
 # Mononic and Morphological Axes  
 
-## Abstract  
+## Abstract  1
 **Major Topics:**  
 - Establishes a hierarchical classification of **mononic morphotypes**: monon categories defined by gravitational rounding, fusion status, and structural physics.  
 - Categories:  
@@ -30,6 +30,23 @@ title: ""
 - **Supermon, Ultramon, Hypermon** existed in mass interval tables, but this file adds full narrative definitions.  
 - **Intermon** is a new introduction.  
 - **Status:** [EXPANDED + NEW] — consolidates the mononic classification scheme; introduces Intermon
+
+## Abstract 2
+**Major Topics:**  
+- Definition of the **SANC Principle** (*Science-Adjacent, No Calculus*).  
+- Scope of mathematical tools for WCB: algebra, geometry, trigonometry.  
+- Exclusion of higher-level tools: calculus, tensors, advanced astrophysics.  
+- Guiding philosophy: “Rigor without rigidity.”  
+
+**Key Terms & Symbols:**  
+- SANC = Science-Adjacent, No Calculus.  
+
+**Cross-Check Notes:**  
+- Canon as of Glossary v1.212.  
+- Reinforces the methodological boundaries of WCB — mathematical accessibility for builders without requiring advanced formal training.  
+- Companion mottos: *Simple, Approximate, Notationally Clear* and *Sufficient and Necessary Constructs*.  
+
+# The Mononic Matrix
 
 All physical bodies (*monons*) in the WCB framework are described along two orthogonal axes:  
 their **Mononic class**, which defines scale and self-coherence,  
@@ -162,22 +179,6 @@ Thus:
 
 
 # 🔑 The SANC Principle
-
-## Abstract
-**Major Topics:**  
-- Definition of the **SANC Principle** (*Science-Adjacent, No Calculus*).  
-- Scope of mathematical tools for WCB: algebra, geometry, trigonometry.  
-- Exclusion of higher-level tools: calculus, tensors, advanced astrophysics.  
-- Guiding philosophy: “Rigor without rigidity.”  
-
-**Key Terms & Symbols:**  
-- SANC = Science-Adjacent, No Calculus.  
-
-**Cross-Check Notes:**  
-- Canon as of Glossary v1.212.  
-- Reinforces the methodological boundaries of WCB — mathematical accessibility for builders without requiring advanced formal training.  
-- Companion mottos: *Simple, Approximate, Notationally Clear* and *Sufficient and Necessary Constructs*.  
-
 
 **SANC = Science-Adjacent, No Calculus.**
 

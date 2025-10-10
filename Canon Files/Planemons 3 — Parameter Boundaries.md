@@ -3,7 +3,7 @@ title: ""
 ---
 
 
-## Abstract  
+## Abstract  1
 **Major Topics:**  
 - Simplified relationships among planemon parameters (m, ρ, g, r, vₑ) when one parameter is set to unity (Earth-normal).  
 - Demonstrates that if **any two parameters equal 1 simultaneously, all five must equal 1**.  
@@ -28,6 +28,51 @@ title: ""
 - Expands the WCB **Core Parameter Precedence** framework by showing interdependencies in normalized form.  
 - Emphasizes that g = 1 is not just a mathematical simplification but the **biological optimum** for hospitable worlds.  
 - Serves as both a teaching tool (equation simplification) and a design guide (highlighting gravity’s primacy).  
+
+## Abstract  2
+**Major Topics:**  
+- Defines two inner-boundary orbital constraints relative to stars:  
+  - **Innermost Stable Limital (ISL):** Minimum orbit distance where a planemon’s orbit remains dynamically stable given the stellar radius and luminosity class.  
+    - Formula: ISL ≈ k × R.  
+    - k-values vary by luminosity class (e.g., 2–3 for main sequence, 15–25 for supergiants).  
+  - **Critical Viability Limital (CVL):** Minimum orbit distance where stellar flux does not exceed the maximum tolerable level for animotic viability.  
+    - Formula: CVL = √(L / Smax).  
+    - Smax varies by motatype: endomota (2), xenomota (7.5), exomota (20→).  
+
+**Key Terms & Symbols:**  
+- **ISL** — Innermost Stable Limital.  
+- **CVL** — Critical Viability Limital.  
+- **R** — Stellar radius.  
+- **k** — Luminosity-class multiplier.  
+- **L** — Stellar luminosity (⊙).  
+- **Smax** — Maximum tolerable stellar flux (motatype-dependent).  
+- **Motatypes:**  
+  - **Endomota** — conservative Terran-like biota (low flux tolerance).  
+  - **Xenomota** — more radiation-tolerant life.  
+  - **Exomota** — extreme-tolerance life.  
+
+**Cross-Check Notes:**  
+- ISL ties orbital mechanics to stellar radius scaling.  
+- CVL ties biological viability to stellar flux limits.  
+- Both act as **inner habitability boundaries**, complementing habitable zone definitions (H₀–H₅).  
+
+## Abstract 3
+**Major Topics:**  
+- Characteristics of a zero-obliquity (ε ≈ 0°) planet.  
+- Climatic consequences: absence of seasons, uniform day length.  
+- Astronomical consequences: no annual change in stellar altitude or apparent size.  
+- Cultural/calendar implications: limited concept of “year,” reliance on lunar or stellar cycles.  
+- Alternative mechanisms for “seasons” via high orbital eccentricity.  
+
+**Key Terms & Symbols:**  
+- ε = obliquity (axial tilt).  
+- e = orbital eccentricity.  
+- Periastron / Apastron distances (Rₘᵢₙ, Rₘₐₓ).  
+
+**Cross-Check Notes:**  
+- Relates to glossary terms: obliquity (ε), eccentricity (e), periastron/apastron.  
+- Complements **Orbital Eccentricity and Seasonal Effects.md** by exploring a special case.  
+- Conceptual overlap with habitability/seasonality discussions in climate-related notes.  
 
 
 
@@ -78,33 +123,6 @@ Alternatively, if you begin by setting **density**, the remaining values are:
 
 The equations above also allow determination of any of the three remaining parameters when two are initially set/chosen.
 
-## Abstract  
-**Major Topics:**  
-- Defines two inner-boundary orbital constraints relative to stars:  
-  - **Innermost Stable Limital (ISL):** Minimum orbit distance where a planemon’s orbit remains dynamically stable given the stellar radius and luminosity class.  
-    - Formula: ISL ≈ k × R.  
-    - k-values vary by luminosity class (e.g., 2–3 for main sequence, 15–25 for supergiants).  
-  - **Critical Viability Limital (CVL):** Minimum orbit distance where stellar flux does not exceed the maximum tolerable level for animotic viability.  
-    - Formula: CVL = √(L / Smax).  
-    - Smax varies by motatype: endomota (2), xenomota (7.5), exomota (20→).  
-
-**Key Terms & Symbols:**  
-- **ISL** — Innermost Stable Limital.  
-- **CVL** — Critical Viability Limital.  
-- **R** — Stellar radius.  
-- **k** — Luminosity-class multiplier.  
-- **L** — Stellar luminosity (⊙).  
-- **Smax** — Maximum tolerable stellar flux (motatype-dependent).  
-- **Motatypes:**  
-  - **Endomota** — conservative Terran-like biota (low flux tolerance).  
-  - **Xenomota** — more radiation-tolerant life.  
-  - **Exomota** — extreme-tolerance life.  
-
-**Cross-Check Notes:**  
-- ISL ties orbital mechanics to stellar radius scaling.  
-- CVL ties biological viability to stellar flux limits.  
-- Both act as **inner habitability boundaries**, complementing habitable zone definitions (H₀–H₅).  
-
 
 # ISL: Innermost Stable Limital
 $$
@@ -137,24 +155,6 @@ Where:
 | xenomota | 7.5       |
 | exomota  | 20→       |
 
-
-## Abstract
-**Major Topics:**  
-- Characteristics of a zero-obliquity (ε ≈ 0°) planet.  
-- Climatic consequences: absence of seasons, uniform day length.  
-- Astronomical consequences: no annual change in stellar altitude or apparent size.  
-- Cultural/calendar implications: limited concept of “year,” reliance on lunar or stellar cycles.  
-- Alternative mechanisms for “seasons” via high orbital eccentricity.  
-
-**Key Terms & Symbols:**  
-- ε = obliquity (axial tilt).  
-- e = orbital eccentricity.  
-- Periastron / Apastron distances (Rₘᵢₙ, Rₘₐₓ).  
-
-**Cross-Check Notes:**  
-- Relates to glossary terms: obliquity (ε), eccentricity (e), periastron/apastron.  
-- Complements **Orbital Eccentricity and Seasonal Effects.md** by exploring a special case.  
-- Conceptual overlap with habitability/seasonality discussions in climate-related notes.  
 
 
 # A Zero-Obliquity Planet

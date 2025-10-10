@@ -3,7 +3,7 @@ title: ""
 ---
 
 
-## Abstract  
+## Abstract  1
 **Major Topics:**  
 - Defines the **stellar spectral classification system** (O, B, A, F, G, K, M; plus L, T, Y) in a **linearized temperature model** for WCB use.  
 - Spectral Classes are set by **surface temperature ranges** ($T_{\text{eff}}$ in Kelvin).  
@@ -36,7 +36,282 @@ title: ""
 - Forms the **baseline module** for stellar characterization in WCB.  
 - Connects stellar parameters (L⊙, R⊙, M⊙, Q⊙) to habitability modeling.  
 
+## Abstract  2
+**Major Topics:**  
+- Defines the **five core stellar parameters**:  
+  - Temperature (K, T)  
+  - Mass (M)  
+  - Radius (R)  
+  - Luminosity (L)  
+  - Lifetime (Q)  
+- Establishes **parameter precedence**: temperature (T/K) is primary, radius (R) is secondary.  
+- Provides **equations of state** for main-sequence stars, allowing any parameter to be derived from another.  
+- Introduces the **blackbody approximation**, with emissivity (ϵ) correction.  
+- Explains the **Stefan–Boltzmann Law** and its solar-relative simplification ($L = R^2T^4$).  
+- Presents dependency chains for deriving all parameters starting from T, M, R, L, or Q.  
+- Emphasizes practical use in **worldbuilding calculations** (habitability, orbits, irradiance).  
 
+**Key Terms & Symbols:**  
+- **K** — Stellar surface temperature in Kelvin.  
+- **T** — Temperature relative to solar (T = K/5800).  
+- **M** — Stellar mass (⊙).  
+- **R** — Stellar radius (⊙).  
+- **L** — Stellar luminosity (⊙).  
+- **Q** — Stellar lifetime (⊙ units).  
+- **ϵ (epsilon)** — Emissivity, fraction of ideal blackbody radiation (0–1).  
+- **σ (Stefan–Boltzmann constant)** = $5.670374419 × 10^{-8} W·m^{-2}·K^{-4}$.  
+
+**Cross-Check Notes:**  
+- Direct analog to planemon parameter system (m, r, ρ, g, vₑ).  
+- Stars: **T primary, R secondary**.  
+- planemons: **m primary, ρ secondary**.  
+- Provides unified framework for comparing stellar and planetary parameters.  
+
+## Abstract  3
+**Major Topics:**  
+- Defines the **Nucleal Orbit (𝒩)** — orbital distance at which a planemon receives the same stellar irradiance as Earth does at 1 AU.  
+- Formula: 𝒩 = √L (where L = stellar luminosity in ⊙ units).  
+- Anchors the **habitable zone (HZ)** around a star as ranges proportional to 𝒩.  
+- Distinguishes between:  
+  - **Habitable Zone** — wider corridor (⟨0.750 ∧ 1.770⟩𝒩).  
+  - **Hospitable Zone** — narrower “middle lane” (⟨0.950 ∧ 1.385⟩𝒩).  
+- Defines **parahabitable, habitable, hospitable, xenotic** orbital spans as structured “Ontozones.”  
+- Introduces the **Frost Line (ϝ)** at 4.850𝒩, beyond which water cannot remain liquid.  
+- Specifies notation for inner and outer orbital regimes:  
+  - $Z_{IX}$, $Z_{IP}$, $Z_{IH}$, $Z_H$, $Z_{OH}$, $Z_{OP}$, $Z_{OX}$.  
+
+**Key Terms & Symbols:**  
+- **𝒩 (Nucleal Orbit)** — central reference orbit for irradiance equivalence.  
+- **ϝ (Frost Line)** — outer limit for liquid water (~4.850𝒩).  
+- **Ontozones** — structured orbital bands around stars.  
+- **Zone Notation:**  
+  - $Z_{IX}$ — Inner Xenotic Zone (<0.500𝒩).  
+  - $Z_{IP}$ — Inner Parahabitable Zone (0.500–0.750𝒩).  
+  - $Z_{IH}$ — Inner Habitable Zone (0.750–0.950𝒩).  
+  - $Z_H$ — Hospitable Zone (0.950–1.385𝒩).  
+  - $Z_{OH}$ — Outer Habitable Zone (1.385–1.770𝒩).  
+  - $Z_{OP}$ — Outer Parahabitable Zone (1.770–4.850𝒩).  
+  - $Z_{OX}$ — Outer Xenotic Zone (≥4.850𝒩).  
+
+**Cross-Check Notes:**  
+- Builds directly on **Habitable Zone Limits (H₀–H₅)** from v1.219.  
+- Adds layered refinement: narrower **Hospitable Zone** within the wider HZ.  
+- Introduces **Ontozones** and **zone notation system** for systematic classification.  
+
+## Abstract  4
+**Major Topics:**  
+- Introduction of **thermozones** as orbital bands derived from multiples of the Nucleal Orbit (𝒩).  
+- Mapping of thermozones to **Ontozones** (habitability categories): xenotic, parahabitable, habitable, hospitable.  
+- Distinct naming scheme rooted in **Latin/Greek etymologies**:  
+  - *Igniozone, Calorozone, Heliozone, Solarazone, Hiberozone, Brumazone, Cryozone*.  
+- **Thermozone Limit Notation (H₀…H₅):** standardized subscripts marking orbital cutoffs (0.5𝒩 through 4.85𝒩).  
+- Relationship of 𝒩 to Solarazone: always lies 11.49% inward from its inner edge.  
+- Provides a consistent, mnemonic framework for discussing orbital corridors across any star system.  
+
+**Key Terms & Symbols:**  
+- **Thermozone names:** Igniozone, Calorozone, Heliozone, Solarazone, Hiberozone, Brumazone, Cryozone.  
+- **Notation:** $Z_{..}$ for ontozones, H₀–H₅ for thermozone limits.  
+- **Nucleal Orbit (𝒩):** always located inside Solarazone.  
+- **Ontozones:** Inner/Outer Xenotic, Parahabitable, Habitable, Hospitable.  
+
+**Cross-Check Notes:**  
+- Several **new glossary terms** staged: thermozone names, *Thermozone Limit Notation (H₀–H₅)*.  
+- Builds directly on **Nucleal Orbit (𝒩)** (from Stars 03).  
+- Provides the **didactic bridge** between raw stellar flux math and corridor naming for worldbuilders.  
+
+## Abstract  5
+**Major Topics:**  
+- Definition of the **Perannual Orbit (𝒫):** the orbital distance in a star system where a planemon completes exactly one Earth sidereal year (365.256363 ephemeris days).  
+- Distinction between **sidereal year** (fixed stars, used for 𝒫) and **tropical year** (surface experience of seasons).  
+- Calculation of orbital period using Kepler’s Third Law in Solar-relative units:  
+  - $P = \sqrt{\dfrac{a^3}{M+m}}$  
+  - $a = \sqrt[3]{P^2 (M+m)}$  
+  - $M+m = \dfrac{a^3}{P^2}$  
+- Effect of planemon mass (*m*) on orbital period (generally negligible but measurable; e.g., Earth’s mass shifts orbital period by ~47 seconds).  
+- 𝒫 compared with the **Nucleal Orbit (𝒩):**  
+  - Can be **intranucleal** (inside 𝒩) or **extranucleal** (outside 𝒩).  
+  - Only coincides with 𝒩 when $M = 1⊙$ (and $m = 1⨁$ ideally).  
+- Unlike 𝒩 (irradiance-based), 𝒫 depends on **mass**, making it a **temporal reference** rather than a thermal one.  
+- Final simplification: for the perannual orbit distance,  
+  - $\mathcal{P} = \sqrt[3]{M+m}$ (including planemon mass).  
+  - $\mathcal{P} = \sqrt[3]{M}$ (ignoring planemon mass).  
+
+**Key Terms & Symbols:**  
+- **Perannual Orbit (𝒫):** distance where orbital period = 1 Earth sidereal year.  
+- **Sidereal Year:** 365.256363 ephemeris days; fixed-star frame reference.  
+- **Intranucleal / Extranucleal:** perannual orbit lies inside or outside the nucleal orbit.  
+- **Symbols:**  
+  - $P$ = orbital period (in sidereal years).  
+  - $a$ = semi-major axis (AU).  
+  - $M$ = stellar mass (⊙).  
+  - $m$ = planemon mass (⊙).  
+  - 𝒫 = perannual orbital distance.  
+  - 𝒩 = nucleal orbit.  
+
+**Cross-Check Notes:**  
+- **New glossary entries needed:** Perannual Orbit (𝒫), Intranucleal, Extranucleal.  
+- Reinforces dual anchor system in WCB: 𝒩 (thermal/irradiance-based) vs. 𝒫 (temporal/mass-based).  
+- Links forward to *M002 — Stars 06: Relating the Nucleal and Perannual Orbits*.  
+
+## Abstract  6
+**Major Topics:**  
+- Relationship between the **Nucleal Orbit (𝒩)** and the **Perannual Orbit (𝒫)**.  
+- Both are **orbital environs**, not strict limiting distances — they describe contextual properties of a star system.  
+- Restatement of definitions:  
+  - 𝒩 = $\sqrt{L}$ (AU), where *L* = stellar luminosity (⊙).  
+  - 𝒫 = $\sqrt[3]{M+m}$ (AU), or $\sqrt[3]{M}$ if planemon mass *m* is disregarded.  
+- Mass–luminosity link: $M = \sqrt[3]{L}$ → allows cross-approximation between 𝒩 and 𝒫.  
+- Approximation formulas:  
+  - $\mathcal{P} \approx \sqrt[6]{L}$ (perannual from luminosity).  
+  - $\mathcal{N} \approx \sqrt{M^3}$ (nucleal from mass).  
+  - Cross-relations:  
+    - $\mathcal{P} \approx \sqrt[3]{\mathcal{N}}$  
+    - $\mathcal{N} \approx \mathcal{P}^3$  
+- Caution: these relations are **approximations**; robust calculation of 𝒩 and 𝒫 is recommended for precision:contentReference[oaicite:0]{index=0}.  
+
+**Key Terms & Symbols:**  
+- **𝒩 (Nucleal Orbit):** irradiance-based orbital benchmark.  
+- **𝒫 (Perannual Orbit):** period-based orbital benchmark.  
+- **Approximation relations:** linking 𝒩 and 𝒫 through stellar mass–luminosity scaling.  
+
+**Cross-Check Notes:**  
+- No new glossary entries beyond 𝒩 and 𝒫 (already staged in prior files).  
+- This section functions as a **bridge note**, unifying the thermal and temporal anchors in WCB orbital design.  
+- Emphasizes **approximation vs. precision**: usable shortcuts exist, but exact calculation is preferable.  
+
+## Abstract  7
+**Major Topics:**  
+- Review of the **Standard Stellar Parameter Equations** linking temperature (T), mass (M), radius (R), lifetime (Q), and luminosity (L).  
+- Recognition that while the standard exponents work well for most **Main Sequence** stars, observed stellar data show that slight adjustments produce a closer fit.  
+- **Refinements introduced:**  
+  - Exponent for $T ↔︎ M$ increased from 1.98 → 2.0.  
+  - Addition of direct calculation routes to/from **luminosity (L)**, simplifying downstream math (especially for *Stars 08: Sun-Like Stars*).  
+  - For higher precision, recommended exact values:  
+    - $7.6 ≈ 7.5778$  
+    - $3.8 ≈ 3.7889$:contentReference[oaicite:0]{index=0}.  
+- Emphasis: WCB prioritizes **plausible world construction** over strict theoretical purity, so these adjusted exponents serve the design goals better.  
+
+**Key Terms & Symbols:**  
+- **Standard Stellar Parameter Equations:** Baseline power-law relations for T, M, R, Q, and L.  
+- **Modified Parameters:** Slightly adjusted exponents improving fit across observed data.  
+- **Direct Luminosity Relations:** New formulas linking L with other parameters for simplified application.  
+
+**Cross-Check Notes:**  
+- No **new glossary entries** introduced; the adjustments are refinements to existing equations.  
+- Functions as a **supportive methods note** — improves accuracy and usability of WCB stellar modeling.  
+- Directly prepares for *Stars 08: Sun-Like Stars*, where these refined forms are applied.  
+
+## Abstract  8
+**Major Topics:**  
+- Critique of vague astronomical usage of “Sun-like star” and proposal of a **clearer WCB classification system** grounded in orbital habitability.  
+- Definitions nested by **Ontozone boundaries** and **perannual orbits (𝒫):**  
+  - **Solar Analogs:** perannual orbits spanning 0.500–4.850 AU (Inner → Outer Parahabitable Zone, H₀–H₅); spectral types F2–K9.  
+  - **Solar Cognates:** perannual orbits spanning 0.750–1.770 AU (Inner → Outer Habitable Zone, H₁–H₄); spectral types F7.62–K1.11.  
+  - **Solar Twins:** perannual orbits spanning 0.950–1.385 AU (Hospitable Zone, H₂–H₃); spectral types G1.04–G7.73.  
+- Hierarchical logic: all Twins ⊂ Cognates ⊂ Analogs:contentReference[oaicite:0]{index=0}.  
+- Mathematical framework for deriving stellar parameters:  
+  - Cross-relations between luminosity, perannual orbit (𝒫), and thermozone limits (H₀–H₅).  
+  - Generalized equation for stellar luminosity given thermozone factor (λ).  
+  - Direct temperature relation: $K = 5800(\lambda^{-0.3191})$.  
+- Thermal Axis for Perannual Orbits: diagram showing stellar temperature vs. spectral type for H₀–H₅.  
+- **Orbital Habitability Index (OHI):** scalar (0.00–1.00) quantifying relative habitability based on distance from the nucleal orbit (𝒩).  
+  - Piecewise function distinguishes intranucleal vs. extranucleal cases.  
+  - Index peaks at 1.00 for D = 𝒩, declines linearly to 0.00 at H₀ and H₅.  
+  - Illustrated via habitability atlas plate.  
+
+**Key Terms & Symbols:**  
+- **Solar Analog, Solar Cognate, Solar Twin:** nested categories of Sun-like stars based on ontozone/perannual placement.  
+- **𝒫 (Perannual Orbit):** temporal anchor.  
+- **𝒩 (Nucleal Orbit):** thermal anchor.  
+- **Thermozones (H₀–H₅):** reference corridors.  
+- **λ (Scaling Factor):** ratio linking perannual orbit to nucleal orbit.  
+- **OHI (Orbital Habitability Index):** 0.00–1.00 habitability scalar.  
+
+**Cross-Check Notes:**  
+- **New glossary entries needed:** Solar Analog, Solar Cognate, Solar Twin, Orbital Habitability Index (OHI).  
+- All other symbols and terms already staged in prior files (𝒩, 𝒫, thermozones, H₀–H₅, λ).  
+- This section bridges stellar classification with **habitability indices**, anchoring “Sun-like” terminology directly to WCB orbital framework.  
+
+## Abstract  9
+**Major Topics:**  
+- Extension from nucleal (𝒩) and perannual (𝒫) orbits to **full orbital system design**.  
+- Empirical analysis of the Solar System: orbital distances, eccentricities, ontozone placement, gaps, and intervals.  
+- Definition of **orbital intervals** (ratio of successive orbital distances):  
+  - Solar System ranges: 1.38–2.00 AU, μ ≈ 1.74 AU, σ ≈ 0.205.  
+  - WCB **conservative range:** ⟨1.400 ∧ 2.000⟩ AU.  
+  - WCB **medial range:** ⟨1.200 ∧ 3.500⟩ AU.  
+  - WCB **optimistic range:** ⟨1.000 ∧ 5.000⟩ AU.  
+- Introduction of **intrabasal** and **extrabasal orbit generation processes**:  
+  - **Intrabasal:** generate inward orbits from a base radius (divide by randomized interval).  
+  - **Extrabasal:** generate outward orbits from a base radius (multiply by randomized interval).  
+- Application strategies:  
+  - Start at nucleal/perannual orbit → expand inward/outward.  
+  - Start at innermost or outermost safe orbit → generate outward/inward.  
+  - Always check results against 𝒩 or 𝒫 to maintain coherent interval spacing.  
+- Worked example:  
+  - Starting from 𝒩 = 0.834 AU.  
+  - Generated inward to 0.101 AU, outward to 33.357 AU.  
+  - Produced 11 candidate orbital positions spanning inner rocky to distant icy regions.  
+
+**Key Terms & Symbols:**  
+- **Orbital Interval (I):** ratio of successive orbital distances, $I = O_n / O_{n-1}$.  
+- **Orbital Gap (G):** difference of successive orbital distances, $G = O_n - O_{n-1}$.  
+- **Intrabasal Orbit Calculation:** inward generation by division.  
+- **Extrabasal Orbit Calculation:** outward generation by multiplication.  
+- **Basal Orbit (B):** chosen anchor orbit (e.g., 𝒩 or 𝒫).  
+- **Ω (Omega):** cutoff distance (innermost safe orbit or outer system limit).  
+
+**Cross-Check Notes:**  
+- **New glossary entries needed:** Orbital Interval, Orbital Gap, Intrabasal Orbit Calculation, Extrabasal Orbit Calculation, Basal Orbit, Ω (system cutoff).  
+- Builds on previous anchors (𝒩, 𝒫, thermozones) to enable **statistically grounded system generation**.  
+- Provides WCB’s baseline method for populating star systems with planemon orbits.  
+
+## Abstract  10
+**Major Topics:**  
+- Demonstrates integration of **thermozones (H₀–H₅)**, **ontozones**, and **orbital generation rules** into a coherent stellar system design.  
+- Stepwise calculation:  
+  - Thermozone limits derived from the nucleal orbit ($𝒩 = 0.834$ AU).  
+  - Placement of generated orbits into both thermozone and ontozone categories.  
+- Worked example tables:  
+  - Case with both nucleal (𝒩) and perannual (𝒫) orbits → reveals interval violation ($I = 1.162$ < minimum 1.5).  
+  - Case with **perannual planemon only** → valid intervals maintained (1.574–1.927 AU).  
+- Demonstrates **design trade-offs**: some orbital anchors (𝒩 vs. 𝒫) may be mutually exclusive depending on stellar mass/luminosity.  
+- Stellar parameter recalculation (luminosity, temperature, spectral type, subclass index) validates the system’s spectral class (G4.701).  
+- Orbital habitability evaluation:  
+  - Perannual orbit receives ~74.1% of nucleal flux.  
+  - Corresponding Orbital Habitability Index (OHI) = 0.958 (95.8% of nucleal).  
+- Emphasis: WCB design enforces **minimum orbital spacing (I ≥ 1.5)** as a hard rule, while maximum spacing (I ≤ 2.0) is treated as flexible.  
+
+**Key Terms & Symbols:**  
+- **Δ (Delta):** factor expressing relative distance offset between perannual and nucleal orbits.  
+- **F (Flux):** relative stellar irradiance at a given orbital distance, normalized to 1.0 at 𝒩.  
+- **OHI (Orbital Habitability Index):** previously defined, applied here in practice.  
+
+**Cross-Check Notes:**  
+- **New glossary entries needed:** Δ (distance ratio), F (stellar flux).  
+- Reinforces prior entries: thermozones, ontozones, 𝒩, 𝒫, orbital intervals.  
+- Serves as a practical example of reconciling WCB rules with real stellar constraints.  
+
+## Abstract 11  
+This file presents a tabulated set of **stellar parameters by spectral class (O–M)**, with high, mean, and low values given for each. Parameters included are:  
+
+- **Effective temperature (K)**  
+- **Thermal Interval Constant (þ)** — the step size in Kelvin that defines subclass increments  
+- **Temperature (T⊙)** relative to the Sun  
+- **Radius (R⊙)** relative to the Sun  
+- **Luminosity (L⊙)** relative to the Sun  
+- **Mass (M⊙)** relative to the Sun  
+- **Frequency (Q⊙)** relative to the Sun  
+
+The table serves as a **ready reference for stellar design** in worldbuilding, allowing thesiasts to quickly identify plausible ranges of physical values across the standard stellar sequence. It systematizes how subclass divisions are calculated (using the TIC, þ) and provides both absolute and relative values for major stellar quantities.  
+
+**Canon Links:**  
+- Connects to **Spectral Classes, Types, and Parameters** (M002 Stars series).  
+- Uses the **Thermal Interval Constant (þ) [neo]** as defined elsewhere in WCB.  
+- Values support calculations in **Habitable Zones**, **Fundamental Orbits**, and related stellar-orbital frameworks.  
+
+**Lexical Tags:**  
+- **[sci]** Spectral Classes, Tempera
 
 
 # Stars and Spectral Classes: The Fusion-Fueled Continuum
@@ -264,37 +539,6 @@ Essel's spectral type is *G9.192*.
 
 ¹ Thermal Interval Constant
 
-## Abstract  
-**Major Topics:**  
-- Defines the **five core stellar parameters**:  
-  - Temperature (K, T)  
-  - Mass (M)  
-  - Radius (R)  
-  - Luminosity (L)  
-  - Lifetime (Q)  
-- Establishes **parameter precedence**: temperature (T/K) is primary, radius (R) is secondary.  
-- Provides **equations of state** for main-sequence stars, allowing any parameter to be derived from another.  
-- Introduces the **blackbody approximation**, with emissivity (ϵ) correction.  
-- Explains the **Stefan–Boltzmann Law** and its solar-relative simplification ($L = R^2T^4$).  
-- Presents dependency chains for deriving all parameters starting from T, M, R, L, or Q.  
-- Emphasizes practical use in **worldbuilding calculations** (habitability, orbits, irradiance).  
-
-**Key Terms & Symbols:**  
-- **K** — Stellar surface temperature in Kelvin.  
-- **T** — Temperature relative to solar (T = K/5800).  
-- **M** — Stellar mass (⊙).  
-- **R** — Stellar radius (⊙).  
-- **L** — Stellar luminosity (⊙).  
-- **Q** — Stellar lifetime (⊙ units).  
-- **ϵ (epsilon)** — Emissivity, fraction of ideal blackbody radiation (0–1).  
-- **σ (Stefan–Boltzmann constant)** = $5.670374419 × 10^{-8} W·m^{-2}·K^{-4}$.  
-
-**Cross-Check Notes:**  
-- Direct analog to planemon parameter system (m, r, ρ, g, vₑ).  
-- Stars: **T primary, R secondary**.  
-- planemons: **m primary, ρ secondary**.  
-- Provides unified framework for comparing stellar and planetary parameters.  
-
 
 
 
@@ -449,37 +693,6 @@ M = \sqrt[3]{L}
 $$      
 
  
-## Abstract  
-**Major Topics:**  
-- Defines the **Nucleal Orbit (𝒩)** — orbital distance at which a planemon receives the same stellar irradiance as Earth does at 1 AU.  
-- Formula: 𝒩 = √L (where L = stellar luminosity in ⊙ units).  
-- Anchors the **habitable zone (HZ)** around a star as ranges proportional to 𝒩.  
-- Distinguishes between:  
-  - **Habitable Zone** — wider corridor (⟨0.750 ∧ 1.770⟩𝒩).  
-  - **Hospitable Zone** — narrower “middle lane” (⟨0.950 ∧ 1.385⟩𝒩).  
-- Defines **parahabitable, habitable, hospitable, xenotic** orbital spans as structured “Ontozones.”  
-- Introduces the **Frost Line (ϝ)** at 4.850𝒩, beyond which water cannot remain liquid.  
-- Specifies notation for inner and outer orbital regimes:  
-  - $Z_{IX}$, $Z_{IP}$, $Z_{IH}$, $Z_H$, $Z_{OH}$, $Z_{OP}$, $Z_{OX}$.  
-
-**Key Terms & Symbols:**  
-- **𝒩 (Nucleal Orbit)** — central reference orbit for irradiance equivalence.  
-- **ϝ (Frost Line)** — outer limit for liquid water (~4.850𝒩).  
-- **Ontozones** — structured orbital bands around stars.  
-- **Zone Notation:**  
-  - $Z_{IX}$ — Inner Xenotic Zone (<0.500𝒩).  
-  - $Z_{IP}$ — Inner Parahabitable Zone (0.500–0.750𝒩).  
-  - $Z_{IH}$ — Inner Habitable Zone (0.750–0.950𝒩).  
-  - $Z_H$ — Hospitable Zone (0.950–1.385𝒩).  
-  - $Z_{OH}$ — Outer Habitable Zone (1.385–1.770𝒩).  
-  - $Z_{OP}$ — Outer Parahabitable Zone (1.770–4.850𝒩).  
-  - $Z_{OX}$ — Outer Xenotic Zone (≥4.850𝒩).  
-
-**Cross-Check Notes:**  
-- Builds directly on **Habitable Zone Limits (H₀–H₅)** from v1.219.  
-- Adds layered refinement: narrower **Hospitable Zone** within the wider HZ.  
-- Introduces **Ontozones** and **zone notation system** for systematic classification.  
-
 
 
 
@@ -609,27 +822,6 @@ Finally, we differentiate between inner and outer zones, and define notations fo
 
 This gives us a full inventory of orbital limits for any star system we choose to devise.
 
-## Abstract  
-**Major Topics:**  
-- Introduction of **thermozones** as orbital bands derived from multiples of the Nucleal Orbit (𝒩).  
-- Mapping of thermozones to **Ontozones** (habitability categories): xenotic, parahabitable, habitable, hospitable.  
-- Distinct naming scheme rooted in **Latin/Greek etymologies**:  
-  - *Igniozone, Calorozone, Heliozone, Solarazone, Hiberozone, Brumazone, Cryozone*.  
-- **Thermozone Limit Notation (H₀…H₅):** standardized subscripts marking orbital cutoffs (0.5𝒩 through 4.85𝒩).  
-- Relationship of 𝒩 to Solarazone: always lies 11.49% inward from its inner edge.  
-- Provides a consistent, mnemonic framework for discussing orbital corridors across any star system.  
-
-**Key Terms & Symbols:**  
-- **Thermozone names:** Igniozone, Calorozone, Heliozone, Solarazone, Hiberozone, Brumazone, Cryozone.  
-- **Notation:** $Z_{..}$ for ontozones, H₀–H₅ for thermozone limits.  
-- **Nucleal Orbit (𝒩):** always located inside Solarazone.  
-- **Ontozones:** Inner/Outer Xenotic, Parahabitable, Habitable, Hospitable.  
-
-**Cross-Check Notes:**  
-- Several **new glossary terms** staged: thermozone names, *Thermozone Limit Notation (H₀–H₅)*.  
-- Builds directly on **Nucleal Orbit (𝒩)** (from Stars 03).  
-- Provides the **didactic bridge** between raw stellar flux math and corridor naming for worldbuilders.  
-
 
 # Star System Thermozones
 We've already introduced the term Habitable Zone before, sometimes also prosaically referred to as "The Goldilocks Zone".
@@ -698,40 +890,6 @@ This gives us a very robust way of discussing orbital distances in any star syst
 
 Note that the *nucleal orbit*, being always $\mathcal{N} = 1.0N$, always falls within the Solarazone.  In fact, it always falls at 11.49% _into_ the Solarazone from its inner edge.
 
-
-## Abstract  
-**Major Topics:**  
-- Definition of the **Perannual Orbit (𝒫):** the orbital distance in a star system where a planemon completes exactly one Earth sidereal year (365.256363 ephemeris days).  
-- Distinction between **sidereal year** (fixed stars, used for 𝒫) and **tropical year** (surface experience of seasons).  
-- Calculation of orbital period using Kepler’s Third Law in Solar-relative units:  
-  - $P = \sqrt{\dfrac{a^3}{M+m}}$  
-  - $a = \sqrt[3]{P^2 (M+m)}$  
-  - $M+m = \dfrac{a^3}{P^2}$  
-- Effect of planemon mass (*m*) on orbital period (generally negligible but measurable; e.g., Earth’s mass shifts orbital period by ~47 seconds).  
-- 𝒫 compared with the **Nucleal Orbit (𝒩):**  
-  - Can be **intranucleal** (inside 𝒩) or **extranucleal** (outside 𝒩).  
-  - Only coincides with 𝒩 when $M = 1⊙$ (and $m = 1⨁$ ideally).  
-- Unlike 𝒩 (irradiance-based), 𝒫 depends on **mass**, making it a **temporal reference** rather than a thermal one.  
-- Final simplification: for the perannual orbit distance,  
-  - $\mathcal{P} = \sqrt[3]{M+m}$ (including planemon mass).  
-  - $\mathcal{P} = \sqrt[3]{M}$ (ignoring planemon mass).  
-
-**Key Terms & Symbols:**  
-- **Perannual Orbit (𝒫):** distance where orbital period = 1 Earth sidereal year.  
-- **Sidereal Year:** 365.256363 ephemeris days; fixed-star frame reference.  
-- **Intranucleal / Extranucleal:** perannual orbit lies inside or outside the nucleal orbit.  
-- **Symbols:**  
-  - $P$ = orbital period (in sidereal years).  
-  - $a$ = semi-major axis (AU).  
-  - $M$ = stellar mass (⊙).  
-  - $m$ = planemon mass (⊙).  
-  - 𝒫 = perannual orbital distance.  
-  - 𝒩 = nucleal orbit.  
-
-**Cross-Check Notes:**  
-- **New glossary entries needed:** Perannual Orbit (𝒫), Intranucleal, Extranucleal.  
-- Reinforces dual anchor system in WCB: 𝒩 (thermal/irradiance-based) vs. 𝒫 (temporal/mass-based).  
-- Links forward to *M002 — Stars 06: Relating the Nucleal and Perannual Orbits*.  
 
 
 
@@ -818,31 +976,6 @@ $$
 \end{aligned}
 $$
 
-## Abstract  
-**Major Topics:**  
-- Relationship between the **Nucleal Orbit (𝒩)** and the **Perannual Orbit (𝒫)**.  
-- Both are **orbital environs**, not strict limiting distances — they describe contextual properties of a star system.  
-- Restatement of definitions:  
-  - 𝒩 = $\sqrt{L}$ (AU), where *L* = stellar luminosity (⊙).  
-  - 𝒫 = $\sqrt[3]{M+m}$ (AU), or $\sqrt[3]{M}$ if planemon mass *m* is disregarded.  
-- Mass–luminosity link: $M = \sqrt[3]{L}$ → allows cross-approximation between 𝒩 and 𝒫.  
-- Approximation formulas:  
-  - $\mathcal{P} \approx \sqrt[6]{L}$ (perannual from luminosity).  
-  - $\mathcal{N} \approx \sqrt{M^3}$ (nucleal from mass).  
-  - Cross-relations:  
-    - $\mathcal{P} \approx \sqrt[3]{\mathcal{N}}$  
-    - $\mathcal{N} \approx \mathcal{P}^3$  
-- Caution: these relations are **approximations**; robust calculation of 𝒩 and 𝒫 is recommended for precision:contentReference[oaicite:0]{index=0}.  
-
-**Key Terms & Symbols:**  
-- **𝒩 (Nucleal Orbit):** irradiance-based orbital benchmark.  
-- **𝒫 (Perannual Orbit):** period-based orbital benchmark.  
-- **Approximation relations:** linking 𝒩 and 𝒫 through stellar mass–luminosity scaling.  
-
-**Cross-Check Notes:**  
-- No new glossary entries beyond 𝒩 and 𝒫 (already staged in prior files).  
-- This section functions as a **bridge note**, unifying the thermal and temporal anchors in WCB orbital design.  
-- Emphasizes **approximation vs. precision**: usable shortcuts exist, but exact calculation is preferable.  
 
 
 We have explored both [[M002 - Stars — 03 The Nucleal Orbit ✓|The Nucleal Orbit]] and [[M002 - Stars — 05 The Perannual Orbit ✓|The Perannual Orbit]].  These two are not *limiting distances*, but **orbital environs** which both describe and contribute to the ontosomic nature of planemons.
@@ -887,27 +1020,6 @@ $$
 - Both $\mathcal{N}$ and $\mathcal{P}$ are measured in astronomical units, not time!
 - These last four equations are **approximations**; in most cases they'll be "accurate enough", but calculating$\mathcal{N}$ and $\mathcal{P}$ robustly is always advised.
 
-## Abstract  
-**Major Topics:**  
-- Review of the **Standard Stellar Parameter Equations** linking temperature (T), mass (M), radius (R), lifetime (Q), and luminosity (L).  
-- Recognition that while the standard exponents work well for most **Main Sequence** stars, observed stellar data show that slight adjustments produce a closer fit.  
-- **Refinements introduced:**  
-  - Exponent for $T ↔︎ M$ increased from 1.98 → 2.0.  
-  - Addition of direct calculation routes to/from **luminosity (L)**, simplifying downstream math (especially for *Stars 08: Sun-Like Stars*).  
-  - For higher precision, recommended exact values:  
-    - $7.6 ≈ 7.5778$  
-    - $3.8 ≈ 3.7889$:contentReference[oaicite:0]{index=0}.  
-- Emphasis: WCB prioritizes **plausible world construction** over strict theoretical purity, so these adjusted exponents serve the design goals better.  
-
-**Key Terms & Symbols:**  
-- **Standard Stellar Parameter Equations:** Baseline power-law relations for T, M, R, Q, and L.  
-- **Modified Parameters:** Slightly adjusted exponents improving fit across observed data.  
-- **Direct Luminosity Relations:** New formulas linking L with other parameters for simplified application.  
-
-**Cross-Check Notes:**  
-- No **new glossary entries** introduced; the adjustments are refinements to existing equations.  
-- Functions as a **supportive methods note** — improves accuracy and usability of WCB stellar modeling.  
-- Directly prepares for *Stars 08: Sun-Like Stars*, where these refined forms are applied.  
 
 
 # Stars — 2.07 Fine-tuning Stellar Parameters
@@ -940,37 +1052,6 @@ The Standard Parameter Equations (see [[M002 - Stars — 02 Parameters ✓]]):
 - **For *greatest accuracy***:
 	- The exponent $7.6$ can be more precisely specified as $7.5778$
 	- The exponent $3.8$ can be more precisely specified as $3.7889$
-
-## Abstract  
-**Major Topics:**  
-- Critique of vague astronomical usage of “Sun-like star” and proposal of a **clearer WCB classification system** grounded in orbital habitability.  
-- Definitions nested by **Ontozone boundaries** and **perannual orbits (𝒫):**  
-  - **Solar Analogs:** perannual orbits spanning 0.500–4.850 AU (Inner → Outer Parahabitable Zone, H₀–H₅); spectral types F2–K9.  
-  - **Solar Cognates:** perannual orbits spanning 0.750–1.770 AU (Inner → Outer Habitable Zone, H₁–H₄); spectral types F7.62–K1.11.  
-  - **Solar Twins:** perannual orbits spanning 0.950–1.385 AU (Hospitable Zone, H₂–H₃); spectral types G1.04–G7.73.  
-- Hierarchical logic: all Twins ⊂ Cognates ⊂ Analogs:contentReference[oaicite:0]{index=0}.  
-- Mathematical framework for deriving stellar parameters:  
-  - Cross-relations between luminosity, perannual orbit (𝒫), and thermozone limits (H₀–H₅).  
-  - Generalized equation for stellar luminosity given thermozone factor (λ).  
-  - Direct temperature relation: $K = 5800(\lambda^{-0.3191})$.  
-- Thermal Axis for Perannual Orbits: diagram showing stellar temperature vs. spectral type for H₀–H₅.  
-- **Orbital Habitability Index (OHI):** scalar (0.00–1.00) quantifying relative habitability based on distance from the nucleal orbit (𝒩).  
-  - Piecewise function distinguishes intranucleal vs. extranucleal cases.  
-  - Index peaks at 1.00 for D = 𝒩, declines linearly to 0.00 at H₀ and H₅.  
-  - Illustrated via habitability atlas plate.  
-
-**Key Terms & Symbols:**  
-- **Solar Analog, Solar Cognate, Solar Twin:** nested categories of Sun-like stars based on ontozone/perannual placement.  
-- **𝒫 (Perannual Orbit):** temporal anchor.  
-- **𝒩 (Nucleal Orbit):** thermal anchor.  
-- **Thermozones (H₀–H₅):** reference corridors.  
-- **λ (Scaling Factor):** ratio linking perannual orbit to nucleal orbit.  
-- **OHI (Orbital Habitability Index):** 0.00–1.00 habitability scalar.  
-
-**Cross-Check Notes:**  
-- **New glossary entries needed:** Solar Analog, Solar Cognate, Solar Twin, Orbital Habitability Index (OHI).  
-- All other symbols and terms already staged in prior files (𝒩, 𝒫, thermozones, H₀–H₅, λ).  
-- This section bridges stellar classification with **habitability indices**, anchoring “Sun-like” terminology directly to WCB orbital framework.  
 
 
 # Solar Analogs, Cognates, and Twins
@@ -1230,39 +1311,6 @@ Values of *D* < 0.500$\mathcal{N}$ and > 4.850$\mathcal{N}$ return *negative num
 
 ![[Habitability Atlas Plate.png]]
 
-## Abstract  
-**Major Topics:**  
-- Extension from nucleal (𝒩) and perannual (𝒫) orbits to **full orbital system design**.  
-- Empirical analysis of the Solar System: orbital distances, eccentricities, ontozone placement, gaps, and intervals.  
-- Definition of **orbital intervals** (ratio of successive orbital distances):  
-  - Solar System ranges: 1.38–2.00 AU, μ ≈ 1.74 AU, σ ≈ 0.205.  
-  - WCB **conservative range:** ⟨1.400 ∧ 2.000⟩ AU.  
-  - WCB **medial range:** ⟨1.200 ∧ 3.500⟩ AU.  
-  - WCB **optimistic range:** ⟨1.000 ∧ 5.000⟩ AU.  
-- Introduction of **intrabasal** and **extrabasal orbit generation processes**:  
-  - **Intrabasal:** generate inward orbits from a base radius (divide by randomized interval).  
-  - **Extrabasal:** generate outward orbits from a base radius (multiply by randomized interval).  
-- Application strategies:  
-  - Start at nucleal/perannual orbit → expand inward/outward.  
-  - Start at innermost or outermost safe orbit → generate outward/inward.  
-  - Always check results against 𝒩 or 𝒫 to maintain coherent interval spacing.  
-- Worked example:  
-  - Starting from 𝒩 = 0.834 AU.  
-  - Generated inward to 0.101 AU, outward to 33.357 AU.  
-  - Produced 11 candidate orbital positions spanning inner rocky to distant icy regions.  
-
-**Key Terms & Symbols:**  
-- **Orbital Interval (I):** ratio of successive orbital distances, $I = O_n / O_{n-1}$.  
-- **Orbital Gap (G):** difference of successive orbital distances, $G = O_n - O_{n-1}$.  
-- **Intrabasal Orbit Calculation:** inward generation by division.  
-- **Extrabasal Orbit Calculation:** outward generation by multiplication.  
-- **Basal Orbit (B):** chosen anchor orbit (e.g., 𝒩 or 𝒫).  
-- **Ω (Omega):** cutoff distance (innermost safe orbit or outer system limit).  
-
-**Cross-Check Notes:**  
-- **New glossary entries needed:** Orbital Interval, Orbital Gap, Intrabasal Orbit Calculation, Extrabasal Orbit Calculation, Basal Orbit, Ω (system cutoff).  
-- Builds on previous anchors (𝒩, 𝒫, thermozones) to enable **statistically grounded system generation**.  
-- Provides WCB’s baseline method for populating star systems with planemon orbits.  
 
 # Fleshing Out A Star System
 
@@ -1441,31 +1489,6 @@ With this method, a worldmaker can quickly generate a full planemon system that 
 
 [[Asteroid Belts and Resonance Gaps — working out]]
 
-## Abstract  
-**Major Topics:**  
-- Demonstrates integration of **thermozones (H₀–H₅)**, **ontozones**, and **orbital generation rules** into a coherent stellar system design.  
-- Stepwise calculation:  
-  - Thermozone limits derived from the nucleal orbit ($𝒩 = 0.834$ AU).  
-  - Placement of generated orbits into both thermozone and ontozone categories.  
-- Worked example tables:  
-  - Case with both nucleal (𝒩) and perannual (𝒫) orbits → reveals interval violation ($I = 1.162$ < minimum 1.5).  
-  - Case with **perannual planemon only** → valid intervals maintained (1.574–1.927 AU).  
-- Demonstrates **design trade-offs**: some orbital anchors (𝒩 vs. 𝒫) may be mutually exclusive depending on stellar mass/luminosity.  
-- Stellar parameter recalculation (luminosity, temperature, spectral type, subclass index) validates the system’s spectral class (G4.701).  
-- Orbital habitability evaluation:  
-  - Perannual orbit receives ~74.1% of nucleal flux.  
-  - Corresponding Orbital Habitability Index (OHI) = 0.958 (95.8% of nucleal).  
-- Emphasis: WCB design enforces **minimum orbital spacing (I ≥ 1.5)** as a hard rule, while maximum spacing (I ≤ 2.0) is treated as flexible.  
-
-**Key Terms & Symbols:**  
-- **Δ (Delta):** factor expressing relative distance offset between perannual and nucleal orbits.  
-- **F (Flux):** relative stellar irradiance at a given orbital distance, normalized to 1.0 at 𝒩.  
-- **OHI (Orbital Habitability Index):** previously defined, applied here in practice.  
-
-**Cross-Check Notes:**  
-- **New glossary entries needed:** Δ (distance ratio), F (stellar flux).  
-- Reinforces prior entries: thermozones, ontozones, 𝒩, 𝒫, orbital intervals.  
-- Serves as a practical example of reconciling WCB rules with real stellar constraints.  
 
 
 # Calculating the Thermozones
@@ -1603,30 +1626,4 @@ H_I = -0.26\dfrac{D}{\mathcal{N}} + 1.26 = -0.26\dfrac{0.969}{0.834} + 1.26 = -0
 \end{aligned}
 $$
 … an orbital habitability index of 95.8% that of the nucleal orbit.  Slightly cooler, but not drastically so.
-
-
-## Parameter Ranges by Spectral Class
-
-**Abstract:**  
-This file presents a tabulated set of **stellar parameters by spectral class (O–M)**, with high, mean, and low values given for each. Parameters included are:  
-
-- **Effective temperature (K)**  
-- **Thermal Interval Constant (þ)** — the step size in Kelvin that defines subclass increments  
-- **Temperature (T⊙)** relative to the Sun  
-- **Radius (R⊙)** relative to the Sun  
-- **Luminosity (L⊙)** relative to the Sun  
-- **Mass (M⊙)** relative to the Sun  
-- **Frequency (Q⊙)** relative to the Sun  
-
-The table serves as a **ready reference for stellar design** in worldbuilding, allowing thesiasts to quickly identify plausible ranges of physical values across the standard stellar sequence. It systematizes how subclass divisions are calculated (using the TIC, þ) and provides both absolute and relative values for major stellar quantities.  
-
-**Canon Links:**  
-- Connects to **Spectral Classes, Types, and Parameters** (M002 Stars series).  
-- Uses the **Thermal Interval Constant (þ) [neo]** as defined elsewhere in WCB.  
-- Values support calculations in **Habitable Zones**, **Fundamental Orbits**, and related stellar-orbital frameworks.  
-
-**Lexical Tags:**  
-- **[sci]** Spectral Classes, Tempera
-
-
 

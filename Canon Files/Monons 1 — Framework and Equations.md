@@ -3,7 +3,7 @@ title: ""
 ---
 
 
-## Abstract  
+## Abstract  1
 **Major Topics:**  
 - Core algebraic relationships linking the five fundamental **mononic** parameters: **mass (m), radius (r), density (ρ), surface gravity (g), and escape velocity (vₑ)**.  
 - Provides multiple equivalent formulations, allowing any parameter to be derived from any two others.  
@@ -22,20 +22,7 @@ title: ""
 - Serves as the mathematical backbone for all mononic monoclassifications (Geotic, Gaean, Rheatic).  
 - Companion to **Geotic Ground States**, which simplifies these identities when one or more parameters = 1.  
 
-
-
-# Monon Equations of State
-
-|          Mass<br>(m)           |         Radius<br>(r)         |             Density<br>(ρ)             |     Gravity<br>(g)     |   Escape Velocity<br>(vₑ)    |
-| :----------------------------: | :---------------------------: | :------------------------------------: | :--------------------: | :--------------------------: |
-|            $m=gr^2$            |      $r=\dfrac{g}{\rho}$      |         $\rho=\dfrac{m}{r^3}$          |   $g=\dfrac{m}{r^2}$   |       $v_e=\sqrt{g r}$       |
-|          $m=\rho r^3$          |    $r=\sqrt{\dfrac{m}{g}}$    |          $\rho=\dfrac{g}{r}$           |       $g=r \rho$       |  $v_e=\sqrt{\dfrac{m}{r}}$   |
-|    $m=\dfrac{g^3}{\rho^2}$     | $r=\sqrt[3]{\dfrac{m}{\rho}}$ |      $\rho=\sqrt{\dfrac{g^3}{m}}$      | $g=\sqrt[3]{m \rho^2}$ | $v_e=\dfrac{g}{\sqrt{\rho}}$ |
-| $m=\dfrac{v_e^3}{\sqrt{\rho}}$ | $r=\dfrac{v_e}{\sqrt{\rho}}$  |  $\rho=\left(\dfrac{v_e}{r}\right)^2$  |  $g=v_e \sqrt{\rho}$   |     $v_e=\sqrt[4]{m g}$      |
-|      $m=\dfrac{v_e^4}{g}$      |     $r=\dfrac{v_e^2}{g}$      |  $\rho=\left(\dfrac{g}{v_e}\right)^2$  |  $g=\dfrac{v_e^2}{r}$  |     $v_e=r \sqrt{\rho}$      |
-|          $m=r v_e^2$           |     $r=\dfrac{m}{v_e^2}$      | $\rho=\left(\dfrac{v_e^3}{m}\right)^2$ |  $g=\dfrac{v_e^4}{m}$  |   $v_e=\sqrt[6]{m^2 \rho}$   |
-
-## Abstract  
+## Abstract  2
 **Major Topics:**  
 - Outlines the **dual-branch classification system** for monons.  
 - **Conformation branch** (structural/physical): based on composition and physical form.  
@@ -60,12 +47,81 @@ title: ""
 - Ensures that **physical identity** (Conformation) and **biospheric identity** (Ontosomic) can coexist without collision.  
 - Anchors subordinate classifications (e.g., Gaean, Rheatic, Hydrostate subtypes).  
 
+## Abstract 3
+**Major Topics:**  
+- Monon composition taxonomy (configuration classes).  
+- Four primary categories: Lithic, Astatic, Aetheric, Ulsic.  
+- Density ranges for Lithic, Astatic, and Aetheric.  
+- Subclasses (conformations) within each category.  
 
+**Key Terms & Symbols:**  
+- Lithic → Petriform (silicate), Carboform (carbon).  
+- Astatic → Pagoform (ice-rich), Fluxiform (liquid-dominated).  
+- Aetheric → Transiform (gas dwarfs), Pneumoform (ice giants), Haliform (gas giants).  
+- Ulsic → placeholder for exotic/degenerate matter (neutron stars, quark stars, black holes).  
+- Densities expressed in g/cm³ and ⨁ (Earth-density units).  
+
+**Cross-Check Notes:**  
+- Canon as of Glossary v1.217.  
+- Complements **Mononic Mass Classes** (size taxonomy), creating a two-axis classification system (mass × composition).  
+- “Haliform” here = Gas Giants → ensure no confusion with earlier Haliform (halogen-bearing lithic variant).  
+- Overlaps with terms already staged in Glossary: Lithic, Astatic, Aetheric, Ulsic.  
+
+## Abstract  4
+
+**Major Topics:**  
+- Provides the **canonical reference table** for **monon mass classes and monoclasses**, establishing the taxonomy framework used across WCB.  
+- Defines the hierarchical structure of **–moic categories** by mass domain:  
+  - **micromon, minimon, midimon, planemon, intermon, stellamon, supermon, ultramon, hypermon.**  
+- Associates each category with its **mass range, radius bounds, and representative examples** (from asteroids to stellar bodies).  
+- Establishes the system of **terracentric prefixes** (centiterran, deciterran, kiloterran, megaterran, etc.) for finer-grained scaling across mass domains.  
+- Connects monoclasses (e.g., **telluric, rheatic, gaean**) with their appropriate mass classes, showing where habitability-relevant subtypes emerge.  
+- Serves as the master framework to which specialized notes (e.g., **Gaean planemons, Rheatic planemons**) attach.  
+
+**Key Terms & Symbols:**  
+- **Mass classes:** micromon, minimon, midimon, planemon, intermon, stellamon, supermon, ultramon, hypermon.  
+- **Terracentric scaling prefixes:** centiterran, deciterran, kiloterran, megaterran, etc.  
+- **Ontotype:** compositional subtypes (telluric, rheatic, gaean, xenotic).  
+- **µT (microterran units):** mass measure used for micromons and smaller classes.  
+
+**Cross-Check Notes:**  
+- This file provides the **systemic backbone** for all WCB classification work.  
+- All major terms are already present in the glossary as of v1.222.  
+- Future consideration: whether **terracentric prefixes** warrant their own glossary entry or remain embedded in this reference note.  
+
+## Abstract 5
+**Major Topics:**  
+- Definition of the **mononic condition**: all WCB monoclasses (planemon, intermon, stellamon, etc.) apply only to single, gravitationally coherent bodies.  
+- Scope clarification: monoclasses exclude multi-body systems, aggregates, and regions.  
+- Distinction between *ontological object* vs. *mathematical abstraction*.  
+- Ontological boundary rule: barycentered approximations ≠ monoclasses.  
+
+**Key Terms & Symbols:**  
+- –mon suffix = monoclass indicator (e.g., planemon, stellamon, intermon).  
+- Center of mass (singular) = necessary condition for –mon classification.  
+- Cryptomon, supermon, ultramon, hypermon = monoclass variants.  
+- Barycenter = mathematical construct; not a physical monon.  
+
+**Cross-Check Notes:**  
+- Canonical clarification: multi-body systems (binaries, clusters, galaxies, nebulae) are **not mononic**, even if composed of mononic members.  
+- Rule resolves ambiguity: a system of planemons is not itself a planemon.  
+- Complements **Mononic Mass Classes** and **Mononic Compositions** (**morphotypes**) as monoclass framework foundations.  
+- Ensure consistent usage: “–mon” suffix always denotes singular gravitationally self-bound entities, never systems.  
+
+# Monon Equations of State
+
+|          Mass<br>(m)           |         Radius<br>(r)         |             Density<br>(ρ)             |     Gravity<br>(g)     |   Escape Velocity<br>(vₑ)    |
+| :----------------------------: | :---------------------------: | :------------------------------------: | :--------------------: | :--------------------------: |
+|            $m=gr^2$            |      $r=\dfrac{g}{\rho}$      |         $\rho=\dfrac{m}{r^3}$          |   $g=\dfrac{m}{r^2}$   |       $v_e=\sqrt{g r}$       |
+|          $m=\rho r^3$          |    $r=\sqrt{\dfrac{m}{g}}$    |          $\rho=\dfrac{g}{r}$           |       $g=r \rho$       |  $v_e=\sqrt{\dfrac{m}{r}}$   |
+|    $m=\dfrac{g^3}{\rho^2}$     | $r=\sqrt[3]{\dfrac{m}{\rho}}$ |      $\rho=\sqrt{\dfrac{g^3}{m}}$      | $g=\sqrt[3]{m \rho^2}$ | $v_e=\dfrac{g}{\sqrt{\rho}}$ |
+| $m=\dfrac{v_e^3}{\sqrt{\rho}}$ | $r=\dfrac{v_e}{\sqrt{\rho}}$  |  $\rho=\left(\dfrac{v_e}{r}\right)^2$  |  $g=v_e \sqrt{\rho}$   |     $v_e=\sqrt[4]{m g}$      |
+|      $m=\dfrac{v_e^4}{g}$      |     $r=\dfrac{v_e^2}{g}$      |  $\rho=\left(\dfrac{g}{v_e}\right)^2$  |  $g=\dfrac{v_e^2}{r}$  |     $v_e=r \sqrt{\rho}$      |
+|          $m=r v_e^2$           |     $r=\dfrac{m}{v_e^2}$      | $\rho=\left(\dfrac{v_e^3}{m}\right)^2$ |  $g=\dfrac{v_e^4}{m}$  |   $v_e=\sqrt[6]{m^2 \rho}$   |
 
 # 🌍 Planemon Framework (Master Map)
 
 All **planemons** (planetary monons) share a **common trunk** — then branch into two complementary classification systems.
-
 
 ## 🌳 Trunk (Shared Levels)
 
@@ -118,25 +174,7 @@ Focus: **How the planemon relates to life (esp. Earthlike envelopes)**
     - Earth = Geotic (Class) → Gaean (Type) → Pluristate (State) → Serenal (Condition)## 
 
 
-## Abstract
-**Major Topics:**  
-- Monon composition taxonomy (configuration classes).  
-- Four primary categories: Lithic, Astatic, Aetheric, Ulsic.  
-- Density ranges for Lithic, Astatic, and Aetheric.  
-- Subclasses (conformations) within each category.  
 
-**Key Terms & Symbols:**  
-- Lithic → Petriform (silicate), Carboform (carbon).  
-- Astatic → Pagoform (ice-rich), Fluxiform (liquid-dominated).  
-- Aetheric → Transiform (gas dwarfs), Pneumoform (ice giants), Haliform (gas giants).  
-- Ulsic → placeholder for exotic/degenerate matter (neutron stars, quark stars, black holes).  
-- Densities expressed in g/cm³ and ⨁ (Earth-density units).  
-
-**Cross-Check Notes:**  
-- Canon as of Glossary v1.217.  
-- Complements **Mononic Mass Classes** (size taxonomy), creating a two-axis classification system (mass × composition).  
-- “Haliform” here = Gas Giants → ensure no confusion with earlier Haliform (halogen-bearing lithic variant).  
-- Overlaps with terms already staged in Glossary: Lithic, Astatic, Aetheric, Ulsic.  
 
 
 ## Monon Morphotypes and Conformations
@@ -167,27 +205,9 @@ And each has subsets, called ***conformations***:
 	- ***Pneumoform***: Ice Giants
 	- ***Haliform***: Gas Giants
 
-These are intended to categorize monons _in their current configuration_.  A monon may (usually will) assume different qualities depending on its age and environment.## Abstract  
+These are intended to categorize monons _in their current configuration_.  A monon may (usually will) assume different qualities depending on its age and environment.
 
-**Major Topics:**  
-- Provides the **canonical reference table** for **monon mass classes and monoclasses**, establishing the taxonomy framework used across WCB.  
-- Defines the hierarchical structure of **–moic categories** by mass domain:  
-  - **micromon, minimon, midimon, planemon, intermon, stellamon, supermon, ultramon, hypermon.**  
-- Associates each category with its **mass range, radius bounds, and representative examples** (from asteroids to stellar bodies).  
-- Establishes the system of **terracentric prefixes** (centiterran, deciterran, kiloterran, megaterran, etc.) for finer-grained scaling across mass domains.  
-- Connects monoclasses (e.g., **telluric, rheatic, gaean**) with their appropriate mass classes, showing where habitability-relevant subtypes emerge.  
-- Serves as the master framework to which specialized notes (e.g., **Gaean planemons, Rheatic planemons**) attach.  
 
-**Key Terms & Symbols:**  
-- **Mass classes:** micromon, minimon, midimon, planemon, intermon, stellamon, supermon, ultramon, hypermon.  
-- **Terracentric scaling prefixes:** centiterran, deciterran, kiloterran, megaterran, etc.  
-- **Ontotype:** compositional subtypes (telluric, rheatic, gaean, xenotic).  
-- **µT (microterran units):** mass measure used for micromons and smaller classes.  
-
-**Cross-Check Notes:**  
-- This file provides the **systemic backbone** for all WCB classification work.  
-- All major terms are already present in the glossary as of v1.222.  
-- Future consideration: whether **terracentric prefixes** warrant their own glossary entry or remain embedded in this reference note.  
 
 
 # Monon Mass Classes and monoclasses
@@ -569,24 +589,7 @@ These are intended to categorize monons _in their current configuration_.  A mon
 | Kepler-39b            | 6387.780  | kiloterran  | intermon   |
 | Kepler-47c            | 8898.400  | kiloterran  | intermon   |
 
-## Abstract
-**Major Topics:**  
-- Definition of the **mononic condition**: all WCB monoclasses (planemon, intermon, stellamon, etc.) apply only to single, gravitationally coherent bodies.  
-- Scope clarification: monoclasses exclude multi-body systems, aggregates, and regions.  
-- Distinction between *ontological object* vs. *mathematical abstraction*.  
-- Ontological boundary rule: barycentered approximations ≠ monoclasses.  
 
-**Key Terms & Symbols:**  
-- –mon suffix = monoclass indicator (e.g., planemon, stellamon, intermon).  
-- Center of mass (singular) = necessary condition for –mon classification.  
-- Cryptomon, supermon, ultramon, hypermon = monoclass variants.  
-- Barycenter = mathematical construct; not a physical monon.  
-
-**Cross-Check Notes:**  
-- Canonical clarification: multi-body systems (binaries, clusters, galaxies, nebulae) are **not mononic**, even if composed of mononic members.  
-- Rule resolves ambiguity: a system of planemons is not itself a planemon.  
-- Complements **Mononic Mass Classes** and **Mononic Compositions** (**morphotypes**) as monoclass framework foundations.  
-- Ensure consistent usage: “–mon” suffix always denotes singular gravitationally self-bound entities, never systems.  
 
 # Classification Rule — The Monon Condition
 

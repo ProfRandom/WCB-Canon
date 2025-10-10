@@ -3,7 +3,7 @@ title: ""
 ---
 
 
-## Abstract  
+## Abstract  1 
 **Major Topics:**  
 - Definition of **mean motion resonance**: two (or more) bodies orbiting a common primary with orbital periods in an integer ratio (*a:b*).  
 - **Notation:** ratio expressed as longer period : shorter period.  
@@ -24,29 +24,7 @@ title: ""
 - No collisions with existing definitions.  
 - To be grouped into **Orbits 3 — Resonances** (with Synodion, Synodial Epoch).  
 
-
-# Mean Motion Resonance
-
-When two bodies orbit a third body in common, there will be resonances in their orbits. If one body’s orbit is an exact integer value different from the other’s, the two are said to be in *mean motion resonance*, and the ratio of their orbits is **a : b**, denoted as the longer orbital period followed by the shorter orbital period, separated by a colon (∶).
-
-![[MeanMotionResonance2-1.jpg]]
-
-For example, in the figure above, Body 1 orbits twice for every one orbit of Body 2.  This is a _first order resonance_, because the difference between the two values is only 1 unit:
-$$
-2 - 1 = 1
-$$
-Other examples of first-order resonances[^1] would be 6 : 5, 13 : 12, etc.
-
-Examples of a _second-order resonance_ would be those in which the orbital periods were separated by a difference of 2; e.g. 3 : 1 or 5 : 3.  The higher the order of the resonance, the less stable the orbits will be over time.
-
-Mean motion resonances can arise between three or more bodies.  Jupiter's moons Io, Europa, and Ganymede experience a 4 : 2 : 1 mean motion resonance between them, such that for every orbit Ganymede makes, Europa completes two, and Io completes four.  This also means that Io orbits twice per each orbit of Europa.
-
-However, an interesting phenomenon also occurs, such that Ganymede, Europa, and Io _never line up_ on the same side of Jupiter.  Any two of them may line up at various points in their orbital dance, but all three never do.
-
-> While N-conjunctions are _technically_ possible in N-orbiton systems, they are reliant on very specific conditions of orbital eccentricity and coplanarity; mean motion resonances between more than three objects should be treated for all intents and purposes as _impossible_.
-
-
-## Abstract  
+## Abstract  2
 **Major Topics:**  
 - Defines the **synodion (Σ):** the synodic period between two orbitons whose orbital periods are not in integer ratio.  
 - Related concepts:  
@@ -70,6 +48,56 @@ However, an interesting phenomenon also occurs, such that Ganymede, Europa, and 
 - Canon has no prior abstract of synodic periods.  
 - Complements Orbits 1 (Dynamics), but distinct: this covers non-integer commensurabilities.  
 - **Status:** [NEW] — establishes synodion framework as part of orbital resonance canon.  
+
+## Abstract  3
+**Major Topics:**  
+- Defines the **synodial epoch (Y):** interval after which two orbitons return to their original alignment angle (base angle $B^\theta$).  
+- Related measures:  
+  - **Epochal aggregate (Y₀):** total days in a synodial epoch.  
+  - **Epochal interval (Ψ):** number of synodoi within one epoch.  
+  - **Quarter synodial epoch (Y₀/4):** recurrence at cardinal angles (90°, 180°, 270°).  
+  - **Quarter epochal interval (Ψ/4):** synodoi per quarter epoch.  
+  - **Epochal complements (Yα, Yβ):** complete orbits of each body per epoch.  
+- Requires integer normalization of orbital periods for LCM/GCD computation.  
+- Worked example ($P_\alpha = 24.36$ d, $P_\beta = 11.72$ d):  
+  - $Y₀ = 7137.48$ d ≈ 19.54 y.  
+  - Ψ = 316 synodoi.  
+  - Quarter epoch ≈ 1784 d ≈ 4.89 y.  
+  - Yα = 293 orbits, Yβ = 609 orbits.  
+
+**Key Terms & Symbols:**  
+- **Synodial Epoch (Y) [NEW].**  
+- **Epochal Aggregate (Y₀) [NEW].**  
+- **Epochal Interval (Ψ) [NEW].**  
+- **Quarter Synodial Epoch (Y₀/4) [NEW].**  
+- **Quarter Epochal Interval (Ψ/4) [NEW].**  
+- **Epochal Complements (Yα, Yβ) [NEW].**  
+
+**Cross-Check Notes:**  
+- No prior canon coverage of epochal cycles; this is a new layer building on the **Synodion** framework.  
+- Depends on GCD/LCM math tools (already canonized in **The Euclidean Algorithm**).  
+- **Status:** [NEW] — introduces full synodial epoch framework as part of resonance canon.  
+
+# Mean Motion Resonance
+
+When two bodies orbit a third body in common, there will be resonances in their orbits. If one body’s orbit is an exact integer value different from the other’s, the two are said to be in *mean motion resonance*, and the ratio of their orbits is **a : b**, denoted as the longer orbital period followed by the shorter orbital period, separated by a colon (∶).
+
+![[MeanMotionResonance2-1.jpg]]
+
+For example, in the figure above, Body 1 orbits twice for every one orbit of Body 2.  This is a _first order resonance_, because the difference between the two values is only 1 unit:
+$$
+2 - 1 = 1
+$$
+Other examples of first-order resonances[^1] would be 6 : 5, 13 : 12, etc.
+
+Examples of a _second-order resonance_ would be those in which the orbital periods were separated by a difference of 2; e.g. 3 : 1 or 5 : 3.  The higher the order of the resonance, the less stable the orbits will be over time.
+
+Mean motion resonances can arise between three or more bodies.  Jupiter's moons Io, Europa, and Ganymede experience a 4 : 2 : 1 mean motion resonance between them, such that for every orbit Ganymede makes, Europa completes two, and Io completes four.  This also means that Io orbits twice per each orbit of Europa.
+
+However, an interesting phenomenon also occurs, such that Ganymede, Europa, and Io _never line up_ on the same side of Jupiter.  Any two of them may line up at various points in their orbital dance, but all three never do.
+
+> While N-conjunctions are _technically_ possible in N-orbiton systems, they are reliant on very specific conditions of orbital eccentricity and coplanarity; mean motion resonances between more than three objects should be treated for all intents and purposes as _impossible_.
+
 
 ## The Synodian: Non-Integer Resonances
 When two bodies orbit a central body, but their orbital periods are:
@@ -249,34 +277,6 @@ The answer is "yes" and we can calculate that, too.
 
 
 
-## Abstract  
-**Major Topics:**  
-- Defines the **synodial epoch (Y):** interval after which two orbitons return to their original alignment angle (base angle $B^\theta$).  
-- Related measures:  
-  - **Epochal aggregate (Y₀):** total days in a synodial epoch.  
-  - **Epochal interval (Ψ):** number of synodoi within one epoch.  
-  - **Quarter synodial epoch (Y₀/4):** recurrence at cardinal angles (90°, 180°, 270°).  
-  - **Quarter epochal interval (Ψ/4):** synodoi per quarter epoch.  
-  - **Epochal complements (Yα, Yβ):** complete orbits of each body per epoch.  
-- Requires integer normalization of orbital periods for LCM/GCD computation.  
-- Worked example ($P_\alpha = 24.36$ d, $P_\beta = 11.72$ d):  
-  - $Y₀ = 7137.48$ d ≈ 19.54 y.  
-  - Ψ = 316 synodoi.  
-  - Quarter epoch ≈ 1784 d ≈ 4.89 y.  
-  - Yα = 293 orbits, Yβ = 609 orbits.  
-
-**Key Terms & Symbols:**  
-- **Synodial Epoch (Y) [NEW].**  
-- **Epochal Aggregate (Y₀) [NEW].**  
-- **Epochal Interval (Ψ) [NEW].**  
-- **Quarter Synodial Epoch (Y₀/4) [NEW].**  
-- **Quarter Epochal Interval (Ψ/4) [NEW].**  
-- **Epochal Complements (Yα, Yβ) [NEW].**  
-
-**Cross-Check Notes:**  
-- No prior canon coverage of epochal cycles; this is a new layer building on the **Synodion** framework.  
-- Depends on GCD/LCM math tools (already canonized in **The Euclidean Algorithm**).  
-- **Status:** [NEW] — introduces full synodial epoch framework as part of resonance canon.  
 
 ## The Synodial Epoch
 

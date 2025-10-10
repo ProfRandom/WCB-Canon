@@ -3,7 +3,7 @@ title: ""
 ---
 
 
-## Abstract  
+## Abstract  1
 **Major Topics:**  
 - Explains the system of **stellar magnitudes**, both **apparent (m)** and **absolute (M)**.  
 - **Historical background:**  
@@ -39,9 +39,50 @@ title: ""
 - Introduces magnitude scale, parsec, distance modulus, and Vega standard candle to WCB canon for the first time.  
 - **Status:** [NEW] — establishes a full stellar magnitude framework within WCB.  
 
+## Abstract 2
+**Major Topics:**  
+- Apparent brightness (flux) as a function of luminosity and distance.  
+- Absolute form: $B_A = \dfrac{L_W}{4 \pi d^2}$:contentReference[oaicite:0]{index=0}.  
+- Relative form (solar units): $B_{A⊙} = \dfrac{L}{D^2}$:contentReference[oaicite:1]{index=1}.  
+- Inverse-square law for radiation intensity.  
+- Worked examples: Sun as seen from Mars; star Kalveru (L = 1.618⊙) at 1 AU and 1.524 AU:contentReference[oaicite:2]{index=2}.  
+
+**Key Terms & Symbols:**  
+- $B_A$ = apparent brightness (flux, W/m²).  
+- $L_W$ = luminosity (watts).  
+- $d$ = distance (meters).  
+- $B_{A⊙}$ = apparent brightness in solar units.  
+- $L$ = luminosity in solar units.  
+- $D$ = distance in AU (semi-major axis).  
+
+**Cross-Check Notes:**  
+- Canonical use: $B_{A⊙}$ form is preferred for thesiastic accessibility.  
+- Related to glossary entries: luminosity, flux, inverse-square law, semi-major axis (𝒜).  
+- Examples provide concrete context (Mars orbit, Kalveru–Dynon system).  
+- Ensure no collision with existing brightness/flux notation elsewhere.  
 
 
+## Abstract 3
+**Major Topics:**  
+- Planetary albedo (A) as a measure of reflectivity.  
+- Estimated albedo ranges for different planemon types (snowball, cloudy Earthlike, rocky desert, oceanic, Venus-like).  
+- Planetary Albedo Estimator: breakdown of surface types and modifiers (snow, desert, forest, ocean, clouds).  
+- Climatic implications: high albedo → cooling/snowball effect; low albedo → warming.  
 
+**Key Terms & Symbols:**  
+- A = albedo (fraction of incident light reflected).  
+- Contextual ranges:  
+  - Snowball planemon: ⟨0.6 ∧ 0.8⟩:contentReference[oaicite:0]{index=0}  
+  - Cloudy temperate Earthlike: ⟨0.25 ∧ 0.35⟩:contentReference[oaicite:1]{index=1}  
+  - Rocky desert world: ⟨0.15 ∧ 0.25⟩:contentReference[oaicite:2]{index=2}  
+  - Ocean planemon (few clouds): ⟨0.05 ..0.15⟩:contentReference[oaicite:3]{index=3}  
+  - Thick sulfur clouds (Venus-like): ~0.75:contentReference[oaicite:4]{index=4}  
+
+**Cross-Check Notes:**  
+- Canon as of Glossary (albedo already present, this note expands estimates by world-type).  
+- Albedo estimator table introduces finer subdivisions (surface modifiers, cloud effects).  
+- Overlaps with climate/habitability notes; relates to **Orbital Eccentricity and Seasonal Effects.md** (seasonal insolation context).  
+- Ensure no symbol collision: albedo consistently A.  
 
 # Stellar Magnitude and The Distance Modulus
 You've probably encountered the term _magnitude_ in relation to stars before, perhaps even heard mention of the two types: _absolute magnitude (M)_ and _apparent magnitude (m)_.  Simply put, a star's **absolute magnitude** is how visibly bright it actually is, and its **apparent magnitude** is how bright it appears.
@@ -149,28 +190,6 @@ Where:
 - $M$ = the star's absolute magnitude.
 
 This gives us a rough approximation of any star's absolute magnitude and we can use the **distance modulus** to calculate an apparent magnitude from that.
-## Abstract
-**Major Topics:**  
-- Apparent brightness (flux) as a function of luminosity and distance.  
-- Absolute form: $B_A = \dfrac{L_W}{4 \pi d^2}$:contentReference[oaicite:0]{index=0}.  
-- Relative form (solar units): $B_{A⊙} = \dfrac{L}{D^2}$:contentReference[oaicite:1]{index=1}.  
-- Inverse-square law for radiation intensity.  
-- Worked examples: Sun as seen from Mars; star Kalveru (L = 1.618⊙) at 1 AU and 1.524 AU:contentReference[oaicite:2]{index=2}.  
-
-**Key Terms & Symbols:**  
-- $B_A$ = apparent brightness (flux, W/m²).  
-- $L_W$ = luminosity (watts).  
-- $d$ = distance (meters).  
-- $B_{A⊙}$ = apparent brightness in solar units.  
-- $L$ = luminosity in solar units.  
-- $D$ = distance in AU (semi-major axis).  
-
-**Cross-Check Notes:**  
-- Canonical use: $B_{A⊙}$ form is preferred for thesiastic accessibility.  
-- Related to glossary entries: luminosity, flux, inverse-square law, semi-major axis (𝒜).  
-- Examples provide concrete context (Mars orbit, Kalveru–Dynon system).  
-- Ensure no collision with existing brightness/flux notation elsewhere.  
-
 
 
 
@@ -221,28 +240,6 @@ $$
 B_{A⊙} = \dfrac{L}{D^2} = \dfrac{1.618}{1.524^2} = \dfrac{1.618}{2.323} = 0.697
 $$
 So, Kalveru appears about 70% as bright from Dynon as the Sun does from Earth.
-## Abstract
-**Major Topics:**  
-- Planetary albedo (A) as a measure of reflectivity.  
-- Estimated albedo ranges for different planemon types (snowball, cloudy Earthlike, rocky desert, oceanic, Venus-like).  
-- Planetary Albedo Estimator: breakdown of surface types and modifiers (snow, desert, forest, ocean, clouds).  
-- Climatic implications: high albedo → cooling/snowball effect; low albedo → warming.  
-
-**Key Terms & Symbols:**  
-- A = albedo (fraction of incident light reflected).  
-- Contextual ranges:  
-  - Snowball planemon: ⟨0.6 ∧ 0.8⟩:contentReference[oaicite:0]{index=0}  
-  - Cloudy temperate Earthlike: ⟨0.25 ∧ 0.35⟩:contentReference[oaicite:1]{index=1}  
-  - Rocky desert world: ⟨0.15 ∧ 0.25⟩:contentReference[oaicite:2]{index=2}  
-  - Ocean planemon (few clouds): ⟨0.05 ..0.15⟩:contentReference[oaicite:3]{index=3}  
-  - Thick sulfur clouds (Venus-like): ~0.75:contentReference[oaicite:4]{index=4}  
-
-**Cross-Check Notes:**  
-- Canon as of Glossary (albedo already present, this note expands estimates by world-type).  
-- Albedo estimator table introduces finer subdivisions (surface modifiers, cloud effects).  
-- Overlaps with climate/habitability notes; relates to **Orbital Eccentricity and Seasonal Effects.md** (seasonal insolation context).  
-- Ensure no symbol collision: albedo consistently A.  
-
 
 | Planemon Type                | Estimated Albedo (A) |
 | --------------------------- | -------------------- |

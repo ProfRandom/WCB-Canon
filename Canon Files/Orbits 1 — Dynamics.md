@@ -3,7 +3,7 @@ title: ""
 ---
 
 
-## Abstract
+## Abstract 1
 **Major Topics:**  
 - Methods for placing and sizing asteroid belts between two major perturbers.  
 - Calculation of belt extent: inner/outer orbits, asymmetric central orbit, systemic mass ratio, belt width.  
@@ -34,9 +34,92 @@ title: ""
 - Canonical distinction: gap resonances = frequency > 1.5, trap resonances = frequency ≤ 1.5.  
 - Belt placement formulas integrate with broader Orbit Design Methods.  
 
+## Abstract 2
+**Major Topics:**  
+- Harmonic period as a synchronization interval of two cycles.  
+- Equivalence to the synodic period formula.  
+- Application to Earth’s solar day vs. sidereal day (≈ tropical year).  
+- Application to Earth’s solar day vs. stellar day (≈ sidereal year).  
 
+**Key Terms & Symbols:**  
+- H = harmonic period  
+- P₁ = solar day  
+- P₂ = sidereal day / stellar day  
+- Synodic period (noted as mathematically identical).  
 
+**Cross-Check Notes:**  
+- Bridges the concepts of daily cycles and year-length periods.  
+- Explicitly links harmonic period to *tropical* and *sidereal year* definitions.  
+- Potential overlaps with glossary entries on *solar day*, *sidereal day*, *stellar day*, and *synodic period*.  
+- Candidate staging milestone: Glossary v1.215 (Harmonic Period added).  
 
+## Abstract  3
+**Major Topics:**  
+- Establishes a **symbolic system** for generating orbital radii procedurally via multiplicative steps.  
+- Defines **intrabasal** (inward from baseline) and **extrabasal** (outward from baseline) orbit generation.  
+- Uses **basal orbital radius (B)** and **system cutoff (Ω)** as anchors, with optional use of nucleal orbit (𝒩) as B.  
+- Expresses orbital placement through **randomized multiplicative factors** (⟨⟨min ∧ max⟩⟩).  
+- Describes strategies: outward-only, inward-only, or bidirectional scaffolding from a central anchor.  
+
+**Key Terms & Symbols:**  
+- **Intrabasal [EXPANDED neo]:** Now canonized as any orbit inside a basal reference (broader than just calculations).  
+- **Extrabasal [EXPANDED neo]:** Any orbit outside a basal reference.  
+- **B (Basal orbital radius) [NEW ins].**  
+- **Ω (System cutoff) [NEW ins].**  
+- Random assignment operator (⟨⟨ ⟩⟩) [ins].  
+
+**Cross-Check Notes:**  
+- **[EXPANDED]** Intrabasal/Extrabasal promoted from calculation-only to general relational terms.  
+- **[NEW]** Basal radius (B) and cutoff (Ω).  
+- No conflicts with existing canon.  
+- Extends *Range Constraints & Random Assignment*; best read together.  
+
+## Abstract 4
+**Major Topics:**  
+- Orbital eccentricity and its impact on planemon–star systems.  
+- Periastron (Rₘᵢₙ) and apastron (Rₘₐₓ) distances.  
+- Fractional Distance Asymmetry (Ḋ) as a measure of orbital skew.  
+- Flux Ratio (Fₘᵢₙ/Fₘₐₓ) and insolation contrast.  
+- Climatic implications of eccentricity-driven flux differences.  
+
+**Key Terms & Symbols:**  
+- 𝒜 = average orbital separation (semimajor axis).  
+- e = orbital eccentricity.  
+- Rₘᵢₙ, Rₘₐₓ = periastron and apastron distances:contentReference[oaicite:0]{index=0}.  
+- Ḋ = fractional distance asymmetry:contentReference[oaicite:1]{index=1}.  
+- Fₘᵢₙ/Fₘₐₓ = flux ratio (climatic effect):contentReference[oaicite:2]{index=2}.  
+
+**Cross-Check Notes:**  
+- Canonical terminology: *periastron/apastron* with Rₘᵢₙ/Rₘₐₓ for star–planemon systems.  
+- Deprecated symbols: ß, rₚ, rₐ (legacy only).  
+- Ḋ introduced in Glossary v1.211 as preferred WCB metric.  
+- Overlaps conceptually with orbital design/insolation notes; interacts with climate/habitability discussions.  
+
+## Abstract  5
+**Major Topics:**  
+- Provides a **qualitative, sky-map based method** for estimating when the Sun passes behind planetary rings.  
+- Uses **ring arcs (fixed for latitude)** and the **Sun’s declination path (variable by apical chronum)** to identify shadow events.  
+- Outlines shadow scenarios:  
+  - No occlusion.  
+  - Partial occlusion (single crossing).  
+  - Double crossing.  
+  - Special equator–equinox case (Sun aligned with ring plane all day, but negligible effect due to Sun’s disc width).  
+- Explains how **timing of shadow events** drifts seasonally: stable near solstices, rapid shifts near equinoxes.  
+- Discusses **climate implications** of ring shading: reduced insolation, altered convection, possible cooling effects, and role as “life-saving parasols.”  
+- Stresses limits of rigor: exact modeling requires advanced orbital climatology; this guide provides **worldbuilding-level approximations**.  
+
+**Key Terms & Symbols:**  
+- **Apical chronum [neo].**  
+- **Diurn [neo].**  
+- **Declination (δ) [sci].**  
+- **Latitude (λ) [sci].**  
+
+**Cross-Check Notes:**  
+- Builds directly on **Calculating Stellar Sky Paths**: applies its solar path framework to ring–Sun interactions.  
+- Reinforces canonical use of **apical chronum** and **diurn**.  
+- Uses standard astronomical terms: **declination, latitude**.  
+- No new symbolic conventions introduced.  
+- **Status:** [EXPANDED] — broadens existing canon by applying sky-path methods to planetary ring shading and climate effects.  
 
 # Asteroid Belt Placement and Extents
 
@@ -192,24 +275,8 @@ Both methods are algebraically equivalent: the $g_{quad}$ form expands ***exactl
 $$
 g_{quad} = \sqrt{g_i^2 + g_o^2} = \sqrt{\left(a^2 \frac{m_i}{M_*}\right) + \left(a^2 \frac{m_o}{M_*}\right)} = a \times \sqrt{\frac{m_i + m_o}{M_*}} = g_w \; \checkmark
 $$
-## Abstract
-**Major Topics:**  
-- Harmonic period as a synchronization interval of two cycles.  
-- Equivalence to the synodic period formula.  
-- Application to Earth’s solar day vs. sidereal day (≈ tropical year).  
-- Application to Earth’s solar day vs. stellar day (≈ sidereal year).  
 
-**Key Terms & Symbols:**  
-- H = harmonic period  
-- P₁ = solar day  
-- P₂ = sidereal day / stellar day  
-- Synodic period (noted as mathematically identical).  
-
-**Cross-Check Notes:**  
-- Bridges the concepts of daily cycles and year-length periods.  
-- Explicitly links harmonic period to *tropical* and *sidereal year* definitions.  
-- Potential overlaps with glossary entries on *solar day*, *sidereal day*, *stellar day*, and *synodic period*.  
-- Candidate staging milestone: Glossary v1.215 (Harmonic Period added).  
+# Harmonic Periods
 
 
 _Harmonic periods_ are crucial for understanding how a planet's rotational and orbital cycles synchronize.  The harmonic period $H$ is the time interval over which the two independent motions align in their periodicity.
@@ -260,27 +327,6 @@ $$
 … a difference of only $101.65737^s$ longer than the official length of the _sidereal year_: $31558149.7635456^s$.
 
 
-## Abstract  
-**Major Topics:**  
-- Establishes a **symbolic system** for generating orbital radii procedurally via multiplicative steps.  
-- Defines **intrabasal** (inward from baseline) and **extrabasal** (outward from baseline) orbit generation.  
-- Uses **basal orbital radius (B)** and **system cutoff (Ω)** as anchors, with optional use of nucleal orbit (𝒩) as B.  
-- Expresses orbital placement through **randomized multiplicative factors** (⟨⟨min ∧ max⟩⟩).  
-- Describes strategies: outward-only, inward-only, or bidirectional scaffolding from a central anchor.  
-
-**Key Terms & Symbols:**  
-- **Intrabasal [EXPANDED neo]:** Now canonized as any orbit inside a basal reference (broader than just calculations).  
-- **Extrabasal [EXPANDED neo]:** Any orbit outside a basal reference.  
-- **B (Basal orbital radius) [NEW ins].**  
-- **Ω (System cutoff) [NEW ins].**  
-- Random assignment operator (⟨⟨ ⟩⟩) [ins].  
-
-**Cross-Check Notes:**  
-- **[EXPANDED]** Intrabasal/Extrabasal promoted from calculation-only to general relational terms.  
-- **[NEW]** Basal radius (B) and cutoff (Ω).  
-- No conflicts with existing canon.  
-- Extends *Range Constraints & Random Assignment*; best read together.  
-
 
 
 # Orbit Randomization Notation
@@ -324,26 +370,7 @@ $$
 $$
 
 > Either method can fully define a system — or both can be combined with a central anchor (e.g. nucleal orbit) to scaffold a bidirectional structure.
-## Abstract
-**Major Topics:**  
-- Orbital eccentricity and its impact on planemon–star systems.  
-- Periastron (Rₘᵢₙ) and apastron (Rₘₐₓ) distances.  
-- Fractional Distance Asymmetry (Ḋ) as a measure of orbital skew.  
-- Flux Ratio (Fₘᵢₙ/Fₘₐₓ) and insolation contrast.  
-- Climatic implications of eccentricity-driven flux differences.  
 
-**Key Terms & Symbols:**  
-- 𝒜 = average orbital separation (semimajor axis).  
-- e = orbital eccentricity.  
-- Rₘᵢₙ, Rₘₐₓ = periastron and apastron distances:contentReference[oaicite:0]{index=0}.  
-- Ḋ = fractional distance asymmetry:contentReference[oaicite:1]{index=1}.  
-- Fₘᵢₙ/Fₘₐₓ = flux ratio (climatic effect):contentReference[oaicite:2]{index=2}.  
-
-**Cross-Check Notes:**  
-- Canonical terminology: *periastron/apastron* with Rₘᵢₙ/Rₘₐₓ for star–planemon systems.  
-- Deprecated symbols: ß, rₚ, rₐ (legacy only).  
-- Ḋ introduced in Glossary v1.211 as preferred WCB metric.  
-- Overlaps conceptually with orbital design/insolation notes; interacts with climate/habitability discussions.  
 
 
 # Orbital Eccentricity and Seasonal Effects
@@ -386,31 +413,7 @@ $$
 - **Canonical terminology**: use *periastron/apastron* with *Rₘᵢₙ*/*Rₘₐₓ* in star–planemon systems.  
 - Avoid $r_p$, $r_a$, or ß notations; these are legacy/derivation-only.  
 - In WCB canon, Ḋ is the preferred symbol for distance asymmetry.
-## Abstract  
-**Major Topics:**  
-- Provides a **qualitative, sky-map based method** for estimating when the Sun passes behind planetary rings.  
-- Uses **ring arcs (fixed for latitude)** and the **Sun’s declination path (variable by apical chronum)** to identify shadow events.  
-- Outlines shadow scenarios:  
-  - No occlusion.  
-  - Partial occlusion (single crossing).  
-  - Double crossing.  
-  - Special equator–equinox case (Sun aligned with ring plane all day, but negligible effect due to Sun’s disc width).  
-- Explains how **timing of shadow events** drifts seasonally: stable near solstices, rapid shifts near equinoxes.  
-- Discusses **climate implications** of ring shading: reduced insolation, altered convection, possible cooling effects, and role as “life-saving parasols.”  
-- Stresses limits of rigor: exact modeling requires advanced orbital climatology; this guide provides **worldbuilding-level approximations**.  
 
-**Key Terms & Symbols:**  
-- **Apical chronum [neo].**  
-- **Diurn [neo].**  
-- **Declination (δ) [sci].**  
-- **Latitude (λ) [sci].**  
-
-**Cross-Check Notes:**  
-- Builds directly on **Calculating Stellar Sky Paths**: applies its solar path framework to ring–Sun interactions.  
-- Reinforces canonical use of **apical chronum** and **diurn**.  
-- Uses standard astronomical terms: **declination, latitude**.  
-- No new symbolic conventions introduced.  
-- **Status:** [EXPANDED] — broadens existing canon by applying sky-path methods to planetary ring shading and climate effects.  
 
 ### **Quick Method for Ring Shadows (Approximation)**  
 
