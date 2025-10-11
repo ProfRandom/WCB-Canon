@@ -31,7 +31,7 @@ title: ""
 
 **Cross-Check Notes:**  
 - Supersedes earlier drafts that duplicated barycentric expressions.  
-- Aligns μ, ν, ϱ, φ notation with the **Stellamonic** and **Stereomonic** frameworks of *Meta 1 — Principles*.  
+- Aligns μ, ν, ϱ, φ notation with the **Stellamonic** and **solidonic** frameworks of *Meta 1 — Principles*.  
 - Provides the algebraic foundation for subsequent modules: *Binaries 2 — Star Systems and Planemon Orbits* and *Binaries 6 — Barycentric Geometry*.  
 
 # The Basics

@@ -214,31 +214,31 @@ These are intended to categorize monons _in their current configuration_.  A mon
 
 ## Listed by Mass Class
 
-| <center>Mass Class</center> | <center>Min. Mass ≥</center> | <center>Max. Mass <</center> | <center>Power</center> | <center>Monoclass</center>                |
-| --------------------------- | ---------------------------: | ---------------------------: | ---------------------: | ----------------------------------------- |
-| deniterran                  |                 0.0000000001 |                  0.000000001 |                  10⁻¹⁰ | nanomon                                   |
-| nanoterran                  |                  0.000000001 |                   0.00000001 |                   10⁻⁹ | nanomon                                   |
-| oktiterran                  |                   0.00000001 |                    0.0000001 |                   10⁻⁸ | nanomon                                   |
-| septiterran                 |                    0.0000001 |                     0.000001 |                   10⁻⁷ | nanomon                                   |
-| microterran                 |                     0.000001 |                      0.00001 |                   10⁻⁶ | micromon                                  |
-| pentiterran                 |                      0.00001 |                       0.0001 |                   10⁻⁵ | minimon                                   |
-| demiterran                  |                       0.0001 |                        0.001 |                   10⁻⁴ | midimon                                   |
-| milliterran                 |                        0.001 |                         0.01 |                   10⁻³ | mesomon                                   |
-| centiterran                 |                         0.01 |                          0.1 |                   10⁻² | planemon                                  |
-| deciterran                  |                          0.1 |                            1 |                   10⁻¹ | planemon                                  |
-| terran                      |                            1 |                           10 |                    10⁰ | planemon                                  |
-| dekaterran                  |                           10 |                          100 |                    10¹ | planemon                                  |
-| hectoterran                 |                          100 |                         1000 |                    10² | planemon                                  |
-| kiloterran                  |                         1000 |                        10000 |                    10³ | planemon to 4131⨁,<br/>then intermon      |
-| myriaterran                 |                        10000 |                       100000 |                    10⁴ | intermon to 2.664 myt,<br/>then stellamon |
-| hexaterran                  |                       100000 |                      1000000 |                    10⁵ | stellamon                                 |
-| megaterran                  |                      1000000 |                     10000000 |                    10⁶ | supermon                                  |
-| heptoterran                 |                     10000000 |                    100000000 |                    10⁷ | ultramon                                  |
-| octoterran                  |                    100000000 |                   1000000000 |                    10⁸ | ultramon                                  |
-| gigaterran                  |                   1000000000 |                  10000000000 |                    10⁹ | hypermon                                  |
-| denoterran                  |                  10000000000 |                 100000000000 |                   10¹⁰ | beyond -mo classification                 |
-| ondoterran                  |                 100000000000 |                1000000000000 |                   10¹¹ | beyond -mo classification                 |
-| teraterran                  |                1000000000000 |               10000000000000 |                   10¹² | beyond -mo classification                 |
+| <center>Mass Class</center> | <center>Min. Mass ≥</center> | <center>Max. Mass <</center> | <center>Power</center> | <center>Monoclass</center>                 |
+| --------------------------- | ---------------------------: | ---------------------------: | ---------------------: | ------------------------------------------ |
+| deniterran                  |                 0.0000000001 |                  0.000000001 |                  10⁻¹⁰ | nanomon                                    |
+| nanoterran                  |                  0.000000001 |                   0.00000001 |                   10⁻⁹ | nanomon                                    |
+| oktiterran                  |                   0.00000001 |                    0.0000001 |                   10⁻⁸ | nanomon                                    |
+| septiterran                 |                    0.0000001 |                     0.000001 |                   10⁻⁷ | nanomon                                    |
+| microterran                 |                     0.000001 |                      0.00001 |                   10⁻⁶ | micromon                                   |
+| pentiterran                 |                      0.00001 |                       0.0001 |                   10⁻⁵ | minimon                                    |
+| demiterran                  |                       0.0001 |                        0.001 |                   10⁻⁴ | midimon                                    |
+| milliterran                 |                        0.001 |                         0.01 |                   10⁻³ | mesomon                                    |
+| centiterran                 |                         0.01 |                          0.1 |                   10⁻² | planemon                                   |
+| deciterran                  |                          0.1 |                            1 |                   10⁻¹ | planemon                                   |
+| terran                      |                            1 |                           10 |                    10⁰ | planemon                                   |
+| dekaterran                  |                           10 |                          100 |                    10¹ | planemon                                   |
+| hectoterran                 |                          100 |                         1000 |                    10² | planemon                                   |
+| kiloterran                  |                         1000 |                        10000 |                    10³ | planemon to 4131⨁,<br/>then intermon       |
+| myriaterran                 |                        10000 |                       100000 |                    10⁴ | intermon to 2.5424 myt,<br/>then stellamon |
+| hexaterran                  |                       100000 |                      1000000 |                    10⁵ | stellamon                                  |
+| megaterran                  |                      1000000 |                     10000000 |                    10⁶ | supermon                                   |
+| heptoterran                 |                     10000000 |                    100000000 |                    10⁷ | ultramon                                   |
+| octoterran                  |                    100000000 |                   1000000000 |                    10⁸ | ultramon                                   |
+| gigaterran                  |                   1000000000 |                  10000000000 |                    10⁹ | hypermon                                   |
+| denoterran                  |                  10000000000 |                 100000000000 |                   10¹⁰ | beyond -mo classification                  |
+| ondoterran                  |                 100000000000 |                1000000000000 |                   10¹¹ | beyond -mo classification                  |
+| teraterran                  |                1000000000000 |               10000000000000 |                   10¹² | beyond -mo classification                  |
 
 
 ## Listed by monoclass

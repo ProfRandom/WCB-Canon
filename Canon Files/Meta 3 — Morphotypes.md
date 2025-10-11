@@ -14,7 +14,7 @@ title: ""
   - **mesomons:** equivalent to milliterran.
   - **planemons:** strictly ≥ centiterran (planetary-mass).  
 - Provides worked mapping with Solar System bodies (e.g., Ceres, Pluto, Titan, Earth).  
-- Emphasizes distinction between **stereomons** vs. **planemons**: *micromons*, *minimons*, *midimons*, and *mesomons* are monons but **not** planetary-mass objects.  
+- Emphasizes distinction between **solidons** vs. **planemons**: *micromons*, *minimons*, *midimons*, and *mesomons* are monons but **not** planetary-mass objects.  
 
 **Key Terms & Symbols:**  
 - **micromon [neo].**  
@@ -29,7 +29,7 @@ title: ""
 - No contradictions with existing canon.  
 - **Status:** [EXPANDED] clarification, not revision.  
 
-# Stereomon Morphotype Mapping
+# Solidon Morphotype Mapping
 
 ### Nanomons → Deni-, Nano-, Okti-, Septiterrans
 **Mass:** 0.0000000001–0.000001 M⨁
@@ -87,8 +87,8 @@ Mass: 0.001-0.01 M⨁
 	- Eris (0.002764⨁)
 	- Triton (0.003585⨁)
 	- Europa (0.008040⨁)
-### Planemons → Centiterrans and Up
-**Mass:** ≥ 0.01 M⨁
+### Planemons → Centi-, Deci-, Deka-, Hecto-, and Kiloterrans
+**Mass:** ≥ 0.01–4131 M⨁ (13M♃)
 - _Examples:_    
 	- Luna (0.012308⨁)
 	- Io (0.014975⨁)
@@ -99,4 +99,10 @@ Mass: 0.001-0.01 M⨁
 	- Mars (0.107523⨁)
 	- Venus (0.815578⨁)
 	- Earth (1.0000⨁)
+	- Uranus (14.536⨁)
+	- Neptune (17.147⨁)
+	- Saturn (95.159⨁)
+	- Jupiter (317.8⨁)
+### Intermon → Myriaterrans
+Mass: 4131–26640 M⨁ () 
 
