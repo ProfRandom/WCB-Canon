@@ -74,8 +74,8 @@ _A classification of mass-based cosmic bodies by gravitational, structural, and 
 ## 🔵 **Planemon**
 > A gravitationally rounded object in the mass range typical of planemons and planemon analogs.
 - **Mass Range**:
-	- 167 dmt ⨁ ≤ m < 4.131 kt (1.67 demiterrans to 4.131 kiloterrans)
-	- 0.000167 ⨁ ≤ m < 4.131 kt 
+	- 1.0 dmt ⨁ ≤ m < 4.131 kt (1.67 demiterrans to 4.131 kiloterrans)
+	- 0.0001 ⨁ ≤ m < 4.131 kt 
 - **Fusion Status**: No fusion    
 - **Examples**: Earth, Mercury, Ganymede, Kepler-22b    
 - **Notes**: May include isolated or satellite-bound bodies; includes dwarf planemons and major moons above hydrostatic threshold.

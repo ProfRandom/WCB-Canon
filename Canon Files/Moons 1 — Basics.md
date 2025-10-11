@@ -16,7 +16,7 @@ In WCB, we will most often refer to Earth's Moon by the Roman name Luna, along w
 > **Hippy:** You'd know, Keplarius; you'd know.
 
 For convenience, we'll often just use "moon" generically and more specific terms when distinction is called-for.
-## Types
+## Traditional Types
 ### Regular Moons
 Regular moons:
 - Orbit fairly closely to their primaron
