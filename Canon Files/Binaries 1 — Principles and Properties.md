@@ -61,8 +61,8 @@ These are related through a series of equations, which may seem daunting at firs
 ### Mass-fraction Equations
 $$
 \begin{array}{ll}
-&\nu = \dfrac{M_1}{M_1 + M_2} & \text{Primaron Mass Fraction} \\[1em]
-&\mu = \dfrac{M_2}{M_1 + M_2} & \text{Secondron Mass Fraction}
+&\nu = \dfrac{M_1}{M_1 + M_2} & \text{Primaron mass-fraction} \\[1em]
+&\mu = \dfrac{M_2}{M_1 + M_2} & \text{Secondron mass-fraction}
 \end{array}
 $$
 
@@ -146,9 +146,13 @@ Considering that the Sun’s radius is $696{,}340$ km, a wobble of only $≈ 450
 # Constant Equalities
 Some relationships between the masses of the primaron and secondron and their related orbital separations are constant:
 $$
+\begin{array}{ll}
+\varrho = \dfrac{M_2}{M_1} = \dfrac{P_\circ}{S_\circ} &\text{Secondron mass-ratio} \\[1em]
+\varphi = \dfrac{M_1}{M_2} = \dfrac{S_\circ}{P_\circ} &\text{Primeron mass-ratio} 
+\end{array}
+$$
+$$
 \begin{aligned}
-&\varrho = \frac{M_2}{M_1} = \frac{P_\circ}{S_\circ} \qquad
-&&\varphi = \frac{M_1}{M_2} = \frac{S_\circ}{P_\circ}\\[1em]
 &\mu = \frac{P_\circ}{T_\circ} = \frac{M_2}{M_1 + M_2}   \qquad
 &&\nu = \frac{S_\circ}{T_\circ} = \frac{M_1}{M_1 + M_2} \\[1em]
 &\frac{T_\circ}{S_\circ} = \frac{M_2}{M_1} + 1 = \varrho + 1   \qquad
