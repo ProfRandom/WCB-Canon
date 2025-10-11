@@ -33,7 +33,7 @@ title: ""
 - **$R_L$** — Roche-lobe radius (effective gravitational boundary).  
 - **$L_1$** — inner Lagrange point (mass-transfer interface).  
 - **$\mathcal{a}$** — average separation of the binary stars (AU).  
-- **$M_1$, $M_2$** — primary and secondary stellar masses (solar units).  
+- **$M_1$, $M_2$** — primaron and secondron stellar masses (solar units).  
 - **$f(x)$** — dimensionless Roche-lobe scaling function.  
 - **Detached / Semi-Detached / Contact** — binary configurations classified by Roche-lobe occupancy.  
 
