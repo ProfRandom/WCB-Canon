@@ -1,157 +1,43 @@
 ---
 title: ""
 ---
-
-
-## Abstract  1 
+## Abstract  
 **Major Topics:**  
-- Defines **five fundamental physical properties** of monons:  
-  - **Mass (m):** total matter present (distinct from weight).  
-  - **Density (ρ):** matter per unit volume, affected by composition and gravitational compression.  
-  - **Radius (r):** center-to-surface distance, treated as emergent from mass and density.  
-  - **Surface Gravity (g):** acceleration at the surface, dependent on mass and radius.  
-  - **Escape Velocity (v):** minimum speed to overcome gravity, also dependent on mass and radius.  
-- Explains **interdependence**: radius emergent from mass and density, density altered by gravitational compression, gravity and escape velocity derived from the mass–radius relationship.  
-- Notes **inverse-square law** as foundation for gravitational effects.  
-- Invokes **sed ego dico** as an editorial simplification, prioritizing usability over perfect physical rigor.  
-- Provides real-world analogies (e.g., water vs. iron density) to clarify concepts.  
+- Establishes the **five core physical and emergent parameters** defining a monon’s measurable state:  
+  - **Mass (m):** total quantity of matter.  
+  - **Density (ρ):** uncompressed material density, independent of self-gravity.  
+  - **Surface Gravity (g):** acceleration experienced at the monon’s surface.  
+  - **Escape Velocity (vₑ):** minimum speed needed to overcome the monon’s gravity.  
+  - **Radius (r):** emergent quantity derived from m and ρ.  
+- Clarifies the **hierarchical dependency** among parameters:  
+  - *Physical parameters* (m, ρ) are composition-driven.  
+  - *Experiential parameters* (g, vₑ) derive from m and ρ.  
+  - *Emergent parameter* (r) is computed from both, closing the causal loop.  
+- Defines the **WCB symbolic mass interval system**, dividing monon masses by powers of ten relative to Earth (⨁):  
+  - Extends from **deniterran (10⁻¹⁰ ⨁)** through **teraterran (10¹² ⨁)**.  
+  - Introduces the **microterran scale (μt)** for clarity in the 10⁻⁶–10⁻¹ ⨁ range.  
+  - Notes SI alignment where standard prefixes exist (micro-, milli-, kilo-, mega-, etc.).  
+- Explains the **Geotic envelope** ⟨0.5 ∧ 1.5⟩ ⨁ as the physical and biological gravity corridor for human-habitable worlds.  
+- Demonstrates that computed g, vₑ, and r values from Geotic-range m and ρ remain within acceptable limits.  
+- Emphasizes **WCB simplification conventions**:  
+  - Density is uncompressed to prevent recursive equations of state.  
+  - Radius is not freely assigned but emerges from m and ρ.  
+  - “Sed ego dico” invoked for practical modeling over physical exactitude.
 
 **Key Terms & Symbols:**  
-- **m, ρ, r, g, v** — monon equations of state variables.  
-- **Gravitational Compression [neo].**  
-- **Inverse-square law [sci].**  
-- **Sed ego dico [meta].**  
+- **m, ρ, g, vₑ, r** — core monon parameters.  
+- **Symbolic mass intervals [neo].**  
+- **Microterran scale (μt) [neo].**  
+- **Geotic range ⟨0.5 ∧ 1.5⟩ ⨁ [sci].**  
+- **Uncompressed density (ρ₀) [conv].**  
+- **Sed ego dico [meta].**
 
 **Cross-Check Notes:**  
-- All five properties are already defined in canon and equations of state.  
-- **Gravitational Compression [neo]** reinforced.  
-- **Inverse-square law [sci]** already established in stellar/orbital contexts.  
-- **Sed ego dico [meta]** consistent with existing editorial conventions.  
-- **Status:** [EXPANDED] — reinforces existing canon with emphasis on emergent and interdependent properties.  
+- Supersedes previous abstracts 1 and 6 by consolidating physical parameters and symbolic mass systems.  
+- Excludes range-constraint and randomization rules (now in *Meta 2 — Math Tools*).  
+- Integrates habitability and magnetic-field criteria through references to *Planemons 2* and *Stars 6*.  
+- Reinforces consistency between Monon equations (*Monons 1 — Framework and Equations*) and the geotic envelope.
 
-## Abstract  2
-**Major Topics:**  
-- Establishes that **monon masses are numerically defined** and serve only as measurements — not as categorical labels for world type.  
-- Defines the **WCB symbolic mass intervals**, logarithmically divided by powers of ten relative to Earth mass (⨁).  
-- Introduces symbolic naming scheme:  
-  - **Below 1 ⨁:** intervals use “-i” endings (e.g., microterran, centiterran).  
-  - **Above 1 ⨁:** intervals use “-o” endings (e.g., kiloterran, gigaterran).  
-  - Where SI prefixes exist (e.g., kilo-, mega-), WCB adopts them directly.  
-- Provides explicit table of intervals from **deniterran (10⁻¹⁰ ⨁)** through **teraterran (10¹² ⨁)**.  
-- Clarifies rounding rules: each interval spans up to one demiterran (10⁻⁴ ⨁) less than the next power of ten; bodies at the threshold round upward.  
-- Notes practical importance of **negative intervals** for moons, asteroids, and micro-monons.  
-- Introduces the **Microterran Scale (μt)**:  
-  - A shorthand symbolic scale for masses between 10⁻⁶ ⨁ and 10⁻¹ ⨁.  
-  - Improves readability and narrative clarity for small bodies (e.g., Ceres, Miranda, Vesta).  
-  - Allows statements like “Ceres is 157 μt” instead of 0.000157 ⨁.  
-
-**Key Terms & Symbols:**  
-- **Symbolic Mass Intervals [NEW]:** deniterran, nanoterran, oktiterran, septiterran, microterran, pentiterran, demiterran, milliterran, centiterran, deciterran, terran, dekaterran, hectoterran, kiloterran, myriaterran, hexaterran, megaterran, heptoterran, octoterran, gigaterran, denoterran, ondoterran, teraterran.  
-- **Microterran Scale (μt) [NEW].**  
-- **⨁ (Terran mass unit) [ins].**  
-
-**Cross-Check Notes:**  
-- Neither symbolic intervals nor the μ-terran scale appeared in prior canon abstracts.  
-- This is the **first introduction** of a systematic symbolic framework for monon mass measurement.  
-- **Status:** [NEW] — establishes an entirely new symbolic measurement system for monon masses.  
-
-## Abstract  3
-**Major Topics:**  
-- Introduces methods for **estimating the strength and extent of planetary magnetospheres** using simplified dynamo scaling laws.  
-- Defines the planetary **magnetic moment (M)** as the primary parameter, derived from core radius (rc), core density (ρc), and rotation period (d).  
-- Relates magnetic moment to **surface magnetic field strength (Bsurf)** through empirical scaling relations.  
-- Discusses how **exponents (p, q, r)** in these formulas vary across different dynamo models (e.g., Stevenson, Driscoll & Olson).  
-- Emphasizes the protective role of magnetospheres in shielding planetary atmospheres from stellar wind and cosmic radiation, with implications for long-term **habitability**.  
-- Provides normalized formulas for use in worldbuilding, with Terran values as benchmarks.  
-
-**Key Terms & Symbols:**  
-- **M (Magnetic Moment):** Strength of a planet’s magnetic field.  
-- **Bsurf (Surface Magnetic Field Strength):** Field strength at planetary surface.  
-- **rc (Core Radius):** Planetary core radius (relative to Earth).  
-- **ρc (Core Density):** Planetary core density (relative to Earth).  
-- **d (Day Length):** Rotation period of the planet.  
-- **p, q, r:** Exponents in dynamo scaling laws.  
-
-**Cross-Check Notes:**  
-- No duplicate abstract exists; this is the **canonical magnetosphere reference**.  
-- Glossary updates required for **M, Bsurf, and dynamo scaling exponents (p, q, r)**.  
-- Closely related to notes on **habitability envelopes, atmospheric retention, and stellar wind interaction**.  
-
-## Abstract  4
-
-**Major Topics:**  
-- Extended parameters for defining geotic (human-hospitable) conditions.  
-- Habitability ranges for rotation period (D), orbital eccentricity (e), orbital period (C), axial tilt (εₓ), precession cycle (χ), and obliquity azimuth (ζₙ).  
-- Magnetosphere strength (Bsurf) as radiation shielding criterion.  
-- Atmospheric baseline conditions: pressure, scale height, composition, ozone presence.  
-- Surface balance of land and water.  
-- Geotic gravity corridor (0.5–1.5 ⨁) as strict human-hospitable bound.  
-
-**Key Terms & Symbols:**  
-- **D** — Rotational period (diurn length).  
-- **e** — Orbital eccentricity.  
-- **C** — Orbital period (sidereal chronum).  
-- **εₓ** — Axial tilt (obliquity).  
-- **χ** — Axial precession cycle.  
-- **ζₙ** — Obliquity azimuth relative to periapsis.  
-- **Bsurf** — Surface magnetic field strength (μT).  
-- **Tₛ** — Average surface temperature (K).  
-- **H** — Atmospheric scale height (km).  
-- **g** — Surface gravity (⨁).  
-- Land–sea distribution (lithosphere–hydrosphere balance).  
-
-**Cross-Check Notes:**  
-- Reinforces prior geotic bounds with expanded atmospheric, rotational, orbital, and magnetic criteria.  
-- Clarifies *why* gravity corridor (0.5–1.5 ⨁) defines Geotic worlds: outside this, monons may be Telluric/parahabitable but not Geotic.  
-- Orbital period C not freely chosen: constrained by Kepler’s Third Law, tying world design to stellar parameters.  
-- Magnetosphere thresholds emphasize that both too weak and too strong fields can undermine habitability.  
-- Complements and extends core Geotic definitions; functions as a reference sheet for designers setting secondary parameters.  
-
-## Abstract 5
-**Major Topics:**  
-- Five core monon parameters: mass (m), density (ρ), surface gravity (g), escape velocity (vₑ), and radius (r).  
-- Distinction between **physical properties** (m, ρ) and **emergent properties** (g, vₑ, r).  
-- WCB convention: density (ρ) treated as **uncompressed density** to avoid recursive modeling.  
-- Symbolic precedence hierarchy:  
-  1. Mass (m), Uncompressed Density (ρ) — composition-driven.  
-  2. Surface Gravity (g), Escape Velocity (vₑ) — experiential.  
-  3. Radius (r) — emergent.  
-- Validation: computed values for g, vₑ, and r from Geotic-range m and ρ remain within acceptable Geotic bounds.  
-
-**Key Terms & Symbols:**  
-- m = mass.  
-- ρ = uncompressed density.  
-- g = surface gravity.  
-- vₑ = escape velocity.  
-- r = radius (emergent).  
-- Geotic range: ⟨0.5 ∧ 1.5⟩⨁.  
-- Order of calculation: begin with m and ρ for valid outputs.  
-
-**Cross-Check Notes:**  
-- Canonical clarification: radius (r) is *not* arbitrarily chosen — it emerges from m and ρ.  
-- Replaces recursive compression modeling with a WCB-friendly simplification.  
-- Geotic range justification links to habitability framework.  
-- Integrates with prior note **Example: When Good Values Go Bad** (edge-case validation).  
-- Ensure consistent update: “WCB” → “WCB” across this file and related notes.  
-
-## Abstract  6
-**Major Topics:**  
-- Defines a **symbolic grammar for constraints**:  
-  - **Evaluative** (truth tests), **Comparative** (descriptions), **Prescriptive** (soft rules), **Mandative** (hard rules).  
-- Introduces **range connectives** for closed, open, half-open, and exterior ranges (∧, ∨, ⩜, ⩝, ⊼, ⩟, ⊽, ⩡).  
-- Establishes **random assignment syntax** with ⟨⟨ ⟩⟩ brackets to select values from ranges, including mandated vs. optional assignments.  
-- Adds the **precision inference rule**: result precision matches the most precise endpoint.  
-- Provides **axiomatic justification** (WCB Axiom 7.1 — Symbolcrafter’s Creed) for including a wide range of connectives to preserve semantic completeness.  
-
-**Key Terms & Symbols:**  
-- Constraint operators: `≤.`, `.≤`.  
-- Range connectives: ∧, ∨, ⩜, ⩝, ⊼, ⩟, ⊽, ⩡.  
-- Randomization operator: ⟨⟨ ⟩⟩.  
-- Precision inference rule.  
-
-**Cross-Check Notes:**  
-- **[NEW]** All notation is new [ins] — no overlaps with existing canon.  
-- Serves as the **symbolic foundation** for other randomization methods (e.g., Orbit Randomization).  
 
 ## Physical Properties of Monons
 
@@ -628,111 +514,7 @@ However:
 > - Guarantee valid outputs for _g_, _vₑ_, and _r_ if kept within the Geotic range    
 
 By anchoring your model in _m_ and _ρ_, you ensure that all derived parameters remain within acceptable bounds — streamlining your creative process and avoiding invalid combinations.
-# Range Constraints & Random Assignment
 
-## 🧱 Core Constraint Classes
-
-| Type         | Symbol Form     | Meaning                         | Example                     |
-|--------------|------------------|----------------------------------|-----------------------------|
-| Evaluative   | `x < y`, `x !≈ y`| Truth test                      | Does x satisfy a condition? |
-| Comparative  | `ΔT > 0`         | Descriptive comparison          | Not used for enforcement    |
-| Prescriptive | `x ≤. y`         | Should (soft rule)              | Preferred but not required  |
-| Mandative    | `x .≤ y`         | Must (hard rule)                | Required for validity       |
-
-## ✴️ Modifiers
-
-- `!` — logical negation (`!=`, `!∈`, `!≈`)
-- `.` prefix — **mandative** (`.≤`, `.∈`)
-- `.` suffix — **prescriptive** (`≤.`, `∈.`)
-
-⚠️ Do not combine `!` with dot-prefixed/suffixed forms. Use the logical inverse instead (e.g., `.>`, `>.`).
-
-
-## 📏 Range Connectives
-
-| Symbol | Meaning                  | Logical Form   | Range Type               |
-| ------ | ------------------------ | -------------- | ------------------------ |
-| ∧      | Inclusive interior       | a ≤ ▢ ≤ b      | Closed range             |
-| ∨      | Exclusive interior       | a < ▢ < b      | Open range               |
-| ⩜      | Inclusive exterior       | ▢ ≤ a or ▢ ≥ b | Outside, includes bounds |
-| ⩝      | Exclusive exterior       | ▢ < a or ▢ > b | Strictly outside         |
-| ⊼      | Left-exclusive interior  | a < ▢ ≤ b      | Half-open                |
-| ⩟      | Right-exclusive interior | a ≤ ▢ < b      | Half-open                |
-| ⊽      | Left-exclusive exterior  | ▢ < a or ▢ ≥ b | Edge-grazing exterior    |
-| ⩡      | Right-exclusive exterior | ▢ ≤ a or ▢ > b | Edge-grazing exterior    |
-
-
-## 🎲 Random Assignment Syntax
-
-### Basic Rule:
-Use `⟨⟨ ⟩⟩` to indicate **random value assignment** from a specified range.
-
-| Expression     | Meaning                                              |
-| -------------- | ---------------------------------------------------- |
-| x = ⟨⟨a ∧ b⟩⟩  | Assign random value from a to b (inclusive)          |
-| x .= ⟨⟨a ⩝ b⟩⟩ | Must assign value outside strict range               |
-| x = ⟨⟨a ⩟ b⟩⟩  | Assign value in left-inclusive, right-excluded range |
-
-- = → assignment
-- .= → mandated assignment (value must be generated)
-
-
-## 🎲 Random Assignment Syntax With Weighting
-
-$$
-x = a + (b - a)\,⟨⟨0 ∧ 1⟩⟩^{p}
-$$
-
-Where:
-- $a$ = low end of the random range  
-- $b$ = high end of the random range  
-- $p$ = weighting exponent  
-    - $p > 1$: weights the randomization toward $b$  
-    - $0 < p < 1$: weights the randomization toward $a$  
-    - $p = 1$: produces a uniform (unbiased) distribution  
-    - $p \neq 0$: undefined at zero  
-
-> Because ⟨⟨0 ∧ 1⟩⟩ represents a continuous uniform variable, and because the exponent $p \in (0, \infty)$ continuously reshapes that distribution, the **biasing space** is symmetric about $p = 1$: bias toward *a* for $0 < p < 1$, bias toward *b* for $p > 1$.
-
-
-## 🔬 Precision Inference Rule
-
-> The **decimal precision of a randomized result** is inferred from the **most precise** range endpoint.
-
-| Syntax            | Result Precision |
-| ----------------- | ---------------- |
-| ⟨⟨1.4 ∧ 2.2⟩⟩     | 1 decimal place  |
-| ⟨⟨1.40 ∧ 2.2⟩⟩    | 2 decimal places |
-| ⟨⟨1.400 ∧ 2.200⟩⟩ | 3 decimal places |
-
-This rule applies **even if the endpoints are excluded** from the valid output range.
-
-
-## ❌ Invalid Forms
-
-| Expression    | Reason                              |
-| ------------- | ----------------------------------- |
-| x = ⟨⟨1.414⟩⟩ | ❌ Invalid: one-value range          |
-| x ∈ !⟨a ∧ b⟩  | ❌ Ambiguous: use `⩜` or `⩝` instead |
-| x !.∈ ...     | ❌ Invalid modifier stacking         |
-
-
-## 📜 Axioms
-
-### WCB Axiom 7.1 — The Symbolcrafter’s Creed  
-> *“Better to have it and not need it than need it and not have it.”*
-
-All range connectives, including obscure ones like `⩡`, are retained in W101 to ensure semantic closure and support future or edge-case modeling needs.
-
-
-## 🌌 Example Use
-
-markdown
-K₁ .∈ ⟨a ⩜ b⟩
- Kirkwood Gap 1 must lie strictly between a and b (excluding both endpoints)
-
-r .= ⟨⟨a ⩝ b⟩⟩
- Assign a randomized orbital radius outside a forbidden band
 
 
 
