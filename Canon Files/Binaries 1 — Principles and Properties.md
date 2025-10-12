@@ -46,7 +46,7 @@ When the two objects are of unequal masses ($M_2 < M_1$), the more massive objec
 A binary system is described by a total of nine dimensions:
 
 - $T_{min}$ ,  $\mathcal{A}$ ,  $T_{max}$ :  The minimum, average, and maximum separations of the two bodies from one another
-- $P_{min}$ ,  $P_{avg}$ ,  $P_{max}$: The minimum, average, and maximum separations of the primeron ($P$) from the **barycenter** (*ḅ*)
+- $P_{min}$ ,  $P_{avg}$ ,  $P_{max}$: The minimum, average, and maximum separations of the primaron ($P$) from the **barycenter** (*ḅ*)
 - $S_{min}$ ,  $S_{avg}$ ,  $S_{max}$ :  The minimum, average, and maximum separations of the secondron body ($S$) from the **barycenter** (*ḅ*)
 
 … as well as the masses of the two bodies:
@@ -148,7 +148,7 @@ Some relationships between the masses of the primaron and secondron and their re
 $$
 \begin{array}{ll}
 \varrho = \dfrac{M_2}{M_1} = \dfrac{P_\circ}{S_\circ} &\text{Secondron mass-ratio} \\[1em]
-\varphi = \dfrac{M_1}{M_2} = \dfrac{S_\circ}{P_\circ} &\text{Primeron mass-ratio} 
+\varphi = \dfrac{M_1}{M_2} = \dfrac{S_\circ}{P_\circ} &\text{primaron mass-ratio} 
 \end{array}
 $$
 $$
@@ -162,7 +162,7 @@ $$
 \end{aligned}
 $$
 
-Again, if the mass of the secondron ($M_2$) is expressed in terms of the mass of the primeron ($M_1$), the equations become:
+Again, if the mass of the secondron ($M_2$) is expressed in terms of the mass of the primaron ($M_1$), the equations become:
 
 $$
 \begin{aligned}

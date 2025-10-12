@@ -7,11 +7,11 @@ title: Binaries 6
 - Distinguishes two principal mass-ratio regimes:  
   - **Sobrinic solidons:** mass ratio $\varrho = \dfrac{M_2}{M_1} \le 100:1$; co-dominant or near-binary systems.  
   - **Parensic solidons:** mass ratio $\varrho = \dfrac{M_2}{M_1} > 100:1$; hierarchical or satellite-like systems.  
-- Introduces **primeron** and **secondron** as the canonical terms for the dominant and subordinate members of a binary monon pair, maintaining continuity with barycentric notation from *Binaries 1 — Principles and Properties*.  
-- Establishes barycentric parameters $B_{min}$, $B_{avg}$, and $B_{max}$ expressed in units of the primeron’s radius ($R_P$), allowing direct comparison between barycenter position and the physical extent of the primeron.  
+- Introduces **primaron** and **secondron** as the canonical terms for the dominant and subordinate members of a binary monon pair, maintaining continuity with barycentric notation from *Binaries 1 — Principles and Properties*.  
+- Establishes barycentric parameters $B_{min}$, $B_{avg}$, and $B_{max}$ expressed in units of the primaron’s radius ($R_P$), allowing direct comparison between barycenter position and the physical extent of the primaron.  
 - Defines two complementary descriptors:  
-  - **Barycenter locus** — whether $B_{avg}$ lies inside (interior) or outside (exterior) the primeron’s radius.  
-  - **Barycenter motility** — the extent to which the barycenter’s orbit is confined, ambulatory, or free relative to the primeron’s surface.  
+  - **Barycenter locus** — whether $B_{avg}$ lies inside (interior) or outside (exterior) the primaron’s radius.  
+  - **Barycenter motility** — the extent to which the barycenter’s orbit is confined, ambulatory, or free relative to the primaron’s surface.  
 - Combines these to yield **four canonical barycentric configurations**—interior-confined, interior-ambulatory, exterior-ambulatory, and exterior-free—and demonstrates how their intersection with the sobrinic/parensic ratio regime produces the **eightfold solidonic-pair taxonomy**.  
 - Provides algebraic relations for barycentric distances  
   $$
@@ -19,16 +19,16 @@ title: Binaries 6
   B_{min} = B_{avg}(1-e), \quad  
   B_{max} = B_{avg}(1+e),
   $$
-  with $\mathcal{a}$ expressed in primeron radii, supporting direct scaling across planemonic and sub-stellar systems.
+  with $\mathcal{a}$ expressed in primaron radii, supporting direct scaling across planemonic and sub-stellar systems.
 
 **Key Terms & Symbols:**  
-- **Primeron (P):** dominant body of the pair ($M_1, ν$).  
+- **primaron (P):** dominant body of the pair ($M_1, ν$).  
 - **Secondron (S):** subordinate body ($M_2, μ$).  
 - **ϱ:** secondron simple mass ratio ($M_2/M_1$).  
-- **𝛗:** primeron simple mass ratio ($M_1/M_2$). 
+- **𝛗:** primaron simple mass ratio ($M_1/M_2$). 
 - **μ, ν:** barycentric mass fractions.  
-- **Bₘᵢₙ, Bₐᵥg, Bₘₐₓ:** barycentric distances relative to the primeron.  
-- **R_P:** primeron radius used as the scaling unit.  
+- **Bₘᵢₙ, Bₐᵥg, Bₘₐₓ:** barycentric distances relative to the primaron.  
+- **R_P:** primaron radius used as the scaling unit.  
 - **Locus:** interior vs. exterior position of the barycenter.  
 - **Motility:** confined, ambulatory, or free orbital motion.  
 
@@ -41,7 +41,7 @@ Paired solidons may be of two types
 - Sobrinic: mass-ratio $\varrho = \dfrac{M_2}{M_1} \le 100:1$
 - Parensic: mass-ratio $\varrho = \dfrac{M_2}{M_1} > 100:1$
 
-Each of these types may be one of two sub-types, based on the relationship of their barycenter to the center of mass of the primeron.
+Each of these types may be one of two sub-types, based on the relationship of their barycenter to the center of mass of the primaron.
 ## Barycenter Parameters
 In binary monon systems (of all mass classes), where $M_2 ≈ M_1$, it is often convenient to imagine the two monons as being stationary and their _barycenter (ḅ)_ as tracing an orbit between them.
 
@@ -59,7 +59,7 @@ $$
 
 Where:
 - $\mu = \dfrac{M_2}{M_1 + M_2}$, the secondron mass-fraction
-- $\mathcal{a}$ = the average separation between the two bodies (in primeron radii)
+- $\mathcal{a}$ = the average separation between the two bodies (in primaron radii)
 - $e$ = the eccentricity of the system orbits
 
 We compare the values of $B_{min}, B_{avg}, \text{ and } B_{max}$ to the radius of the primaron ($R_P$) to determine the barycenter's _locus_ and _motility_.
@@ -116,7 +116,7 @@ The technical term for such a relationship is **parensate** — a monon gravitat
 
 Thus, Titan is a *moon* of Saturn; and if Earth were in orbit around Jupiter, it too would be classed as a *moon*.
 
-By contrast, if **Uranus** were in orbit around **Jupiter**, it would *not* be a moon (parensate) but a **sobrinate**, because the primeron mass ratio between the two is less than 100 : 1:
+By contrast, if **Uranus** were in orbit around **Jupiter**, it would *not* be a moon (parensate) but a **sobrinate**, because the primaron mass ratio between the two is less than 100 : 1:
 
 $$
 \varphi = \frac{M_{Jupiter}}{M_{Uranus}} = \frac{317.8}{14.536} ≈ 21.9
