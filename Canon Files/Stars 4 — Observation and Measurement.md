@@ -155,9 +155,6 @@ Where:
 - $M$ = the star's absolute magnitude.
 
 This gives us a rough approximation of any star's absolute magnitude and we can use the **distance modulus** to calculate an apparent magnitude from that.
-
-
-
 # Apparent Brightness
 How bright something that shines _is_ and how bright it _appears_ to an observer is a function of distance.  The absolute apparent brightness can be calculated by:
 $$
