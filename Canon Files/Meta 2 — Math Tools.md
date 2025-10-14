@@ -892,7 +892,7 @@ K₁ .∈ ⟨a ⩜ b⟩
 r .= ⟨⟨a ⩝ b⟩⟩
  Assign a randomized orbital radius outside a forbidden band
 
-# The How Big?
+# How Big?
 ## The Small Angle Approximation
 When the apparent angular size ($\theta$) of an object (or the distance between two objects) in the sky is small — typically less than 10° — the sine and tangent of $\theta$ are nearly equal to $\theta$ itself when measured in radians:
 $$

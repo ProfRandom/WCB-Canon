@@ -3,51 +3,43 @@ title: ""
 ---
 ## Abstract  
 **Major Topics:**  
-- Expands the WCB stellar canon into a complete **structural and evolutionary framework** for classifying and evaluating stars across both physical and temporal axes.  
-- Introduces the **Stellamon Framework** — the master taxonomy for stellar monons (stellamons):  
-  - **Spectral Branch:** defines _what a star is_ (temperature, color, composition).  
-  - **Luminosity Branch:** defines _what a star does_ (brightness, radius, evolutionary state).  
-  - **Spectral Type (e.g., G2V)** = intersection of both branches.  
-- Establishes a **dual-branch hierarchy:**  
-  - *Spectral Class → Subclass → Type* (OBAFGKM + LTY).  
-  - *Luminosity Class (0–VII)* + optional *Evolutionary Phase* (Protostar → Main Sequence → Giant → Remnant).  
-- Introduces **stellar populations and generations** as a metallicity-based evolutionary sequence:  
-  - **Population I / Generation III:** high-metallicity, young stars (e.g., the Sun).  
-  - **Population II / Generation II:** low-metallicity, older halo stars.  
-  - **Population III / Generation I:** primordial, zero-metallicity stars.  
-  - Clarifies that numbering reverses between astronomical “Populations” and WCB “Generations” for intuitive chronology.  
-- Reframes **stellar lifetimes (Q)** as biological and narrative constraints:  
-  - Stars with $Q < 3.0$ Ga cannot host mature biospheres.  
-  - **Threshold:** F0.81 and later (cooler) → main-sequence lifetime ≥ 3.0 Ga.  
-  - G, K, M, and L classes provide the most stable, life-permitting spans.  
-- Links stellar age to **biospheric evolution milestones:**  
-  - Aerobic atmospheres require ≈2.0 Ga planetary age.  
-  - Indigenous complex life typically requires ≥4.0 Ga.  
-  - Human-colonizable systems → stars with $Q ≥ 3.0$ Ga.  
-- Models **stellar luminosity evolution** and its impact on **thermozones (H₀–H₅)** over time:  
-  - Early Sun: 0.767 ⊙ → inward-shifted HZ.  
-  - Future Sun (10 Ga): 2.02 ⊙ → outward-shifted HZ.  
-  - Demonstrates dynamic habitability windows and “moving nucleal orbits.”  
-- Extends thermozone calculations to **giant and supergiant stars**, introducing the **Terran-hospitable vs. mathematically parahabitable** distinction:  
-  - Large radii and short lifetimes make giants unsuitable for Earthlike life, though their zones remain computationally definable.  
-  - Worked examples: *Aldebaran (K5 III)*, *Stephenson 2-18 (M6 Ia)*, and theoretical 200 M⊙ limits.  
-- Concludes with a **critique of the traditional OBAFGKM sequence**, arguing for WCB’s **linearized spectral scale** to ensure symbolic clarity and mathematical consistency across subclasses.
+- Expands the WCB stellar‐observation framework from stellar photometry to **applied visibility analysis** for non-luminous bodies.  
+- Reviews the historical and mathematical development of **stellar magnitude systems**, connecting the subjective Hipparchian scale to the modern **logarithmic Pogson ratio (2.512)**.  
+- Defines and differentiates:  
+  - **Apparent magnitude (m)** — brightness as seen from a given distance.  
+  - **Absolute magnitude (M)** — brightness standardized to 10 parsecs.  
+  - **Distance modulus** $m − M = 5\log_{10}d − 5$ — formal link between them.  
+- Demonstrates relationships among **magnitude**, **luminosity**, and **flux** using solar units for clarity:  
+  $M = 4.83 − 2.5\log_{10}L$; $L = 85.54 × 2.512^{−M}$.  
+- Introduces **relative apparent brightness** as a normalized, designer-friendly inverse-square law:  
+  $B_{A⊙}=L/D^2$, enabling quick comparison of illumination levels across systems.  
+- Establishes the **Naked-Eye Limit** — the empirical magnitude boundary for unaided human vision (≈ mag 6 under ideal skies) — and correlates this perceptual threshold with quantitative flux ratios.  
+- Derives the **Naked-Eye Visibility Law**, expressing apparent flux as a dimensionless ratio:  
+  $F_{rel}=L R^2(A/A_C)(D_{std}/D)^4$.  
+  - $F_{rel}=1$: body just visible.  
+  - $F_{rel}>1$: brighter, visible farther.  
+  - $F_{rel}<1$: fainter, must be nearer.  
+- Extends this to practical **Albedo-Scaling Equations** for planetary visibility:  
+  - **Giant Planets:** $D_{eye}=19\sqrt{R/11}\sqrt[4]{A L/(0.48 F_{rel})}$.  
+  - **Terrestrial Planets:** $D_{eye}=2\sqrt{R}\sqrt[4]{A L/(0.25 F_{rel})}$.  
+- Demonstrates how radius, albedo, stellar luminosity, and observer threshold jointly determine the maximum visible range of non-luminous worlds.  
+- Culminates with a **Canonical Commentary** linking mathematical visibility to the philosophical theme of perception—light received, not just light emitted.
 
 **Key Terms & Symbols:**  
-- **Stellamon [neo]:** stellar monon, root unit of stellar classification.  
-- **Spectral Branch / Luminosity Branch:** complementary classification axes.  
-- **Spectral Type:** intersection of class and luminosity class (e.g., G2V).  
-- **Population / Generation:** metallicity-based stellar epochs (I–III ↔ III–I).  
-- **Q:** stellar lifetime (Ga or solar-relative).  
-- **Thermozones (H₀–H₅):** standardized habitable-zone intervals.  
-- **N (Nucleal Orbit):** √L equilibrium orbit.  
-- **Terran-hospitable / Parahabitable:** WCB habitability distinctions.  
-- **Linearized Spectral System:** WCB’s continuous, mathematically regular subclass scale.
+- **m, M** — apparent and absolute magnitude.  
+- **L** — luminosity in solar units.  
+- **d, D** — distance (parsecs / AU).  
+- **Bₐ⊙** — apparent brightness in solar units.   
+- **$F_{rel}$** — dimensionless relative flux.  
+- **$D_{eye}$** — maximum unaided-visibility distance.  
+- **A, A_C** — planetary and reference albedos (0.25 Terran; 0.48 Jovian).  
+- **R** — planetary radius (Terrans).  
+- **$D_{std}$** — standard naked-eye threshold distance (2 AU / 19 AU).  
 
 **Cross-Check Notes:**  
-- Integrates material from earlier *Stars 2–4* (spectral physics, orbits, and habitability) and prepares for *Binaries 1–5* (multi-star systems).  
-- Introduces **stellamon** and **generation terminology**, expanding the taxonomic and temporal dimensions of stellar modeling.  
-- Establishes the long-term cosmological perspective of WCB: star systems evolve, age, and migrate through habitability phases — all calculable within a single symbolic grammar.
+- Integrates observational, photometric, and perceptual aspects of stellar measurement within a single symbolic grammar.  
+- Connects **Stars 2–3** (spectral physics and luminosity) to **Planemon visibility modeling**, bridging astrophysical and experiential domains.  
+- Provides a foundation for future appendices on **instrumental detection limits**, **visual magnitude conversion**, and **aesthetic sky modeling** within WCB.  
 
 # Stellar Magnitude and The Distance Modulus
 You've probably encountered the term _magnitude_ in relation to stars before, perhaps even heard mention of the two types: _absolute magnitude (M)_ and _apparent magnitude (m)_.  Simply put, a star's **absolute magnitude** is how visibly bright it actually is, and its **apparent magnitude** is how bright it appears.
@@ -213,17 +205,78 @@ So, Kalveru appears about 70% as bright from Dynon as the Sun does from Earth.
 
 # Planetary Albedo Estimator
 
-| Surface Type / Modifier   |   Base Albedo Estimate (A) | Notes                                                 |
-|:--------------------------|---------------------------:|:------------------------------------------------------|
-| Fresh snow/ice            |                       0.8  | Highly reflective; contributes to snowball effect     |
-| Old snow / glacial crust  |                       0.6  | Still reflective but more absorptive than fresh snow  |
-| Desert (sand)             |                       0.3  | Can vary with mineral content and compaction          |
-| Grassland                 |                       0.2  | Moderate reflectivity; varies with seasonal dryness   |
-| Forest (deciduous)        |                       0.15 | Dark under canopy; absorbs most light                 |
-| Forest (coniferous)       |                       0.13 | Darker needles + canopy structure reduce reflectivity |
-| Rocky surface             |                       0.18 | Can vary widely depending on coloration and texture   |
-| Ocean (high sun angle)    |                       0.06 | Absorbs most sunlight when directly overhead          |
-| Ocean (low sun angle)     |                       0.2  | Reflects more at shallow angles; up to 0.20 or more   |
-| Dense clouds (Venus-like) |                       0.75 | Thick sulfuric clouds like on Venus; extremely bright |
-| Thin clouds (Earth-like)  |                       0.35 | Cloud cover over oceans or land increases albedo      |
-| No clouds / clear sky     |                       0.05 | Near-minimal reflectivity, especially over ocean      |
+| Surface Type / Modifier   | <center>Base Albedo Estimate (A)</center> | Notes                                                 |
+| :------------------------ | ----------------------------------------: | :---------------------------------------------------- |
+| Fresh snow/ice            |                                       0.8 | Highly reflective; contributes to snowball effect     |
+| Old snow / glacial crust  |                                       0.6 | Still reflective but more absorptive than fresh snow  |
+| Desert (sand)             |                                       0.3 | Can vary with mineral content and compaction          |
+| Grassland                 |                                       0.2 | Moderate reflectivity; varies with seasonal dryness   |
+| Forest (deciduous)        |                                      0.15 | Dark under canopy; absorbs most light                 |
+| Forest (coniferous)       |                                      0.13 | Darker needles + canopy structure reduce reflectivity |
+| Rocky surface             |                                      0.18 | Can vary widely depending on coloration and texture   |
+| Ocean (high sun angle)    |                                      0.06 | Absorbs most sunlight when directly overhead          |
+| Ocean (low sun angle)     |                                       0.2 | Reflects more at shallow angles; up to 0.20 or more   |
+| Dense clouds (Venus-like) |                                      0.75 | Thick sulfuric clouds like on Venus; extremely bright |
+| Thin clouds (Earth-like)  |                                      0.35 | Cloud cover over oceans or land increases albedo      |
+| No clouds / clear sky     |                                      0.05 | Near-minimal reflectivity, especially over ocean      |
+|                           |                                           |                                                       |
+# Naked-Eye Visibility
+Different sized non-luminous bodies with different albedos are easier or harder to see with the naked eye depending on distance from the illuminating source, the source's brightness, and the distance between the reflecting object and the observer.  This is relationship is captured in:
+$$
+F_{rel} = L\;R^2\left(\frac{A}{A_C}\right)\left(\frac{D_{std}}{D}\right)^4
+$$
+Where:
+- $F_{rel}$ = dimensionless relative apparent flux (brightness ratio)- $R$ = radius of the planet in terrans
+- $L$ = luminosity of the star in solar units
+- $R$ = radius of the planet in terran units
+- $A$ = albedo of the planet
+- $A_C$​  = the albedo of the chosen standard candle
+	- 0.25 — Terrestrial body
+	- 0.48 — Gas giant body
+- $D_{std}$ = Naked-eye visibility threshold distance in AU
+	- 2 AU — Terrestrial body
+	- 19 AU — Gas/ice giant body
+- $D$ = Actual observer distance from the planet in AU
+
+### Interpretation
+
+- **$F_{rel} = 1$** → the body is *just visible* to the naked eye at the specified $D_{std}$.  
+- **$F_{rel} > 1$** → the body is *brighter* (visible beyond $D_{std}$).  
+- **$F_{rel} < 1$** → the body is *fainter* (would need to be closer to be seen).  
+- The **$L$** term scales with the *incident stellar flux*, so worlds around dimmer stars appear proportionally fainter, and those around brighter stars proportionally brighter.  
+- The **$D^{-4}$** term captures both inverse-square effects:  
+  - one from the **illumination** of the planet by its star ($1/D^2$), and  
+  - one from the **reflected light** spreading out toward the observer ($1/D^2$ again).  
+- Together, these define a simple, dimensionless measure of apparent brightness relative to a chosen *standard candle*.
+
+## Naked-Eye Albedo Scaling for Giant Planets
+This is based on the fact that a Jupiter-sized planet becomes too dim to see with the naked eye at distances farther than 19 AU for a star with the Sun's Luminosity (L⊙).  For stars with luminosities different than the Sun's, $L$ is expressed in solar units.
+$$
+\begin{array}{ll}
+D_{eye} = 19\;\sqrt{\dfrac{R}{11}}\;\sqrt[4]{\dfrac{A\;L}{0.48\;F_{rel}}}  &\text{Brighter albedo} \\[1em]
+D_{eye} = 19\;\sqrt{\dfrac{R}{11}}\;\sqrt[4]{\dfrac{0.48\;F_{rel}}{A\;L}}  &\text{Darker albedo}
+\end{array}
+$$
+
+Where:
+- $D_{eye}$ = maximum distance in AU of naked-eye visibility
+- $A$ = albedo of planet
+- $L$ = luminosity of the star in solar units
+- $R$ = radius of planet in terrans
+
+## Naked-Eye Albedo Scaling for Terrestrial Planets
+This is based on the fact that an Earth-sized planet becomes too dim to see with the naked eye at distances farther than 2 AU for a star with the Sun's Luminosity (L⊙).  For stars with luminosities different than the Sun's,  $L$ is expressed in solar units.
+$$
+\begin{array}{ll}
+D_{eye} = 2\;\sqrt{R}\;\sqrt[4]{\dfrac{A\;L}{0.25\;F_{rel}}} & \text{Brighter albedo} \\[1em]
+D_{eye} = 2\;\sqrt{R}\;\sqrt[4]{\dfrac{0.25\;F_{rel}}{A\;L}} & \text{Darker albedo}
+\end{array}
+$$
+
+Where:
+- $D_{eye}$ = maximum distance in AU of naked-eye visibility
+- $A$ = albedo of planet
+- $L$ = luminosity of the star in solar units
+- $R$ = radius of planet in terrans
+
+These relationships allow direct comparison of visibility distances for worlds of different size, albedo, and host-star luminosity under the same visual threshold $F_{rel}$​.
