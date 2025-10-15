@@ -616,10 +616,6 @@ The Kepler method and sinusoidal shortcut agree closely for Rosetta, but Kepler 
 With Rosetta’s higher eccentricity ($e = 0.05$), the **seasonal spread is extreme** — from 107 d to 139 d — a difference of over 30 diurns.  
 This is exactly the kind of asymmetry you would expect on a world with such an orbit, and it needs **no fudge at all**.
 
-
-
-
-
 # Workflow for Calculating Azimuthal Intersections
 #### **Step 1: Input**
 - **Obliquity ($\varepsilon_x$)**: The planet’s axial tilt.
@@ -784,15 +780,15 @@ The angular orientation of a planemon’s axial tilt relative to its orbit.  Def
     - No tilt, no closest approach.        
     - Neither solstices/equinoxes nor apsidal points exist.        
     - $\zeta_n$​ is undefined, unless an **arbitrary 0° longitude** is adopted purely for bookkeeping.
-## Obliquity Azimuth Precession Cycle ($\chi$) 
+## Obliquity Azimuth Precession Cycle ($\Gamma$) 
 The length of time it takes the obliquity azimuth ($\zeta_{n}$) to precess through $360^\circ$.
 - Defined such that $\zeta_{0}$ occurs when the planet’s north pole is tilted **away** from the star at periastron.  
 - At $\zeta_{180}$, the north pole is tilted **toward** the star at periastron.
-- For Earth: $\chi ≈ 27000$ y.
+- For Earth: $\Gamma ≈ 27000$ y.
 
 Thus, for Earth in ~13,000 years, northern summer will occur near December–February if the current Gregorian framework remains in use unchanged.  
 
-> **Note:** $χ$ is undefined for $\varepsilon = 0$, since there is no obliquity to precess. In practice, some frameworks may assign $\chi = 0$ for bookkeeping, but this has no physical meaning.
+> **Note:** $\Gamma$ is undefined for $\varepsilon = 0$, since there is no obliquity to precess. In practice, some frameworks may assign $\Gamma = 0$ for bookkeeping, but this has no physical meaning.
 
 
 ## Earth’s Current Seasons 
