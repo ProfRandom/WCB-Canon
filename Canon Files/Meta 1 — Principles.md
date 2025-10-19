@@ -39,7 +39,7 @@ their **Mononic class**, which defines scale and self-coherence,
 and their **Morphological character**, which defines material composition and structure.  
 
 > At the broadest scale, all monons fall into one of three **mass domains** governed by the physics of self-gravitation and fusion onset.  
-> - **solidons** — all monons with masses below the stellar ignition threshold (**< 0.08 ⊙**); this collective includes every non-fusional body from brown dwarfs and planemons to micromons and asteroids.  
+> - **Solidons** — all monons with masses below the stellar ignition threshold (**< 0.08 ⊙**); this collective includes every non-fusional body from brown dwarfs and planemons to micromons and asteroids.  
 > - **Stellamons** — all monons with masses in the stable hydrogen-fusion range (**⟨0.08 ∧ 300⟩ ⊙**); these are subdivided by the **spectral-class system** (q.v.) that defines their thermodynamic and photometric behavior.  
 > - **Peramons** — all monons whose masses exceed the upper stellar-stability limit (**> 300 ⊙**); these represent the **trans-stellar regime** of radiative instability, pair-creation collapse, or exotic compact states.  
 >  
@@ -126,61 +126,10 @@ _A classification of mass-based cosmic bodies by gravitational, structural, and 
 | Hypermon  | hyper- | hmt   | >1,000,000,000                  |
 
 
-# The Anthropic Norm
-
-
-**Major Topics:**  
-- Defines the **Anthropic Norm**: the universe and its functioning as presently perceived, absent extreme or rare conditions.  
-- Closely tied to the **Mediocritic Principle of State**:  
-  - The majority of matter and energy in the current epoch exists within a **statistically dominant modal band** of states.  
-  - Extreme states (e.g., black holes, neutronium, degenerate matter) may be numerous but are **exceptions**, not norm-defining.  
-- Key insights for worldbuilding:  
-  1. **Rarity ≠ Normativity**: unusual states, even if interesting, should not define the baseline.  
-  2. **Normativity = Modal, not Mean**: the “normal” universe is not the statistical average, but the modal cluster where most matter/energy exists most of the time.  
-- Examples:  
-  - The universe is filled with stars, but is not “mostly plasma” under current conditions.  
-  - Neutron stars exist, but the cosmos is not composed of neutronium.  
-  - Rocky planemons form from volatiles, but the universe remains overwhelmingly hydrogen and helium gas.  
-
-**Key Terms & Symbols:**  
-- **Anthropic Norm [NEW].**  
-- **Mediocritic Principle of State [NEW].**  
-- **Modal Cluster [sci].**  
-
-**Cross-Check Notes:**  
-- No prior mention of these terms in canon; both are newly introduced philosophical-structural concepts.  
-- Complements existing WCB philosophical principles (e.g., Protagorean Principle).  
-- **Status:** [NEW] — establishes a normative philosophical baseline for worldbuilding.  
-
-
-The universe and its functioning as we currently perceive it, absent any extreme conditions.
-
-### The Anthropic Norm & the Mediocritic Principle of State
-
-> The vast majority of matter and energy in the universe exists within a narrow, statistically dominant band of physical states —  from which it deviates only rarely and locally, within the current cosmological epoch.
-
-This leads to two foundational insights for thesiastic modeling:
-1. **Rarity is not normativity.**  
-    Extreme states — from black holes to degenerate matter — may be _numerous_, but they are not **norm-defining**. They are **local exceptions** to a global pattern.    
-2. **Normativity is modal, not mean.**  
-    The Anthropic Norm does not lie at the statistical _average_, but at the **modal cluster**:  
-    the zone in which **most matter and energy exist most of the time** under current universal conditions.
-Thus:
-- The universe is filled with stars, but is mostly _not_ plasma.  
-    _(It was **at one time** — but that was a different epoch.)_    
-- Neutron stars are real, but the universe is _not_ mostly neutronium.    
-- Volatiles can form rocky planemons — but the cosmos is _overwhelmingly_ hydrogen and helium in gaseous form.
 
 
 
-# 🔑 The SANC Principle
 
-**SANC = Science-Adjacent, No Calculus.**
 
-- ✅ We use **algebra, geometry, and trigonometry** — the practical tools any builder can wield.  
-- 🚫 We skip **calculus, tensors, and full astrophysics** — that’s outside our scope.  
-- 🎯 Goal: **Rigor without rigidity.** Enough math to make worlds believable, never so much that it strangles imagination.  
 
-*Think of SANC as your worldmaking passport: it gets you everywhere you need to go,  
-but it won’t weigh you down with equations better left to astrophysicists.*
 
