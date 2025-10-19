@@ -2,7 +2,6 @@
 title: ""
 ---
 
-
 ## Abstract  
 **Major Topics:**  
 - Clarifies the relationship between informal **mononic  terms** (micromon, minimons, midimons) and the formal **symbolic terran mass intervals** (demiterran, pentiterran, milliterran, centiterran, etc.).  
@@ -36,7 +35,7 @@ title: ""
 - A catchall term for monons so low in mass that distinguishing between them except in very specific circumstances is unnecessary
 ### Micromons → Microterrans
 **Mass:** 0.000001–0.00001 M⨁
-- _Examples_:
+- *Examples*:
 	- Doris (0.000002⨁)
 	- Amphitrite (0.000003⨁)
 	- Sylvia (0.000003⨁)
@@ -55,7 +54,7 @@ title: ""
 	- Euphrosyne (0.000010⨁)
 ### Minimons → Pentiterrans
 **Mass:** 0.00001–0.0001 M⨁
-- _Examples:_    
+- *Examples:* 
 	- Miranda (0.000011⨁)
 	- Hygiea (0.000015⨁)
 	- Enceladus (0.000018⨁)
@@ -64,8 +63,8 @@ title: ""
 	- Salacia (0.000082⨁)
 ### Midimons → Demiterrans
 **Mass:** 0.001–0.01 M⨁
-- _Examples:_    
-    - Tethys (0.000103⨁)
+- *Examples:* 
+  - Tethys (0.000103⨁)
 	- Orcus (0.000106⨁)
 	- Ceres (0.000157⨁)
 	- Dione (0.000183⨁)
@@ -80,6 +79,7 @@ title: ""
 	- Makemake (0.000519⨁)
 	- Titania (0.000586⨁)
 	- Haumea (0.000672⨁)
+
 ### Mesomons → Milliterrans
 Mass: 0.001-0.01 M⨁
 - *Examples:*
@@ -87,9 +87,10 @@ Mass: 0.001-0.01 M⨁
 	- Eris (0.002764⨁)
 	- Triton (0.003585⨁)
 	- Europa (0.008040⨁)
+
 ### Planemons → Centi-, Deci-, Deka-, Hecto-, and Kiloterrans
 **Mass:** ≥ 0.01–4131 M⨁ (13M♃)
-- _Examples:_    
+- *Examples:* 
 	- Luna (0.012308⨁)
 	- Io (0.014975⨁)
 	- Callisto (0.018020⨁)
@@ -103,6 +104,7 @@ Mass: 0.001-0.01 M⨁
 	- Neptune (17.147⨁)
 	- Saturn (95.159⨁)
 	- Jupiter (317.8⨁)
+
 ### Intermon → Myriaterrans
 Mass: 4131–26640 M⨁ () 
 

@@ -20,7 +20,11 @@ title: ""
 - Provides tabulated $\mathcal{F}(e)$ values for typical binary eccentricities, showing that stability boundaries rise roughly quadratically with $e$.  
 - Notes a simplified linear approximation ($\alpha >rsim \mathcal{A}(3.5 + 4.0e)$) for rapid estimation.  
 - Incorporates **Quarles et al. (2018, 2020)** results defining the **S-type stability limit** for wide binaries:  
-  $$\mathcal{Q}_L = 0.08\,\mathcal{A} = 0.08\left(\frac{T_{\min}}{1 - e}\right)$$  
+
+  $$
+  \mathcal{Q}_{L} = 0.08\,\mathcal{A} = 0.08\left(\frac{T_{\min}}{1 - e}\right)
+  $$
+  
   linking circumstellar orbital stability directly to the stars’ *closest approach* ($T_{\min}$).  
 - Introduces the **Quarles Eccentricity Limit** ($\mathcal{Q}_e = 0.92$), the maximum binary eccentricity at which *any* stable circumstellar orbit can exist.  
 - Emphasizes that the **inner and outer stability boundaries** (Holman–Wiegert vs. Quarles) form the **complete architecture of binary orbital habitability**.
@@ -41,7 +45,6 @@ title: ""
 - Provides quantitative criteria for **stable orbital zones** around and within binary systems.  
 - Serves as the foundation for later sections on **Roche geometry**, **Hill spheres**, and **habitable zone modeling** in multi-star environments.  
 
-
 ## Chaos Zone
 $$
 0.3\,\mathcal{A} \lesssim \alpha \lesssim 3.0\,\mathcal{A}
@@ -54,13 +57,13 @@ For clarity:
 - If the ratio $\alpha/\mathcal{A}$ for a **close-binary** is less than 0.3, a circumstellar (S-type) orbit cannot remain stable.
 - If the ratio $\alpha/\mathcal{A}$ for a **wide-binary** is greater than 3.0, a circumbinary (P-type) orbit cannot remain stable.
 
-
 ## P-type Orbit (around both stars in a close-binary)
 $$
-\alpha >rsim 3.0\,\mathcal{A}
+\alpha >r\sim 3.0\,\mathcal{A}
 $$
 ### Deep Dive: The Empirical Stability Relation
 Numerical simulations (Holman & Wiegert 1999, *AJ* 117:621) yield a widely used fit for **circumbinary (P-type)** stability:
+
 $$
 \frac{a_{\text{crit}}}{\mathcal{A}}
   = 1.60 + 5.10e - 2.22e^2
@@ -74,6 +77,7 @@ Where:
 - $\mu = M_2/(M_1 + M_2)$ = binary mass ratio
 
 This (mercifully) can be simplified to:
+
 $$
 \alpha \ge \mathcal{F}(e)\,\mathcal{A},
 \qquad
@@ -89,10 +93,10 @@ $$
 > **Rule of thumb:** circumbinary (P-type) planets remain stable when  $\displaystyle\alpha >rsim \mathcal{F}(e)\;\mathcal{A}$ , rising roughly quadratically with binary eccentricity.
 
 A quicker (but less precise) linear form is:
-$$
-\alpha >rsim \mathcal{A}\,(3.5 + 4.0e)
-$$
 
+$$
+\alpha >r\sim \mathcal{A}\,(3.5 + 4.0e)
+$$
 ## S-type Orbit (around one star in a wide binary)
 $$
 \alpha \lesssim 0.3\,\mathcal{A}
@@ -104,14 +108,15 @@ $$
              = 0.08\!\left(\frac{T_{\min}}{1 - e}\right)
 $$
 Where:
-- $\mathcal{Q}_L$ = maximum stable circumstellar orbital radius (S-type)  
-- $\mathcal{A}$ = average binary separation (defined from periastron)  
+- $\mathcal{Q}_{L}$ = maximum stable circumstellar orbital radius (S-type)
+- $\mathcal{A}$ = average binary separation (defined from periastron)
 - $T_{\min}$ = minimum stellar separation at periastron  
 - $e$ = binary eccentricity  
 
 > This expression emphasizes that stability depends primarily on the *closest approach* between the stars, which defines the maximum perturbation on circumstellar orbits.
 
 If $T_{\min}$ and $\mathcal{Q}_L$ are known, the system eccentricity follows from:
+
 $$
 e = 1 - 0.08\!\left(\frac{T_{\min}}{\mathcal{Q}_L}\right)
 $$

@@ -3,7 +3,7 @@
 ### 1. The Purpose of WCB
 
 A brief orientation: why this project exists and what problems it solves.  
-Emphasize _science-adjacent empowerment_ and the unification of mythos + logos.
+Emphasize *science-adjacent empowerment* and the unification of mythos + logos.
 
 ---
 
@@ -23,7 +23,7 @@ Add your “logosic vs. mythosic” commentary here — it becomes the philosoph
 
 ### 3. The SANC Principle
 
-_(Science-Adjacent, No Calculus)_  
+*(Science-Adjacent, No Calculus)*  
 Include the section you already wrote — it’s a perfect manifesto.  
 Follow it with a short “field rule” box:
 
@@ -34,7 +34,7 @@ Follow it with a short “field rule” box:
 
 ### 4. The GEWE Corollary
 
-_(Good Enough for Worldmaking Efforts)_  
+*(Good Enough for Worldmaking Efforts)*  
 Lighthearted but real — the builder’s permission slip.  
 Maybe include a tiny vignette (“Keppy insisting on six significant figures while Hippy files them down to two”).
 
@@ -43,7 +43,7 @@ Maybe include a tiny vignette (“Keppy insisting on six significant figures whi
 ### 5. Structure of the Canon
 
 Table of modules, one-line summaries, and how they interlock: Meta → Stars → Monons → Planemons → Orbits → Binaries → Moons.  
-Emphasize that the canon reads _outward from fundamentals to phenomena._
+Emphasize that the canon reads *outward from fundamentals to phenomena*.
 
 ---
 
@@ -51,19 +51,17 @@ Emphasize that the canon reads _outward from fundamentals to phenomena._
 
 Short practical guide:
 
-- **Read conceptually**, not sequentially.
-    
-- **Test equations in imagination first.**
-    
+- **Read conceptually**, not sequentially.    
+- **Test equations in imagination first.**    
 - **Steal responsibly:** adapt tables, rename variables, but cite the source.
     
-
 ---
 
 ### 7. Tone and Ethos
 
-Explain the hybrid voice — halfway between observatory log and mythographer’s notebook.  
-Reaffirm the aesthetic: _clarity, curiosity, compassion._
+Explain the hybrid voice — halfway between observatory log and mythographer’s notebook.
+
+Reaffirm the aesthetic: *clarity, curiosity, compassion*.
 
 ---
 
@@ -77,5 +75,5 @@ CC BY-NC-SA notice, attribution guidelines, and a short reflection on collaborat
 
 Something quietly mythic, e.g.:
 
-> _Every equation is a kind of prayer.  
-> Every world that answers, an amen._
+> _Every equation is a kind of prayer.
+> Every world that answers, an amen.

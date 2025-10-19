@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Binaries 1 - Principles and Properties"
 ---
 ## Abstract  
 **Major Topics:**  
@@ -37,9 +37,9 @@ title: ""
 # The Basics
 This section focuses on binary systems in general. While higher-multiplicity arrangements are common and fascinating, they introduce significant mathematical and physical complexity beyond the current scope of this guide.
 
-Binary systems consist of two bodies bound in a mutual gravitational relationship, each tracing an orbital path around a shared center of mass known as the **barycenter** (_ḅ_). This point, ||shown as a black X in the figure||, _always_ lies along the line connecting the centers of the two bodies and is not a massive object itself, but a calculated position determined by the masses and separation of the components.
+Binary systems consist of two bodies bound in a mutual gravitational relationship, each tracing an orbital path around a shared center of mass known as the **barycenter** (*ḅ*). This point, ||shown as a black X in the figure||, *always* lies along the line connecting the centers of the two bodies and is not a massive object itself, but a calculated position determined by the masses and separation of the components.
 
-When two monons are in a gravitational relationship, we refer to the more massive of the pair as the _primaron_ and the other as the _secondron_.  If the two monons are of equal mass, the distinction is purely arbitrary.
+When two monons are in a gravitational relationship, we refer to the more massive of the pair as the _primaron_ and the other as the *secondron*.  If the two monons are of equal mass, the distinction is purely arbitrary.
 
 When the two objects are of unequal masses ($M_2 < M_1$), the more massive object (the primaron) orbits on an elliptical path, on average closer to the barycenter, while the **secondron** traces a *larger* elliptical path on average farther from the barycenter. Both orbits share the same eccentricity ($e$), and are synchronized in period, preserving the balance of angular momentum.  They differ only in extent.
 
@@ -95,7 +95,8 @@ T_{max} = \mathcal{A}(1 + e)
 \end{aligned}
 $$
 ### Eccentricity Relationships
-> In the equations below a subscript dot $_{\bullet}$ means *any two matching parameters*; e.g.  $Max_{\bullet} - Min_{\bullet}$ means any maximum value minus any minimum value of the same parameter, such as $P_{max} - P_{min}$.
+In the equations below a subscript dot $_{\bullet}$ means *any two matching parameters* ; e.g.  $Max_{\bullet} - Min_{\bullet}$ means any maximum value minus any minimum value of the same parameter, such as $P_{max} - P_{min}$.
+
 #### System Eccentricity
 $$
 \begin{aligned}
@@ -109,7 +110,9 @@ e &= \dfrac{Max_\bullet - Min_{\bullet}}{Max_\bullet + Min_{\bullet}}
 \end{aligned}
 $$
 #### The Crux Metric ($\acute{e}$)
+
 > The circle $_{\circ}$ subscript is used to indicate expressions in which all terms share the **same positional magnitude** (e.g., max, min, or average), regardless of parameter type.
+
 $$
 \begin{aligned}
 \acute{e} = \dfrac{M_1 - M_2}{M_1 + M_2}
@@ -117,12 +120,12 @@ $$
 = \dfrac{|S_{\circ} - P_{\circ}|}{T_{\circ}}
 \end{aligned}
 $$
-- $é$ (e-prime) is the system eccentricity value at which the orbits of the stars become *_adjoined tangential_* $(e > 0; M_1 \neq M_2)$
+- $é$ (e-prime) is the system eccentricity value at which the orbits of the stars become ***adjoined tangential*** $(e > 0; M_1 \neq M_2)$
 - For a mass ratio of $^{M_2}/_{M_1} = 0.8$, the system requires $\acute{e} ≥ 0.8519$ for the primaron and secondron orbits to adjoin tangentially (see below).
-
 
 # Relative Orbit of the Secondron
 There are times (such as when the secondron is less massive than the primaron — typically $^{M_1}/_{M_2} \gtrsim 80$, the approximate star/brown dwarf mass dividing line, but it works for sub-stellamon bodies as well — it is convenient to treat the primaron as stationary and the secondron as following the relative orbit alone.  Therefore,
+
 $$
 \begin{aligned}
 R_{min} = T_{min} \\[0.5em]
@@ -131,6 +134,7 @@ R_{max} = T_{max} \\
 \end{aligned}
 $$
 For instance, in the case of the Earth-Sun system:
+
 $$
 \begin{aligned}
 \mathcal{A} &= 1.0 AU \\[0.5em]
@@ -143,8 +147,10 @@ P_{avg} &= \mu\,\mathcal{A} \\[1em]
 $$
 
 Considering that the Sun’s radius is $696{,}340$ km, a wobble of only $≈ 450$ km ($\approx 0.065\%$) is justifiably negligible, so the math works out well enough by just treating the Sun as stationary and the Earth as orbiting it.
+
 # Constant Equalities
 Some relationships between the masses of the primaron and secondron and their related orbital separations are constant:
+
 $$
 \begin{array}{ll}
 \varrho = \dfrac{M_2}{M_1} = \dfrac{P_\circ}{S_\circ} &\text{Secondron mass-ratio} \\[1em]
@@ -179,19 +185,20 @@ $$
 Solar analog stars are more often than not found in binary or multiple systems than not, with over half exhibiting multiplicity.
 
 - **Duquennoy & Mayor (1991)** originally found that approximately **57%** of solar-type stars (spectral types F6-K3 — more-or-less what WCB calls **Solar Cognates**) in the solar neighborhood are part of binary or higher-order systems.
-- **Raghavan et al. (2010)** updated this with modern data for the same spectral class range, reporting:    
-    - **~44%** as binaries        
-    - **~11%** as triples or higher        
+- **Raghavan et al. (2010)** updated this with modern data for the same spectral class range, reporting:
+    - **~44%** as binaries
+    - **~11%** as triples or higher
     - → Yielding a total multiplicity fraction of **~55%** for solar-type stars.       
 
 This tendency toward multiplicity defines a pattern that profoundly influences system architecture, orbital stability zones, and the landscape of potential habitability.
+
 ### Companion Mass Trends by Primaron Type
 
-From the combined statistical analyses of **Duquennoy & Mayor (1991)**, **Raghavan et al. (2010)**, **Moe & Di Stefano (2017)**, and **Li et al. (2022, LAMOST)**, a clear pattern of Primaron-to-Secondron spectral type pairings emerges: the **spectral class of the primaron star** strongly constrains the **range of companion masses** likely to occur. In other words, binary pairing is _not_ random across the mass spectrum.
+From the combined statistical analyses of **Duquennoy & Mayor (1991)**, **Raghavan et al. (2010)**, **Moe & Di Stefano (2017)**, and **Li et al. (2022, LAMOST)**, a clear pattern of Primaron-to-Secondron spectral type pairings emerges: the **spectral class of the primaron star** strongly constrains the **range of companion masses** likely to occur. In other words, binary pairing is *not* random across the mass spectrum.
 
-- **Early-type primaries (A–F)** tend to draw secondrons from a **narrow, high-mass corridor**, favoring near-equal companions—what observers call the _twin excess_.    
-- **Solar-type primaries (G-class)** exhibit a **broader, moderately declining distribution**, allowing both near-equal companions and somewhat smaller partners (typically late G or K types).    
-- **Cooler primaries (K–M)** show a **progressively wider, low-mass-biased spread**, where secondrons are often much smaller—late K, M, or even substellar companions.    
+- **Early-type primaries (A–F)** tend to draw secondrons from a **narrow, high-mass corridor**, favoring near-equal companions—what observers call the *twin excess*. 
+- **Solar-type primaries (G-class)** exhibit a **broader, moderately declining distribution**, allowing both near-equal companions and somewhat smaller partners (typically late G or K types). 
+- **Cooler primaries (K–M)** show a **progressively wider, low-mass-biased spread**, where secondrons are often much smaller—late K, M, or even substellar companions.
 
 This trend can be summarized as:
 
@@ -199,6 +206,7 @@ This trend can be summarized as:
 > Later, cooler stars → **broad, low-q range** (favoring lighter companions).
 
 Calculating a secondron star's mass ($M_2$) based on the mass of the primaron ($M_1$):
+
 $$
 M_2 = M_1 \times ⟨⟨a ∧ b⟩⟩^{k}
 $$
@@ -207,9 +215,9 @@ Where:
 - $M_2$ — secondron mass (assigned)  
 - $⟨⟨a ∧ b⟩⟩$ — random draw between *a* and *b* (inclusive range)  
 - $k$ — ***optional* weighting exponent**, biasing toward the lower or upper bound  
-	- $k = 1$: uniform distribution  
-	-  $0 < k < 1$: bias toward lower-mass companions  
-	- $k > 1$: bias toward higher-mass (twin-like) companions  
+- $k = 1$: uniform distribution  
+-  $0 < k < 1$: bias toward lower-mass companions  
+- $k > 1$: bias toward higher-mass (twin-like) companions  
 
 | **Primaron** | <center>**Range<br>(⟨⟨a ∧ b⟩⟩)</center><br>** | <center>**Lower-<br>bias<br>(favor<br>smaller<br>M₂)</center><br><br><br><br>** | <center>**Upper-<br>bias<br>(favor twin<br>M₂)</center><br><br><br>** | <center>**Typical<br>“neutral”<br>bias<br>value</center><br><br><br>** | <center>**Physical rationale**</center>                                                    |
 | :----------: | --------------------------------------------: | ------------------------------------------------------------------------------: | --------------------------------------------------------------------: | ---------------------------------------------------------------------: | :----------------------------------------------------------------------------------------- |
@@ -223,8 +231,10 @@ Where:
 - The “lower-bias” column gives a reasonable p range if you want your generator to prefer small companions.
 - The “upper-bias” column gives values that push draws upward (more “twin-like” systems).
 - The “typical neutral value” is the mid-case consistent with observed distributions.
+
 #### Limiting Eccentricity ($\bar{e}$)
 For close-binaries, the two stars should never approach closer than $T_{min} = 0.10$ AU (ideally $0.15$ AU).  The eccentricity of the system which forces this limit can be calculated by:
+
 $$
 \begin{aligned}
 \bar{e} = \dfrac{T_{max} - 0.100}{T_{max} + 0.100}
@@ -233,6 +243,7 @@ $$
 - $ē$ (e-bar) is the largest system eccentricity that can be used with a given $T_{max}$ , while ensuring that $T_{min} ≥ 0.100$.
 
 If you know what eccentricity you want the system to have and need to figure out the minimum maximum separation $T_{max}$ that will maintain $T_{min} ≥ 0.100$ AU, you can calculate it by:
+
 $$
 \begin{aligned}
 T_{max} ≥ 0.100\left(\dfrac{1 + \bar{e}}{1 - \bar{e}}\right)
@@ -251,6 +262,7 @@ Empirically, binary systems trace a clear trend:
 | **Wide**         | P ≳ 10³          | Broad scatter, e often 0.6–0.9 | Dynamically “hot”           |
 This relation has been confirmed repeatedly—from **Duquennoy & Mayor (1991)** and **Raghavan et al. (2010)** to **Moe & Di Stefano (2017)** and modern **Gaia DR3** samples.
 
+This relation has been confirmed repeatedly—from *Duquennoy & Mayor (1991)* and *Raghavan et al. (2010)* to *Moe & Di Stefano (2017)* and modern *Gaia DR3* samples.
 
 #### 2. **Physical Cause — Tidal Circularization**
 
@@ -258,29 +270,29 @@ Close binaries experience **tidal friction**: each star raises bulges on its com
 Friction within those bulges converts orbital energy into heat, draining the system’s eccentricity.
 
 Circularization timescale roughly scales as
+
 $$
 t_{circ} \propto \left(\frac{\mathcal{a}}{R}\right)^8 \propto P^{\frac{16}{3}}
 $$
 
-so even a modest change in separation produces a huge difference in damping time.  
+ —  so even a modest change in separation produces a huge difference in damping time.  
 Systems that are young and close become circular long before wide pairs even notice tides.
 
-
 #### 3. **Residual Eccentricities and Anomalies**
-- **“Twin” binaries** (nearly equal-mass, short-period) are most circularized.    
-- **Eccentric short-period outliers** often show evidence of a **third companion** pumping eee through Kozai–Lidov cycles.    
-- **Post-mass-transfer pairs** can re-acquire modest eccentricity as mass loss changes the potential.    
-
+- **“Twin” binaries** (nearly equal-mass, short-period) are most circularized.
+- **Eccentric short-period outliers** often show evidence of a **third companion** pumping *e* through Kozai–Lidov cycles.
+- **Post-mass-transfer pairs** can re-acquire modest eccentricity as mass loss changes the potential.
 
 #### 4. **Approximate Empirical Envelope**
 
 For solar-type primaries, the upper bound of observed eccentricities can be sketched as
+
 $$
 e_{max} \simeq 1 - \left(\frac{P_{circ}}{P}\right)^\frac{2}{3}
 $$
 with $P_{circ} \sim 10$ days days for main-sequence systems in the solar neighborhood.  
-Beyond $P \approx 1000$ days, the envelope flattens near $e_{max} \approx 0.9$.
 
+Beyond $P \approx 1000$ days, the envelope flattens near $e_{max} \approx 0.9$.
 
 ### 🧭 Summary Insight
 

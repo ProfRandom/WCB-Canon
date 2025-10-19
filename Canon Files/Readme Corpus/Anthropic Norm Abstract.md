@@ -1,5 +1,4 @@
-# The Anthropic Norm
-
+# The Anthropic Norm - Abstract
 
 **Major Topics:**  
 - Defines the **Anthropic Norm**: the universe and its functioning as presently perceived, absent extreme or rare conditions.  
@@ -23,6 +22,5 @@
 - No prior mention of these terms in canon; both are newly introduced philosophical-structural concepts.  
 - Complements existing WCB philosophical principles (e.g., Protagorean Principle).  
 - **Status:** [NEW] — establishes a normative philosophical baseline for worldbuilding.  
-
 
 The universe and its functioning as we currently perceive it, absent any extreme conditions.

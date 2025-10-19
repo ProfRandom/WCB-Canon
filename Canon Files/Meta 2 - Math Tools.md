@@ -30,14 +30,13 @@ title: ""
 - Provides the foundational grammar for all quantitative derivations used in *Orbits*, *Binaries*, and *Stars* modules.  
 - No new glossary terms required; consolidates and harmonizes prior notation.
 
-
-
-
- # 🧭 Ellipse Geometry Solver — WCB Reference
+# 🧭 Ellipse Geometry Solver — WCB Reference
 
 This reference provides a complete algebraic toolkit for solving any ellipse — geometric or orbital — from any two independent parameters. All terms match the diagram above.  
+
 ## 📘 Glossary of Ellipse Parameters
   All variables match the labeled diagram above.
+
 ### 🔹 Core Axes & Foci
 - **a** — semi-major axis  
 - **b** — semi-minor axis  
@@ -49,7 +48,9 @@ This reference provides a complete algebraic toolkit for solving any ellipse —
 		  - $e = 1$ → parabola (degenerate case)  
 		  - $e > 1$ → hyperbola (not an ellipse)  
 	- Eccentricity is **unitless** and invariant under scale.  
-	-  It also defines the ellipse as a conic:   $$
+	-  It also defines the ellipse as a conic:
+
+$$
   \dfrac{\text{distance to focus}}{\text{distance to directrix}} = e
 $$
 - **f** — flattening $b = 1 - \dfrac{b}{a}$  
@@ -59,29 +60,36 @@ $$
 - **X, Y** — co-vertices (±b along minor axis)  
 - **C** — center of ellipse  
 - **f₁, f₂** — the two foci  
+
 ### 🔹 Derived Lengths  
 - **d** — focus-maximus = vertex to opposite focus $= a + c$  
 - **g** — focus-minimus = focus to nearest vertex  $= a - c$ (e.g. $f_1P$)  
 - **h** — focal span $=2c$  
 - **ℓ** — semi-latus rectum $=\dfrac{1}{2} q$  
 - **q** — latus rectum $= 2ℓ$
+
 ### 🔹 Directrix System  
 - **m** — center-to-directrix $=\dfrac{a}{e}$  
 - **n** — focus-to-directrix $=m - c$
 - **s** — vertex-to-directrix $=m - a = \dfrac{c}{e} - a$  
+
 ## 🧮 Canonical Equations
+
 ### 🔹 Geometric
 - $c = ae$  
 - $b = a\sqrt{1 - e^2}$
 - $a = \sqrt{b^2 + c^2}$
+
 ### 🔹 Orbital Geometry
 - $f = a(1 - e^2) = \dfrac{b^2}{a}$  
 - $r(\theta) = \dfrac{a(1 - e^2)}{1 + e \cos \theta}$  
 - $r_p = a(1 - e)$ 
+
 ### 🔹 Directrix Relationships
 - $m = \dfrac{a}{e}$  
 - $s = m - a = \dfrac{c}{e} - a$  
 - $n = m - c = \dfrac{a}{e} - c$
+
 ## 📐 What Is the Directrix?
 For an ellipse, the **directrix** is:
 
@@ -96,59 +104,37 @@ $$\dfrac{\text{distance to focus}}{\text{distance to directrix}} = e$$
 There are **two directrices**, one on each side of the center, at a distance:
 $$m = \dfrac{a}{e}$$
 … from the center, where:
-- *a* is the semi-major axis    
+- *a* is the semi-major axis
 - *e* is the eccentricity    
 
 So:
-- Right-side directrix: $x = \dfrac{a}{e}$    
+- Right-side directrix: $x = \dfrac{a}{e}$
 - Left-side directrix: $x = -\dfrac{a}{e}$​
     If *e* → 0, the directrix moves off to infinity — which makes sense, because a circle (eccentricity 0) has no directrix-like behavior.
+
 ## 🎯 How the Directrix Relates to the Ellipse
 You can think of the ellipse as a **set of points** where:
 $$\dfrac{PF}{PD} = e$$
 Where:
-- PF is the distance from a point P on the ellipse to a **focus**    
+- PF is the distance from a point P on the ellipse to a **focus**
 - PD is the distance from that same point P to the **directrix**   
 
-This definition is symmetric and constructive: it's how conics are _defined_ in classic geometry.
-## 💡 So What Does It _Do_?
+This definition is symmetric and constructive: it's how conics are *defined* in classic geometry.
+
+## 💡 So What Does It *Do*?
 The directrix is mostly a **definitional and constructional tool** — not something we see in physical orbits, but:
 - It gives us a clean formula for an ellipse in Cartesian coordinates:
 $$r(\theta) = \dfrac{p}{1 + e \cos \theta} \quad \text{where } p = \dfrac{b^2}{a}$$
 - It shows up in **ray-tracing**, **parabolic reflectors**, **classical mechanics**, and **procedural shape generation**.
+
 ## 🔍 Quick Facts
-
-| Concept                      | Value / Equation               |
-| ---------------------------- | :------------------------------: |
-| Directrix location           | $x= \pm \dfrac{a}{e}$​         |
-| Distance center to directrix | $m = \dfrac{a}{e}$​            |
-| Distance vertex to directrix | $s = m - a = \dfrac{c}{e}-a$   |
-| Distance focus to directrix  | $n = m - c = \dfrac{a}{e} - c$ |
-| Eccentricity via directrix   | $e = \dfrac{PF}{PD}$​          |
-## 🧩 “Given Any Two, Solve the Rest” Matrix
-Each row lists two known parameters and what you can solve from them using canonical identities.
-
-|     Known Pair     | Solve For          |                                    Method / Equation(s)                                    |
-| :----------------: | :----------------: | :----------------------------------------------------------------------------------------: |
-|        a, e        | b, c, f, m, s, n   | $b = a\sqrt{1 - e^2},\ c = ae,\ f = a(1 - e^2),\ m = \dfrac{a}{e},\ s = m - a,\ n = m - c$ |
-| a, b               | c, e, f            |       $c = \sqrt{a^2 - b^2},\ e = \sqrt{1 - \dfrac{b^2}{a^2}},\ f = \dfrac{b^2}{a}$        |
-| a, c               | b, e, m, s, n      |    $e = \dfrac{c}{a},\ b = \sqrt{a^2 - c^2},\ m = \dfrac{a}{e},\ s = m - a,\ n = m - c$    |
-| b, c               | a, e               |                         $a = \sqrt{b^2 + c^2},\ e = \dfrac{c}{a}$                          |
-| e, b               | a, c               |                          $a = \dfrac{b}{\sqrt{1 - e^2}},\ c = ae$                          |
-| rₚ, rₐ             | a, c, e, b         | $a = \dfrac{rₚ + rₐ}{2},\ c = \dfrac{rₐ - rₚ}{2},\ e = \dfrac{c}{a},\ b = a\sqrt{1 - e^2}$ |
-| a, f               | b, e               |                     $b = \sqrt{af},\ e = \sqrt{1 - \dfrac{b^2}{a^2}}$                      |
-| a, m               | e, c               |                                $e = \dfrac{a}{m},\ c = ae$                                 |
-| c, e               | a, b, m            |                $a = \dfrac{c}{e},\ b = a\sqrt{1 - e^2},\ m = \dfrac{a}{e}$                 |
-| a, s               | m, e, c, b         |               $m = a + s,\ e = \dfrac{a}{m},\ c = ae,\ b = a\sqrt{1 - e^2}$                |
-| a, n               | m, c, e, b         |              $m = n + c,\ c = m - n,\ e = \dfrac{a}{m},\ b = a\sqrt{1 - e^2}$              |
-> 🔍 *Note: This matrix is designed for symbolic manipulation. Some results require substitution into multiple chained equations.*
-> 
-
- 
-
+- Directrix location: $x= \pm \dfrac{a}{e}$
+- Distance center to directrix: $m = \dfrac{a}{e}$
+- Distance vertex to directrix: $s = m - a = \dfrac{c}{e}-a$
+- Distance focus to directrix: $n = m - c = \dfrac{a}{e} - c$
+- Eccentricity via directrix: $e = \dfrac{PF}{PD}$​
 
 A reference sheet of exponent and logarithm rules useful in constructing systems of thermal, gravitational, orbital, and energetic relationships in scientifically-grounded worldbuilding.
-
 
 ## 🔢 Rules of Exponents
 
@@ -156,91 +142,63 @@ A reference sheet of exponent and logarithm rules useful in constructing systems
 $$
 x^m \cdot x^n = x^{m+n}, \qquad \frac{x^m}{x^n} = x^{m-n}
 $$
-
-
 ### 📏 Index Rule
 $$
 \sqrt[n]{x} = x^{\frac{1}{n}}, \qquad \sqrt[-n]{x} = \frac{1}{\sqrt[n]{x}} = x^{-\frac{1}{n}}
 \sqrt[m]{\frac{x^n}{x^p}} = x^{\frac{n - p}{m}}, \qquad \sqrt[m]{x^n x^p} = x^{\frac{n + p}{m}}
 $$
-
-
 ### 🔁 Power Rule
 $$
 (x^m)^n = x^{mn}, \qquad (x^{-m})^n = x^{-mn}
 \sqrt[n]{\sqrt[m]{x}} = \sqrt[nm]{x}, \qquad \sqrt[n]{x^{\frac{1}{m}}} = x^{\frac{1}{nm}}
 $$
-
-
 ### 🧮 Power of a Fraction
 $$
 \left(\frac{x}{y}\right)^n = \frac{x^n}{y^n}
 $$
-
-
 ### 🎯 Fractional Exponents
 $$
 \sqrt[m]{x^n} = x^{\frac{n}{m}}, \qquad \sqrt[n]{x^m} = x^{\frac{m}{n}}, \qquad (\sqrt[m]{x})^n = x^{\frac{n}{m}}
 $$
-
-
 ### 🚫 Negative Exponent Rule
 $$
 x^{-n} = \frac{1}{x^n}
 $$
-
-
 ### 🕳️ Zero Exponent Rule
 $$
 x^0 = 1 \quad \text{(for } x \ne 0\text{)}
 $$
-
-
 ### ♾️ Infinity Exponent Rule
 $$
 x^\infty = \infty, \qquad x^{-\infty} = 0
 $$
-
-
 ## 🧠 Additional Useful Identities
 
 ### 🧩 Distributive Rule for Exponents over Multiplication
 $$
 (xy)^n = x^n y^n, \qquad \left(\frac{x}{y}\right)^n = \frac{x^n}{y^n}
 $$
-
-
 ### 🔄 Logarithmic Inverses
 $$
 \log_b(b^x) = x, \qquad b^{\log_b(x)} = x
 $$
-
-
 ### 🪜 Logarithmic Expansion Rules
 $$
 \log(xy) = \log x + \log y, \qquad \log\left(\frac{x}{y}\right) = \log x - \log y, \qquad \log(x^n) = n \log x
 $$
-
-
 ### 🌀 Reciprocal Roots
 $$
 \sqrt[n]{\frac{1}{x}} = \frac{1}{\sqrt[n]{x}} = x^{-\frac{1}{n}}
 $$
-
-
 ### 📈 Arbitrary Exponentials in Terms of *e*
 $$
 a^x = e^{x \ln a}
 $$
-
-
 ## 📊 Powers and Logs
 $$
 x^y = z \quad \Rightarrow \quad y = \frac{\log z}{\log x} = \log_x z
 x = z^{\frac{1}{y}} = \sqrt[y]{z}
 $$
-
-
 # 🧮 General-Use Equations
 
 ### 📘 Variable Definitions
@@ -254,19 +212,16 @@ $$
 - **q** = quotient of bounds  
 
 ## 📏 Number Relationships
+
 ### ➗ Ratio
 $$
 \text{ratio} = \frac{l}{u} = \frac{\text{sum} - \text{difference}}{\text{sum} + \text{difference}}
 $$
-
-
 ### ➕ Sum & Difference Identities
 $$
 \text{sum} = u + l = d\left(1 + \frac{1}{r}\right), \qquad
 \text{difference} = u - l = s\left(\frac{1 - r}{1 + r}\right)
 $$
-
-
 ### 🔀 Transformations Between Bounds
 $$
 l = \frac{s - d}{2}, \qquad
@@ -274,8 +229,6 @@ u = \frac{s + d}{2}, \qquad
 s = l + u, \qquad
 d = u - l
 $$
-
-
 ### 🔁 Alternate Forms with Ratio
 $$
 l = \frac{s}{1 + r}, \qquad
@@ -287,8 +240,6 @@ u = \frac{s + d}{2}, \qquad
 l = \frac{(s - d) \cdot r}{1 + r}, \qquad
 u = \frac{s \cdot r + d}{1 + r}
 $$
-
-
 ### 📊 Mean
 $$
 m = \frac{u + l}{2}, \qquad
@@ -296,85 +247,77 @@ m = \frac{s}{2}, \qquad
 m = u - \frac{d}{2}, \qquad
 m = l + \frac{d}{2}
 $$
-
-
 ### 🧮 Inequality Notes
 $$
 m \gg \frac{1}{2} u \quad \text{(if } u < 0 \text{ and } l > 0\text{)}
 m = \frac{1}{2} u \quad \text{(if } l = 0\text{)}
 m = u = l \quad \text{(if } u = l\text{)}
 $$
-
-
 ### ✖️ Product & Quotient
 $$
 \text{Product } = xy = \frac{s^2 - d^2}{4}
 \text{Quotient } = \frac{x + d}{x - d} = \frac{(x + y) + (x - y)}{(x + y) - (x - y)}
 \frac{s}{d} = \frac{x + y}{x - y}, \qquad \frac{d}{s} = \frac{x - y}{x + y}
 $$
-
-
 ## 📉 Percentage from Portion
+
 ### 🔢 Percentage (p) from portion (x) of total  (n)
 
 $$
 p = \frac{x}{n}, \qquad x = pn, \qquad n = \frac{p}{x}
 $$
-
-
 ### 📘 Definitions
 - **p** = percentage  
 - **x** = portion (part)  
 - **n** = base number (whole)
+
 ## 🎯 Percentages in Ranges
+
 ### 📐 Percentage (p) Represented by a Value (v) in Range (l … u)
 $$
 p = \frac{v - l}{u - l}, \qquad v = p(u - l) + l, \qquad u = \frac{v - l}{p} + l, \qquad l = \frac{v - pu}{1 - p}
 $$
-
 #### 🔤 Variable Definitions
 - **v** = value within the range  
 - **l** = lower bound  
 - **u** = upper bound  
 - **p** = percentage of the \([l, u]\) range represented by \(v\)
 
-
 ### 🔁 Transfer a Percentage Between Two Ranges
 #### 🧮 General Equations
 Let:
-- \( R_1 = [\text{min}, \text{num}, \text{max}] \)
-- \( R_2 = [z, x, y] \), where \( x < z < y \)
+- $R_1 = [\text{min}, \text{num}, \text{max}]$
+- $R_2 = [z, x, y]$, where $x < z < y$
 
 Then:
+
 $$
 \text{pct} = \frac{\text{num} - \text{min}}{\text{max} - \text{min}}, \qquad
 z = \text{pct} \cdot (y - x) + x
 $$
-
-
 #### ✅ Example
 Given:
-- \( R_1 = [0, 6, 10] \)
-- \( R_2 = [4, z, 6] \)
+- $R_1 = [0, 6, 10]$
+- $R_2 = [4, z, 6]$
 
 Then:
+
 $$
 \text{pct} = \frac{6 - 0}{10 - 0} = \frac{6}{10} = 0.60
 z = 0.60 \cdot (6 - 4) + 4 = 0.60(2) + 4 = 5.2
 $$
 
 Check:
+
 $$
 \frac{5.2 - 4}{6 - 4} = \frac{1.2}{2} = 0.60
 $$
-
-
 ## 🔢 Sums of Number Sequences
 
 ### 📘 Variable Definitions
 - **Σ** = sum of all integers in the range (l … u)  
-- **s** = sum of bounds: \( u + l \)  
-- **d** = difference: \( u - l \)  
+- **s** = sum of bounds: $u + l$  
+- **d** = difference: $u - l$  
 - **l** = lower bound of range  
 - **u** = upper bound of range  
 
@@ -382,79 +325,72 @@ $$
 $$
 s = u + l, \qquad d = u - l
 $$
-
 #### 🧮 Summation Formulas
 Basic:
+
 $$
 \Sigma = \frac{u(u + 1)}{2} - \frac{l(l - 1)}{2}
 $$
 
 Symmetric:
+
 $$
 \Sigma = \frac{l^2 - 1}{2} + \frac{u^2 + u}{2}, \qquad
 \Sigma = \frac{(u + l)(u - l + 1)}{2}
 $$
 
-Sum in terms of \( d \) and \( s \):
+Sum in terms of $d$ and $s$:
+
 $$
 \Sigma = \frac{d + 1}{2} s, \qquad
 \Sigma = \frac{sd + s}{2}
 $$
 
 Expanded forms:
+
 $$
 \Sigma = \frac{u^2 + u}{2} - \frac{l^2 - l}{2}
 \Sigma = \frac{(u^2 + u) - (l^2 - l)}{2}, \qquad
 \Sigma = \frac{u^2 - l^2 + u + l}{2}, \qquad
 \Sigma = \frac{u^2 - l^2 + s}{2}
 $$
-
-
 ## 🔢 Integer Sequences and Special Transformations
 
 ### 🟥 Consecutive Odd Integers (1 … u)
 $$
 \Sigma_o = \left( \frac{u + 1}{2} \right)^2 = \frac{u^2 + 2u + 1}{4}
 $$
-
-
 ### 🟦 Consecutive Even Integers (2 … u)
 $$
 \Sigma_e = \left( \frac{u}{2} \right) \left( \frac{u}{2} + 1 \right) = \frac{u(u + 2)}{4} = \frac{u^2 + 2u}{4}
 $$
-
-
 ### 🧮 Count of Consecutive Integers in Range (1 … u)
 $$
 \left\lfloor \frac{u - l}{2} \right\rfloor + 1 \quad \text{for odd or even spacing}
 $$
+ — or for total count of integers:
 
-or for total count of integers:
 $$
 \left\lfloor \frac{u - l}{2} \right\rfloor \cdot 2 + 1 = 2\left\lfloor \frac{u - l}{2} \right\rfloor + 1
 $$
-
-
 ### 📉 Percent Difference
 
 $$
 \%\Delta = 100 \cdot \frac{\text{new} - \text{old}}{\text{old}} = 100 \left( \frac{\text{new}}{\text{old}} - 1 \right)
 $$
-
-
 ### 🔁 Involutive Transformation
 Given:
+
 $$
 y = \frac{1 - x}{1 + x}
 $$
-
 Then:
+
 $$
 x = \frac{1 - y}{1 + y}
 $$
 
-This is its own inverse: \( f(f(x)) = x \)
-
+This is its own inverse: $f(f(x)) = x$
 
 ### 🔄 Percentage Inversion (Reciprocal Percentages)
 If $x\% \text{ of } y = y\% \text{ of } x$, then:
@@ -463,8 +399,6 @@ $$
 \frac{x}{100} \cdot y = \frac{y}{100} \cdot x, \qquad
 x \cdot \frac{y}{100} = y \cdot \frac{x}{100}
 $$
-
-
 ## 🟨 Generalized Metallic Mean for Any Integer $x$
 The traditional formula is:
 
@@ -475,12 +409,12 @@ $$
 This generalizes the golden ratio (\(x = 1\)), silver ratio (\(x = 2\)), bronze ratio (\(x = 3\)), etc.
 
 Alternative equivalent form:
+
 $$
 N_x = \sqrt{1 + \frac{x^2}{4}} + \frac{x}{2}
 $$
 
 This version is symmetric and may be more intuitive in nested radical systems.
-
 
 ## 📈 Point–Slope of a Line
 Given two points:
@@ -491,31 +425,23 @@ P_1 = (x_1, y_1) \\[6pt]
 P_2 = (x_2, y_2)
 \end{aligned}
 $$
-
-
 ### 🧮 Slope Formula
 $$
 m = \frac{y_1 - y_2}{x_1 - x_2}
 $$
-
-
 ### 🧾 Point–Slope Form
 $$
 y - y_1 = m(x - x_1)
 $$
-
 Or rearranged:
+
 $$
 y = m(x - x_1) + y_1
 $$
-
-
 ### 🎯 Slope–Intercept Form
 $$
 y = mx + b
 $$
-
-
 ### 🔃 Converting from Point–Slope to Slope–Intercept
 $$
 \begin{aligned}
@@ -525,15 +451,13 @@ $$
 \text{Therefore:} \quad & b = y_1 - mx_1
 \end{aligned}
 $$
-
-> 🧠 **Note:** The subscripts vanish because their values get absorbed into the constant \( b \).  
+> 🧠 **Note:** The subscripts vanish because their values get absorbed into the constant $b$.  
 > The slope–intercept form still “remembers” your point — just more subtly.
-
 
 ## 🧪 Example 1
 Given:  
-- \( P_1 = (4.85, 0) \)  
-- \( P_2 = (1, 1) \)
+- $P_1 = (4.85, 0)$  
+- $P_2 = (1, 1)$
 
 ### Step 1: Find the slope
 $$
@@ -549,12 +473,10 @@ $$
 $$
 y = \frac{-1}{3.85}x + \frac{4.85}{3.85} \approx -0.26x + 1.26
 $$
-
-
 ## 🧪 Example 2
 Given:  
-- \( P_1 = (0.5, 0) \)  
-- \( P_2 = (1, 1) \)
+- $P_1 = (0.5, 0)$  
+- $P_2 = (1, 1)$
 
 ### Step 1: Find the slope
 $$
@@ -571,8 +493,6 @@ $$
 y = 2x - 1
 $$
 
-![[Line Point-Slope Illustration.png|500]]
-
 ## 📉 Visualizing Point–Slope Examples
 
 This plot shows the two lines derived in the examples above:
@@ -587,101 +507,112 @@ This plot shows the two lines derived in the examples above:
 
 They intersect at the point (1, 1), which lies on both lines.
 
-
 ## 🌡️ Temperature Scale Equalities
 ### 🔁 Fahrenheit ↔ Kelvin
 **Core conversion equations:**
+
 $$
 C = K - 273.15, \qquad C = \frac{5}{9}(F - 32)
 $$
 
 So:
+
 $$
 K - 273.15 = \frac{5}{9}(F - 32)
 $$
 
 Or rearranged:
+
 $$
 K = \frac{5}{9}(F - 32) + 273.15
 $$
 
 And:
+
 $$
 F = \frac{9}{5}(K - 273.15) + 32
 $$
-
-
 ### 🧪 Worked Example (Convert 255.372 K to °F)
 Start from:
+
 $$
 K = 255.372
 $$
 
 Plug into conversion formula:
+
 $$
 K - 273.15 = \frac{5}{9}(F - 32)
 -17.7778 = \frac{5}{9}(F - 32)
 $$
 
 Multiply both sides by 9:
+
 $$
 -160 = 5(F - 32)
 $$
 
 Divide by 5:
+
 $$
 -32 = F - 32
 $$
 
 So:
+
 $$
 F = 0^\circ\text{F}
 $$
 
 Alternatively, in reverse:
+
 $$
 F = 0 \Rightarrow K = \frac{5}{9}(0 - 32) + 273.15 = -17.7778 + 273.15 = 255.372 \text{ K}
 $$
-
-
 ### 🌡️ Fahrenheit ↔ Celsius
 Standard conversion formulas:
+
 $$
 F = \frac{9}{5}C + 32, \qquad C = \frac{5}{9}(F - 32)
 $$
 
 #### 🔁 Rearrangements:
 From:
+
 $$
 F = \frac{9}{5}C + 32
 $$
 
 Subtract 32:
+
 $$
 F - 32 = \frac{9}{5}C
 $$
 
 Multiply both sides by 5:
+
 $$
 5(F - 32) = 9C
 $$
 
 Divide by 9:
+
 $$
 C = \frac{5}{9}(F - 32)
 $$
-
 ### 🧪 Worked Example (Convert -40°F to °C)
 $$
 C = \frac{5}{9}(-40 - 32) = \frac{5}{9}(-72) = -40
 $$
 
 So:
+
 $$
 -40^\circ \text{F} = -40^\circ \text{C}
 $$
 ### 🌡️ Kelvin ↔ Celsius
 The Kelvin and Celsius scales are offset by a constant:
+
 $$
 K = C + 273.15, \qquad C = K - 273.15
 $$
@@ -694,8 +625,6 @@ $$
 > For example:  
 > - Correct: **273.15 K**  ✓
 > - Incorrect: **273.15 °K** – or – **273.15 degrees Kelvin**
-
-
 # The Euclidean Algorithm
 
 The Euclidean Algorithm provides an elegant and efficient (if somewhat involved) way to compute the greatest common divisor (GCD) of two integers.  This is especially useful for simplifying ratios or finding integer relationships when work with synodic systems
@@ -703,14 +632,15 @@ The Euclidean Algorithm provides an elegant and efficient (if somewhat involved)
 ## The Algorithm
 The algorithm itself is deceptively short and simple:
 1. Start with two integers $a$ and $b$, such that $a>b$.
-2. Divide $a$ by $b$, and note the _remainder_, $r$.
+2. Divide $a$ by $b$, and note the *remainder*, $r$.
 	- $r = a\; MOD\; b$
 3. Replace $a$ with $b$ and $b$ with $r$.
 4. Repeat steps 2 - 3 until $f = 0$.
 
-The last _non-zero remainder_ is the greatest common divisor between $a$ and $b$.
+The last *non-zero remainder* is the greatest common divisor between $a$ and $b$.
 
 ### Example
+
 $$
 \begin{aligned}
 a = 2436 \qquad b = 1172 \\
@@ -727,74 +657,86 @@ a = 20 \qquad b = 4 \\
 ⟶ r = a\;mod\;b = 0 \\
 \end{aligned}
 $$
+
 If you don't have a tool that directly calculates modulos, $r$ can manually be calculated by:
+
 $$
 r = a - \left( b \times \left\lfloor \dfrac{a}{b} \right\rfloor \right)
 $$
+
 Here is an admittedly clunky longhand version for clarity
+
 $$
-\begin{array}{r@{}l}
-   2 \quad &\text{\scriptsize(Quotient)} \\[-0.2ex]
-1172\,)\,\overline{2436}  \quad &\text{\scriptsize(Dividend)} \\[-0.4ex]
-\underline{-2344}  \quad &\text{\scriptsize(Subtracted: $2\times1172$)} \\[-0.3ex]
-\phantom{ }\,\,92 \quad &\leftarrow \text{\scriptsize(Remainder)}
-\end{array}
-$$
-$$
-\begin{array}{r@{}l}
-   12 \quad &\text{\scriptsize(Quotient)} \\[-0.2ex]
-92\,)\,\overline{1172}  \quad &\text{\scriptsize(Dividend)} \\[-0.4ex]
-\underline{-1104}  \quad &\text{\scriptsize(Subtracted: $12\times92$)} \\[-0.3ex]
-\phantom{}\,\,68 \quad &\leftarrow \text{\scriptsize(Remainder)}
-\end{array}
-$$
-$$
-\begin{array}{r@{}l}
-   1 \quad &\text{\scriptsize(Quotient)} \\[-0.2ex]
-68\,)\,\overline{92}  \quad &\text{\scriptsize(Dividend)} \\[-0.4ex]
-\underline{-68}  \quad &\text{\scriptsize(Subtracted: $1\times68$)} \\[-0.3ex]
-\phantom{}\,\,24 \quad &\leftarrow \text{\scriptsize(Remainder)}
-\end{array}
-$$
-$$
-\begin{array}{r@{}l}
-   2 \quad &\text{\scriptsize(Quotient)} \\[-0.2ex]
-24\,)\,\overline{68}  \quad &\text{\scriptsize(Dividend)} \\[-0.4ex]
-\underline{-48}  \quad &\text{\scriptsize(Subtracted: $2\times24$)} \\[-0.3ex]
-\phantom{}\,\,20 \quad &\leftarrow \text{\scriptsize(Remainder)}
-\end{array}
-$$
-$$
-\begin{array}{r@{}l}
-   1 \quad &\text{\scriptsize(Quotient)} \\[-0.2ex]
-20\,)\,\overline{24}  \quad &\text{\scriptsize(Dividend)} \\[-0.4ex]
-\underline{-20}  \quad &\text{\scriptsize(Subtracted: $1\times20$)} \\[-0.3ex]
-\phantom{}\,\,\mathbf{4} \; \boldsymbol{\checkmark} &\leftarrow \text{\scriptsize(Remainder)}
-\end{array}
-$$
-$$
-\begin{array}{r@{}l}
-   5 \quad &\text{\scriptsize(Quotient)} \\[-0.2ex]
-4\,)\,\overline{20}  \quad &\text{\scriptsize(Dividend)} \\[-0.4ex]
-\underline{-20}  \quad &\text{\scriptsize(Subtracted: $5\times4$)} \\[-0.3ex]
-\phantom{}\,\,0 \quad &\leftarrow \text{\scriptsize(Remainder)}
-\end{array}
-$$
-$$
-\text{Since this remainder is } 0 \text{, the previous remainder is the GCD}
-\begin{array}{c c c}
-\therefore \; \gcd(2436,1172) = 4 
-\end{array}
+\begin{aligned}
+2 &\quad (Quotient)\\[-0.2ex]
+1172)\,\overline{2436} &\quad (Dividend)\\[-0.4ex]
+\underline{-2344} &\quad (Subtracted: 2\times1172)\\[-0.3ex]
+92 &\leftarrow (Remainder)
+\end{aligned}
 $$
 
+$$
+\begin{aligned}
+12 &\quad (Quotient)\\[-0.2ex]
+92)\,\overline{1172} &\quad (Dividend)\\[-0.4ex]
+\underline{-1104} &\quad (Subtracted: 12\times92)\\[-0.3ex]
+68 &\leftarrow (Remainder)
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+1 &\quad (Quotient)\\[-0.2ex]
+68)\,\overline{92} &\quad (Dividend)\\[-0.4ex]
+\underline{-68} &\quad (Subtracted: 1\times68)\\[-0.3ex]
+24 &\leftarrow (Remainder)
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+2 &\quad (Quotient)\\[-0.2ex]
+24)\,\overline{68} &\quad (Dividend)\\[-0.4ex]
+\underline{-48} &\quad (Subtracted: 2\times24)\\[-0.3ex]
+20 &\leftarrow (Remainder)
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+1 &\quad (Quotient)\\[-0.2ex]
+20)\,\overline{24} &\quad (Dividend)\\[-0.4ex]
+\underline{-20} &\quad (Subtracted: 1\times20)\\[-0.3ex]
+\mathbf{4} &\;\boldsymbol{\checkmark}\leftarrow (Remainder)
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+5 &\quad (Quotient)\\[-0.2ex]
+4)\,\overline{20} &\quad (Dividend)\\[-0.4ex]
+\underline{-20} &\quad (Subtracted: 5\times4)\\[-0.3ex]
+0 &\leftarrow (Remainder)
+\end{aligned}
+$$
+
+$$
+\text{Since this remainder is } 0, \text{ the previous remainder is the GCD:}\\[0.5ex]
+\therefore\;\gcd(2436,1172)=4
+$$
 # Rational Approximation (Continued Fractions)
 ```latex
-$x = a_0 + 1/(a_1 + 1/(a_2 + 1/(a_3 + \dots)))$
+$$
+x = a_0 + 1/(a_1 + 1/(a_2 + 1/(a_3 + \dots)))
+$$
 ```
 
-$x = a_0 + 1/(a_1 + 1/(a_2 + 1/(a_3 + \dots)))$
+$$
+x = a_0 + 1/(a_1 + 1/(a_2 + 1/(a_3 + \dots)))
+$$
 
 ```latex
+
 $$
 x = a_0 + \cfrac{1}{a_1 + \cfrac{1}{a_2 + \cfrac{1}{a_3 + \cdots}}}
 $$
@@ -803,18 +745,22 @@ $$
 x = a_0 + \cfrac{1}{a_1 + \cfrac{1}{a_2 + \cfrac{1}{a_3 + \cdots}}}
 $$
 ```latex
-$$x = 1 + \cfrac{1}{2 + \cfrac{1}{2 + \cfrac{1}{2 + \ddots}}}$$
+$$
+x = 1 + \cfrac{1}{2 + \cfrac{1}{2 + \cfrac{1}{2 + \ddots}}}
+$$
 ```
 $$x = 1 + \cfrac{1}{2 + \cfrac{1}{2 + \cfrac{1}{2 + \ddots}}}$$
 ## Step 1 — Define the goal
 
 Given a real number $x$, find a fraction $\dfrac{p}{q}$ that’s as close as possible while keeping $q$ below some limit, $Q_{max}$.
+
 $$
 \text{minimize}\;\left|x-\frac{p}{q}\right|, \quad q \le Q_{max}
 $$
 
 ## Step 2 — Start the continued-fraction expansion
 Begin:
+
 $$
 \begin{array}{ll}
 x_0 = x, & a_0 = \lfloor x_0 \rfloor
@@ -822,6 +768,7 @@ x_0 = x, & a_0 = \lfloor x_0 \rfloor
 $$
 
 Iterate:
+
 $$
 \begin{array}{ll}
 x_{n + 1} = \dfrac{1}{x_n - a_n}, & a_{n + 1} = \lfloor x_{n + 1} \rfloor
@@ -830,19 +777,23 @@ $$
 > In each iteration, replace $a_n$ with the value of $a_{n+1}$ from the previous iteration.
 
 Record each $a_n$: the sequence $a_0, a_1, a_2,\ldots$ forms the **continued-fraction coefficients** of $x$.
+
 $$
 x = \mathbf{a_0} + \cfrac{1}{\mathbf{a_1} + \cfrac{1}{\mathbf{a_2} + \cfrac{1}{\mathbf{a_3} + \cdots}}}
 $$
 
 Thus, the number $x$ can be written as:
+
 $$
 x = [a_0; a_1, a_2, a_3, \ldots]
 $$
 Where:
 - $a_0$ = the integer portion of $x$ (if any)
 - $a_1, a_2, a_3, \ldots$ = the sequence of $a_n$ recorded above.
+
 ## Step 3  — Build convergents
 Initialize:
+
 $$
 \begin{array}{lll}
 p_{n-2} = 0, &p_{n-1} = 1, \\[0.5em]
@@ -852,6 +803,7 @@ n = 1
 $$
 
 Calculate:
+
 $$
 \begin{array}{lll}
 &p_n = a_n\,p_{n-1} + p_{n-2}, \\[0.5em]
@@ -862,8 +814,6 @@ $$
 \text{Continue until:} &|x - y_n| \quad\text{is within the desired tolerance}
 \end{array}
 $$
-
-
 # Range Constraints & Random Assignment
 
 ## 🧱 Core Constraint Classes
@@ -883,7 +833,6 @@ $$
 
 ⚠️ Do not combine `!` with dot-prefixed/suffixed forms. Use the logical inverse instead (e.g., `.>`, `>.`).
 
-
 ## 📏 Range Connectives
 
 | Symbol | Meaning                  | Logical Form   | Range Type               |
@@ -896,7 +845,6 @@ $$
 | ⩟      | Right-exclusive interior | a ≤ ▢ < b      | Half-open                |
 | ⊽      | Left-exclusive exterior  | ▢ < a or ▢ ≥ b | Edge-grazing exterior    |
 | ⩡      | Right-exclusive exterior | ▢ ≤ a or ▢ > b | Edge-grazing exterior    |
-
 
 ## 🎲 Random Assignment Syntax
 
@@ -911,7 +859,6 @@ Use `⟨⟨ ⟩⟩` to indicate **random value assignment** from a specified ran
 
 - = → assignment
 - .= → mandated assignment (value must be generated)
-
 
 ## 🎲 Random Assignment Syntax With Weighting
 
@@ -930,7 +877,6 @@ Where:
 
 > Because ⟨⟨0 ∧ 1⟩⟩ represents a continuous uniform variable, and because the exponent $p \in (0, \infty)$ continuously reshapes that distribution, the **biasing space** is symmetric about $p = 1$: bias toward *a* for $0 < p < 1$, bias toward *b* for $p > 1$.
 
-
 ## 🔬 Precision Inference Rule
 
 > The **decimal precision of a randomized result** is inferred from the **most precise** range endpoint.
@@ -943,7 +889,6 @@ Where:
 
 This rule applies **even if the endpoints are excluded** from the valid output range.
 
-
 ## ❌ Invalid Forms
 
 | Expression    | Reason                              |
@@ -952,7 +897,6 @@ This rule applies **even if the endpoints are excluded** from the valid output r
 | x ∈ !⟨a ∧ b⟩  | ❌ Ambiguous: use `⩜` or `⩝` instead |
 | x !.∈ ...     | ❌ Invalid modifier stacking         |
 
-
 ## 📜 Axioms
 
 ### WCB Axiom 7.1 — The Symbolcrafter’s Creed  
@@ -960,19 +904,19 @@ This rule applies **even if the endpoints are excluded** from the valid output r
 
 All range connectives, including obscure ones like `⩡`, are retained in W101 to ensure semantic closure and support future or edge-case modeling needs.
 
-
 ## 🌌 Example Use
 
-markdown
-K₁ .∈ ⟨a ⩜ b⟩
+$K₁ .\in ⟨a ⩜ b⟩$
  Kirkwood Gap 1 must lie strictly between a and b (excluding both endpoints)
 
-r .= ⟨⟨a ⩝ b⟩⟩
+$r .= ⟨⟨a ⩝ b⟩⟩$
  Assign a randomized orbital radius outside a forbidden band
 
 # How Big?
+
 ## The Small Angle Approximation
 When the apparent angular size ($\theta$) of an object (or the distance between two objects) in the sky is small — typically less than 10° — the sine and tangent of $\theta$ are nearly equal to $\theta$ itself when measured in radians:
+
 $$
 \theta ≈ \frac{d}{D} \times \frac{180}{\pi} = 57.2958\;\frac{d}{D}
 $$
@@ -982,6 +926,7 @@ Where:
 - $D$ = distance to the object in the same units as $d$
 
 When working in radians:
+
 $$
 \theta^c = \frac{d}{D}
 $$
@@ -992,6 +937,7 @@ Where:
 
 ## Measuring Exactly
 If one wants to be precise, the appropriate equation is:
+
 $$
 \theta^c = 2\;arctan\;\left(\frac{d}{2D}\right)
 $$
@@ -1001,6 +947,7 @@ Where:
 - $D$ = distance to the object in the same units as $d$
 
 To get the angle in degrees, convert:
+
 $$
 \begin{array}{l}
 \theta^\circ = 2\;arctan\;\left(\dfrac{d}{2D}\right) \times \dfrac{180}{\pi} \\
@@ -1020,14 +967,14 @@ Actually, there's a much simpler method using an instrument almost everyone has 
 | Span from thumb to little finger ("rock on" gesture) | ≈ 20 – 25°           | a coarse measure for constellation spans             |
 The most use a worldmaker will find for this trick is when you have calculated the size in degrees of something in your world's sky (or the separation between two objects in the heavens), you can get a sense for how "really" big that would appear by holding out your hand and approximating the appropriate angular measure.
 
+The most use a worldmaker will find for this trick is when you have calculated the size in degrees of something in your world's sky (or the separation between two objects in the heavens), you can get a sense for how "really" big that would appear by holding out your hand and approximating the appropriate angular measure.
+
 For instance; say you've calculated that your world's sun is about $3^\circ$ in the sky... that's about the width of the first two fingers held up at arm's length.
 
 This is essentially the **practical inverse** of the *small-angle approximation* discussed earlier.
 
-![[Hand-measure-of-sky-angles.png]]
-
 #### Universally Applicable
-Because hand and arm proportions scale together with age and body size, this method works for nearly everyone — from children to giants — with only slight variations. And since this is an _approximate_ method to begin with, those small differences can be safely ignored.
+Because hand and arm proportions scale together with age and body size, this method works for nearly everyone — from children to giants — with only slight variations. And since this is an *approximate* method to begin with, those small differences can be safely ignored.
 
 # The Naked-Eye Limit
 

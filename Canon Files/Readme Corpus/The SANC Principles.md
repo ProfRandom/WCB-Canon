@@ -42,7 +42,5 @@ Every equation, taxonomy, or symbolic rule must pass two tests:
 | **Necessity** | Does it capture a relationship that materially affects the behavior or believability of the world? | Keeps the model honest. |
 | **Sufficiency** | Is it simple, accessible, and practical while preserving the needed clarity and accuracy? | Keeps the model usable. |
 
----
-
 **See also:**  
 `Integrity in Worldmaking — Mythos and Logos`  |  `GEWE Corollary`  |  `Consistency and Continuity`

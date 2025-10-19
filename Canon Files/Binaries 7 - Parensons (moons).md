@@ -6,23 +6,24 @@ WCB retains the traditional astronomical distinction between **regular** and **i
 
 **Regular** moons are described by the following characteristics:
 - Orbit fairly close to the primaron
-- Tend to have _prograde_ orbits (they orbit in the same direction as the primaron's axial rotation)
+- Tend to have *prograde* orbits (they orbit in the same direction as the primaron's axial rotation)
 	- With little-to-no inclination, and
 	- Small eccentricities
-- Are _primogenic_: they formed alongside their primaron
+- Are *primogenic*: they formed alongside their primaron
 
 **Irregular** moons, in contrast, are described by the characteristics:
 - Follow distant orbits
-- Often have _retrograde_ orbits (they orbit in the opposite direction from the primaron's rotation)
+- Often have *retrograde* orbits (they orbit in the opposite direction from the primaron's rotation)
 	- With high inclinations, and
 	- High eccentricity
 - Are *syllipsic*: they were captured by their primaron after forming elsewhere.
 
 There are, of course, exceptions. Uranus’s moon **Triton** exhibits characteristics of both classes:  
-- It orbits close to Uranus on a nearly circular path — traits of a _regular_ moon.  
-- Yet its orbit is **retrograde** and **highly inclined**, hallmarks of an _irregular_ moon.
+- It orbits close to Uranus on a nearly circular path — traits of a *regular* moon.  
+- Yet its orbit is **retrograde** and **highly inclined**, hallmarks of an *irregular* moon.
 
 These contradictions imply that Triton is **syllipsic** in origin: a captured **midimon** (dwarf-planemon) whose orbit was later circularized by tidal evolution.
+
 # Major and Minor
 Traditionally, “major moons” are those that have achieved **hydrostatic equilibrium**—they are **spheric**, their shapes maintained primarily by gravity. “Minor moons,” in contrast, are **nodulic**: held together more by the tensile strength of their materials than by self-gravity.
 

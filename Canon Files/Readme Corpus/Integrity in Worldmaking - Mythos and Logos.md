@@ -7,6 +7,7 @@ Worldmaking unites two kinds of coherence:
 When either falters, immersion breaks.
 
 A story with a perfect plot but impossible physics feels hollow; a world with flawless mechanics but forgotten motives feels sterile.  Together, continuity and consistency form the twin disciplines of **mythosic** and **logosic** integrity.
+
 ## 🧩 Plot Holes and the Continuity of Story
 
 **Potholes** break worlds.  
@@ -32,6 +33,7 @@ Plot holes close easily when the creator honors the same **SANC mindset** that g
 - keep the chain of events **Sufficient and Necessary** — every action must have a reason and a result,  
 - verify cause, consequence, and chronology,  
 - and use **revision** the way physics uses conservation — nothing disappears without leaving a trace.
+
 ### In Short
 > Continuity keeps the story straight.  
 > Consistency keeps the cosmos sound.  
@@ -41,6 +43,7 @@ one to the *mythosic weave* of narrative,
 the other to the *logosic fabric* of the world itself.
 
 **Cross-References:** `pothole [logosic]`, `continuity`, `causality`, `storycraft`, `SANC`, `GEWE`
+
 ## 🕳️ Potholes and the Integrity of Worlds
 
 **Plot holes** break stories.  
@@ -52,7 +55,6 @@ A **pothole** is a *logosic inconsistency* — a point where a world’s physica
 > The shadowed side of a crescent Moon is still there, faintly lit by Earthshine.  
 > When art or prose shows stars shining *through* that darkness, the mind stumbles:  
 > *“Wait… the Moon should block the stars.”*
-> 
 
 In that instant, the reader’s attention shifts from awe (*“the dragon’s going to roast her!”*) to analysis (*“that can’t happen”*), breaking immersion.
 

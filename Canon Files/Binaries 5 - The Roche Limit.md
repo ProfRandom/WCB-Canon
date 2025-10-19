@@ -2,13 +2,12 @@
 title: ""
 ---
 
-
-
 ## Abstract  
 **Major Topics:**  
 - Defines the **Roche Limit** as the critical distance from a massive primaron where tidal forces exceed a secondron body’s self-gravitational cohesion.  
 - Explains that within this radius, a self-gravitating body cannot remain intact and will be **tidally disrupted** into fragments or rings.  
 - Provides the classical expression for the Roche Limit:  
+
   $$
   R_r \approx 2.44\,R_p
   \left(
@@ -20,13 +19,12 @@ title: ""
   - Rigid (rocky) bodies can survive closer to the primaron (≈1.5–2 $R_p$).  
   - Fluid (icy or deformable) bodies are disrupted farther out (≈2.5 $R_p$).  
 - Emphasizes that the Roche Limit describes the **tidal destruction boundary**, whereas the **Roche Lobe** and **Hill Sphere** describe **gravitational domains of stability**.  
-- Summarizes the three related regimes:  
-  | Regime | Controlling Effect | Outcome |  
-  |:--|:--|:--|  
-  | **Roche Lobe** | gravitational balance between companions | mass exchange |  
-  | **Roche Limit** | tidal shear exceeds self-gravity | body disruption |  
-  | **Hill Sphere** | self-gravity exceeds external tides | stable satellite region |  
-- Clarifies that the Roche Limit applies in **high mass-ratio systems** (planet–moon, star–planet), while the Roche Lobe governs **comparable-mass binaries**.  
+- Summarizes the three related regimes:
+  - Roche Lobe: gravitational balance between companions
+  - Roche Limit: tidal shear exceeds self-gravity
+  - Hill Sphere:self-gravity exceeds external tides
+- Clarifies that the Roche Limit applies in **high mass-ratio systems**
+-  (planet–moon, star–planet), while the Roche Lobe governs **comparable-mass binaries**.  
 - Notes that tidal disruption at or within the Roche Limit can produce **rings**, **debris disks**, or **accretion streams**, depending on the system’s scale and composition.  
 
 **Key Terms & Symbols:**  
@@ -40,7 +38,6 @@ title: ""
 - Complements **Roche Lobe Geometry** and **Hill Sphere** as the third gravitational-boundary construct.  
 - Provides the theoretical framework for **ring formation**, **tidal capture**, and **disruption cascades**.  
 - Serves as a transition from binary gravitational dynamics to **planetary ring and debris-disk modeling** in later sections.  
-
 
 ## Roche Limit
 

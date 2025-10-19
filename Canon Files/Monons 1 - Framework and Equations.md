@@ -2,7 +2,6 @@
 title: ""
 ---
 
-
 ## Abstract  1
 **Major Topics:**  
 - Core algebraic relationships linking the five fundamental **mononic** parameters: **mass (m), radius (r), density (ρ), surface gravity (g), and escape velocity (vₑ)**.  
@@ -109,6 +108,7 @@ title: ""
 - Ensure consistent usage: “–mon” suffix always denotes singular gravitationally self-bound entities, never systems.  
 
 # Monon Equations of State
+```
 
 |          Mass<br>(m)           |         Radius<br>(r)         |             Density<br>(ρ)             |     Gravity<br>(g)     |   Escape Velocity<br>(vₑ)    |
 | :----------------------------: | :---------------------------: | :------------------------------------: | :--------------------: | :--------------------------: |
@@ -118,73 +118,67 @@ title: ""
 | $m=\dfrac{v_e^3}{\sqrt{\rho}}$ | $r=\dfrac{v_e}{\sqrt{\rho}}$  |  $\rho=\left(\dfrac{v_e}{r}\right)^2$  |  $g=v_e \sqrt{\rho}$   |     $v_e=\sqrt[4]{m g}$      |
 |      $m=\dfrac{v_e^4}{g}$      |     $r=\dfrac{v_e^2}{g}$      |  $\rho=\left(\dfrac{g}{v_e}\right)^2$  |  $g=\dfrac{v_e^2}{r}$  |     $v_e=r \sqrt{\rho}$      |
 |          $m=r v_e^2$           |     $r=\dfrac{m}{v_e^2}$      | $\rho=\left(\dfrac{v_e^3}{m}\right)^2$ |  $g=\dfrac{v_e^4}{m}$  |   $v_e=\sqrt[6]{m^2 \rho}$   |
-
+```
 # 🌍 Planemon Framework (Master Map)
 
 All **planemons** (planetary monons) share a **common trunk** — then branch into two complementary classification systems.
 
 ## 🌳 Trunk (Shared Levels)
 
-- **Frame** → Monon    
+- **Frame** → Monon
 - **Group** → Planemon   
-
 
 ## 🪨 Conformation Branch (Structural / Physical)
 Focus: **What the planemon is made of**
-- **Order** → Composition families    
-    - Lithic (rock/metal)        
-    - Astatic (mixed/volatile)        
-    - Aetheric (gaseous)        
+- **Order** → Composition families
+    - Lithic (rock/metal)
+    - Astatic (mixed/volatile)
+    - Aetheric (gaseous)
     - Ulsic (exotic/degenerate)
-- **Form** → Subdivisions of each order    
-    - Lithic → Petriform, Carboform        
-    - Astatic → Pagoform, Fluxiform        
-    - Aetheric → Transiform, Pneumoform, Haliform        
+- **Form** → Subdivisions of each order
+    - Lithic → Petriform, Carboform
+    - Astatic → Pagoform, Fluxiform
+    - Aetheric → Transiform, Pneumoform, Haliform
     - Ulsic → Neutraform, Quarkform, etc.        
-
 
 ## 🌱 Ontosomic Branch (Life-Relevance / Biospheric)
 Focus: **How the planemon relates to life (esp. Earthlike envelopes)**
-- **Class** → Broad livability envelopes    
-    - Geotic (Earth-normal range)        
-    - Gaean (Earth-twin slice of Geotic)        
-    - Rheatic (super-Earths with biospheric richness)        
+- **Class** → Broad livability envelopes
+    - Geotic (Earth-normal range)
+    - Gaean (Earth-twin slice of Geotic)
+    - Rheatic (super-Earths with biospheric richness)
     - Xenotic (exotic chemistries / non-carbonic)
-- **Type** → Subdivisions of classes    
+- **Type** → Subdivisions of classes
     - Marginal Geotic, Dense Hot Rheatic, etc.
 
-- **State (Climostates)** → Global climatic conditions    
-    - Cryostate (frozen)        
-    - Hydrostate (temperate hydrosphere)        
-    - Pyrostate (runaway greenhouse)        
-    - Pluristate (diverse climates)        
+- **State (Climostates)** → Global climatic conditions
+    - Cryostate (frozen) 
+    - Hydrostate (temperate hydrosphere)
+    - Pyrostate (runaway greenhouse)
+    - Pluristate (diverse climates)
     - etc.
-- **Condition** → Finer descriptors of atmospheric/seasonal character    
-    - Tempestal (storm-dominated)        
-    - Zephyral (mild winds, gentle climate)        
+
+- **Condition** → Finer descriptors of atmospheric/seasonal character 
+    - Tempestal (storm-dominated)
+    - Zephyral (mild winds, gentle climate)
     - Serenal (stable, calm, serene environment)        
 
-
 ## 🧭 Principle
-- **Conformation** = _physical chemistry_ of the body.    
-- **Ontosomy** = _life-relevance_ of the body.    
+- **Conformation** = *physical chemistry* of the body.
+- **Ontosomy** = *life-relevance* of the body.
 - Both are **valid, independent lenses** for describing the same planemon.
-- Example:    
-    - Earth = Lithic (Order) → Petriform (Form)        
+- Example:
+    - Earth = Lithic (Order) → Petriform (Form)
     - Earth = Geotic (Class) → Gaean (Type) → Pluristate (State) → Serenal (Condition)## 
-
-
-
-
 
 ## Monon Morphotypes and Conformations
 
 All monons should be thought of as falling roughly into one of four categories of ***morphotypes***:
 
-1. ***Lithic*** (from Greek _lithos_ "stone, rock") – Fully solid planemons (rocky, carbon-rich, metallic elements).
-2. ***Astatic*** (from Greek _a_ "not, none" + _status_ "state condition") – Mixed-phase planemons (icy, oceanic, or chemically altered worlds that have no fixed state).
-3. ***Aetheric*** (from Latin _aer_ "air") – Gaseous planemons (gas dwarfs, ice giants, and gas giants).
-4. ***Ulsic*** (from Latin _uls_ "beyond") – Exotic or theoretical matter planemons (placeholder for degenerate matter planemons — neutron stars, black holes, quark stars, etc. — if needed).
+1. ***Lithic*** (from Greek *lithos* "stone, rock") – Fully solid planemons (rocky, carbon-rich, metallic elements).
+2. ***Astatic*** (from Greek *a* "not, none" + *status* "state condition") – Mixed-phase planemons (icy, oceanic, or chemically altered worlds that have no fixed state).
+3. ***Aetheric*** (from Latin *aer* "air") – Gaseous planemons (gas dwarfs, ice giants, and gas giants).
+4. ***Ulsic*** (from Latin *uls* "beyond") – Exotic or theoretical matter planemons (placeholder for degenerate matter planemons — neutron stars, black holes, quark stars, etc. — if needed).
 
 The first three compositions span specific **density** ranges:
 
@@ -205,10 +199,7 @@ And each has subsets, called ***conformations***:
 	- ***Pneumoform***: Ice Giants
 	- ***Haliform***: Gas Giants
 
-These are intended to categorize monons _in their current configuration_.  A monon may (usually will) assume different qualities depending on its age and environment.
-
-
-
+These are intended to categorize monons *in their current configuration*.  A monon may (usually will) assume different qualities depending on its age and environment.
 
 # Monon Mass Classes and monoclasses
 
@@ -240,7 +231,6 @@ These are intended to categorize monons _in their current configuration_.  A mon
 | ondoterran                  |                 100000000000 |                1000000000000 |                   10¹¹ | beyond -mo classification                  |
 | teraterran                  |                1000000000000 |               10000000000000 |                   10¹² | beyond -mo classification                  |
 
-
 ## Listed by monoclass
 
 | <center>Monoclass</center> | <center>Min. Mass ≥</center> | <center>Max. Mass <</center> | Exponent Range |
@@ -255,6 +245,7 @@ These are intended to categorize monons _in their current configuration_.  A mon
 | supermon                   |                      1000000 |                     10000000 |      10⁶ — 10⁷ |
 | ultramon                   |                     10000000 |                   1000000000 |      10⁷ — 10⁹ |
 | hypermon                   |                   1000000000 |                  10000000000 |     10⁹ — 10¹⁰ |
+
 # Classification Rule — The Monon Condition
 
 > **All WCB monoclasses (planemon, intermon, stellamon)** refer exclusively to **individual, gravitationally coherent bodies** — not to multi-body **systems**, **collections**, or **regions**.
@@ -266,7 +257,7 @@ A **monon** is defined by:
 - Physically continuous **volume** (or event horizon, in the case of black holes)  
 - E.g., **planemons, intermons, stellamons, supermons, ultramons, hypermons**
 
-### 🚫 What _Is Not_ a monon:
+### 🚫 What *Is Not* a monon:
 The following are not **monon**, regardless of total mass:
 
 | Category                | Example                          | Why Excluded                     |
@@ -284,11 +275,11 @@ The following are not **monon**, regardless of total mass:
 ### 🧠 Key Principles:
 1. Monoclass is not emergent**:  
     A **system of planemons** is not a larger planemon.  
-    A **binary of stellamons** is not a single, larger stellamon.    
-2. **Modeling convenience ≠ ontological unity**:    
-    - For orbital mechanics, it's **useful** to model a binary pair as a single object of combined mass.        
-    - But **ontotypically**, the barycentered abstraction is **not** a monon        
-3. **Distinct gravitational fields**:    
-    - A monon has **one center of mass**, even if dynamic (e.g., fast-rotating planemon).        
+    A **binary of stellamons** is not a single, larger stellamon.
+2. **Modeling convenience ≠ ontological unity**:
+    - For orbital mechanics, it's **useful** to model a binary pair as a single object of combined mass.
+    - But **ontotypically**, the barycentered abstraction is **not** a monon
+3. **Distinct gravitational fields**
+    - A monon has **one center of mass**, even if dynamic (e.g., fast-rotating planemon).
     - A system has **multiple discrete gravitational centers**, even if mathematically reducible.
-For instance in a double-star stellmonic system, it is convenient to treat the two stellamons as *a single stellamon of their combined mass*, centered on the barycenter of their orbits, but this is a mathematical construct based on a property of the _system_ they comprise, not an object-in-itself.
+For instance in a double-star stellmonic system, it is convenient to treat the two stellamons as *a single stellamon of their combined mass*, centered on the barycenter of their orbits, but this is a mathematical construct based on a property of the *system* they comprise, not an object-in-itself.

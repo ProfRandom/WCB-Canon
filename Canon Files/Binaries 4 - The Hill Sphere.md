@@ -1,8 +1,6 @@
 ---
 title: ""
 ---
-
-
 ## Abstract  
 **Major Topics:**  
 - Defines the **Hill sphere** as the spatial region surrounding a smaller body where its self-gravity dominates over the tidal forces of a larger primaron.  
@@ -11,13 +9,15 @@ title: ""
   - The Roche lobe governs gravitational domains between *comparable masses* (binary stars).  
   - The Hill sphere applies when the **mass ratio is extreme** (e.g., planet–star or moon–planet).  
 - Presents the **classical Hill sphere equation**:  
+
   $$
   H_r = \alpha\!\left(\frac{M_2}{3M_1}\right)^{\!\tfrac{1}{3}}
   $$  
   defining the limiting radius of stable orbital influence for the smaller body.  
 - Interprets $H_r$ as the **outer stability boundary** for circumsecondronic orbits — the point beyond which tidal shear from the primaron dominates.  
 - Introduces a practical constraint for **long-term stability** of satellites:  
-  $$
+
+   $$
   r_{\text{sat}} \lesssim 0.5\,H_r
   $$
   indicating that stable moons typically orbit well within half the Hill radius.  
@@ -41,16 +41,14 @@ title: ""
 - Forms the theoretical foundation for satellite-system design, ring stability, and capture mechanics in both planetary and stellar contexts.  
 - Serves as a bridge to later sections on **Roche Limits** and **gravitational capture thresholds**. 
 
-
-
 ## Hill Sphere
 In any multi-body system, the **Hill sphere** defines the region around a smaller body within which its own gravity dominates over the tidal influence of a larger primaron.  Within this sphere, satellites, rings, or retained debris can maintain long-term stable orbits around the smaller body.
 
 Conceptually, the Hill sphere is the **circum-orbital analog** of the Roche lobe:  where the Roche lobe marks the boundary between *two comparable masses*, the Hill sphere marks the boundary between a **primaron** and a **much smaller secondron**.
 
-
 ### Classical Formulation
 For a secondron body of mass $M_2$ orbiting a much larger primaron of mass $M_1$ at semi-major axis $\alpha$, the radius of its Hill sphere is approximated by:
+
 $$
 H_r = \alpha
        \left(
@@ -63,23 +61,22 @@ Where:
 - $M_2$ = mass of the secondron (planet, moon, etc.)  
 - $M_1$ = mass of the primaron (star, planet, etc.)
 
-
 ### Interpretation
 - Inside $H_r$, the secondron’s gravity dominates; small bodies can orbit it stably.  
 - Near or beyond $H_r$, tidal forces from the primaron destabilize those orbits.  
 - The Hill sphere thus defines the **outer boundary of a planet’s satellite system** or, in stellar terms, the **limit of gravitational capture**.
 
-
 ### Rule of Thumb
 - Long-term stable satellite orbits typically require  
+
   $$
   r_{\text{sat}} \lesssim 0.5\,H_r
   $$
+
   — i.e., within roughly half the Hill radius.
 
 - For planets in circular orbits, the expression is accurate to within a few percent.
 - For eccentric orbits, replace $\alpha$ with the **periapsis distance**, $\alpha(1 - e)$, to account for stronger tidal effects at closest approach.
-
 
 ### Comparison with Roche Lobe
 
@@ -88,13 +85,12 @@ Where:
 | **Roche Lobe**  | Two bodies of comparable mass (binaries).                       | Equipotential surface where gravitational and centrifugal forces balance.                    | Teardrop-shaped, asymmetric about $L_1$. |
 | **Hill Sphere** | Large primaron with small secondron (planet–moon, star–planet). | Distance from secondron where its gravitational influence equals the primaron’s tidal force. | Roughly spherical for $m \ll M$.         |
 
-> **Analogy:** The Roche lobe is the *shared frontier* between equals;  
-> the Hill sphere is the *personal domain* of a subordinate.
-
+> **Analogy:** The Roche lobe is the *shared frontier* between equals; the Hill sphere is the *personal domain* of a subordinate.
 
 ### Example — Earth’s Hill Sphere
 
 For Earth ($M_2 = 1\,M_\oplus$) orbiting the Sun ($M_1 = 1\,M_\odot$) at $\alpha = 1\,\text{AU}$:
+
 $$
 H_r = 1\,\text{AU}
        \left(
