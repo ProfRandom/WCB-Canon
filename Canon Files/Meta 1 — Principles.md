@@ -9,7 +9,7 @@ title: ""
   - the **Morphological Axis**, defining material composition and structural character.  
   A third contextual layer, the **Categorical Envelope**, emerges from the interaction of these two.  
 - Expands the Mononic hierarchy into **three fundamental mass domains** governed by the physics of self-gravitation and fusion onset:  
-  - **solidons [neo]:** all monons with masses below the stellar ignition threshold (**< 0.08 ⊙**); includes all non-fusional bodies such as brown dwarfs, planemons, moons, and asteroids.  
+  - **Solidons [neo]:** all monons with masses below the stellar ignition threshold (**< 0.08 ⊙**); includes all non-fusional bodies such as brown dwarfs, planemons, moons, and asteroids.  
   - **Stellamons [sci/neo]:** all monons within the hydrogen-fusion stability range (**⟨0.08 ∧ 300⟩ ⊙**); subdivided by the **Spectral-Class System (q.v.)** governing thermodynamic and photometric behavior.  
   - **Peramons [neo]:** all monons with masses exceeding the upper stellar-stability limit (**> 300 ⊙**); bodies in the trans-stellar regime of radiative instability, pair-creation collapse, or exotic compact states.  
 - Defines the **Mononic Continuum** as the complete grammar of self-gravitating individuality, linking sub-stellar, stellar, and trans-stellar mass domains under a single hierarchical ontology.  
