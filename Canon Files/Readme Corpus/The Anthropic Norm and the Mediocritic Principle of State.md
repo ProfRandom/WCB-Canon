@@ -12,4 +12,4 @@ This leads to two foundational insights for [[Nomenclature and Neology|worldmaki
 Thus:
 - The universe is filled with stars, but is mostly *not* plasma.  *(It was **at one time** — but that was a different epoch.)*
 - Neutron stars are real, but the universe is *not* mostly neutronium.    
-- Volatiles can form rocky [[Monons 1 — Framework and Equations|planemons]] — but the cosmos is *overwhelmingly* hydrogen and helium in gaseous form.
+- Volatiles can form rocky [[Monons 1 - Framework and Equations|planemons]] — but the cosmos is *overwhelmingly* hydrogen and helium in gaseous form.
