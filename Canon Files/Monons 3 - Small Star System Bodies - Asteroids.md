@@ -2,7 +2,6 @@
 title: ""
 ---
 
-
 ## Abstract  
 **Major Topics:**  
 - Defines **asteroids** as **Small Star System Bodies (S3Bs)**—the smallest, most numerous members of a stellar system’s mononic population.  
@@ -27,12 +26,11 @@ title: ""
 - **Density and composition correlations [phys]** cross-referenced with *Monons 2 — Properties and Parameters*.  
 - **Status:** [EXPANDED] — adds physical detail, compositional taxonomy, and system-level context for small-body populations.  
 
-
-
 ## 🪨 Asteroid Types  
 
 Asteroids — or, more broadly, **Small Star System Bodies (S3Bs)** — are not all alike.  
 Their compositions reflect **where in the protoplanetary disk** they formed, and they tend to cluster into **compositional families** within belts and resonance niches.  
+
 ### 🔹 Main Classes (by composition)  
 
 - **C-type (Carbonaceous)**  
@@ -52,6 +50,7 @@ Their compositions reflect **where in the protoplanetary disk** they formed, and
   - Often mid-belt objects.  
   - Dense, high radar reflectivity.  
   - Analogues: 16 Psyche and smaller metallic fragments.  
+
 ### 🔹 Other Notable Types  
 
 - **D-type / P-type**  
@@ -68,12 +67,14 @@ Their compositions reflect **where in the protoplanetary disk** they formed, and
   *Basaltic surface fragments.*  
   - Pieces of differentiated crust.  
   - Example: fragments of 4 Vesta.  
+
 ### 🔹 Worldbuilder shorthand  
 
 - **Inner belts (hotter):** S-types (rocky).  
 - **Middle belts (mixed):** M-types (metallic).  
 - **Outer belts (colder):** C-types (carbonaceous/icy).  
 - **Beyond snow line:** D/P-types (icy/organic, comet-like).  
+
 ### 📖 Worldbuilder takeaway  
 When you divide a belt with resonances, don’t just think “empty lanes.”  
 Each sub-belt can be **compositionally distinct**: rocky inside, metallic mid-belt, icy/carbonaceous outside.  

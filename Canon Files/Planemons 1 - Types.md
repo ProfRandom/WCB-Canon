@@ -2,7 +2,6 @@
 title: ""
 ---
 
-
 ## Abstract  1
 **Major Topics:**  
 - Defines **Geotic planemons** as **habitable** terrestrial-class worlds (rocky–metallic composition) where humans can survive with minimal adaptation.  
@@ -54,7 +53,6 @@ title: ""
 - Gravity One Corridor acts as the **ideal comfort baseline**; deviations reduce biomechanical ease, increase escape energy cost, or complicate stability/terraforming.  
 - About 17.7% of Geotics fall within/near this corridor.  
 - Provides reference framework for distinguishing **hospitable** (Gaean) vs. merely **habitable** (Geotic) worlds.  
-
 
 ## Abstract  3
 **Major Topics:**  
@@ -194,11 +192,6 @@ title: ""
 - Reinforces WCB’s hierarchical taxonomy: **stellamon → planemon → micromon → Conformations**.  
 - Aligns terminology with the broader WCB classification framework and avoids conflict with deprecated placeholder definitions.  
 
-
-
-
-
-
 ## Geotic
 **Geotic** := ⟨ m ∧ ρ ∧ g ∧ r ∧ vₑ ⟩
   m := ⟨0.30 ∧ 3.35⟩⨁
@@ -207,7 +200,8 @@ title: ""
   r := ⟨0.60 ∧ 1.50⟩⨁
   vₑ := ⟨0.65 ∧ 1.50⟩⨁
 
-$$\text{GEOTIC} := \left\{ (m, \rho) \in \mathbb{R}^2 \ \middle|\
+$$
+\text{GEOTIC} := \left\{ (m, \rho) \in \mathbb{R}^2 \ \middle|\
 \begin{aligned}
 &0.30 ≤ m ≤ 3.35 \\
 &0.85 ≤ \rho ≤ 1.25 \\
@@ -217,20 +211,19 @@ $$\text{GEOTIC} := \left\{ (m, \rho) \in \mathbb{R}^2 \ \middle|\
 \end{aligned}
 \right\}
 $$
-> _Geotics_ are **habitable** planemons — terrestrial-class worlds where humans can survive and thrive with minimal adaptation. These planemons fall within a broader Earth-like envelope, allowing a wider range of environmental and structural conditions than Gaeans, while remaining physically and biologically viable for Earth-based life. Atmospheric processing, infrastructure, or selective location may be required, but **shirtsleeve environments** are still plausible.
+> *Geotics* are **habitable** planemons — terrestrial-class worlds where humans can survive and thrive with minimal adaptation. These planemons fall within a broader Earth-like envelope, allowing a wider range of environmental and structural conditions than Gaeans, while remaining physically and biologically viable for Earth-based life. Atmospheric processing, infrastructure, or selective location may be required, but **shirtsleeve environments** are still plausible.
 
 **Core Feature**:
-- _Density bounds_ are kept narrow to ensure terrestrial composition (i.e., rocky–metallic silicate structure), but mass and radius are permitted greater variation, producing a range of surface gravities and escape velocities still compatible with Earth-based life — particularly plants, microbes, and well-supported human habitation.   
+- *Density bounds* are kept narrow to ensure terrestrial composition (i.e., rocky–metallic silicate structure), but mass and radius are permitted greater variation, producing a range of surface gravities and escape velocities still compatible with Earth-based life — particularly plants, microbes, and well-supported human habitation.
 **Implication**:
-- Geotics may include:    
-    - **Marginal Earth-twins** (on the edges of Gaean parameters)        
-    - **High-gravity super-Earths** (with greater landmass and thicker atmospheres)        
+- Geotics may include:
+    - **Marginal Earth-twins** (on the edges of Gaean parameters)
+    - **High-gravity super-Earths** (with greater landmass and thicker atmospheres)
     - **Cooler, lighter Earthlikes** (with lower pressure and gravity, but survivable biospheres)
 **Geotic ≠ Gaean**:
-- All **Gaean** worlds are a _subset_ of Geotics.    
+- All **Gaean** worlds are a *subset* of Geotics.
 - But Geotics may include conditions beyond optimal comfort — requiring adaptation or technology to sustain human colonization.
 
- 
 ## Gaean
 **Gaean** := ⟨ m ∧ ρ ∧ g ∧ r ∧ vₑ ⟩
   m := ⟨0.45 ∧ 1.85⟩⨁
@@ -239,7 +232,8 @@ $$
   r := ⟨0.70 ∧ 1.30⟩⨁
   vₑ := ⟨0.80 ∧ 1.20⟩⨁
 
-$$\text{GAEAN} := \left\{ (m, \rho) \in \mathbb{R}^2 \ \middle|\
+$$
+\text{GAEAN} := \left\{ (m, \rho) \in \mathbb{R}^2 \ \middle|\
 \begin{aligned}
 &0.45 ≤ m ≤ 1.85 \\
 &0.85 ≤ \rho ≤ 1.25 \\
@@ -249,38 +243,39 @@ $$\text{GAEAN} := \left\{ (m, \rho) \in \mathbb{R}^2 \ \middle|\
 \end{aligned}
 \right\}
 $$
-> _Gaeans_ are **hospitable** planemons — worlds whose surface environments require no special adaptation for unaided human life. They maintain **Earth-normal gravity** (⟨0.90 ∧ 1.10⟩⨁), and all other physical parameters — mass, radius, density, and escape velocity — fall within tightly Earthlike bounds. These planemons support **shirtsleeve conditions**: humans can breathe the air, walk freely on the surface, and survive long-term without technological intervention.
+> *Gaeans* are **hospitable** planemons — worlds whose surface environments require no special adaptation for unaided human life. They maintain **Earth-normal gravity** (⟨0.90 ∧ 1.10⟩⨁), and all other physical parameters — mass, radius, density, and escape velocity — fall within tightly Earthlike bounds. These planemons support **shirtsleeve conditions**: humans can breathe the air, walk freely on the surface, and survive long-term without technological intervention.
 > *All Gaeans are Geotics, but not all Geotics are Gaeans*.
+
 ### Gaean Worlds and the Gravity One Corridor
 Gaean worlds are **hospitable** by definition — capable of supporting unmodified human life on the surface. But more than that, their defining feature is a surface gravity **within ±10% of Earth’s**, or:
 * 0.90 ≤ g ≤ 1.10 (in Earth gravities)
-#### The Gravity One Corridor
-This range centers on what we call the **Gravity One Corridor** — the precise locus of all planemon configurations (_mass–density pairs_) that yield **surface gravity = 1.000⨁**.
 
-![[The_Gravity_One_Corridor.png]]
+#### The Gravity One Corridor
+This range centers on what we call the **Gravity One Corridor** — the precise locus of all planemon configurations (*mass–density pairs*) that yield **surface gravity = 1.000⨁**.
+
 This narrow but critical pathway through parameter space defines the zone of optimal human comfort, physiology, architecture, and biomechanical function.
 
 > When **g = 1.000⨁**, everything else — escape velocity, radius, and structural density — falls into predictable and manageable ranges.
 
 As shown in the diagram:
-- Planetary **mass (m)** and **density (ρ)** balance precisely to maintain **g = 1**.    
-- The resulting values for:    
-    - **Radius (r)** range from ~0.85⨁ to 1.25⨁        
-    - **Escape velocity (vₑ)** from ~0.70⨁ to 1.30⨁        
+- Planetary **mass (m)** and **density (ρ)** balance precisely to maintain **g = 1**.
+- The resulting values for:
+    - **Radius (r)** range from ~0.85⨁ to 1.25⨁
+    - **Escape velocity (vₑ)** from ~0.70⨁ to 1.30⨁
 - This corridor provides an ideal baseline from which all other habitable world classes are derived.
+
 #### Why This Matters
 Approximately 17.7% of all Geotics fall **within or near** the Gravity One Corridor. Deviating too far from it — even if mass and radius are "in range" — results in a world that is:
-- Less biomechanically comfortable    
-- More energetically expensive to escape    
-- More geostructurally unstable    
+- Less biomechanically comfortable
+- More energetically expensive to escape
+- More geostructurally unstable
 - More challenging to terraform or sustain
+
 In short:
 > **The closer a world hugs the Gravity One Corridor, the easier it is to call home.**
 
-
-
-
 # Rheatic planemons
+
 ## Rheatic
 **Rheatic** := ⟨ m ∧ ρ ∧ g ∧ r ∧ vₑ ⟩
 m := ⟨1.00 ∧ 3.00⟩⨁
@@ -288,7 +283,9 @@ m := ⟨1.00 ∧ 3.00⟩⨁
 g := ⟨0.85 ∧ 1.70⟩⨁
 r := ⟨0.90 ∧ 1.50⟩⨁
 vₑ := ⟨0.95 ∧ 1.50⟩⨁
-$$\text{RHEATIC} := \left\{ (m, \rho) \in \mathbb{R}^2 \ \middle|\
+
+$$
+\text{RHEATIC} := \left\{ (m, \rho) \in \mathbb{R}^2 \ \middle|\
 \begin{aligned}
 &1.00 ≤ m ≤ 3.00 \\
 &0.85 ≤ \rho ≤ 1.25 \\
@@ -298,7 +295,7 @@ $$\text{RHEATIC} := \left\{ (m, \rho) \in \mathbb{R}^2 \ \middle|\
 \end{aligned}
 \right\}
 $$
-> _Rheatics_ are **parahabitable** planemons — terrestrial super-Earths with conditions **favorable to rich biospheres** but likely **inhospitable to unmodified humans**. They may possess higher surface gravity, thicker atmospheres, and more energetic climates, often demanding mechanical, biological, or infrastructural adaptations for long-term Earthling presence. Nonetheless, they are considered highly conducive to complex, robust life — just not necessarily Earthlike.
+> *Rheatics* are **parahabitable** planemons — terrestrial super-Earths with conditions **favorable to rich biospheres** but likely **inhospitable to unmodified humans**. They may possess higher surface gravity, thicker atmospheres, and more energetic climates, often demanding mechanical, biological, or infrastructural adaptations for long-term Earthling presence. Nonetheless, they are considered highly conducive to complex, robust life — just not necessarily Earthlike.
 
 **Overlap with Gaeans**:
 - A **small subset** of Rheatics — **≈13.9%** — fall within the Gaean gravity range (0.9 ≤ g ≤ 1.1⨁).    
@@ -346,7 +343,9 @@ m := ⟨0.0001 ∧ 4131⟩⨁
 g := ⟨0.02 ∧ 60.00⟩⨁
 r := ⟨0.02 ∧ 11.00⟩⨁
 vₑ := ⟨0.02 ∧ 25.00⟩⨁
-$$\text{XENOTIC} := \left\{ (m, \rho) \in \mathbb{R}^2 \ \middle|\
+
+$$
+\text{XENOTIC} := \left\{ (m, \rho) \in \mathbb{R}^2 \ \middle|\
 \begin{aligned}
 &0.0001 ≤ m ≤ 4131 \\
 &0.01 ≤ \rho ≤ 7.00 \\
@@ -356,26 +355,26 @@ $$\text{XENOTIC} := \left\{ (m, \rho) \in \mathbb{R}^2 \ \middle|\
 \end{aligned}
 \right\}
 $$
-> _Xenotics_ are planemons whose environmental conditions may support **non-Earthlike life**, including **non-carbonic**, **non-water-based**, or otherwise exotic biochemistries. The term is not tied to physical parameters, but to the **biological strangeness** of the world's potential life-hosting capacity.
+> *Xenotics* are planemons whose environmental conditions may support **non-Earthlike life**, including **non-carbonic**, **non-water-based**, or otherwise exotic biochemistries. The term is not tied to physical parameters, but to the **biological strangeness** of the world's potential life-hosting capacity.
 
 **Core Feature**:
-- Xenotic classification **is not about what the world _is_** — it’s about **what kind of life it might support**.    
+- Xenotic classification **is not about what the world *is*** — it’s about **what kind of life it might support**.
 - A Xenotic world might be a rocky, icy, or gaseous body — but its **biotic potential lies outside** the realm of Earth-normal life.
-- This is an _extremely_ broad classification: only 0.35% of planemons sharing Xenotic mass and density ranges qualify as _Tellurics_.  Gaeans share mass and density range with only 0.001% of Xenotics.
+- This is an *extremely* broad classification: only 0.35% of planemons sharing Xenotic mass and density ranges qualify as *Tellurics*.  Gaeans share mass and density range with only 0.001% of Xenotics.
 **Key Principle**:
 > A world may fall entirely within Gaean or Geotic **parameters** and still be **Xenotic in character** — if its biosphere is chemically or structurally **alien to terrestrial assumptions**.
 
 **Inclusions**:
-- **Ammonia-based** or **methanogenic** biospheres (e.g., Titan-like)    
-- **Silicon-based** or **plasma phase** consciousness (hypothetical)    
-- **High-pressure deep-atmosphere lifeforms** on gas giants    
-- **Ultra-dense crust-worlds** with lattice-bonded metabolic substrates    
+- **Ammonia-based** or **methanogenic** biospheres (e.g., Titan-like)
+- **Silicon-based** or **plasma phase** consciousness (hypothetical)
+- **High-pressure deep-atmosphere lifeforms** on gas giants
+- **Ultra-dense crust-worlds** with lattice-bonded metabolic substrates
 - **Life emerging in conditions unreplicable on Earth**
 **Exclusions**:
-- Gaean or Geotic worlds are **not Xenotic** simply by shape or size.    
+- Gaean or Geotic worlds are **not Xenotic** simply by shape or size.
 - Xenotic worlds **may physically overlap** with all other categories — but their **life potential diverges completely**.
 **Symbolic Use**:
-- From Greek _xenos_ (ξένος): “stranger,” “foreigner,” “outsider.”    
+- From Greek *xenos* (ξένος): “stranger,” “foreigner,” “outsider.”    
 - Xenotic worlds are those where **life is not just different — it is alien**.
 **Parameter Notes**:
 - **Mass (⨁):** from sublunar pebbles to brown dwarf threshold.    
@@ -423,26 +422,18 @@ From Heller & Armstrong (2014):
 Lena Noack & Doris Breuer (2011) add:  
 > “…the propensity of plate tectonics seems to have a peak between 1 and 5 Earth masses… a geological perspective suggests the optimal mass of a planemon is about 2 M⊕.”
 
-
 **Relation to WCB Classifications**  
 In *Worlds by the Numbers*, **Rheatic planemons** encompass the superhabitable concept, with parameter refinements for internal consistency within WCB’s classification system.  
 - See: **[[Rheatic planemons ✓]]** for in-universe parameter ranges and classification notes.
-
-**See Also**
-- [[Justifying Parahabitable Parameter Limits ✓]]
-- [[Extended Geotic Habitability Guidelines ✓]]
-
 
 **References**  
 - Heller, René, and John Armstrong. “Superhabitable Worlds.” *PubMed* (National Library of Medicine, December 31, 2013). [https://pubmed.ncbi.nlm.nih.gov/24380533/](https://pubmed.ncbi.nlm.nih.gov/24380533/)  
 - Noack, Lena, and Doris Breuer. “Plate Tectonics on Earth-Like Planets.” *ResearchGate*, January 2011. [https://www.researchgate.net/publication/225001335_Plate_Tectonics_on_Earth-like_Planets_Implications_for_the_Habitability](https://www.researchgate.net/publication/225001335_Plate_Tectonics_on_Earth-like_Planets_Implications_for_the_Habitability)
 
-
 ### **✅ 1. micromon is the umbrella term for all small stellar system bodies (SSSBs).**
 
 ✔ Distinct from **planemon (planetary-mass objects)** and **stellamon (stellar-mass objects).**  
 ✔ Replaces vague vernacular terms like “SSSB” with a **clear mass-based category.**
-
 
 ### **✅ 2. Two Major Conformations: Telluroids & Astatoids**
 
@@ -459,12 +450,10 @@ In *Worlds by the Numbers*, **Rheatic planemons** encompass the superhabitable c
 - **Fluxoid Astatoid** (Liquid-dominated) → Hypothetical
 - **Ceroid Astatoid** (Subsurface ocean) → Ceres, Callisto
 
-
 ### **✅ 3. Ulsoid micromons (For Exotic/Mysterious Objects)**
 
 ✔ **Exotoid Ulsoid** → Hypothetical exotic matter objects (dark matter, strangelets).  
 ✔ **Cryptoid Ulsoid** → Unusual, unidentified micromons (e.g., ‘Oumuamua).
-
 
 ### **✅ 4. Mass & Radius Boundaries Defined**
 
@@ -473,12 +462,11 @@ In *Worlds by the Numbers*, **Rheatic planemons** encompass the superhabitable c
 - **Based on the smallest planetary-mass object (Charon).** ✔ **Maximum micromon Radius:** **≤600 km**
 - **Tim deBenedictis' threshold for planetary-class objects.** ✔ **Everything smaller than this remains a micromon.** ✔ **Meteoroids (sub-meter objects) remain a size-based category, not a conformation.**
 
-# **micromon Classification System**
+# **Micromon Classification System**
 
-micromon (Small Stellar System Bodies) are distinct from planemons (planetary-mass objects) and stellamons (stellar-mass objects). This classification provides clear compositional and structural categories for micromon-scale bodies in stellar systems.
+Micromons (Small Stellar System Bodies) are distinct from planemons (planetary-mass objects) and stellamons (stellar-mass objects). This classification provides clear compositional and structural categories for micromon-scale bodies in stellar systems.
 
-
-### **1. micromon Conformations**
+### **1. Micromon Conformations**
 
 |**micromon Category**|**Subtype**|**Composition**|**Examples**|**Notes**|
 |---|---|---|---|---|
@@ -491,7 +479,6 @@ micromon (Small Stellar System Bodies) are distinct from planemons (planetary-ma
 ||**Ceroid Astatoid**|Ice + subsurface ocean|Ceres, Callisto|Ice-dominated, but with internal liquid layers|
 |**Ulsoid micromons**|**Exotoid Ulsoid**|Hypothetical exotic matter objects|(???)|Dark matter, strangelets, other exotics|
 ||**Cryptoid Ulsoid**|Unknown, cryptic composition|‘Oumuamua|Unusual, unidentified micromons|
-
 
 ### **2. Mass & Radius Boundaries**
 
@@ -506,14 +493,12 @@ micromon (Small Stellar System Bodies) are distinct from planemons (planetary-ma
 - **Everything smaller than this remains a micromon.**
 - **Meteoroids (sub-meter objects) remain a size-based category, not a conformation.**
 
-
 ### **3. Structural Considerations**
 
 - **Telluroids** are primarily rocky/metallic and correspond to asteroid-like bodies.
 - **Astatoids** are volatile-rich, including comets, icy moons, and Kuiper Belt Objects.
 - **Ulsoids** are exotic or cryptic bodies, encompassing extreme outliers in composition or origin.
 - **Meteoroids** are defined **by size**, rather than conformation, making them distinct from other micromons.
-
 
 ### **4. Final Notes**
 

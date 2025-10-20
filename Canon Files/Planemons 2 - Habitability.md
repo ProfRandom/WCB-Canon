@@ -2,69 +2,68 @@
 title: ""
 ---
 
-
 ## Abstract 1
 **Major Topics:**  
-- Exploration of what defines an “Earth-like” planemon.  
-- Reference baseline: Earth’s absolute physical parameters (mass, radius, density, gravity, escape velocity).  
-- Lack of consensus in astrophysics: ranges vs. environmental conditions.  
-- Distinction between **physical similarity** and **habitability classifications** (habitable, parahabitable, hospitable, xenotic, exotic).  
+- Exploration of what defines an “Earth-like” planemon.
+- Reference baseline: Earth’s absolute physical parameters (mass, radius, density, gravity, escape velocity).
+- Lack of consensus in astrophysics: ranges vs. environmental conditions.
+- Distinction between **physical similarity** and **habitability classifications** (habitable, parahabitable, hospitable, xenotic, exotic).
 
 **Key Terms & Symbols:**  
-- m = mass (Earth: 5.972 × 10²⁴ kg).  
-- r = radius (Earth: 6371 km).  
-- ρ = density (Earth: 5.514 g/cm³).  
-- g = surface gravity (Earth: 9.8 m/s²).  
-- vₑ = escape velocity (Earth: 11.186 km/s).  
-- “Earth-like” = physical conformity, not animosustent criteria.  
+- m = mass (Earth: 5.972 × 10²⁴ kg).
+- r = radius (Earth: 6371 km).
+- ρ = density (Earth: 5.514 g/cm³).
+- g = surface gravity (Earth: 9.8 m/s²).
+- vₑ = escape velocity (Earth: 11.186 km/s).
+- “Earth-like” = physical conformity, not animosustent criteria.
 
 **Cross-Check Notes:**  
-- Reinforces WCB convention: lowercase symbols (m, r) for planemon parameters.  
-- Distinguish clearly between **Earth-like (physical)** and **animocentric classifications** (habitable, parahabitable, hospitable, xenotic, exotic).  
-- Connects to glossary entries: animosustent (canon v1.21), planemon parameters.  
-- Prevent conflation of “Earth-like” with life-supporting qualities.  
+- Reinforces WCB convention: lowercase symbols (m, r) for planemon parameters.
+- Distinguish clearly between **Earth-like (physical)** and **animocentric classifications** (habitable, parahabitable, hospitable, xenotic, exotic).
+- Connects to glossary entries: animosustent (canon v1.21), planemon parameters.
+- Prevent conflation of “Earth-like” with life-supporting qualities.
 
 ## Abstract  2
 **Major Topics:**  
-- Demonstrates why Venus, despite meeting **Geotic Envelope** physical criteria, fails **Gaean classification**.  
+- Demonstrates why Venus, despite meeting **Geotic Envelope** physical criteria, fails **Gaean classification**.
 - Venus as **Geotic**:  
-  - Mass (0.815 ⨁), radius (0.949 ⨁), density (0.95 ⨁), gravity (0.90 ⨁), escape velocity (0.93 ⨁).  
-  - All values fall within Geotic bounds, making Venus structurally Earthlike.  
+  - Mass (0.815 ⨁), radius (0.949 ⨁), density (0.95 ⨁), gravity (0.90 ⨁), escape velocity (0.93 ⨁).
+  - All values fall within Geotic bounds, making Venus structurally Earthlike.
 - Venus not **Gaean**:  
-  - Atmosphere: 92 atm CO₂ with sulfuric acid aerosols.  
-  - Surface temperature: ~735 K (462 °C), runaway greenhouse effect.  
-  - Magnetosphere: lacks intrinsic magnetic field.  
-  - Hydrosphere: no stable surface water.  
-- Concludes that physical plausibility (Geotic) must be separated from habitability (Gaean).  
-- Illustrates WCB taxonomy: **not all Geotics are Gaeans**.  
+  - Atmosphere: 92 atm CO₂ with sulfuric acid aerosols.
+  - Surface temperature: ~735 K (462 °C), runaway greenhouse effect.
+  - Magnetosphere: lacks intrinsic magnetic field.
+  - Hydrosphere: no stable surface water.
+- Concludes that physical plausibility (Geotic) must be separated from habitability (Gaean).
+- Illustrates WCB taxonomy: **not all Geotics are Gaeans**.
 
 **Key Terms & Symbols:**  
 - **Geotic [sci].**  
 - **Gaean [sci].**  
 
 **Cross-Check Notes:**  
-- Both Geotic and Gaean are already canonical.  
-- This file provides a case study reinforcing the distinction.  
-- **Status:** [EXPANDED] — applies existing canon to Venus as a worked example.  
+- Both Geotic and Gaean are already canonical.
+- This file provides a case study reinforcing the distinction.
+- **Status:** [EXPANDED] — applies existing canon to Venus as a worked example.
 
 ## Abstract  3
 **Major Topics:**  
-- Extended parameters for defining geotic (human-hospitable) conditions.  
-- Habitability ranges for rotation period (D), orbital eccentricity (e), orbital period (C), axial tilt (εₓ), precession cycle (χ), and obliquity azimuth (ζₙ).  
-- Magnetosphere strength (Bsurf) as radiation shielding criterion.  
-- Atmospheric baseline conditions: pressure, scale height, composition, ozone presence.  
-- Surface balance of land and water.  
-- Geotic gravity corridor (0.5–1.5 ⨁) as strict human-hospitable bound.  
+- Extended parameters for defining geotic (human-hospitable) conditions.
+- Habitability ranges for rotation period (D), orbital eccentricity (e), orbital period (C), axial tilt (εₓ), precession cycle (χ), and obliquity azimuth (ζₙ).
+- Magnetosphere strength (Bsurf) as radiation shielding criterion.
+- Atmospheric baseline conditions: pressure, scale height, composition, ozone presence.
+- Surface balance of land and water.
+- Geotic gravity corridor (0.5–1.5 ⨁) as strict human-hospitable bound.
 
 **Key Terms & Symbols:**  
-- **D** — Rotational period (diurn length).  
-- **e** — Orbital eccentricity.  
-- **C** — Orbital period (sidereal chronum).  
-- **εₓ** — Axial tilt (obliquity).  
-- **χ** — Axial precession cycle.  
-- **ζₙ** — Obliquity azimuth relative to periapsis.  
-- **Bsurf** — Surface magnetic field strength (μT).  
-- **Tₛ** — Average surface temperature (K).  
+- **D** — Rotational period (diurn length).
+- **e** — Orbital eccentricity.
+- **C** — Orbital period (sidereal chronum).
+- **εₓ** — Axial tilt (obliquity).
+- **χ** — Axial precession cycle.
+- **ζₙ** — Obliquity azimuth relative to periapsis.
+- **Bsurf** — Surface magnetic field strength (μT).
+- **Tₛ** — Average surface temperature (K).
 - **H** — Atmospheric scale height (km).  
 - **g** — Surface gravity (⨁).  
 - Land–sea distribution (lithosphere–hydrosphere balance).  
@@ -135,15 +134,9 @@ title: ""
 - No explicit new symbols; introduces several neolexical classifications (*thalassoplanet, aquaplanet*).  
 - Stages additional glossary updates for **hydrospheric balance** and related world types.  
 
-
-
-
 ## Earth-like planemons: What Does That Even Mean?
 
-Let's revisit the _physical properties_ of planemons:
-![[Physical Properties of Planets ✓]]
-
-We have established that Earth is our standard, and that its _relative_ mass is 1.0M⨁, its _relative_ radius is 1.0R⨁, etc.  But here are its _absolute_ parameters
+We have established that Earth is our standard, and that its *relative* mass is 1.0M⨁, its *relative* radius is 1.0R⨁, etc.  But here are its *absolute* parameters
 
 **Mass**: 5.972 × 10²⁴ kg
 **Radius**: 6371 km
@@ -215,25 +208,22 @@ In establishing the boundaries of the Geotic classification, we confront not mer
 | Escape Velocity | vₑ     | ⟨0.65 ∧ 1.50⟩ ⨁                       |
 The Geotic envelope is broad enough to encompass worlds plausibly habitable to Earthlike life, yet not so wide as to dilute the concept of habitability into meaninglessness. The limits are drawn to include known extremes of terrestrial endurance — lower gravities where the human body remains functional, higher ones where it still stands upright; densities reflecting silicate-rich compositions without slipping into degenerate matter; radii that allow for diverse tectonics and geochemistry, yet remain below the gas giant threshold.
 
-These ranges are further filtered through a mirandothesiastic sieve — one that refuses to separate scientific measure from lived perspective. We acknowledge the Anthropic Principle not as an excuse, but as a lens: life emerges within certain ranges because those ranges make life like us possible. The limits of what we call _Geotic_ reflect both the statistical plausibility of terrestrial-like biology and the philosophical humility to admit that even our constraints are narrative choices shaped by experience.
+The Geotic envelope is broad enough to encompass worlds plausibly habitable to Earthlike life, yet not so wide as to dilute the concept of habitability into meaninglessness. The limits are drawn to include known extremes of terrestrial endurance — lower gravities where the human body remains functional, higher ones where it still stands upright; densities reflecting silicate-rich compositions without slipping into degenerate matter; radii that allow for diverse tectonics and geochemistry, yet remain below the gas giant threshold.
+
+These ranges are further filtered through a mirandothesiastic sieve — one that refuses to separate scientific measure from lived perspective. We acknowledge the Anthropic Principle not as an excuse, but as a lens: life emerges within certain ranges because those ranges make life like us possible. The limits of what we call *Geotic* reflect both the statistical plausibility of terrestrial-like biology and the philosophical humility to admit that even our constraints are narrative choices shaped by experience.
 
 To be Geotic is to stand within the habitable corridor of possibility — not at the narrow peak of Earth-perfect parameters (Gaean), nor flung to exotic extremes (Xenotic). It is the threshold of plausibility for Earthlike life in a cosmos that offers no guarantees but countless invitations.
 
-
 # Justifying Parahabitable Parameter Limits
 
-We have specified that the five foundational parameters for _terrestrial-class_ planemons are:
-
-![[Physical Properties of Planets ✓]]
-
-While [[planemon Classes ✓]] defines five envelopes — **Lithic**, **Geotic**, **Gaean**, **Rheatic**, and **Xenotic** — each with their own astrophysical and biological implications, this sidebar focuses on the rationale for preferring a narrower, _parahabitable_ range:
+This sidebar focuses on the rationale for preferring a narrower, *parahabitable* range:
 
 $$\text{parameter} \in \langle0.5 \wedge 1.5\rangle\oplus$$
 This envelope is not meant to describe strict habitability in the Gaean sense. Rather, it defines a **flexible but centered range** where human life can be sustained or engineered, and where ecological and technological systems remain dynamically stable without extreme compensatory mechanisms. It reflects not only biological tolerance, but also **civilizational viability** — balancing survivability, mobility, infrastructure, and long-term planemon homeostasis.
 
-These ranges are further filtered through a **mirandothesiastic sieve** — one that refuses to sever scientific measure from lived perspective. The goal is not simply to model what could exist, but to prioritize what could _matter_: to ecosystems, to civilizations, to meaning-making beings.
+These ranges are further filtered through a **mirandothesiastic sieve** — one that refuses to sever scientific measure from lived perspective. The goal is not simply to model what could exist, but to prioritize what could *matter*: to ecosystems, to civilizations, to meaning-making beings.
 
-The ⟨0.5–1.5⟩⨁ band is wide enough to encompass variation, but narrow enough to preserve structural coherence across simulations, worldbuilding systems, and narrative plausibility. It balances the gravitational, metabolic, atmospheric, and material constraints that shape whether a world feels _inhabitable_ or merely _endurable_.
+The ⟨0.5–1.5⟩⨁ band is wide enough to encompass variation, but narrow enough to preserve structural coherence across simulations, worldbuilding systems, and narrative plausibility. It balances the gravitational, metabolic, atmospheric, and material constraints that shape whether a world feels *inhabitable* or merely *endurable*.
 
 However, good scholarship requires more than assertion. It demands that we **justify** these limits — or at least **validate** them — using first principles, observed planemon behavior, and biospheric plausibility.
 
@@ -331,9 +321,9 @@ This sidebar examines the reasoning behind each boundary, explores edge cases, a
 In 2014, René Heller and John Armstrong proposed the existence of **superhabitable planemons** — worlds that may be **more conducive to life** than Earth, even if not ideal for humans. These planemons are theorized to exceed Earth's habitability not by matching its parameters exactly, but by surpassing them in specific, life-favoring ways.
 ### 📌 Definition:
 
-> A **superhabitable** world is one that provides **enhanced conditions** for the _emergence, proliferation, and persistence_ of life — especially diverse, adaptive, and long-lasting biospheres.
+> A **superhabitable** world is one that provides **enhanced conditions** for the *emergence, proliferation, and persistence* of life — especially diverse, adaptive, and long-lasting biospheres.
 > 
-> In _Worldcrafting 101_ terms, these may be considered **mega-ontosomic** worlds: not only capable of supporting life, but actively _better_ at nurturing it.
+> In *Worldcrafting 101* terms, these may be considered **mega-ontosomic** worlds: not only capable of supporting life, but actively *better* at nurturing it.
 
 #### 🔸 Key Mass-Linked Traits of Superhabitables
 
@@ -374,22 +364,22 @@ In 2014, René Heller and John Armstrong proposed the existence of **superhabita
 # Density 
 
 ## Below ≈ 0.500⨁
--  **Indicates a Volatile-Rich Composition**    
-    - Density < 0.500⨁ usually signals a world made of **ice, silicates, organics, or gas** — not rock and iron    
-    - Analog worlds:        
-        - Titan (ρ ≈ 0.330⨁): methane–ice hybrid            
-        - Callisto (ρ ≈ 0.330⨁): rock–ice mix            
-        - Ganymede (ρ ≈ 0.360⨁): stratified ice/rock interior            
+-  **Indicates a Volatile-Rich Composition**
+    - Density < 0.500⨁ usually signals a world made of **ice, silicates, organics, or gas** — not rock and iron
+    - Analog worlds:
+        - Titan (ρ ≈ 0.330⨁): methane–ice hybrid
+        - Callisto (ρ ≈ 0.330⨁): rock–ice mix
+        - Ganymede (ρ ≈ 0.360⨁): stratified ice/rock interior
     - These are **low-gravity**, **poorly differentiated**, and **chemically reducing** environments
 - **Geostructural Weakness**
-	- With low density, even a modest-mass world becomes **bloated in radius**    
-	- This produces:    
-	    - **Low surface gravity**        
-	    - **Shallow gravitational potential well**        
+	- With low density, even a modest-mass world becomes **bloated in radius**
+	- This produces:
+	    - **Low surface gravity**
+	    - **Shallow gravitational potential well**
 	    - **High susceptibility to atmospheric loss**
 	- Solid surface may be **thin, icy, or semi-liquid** — unsuitable for stable tectonics or topography
 - **Escape Velocity Drops**
-	- For a given mass, low density means large radius → lower vev_eve​
+	- For a given mass, low density means large radius → lower $v_e$​
     - Gases like N₂, O₂, H₂O vapor **escape more easily**
     - Atmosphere must be **cold and massive** to stay intact — or supplemented by continual outgassing
 - **High Insolation = Runaway Loss**
@@ -399,8 +389,8 @@ In 2014, René Heller and John Armstrong proposed the existence of **superhabita
         - Frozen surface (if far from star)
         - Dead core or gasless ice ball (if close)
 - **No Long-Term Tectonics**
-	- Low density → **poor internal stratification**    
-	- May lack a distinct **metallic core**    
+	- Low density → **poor internal stratification**
+	- May lack a distinct **metallic core**
 	- Internal heat generation is low; retention is worse
 	- No mantle convection = no plate tectonics = no carbon cycle = **climate collapse**
     - Crust may behave plastically or amorphously — not enough rigidity to form continents or fault lines
@@ -412,7 +402,7 @@ In 2014, René Heller and John Armstrong proposed the existence of **superhabita
         - Volatiles sputtered into space
 - **Surface Conditions Are Often Alien**
 	- May lack solid ground entirely — thick clouds over slush or ocean
-    - Insolation often produces **photochemistry**, haze layers, and _tholins_
+    - Insolation often produces **photochemistry**, haze layers, and *tholins*
     - Light scattering, pressure gradients, and visibility differ dramatically from terrestrial norms
     - Weather and climate may be dominated by:
         - Sublimation/condensation cycles
@@ -461,19 +451,19 @@ In 2014, René Heller and John Armstrong proposed the existence of **superhabita
         - Sequestration of volatiles and carbon
     - Without geological cycling, climate regulation becomes **fragile or inert**
 - **Weakened Tectonic Activity**
-	- Small mantle volume = **low convective energy**    
-	- Thin crust = **stiff plates**, more likely to lock into a **stagnant lid regime**    
+	- Small mantle volume = **low convective energy**
+	- Thin crust = **stiff plates**, more likely to lock into a **stagnant lid regime**
 	- This halts long-term carbon cycling → **no climate stabilization**
 - **Retention of Atmosphere is a Mixed Bag**
-	- High gravity and escape velocity allow for:    
-	    - **Strong atmospheric retention**        
+	- High gravity and escape velocity allow for:
+	    - **Strong atmospheric retention**
 	    - But risk of retaining **undesirable volatiles** (e.g., sulfur, chlorine, CO)
-	- Without tectonics or outgassing, planemon may lack:    
-	    - Greenhouse gases        
-	    - Surface pressure        
+	- Without tectonics or outgassing, planemon may lack:
+	    - Greenhouse gases
+	    - Surface pressure
 	    - Atmospheric replenishment
 - **Intense Magnetic Field — If There’s Enough Heat**
-	- Big iron core = good dynamo **if** internal heat persists    
+	- Big iron core = good dynamo **if** internal heat persists
 	- Magnetic fields may be **strong**, but **short-lived** unless radiogenic or tidal heating supplements them
 - **Harsh Surface Environment**
 	- High gravity compresses:
@@ -483,33 +473,33 @@ In 2014, René Heller and John Armstrong proposed the existence of **superhabita
     - Surface weathering slowed, erosion minimized
     - Subduction may never initiate → no crustal recycling
 - **High Gravity = Biomechanical Barrier**
-	- Any life must be structurally robust from the start    
-	- Movement, circulation, and metabolic flow all require more energy    
+	- Any life must be structurally robust from the start
+	- Movement, circulation, and metabolic flow all require more energy
 	- Evolutionary fitness shifts toward:
         - Compact morphologies
         - Dense cellular scaffolds
         - Slow-growing, high-efficiency systems
 	        - **Larger multicellular organisms unlikely**
 - **Psychophysical Landscape**
-	- Movement feels _sluggish_, heavy    
-	- Drops fall faster, wind dies sooner, sound carries less    
-	- Visual perception altered by atmospheric thickness and refractive index    
-	- The world may _look_ Earthlike — but it will **feel alien**
+	- Movement feels *sluggish*, heavy
+	- Drops fall faster, wind dies sooner, sound carries less
+	- Visual perception altered by atmospheric thickness and refractive index
+	- The world may *look* Earthlike — but it will **feel alien**
 - **Conclusion**:  
 	- planemons with ρ > 1.500⨁ are **metal-heavy, compact, and structurally intense**.
 	- While they may retain atmospheres and shield themselves magnetically, their geology and surface conditions **work against biospheric diversity and long-term climate stability**.
 	- They may be ontosomic — but their suitability for Earthlike life is tenuous, and their evolutionary trajectories are likely to be **slow, deep, and strange**.
 
-## 🌍 Density in Superhabitables
+## 🌍 Density in Rheatics (Superhabitables)
 
 ### 🧭 Ideal Density Range: ρ ∈ ⟨0.800 ∧ 1.100⟩ ⨁
 
 - This range suggests:
-	- A composition slightly richer in silicates or volatiles than Earth   
-	- A large enough **metallic core** to sustain a dynamo    
-	- A thick enough **mantle** to power tectonics for billions of years    
+	- A composition slightly richer in silicates or volatiles than Earth
+	- A large enough **metallic core** to sustain a dynamo
+	- A thick enough **mantle** to power tectonics for billions of years
 	- A **modest radius expansion** that keeps surface gravity in the ⟨1.100 ∧ 1.400⟩ ⨁ range (still biomechanically plausible)
-- This density window supports _structural stability, energetic cycling, and ecological flexibility_ without pushing the planemon into extremes.
+- This density window supports *structural stability, energetic cycling, and ecological flexibility* without pushing the planemon into extremes.
 
  ### Why Not Lower (< 0.800⨁)?
 - Suggests **ice-rich or gas-dominated** composition
@@ -519,12 +509,13 @@ In 2014, René Heller and John Armstrong proposed the existence of **superhabita
         - Ecological complexity
         - Stable liquid water under moderate insolation
     - Better suited to **parahabitable** or **anontogenic** classification
+
 ### Why Not Higher (> 1.100⨁)?
 - Indicates **iron-heavy or mantle-stripped** structure
-- Often results from **giant impacts** → dynamically unstable past   
-- Crust and mantle may be **too thin** to support:    
-    - Long-lived tectonic activity        
-    - Robust outgassing cycles        
+- Often results from **giant impacts** → dynamically unstable past
+- Crust and mantle may be **too thin** to support:
+    - Long-lived tectonic activity
+    - Robust outgassing cycles
     - Climate regulation via the carbon-silicate cycle
 - Surface gravity may become biomechanically or chemically problematic
 
@@ -538,55 +529,55 @@ In 2014, René Heller and John Armstrong proposed the existence of **superhabita
 | Slightly low gravity (from radius–mass ratio) | Encourages **diverse biospheres**, easier movement            |
 | Retains volatiles without suffocating         | Stable but breathable atmospheres, good greenhouse regulation |
 
-
-
 # Gravity
+
 ## Below ≈ 0.5⨁
 - Poor Atmospheric Retention
-	- A planemon **struggles to retain a dense atmosphere**, especially light molecules like N₂ or O₂.    
-- This leads to:    
-    - **Thin or nonexistent atmospheres**        
-    - **Poor UV and radiation shielding**        
+	- A planemon **struggles to retain a dense atmosphere**, especially light molecules like N₂ or O₂.  
+- This leads to:
+    - **Thin or nonexistent atmospheres**
+    - **Poor UV and radiation shielding**
     - **Thermal extremes** (due to low heat retention)
 -  This is why Mars — at 0.38⨁ gravity — is **parahabitable** at best.
 - Fluid Dynamics Break Down
 	- Water doesn’t flow the same way. Capillary action dominates over gravity.
 	- Oceans and lakes become shallow and extremely wide, or may not form at all.
     - Rainfall becomes mist or vapor — precipitation **fails to “fall.”**
-- Chemical Mixing and Atmospheric Stratification    
-    - **Convection slows dramatically**        
-    - **Gas layers stratify**, leading to atmospheric **stagnation**        
-    - Cloud formation and weather may cease entirely — or become wildly unstable        
+- Chemical Mixing and Atmospheric Stratification
+    - **Convection slows dramatically**
+    - **Gas layers stratify**, leading to atmospheric **stagnation**
+    - Cloud formation and weather may cease entirely — or become wildly unstable
     - Pollutants and volatiles **don’t disperse**
 - Magnetosphere Limitations
-	- Lower gravity → likely smaller core mass → **weaker or nonexistent magnetic field**    
-- Combined with thin atmosphere → **intense radiation exposure**    
-- Even if life evolves here, it would need:    
-    - Buried habitats        
-    - Thick biofilms        
+	- Lower gravity → likely smaller core mass → **weaker or nonexistent magnetic field**
+- Combined with thin atmosphere → **intense radiation exposure**
+- Even if life evolves here, it would need:
+    - Buried habitats
+    - Thick biofilms
     - Reflective skins or other defensive adaptations
 - **Conclusion**:
 	- A stable biosphere **might** evolve under ⟨0.4 ∧ 0.5⟩⨁ gravity
 	- But it's unlikely to support **Earth-like ecologies** with dynamic, large-scale multicellular life
+
 ## Above ≈ 1.5⨁
 - Structural Collapse at Micro- and Macro-Scales
 	- **High gravity = relentless compressive stress**
-	- Surface materials must resist:    
-	    - **Crushing forces**        
+	- Surface materials must resist:
+	    - **Crushing forces**
 	    - **Steep gradients in pressure over short distances**
-		- _Problem_: Most **prebiotic scaffolds** (e.g., lipid membranes, fragile polymers) may never form or remain stable    
+		- *Problem*: Most **prebiotic scaffolds** (e.g., lipid membranes, fragile polymers) may never form or remain stable
 		- Even successful structures might **flatten**, rupture, or shear from their own weight
-	 - Life has to "start strong" — but origin-of-life chemistry tends to be _flimsy_
+	 - Life has to "start strong" — but origin-of-life chemistry tends to be *flimsy*
 - Atmospheric Flattening and Thermal Gradient Compression
-	- Denser gravity = **thinner vertical atmospheres**    
-    - Scale height decreases        
-    - Vertical circulation gets squeezed        
-		- _Result_:   
+	- Denser gravity = **thinner vertical atmospheres**
+    - Scale height decreases
+    - Vertical circulation gets squeezed
+		- *Result*:
 	    - More violent **surface convection**
         - Rapid **thermal gradients** over short vertical scales
         - Surface becomes a **storm-wracked**, turbulent layer
 	- High-pressure zones can compress volatile gases into **chemical forms** unusable by emerging life
-		- The surface becomes chemically and thermally _unstable_
+		- The surface becomes chemically and thermally *unstable*
 - Surface Temperature Amplification
 	- Thinner vertical atmosphere → less vertical mixing
 	- Higher surface gravity → greater atmospheric pressure at sea level
@@ -619,7 +610,7 @@ In 2014, René Heller and John Armstrong proposed the existence of **superhabita
 		- Continents may never stabilize
 		- Hydrothermal zones (origin-of-life hotspots) may never persist
 - **Conclusion**:
-	- Biochemistry may become _non-viable_ before complex organisms ever emerge.
+	- Biochemistry may become *non-viable* before complex organisms ever emerge.
 
 # Radius
 
@@ -661,6 +652,7 @@ In 2014, René Heller and John Armstrong proposed the existence of **superhabita
 	- Worlds with R < 0.800⨁ are likely **metal-rich, dense, and geologically challenged**
 	- They may offer magnetic protection, but are structurally compact
 	- Climate cycling and biospheric stability are at risk, especially if tectonic life is short
+
 ## Above ≈ 1.2⨁
 - **Suggests a Volatile-Rich or Low-Density Interior**
 	- Large radius + modest mass = **low density**
@@ -722,7 +714,7 @@ In 2014, René Heller and John Armstrong proposed the existence of **superhabita
 - Expands surface area but spreads mass thin
 - Tectonics may fail from poor core–mantle structure
 
-### 🧠 Superhabitable Radius Traits
+### 🧠 Rheatic (Superhabitable) Radius Traits
 
 | Trait                            | Implication                                  |
 |----------------------------------|----------------------------------------------|
@@ -732,36 +724,36 @@ In 2014, René Heller and John Armstrong proposed the existence of **superhabita
 | Encourages climate zoning        | Greater surface area allows biospheric niches|
 | Smooth curvature but defined relief | Visually compelling, emotionally stable     |
 
-
 # Escape Velocity
 
 ## What It Is — and Why It Matters
 
-Escape velocity ($v_e$) is the speed a body must reach to completely escape a planemon’s gravitational influence without further propulsion. On Earth, $v_e ≈ 11.19$ km/s.  
+Escape velocity ($v_e$) is the speed a body must reach to completely escape a planemon’s gravitational influence without further propulsion. On Earth, $v_e ≈ 11.19$ km/s.
 This isn't just a rocket science number — it governs whether a world can:
 - **Retain an atmosphere**
 - **Allow for viable space access**
 - **Support Earthlike solvent cycles**
 In WCB terms, escape velocity is a *constraint amplifier*. It binds together mass and radius, and exerts compound effects on chemistry, biospheres, and technology.
 
-
 ## 📈 Escape Velocity Scaling
 
 The absolute escape velocity formula is:
+
 $$
 v_e = \sqrt{\frac{2GM}{R}}
-$$Where:
+$$
+Where:
 - $G$ is the gravitational constant  
 - $M$ is the planemon’s mass  
 - $R$ is the planemon’s radius
 
 In relative units:
+
 $$
 v_e =\propto= \sqrt{\frac{m}{r}}
 $$
-A dense, compact world has *higher* escape velocity.  
+A dense, compact world has *higher* escape velocity.
 A large, low-density world may have *surprisingly low* $v_e$, even with moderate mass.
-
 
 ## Geotic Threshold:  
 **$v_e ∈ \langle0.5 \wedge 1.5\rangle⨁$ ≈ ⟨5.6 ∧ 16.8⟩ km/s**
@@ -800,9 +792,8 @@ Let's examine what happens outside this window.
 	- Even transient gases freeze or escape seasonally
 	- No stable pressure or weather system
 - **Conclusion**:  
-	- Worlds with $v_e < 0.5⨁$ lose too much too fast.  
+	- Worlds with $v_e < 0.5⨁$ lose too much too fast.
 	- Even with life, they are **ecologically fragile**, **chemically unstable**, and **technologically marooned**.
-
 
 ## Above ≈ 1.5⨁ (vₑ ≳ 16.8 km/s)
 
@@ -840,7 +831,6 @@ Let's examine what happens outside this window.
 	- Technological bottleneck, chemical drift, and biospheric inhibition define these worlds  
 	- Life may exist — but it rarely escapes
 
-
 ## 🌍 Escape Velocity in Superhabitables
 
 ### 🧭 Ideal Range: $v_e ∈ \langle1.100 ∧ 1.300\rangle⨁ ≈ ⟨12.3 ∧ 14.6⟩$ km/s
@@ -858,24 +848,23 @@ Let's examine what happens outside this window.
 | Moderate gravity (g ≈ 1.1–1.4⨁) | Allows liquid water and Earthlike weather                                        |
 | Accessible orbit                | Favors cultural expansion and space infrastructure                               |
 
-
 ### 🔑 Core Insight:
 
-> **Habitability is shaped by _exposed land_, not just crustal proportion.**
+> **Habitability is shaped by *exposed land*, not just crustal proportion.**
 
 A planemon might have:
 
-- The **same total volume of felsic crust** as Earth,    
-- The **same hydrospheric volume**,    
+- The **same total volume of felsic crust** as Earth,
+- The **same hydrospheric volume**,
 - But **very different levels of exposed land**, depending on:
-    - Sea level (absolute and relative)        
-    - Crustal relief        
-    - Tectonic activity        
+    - Sea level (absolute and relative)
+    - Crustal relief
+    - Tectonic activity
     - Isostatic balance
 
-- **Continents ≠ dry land** — “continent” in geologic terms just means _buoyant crust_, not _exposed crust_.
-- **Flooded cratons** were common for the first half of Earth’s history.    
-- True **emergent landmasses** may have been small islands or microcontinents for much of the Archean and Paleoproterozoic.    
+- **Continents ≠ dry land** — “continent” in geologic terms just means *buoyant crust*, not *exposed crust*.
+- **Flooded cratons** were common for the first half of Earth’s history.  
+- True **emergent landmasses** may have been small islands or microcontinents for much of the Archean and Paleoproterozoic.  
 - **Modern-style continents** with wide uplands, deep interiors, and stable exposure are a **Phanerozoic phenomenon**.
 
 ### 🔹 What “New Crust” Really Means
@@ -887,11 +876,12 @@ When we say:
 
 But:
 
-- This crust is **dense** and **thin** (≈ 7 km thick vs. ≈ ⟨30 ∧ 70⟩ km for continental crust).    
-- It **sits lower** in the gravitational field — forming **ocean basins**, not continents.    
-- It does **not increase exposed land area**, unless...    
-    - It’s **uplifted** by tectonic collisions (forming island arcs, terranes)        
+- This crust is **dense** and **thin** (≈ 7 km thick vs. ≈ ⟨30 ∧ 70⟩ km for continental crust).  
+- It **sits lower** in the gravitational field — forming **ocean basins**, not continents.  
+- It does **not increase exposed land area**, unless...  
+    - It’s **uplifted** by tectonic collisions (forming island arcs, terranes)
     - Or accreted onto existing **continental margins**
+
 ### 🔸 So:
 
 > 🔍 **Oceanic crust = dynamic but low-lying**  
@@ -899,7 +889,7 @@ But:
 
 In fact, over time:
 
-- Oceanic crust is **recycled** back into the mantle via subduction (lifespan: ~200 My)    
+- Oceanic crust is **recycled** back into the mantle via subduction (lifespan: ~200 My)
 - Continental crust tends to **accumulate and endure**, occasionally resurfacing in exposed terranes.
 
 ### 🪨 Is Felsic Crust Ever Subducted?
@@ -907,47 +897,50 @@ In fact, over time:
 **Yes... but reluctantly.**  
 Felsic (continental) crust **can** be pulled into a subduction zone — but:
 
-- It is **less dense** than oceanic crust (≈ 2.7 g/cm³ vs ≈ 3.0+ g/cm³)    
-- It is **buoyant relative to the mantle**    
+- It is **less dense** than oceanic crust (≈ 2.7 g/cm³ vs ≈ 3.0+ g/cm³)
+- It is **buoyant relative to the mantle**
 - It **resists permanent subduction** and tends to "jam" or "pop back up"
 
 So when felsic crust **does** get subducted:
 
-- It is often part of **a complex terrane collision**    
-- It may be **scraped off** and accreted to the overriding plate    
+- It is often part of **a complex terrane collision**
+- It may be **scraped off** and accreted to the overriding plate
 - Or it may be **partially melted**, with lighter components rising back as **felsic magma**, contributing to **continental volcanism**
+
 ### 🔥 Subduction-Driven Volcanism:
 
 The **melt** from subducted slabs (mostly mafic oceanic crust + water-rich sediments) rises and:
 
-- Interacts with the overlying **continental lithosphere**    
-- Mixes with or **melts felsic components**    
+- Interacts with the overlying **continental lithosphere**
+- Mixes with or **melts felsic components**
 - Produces **andesitic to rhyolitic magma** (more viscous and explosive than basalt)
 
 This is why volcanic arcs (e.g., the Andes, Cascades, Japan) are:
-- Continental in character    
+- Continental in character
 - Erupting **felsic lavas**, not oceanic basalt
+
 ### 🧭 W101 Summary Point:
 
 > 🔍 **Continental crust is rarely destroyed.**  
 > When it’s pulled into a subduction zone:
 
-- It tends to **resurface via volcanism**,   
-- Or **get welded onto other landmasses**,    
+- It tends to **resurface via volcanism**,
+- Or **get welded onto other landmasses**,
 - Or **form mountains** via crustal thickening and uplift.
+
 Over billions of years, this is how Earth built up its continents.
 
 ### 🧓 Why Some Rocks Are 3.7 Billion Years Old
 
 Those ancient rocks in **Scotland**, **Greenland**, **Australia**, and **Canada** are part of what we call **cratons** — old, stable cores of continental lithosphere that have:
-- **Survived** every tectonic rearrangement    
-- **Resisted** subduction due to buoyancy    
-- **Avoided** recycling into the mantle    
+- **Survived** every tectonic rearrangement
+- **Resisted** subduction due to buoyancy
+- **Avoided** recycling into the mantle
 - Often remained **above sea level** or **only shallowly 
 
 These regions include formations like:
-- **The Isua Greenstone Belt** in Greenland    
-- **The Jack Hills zircon deposits** in Australia    
+- **The Isua Greenstone Belt** in Greenland
+- **The Jack Hills zircon deposits** in Australia
 - **The Lewisian complex** in Scotland
 
 They are made of **felsic or ultra-felsic rocks**, like granite and gneiss, and represent:
@@ -956,12 +949,12 @@ They are made of **felsic or ultra-felsic rocks**, like granite and gneiss, and 
 
 ### 🧭 :
 
-- **Oceanic crust is temporary** — it's made, spread, and subducted like conveyor belt parts.    
+- **Oceanic crust is temporary** — it's made, spread, and subducted like conveyor belt parts.  
 - **Continental crust is archival** — it builds up over time, preserves history, and keeps records.
 So a 3.7-billion-year-old rock is a **literal relic** of the early Earth, untouched by recycling, uplifted by tectonics, and never drowned or subducted deep enough to erase its story.
 
 > 🔍 If your world has **ancient exposed felsic terranes**, it implies: 
-> - Very old crust (from early tectonic activity)     
+> - Very old crust (from early tectonic activity)
 > - Long-term tectonic **stability**  
-> - Minimal subduction or high rates of crustal buoyancy     
+> - Minimal subduction or high rates of crustal buoyancy
 > - Possibly **low sea level** or **uplifted interiors**

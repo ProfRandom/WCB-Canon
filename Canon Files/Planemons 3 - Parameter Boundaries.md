@@ -2,7 +2,6 @@
 title: ""
 ---
 
-
 ## Abstract  1
 **Major Topics:**  
 - Simplified relationships among planemon parameters (m, ρ, g, r, vₑ) when one parameter is set to unity (Earth-normal).  
@@ -74,36 +73,41 @@ title: ""
 - Complements **Orbital Eccentricity and Seasonal Effects.md** by exploring a special case.  
 - Conceptual overlap with habitability/seasonality discussions in climate-related notes.  
 
-
-
 ## Geotic Ground States
 If you assume a value of 1 for any of the basic parameters, the equations for the other parameters simplify, as enumerated below.
 
 > **Note**: If **any two** core parameters equal 1 simultaneously, then **all** five must equal 1.
+
 ### Mass: m = 1
 - $r=\sqrt{\dfrac{1}{g}}=\sqrt[3]{\dfrac{1}{\rho}}=\dfrac{1}{v_e^2}$
 - $\rho=\dfrac{1}{r^3}=\sqrt{g^3}=v_e^6$
 - $g=\dfrac{1}{r^2}=\sqrt[3]{\rho^2}=v_e^4$
 - $v_e=\sqrt{\dfrac{1}{r}}=\sqrt[4]{g}=\sqrt[6]{\rho}$
+
 ### Density: ρ = 1
 - $r = g = v_e = \sqrt[3]{m}$
 - $m=r^3=g^3=v_e^3$
 - $g=r=\sqrt[3]{m}=v_e$
 - $vₑ=g=r=\sqrt[3]{m}$
+
 > > **Note**: When **ρ = 1**, the values of **radius** (*r*), **gravity** (*g*), and **escape velocity** (*vₑ*) are all numerically equal. The **mass** (*m​*) is the cube of any of them.
+
 ### Gravity: g = 1
 - $m=r^2=\dfrac{1}{\rho^2}=v_e^4$
 - $r=\dfrac{1}{\rho}=\sqrt{m}=v_e^2$
 - $\rho=\dfrac{1}{r}=\sqrt{\dfrac{1}{m}}=\dfrac{1}{v_e^2}$
 - $v_e=\sqrt{r}=\dfrac{1}{\sqrt{\rho}}=\sqrt[4]{m}$
+
 ### Escape Velocity: vₑ = 1
 - $m=\dfrac{1}{\sqrt{\rho}}=\dfrac{1}{g}=r$
 - $r=\dfrac{v_e}{\sqrt{\rho}}=\dfrac{1}{g}=m$
 - $\rho=\dfrac{1}{r^2}=g^2=\dfrac{1}{m^2}$
 - $g=\sqrt{\rho}=\dfrac{1}{r}=\dfrac{1}{m}$
+
 ### Radius: r = 1
 - $m=g=\rho=v_e^2$
 - $v_e=\sqrt{g}=\sqrt{\rho}=\sqrt{m}$
+
 > > **Note**: When **r = 1**, the values of **mass** (*m*), **gravity** (*g*), and **density** (*ρ*) are all numerically equal. The **escape velocity** (*vₑ​*) is the square-root of any of them.
 
 ## Paramount Geotic Worlds
@@ -123,7 +127,6 @@ Alternatively, if you begin by setting **density**, the remaining values are:
 
 The equations above also allow determination of any of the three remaining parameters when two are initially set/chosen.
 
-
 # ISL: Innermost Stable Limital
 $$
 ISL ≈ k \times R
@@ -141,6 +144,7 @@ Where:
 | I                | 15 – 25 |
 | WD               | 1.5 – 2 |
 |                  |         |
+
 # CVL: Critical Viability Limital
 $$
 CVL = \sqrt{\frac{L}{S_{max}}}
@@ -155,12 +159,9 @@ Where:
 | xenomota | 7.5       |
 | exomota  | 20→       |
 
-
-
 # A Zero-Obliquity Planet
 ## Basics
 A planet with no axial tilt (or a very, very modest one — anything <2.5°)
-
 
 - If eccentricity is low (e < 0.10), no major seasonal variation through the year.
 - All days are the same length, everywhere, all year long.
@@ -170,10 +171,11 @@ A planet with no axial tilt (or a very, very modest one — anything <2.5°)
 	- ONLY changes like the slow rotation of the night sky from night to night, or the period of a major moon would be available for calendrical development.
 
 ### Alternative Methods Of Generating "Seasons"
+
 #### Zero Obliquity With High Orbital Eccentricity
 A planet with zero obliquity might experience something akin to seasons if it were on a highly elliptical orbit that carried it particularly close to and distant from the star at either periastron or apastron, or both.
 
-Eccentricities in excess of 0.40 — which is _highly_ eccentric (Mercury's orbital eccentricity is 0.2056).
+Eccentricities in excess of 0.40 — which is *highly* eccentric (Mercury's orbital eccentricity is 0.2056).
 
 Depending on the configuration of the orbit, the planet might:
 - Pass very close to the star at periastron

@@ -2,7 +2,6 @@
 title: ""
 ---
 
-
 ## Abstract 1
 **Major Topics:**  
 - Methods for placing and sizing asteroid belts between two major perturbers.  
@@ -147,6 +146,7 @@ B_i &= a_s - W_i \qquad B_o = a_s + W_o \qquad &&\text{Belt inner and outer edge
 $$
 
 ## Calculating Resonant Orbits
+
 ### Vocabulary Notes
 - Perturber: An orbiting object acting to perturb the orbit of other, less massive nearby objects.
 - Perturbant: The body exerting perturbing influence.
@@ -160,32 +160,41 @@ When mapping resonant gap orbits, use the bracketing orbits as **perturbers**. F
 2. When the perturbers have differenting masses:
 	- If their mass ratio ≤ 10:1, calculate resonance orbits for both inner and outer perturbers and pairwise-average them.
 	- If their mass ratio > 10:1, calculate resonance orbits using only the mass and orbital distance of the more massive perturber (regardless of location).
+
 ### Inner Orbit Resonances
 Using the **inner perturber** with period $P_i$.  
+
 $$
-P_x = P_i \times k \quad \text{Where: } k \in \{1.67, 2.00, 2.25, 2.33, 2.50, 2.67, 3.00, 3.50, 4.00, 5.00\}
-$$$$
-a_x = \sqrt[3]{P_x^2 \, M\odot}
-$$ Where:
+\begin{aligned}
+a_x &= \sqrt[3]{P_x^2 \, M\odot}, \quad P_x = P_i \times k \\[1em]
+\text{Where: } k &\in \{1.67, 2.00, 2.25, 2.33, 2.50, 2.67, 3.00, 3.50, 4.00, 5.00\}
+\end{aligned}
+$$
+Where:
 - $P_x$ = resonant period  
 - $a_x$ = resonant distance (AU)  
 - $M\odot$ = stellar mass (in solar units)  
 - $k$ = resonance scaler (see below for details)  
 
 ***Keep only values where $a_x > B_i$ (beyond the inner orbit).***  
+
 ### Outer Orbit Resonances
 Using from the **outer perturber** with period $P_o$.  
+
 $$
-P_x = \frac{P_o}{k} \quad \text{Where: } k \in \{1.67, 2.00, 2.25, 2.33, 2.50, 2.67, 3.00, 3.50, 4.00, 5.00\}
-$$$$
-a_x = \sqrt[3]{P_x^2 \, M\odot}
-$$Where:
+\begin{aligned}
+a_x &= \sqrt[3]{P_x^2 \, M\odot}, \quad P_x = \frac{P_o}{k} \\[1em]
+\text{Where: } k &\in \{1.67, 2.00, 2.25, 2.33, 2.50, 2.67, 3.00, 3.50, 4.00, 5.00\}
+\end{aligned}
+$$
+Where:
 - $P_x$ = resonant period  
 - $a_x$ = resonant distance (AU)  
 - $M\odot$ = stellar mass (in solar units)  
 - $k$ = resonance scaler  
 
 ***Keep only values where $a_x < B_o$ (inside the outer orbit).***  
+
 #### Combined Equation Forms:
 
 ##### Inner Orbit Resonances
@@ -204,6 +213,7 @@ a_x &= \sqrt[3]{\left(\frac{P_o}{k}\right)^2 M\odot} \\[0.5em]
 $$
 ### Details: Resonance Scalers
 *Sorted in order of frequency*
+
 #### Gap Resonances (Gresonances)
 
 |  Notes   | Perturbant | Resonant |  Ratio  | Order | Frequency<br>$\tfrac{\text{Perturbant}}{\text{Resonant}}$ |
@@ -240,6 +250,7 @@ $$
 # Width of Gaps
 ## Justification
 For a resonance gap in an asteroid belt to be significant, it should be ≥ 0.1% of the orbital radius of the gap, itself.
+
 $$
 \begin{aligned}
 \frac{m_p}{M_*} ≥ 10^{-6} \\
@@ -248,38 +259,43 @@ $$
 $$
 Where:
 - $m_{p}$ = the mass of the perturber in Terrans
-- $M_*$ = the mass of the star in Terrans
--        = 333000 × the mass of the star in solar units ($M_\odot$)
+- $M_*$ = the mass of the star in Terrans $= 333000$ × the mass of the star in solar units ($M_\odot$)
 
 ### Example:
-Given: $M_* = 333000 M_⨁ = 333000(1)$ (for the Sun):
+
+Given: $M_{*} = 333000 M_{⨁} = 333000$ (for the Sun):
+
 $$
-m_p ≥ \frac{333000}{10^6} = 0.333 m_⨁
+m_p ≥ \frac{333000}{10^6} = 0.333 m_{⨁}
 $$
 **Meaning:**
 - A body must be **at least 0.333 Earth masses** (~⅓⨁) to carve a **recognizable Kirkwood gap** in a main-belt analogue.
 - **Below this** (midimons, small planemons), the “gap width” is so narrow it doesn’t register as a true Kirkwood void.
+
 ## Calculating Gap Widths
 For each resonant orbit calculated above, calculate a gap width by:
+
 $$
 g_w = a \times \sqrt{\frac{m_i + m_o}{333000M⊙}} \qquad \text{Preferred method}
 $$
 or
+
 $$
 \begin{aligned}
-g_{quad} = \sqrt{g_i^2 + g_o^2} \qquad \text{Requires calculating $g_i$ and $g_o$ first by:} \\[1em]
-g_i = a \times \sqrt{\frac{m_i}{333000M⊙}} \quad\text{and}\quad g_o = a \times \sqrt{\frac{m_o}{333000M⊙}}
+g_i &= a \times \sqrt{\frac{m_i}{333000M⊙}} \\[1em]
+g_o &= a \times \sqrt{\frac{m_o}{333000M⊙}} \\[1em]
+g_{quad} &= \sqrt{g_i^2 + g_o^2}
 \end{aligned}
 $$
 Both methods are algebraically equivalent: the $g_{quad}$ form expands ***exactly*** into the $g_w$ expression:
+
 $$
 g_{quad} = \sqrt{g_i^2 + g_o^2} = \sqrt{\left(a^2 \frac{m_i}{M_*}\right) + \left(a^2 \frac{m_o}{M_*}\right)} = a \times \sqrt{\frac{m_i + m_o}{M_*}} = g_w \; \checkmark
 $$
-
 # Harmonic Periods
 
+*Harmonic periods* are crucial for understanding how a planet's rotational and orbital cycles synchronize.  The harmonic period $H$ is the time interval over which the two independent motions align in their periodicity.
 
-_Harmonic periods_ are crucial for understanding how a planet's rotational and orbital cycles synchronize.  The harmonic period $H$ is the time interval over which the two independent motions align in their periodicity.
 $$
 H = \dfrac{P_1 \times P_2}{|P_1 - P_2|}
 $$
@@ -292,6 +308,7 @@ Where:
 
 ## Example
 Using Earth's solar day and sidereal day:
+
 $$
 \begin{array}{l l}
 P_1 = 86400^s &\text{solar day}\\
@@ -306,9 +323,9 @@ H &= 31556924.9854376^s\; \checkmark
 \end{split}
 \end{aligned}
 $$
-… we find that the harmonic period between the solar day and the sidereal day is approximately the length of the _tropical year_, differing from the official value of $31556925.216^s$ by an excess of only $0.2306^s$.
+… we find that the harmonic period between the solar day and the sidereal day is approximately the length of the *tropical year*, differing from the official value of $31556925.216^s$ by an excess of only $0.2306^s$.
 
-Similarly, calculating the harmonic period between Earth's solar day and the _stellar day_:
+Similarly, calculating the harmonic period between Earth's solar day and the *stellar day*:
 
 $$
 \begin{array}{l l}
@@ -324,18 +341,15 @@ H &= 31558048.1047344^s\; \checkmark
 \end{split}
 \end{aligned}
 $$
-… a difference of only $101.65737^s$ longer than the official length of the _sidereal year_: $31558149.7635456^s$.
-
-
-
+… a difference of only $101.65737^s$ longer than the official length of the *sidereal year*: $31558149.7635456^s$.
 
 # Orbit Randomization Notation
 This symbolic system defines how to procedurally generate a sequence of orbital radii using randomized multiplicative (or divisive) steps from a baseline (**basal**) value. It distinguishes between **intrabasal** (moving inward) and **extrabasal** (moving outward) orbit generation.
 
 The notation is fully symbolic and compatible with WCB's randomization and range assignment grammar.
 
-
 **Intrabasal**
+
 $$
 r_i = B;\; \Omega = \text{«▢»}: \qquad
 r_{i-1} = \frac{r_i}{⟨⟨ \text{min} ∧ \text{max} ⟩⟩}
@@ -343,6 +357,7 @@ r_{i-1} = \frac{r_i}{⟨⟨ \text{min} ∧ \text{max} ⟩⟩}
 $$
 
 **Extrabasal**
+
 $$
 r_i = B;\; \Omega = \text{«▢»}: \qquad
 r_{i+1} = r_i \cdot ⟨⟨ \text{min} ∧ \text{max} ⟩⟩
@@ -358,12 +373,14 @@ The **intrabasal** and **extrabasal** forms can be used independently depending 
 
 - 🧭 **Outward-Only Generation**  
   If you begin at the **innermost permissible orbit** (e.g. a thermal, Roche, or design constraint), use the **extrabasal** form to expand outward via multiplicative steps:
+
 $$
   r_0 = «inner limit»;\; L = «system edge»:
   \quad r_{i+1} = r_i \cdot ⟨⟨min ∧ max⟩⟩, \text{ while } r_{i+1} ≤ L
 $$
 - 🧭 **Outward-Only Generation**  
   If you begin at the **outermost permissible orbit** (e.g. a thermal or design constraint), use the **extrabasal** form to expand outward via multiplicative steps:
+
 $$
   r_0 = «inner limit»;\; L = «system edge»:
   \quad r_{i-1} = \dfrac{r_i} {⟨⟨min ∧ max⟩⟩}, \text{ while } r_{i+1} ≤ L
@@ -371,49 +388,47 @@ $$
 
 > Either method can fully define a system — or both can be combined with a central anchor (e.g. nucleal orbit) to scaffold a bidirectional structure.
 
-
-
 # Orbital Eccentricity and Seasonal Effects
 
 For a planemon orbiting a star (M₂ ⋘ M₁):
 - **Periastron distance**:  
+
 $$
  R_{min} = \mathcal{A}(1 - e)
 $$
 - **Apastron distance**:  
+
 $$
  R_{max} = \mathcal{A}(1 + e)
 $$
 Where **𝒜** is the *average orbital separation* between the bodies.  
 When describing a planemon’s orbit, 𝒜 corresponds to the **semimajor axis** of its elliptical path.  
+
 ## Fractional Distance Asymmetry (Ḋ)
 The dimensionless measure of how much closer the planemon is at periastron than at apastron:
+
 $$
 \dot{D} = \frac{R_{max}}{R_{min}} - 1 = \frac{2e}{1-e}
 $$
-- Earth ($e = 0.0167$):  
-  $\dot{D} \approx 0.034$ → **3.4% closer at periastron**  
-- Rosetta ($e = 0.05$):  
-  $\dot{D} \approx 0.105$ → **10.5% closer at periastron**
+- Earth ($e = 0.0167$):  $\dot{D} \approx 0.034$ → **3.4% closer at periastron**  
+- Rosetta ($e = 0.05$):  $\dot{D} \approx 0.105$ → **10.5% closer at periastron**
 
 ## Flux Ratio
 Because stellar flux $F ∝ 1/R^2$, the insolation contrast between periastron and apastron is:
+
 $$
 \frac{F_{min}}{F_{max}} = \left(\frac{R_{max}}{R_{min}}\right)^2
 $$
-- Earth ($e = 0.0167$):  
-  $\dfrac{F_{min}}{F_{max}} \approx 1.068$ → **6.8% stronger insolation at periastron**  
-- Rosetta ($e = 0.05$):  
-  $\dfrac{F_{min}}{F_{max}} \approx 1.23$ → **23% stronger insolation at periastron**
+- Earth ($e = 0.0167$):  $\frac{F_{min}}{F_{max}} \approx 1.068$ → **6.8% stronger insolation at periastron**  
+- Rosetta ($e = 0.05$): $\frac{F_{min}}{F_{max}} \approx 1.23$ → **23% stronger insolation at periastron**
 
 ## WCB Note
 
 - **Distance form (Ḋ)** → intuitive “how much closer/farther” language.  
-- **Flux form ($F_{min}/F_{max}$)** → climatic impact (“how much hotter/colder”).  
-- **Canonical terminology**: use *periastron/apastron* with *Rₘᵢₙ*/*Rₘₐₓ* in star–planemon systems.  
+- **Flux form ($\frac{F_{min}}{F_{max}}$)** → climatic impact (“how much hotter/colder”).  
+- **Canonical terminology**: use *periastron/apastron* with $R_{min}$ and $R_{max}$ in star–planemon systems.  
 - Avoid $r_p$, $r_a$, or ß notations; these are legacy/derivation-only.  
 - In WCB canon, Ḋ is the preferred symbol for distance asymmetry.
-
 
 ### **Quick Method for Ring Shadows (Approximation)**  
 
@@ -438,14 +453,12 @@ When considering ring shadows on a terrestrial planet, the exact math quickly be
    - The **horizontal (azimuthal) component** of these intersection points tells you what **fraction of the diurn** the Sun spends behind the rings.  
    - The **vertical (altitude) component** confirms whether the Sun actually overlaps the ring band at all.  
 
-
 **Key Insight:**  
 - **Ring placement/width = fixed** for a given latitude.  
 - **Sun’s path = variable** with declination.  
 - **Shadow events** = when/where those two systems overlap.  
 
 This gives a practical, diagram-based way to visualize daily ring shadow effects *without* diving into spherical trig.  
-
 
 ### **Ring Shadow Scenarios**
 
@@ -469,7 +482,6 @@ The following scenarios illustrate how the Sun’s path and the fixed ring arcs 
    - Because the ring arcs converge to points at east and west horizons, the Sun always begins and ends the day outside the rings.  
    - Thus, the Sun cannot be fully hidden for the entire diurn under normal circumstances.  
 
-
 ### **Special Case: Equator at Equinox**
 
 - At the planetary equator during equinoxes, the Sun’s path coincides with the ring plane.  
@@ -477,13 +489,11 @@ The following scenarios illustrate how the Sun’s path and the fixed ring arcs 
 - In this alignment, the Sun is “behind” the ring plane all day.  
 - However, since the rings have a much narrower angular width on the sky than the Sun’s disc, the effect is negligible: no significant dimming or shadowing would be seen by surface observers.  
 
-
 ### **Ring Shadow Climate Effects**
 
 *Dense or opaque rings can noticeably reduce insolation at the surface. This section considers how such shading might alter daily temperatures, weather cycles, and even settlement patterns, without attempting full climate modeling.*  
 
 Where rings are dense enough, these shadow scenarios can affect not just what the sky looks like, but also how much solar energy reaches the ground. If a planetary ring is dense or optically thick, its shadow can reduce the amount of sunlight reaching the surface whenever the Sun passes behind it. The severity of the effect depends on how much of the Sun’s disc is obscured and for how long.
-
 
 #### **At the Subsolar Point**
 - Shadowing is most direct when the Sun is highest in the sky.  
@@ -492,19 +502,16 @@ Where rings are dense enough, these shadow scenarios can affect not just what th
   - Delay or reduce convection cycles (e.g., thunderstorm formation, monsoon timing).  
   - Alter evaporation rates and precipitation.  
 
-
 #### **Seasonal & Locational Consequences**
 - The Sun’s path shifts with the **apical chronum** (season).  
 - Some regions may experience **daily shading during summer**, providing relief from heat.  
 - Other regions may be **unshaded in winter** when the Sun’s path lies outside the ring band.  
 - Higher latitudes may see the shadow zone migrate poleward or equatorward with the seasons.  
 
-
 #### **Life-Saving Respite**
 In especially hot climates, rings could act as natural **parasols**.  
 - Example: A city in a desert belt might be survivable only because, during the hottest months, the Sun passes behind the rings from late morning until early afternoon each day.  
 - Such shading could literally determine where civilizations thrive.  
-
 
 #### **Complexity Warning**
 Modeling this rigorously requires:  
@@ -519,7 +526,6 @@ This is **well beyond the scope** of this guide. For worldbuilding purposes, sim
 > Rings can alter daily and seasonal insolation patterns, sometimes dramatically.  
 > Authors may invoke rings as life-saving parasols, or as sources of seasonal hardship.  
 
-
 ### **Timing Behavior of Ring Shadows**
 
 *Ring-shadow events happen at predictable times of day that drift seasonally. This section explains how those timings remain stable near solstices and shift quickly near equinoxes, echoing the familiar pattern of sunrise and sunset changes.*  
@@ -527,14 +533,13 @@ This is **well beyond the scope** of this guide. For worldbuilding purposes, sim
 The qualitative outcomes above happen at specific times of day. These timings drift in a predictable seasonal pattern as the Sun’s declination changes:  
 
 - The **ring arcs** are fixed in the sky for any given latitude.  
-- The **Sun’s path** shifts gradually with the apical chronum (season), so the entry/exit times of shadow events drift over the year.  
+- The **Sun’s path** shifts gradually with the apical chronum (season), so the entry/exit times of shadow events drift over the year. 
 
 **Seasonal Pattern:**  
 - **Near solstices:** Declination changes slowly → shadow timings remain nearly constant, varying by only a minute or two over several weeks.  
-- **Near equinoxes:** Declination changes rapidly → shadow timings shift more noticeably, sometimes by several minutes per day.  
+- **Near equinoxes:** Declination changes rapidly → shadow timings shift more noticeably, sometimes by several minutes per day  
 
 This mirrors the familiar seasonal drift of sunrise and sunset times.  
-
 
 ### **Reality Check**
 
