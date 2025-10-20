@@ -13,7 +13,7 @@ title: ""
   - **mesomons:** equivalent to milliterran.
   - **planemons:** strictly ≥ centiterran (planetary-mass).  
 - Provides worked mapping with Solar System bodies (e.g., Ceres, Pluto, Titan, Earth).  
-- Emphasizes distinction between **solidons** vs. **planemons**: *micromons*, *minimons*, *midimons*, and *mesomons* are monons but **not** planetary-mass objects.  
+- Emphasizes distinction between **duramons** vs. **planemons**: *micromons*, *minimons*, *midimons*, and *mesomons* are monons but **not** planetary-mass objects.  
 
 **Key Terms & Symbols:**  
 - **micromon [neo].**  
@@ -28,7 +28,7 @@ title: ""
 - No contradictions with existing canon.  
 - **Status:** [EXPANDED] clarification, not revision.  
 
-# Solidon Morphotype Mapping
+# Duramon Morphotype Mapping
 
 ### Nanomons → Deni-, Nano-, Okti-, Septiterrans
 **Mass:** 0.0000000001–0.000001 M⨁
