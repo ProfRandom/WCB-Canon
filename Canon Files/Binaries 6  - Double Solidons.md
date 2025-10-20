@@ -1,6 +1,7 @@
 ---
 title: Binaries 6
 ---
+
 ## Abstract  
 **Major Topics:**  
 - Defines **double-duramonic systems**—pairs of sub-stellar monons bound in mutual orbit—and classifies them according to both **mass ratio** and **barycentric geometry**.  
@@ -15,13 +16,13 @@ title: Binaries 6
 - Combines these to yield **four canonical barycentric configurations**—interior-confined, interior-ambulatory, exterior-ambulatory, and exterior-free—and demonstrates how their intersection with the sobrinic/parensic ratio regime produces the **eightfold duramonic-pair taxonomy**.  
 - Provides algebraic relations for barycentric distances  
 
-  $$
+$$
   B_{avg} = \mu\,\mathcal{a}, \quad  
   B_{min} = B_{avg}(1-e), \quad  
   B_{max} = B_{avg}(1+e),
   $$
   
-  with $\mathcal{a}$ expressed in primaron radii, supporting direct scaling across planemonic and sub-stellar systems.
+ — with $\mathcal{a}$ expressed in primaron radii, supporting direct scaling across planemonic and sub-stellar systems.
 
 **Key Terms & Symbols:**  
 - **primaron (P):** dominant body of the pair ($M_1, ν$).  
@@ -39,7 +40,7 @@ title: Binaries 6
 - Establishes the formal geometric basis for subsequent modules on **Barycentric Regimes** and **duramonic Dynamics**.  
 - Integrates terminology consistent with the **Primaron–Secondron convention** for mass-pair systems.
 
-# Double duramons
+# Double Duramons
 Paired duramons may be of two types
 - Sobrinic: mass-ratio $\varrho = \frac{M_2}{M_1} \le 100:1$
 - Parensic: mass-ratio $\varrho = \frac{M_2}{M_1} > 100:1$
@@ -94,11 +95,19 @@ The combination of locus and motility result in *four* possible configurations:
 | Exterior | Ambulatory | **Exterior-Ambulatory** | Barycenter orbit grazes or passes tangent to the primaron’s surface. |
 | Exterior | Free | **Exterior-Free** | Entire barycenter orbit lies outside the primaron’s physical volume. |
 
-| ↓ Motility ↓ |     Locus is Interior<br>$B_{avg} \le R_P$     |      Locus is Exterior<br>$B_{avg} > R_P$      |
-| ------------ | :--------------------------------------------: | :--------------------------------------------: |
-| Confined     | $B_{min} < B_{avg} < B_{max} \le \mathbf{R_P}$ |                       —                        |
-| Ambulatory   | $B_{min} < B_{avg} \le \mathbf{R_P} < B_{max}$ | $B_{min} \le \mathbf{R_P} < B_{avg} < B_{max}$ |
-| Free         |                       —                        | $\mathbf{R_P} \le B_{min} < B_{avg} < B_{max}$ |
+$$
+\begin{array}{c|c|c}
+\textbf{Motility} &
+\text{Locus Interior }(B_{avg} \le R_P) &
+\text{Locus Exterior }(B_{avg} > R_P)\\[0.5em]
+\hline\\[-2pt]
+\text{Confined} & B_{min} < B_{avg} < B_{max} \le \mathbf{R_P} & --\\[0.5em]
+\text{Ambulatory} &
+B_{min} < B_{avg} \le \mathbf{R_P} < B_{max} &
+B_{min} \le \mathbf{R_P} < B_{avg} < B_{max}\\[0.5em]
+\text{Free} & -- & \mathbf{R_P} \le B_{min} < B_{avg} < B_{max}
+\end{array}
+$$
 
 This schema yields eight possible **duramonic pairings**, grouped by mass ratio:
 - **Sobrinon** ($\varrho \le 100:1$)
@@ -133,6 +142,7 @@ The singular term for a sobrinic pair is a **sobrinon**; for a parensic pair, a 
 We might therefore speak of the *Jupiter–Uranus sobrinon* or the *Saturn–Titan parenson*.
 
 # Historical Context
+
 ## Etymology of "moon"
 Most dictionaries are somewhat specific in defining the word “moon”: something along the lines of “a moon is a natural satellite of a planet”. However, modern exploration has shown this definition to be limiting: even asteroids have "moons" (Hebe 6 and $415$ others are known as of this writing). So, for our purposes, we need to be a bit more general.  WCB defines "moon" as  “a natural satellite of a monon more than 100 or more times more massive than itself.”
 

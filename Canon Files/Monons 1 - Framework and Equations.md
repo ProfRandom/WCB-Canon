@@ -68,7 +68,7 @@ title: ""
 
 ## Abstract  4
 
-**Major Topics:**  
+### Major Topics:  
 - Provides the **canonical reference table** for **monon mass classes and monoclasses**, establishing the taxonomy framework used across WCB.  
 - Defines the hierarchical structure of **–moic categories** by mass domain:  
   - **micromon, minimon, midimon, planemon, intermon, stellamon, supermon, ultramon, hypermon.**  
@@ -77,7 +77,7 @@ title: ""
 - Connects monoclasses (e.g., **telluric, rheatic, gaean**) with their appropriate mass classes, showing where habitability-relevant subtypes emerge.  
 - Serves as the master framework to which specialized notes (e.g., **Gaean planemons, Rheatic planemons**) attach.  
 
-**Key Terms & Symbols:**  
+### Key Terms & Symbols:**  
 - **Mass classes:** micromon, minimon, midimon, planemon, intermon, stellamon, supermon, ultramon, hypermon.  
 - **Terracentric scaling prefixes:** centiterran, deciterran, kiloterran, megaterran, etc.  
 - **Ontotype:** compositional subtypes (telluric, rheatic, gaean, xenotic).  
@@ -121,14 +121,11 @@ m = \dfrac{v_e^4}{g} & r = \dfrac{v_e^2}{g} & \rho = \left(\dfrac{g}{v_e}\right)
 m = r v_e^2 & r = \dfrac{m}{v_e^2} & \rho = \left(\dfrac{v_e^3}{m}\right)^2 & g = \dfrac{v_e^4}{m} & v_e = \sqrt[6]{m^2\rho}
 \end{array}
 $$
-
-
 # 🌍 Planemon Framework (Master Map)
 
 All **planemons** (planetary monons) share a **common trunk** — then branch into two complementary classification systems.
 
 ## 🌳 Trunk (Shared Levels)
-
 - **Frame** → Monon
 - **Group** → Planemon   
 
@@ -235,26 +232,26 @@ These are intended to categorize monons *in their current configuration*.  A mon
 | ondoterran                  |                 100000000000 |                1000000000000 |                   10¹¹ | beyond -mo classification                  |
 | teraterran                  |                1000000000000 |               10000000000000 |                   10¹² | beyond -mo classification                  |
 
-## Listed by monoclass
+## Listed by Monoclass
 
 | <center>Monoclass</center> | <center>Min. Mass ≥</center> | <center>Max. Mass <</center> | Exponent Range |
-| -------------------------- | ---------------------------: | ---------------------------: | -------------: |
-| nanomon                    |                 0.0000000001 |                     0.000001 |   10⁻¹⁰ — 10⁻⁶ |
-| micromon                   |                     0.000001 |                      0.00001 |    10⁻⁶ — 10⁻⁵ |
-| midimon                    |                      0.00001 |                        0.001 |    10⁻⁵ — 10⁻³ |
-| mesomon                    |                        0.001 |                         0.01 |    10⁻³ — 10⁻² |
-| planemon                   |                         0.01 |                         4131 |     10⁻² — 10³ |
-| intermon                   |                         4131 |                       266400 |      10³ — 10⁵ |
-| stellamon                  |                       266400 |                      1000000 |      10⁵ — 10⁶ |
-| supermon                   |                      1000000 |                     10000000 |      10⁶ — 10⁷ |
-| ultramon                   |                     10000000 |                   1000000000 |      10⁷ — 10⁹ |
-| hypermon                   |                   1000000000 |                  10000000000 |     10⁹ — 10¹⁰ |
+|----------------------------|------------------------------|------------------------------|----------------|
+| nanomon                    | 0.0000000001                 | 0.000001                     | 10⁻¹⁰ — 10⁻⁶   |
+| micromon                   | 0.000001                     | 0.00001                      | 10⁻⁶ — 10⁻⁵    |
+| midimon                    | 0.00001                      | 0.001                        | 10⁻⁵ — 10⁻³    |
+| mesomon                    | 0.001                        | 0.01                         | 10⁻³ — 10⁻²    |
+| planemon                   | 0.01                         | 4131                         | 10⁻² — 10³     |
+| intermon                   | 4131                         | 266400                       | 10³ — 10⁵      |
+| stellamon                  | 266400                       | 1000000                      | 10⁵ — 10⁶      |
+| supermon                   | 1000000                      | 10000000                     | 10⁶ — 10⁷      |
+| ultramon                   | 10000000                     | 1000000000                   | 10⁷ — 10⁹      |
+| hypermon                   | 1000000000                   | 10000000000                  | 10⁹ — 10¹⁰     |
 
 # Classification Rule — The Monon Condition
 
 > **All WCB monoclasses (planemon, intermon, stellamon)** refer exclusively to **individual, gravitationally coherent bodies** — not to multi-body **systems**, **collections**, or **regions**.
 
-### 🔒 What *Is* a monon
+### 🔒 What *Is* a Monon
 A **monon** is defined by:
 - A single **center of mass**  
 - Internally unified **gravitational structure**  

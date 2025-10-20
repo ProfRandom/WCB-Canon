@@ -95,7 +95,7 @@ T_{max} = \mathcal{A}(1 + e)
 \end{aligned}
 $$
 ### Eccentricity Relationships
-In the equations below a subscript dot $_{\bullet}$ means *any two matching parameters* ; e.g.  $Max_{\bullet} - Min_{\bullet}$ means any maximum value minus any minimum value of the same parameter, such as $P_{max} - P_{min}$.
+In the equations below a subscript dot ${}_{\bullet}$ means *any two matching parameters* ; e.g.  $Max_{\bullet} - Min_{\bullet}$ means any maximum value minus any minimum value of the same parameter, such as $P_{max} - P_{min}$.
 
 #### System Eccentricity
 $$
