@@ -10,18 +10,19 @@ title: ""
   - The Hill sphere applies when the **mass ratio is extreme** (e.g., planet–star or moon–planet).  
 - Presents the **classical Hill sphere equation**:  
 
-  $$
+$$
   H_r = \alpha\!\left(\frac{M_2}{3M_1}\right)^{\!\tfrac{1}{3}}
-  $$  
-  defining the limiting radius of stable orbital influence for the smaller body.  
+$$
+
+ — defining the limiting radius of stable orbital influence for the smaller body.  
 - Interprets $H_r$ as the **outer stability boundary** for circumsecondronic orbits — the point beyond which tidal shear from the primaron dominates.  
 - Introduces a practical constraint for **long-term stability** of satellites:  
 
-   $$
+$$
   r_{\text{sat}} \lesssim 0.5\,H_r
-  $$
-  indicating that stable moons typically orbit well within half the Hill radius.  
-- Notes that for **eccentric orbits**, the Hill radius should be evaluated at **periapsis** ($\alpha(1 - e)$), where tidal stress is greatest.  
+$$
+ — indicating that stable moons typically orbit well within half the Hill radius.  
+- Note that for **eccentric orbits**, the Hill radius should be evaluated at **periapsis** ($\alpha(1 - e)$), where tidal stress is greatest.  
 - Compares the **Hill sphere** and **Roche lobe** in both physical regime and geometric form:  
   - Roche lobes → teardrop-shaped equipotential regions between comparable masses.  
   - Hill spheres → near-spherical zones for extreme mass ratios ($M_2 \ll M_1$).  
@@ -69,9 +70,9 @@ Where:
 ### Rule of Thumb
 - Long-term stable satellite orbits typically require  
 
-  $$
+$$
   r_{\text{sat}} \lesssim 0.5\,H_r
-  $$
+$$
 
   — i.e., within roughly half the Hill radius.
 
@@ -79,13 +80,16 @@ Where:
 - For eccentric orbits, replace $\alpha$ with the **periapsis distance**, $\alpha(1 - e)$, to account for stronger tidal effects at closest approach.
 
 ### Comparison with Roche Lobe
+- **Roche Lobe**
+  - Two bodies of comparable mass (binaries).
+  - Equipotential surface where gravitational and centrifugal forces balance.
+  - Teardrop-shaped, asymmetric about $L_1$.
+- **Hill Sphere**
+  - Large primaron with small secondron (planet-moon; star-planet).
+  - Distance from secondron where its gravitational influence equals the primaron's tidal force.
+  - Roughly spherical for $m \ll M$.
 
-| Concept         | Regime                                                          | Definition                                                                                   | Shape                                    |
-| :-------------- | :-------------------------------------------------------------- | :------------------------------------------------------------------------------------------- | :--------------------------------------- |
-| **Roche Lobe**  | Two bodies of comparable mass (binaries).                       | Equipotential surface where gravitational and centrifugal forces balance.                    | Teardrop-shaped, asymmetric about $L_1$. |
-| **Hill Sphere** | Large primaron with small secondron (planet–moon, star–planet). | Distance from secondron where its gravitational influence equals the primaron’s tidal force. | Roughly spherical for $m \ll M$.         |
-
-> **Analogy:** The Roche lobe is the *shared frontier* between equals; the Hill sphere is the *personal domain* of a subordinate.
+ **Analogy:** The Roche lobe is the *shared frontier* between equals; the Hill sphere is the *personal domain* of a subordinate.
 
 ### Example — Earth’s Hill Sphere
 

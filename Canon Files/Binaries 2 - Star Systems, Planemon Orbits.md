@@ -21,11 +21,11 @@ title: ""
 - Notes a simplified linear approximation ($\alpha >rsim \mathcal{A}(3.5 + 4.0e)$) for rapid estimation.  
 - Incorporates **Quarles et al. (2018, 2020)** results defining the **S-type stability limit** for wide binaries:  
 
-  $$
-  \mathcal{Q}_{L} = 0.08\,\mathcal{A} = 0.08\left(\frac{T_{\min}}{1 - e}\right)
-  $$
-  
-  linking circumstellar orbital stability directly to the stars’ *closest approach* ($T_{\min}$).  
+$$
+\mathcal{Q}_{L} = 0.08 \qquad \mathcal{A} = 0.08 \left(\frac{T_{min}}{1 - e}\right)
+$$
+
+  —  linking circumstellar orbital stability directly to the stars’ *closest approach* ($T_{\min}$).  
 - Introduces the **Quarles Eccentricity Limit** ($\mathcal{Q}_e = 0.92$), the maximum binary eccentricity at which *any* stable circumstellar orbit can exist.  
 - Emphasizes that the **inner and outer stability boundaries** (Holman–Wiegert vs. Quarles) form the **complete architecture of binary orbital habitability**.
 
@@ -83,13 +83,15 @@ $$
 \qquad
 \mathcal{F}(e) = 4.1e^2 + 2.0e + 3.5
 $$
-
-| $e$ | $\mathcal{F}(e)$ | Stable Ratio $\alpha/\mathcal{A}$ |
-| :-: | :--------------: | :-------------------------------: |
-| 0.0 |       3.5        |               3.5 ×               |
-| 0.5 |       4.7        |               4–5 ×               |
-| 0.7 |       6.2        |                6 ×                |
-
+$$
+\begin{array}{c|c|c}
+e & \mathcal{F}(e) & a/\mathcal{A} \\[0.25em]
+\hline
+0.0 & 3.5 & 3.5\times\\
+0.5 & 4.7 & 4\text{–}5\times\\
+0.7 & 6.2 & 6\times
+\end{array}
+$$
 > **Rule of thumb:** circumbinary (P-type) planets remain stable when  $\displaystyle\alpha >rsim \mathcal{F}(e)\;\mathcal{A}$ , rising roughly quadratically with binary eccentricity.
 
 A quicker (but less precise) linear form is:

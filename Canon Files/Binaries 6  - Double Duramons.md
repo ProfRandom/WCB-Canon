@@ -88,13 +88,20 @@ The combination of locus and motility result in *four* possible configurations:
 - If $B_{avg} \le R_P$ (by definition $B_{min} < R_P$) and $B_{max} > R_P$, then the barycenter configuration is *interior ambulatory*.
 - If $B_{avg} > R_P$ (by definition $B_{max} > R_P$), and $B_{min} \le R_P$, then the barycenter configuration is *exterior ambulatory*.
 
-| **Locus** | **Motility** | **Configuration** | **Barycenter Position** |
-|:--|:--|:--|:--|
-| Interior | Confined | **Interior-Confined** | Entire barycenter orbit lies within the physical volume of the primaron. |
-| Interior | Ambulatory | **Interior-Ambulatory** | Barycenter orbit crosses the primaron’s surface; part of its path is interior. |
-| Exterior | Ambulatory | **Exterior-Ambulatory** | Barycenter orbit grazes or passes tangent to the primaron’s surface. |
-| Exterior | Free | **Exterior-Free** | Entire barycenter orbit lies outside the primaron’s physical volume. |
-
+$$
+\begin{array}{l|l|l|l}
+\textbf{Locus} & \textbf{Motility} & \textbf{Configuration} & \textbf{Barycenter Position} \\[0.1em]
+\hline\\[-1em]
+\text{Interior} & \text{Confined} & \textbf{Interior–Confined} & 
+\text{Within the primaron.} \\[0.3em]
+\text{Interior} & \text{Ambulatory} & \textbf{Interior–Ambulatory} & 
+\text{Orbit crosses primaron’s surface.} \\[0.3em]
+\text{Exterior} & \text{Ambulatory} & \textbf{Exterior–Ambulatory} &
+\text{Orbit crosses primaron’s surface.} \\[0.3em]
+\text{Exterior} & \text{Free} & \textbf{Exterior–Free} &
+\text{Outside the primaron.}
+\end{array}
+$$
 $$
 \begin{array}{c|c|c}
 \textbf{Motility} &

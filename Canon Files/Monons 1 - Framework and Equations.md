@@ -130,17 +130,13 @@ All **planemons** (planetary monons) share a **common trunk** — then branch in
 - **Group** → Planemon   
 
 ## 🪨 Conformation Branch (Structural / Physical)
-Focus: **What the planemon is made of**
-- **Order** → Composition families
-    - Lithic (rock/metal)
-    - Astatic (mixed/volatile)
-    - Aetheric (gaseous)
-    - Ulsic (exotic/degenerate)
-- **Form** → Subdivisions of each order
-    - Lithic → Petriform, Carboform
-    - Astatic → Pagoform, Fluxiform
-    - Aetheric → Transiform, Pneumoform, Haliform
-    - Ulsic → Neutraform, Quarkform, etc.        
+
+| Order | Forms |
+| --- | ---		
+| Lithic| Petriform, Carboform
+Astatic|Pagoform, Fluxiform
+Aetheric|Transiform, Pneumoform, Haliform
+Ulsic|Neutraform, Quarkform, Exoticform, etc.
 
 ## 🌱 Ontosomic Branch (Life-Relevance / Biospheric)
 Focus: **How the planemon relates to life (esp. Earthlike envelopes)**

@@ -2,18 +2,19 @@
 title: ""
 ---
 
-## Abstract  
-**Major Topics:**  
-- Defines the **Roche Limit** as the critical distance from a massive primaron where tidal forces exceed a secondron body’s self-gravitational cohesion.  
-- Explains that within this radius, a self-gravitating body cannot remain intact and will be **tidally disrupted** into fragments or rings.  
-- Provides the classical expression for the Roche Limit:  
+## Abstract 
+**Major Topics:** 
+- Defines the **Roche Limit** as the critical distance from a massive primaron where tidal forces exceed a secondron body’s self-gravitational cohesion. 
+- Explains that within this radius, a self-gravitating body cannot remain intact and will be **tidally disrupted** into fragments or rings. 
+- Provides the classical expression for the Roche Limit: 
 
-  $$
+$$
   R_r \approx 2.44\,R_p
   \left(
     \frac{\rho_p}{\rho_s}
   \right)^{\!\tfrac{1}{3}}
-  $$  
+$$
+
   where the ratio of the primaron’s to the satellite’s mean density determines the disruption distance.  
 - Distinguishes between **rigid** and **fluid** satellites:  
   - Rigid (rocky) bodies can survive closer to the primaron (≈1.5–2 $R_p$).  

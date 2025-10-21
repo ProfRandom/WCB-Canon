@@ -199,7 +199,6 @@ Or simply provide example profiles:
 - Mars: ρ = 0.71⨁, d = 24.6h → $B_{surf}$ ≈ 0 μT (solid core)
 
 # Extended Geotic Habitability Guidelines
-```
 
 | Parameter                                                                                                                      | Value(s)                                                                                                                                                                                                          |
 | ------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -218,7 +217,7 @@ Or simply provide example profiles:
 | **Magnetosphere (radiation shielding) ($B_{surf}$)**                                                                           | ≈ ⟨25 ∧ 65⟩ μT (microtesla)                                                                                                                                                                                       |
 | **Land (lithosphere)-water (hydrosphere) proportion**                                                                          | 30%-70%                                                                                                                                                                                                           |
 | **Hydrospheric distribution**                                                                                                  | Five major oceans<br>Numerous smaller seas                                                                                                                                                                        |
-```
+
 > **Keppy**: Uh... wow.  Not sure what to make of all that, frankly.
 
 Yes, that's a lot.

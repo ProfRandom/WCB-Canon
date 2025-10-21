@@ -33,6 +33,7 @@ title: ""
 ### Nanomons → Deni-, Nano-, Okti-, Septiterrans
 **Mass:** 0.0000000001–0.000001 M⨁
 - A catchall term for monons so low in mass that distinguishing between them except in very specific circumstances is unnecessary
+
 ### Micromons → Microterrans
 **Mass:** 0.000001–0.00001 M⨁
 - *Examples*:
@@ -52,6 +53,7 @@ title: ""
 	- Davida (0.000006⨁)
 	- Interamnia (0.000007⨁)
 	- Euphrosyne (0.000010⨁)
+
 ### Minimons → Pentiterrans
 **Mass:** 0.00001–0.0001 M⨁
 - *Examples:* 
@@ -61,6 +63,7 @@ title: ""
 	- Pallas (0.000034⨁)
 	- Vesta (0.000043⨁)
 	- Salacia (0.000082⨁)
+
 ### Midimons → Demiterrans
 **Mass:** 0.001–0.01 M⨁
 - *Examples:* 
