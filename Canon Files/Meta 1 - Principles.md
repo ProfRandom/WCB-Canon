@@ -31,7 +31,7 @@ title: ""
 
 # Mononic and Morphological Axes
 
-# The Mononic Matrix
+## The Mononic Matrix
 
 All physical bodies (*monons*) in the WCB framework are described along two orthogonal axes:  
 their **Mononic class**, which defines scale and self-coherence,  
@@ -39,22 +39,30 @@ and their **Morphological character**, which defines material composition and st
 
 > At the broadest scale, all monons fall into one of three **mass domains** governed by the physics of self-gravitation and fusion onset.  
 > - **Duramons** — all monons with masses below the stellar ignition threshold (**< 0.08 ⊙**); this collective includes every non-fusional body from brown dwarfs and planemons to micromons and asteroids.  
-> - **Stellamons** — all monons with masses in the stable hydrogen-fusion range (**⟨0.08 ∧ 300⟩ ⊙**); these are subdivided by the **spectral-class system** (q.v.) that defines their thermodynamic and photometric behavior.  
+> - **Stellamons** — all monons with masses in the stable hydrogen-fusion range (**⟨0.08 ∧ 300⟩ ⊙**); these are subdivided by the **spectral-class system** (q.v.) that defines their thermodynamic and photometric behavior. 
 > - **Peramons** — all monons whose masses exceed the upper stellar-stability limit (**> 300 ⊙**); these represent the **trans-stellar regime** of radiative instability, pair-creation collapse, or exotic compact states.  
 >  
 > Together, these three domains describe the **Mononic Continuum** from sub-stellar to trans-stellar mass, uniting all self-gravitating bodies under a single hierarchical grammar.
 
 A third, contextual layer — the **Categorical Envelope** — arises from the interaction of the two.
 
-| **Axis**                                 | **Defines**                                                      | **Typical Examples**                                 | **Field of Study** |
-| :--------------------------------------- | :--------------------------------------------------------------- | :--------------------------------------------------- | :----------------- |
-| **Mononic (Vertical)**                   | Scale / mass domain — the degree of self-coherence under gravity | micromon → minimon → planemon → stellamon → ultramon | **Mononics**       |
-| **Morphological (Horizontal)**           | Material / structural composition — what the body is made of     | lithic, rheatic, hydruric, cryic, metalluric         | **Morphology**     |
-| **Categorical / Environmental Envelope** | Contextual synthesis of Mononic class + dominant Morphotype      | geotic, telluric, rheatic, xenotic                   | —                  |
+**Mononic Axis (Vertical)**
+  Defines scale/mass domain — the degree of self-coherence under gravity.
+  Examples: micromons, minimons, planemons, stellamons, untramons.
+  Field: Mononics
+
+**Mophological Axis (Horizontal)**
+- Defines material/structural composition — what the body is made of.
+- Examples: lithic, hydruric, cryic, metalluric.
+- Field: Morphology
+
+**Categorical/Environmental Envelope**
+- Defines the contextual synthesis of mononic class and dominant morphotype.
+- Examples: geotic, telluric, rheatic, xenotic
 
 ### Examples
 - **Earth:** lithic planemon → *geotic* category.  
-- **Jupiter:** rheatic planemon → *rheatic* category.  
+- **Jupiter:** aetheric planemon → *haliform* category.  
 - **Ceres:** hydruric minimon → *asteroidal* category.  
 
 ### Definitions

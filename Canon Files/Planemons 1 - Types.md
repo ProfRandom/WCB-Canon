@@ -419,7 +419,6 @@ Lena Noack & Doris Breuer (2011) add:
 
 **Relation to WCB Classifications** 
 In *Worlds by the Numbers*, **Rheatic planemons** encompass the superhabitable concept, with parameter refinements for internal consistency within WCB’s classification system. 
-- See: **[[Rheatic planemons ✓]]** for in-universe parameter ranges and classification notes.
 
 **References** 
 - Heller, René, and John Armstrong. “Superhabitable Worlds.” *PubMed* (National Library of Medicine, December 31, 2013). [https://pubmed.ncbi.nlm.nih.gov/24380533/](https://pubmed.ncbi.nlm.nih.gov/24380533/) 

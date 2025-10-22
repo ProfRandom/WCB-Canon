@@ -40,7 +40,7 @@ The published literature often speaks of *solar analog* stars, but tends to be d
 
 > **Keppy**: And that doesn't help at all — that could mean *any* star, really.
 
-You're right; so, for our purposes we have our own definitions, based on *orbits* and the ontozones. But, first, a survey of existing terminology.
+You're right; so, for our purposes we have our own definitions, based on *orbits* and the animozones. But, first, a survey of existing terminology.
 
 ## Existing Definitions
 A *Sun-like star* is a broad term used to describe stars that share characteristics with our own Sun. Astronomers often categorize them into a hierarchy based on their *physical* similarity to the Sun. They all need to be main-sequence stars**, actively fusing hydrogen into helium in their core, like our Sun. Otherwise:
@@ -238,7 +238,7 @@ $$
 # A Final Determination
 Substituting all of the $H_x$ values in for λ:
 
-| Limiting<br>Orbit | Scaling<br>Factor<br>(λ) | Calculation | <center>Luminosity<br>(L)</center><br> | Spectral<br>Type | <center>Ontozone</center> |
+| Limiting<br>Orbit | Scaling<br>Factor<br>(λ) | Calculation | <center>Luminosity<br>(L)</center><br> | Spectral<br>Type | <center>Animozone</center> |
 | :---------------: | :----------------------: | :-------------------------: | -------------------------------------: | :--------------: | ------------------------- |
 | $H_0$ | 0.500 | $L = \sqrt[-0.4123]{0.500}$ | 5.372 | F1.760 | Parahabitable |
 | $H_1$ | 0.750 | $L = \sqrt[-0.4123]{0.750}$ | 2.009 | F7.615 | Habitable |

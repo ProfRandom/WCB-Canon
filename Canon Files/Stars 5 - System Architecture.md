@@ -15,7 +15,7 @@ title: ""
  - Both constrained by user-chosen minimum and maximum orbit limits (Ω). 
 - Provides pseudocode-style formulae for iteratively constructing **complete orbital ladders** from any anchor orbit, ensuring intervals remain statistically realistic. 
 - Demonstrates the method through a **worked Solar-type example**, producing an eleven-orbit system consistent with WCB habitability and spacing criteria. 
-- Integrates thermozone boundaries (H₀–H₅) and ontozones to classify each orbit’s environmental potential within the generated system. 
+- Integrates thermozone boundaries (H₀–H₅) and animozones to classify each orbit’s environmental potential within the generated system. 
 - Derives stellar and orbital parameters for the example star (𝒩 = 0.834 AU, L = 0.696 ⊙, T = 0.953 ⊙, Spectral Type G4.7) and analyzes its planemon spacing. 
 - Highlights the interplay between **nucleal** and **perannual** orbits: shows that both cannot host planemons simultaneously when their interval I < 1.5 AU, emphasizing the design trade-offs between orbital flux and orbital period. 
 - Provides quantitative and symbolic tools for deciding when to retain, remove, or shift worlds to maintain physical and narrative plausibility in a star system. 
@@ -35,11 +35,11 @@ title: ""
 
 # Fleshing Out A Star System
 
-We've established spectral classes and types, thermozones, ontozones, habitability indices, and the two critical orbital distances, *nucleal* ($\mathcal{N}$) and *perannual* ($\mathcal{P}$).
+We've established spectral classes and types, thermozones, animozones, habitability indices, and the two critical orbital distances, *nucleal* ($\mathcal{N}$) and *perannual* ($\mathcal{P}$).
 
 But planemons don't orbit only at these discreet distances – they're all over the place. Here's a breakdown of our own Solar system's planemon orbit data:
 
-| <center>planemon</center> | <center>α<br>(AU)</center> | <center>ϵ</center> | Ontozone |
+| <center>planemon</center> | <center>α<br>(AU)</center> | <center>ϵ</center> | Animozone |
 | ----------------------- | -------------------------: | ------------------ | ----------- |
 | Mercury | 0.387 | 0.2056 | Igniozone |
 | Venus | 0.723 | 0.0068 | Calorozone |
@@ -226,9 +226,9 @@ H_4 = 1.770\mathcal{N} &= 1.770(0.834) = 1.476\;AU \\
 H_5 = 4.850\mathcal{N} &= 4.850(0.834) = 4.045\;AU \quad \text{Frost Line} \\
 \end{aligned}
 $$
-And we can add these to our orbits table from above and determine the thermozones and ontozones of the orbits:
+And we can add these to our orbits table from above and determine the thermozones and animozones of the orbits:
 
-| Orbit | Distance | <center>Thermozone</center> | <center>Ontozone</center> |
+| Orbit | Distance | <center>Thermozone</center> | <center>Animozone</center> |
 | :----------------: | :------: | --------------------------- | ------------------------- |
 | 1 | 0.101 | Igniozone | Xenotic |
 | 2 | 0.190 | Igniozone | Xenotic |
@@ -297,7 +297,7 @@ In this case, we're forced to choose between a planemon with Earth's stellar flu
 
 Excellent thought... let's work that through. Here's a modified orbit table taking that into account:
 
-| Orbit | Distance | <center>Thermozone</center> | <center>Ontozone</center> | Interval |
+| Orbit | Distance | <center>Thermozone</center> | <center>Animozone</center> | Interval |
 | :---------------: | :------: | --------------------------- | ------------------------- | -------- |
 | 1 | 0.101 | Igniozone | Xenotic | |
 | 2 | 0.190 | Igniozone | Xenotic | 1.884 |

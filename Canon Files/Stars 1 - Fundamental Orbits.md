@@ -16,7 +16,7 @@ title: ""
   - **Habitable Zone:** ⟨0.750 ∧ 1.770⟩ 𝒩.  
   - **Hospitable Zone:** ⟨0.950 ∧ 1.385⟩ 𝒩 — the inner, most life-friendly corridor.  
   - **Frost Line (ϝ):** 4.850 𝒩 — outer limit for liquid-water stability.  
-- Establishes the **Ontozone notation** ($Z_{IX}$ through $Z_{OX}$) to classify orbital environments: xenotic, parahabitable, habitable, and hospitable.  
+- Establishes the **Animozone notation** (Zone 1 through Zone 7) to classify orbital environments: xenotic, parahabitable, habitable, and hospitable.  
 - Defines the **Thermozones** — mnemonic names and limits for these corridors (H₀–H₅):  
   - *Igniozone*, *Calorozone*, *Heliozone*, *Solarazone*, *Hiberozone*, *Brumazone*, *Cryozone.*  
 - Demonstrates how **𝒩** and **𝒫** interlock: one defines stellar flux, the other orbital cadence. Together they form the dual coordinate system for WCB planetary design.  
@@ -31,7 +31,7 @@ title: ""
 - **𝒫 (Perannual Orbit)** — period-equivalent orbital distance.  
 - **ϝ (Frost Line)** — outer liquid-water limit ≈ 4.850 𝒩.  
 - **H₀–H₅** — Thermozone limit notation.  
-- **Z₍IX … OX₎** — Ontozone identifiers.  
+- **Z₍IX … OX₎** — Animozone identifiers.  
 - **Thermozones:** Ignio-, Caloro-, Helio-, Solara-, Hibero-, Bruma-, Cryozone.  
 - **Intranucleal / Extranucleal** — 𝒫 inside or outside 𝒩.  
 
@@ -92,33 +92,31 @@ $$
 
 Exactly.  But, this region is only a part of a total star system.
 
-### The Ontozones – Two Habitable Zones
-To start with, some scientist posit a wider, more "optimistic habitable zone" region, covering:
+### The Animozones – Three Habitable Zones
+Some scientist posit a wider, more "optimistic habitable zone" region, covering:
 
 $$
 \langle0.750 \wedge 1.770\rangle \mathcal{N}
 $$
-For our purposes, we call this *wider spread* the actual **habitable zone** and we call the narrower span the **hospitable zone**, so that the *hospitable zone* comprises a middle lane between the extremes of the *habitable zone*:
+For our purposes, it becomes confusing for the optimistic habitable zone to *contain* the conservative habitable zone, so, instead WCB defines *three* zones:
 
-$$
-\dfrac{1.385 - 0.95}{1.77 - 0.75} = \dfrac{0.435}{1.02} = 0.4265\;AU
-$$
-… about 42.65% of it, in fact.
-
-|        Orbital Range         | <center>Ontozones</center> |
-| :--------------------------: | -------------------------- |
-| ⟨0.750 ∧ 0.950⟩𝒩 | Habitable Zone             |
-| ⟨0.950 ∧ 1.385⟩𝒩 | Hospitable Zone            |
-| ⟨1.385 ∧ 1.770⟩𝒩 | Habitable Zone             |
+- **Inner Habitable Zone**
+ - Orbital Range: $\langle 0.750 \wedge 0.950 \rangle \mathcal{N}$
+- **Central Habitable Zone**
+ - Orbital Range: $\langle 0.950 \wedge 1.385 \rangle \mathcal{N}$
+- **Outer Habitable Zone**
+ - Orbital Range: $\langle 1.385 \wedge 1.770 \rangle \mathcal{N}$
 
 It has also been suggested that "desert" planemons (think Dune, Tattooine) might orbit in the zone between ⟨0.500 ∧ 0.750⟩N and we might call this the "desert planemon zone", which would be, by definition, **parahabitable** to **habitable** (but mostly the former).
 
-|        Orbital Range         | <center>Ontozones</center> |
-| :--------------------------: | -------------------------- |
-| ⟨0.500 ∧ 0.750⟩𝒩 | Parahabitable              |
-| ⟨0.750 ∧ 0.950⟩𝒩 | Habitable Zone             |
-| ⟨0.950 ∧ 1.385⟩𝒩 | Hospitable Zone            |
-| ⟨1.385 ∧ 1.770⟩𝒩 | Habitable Zone             |
+- **Inner Parahabitable Zone**
+ - Orbital Range: $\langle 0.500 \wedge 0.750 \rangle \mathcal{N}$
+- **Inner Habitable Zone**
+ - Orbital Range: $\langle 0.750 \wedge 0.950 \rangle \mathcal{N}$
+- **Central Habitable Zone**
+ - Orbital Range: $\langle 0.950 \wedge 1.385 \rangle \mathcal{N}$
+- **Outer Habitable Zone**
+ - Orbital Range: $\langle 1.385 \wedge 1.770 \rangle \mathcal{N}$
 
 ### The Frost Line (ϝ)
 Research indicates that beyond a distance of about $a = 4.850\;AU$ in our Solar system, water cannot remain liquid due to insufficient irradiance from the Sun.  This distance is sometimes termed the "Frost Line" or "Ice Line", and an orbital distance of $a = 4.850N$ is the value we set for this outer limit.
@@ -129,79 +127,67 @@ For instance:
 
 This gives us another range of orbits we can add to our accounting:
 
-|        Orbital Range         | <center>Ontozones</center> |
-| :--------------------------: | -------------------------- |
-| ⟨0.500 ∧ 0.750⟩𝒩 | Parahabitable              |
-| ⟨0.750 ∧ 0.950⟩𝒩 | Habitable Zone             |
-| ⟨0.950 ∧ 1.385⟩𝒩 | Hospitable Zone            |
-| ⟨1.385 ∧ 1.770⟩𝒩 | Habitable Zone             |
-| ⟨1.770 ∧ 4.850⟩𝒩 | Parahabitable              |
+- **Inner Parahabitable Zone**
+ - Orbital Range: $\langle 0.500 \wedge 0.750 \rangle \mathcal{N}$
+- **Inner Habitable Zone**
+ - Orbital Range: $\langle 0.750 \wedge 0.950 \rangle \mathcal{N}$
+- **Central Habitable Zone**
+ - Orbital Range: $\langle 0.950 \wedge 1.385 \rangle \mathcal{N}$
+- **Outer Habitable Zone**
+ - Orbital Range: $\langle 1.385 \wedge 1.770 \rangle \mathcal{N}$
+- **Outer Parahabitable Zone**
+ - Orbital Range: $\langle 1.770 \wedge 4.850 \rangle \mathcal{N}$
 
 Jupiter's orbit is at $a = 5.204\;AU$, well *beyond* the $4.850\;AU$ limit, and things just get colder from there, so we can specify that if any kind of "life" does exist in this region it is likely to be extremophile by Earth standards, which WCB denotes as "***xenotic***".
 
-|         Orbital Range         | <center>Ontozones</center> |
-| :---------------------------: | -------------------------- |
-| ⟨0.500 ∧ 0.750⟩𝒩  | Parahabitable              |
-| ⟨0.750 ∧ 0.950⟩𝒩  | Habitable Zone             |
-| ⟨0.950 ∧ 1.385⟩𝒩  | Hospitable Zone            |
-| ⟨1.385 ∧ 1.770⟩𝒩  | Habitable Zone             |
-| ⟨1.770 ∧ 4.850⟩𝒩N | Parahabitable              |
-|     4.850𝒩 →      | Xenotic                    |
+- **Inner Parahabitable Zone**
+ - Orbital Range: $\langle 0.500 \wedge 0.750 \rangle \mathcal{N}$
+- **Inner Habitable Zone**
+ - Orbital Range: $\langle 0.750 \wedge 0.950 \rangle \mathcal{N}$
+- **Central Habitable Zone**
+ - Orbital Range: $\langle 0.950 \wedge 1.385 \rangle \mathcal{N}$
+- **Outer Habitable Zone**
+ - Orbital Range: $\langle 1.385 \wedge 1.770 \rangle \mathcal{N}$
+- **Outer Parahabitable Zone**
+ - Orbital Range: $\langle 1.770 \wedge 4.850 \rangle \mathcal{N}$
+- **Outer Xenotic Zone**
+ - Orbital Range: $4.850\mathcal{N}$ →
 
 Similarly, any "life" that might come to be on a body orbiting closer than 0.500N would also be xenotic:
 
-|        Orbital Range         | <center>Ontozones</center> |
-| :--------------------------: | -------------------------- |
-|     ← 0.500𝒩     | Xenotic                    |
-| ⟨0.500 ∧ 0.750⟩𝒩 | Parahabitable              |
-| ⟨0.750 ∧ 0.950⟩𝒩 | Habitable Zone             |
-| ⟨0.950 ∧ 1.385⟩𝒩 | Hospitable Zone            |
-| ⟨1.385 ∧ 1.770⟩𝒩 | Habitable Zone             |
-| ⟨1.770 ∧ 4.850⟩𝒩 | Parahabitable              |
-|     4.850𝒩 →     | Xenotic                    |
-
-Finally, we differentiate between inner and outer zones, and define notations for each:
-
-|        Orbital Range         | <center>Ontozones</center> | Notation |
-| :--------------------------: | -------------------------- | -------- |
-|     ← 0.500𝒩     | Inner Xenotic Zone         | $Z_{IX}$ |
-| ⟨0.500 ∧ 0.750⟩𝒩 | Inner Parahabitable Zone   | $Z_{IP}$ |
-| ⟨0.750 ∧ 0.950⟩𝒩 | Inner Habitable Zone       | $Z_{IH}$ |
-| ⟨0.950 ∧ 1.385⟩𝒩 | Hospitable Zone            | $Z_{H}$  |
-| ⟨1.385 ∧ 1.770⟩𝒩 | Outer Habitable Zone       | $Z_{OH}$ |
-| ⟨1.770 ∧ 4.850⟩𝒩 | Outer Parahabitable Zone   | $Z_{OP}$ |
-|     4.850𝒩 →     | Outer Xenotic Zone         | $Z_{OX}$ |
+- **Inner Xenotic Zone**
+ - Orbital Range: ← $0.500\mathcal{N}$
+- **Inner Parahabitable Zone**
+ - Orbital Range: $\langle 0.500 \wedge 0.750 \rangle \mathcal{N}$
+- **Inner Habitable Zone**
+ - Orbital Range: $\langle 0.750 \wedge 0.950 \rangle \mathcal{N}$
+- **Central Habitable Zone**
+ - Orbital Range: $\langle 0.950 \wedge 1.385 \rangle \mathcal{N}$
+- **Outer Habitable Zone**
+ - Orbital Range: $\langle 1.385 \wedge 1.770 \rangle \mathcal{N}$
+- **Outer Parahabitable Zone**
+ - Orbital Range: $\langle 1.770 \wedge 4.850 \rangle \mathcal{N}$
+- **Outer Xenotic Zone**
+ - Orbital Range: $4.850\mathcal{N}$ →
 
 This gives us a full inventory of orbital limits for any star system we choose to devise.
 
-# Star System Thermozones
-We've already introduced the term Habitable Zone before, sometimes also prosaically referred to as "The Goldilocks Zone".
+#### Thermozone Limit Notation
+For ease of reference, the limiting orbital distances of the thermozones are denoted by an *H* accompanied by a subscript:
 
-> **Hippy**: Silliness!
+$$
+\begin{array}{lcl}
+0.500\mathcal{N} & \rightarrow & H_0 \\
+0.750\mathcal{N} & \rightarrow & H_1 \\
+0.950\mathcal{N} & \rightarrow & H_2 \\
+1.385\mathcal{N} & \rightarrow & H_3 \\
+1.770\mathcal{N} & \rightarrow & H_4 \\
+4.850\mathcal{N} & \rightarrow & H_5 \\
+\end{array}
+$$
+## The Animozones
+For ease of remembering these zones and their animotic characteristics we use the **Animozone** naming system:
 
-Well....  Scientists *do* try to keep things accessible for those not familiar with the official lingo.
-
-Anyway, broadly speaking, this is the range of orbital distances around a given star in which an orbiting planemon might reasonably be expected to retain liquid water and a reasonably dense atmospheric envelope. In the previous section, we defined the *parahabitable*, *habitable*, and *hospitable* zones as occupying this region.
-
-> **Keppy**: But this is based on ... what?
-
-I'm glad you asked; it's based on how much energy (irradiance) the planemon receives from its star compared to how much insolation the Earth receives from the Sun (you may remember this concept from our discussion of the *nucleal orbit*.  And *that* gives us our standard candle (if you'll pardon the pun).
-## Naming The Zones And Labeling Their Limits
-
-### The Thermozones
-For ease of remembering these zones and their ontosomic characteristics we use the **thermozone** naming system:
-
-| Thermozone |        Orbital Range         | <center>Ontozones</center> | Notation |                        |
-| :--------- | :--------------------------: | -------------------------- | -------- | ---------------------- |
-| Igniozone  |     ← 0.500𝒩     | Inner Xenotic Zone         | $Z_{IX}$ | "Desert planemon Zone"  |
-| Calorozone | ⟨0.500 ∧ 0.750⟩𝒩 | Inner Parahabitable Zone   | $Z_{IP}$ |                        |
-| Heliozone  | ⟨0.750 ∧ 0.950⟩𝒩 | Inner Habitable Zone       | $Z_{IH}$ |                        |
-| Solarazone | ⟨0.950 ∧ 1.385⟩𝒩 | Hospitable Zone            | $Z_{H}$  |                        |
-| Hiberozone | ⟨1.385 ∧ 1.770⟩𝒩 | Outer Habitable Zone       | $Z_{OH}$ |                        |
-| Brumazone  | ⟨1.770 ∧ 4.850⟩𝒩 | Outer Parahabitable Zone   | $Z_{OP}$ |                        |
-| Cryozone   |     4.850𝒩 →     | Outer Xenotic Zone         | $Z_{OX}$ | "Glacier planemon Zone" |
-
-These names are derived from:
 - **Igniozone**: Latin *ignis*, "fire"
 - **Calorozone**: Latin *calor*, "hot, heat"
 - **Heliozone**: Greek *Helios*, an early name of the Sun god
@@ -212,30 +198,87 @@ These names are derived from:
 - **Brumazone**: Latin *bruma*, "winter"
 - **Cryozone**: Greek *kryo*, "cold"
 
-\* Assuming they are otherwise Earth-like in size and composition.
-#### Thermozone Limit Notation
-For ease of reference, the limiting orbital distances of the thermozones are denoted by an *H* accompanied by a subscript:
+We can now add the zone limits and the animozone names to our list:
 
-| Notation |  Orbital Distance  |
-| :------: | :----------------: |
-| H₀       | 0.500𝒩 |
-| H₁       | 0.750𝒩 |
-| H₂       | 0.950𝒩 |
-| H₃       | 1.385𝒩 |
-| H₄       | 1.770𝒩 |
-| H₅       | 4.850𝒩 |
+- **Inner Xenotic Zone**
+ - Orbital Range: $\leftarrow 0.500\mathcal{N}$
+   - Zone Limits: $\leftarrow H_0$
+     - Animozone: *Igniozone*
+- **Inner Parahabitable Zone**
+ - Orbital Range: $\langle 0.500 \wedge 0.750 \rangle \mathcal{N}$
+   - Zone Limits: $\langle H_0 \wedge H_1 \rangle$
+     - Animozone: *Calorozone*
+- **Inner Habitable Zone**
+ - Orbital Range: $\langle 0.750 \wedge 0.950 \rangle \mathcal{N}$
+   - Zone Limits: $\langle H_1 \wedge H_2 \rangle$
+     - Animozone: *Heliozone*
+- **Central Habitable Zone**
+ - Orbital Range: $\langle 0.950 \wedge 1.385 \rangle \mathcal{N}$
+   - Zone Limits: $\langle H_2 \wedge H_3 \rangle$
+     - Animozone: *Solarazone*
+- **Outer Habitable Zone**
+ - Orbital Range: $\langle 1.385 \wedge 1.770 \rangle \mathcal{N}$
+   - Zone Limits: $\langle H_3 \wedge H_4 \rangle$
+     - Animozone: *Hiberozone*
+- **Outer Parahabitable Zone**
+ - Orbital Range: $\langle 1.770 \wedge 4.850 \rangle \mathcal{N}$
+   - Zone Limits: $\langle H_4 \wedge H_5 \rangle$
+     - Animozone: *Brumazone*
+- **Outer Xenotic Zone**
+ - Orbital Range: $4.850\mathcal{N}$ →
+   - Zone Limits: $H_5 \rightarrow$
+     - Animozone: *Cryozone*
 
-Adding these to our earlier table:
+Finally, giving each set of zone limits a unique nomenclature:
 
-| <center>Thermozone</center> | <center>Zone<br>Limits</center> | <center>Orbital<br>Range</center><br> | <center>Ontozones</center> | Notation |                       |
-| --------------------------- | :-----------------------------: | :-----------------------------------: | -------------------------- | -------- | --------------------- |
-| Igniozone                   |              ← H₀               |         ← 0.500𝒩          | Inner Xenotic Zone         | $Z_{IX}$ | "Desert planemon Zone" |
-| Calorozone                  |            ⟨H₀ ∧ H₁⟩            |     ⟨0.500 ∧ 0.750⟩𝒩      | Inner Parahabitable Zone   | $Z_{IP}$ |                       |
-| Heliozone                   |            ⟨H₁ ∧ H₂⟩            |     ⟨0.750 ∧ 0.950⟩𝒩      | Inner Habitable Zone       | $Z_{IH}$ |                       |
-| Solarazone                  |            ⟨H₂ ∧ H₃⟩            |     ⟨0.950 ∧ 1.385⟩𝒩      | Hospitable Zone            | $Z_{H}$  |                       |
-| Hiberozone                  |            ⟨H₃ ∧ H₄⟩            |     ⟨1.385 ∧ 1.770⟩𝒩      | Outer Habitable Zone       | $Z_{OH}$ |                       |
-| Brumazone                   |            ⟨H₄ ∧ H₅⟩            |     ⟨1.770 ∧ 4.850⟩𝒩      | Outer Parahabitable Zone   | $Z_{OP}$ |                       |
-| Cryozone                    |              H₅ →               |         4.850𝒩 →          | Outer Xenotic Zone         | $Z_{OX}$ | "Glaci planemon Zone"  |
+$$
+\begin{array}{rclcl}
+\leftarrow 0.500\mathcal{N} & \rightarrow & \text{Zone 1} & \rightarrow & \mathcal{Z}_1 \\
+\langle 0.500 \wedge 0.750 \rangle \mathcal{N} & \rightarrow & \text{Zone 2} & \rightarrow & \mathcal{Z}_2 \\
+\langle 0.750 \wedge 0.950 \rangle \mathcal{N} & \rightarrow & \text{Zone 3} & \rightarrow & \mathcal{Z}_3 \\
+\langle 0.950 \wedge 1.385 \rangle \mathcal{N} & \rightarrow & \text{Zone 4} & \rightarrow & \mathcal{Z}_4 \\
+\langle 1.385 \wedge 1.770 \rangle \mathcal{N} & \rightarrow & \text{Zone 5} & \rightarrow & \mathcal{Z}_5 \\
+\langle 1.770 \wedge 4.850 \rangle \mathcal{N} & \rightarrow & \text{Zone 6} & \rightarrow & \mathcal{Z}_6 \\
+4.850\mathcal{N} \rightarrow & \rightarrow & \text{Zone 7} & \rightarrow & \mathcal{Z}_7 \\
+\end{array}
+$$
+This gives us our final list of the thermozone nomenclature
+
+- **Inner Xenotic Zone**
+ - Orbital Range: $\leftarrow 0.500\mathcal{N}$
+   - Zone Limits: $\leftarrow H_0$
+     - Animozone: *Igniozone*
+       - Zone 1 ($Z_1$)
+- **Inner Parahabitable Zone**
+ - Orbital Range: $\langle 0.500 \wedge 0.750 \rangle \mathcal{N}$
+   - Zone Limits: $\langle H_0 \wedge H_1 \rangle$
+     - Animozone: *Calorozone*
+       - Zone 2 ($Z_2$)
+- **Inner Habitable Zone**
+ - Orbital Range: $\langle 0.750 \wedge 0.950 \rangle \mathcal{N}$
+   - Zone Limits: $\langle H_1 \wedge H_2 \rangle$
+     - Animozone: *Heliozone*
+       - Zone 3 ($Z_3$)
+- **Central Habitable Zone**
+ - Orbital Range: $\langle 0.950 \wedge 1.385 \rangle \mathcal{N}$
+   - Zone Limits: $\langle H_2 \wedge H_3 \rangle$
+     - Animozone: *Solarazone*
+       - Zone 4 ($Z_4$)
+- **Outer Habitable Zone**
+ - Orbital Range: $\langle 1.385 \wedge 1.770 \rangle \mathcal{N}$
+   - Zone Limits: $\langle H_3 \wedge H_4 \rangle$
+     - Animozone: *Hiberozone*
+       - Zone 5 ($Z_5$)
+- **Outer Parahabitable Zone**
+ - Orbital Range: $\langle 1.770 \wedge 4.850 \rangle \mathcal{N}$
+   - Zone Limits: $\langle H_4 \wedge H_5 \rangle$
+     - Animozone: *Brumazone*
+       - Zone 6 ($Z_6$)
+- **Outer Xenotic Zone**
+ - Orbital Range: $4.850\mathcal{N}$ →
+   - Zone Limits: $H_5 \rightarrow$
+     - Animozone: *Cryozone*
+       - Zone 7 ($Z_7$)
 
 This gives us a very robust way of discussing orbital distances in any star system.
 
@@ -243,6 +286,7 @@ Note that the *nucleal orbit*, being always $\mathcal{N} = 1.0N$, always falls w
 
 ## The Perannual Orbit
 There is one remaining essential star system orbit, which I have called the **perannual** orbit.  The word comes from the Latin *per annum*, meaning "per year" or "each year", and the name reflects that this is the orbit in any star system which has an orbital period (*P*) of exactly one Earth year.
+
 ##### IMPORTANT
 > "One Earth Year" in this case is the duration of Earth's complete orbit around the Sun relative to the larger reference frame of the "fixed" stars; thus this is called the **sidereal year**, from the Latin *sidus*, "star".  This is measured and denoted in terms of **ephemeris days** — which are *defined* to be exactly 86400 *seconds* in duration. Thus, the sidereal year (and, consequently, the perannual year) has a duration of:
 
@@ -328,12 +372,12 @@ $$
 \mathcal{P} &= \sqrt[3]{M} &&\text{When using only the central mass} \\
 \end{aligned}
 $$
-We have explored both [[M002 - Stars — 03 The Nucleal Orbit ✓|The Nucleal Orbit]] and [[M002 - Stars — 05 The Perannual Orbit ✓|The Perannual Orbit]].  These two are not *limiting distances*, but **orbital environs** which both describe and contribute to the ontosomic nature of planemons.
+We have explored both [[M002 - Stars — 03 The Nucleal Orbit ✓|The Nucleal Orbit]] and [[M002 - Stars — 05 The Perannual Orbit ✓|The Perannual Orbit]].  These two are not *limiting distances*, but **orbital environs** which both describe and contribute to the animotic nature of planemons.
 
 As a quick review:
 - **Nucleal Orbit**: that orbit (expressed in AU) at which a planemon receives from its star(s) the same radiant flux as Earth receives from the Sun at one Astronomical Unit distance, calculated by: 
 
- $$
+$$
 	\mathcal{N} = \sqrt{L}
 $$
 

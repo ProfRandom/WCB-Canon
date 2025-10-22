@@ -83,7 +83,7 @@ title: *Stars 6 — Reference Tables*
 
 ## 4 Thermozone Boundaries (normalized to 𝒩 = 1.0)
 
-| Label | Orbit Multiple (×𝒩) | Ontozone | Common Name |
+| Label | Orbit Multiple (×𝒩) | Animozone | Common Name |
 |:--:|:--:|:--|:--|
 | H₀ | 0.500 | Inner Xenotic | Igniozone |
 | H₁ | 0.750 | Inner Parahabitable | Calorozone |

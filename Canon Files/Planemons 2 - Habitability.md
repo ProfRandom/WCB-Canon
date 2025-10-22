@@ -254,7 +254,7 @@ This sidebar examines the reasoning behind each boundary, explores edge cases, a
  - Atmospheric loss
  - Magnetic weakness
 	 - Thermal stagnation
-	- They may be ontosomic for extremophiles — but sustaining complex, Earth-like ecologies over billions of years is **highly unlikely**
+	- They may be animotic for extremophiles — but sustaining complex, Earth-like ecologies over billions of years is **highly unlikely**
 ## Above ≈ 1.500⨁
 - **Gravitational Consequences Amplify**
 	- Increased mass **usually means higher surface gravity**, unless offset by low density
@@ -297,7 +297,7 @@ This sidebar examines the reasoning behind each boundary, explores edge cases, a
  - Civilizations may be trapped **planemon-bound**, or face extreme energy costs for satellite networks and off-world activity
  - Cultural evolution diverges as the **cosmic horizon closes**
 - **Conclusion**: 
-	- Worlds above ~1.500⨁ mass may still be ontosomic — but the **surface environment** becomes increasingly hostile to Earthlike biospheres.
+	- Worlds above ~1.500⨁ mass may still be animotic — but the **surface environment** becomes increasingly hostile to Earthlike biospheres.
 		- Atmospheric pressures surge
 	 - Climate regulation breaks
  - Biochemistry must adapt or fail 
@@ -310,7 +310,7 @@ In 2014, René Heller and John Armstrong proposed the existence of **superhabita
 
 > A **superhabitable** world is one that provides **enhanced conditions** for the *emergence, proliferation, and persistence* of life — especially diverse, adaptive, and long-lasting biospheres.
 > 
-> In *Worldcrafting 101* terms, these may be considered **mega-ontosomic** worlds: not only capable of supporting life, but actively *better* at nurturing it.
+> In *Worldcrafting 101* terms, these may be considered **mega-animotic** worlds: not only capable of supporting life, but actively *better* at nurturing it.
 
 #### 🔸 Key Mass-Linked Traits of Superhabitables
 
@@ -323,7 +323,7 @@ In 2014, René Heller and John Armstrong proposed the existence of **superhabita
 	- **Thicker atmospheres**: improved radiation shielding, more stable greenhouse effect 
 	- **More shallow seas**: potentially broader tidal zones and nutrient-rich photic environments
 - **Implications**
-	- Mass increases above ~1.500 ⨁ usually signal **rising risk**, particularly for **Earthlike** surface biology. But for generalized **ontosomic potential**, the picture is more nuanced.
+	- Mass increases above ~1.500 ⨁ usually signal **rising risk**, particularly for **Earthlike** surface biology. But for generalized **animotic potential**, the picture is more nuanced.
 	 - A world with 1.600–2.000⨁ mass and moderate density ⟨0.800 ∧ 1.100⟩⨁ may maintain: 
 		- Surface gravity in the ≈ ⟨1.200 ∧ 1.400⟩⨁ range (still viable)
 		- Escape velocity high enough to retain a thick but breathable atmosphere
@@ -413,7 +413,7 @@ In 2014, René Heller and John Armstrong proposed the existence of **superhabita
 - **Conclusion**: 
 	- Density below ~0.500⨁ means your world is likely an **iceball, a gas-rich bloater, or a crust over a subsurface ocean**. 
 	- Even if mass or gravity fall within Geotic bounds, the planemon’s internal
-	- Such a world may be ontosomic, or even **parahabitable**, under exotic conditions — but its suitability for Earthlike surface biospheres is **nearly nil**.
+	- Such a world may be animotic, or even **parahabitable**, under exotic conditions — but its suitability for Earthlike surface biospheres is **nearly nil**.
 
 ## Above ≈ 1.500⨁
 - **Strong Indicator of Iron-Heavy Composition**
@@ -475,7 +475,7 @@ In 2014, René Heller and John Armstrong proposed the existence of **superhabita
 - **Conclusion**: 
 	- planemons with ρ > 1.500⨁ are **metal-heavy, compact, and structurally intense**.
 	- While they may retain atmospheres and shield themselves magnetically, their geology and surface conditions **work against biospheric diversity and long-term climate stability**.
-	- They may be ontosomic — but their suitability for Earthlike life is tenuous, and their evolutionary trajectories are likely to be **slow, deep, and strange**.
+	- They may be animotic — but their suitability for Earthlike life is tenuous, and their evolutionary trajectories are likely to be **slow, deep, and strange**.
 
 ## 🌍 Density in Rheatics (Superhabitables)
 

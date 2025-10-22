@@ -18,7 +18,7 @@ title: ""
 
 **Cross-Check Notes:**  
 - Reinforces **Core Parameter Precedence** by showing equivalences and constraints.  
-- Serves as the mathematical backbone for all mononic monoclassifications (Geotic, Gaean, Rheatic).  
+- Serves as the mathematical backbone for all mononic monoseries (Geotic, Gaean, Rheatic).  
 - Companion to **Geotic Ground States**, which simplifies these identities when one or more parameters = 1.  
 
 ## Abstract  2
@@ -27,7 +27,7 @@ title: ""
 - **Conformation branch** (structural/physical): based on composition and physical form.  
   - Orders: Lithic, Astatic, Aetheric, Ulsic.  
   - Forms: Petriform, Carboform, Pagoform, Fluxiform, Transiform, Pneumoform, Haliform, Neutraform, Quarkform, etc.  
-- **Ontosomic branch** (life-relevance): based on relation to biospheric potential.  
+- **Animotic branch** (life-relevance): based on relation to biospheric potential.  
   - Classes: Geotic, Gaean, Rheatic, Xenotic.  
   - Types: Subdivisions (e.g., Marginal Geotic, Dense Hot Rheatic).  
   - States (Climostates): Global climate regimes (Cryostate, Hydrostate, Pyrostate, Pluristate, etc.).  
@@ -37,13 +37,13 @@ title: ""
 **Key Terms & Symbols:**  
 - **Planemon** — planetary monon, trunk-level category.  
 - **Conformation** — physical/chemical classification.  
-- **Ontosomy** — life-relevance classification.  
+- **Animotics** — life-relevance classification.  
 - **Orders/Forms** — structural breakdown of planemon types.  
 - **Classes/Types/States/Conditions** — biospheric breakdown of livability.  
 
 **Cross-Check Notes:**  
 - Provides the **master map** for all other monon-related classifications.  
-- Ensures that **physical identity** (Conformation) and **biospheric identity** (Ontosomic) can coexist without collision.  
+- Ensures that **physical identity** (Conformation) and **biospheric identity** (Animotic) can coexist without collision.  
 - Anchors subordinate classifications (e.g., Gaean, Rheatic, Hydrostate subtypes).  
 
 ## Abstract 3
@@ -62,23 +62,23 @@ title: ""
 
 **Cross-Check Notes:**  
 - Canon as of Glossary v1.217.  
-- Complements **Mononic Mass Classes** (size taxonomy), creating a two-axis classification system (mass × composition).  
+- Complements **Mononic Mass Domaines** (size taxonomy), creating a two-axis classification system (mass × composition).  
 - “Haliform” here = Gas Giants → ensure no confusion with earlier Haliform (halogen-bearing lithic variant).  
 - Overlaps with terms already staged in Glossary: Lithic, Astatic, Aetheric, Ulsic.  
 
 ## Abstract  4
 
 ### Major Topics:  
-- Provides the **canonical reference table** for **monon mass classes and monoclasses**, establishing the taxonomy framework used across WCB.  
+- Provides the **canonical reference table** for **monon mass domaines and monoseries**, establishing the taxonomy framework used across WCB.  
 - Defines the hierarchical structure of **–moic categories** by mass domain:  
   - **micromon, minimon, midimon, planemon, intermon, stellamon, supermon, ultramon, hypermon.**  
 - Associates each category with its **mass range, radius bounds, and representative examples** (from asteroids to stellar bodies).  
 - Establishes the system of **terracentric prefixes** (centiterran, deciterran, kiloterran, megaterran, etc.) for finer-grained scaling across mass domains.  
-- Connects monoclasses (e.g., **telluric, rheatic, gaean**) with their appropriate mass classes, showing where habitability-relevant subtypes emerge.  
+- Connects monoseries (e.g., **telluric, rheatic, gaean**) with their appropriate mass domaines, showing where habitability-relevant subtypes emerge.  
 - Serves as the master framework to which specialized notes (e.g., **Gaean planemons, Rheatic planemons**) attach.  
 
 ### Key Terms & Symbols:**  
-- **Mass classes:** micromon, minimon, midimon, planemon, intermon, stellamon, supermon, ultramon, hypermon.  
+- **Mass domaines:** micromon, minimon, midimon, planemon, intermon, stellamon, supermon, ultramon, hypermon.  
 - **Terracentric scaling prefixes:** centiterran, deciterran, kiloterran, megaterran, etc.  
 - **Ontotype:** compositional subtypes (telluric, rheatic, gaean, xenotic).  
 - **µT (microterran units):** mass measure used for micromons and smaller classes.  
@@ -90,21 +90,21 @@ title: ""
 
 ## Abstract 5
 **Major Topics:**  
-- Definition of the **mononic condition**: all WCB monoclasses (planemon, intermon, stellamon, etc.) apply only to single, gravitationally coherent bodies.  
-- Scope clarification: monoclasses exclude multi-body systems, aggregates, and regions.  
+- Definition of the **mononic condition**: all WCB monoseries (planemon, intermon, stellamon, etc.) apply only to single, gravitationally coherent bodies.  
+- Scope clarification: monoseries exclude multi-body systems, aggregates, and regions.  
 - Distinction between *ontological object* vs. *mathematical abstraction*.  
-- Ontological boundary rule: barycentered approximations ≠ monoclasses.  
+- Ontological boundary rule: barycentered approximations ≠ monoseries.  
 
 **Key Terms & Symbols:**  
-- –mon suffix = monoclass indicator (e.g., planemon, stellamon, intermon).  
+- –mon suffix = monoseries indicator (e.g., planemon, stellamon, intermon).  
 - Center of mass (singular) = necessary condition for –mon classification.  
-- Cryptomon, supermon, ultramon, hypermon = monoclass variants.  
+- Cryptomon, supermon, ultramon, hypermon = monoseries variants.  
 - Barycenter = mathematical construct; not a physical monon.  
 
 **Cross-Check Notes:**  
 - Canonical clarification: multi-body systems (binaries, clusters, galaxies, nebulae) are **not mononic**, even if composed of mononic members.  
 - Rule resolves ambiguity: a system of planemons is not itself a planemon.  
-- Complements **Mononic Mass Classes** and **Mononic Compositions** (**morphotypes**) as monoclass framework foundations.  
+- Complements **Mononic Mass Domaines** and **Mononic Compositions** (**morphotypes**) as monoseries framework foundations.  
 - Ensure consistent usage: “–mon” suffix always denotes singular gravitationally self-bound entities, never systems.  
 
 # Monon Equations of State
@@ -138,7 +138,7 @@ Astatic|Pagoform, Fluxiform
 Aetheric|Transiform, Pneumoform, Haliform
 Ulsic|Neutraform, Quarkform, Exoticform, etc.
 
-## 🌱 Ontosomic Branch (Life-Relevance / Biospheric)
+## 🌱 Animotic Branch (Life-Relevance / Biospheric)
 Focus: **How the planemon relates to life (esp. Earthlike envelopes)**
 - **Class** → Broad livability envelopes
     - Geotic (Earth-normal range)
@@ -158,11 +158,11 @@ Focus: **How the planemon relates to life (esp. Earthlike envelopes)**
 - **Condition** → Finer descriptors of atmospheric/seasonal character 
     - Tempestal (storm-dominated)
     - Zephyral (mild winds, gentle climate)
-    - Serenal (stable, calm, serene environment)        
+    - Serenal (stable, calm, serene environment)
 
 ## 🧭 Principle
 - **Conformation** = *physical chemistry* of the body.
-- **Ontosomy** = *life-relevance* of the body.
+- **Animotics** = *life-relevance* of the body.
 - Both are **valid, independent lenses** for describing the same planemon.
 - Example:
     - Earth = Lithic (Order) → Petriform (Form)
@@ -198,11 +198,11 @@ And each has subsets, called ***conformations***:
 
 These are intended to categorize monons *in their current configuration*.  A monon may (usually will) assume different qualities depending on its age and environment.
 
-# Monon Mass Classes and monoclasses
+# Monon Mass Domaines and monoseries
 
-## Listed by Mass Class
+## Listed by Mass Domain (Duplicated in Monons 2)
 
-| <center>Mass Class</center> | <center>Min. Mass ≥</center> | <center>Max. Mass <</center> | <center>Power</center> | <center>Monoclass</center>                 |
+| <center>Mass Domain</center> | <center>Min. Mass ≥</center> | <center>Max. Mass <</center> | <center>Power</center> | <center>Monoseries</center>                 |
 | --------------------------- | ---------------------------: | ---------------------------: | ---------------------: | ------------------------------------------ |
 | deniterran                  |                 0.0000000001 |                  0.000000001 |                  10⁻¹⁰ | nanomon                                    |
 | nanoterran                  |                  0.000000001 |                   0.00000001 |                   10⁻⁹ | nanomon                                    |
@@ -228,9 +228,9 @@ These are intended to categorize monons *in their current configuration*.  A mon
 | ondoterran                  |                 100000000000 |                1000000000000 |                   10¹¹ | beyond -mo classification                  |
 | teraterran                  |                1000000000000 |               10000000000000 |                   10¹² | beyond -mo classification                  |
 
-## Listed by Monoclass
+## Listed by Monoseries
 
-| <center>Monoclass</center> | <center>Min. Mass ≥</center> | <center>Max. Mass <</center> | Exponent Range |
+| <center>Monoseries</center> | <center>Min. Mass ≥</center> | <center>Max. Mass <</center> | Exponent Range |
 |----------------------------|------------------------------|------------------------------|----------------|
 | nanomon                    | 0.0000000001                 | 0.000001                     | 10⁻¹⁰ — 10⁻⁶   |
 | micromon                   | 0.000001                     | 0.00001                      | 10⁻⁶ — 10⁻⁵    |
@@ -245,7 +245,7 @@ These are intended to categorize monons *in their current configuration*.  A mon
 
 # Classification Rule — The Monon Condition
 
-> **All WCB monoclasses (planemon, intermon, stellamon)** refer exclusively to **individual, gravitationally coherent bodies** — not to multi-body **systems**, **collections**, or **regions**.
+> **All WCB monoseries (planemon, intermon, stellamon)** refer exclusively to **individual, gravitationally coherent bodies** — not to multi-body **systems**, **collections**, or **regions**.
 
 ### 🔒 What *Is* a Monon
 A **monon** is defined by:
@@ -265,14 +265,14 @@ The following are not **monon**, regardless of total mass:
 | **Binary Systems**      | Sirius A+B, Pluto–Charon         | Contain ≥2 centers of mass       |
 | **Black Hole Binaries** | LIGO-detected pairs              | Still system-level               |
 
-## **WCB Monon Rule (Monoclass Scope Clarification)**
+## **WCB Monon Rule (Monoseries Scope Clarification)**
 
 > **All mononic classifications (planemon, intermon, stellamon, cryptomon)** refer to **individual, contiguous, gravitationally self-bound objects**.
 > 
 > Multi-object systems — whether binary, ternary, or aggregate — are **not themselves monons, even if composed entirely of monons.
 
 ### 🧠 Key Principles:
-1. Monoclass is not emergent**:  
+1. Monoseries is not emergent**:  
     A **system of planemons** is not a larger planemon.  
     A **binary of stellamons** is not a single, larger stellamon.
 2. **Modeling convenience ≠ ontological unity**:
