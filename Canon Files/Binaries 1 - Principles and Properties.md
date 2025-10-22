@@ -37,7 +37,7 @@ title: *Binaries 1 - Principles and Properties*
 # The Basics
 This section focuses on binary systems in general. While higher-multiplicity arrangements are common and fascinating, they introduce significant mathematical and physical complexity beyond the current scope of this guide.
 
-Binary systems consist of two bodies bound in a mutual gravitational relationship, each tracing an orbital path around a shared center of mass known as the **barycenter** (*ḅ*). This point, ||shown as a black X in the figure||, *always* lies along the line connecting the centers of the two bodies and is not a massive object itself, but a calculated position determined by the masses and separation of the components.
+Binary systems consist of two bodies bound in a mutual gravitational relationship, each tracing an orbital path around a shared center of mass known as the **barycenter** (*ḅ*). This point, , *always* lies along the line connecting the centers of the two bodies and is not a massive object itself, but a calculated position determined by the masses and separation of the components.
 
 When two monons are in a gravitational relationship, we refer to the more massive of the pair as the *primaron* and the other as the *secondron*. If the two monons are of equal mass, the distinction is purely arbitrary.
 
@@ -266,16 +266,18 @@ $$
 
 Empirically, binary systems trace a clear trend:
 
-| Regime | Typical Period P | Typical Eccentricity e | Behavior |
-| ---------------- | ---------------- | ------------------------------ | --------------------------- |
-| **Short-period** | P ≲ 10 days | e ≈ 0 | Nearly circular |
-| **Intermediate** | 10 – 10³ days | e rises from 0 → 0.6 | Mixed circular / elliptical |
-| **Wide** | P ≳ 10³ | Broad scatter, e often 0.6–0.9 | Dynamically “hot” |
-This relation has been confirmed repeatedly—from **Duquennoy & Mayor (1991)** and **Raghavan et al. (2010)** to **Moe & Di Stefano (2017)** and modern **Gaia DR3** samples.
+$$
+\begin{array}{l|l|l|l}
+\text{Regime} & \text{Typical Period} & \text{Typical Eccentricity} & \text{Behavior} \\
+\hline
+\text{Short-period} & P \le 10 \text{ days} & e \approx 0 & \text{Nearly circular} \\
+\text{Intermediate} & P \approx 10 \rightarrow 10^3 \text{ days} & e \approx 0 \rightarrow 0.6 & \text{Mixed circular/elliptical} \\
+\text{Wide} & P \ge 10^3 \text{ days} & e \approx 0.6 \rightarrow 0.9 & \text{Dynamically "hot"}
+\end{array}
+$$
+These relations have been confirmed repeatedly — from *Duquennoy & Mayor (1991)* and *Raghavan et al. (2010)* to *Moe & Di Stefano (2017)* and modern *Gaia DR3* samples.
 
-This relation has been confirmed repeatedly—from *Duquennoy & Mayor (1991)* and *Raghavan et al. (2010)* to *Moe & Di Stefano (2017)* and modern *Gaia DR3* samples.
-
-#### 2. **Physical Cause — Tidal Circularization**
+#### 2. Physical Cause — Tidal Circularization
 
 Close binaries experience **tidal friction**: each star raises bulges on its companion. 
 Friction within those bulges converts orbital energy into heat, draining the system’s eccentricity.

@@ -130,10 +130,14 @@ A third, contextual layer — the **Categorical Envelope** — arises from the i
 
 ### 🧭 Summary Grid (Expanded)
 
-| Name      | Prefix | Abbr. | Mass Range (⨁)                  |
-| --------- | ------ | ----- | ------------------------------- |
-| Stellamon | —      | —     | 26,641 – 100,000 (0.08⊙ - 300⊙) |
-| Supermon  | super- | smt   | 100,000 – 1,000,000             |
-| Ultramon  | ultra- | umt   | 1,000,000 – 1,000,000,000       |
-| Hypermon  | hyper- | hmt   | >1,000,000,000                  |
+$$
+\begin{array}{llll}
+\textbf{Name} & \textbf{Prefix} & \textbf{Abbreviation} & \textbf{Mass Range ({$\oplus$})} \\
+\hline\\[-1em]
+\text{Stellamon} &  —  &  —  & 26{,}641 - 100{,}000 \;\;(0.08 - 300)\odot \\
+\text{Supermon} & \text{super-} & \text{smt} & 100{,}000 - 1{,}000{,}000 \\
+\text{Ultramon} & \text{ultra -} & \text{umt} & 1{,}000{,}000 - 1{,}000{,}000{,}000 \\
+\text{Hypermon} & \text{hyper-} & \text{hmt} & 1{,}000{,}000{,}000 \rightarrow
+\end{array}
+$$
 

@@ -51,7 +51,7 @@ This reference provides a complete algebraic toolkit for solving any ellipse —
 	-  It also defines the ellipse as a conic:
 
 $$
-  \dfrac{\text{distance to focus}}{\text{distance to directrix}} = e
+e =  \dfrac{\text{distance to focus}}{\text{distance to directrix}}
 $$
 - **f** — flattening $b = 1 - \dfrac{b}{a}$  
 - **i** — major axis $=2a$  
