@@ -107,7 +107,7 @@ title: ""
 - Complements **Mononic Mass Domaines** and **Mononic Compositions** (**morphotypes**) as monoseries framework foundations.  
 - Ensure consistent usage: “–mon” suffix always denotes singular gravitationally self-bound entities, never systems.  
 
-# Monon Equations of State
+# Duramon Equations of State
 
 $$
 \begin{array}{c|c|c|c|c}
