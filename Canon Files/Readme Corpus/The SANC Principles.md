@@ -21,7 +21,7 @@ To that end:
 
 ---
 
-## 🧮 The Second Form — **S**traightforward, **A**pproximate, **N**otationally **C**lear
+## 🧮 The Second Form — **S**traightforward, **A**ppropriate, **N**otationally **C**lear
 
 - **Straightforward:** Every concept is paired with a usable, illustrated example.  
 - **Approximate:** When precision matters, we keep it; when approximation suffices, we mark it — explicitly.  
@@ -44,3 +44,21 @@ Every equation, taxonomy, or symbolic rule must pass two tests:
 
 **See also:**  
 `Integrity in Worldmaking — Mythos and Logos`  |  `GEWE Corollary`  |  `Consistency and Continuity`
+
+## 🧭 The Fourth Form — **S**elf-**A**djusting, **N**on-**C**oercive
+
+Worlds are living systems; their models should breathe.
+
+- **Self-Adjusting:**  Whenever possible, WCB formulas and frameworks are built to rebalance themselves when conditions change.  
+  - If a model breaks under a new parameter, that’s a *signal*, not a failure.  
+  - Builders should refine the boundary, not blame the equation.
+
+- **Non-Coercive:**  No rule in WCB is absolute.  
+  - A law that cannot flex is not a law of *making*; it’s a law of *limitation.*  
+  - Every construct is an invitation to experiment — a guideline, not a guardrail.
+
+**Guiding Goal**
+
+> **Coherence, not control.**  
+> A worldwright’s task is to build systems that sustain themselves, not obey their maker.
+

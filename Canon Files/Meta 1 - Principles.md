@@ -17,7 +17,7 @@ title: ""
 - Reaffirms the methodological boundaries of WCB through the **SANC Principle** (*Science-Adjacent, No Calculus*): worldbuilding tools employ algebra, geometry, and trigonometry to achieve analytic clarity without advanced formalism — “**rigor without rigidity**.”  
 
 **Key Terms & Symbols:**  
-- **duramon [neo]:** sub-stellar monon (< 0.08 ⊙).  
+- **Duramon [neo]:** sub-stellar monon (< 0.08 ⊙).  
 - **Stellamon [sci/neo]:** stellar monon (⟨0.08 ∧ 300⟩ ⊙).  
 - **Peramon [neo]:** trans-stellar monon (> 300 ⊙).  
 - **Mononic Continuum** — total spectrum of self-gravitating bodies.  
@@ -77,56 +77,7 @@ A third, contextual layer — the **Categorical Envelope** — arises from the i
 # WCB Canonical Mononic Morphotypes
 *A classification of mass-based cosmic bodies by gravitational, structural, and fusion characteristics.*
 
-## 🔵 **Planemon**
-> A gravitationally rounded object in the mass range typical of planemons and planemon analogs.
-- **Mass Range**:
-	- 1.0 dmt ⨁ ≤ m < 4.131 kt (1.67 demiterrans to 4.131 kiloterrans)
-	- 0.0001 ⨁ ≤ m < 4.131 kt 
-- **Fusion Status**: No fusion
-- **Examples**: Earth, Mercury, Ganymede, Kepler-22b
-- **Notes**: May include isolated or satellite-bound bodies; includes dwarf planemons and major moons above hydrostatic threshold.
 
-## 🟠 **Intermon**
-> A transitional-mass object between planemons and stars.
-- **Mass Range**:  
-    - 4.131 kt < m ≤ 2.5424 myt (4.131 kiloterrans to 2.5424 myriaterrans)
-	- 13♃ < m < 80♃
-- **Fusion Status**: Sub-stellar; may fuse deuterium
-- **Examples**: Brown dwarfs, isolated non-hydrogen fusors
-- **Notes**: Symbolic “liminal” zone; fusion is partial or temporary.
-
-## 🔴 **Stellamon**
-> A self-luminous object that sustains hydrogen fusion at its core. The foundational unit of stellar systems.
-- **Mass Range**:
-	- 2.5424 myt < m ≤ 1 hxt (2.5424 myriaterrans to 1 hexaterran)
-	- 80♃ < m < 31,466♃
-	- 0.076⊙ < m < 300⊙ 
-- **Fusion Status**: Core hydrogen fusion
-- **Examples**: Proxima Centauri, the Sun, Sirius A
-- **Notes**: All main-sequence stars fall here; upper bound set by radiation pressure limits to approximately (M = 300⊙).
-
-## 🔵 **Supermon**
-> A high-mass monon object that exceeds the stellar mass range but is **not yet galactic** in scope. Includes most known neutron stars and stellar black holes.
-- **Mass Range**:  
-    1  hxt < m ≤ 1 Mt (100,000 ⨁ – 1,000,000 ⨁)
-- **Common Forms**:
-     - Black Holes that have exceeded stellamon mass but not yet achieved ultramon mass
-
-## 🟣 **Ultramon**
-> A **supermassive** object — typically a black hole — existing at the centers of galaxies or as relics of early cosmic formation.
-- **Mass Range**:  
-    1  Mt < m ≤ 1 Gt (1 million – 1 billion ⨁)
-- **Common Forms**:
-    - SMBHs        
-
-## 🔴 **Hypermon**
-> A speculative class of **hypermassive monons**, potentially forming during early universe conditions or beyond current observational limits.
-- **Mass Range**:  
-    m >1  Gt (>1 billion ⨁)
-- **Speculative Examples**:
-    - Primordial hypercollapses
-    - Direct-collapse black holes from Population III stars
-    - Core seeds of hypermassive galaxies
 
 ### 🧭 Summary Grid (Expanded)
 
