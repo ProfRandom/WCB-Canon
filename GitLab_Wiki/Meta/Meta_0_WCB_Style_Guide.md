@@ -1,6 +1,16 @@
 ---
-title: Style Guide
-
+title: Meta 0 — Article Structure and Editing
+summary: Defines the standard order, length, and editorial practices for WCB articles, including table editing, KaTeX handling, and version control procedures.
+domain: meta
+category: structure
+tags: [articles, formatting, editing, structure]
+vocabulary: [article, section, table, KaTeX, revision]
+updated: 2025-10-24
+status: draft
+version: 1.0
+related: [Meta 0 — WCB Style Guide]
+contributors: [M. Conrad]
+source: ""
 ---
 
 # WCB Style Guide
@@ -18,7 +28,7 @@ This guide exists to make every piece of the Canon — from a one-page note to a
 4. 	Accessibility — Simplify syntax and math presentation so content remains readable for both human editors and technical renderers.
 5. 	Extensibility — Support new article types and scientific models without breaking the underlying style rules.
 
- ### Principles
+### Principles
  
 The Style Guide follows the same meta-logic as WCB itself:
 	•	Science-Adjacent, No Calculus — clear, approachable, and rigorous without excess complexity.
@@ -92,6 +102,49 @@ These rules ensure consistent formatting, safe rendering, and future-proof editi
   - Escape special characters where needed (`_`, `%`, `&`, `#`).  
 - Define each variable or symbol the first time it appears in a section.
 
+### Mathematics Formatting Conventions
+
+Mathematical expressions are a central part of WCB’s analytical framework.  
+They must be **clear, readable, and visually consistent** across all Canon articles.  
+This section defines how equations should be formatted, styled, and embedded within WCB Markdown documents.
+
+> For interpretation of symbols and mathematical semantics (how to *read* the notation), see [[Meta 1 — Mathematical Conventions and Symbols]].
+
+#### General Principles
+
+- Every equation should **illustrate or clarify** the text, never obscure it.  
+- Present equations in **KaTeX-compatible** syntax only.  
+- Keep notation consistent across the Canon.  
+- Define all symbols and variables on first use within a section.  
+- Use GEWE (*Good Enough for Worldmaking Efforts*) precision — express values with no more digits than the context demands.
+
+#### Inline and Block Math
+
+- Use `$…$` for **inline equations** within running text.  
+  - Example: `The escape velocity is given by $v_e = \sqrt{2GM/R}$.`
+- Use `$$…$$` for **block equations** on their own lines.  
+  - Example:
+    ```latex
+    $$
+    v_e = \sqrt{\frac{2GM}{R}}
+    $$
+    ```
+- Always include **one blank line** above and below each block equation.  
+- If a block equation is immediately followed by a header, the same blank line serves both.
+
+#### Multi-Line Equations and Alignment
+
+- Use `{aligned}` or `{array}` environments for multi-line relationships.  
+- Align on the primary operator (`=`, `≈`, `≤`, etc.) for readability.
+
+```latex
+$$
+\begin{aligned}
+a &= F / m \\
+v &= v_0 + at
+\end{aligned}
+$$
+```
 ### Lists and Tables
 
 Tables are **strongly discouraged** in WCB articles.
@@ -174,7 +227,7 @@ These read clearly in both raw Markdown and rendered form.
 
 - Use backticks (\`) for inline code or variable names in explanations.  
 - Use triple backticks (\`\`\`) for fenced code blocks when needed.  
-- Code examples should be language-tagged (````python `, ````bash `, etc.) for clarity.
+- Code examples should be language-tagged (````python `,````bash `, etc.) for clarity.
 
 ### Crosslinks
 
@@ -364,7 +417,7 @@ Before committing a new or updated article, verify that:
 10. All metadata accurately reflects the article’s content and editorial status.
 
 > **Tip:** Keeping header structure uniform across all articles ensures reliable indexing and makes future automation trivial.
->
+
 ## Article Structure and Content Order
 
 Each WCB article follows a consistent internal structure to ensure clarity, navigability, and compatibility across the Canon.  
@@ -392,13 +445,13 @@ This structure applies to all article types — conceptual, mathematical, or ref
    - A short, bulleted summary of the article’s major sections or key ideas.  
    - Keeps navigation consistent with longer articles.  
    - Example:
- ```markdown
+```markdown
      **Contents**
      - Overview
      - Core Equations
      - Applications
      - Crosslinks
- ```
+```
 4. **Explanatory Section(s)**
    - The main body of the article, divided into clearly titled subsections.  
    - Explain concepts before presenting formulas or classifications.  
@@ -410,14 +463,12 @@ This structure applies to all article types — conceptual, mathematical, or ref
    - Use KaTeX block equations (`$$ … $$`) with clear definitions below or beside them.  
    - Example:
 ```latex
-     $$
-     a = \frac{F}{m}
-     $$
-     
-     Where:
-      • a = acceleration,  
-      • F = applied force,  
-      • m = mass.
+     $$ a = \frac{F}{m} $$
+
+     where:
+     a = acceleration,  
+     F = applied force,  
+     m = mass.
 ```
 6. **Applications or Examples**
    - Demonstrate how the concept or relationship is used within WCB modeling or worldbuilding contexts.  
@@ -435,47 +486,62 @@ This structure applies to all article types — conceptual, mathematical, or ref
      **planemon** — A monon that maintains hydrostatic equilibrium but has no self-sustaining fusion.  
      **duramon** — Any solid-surface monon (e.g., asteroid, moon, or planet).  
 ```
-8. **Crosslinks and References**
+
+8. **Crosslinks and Internal References**
    - Provide links to directly related WCB articles or external references.  
    - Use the `[[Category — Title]]` format for internal crosslinks.  
    - Example:
 ```markdown
      **See also:** [[Stars 5 — System Architecture]], [[Meta 2 — Math Tools]]
 ```
-9. **Version and Contributor Notes**
+9. **External References (if applicable)**
+    - Provide citations or source material not part of the WCB Canon.  
+    - Place all external references at the **end of the article**, following internal crosslinks.  
+    - Keep entries concise and consistent — author, title, publication, year, and (if relevant) URL.  
+    - Use plain Markdown formatting; avoid BibTeX or embedded LaTeX citation commands.  
+    - Example:
+
+```markdown
+      **External References**
+      - NASA Exoplanet Archive, 2024. [https://exoplanetarchive.ipac.caltech.edu](https://exoplanetarchive.ipac.caltech.edu)  
+      - Asimov, I. *The Relativity of Wrong.* 1989.
+```
+
+> **Note:** WCB treats external references as *sources of inspiration or verification*, not as dependencies.  
+> They supplement worldmaking context but do not define Canonical truths within WCB’s internal logic.
+
+10. **Version and Contributor Notes**
    - Optional final block for tracking edit history or attribution beyond YAML metadata.  
    - Use plain text or a short bullet list.
 
-### Compact Article Template
+### Article Length and Depth
 
-For quick reference, here’s the full standard article skeleton:
+- Keep each article focused on a single core concept.  
+- If a topic requires more than five major sections, consider dividing it into a numbered series.  
+- Avoid duplicating long derivations already explained elsewhere; crosslink instead.  
+- Use short summaries and links rather than repeating full explanations from related articles.  
 
-```
-# [Title Here]
+### Editing Tables and KaTeX in Zettlr
 
-## Abstract
-[One or two short paragraphs summarizing the article.]
+> **Known Editor Behavior (Zettlr):**
+> 
+> - Zettlr’s live preview cannot toggle seamlessly between rendered and raw Markdown views.  
+> - To edit tables or complex KaTeX blocks:
+>   1. Open **Preferences → Markdown** and enable *Show Markdown Source*.
+>   2. **Restart Zettlr** to activate raw mode.
+>   3. Edit the table manually in plain text.
+>   4. Save the file, then revert the setting and restart again to return to preview mode.
+> - Changes made in raw Markdown are always preserved; changes made in rendered view may not persist.
+> 
+> *Tip:* If frequent table or math editing is required, consider using an external Markdown editor (Typora, Obsidian, or VS Code) and then reopen the file in Zettlr for KaTeX rendering.
 
-## Contents
-- Overview
-- Core Concepts
-- Applications
-- Terminology
-- Crosslinks
+### Revision and Version Control
 
-## Overview
-[Introductory explanation of the main topic.]
+- All official edits to the WCB Canon must be committed to the Git repository with clear, descriptive commit messages.  
+- Use branch names that describe the change (e.g., `update-style-guide`, `revise-binaries-structure`).  
+- Tag major versions of the Style Guide and Canon with semantic labels (e.g., `v1.0`, `v1.1-draft`).  
+- Avoid editing directly on `main` — use feature branches and merge through review.  
+- Always ensure YAML headers and section structure remain valid before pushing commits.
 
-## Core Concepts
-[Detailed explanations, equations, or diagrams.]
+> **Goal:** Maintain a transparent, traceable editorial history while ensuring that every file in the Canon remains synchronized and style-compliant.
 
-## Applications
-[Worldbuilding examples and narrative context.]
-
-## Terminology
-**term1** — definition  
-**term2** — definition  
-
-## Crosslinks
-**See also:** [[Related Article 1]], [[Related Article 2]]
-```
