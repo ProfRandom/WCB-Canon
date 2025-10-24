@@ -1,0 +1,481 @@
+---
+title: Style Guide
+
+---
+
+# WCB Style Guide
+## Purpose of this Style Guide
+
+The WCB Style Guide defines the editorial, mathematical, and structural conventions used across all documents in the World-Crafting Basics canon.  Its purpose is not to impose rigidity but to ensure clarity, coherence, and interoperability among articles, editors, and publication formats.
+
+This guide exists to make every piece of the Canon — from a one-page note to a full chapter — consistent, readable, and easy to maintain.  It also serves as a reference for automated formatting and Markdown generation, allowing future contributors and tools to work within a shared framework.
+
+### Goals
+
+1. 	Consistency — Ensure uniform layout, notation, and tone across all WCB articles.
+2. 	Clarity — Make every file self-contained and legible in plain text as well as rendered form.
+3. 	Compatibility — Maintain stable output across Markdown editors (Zettlr, Obsidian, VS Code), document engines (Quarto, Pandoc), and online wikis (GitLab, Gitea).
+4. 	Accessibility — Simplify syntax and math presentation so content remains readable for both human editors and technical renderers.
+5. 	Extensibility — Support new article types and scientific models without breaking the underlying style rules.
+
+ ### Principles
+ 
+The Style Guide follows the same meta-logic as WCB itself:
+	•	Science-Adjacent, No Calculus — clear, approachable, and rigorous without excess complexity.
+	•	Straightforward, Appropriate, Notationally Clear — every symbol and format should serve readability.
+	•	Sufficient and Necessary Constructs — no extra syntax when simpler form will do.
+	•	Self-Adjusting, Non-Coercive — these rules guide rather than restrict; use judgment where clarity demands adaptation.
+
+## Scope and Applicability
+
+The **WCB Style Guide** applies to all Markdown (`.md`) documents that form part of the *World-Crafting Basics* (WCB) Canon and its supporting materials.  It defines the conventions used for formatting, structure, mathematical notation, and file organization across all modules.
+
+This includes but is not limited to:  
+- Canonical documents in the `Meta`, `Stars`, `Duramons`, `Peramons`, and related directories  
+- Technical appendices, data references, and mathematical summaries  
+- Wiki articles, abstracts, or publications derived from the Canon  
+- Internal drafts intended for future integration into the main repository  
+
+### What It Covers
+
+1. **Document Structure** — header hierarchy, section order, and article templates  
+2. **Formatting Rules** — Markdown syntax, KaTeX equations, tables, and typographic conventions  
+3. **File and Directory Standards** — naming conventions, numbering, and folder organization  
+4. **Editorial Tone** — consistent use of capitalization, punctuation, and in-universe terminology  
+5. **Crosslinking and Referencing** — canonical link formats and related-article notation  
+
+### What It Does *Not* Cover
+
+- External media such as images, diagrams, or raw data tables (though filenames should follow the same conventions)  
+- Software scripts, configuration files, or automation metadata  
+- Informal notes, whiteboard sketches, or out-of-canon material unless incorporated into a canonical document  
+
+### Intended Audience
+
+The guide is designed for:  
+- **Primary authors and editors** maintaining the Canon  
+- **Contributors** preparing new or revised WCB articles  
+- **Automated processes** generating or validating Markdown output (e.g., Quarto, Pandoc, or future WCB toolchains)
+
+In short: if a file lives within the WCB repository and contributes to its published body of work, this Style Guide applies.
+
+## General Markdown and File Rules
+
+The WCB Canon uses **Git-compatible Markdown** (`.md`) as its master document format.  
+All content should remain fully legible as plain text while also rendering cleanly in Zettlr, Quarto, Pandoc, and GitLab Wiki environments.
+
+These rules ensure consistent formatting, safe rendering, and future-proof editing behavior.
+
+### Blank Line Conventions
+
+- Always include **one blank line before and after** each equation block (`$$…$$`).  
+- Include **one blank line before and after each header** for readability and rendering stability.  
+  - If an equation block is followed by a header, the same blank line serves for both.  
+- Leave **one blank line before and after lists, tables, and block quotes**.  
+- Avoid double-blank spacing between paragraphs except for visual separation in drafts.
+
+### Headers
+
+- Use Markdown header levels (`#`, `##`, `###`, etc.) to organize sections.  
+- Reserve `#` for document titles; `##` for primary sections; `###` and below for subsections.  
+- Do not use horizontal rules (`---`) as section dividers — only YAML headers may use triple-dash lines.  
+- **If a horizontal rule is absolutely necessary, use `___` or `***` instead of `---`** to prevent the line from being mistaken for a YAML delimiter.  
+- Maintain consistent capitalization and hierarchy throughout the file.
+
+### Equations and KaTeX Blocks
+
+- Use `$$…$$` for block equations and `$…$` for inline equations.  
+- Place block equations on their own lines, surrounded by single blank lines.  
+- Use `{array}` or `{aligned}` for multi-line layouts; avoid `eqnarray`, `split`, or unsupported KaTeX environments.  
+- Keep syntax KaTeX-safe:
+  - Avoid `@{}`, `\hspace`, or other LaTeX spacing tricks outside `\text{}`.  
+  - Escape special characters where needed (`_`, `%`, `&`, `#`).  
+- Define each variable or symbol the first time it appears in a section.
+
+### Lists and Tables
+
+Tables are **strongly discouraged** in WCB articles.
+
+While Markdown tables may render correctly in some editors, they are unstable across platforms and **notoriously unreliable in Zettlr**.  
+Zettlr’s renderer automatically resizes columns, wraps header text, and may even restore deleted rows when editing via its table interface.  
+For this reason, authors should treat tables as a last resort.
+
+#### Why Tables Are Problematic
+
+- Markdown tables cannot define or lock column widths.  
+- Zettlr compresses the leftmost column when any cell wraps, often destroying alignment.  
+- KaTeX `{array}` blocks used for mixed text will overflow past the right margin instead of wrapping.  
+- The built-in table editor may silently discard changes when the table structure is edited in rendered mode.  
+
+In short: if a table might wrap, **don’t use a table**.
+
+#### Preferred Alternatives
+
+##### 1. KaTeX `{array}` Blocks — For Numeric or Symbolic Data
+
+When alignment matters and the content will not wrap, use KaTeX `{array}` environments.  
+They provide full control over column alignment and spacing.
+
+```latex
+$$
+\begin{array}{l c r}
+\text{Name} & \text{Symbol} & \text{Value} \\
+\hline
+\text{Speed of light} & c & 2.998\times10^{8}\ \text{m/s} \\
+\text{Gravitational constant} & G & 6.674\times10^{-11}\ \text{N·m²/kg²} \\
+\end{array}
+$$
+```
+
+✅ **Use this method when:**
+- All entries are short and uniform in width.
+- You require mathematical alignment (`l`, `c`, `r` columns).
+- The table will not contain multi-line or prose cells.
+
+⚠️ **Avoid** if text is likely to wrap, as KaTeX will not handle long lines—it will overflow beyond the page margin.
+
+##### 2. Formatted (Key–Value) Lists — For Textual or Mixed Data
+
+When descriptive text is needed, replace tables with formatted lists.  
+These read clearly in both raw Markdown and rendered form.
+```markdown
+**Parameter:** `mass`  
+**Meaning:** Total system mass of the body in Earth units.  
+**Example:** `5.97 × 10²⁴ kg`
+
+**Parameter:** `radius`  
+**Meaning:** Mean equatorial radius in kilometers.  
+**Example:** `6371 km`
+```
+
+✅ **Use this method when:**
+- Data include sentences, long phrases, or explanatory text.  
+- Readability and editability are more important than strict alignment.  
+- You want to preserve formatting consistency across editors.
+
+#### Summary Rule
+
+- Use **KaTeX `{array}`** for short, fixed-width numeric data.  
+- Use **Key–Value formatted lists** for descriptive or textual data.  
+- **Avoid Markdown tables entirely** except for the simplest, single-line entries.  
+- If a table is visually essential, prepare it externally (e.g., Word, Pages, or a spreadsheet) and import it as a static graphic.
+
+> **In short:** if you find yourself fighting the table, the table has already won.
+
+### Inline Text and Emphasis
+
+- Use **bold** for key terms or headers; *italics* for emphasis or new terminology.  
+- Avoid all-caps for emphasis.  
+- Use `\text{}` in math blocks for human-readable words.  
+- Prefer en-dashes (–) for numeric ranges and em-dashes (—) for narrative breaks.  
+- SI symbols (m, s, kg, etc.) remain upright (roman); variables are italicized.
+
+### Code and Snippets
+
+- Use backticks (\`) for inline code or variable names in explanations.  
+- Use triple backticks (\`\`\`) for fenced code blocks when needed.  
+- Code examples should be language-tagged (````python `, ````bash `, etc.) for clarity.
+
+### Crosslinks
+
+- Crosslinks use the format `[[Category — Article Title]]`.  
+- Maintain exact capitalization and spacing of the target file’s title line.  
+- Avoid relative paths or external URLs inside canonical Markdown files.
+
+### Line Length and Indentation
+
+- Keep paragraphs to **80–100 characters per line** for readability.  
+- Use spaces, not tabs.  
+- Indent nested lists with two spaces per level; do not mix tabs and spaces.
+
+### Whitespace and Line Breaks
+
+- Avoid unnecessary spaces at the ends of lines of text.  
+  - One or two trailing spaces are harmless, but more than two can trigger inconsistent behavior across renderers — or simply give the editor a migraine.  
+- Use a **single blank line** to separate paragraphs and major elements (headers, lists, tables, equations).  
+- Do not use multiple consecutive blank lines except in drafts or comment blocks.  
+- End each file with exactly **one newline** for clean version control and predictable rendering.
+
+### File Naming
+
+- Filenames must use **underscores** (`_`) instead of spaces for portability and command-line safety.  
+  - ✅ `Meta_0_WCB_Style_Guide.md`  
+  - ❌ `WCB Style Guide.md`
+- Use **Title Case** for human readability (capitalize each major word).  
+- Use only ASCII letters, digits, and underscores — no hyphens, punctuation, or whitespace.  
+- Prefix each file with its **category** and **sequence number**, followed by the title.  
+  - Example: `Stars_4_Observation_and_Measurement.md`
+- Always end filenames with a lowercase `.md` extension.  
+- Avoid unnecessary abbreviations unless the filename would otherwise exceed 80 characters.
+
+### File Encoding
+
+- All files must use **UTF-8 encoding**.  
+- Do not include a byte-order mark (BOM).  
+- End each file with a single newline.
+
+## YAML Headers
+
+Every canonical WCB Markdown article begins with a **YAML front-matter block** enclosed by triple dashes (`---`).  
+This header defines essential metadata used by editors, renderers, and validation tools.  
+It is invisible to the reader but indispensable to the author and to the automated systems that maintain the Canon.
+
+### Purpose and Visibility
+
+YAML headers serve as **editorial metadata**, not part of the visible text.  
+They are *not displayed* in rendered WCB articles or exported Wiki pages,  
+but they enable consistent cataloging, crosslinking, contributor tracking, and machine readability.
+
+> Think of the YAML header as the *control panel* of an article — unseen by the reader, but vital to its structure and integrity.
+
+### Header Completeness Policy
+
+All canonical WCB articles must include the **full set of YAML fields**, in the order listed below, even if some fields are empty or set to `null`.  
+This ensures uniform file structure, predictable parsing, and clean version-control diffs.  
+Empty fields may use blank strings (`""`), empty arrays (`[]`), or explicit `null` values.
+
+**Required Field Order**
+
+1. `title`  
+2. `summary`  
+3. `domain`  
+4. `category`  
+5. `tags`  
+6. `vocabulary`  
+7. `updated`  
+8. `status`  
+9. `version`  
+10. `related`  
+11. `contributors`  
+12. `source`
+
+### Field Definitions
+
+**Title**  
+Full, human-readable title of the article. Should match the first Markdown header (`# …`).  
+*Example:* `Stars 4 — Observation and Measurement`
+
+**Summary**  
+One-sentence description of the article’s content. Appears in catalogs or wikis.  
+*Example:* `Reference for measurement techniques and notation.`
+
+**Domain**  
+Broad grouping of the file within the Canon.  
+*Examples:* `meta`, `stars`, `duramons`, `peramons`
+
+**Category**  
+Narrower subject classification within a domain.  
+*Examples:* `observation`, `structure`, `habitability`
+
+**Tags**  
+Keyword list for search and filtering.  
+Use lowercase; enclose in brackets `[tag1, tag2]`.
+
+**Vocabulary**  
+Lists the five most important concepts or neolexes introduced or discussed in the article.  
+Keep concise (≤ 5 entries). Broader term lists belong under a “Terminology” or “Lexicon” section.
+
+**Updated**  
+ISO-format date of the last major edit (`YYYY-MM-DD`).  
+*Example:* `2025-10-24`
+
+**Status**  
+Editorial or publication state.  
+Accepted values: `draft`, `review`, `stable`, `canonical`.
+
+**Version**  
+Identifies a numbered or tagged revision.  
+*Example:* `1.3`
+
+**Related**  
+Lists cross-referenced files by title.  
+*Example:* `[Stars 5 — System Architecture, Meta 2 — Math Tools]`
+
+**Contributors**  
+Credits multiple authors or editors.  
+*Example:* `[G. Conrad, A. Reyes]`
+
+**Source**  
+Links to primary references or datasets.  
+*Example:* `https://github.com/wcbcanon/data-stars`
+
+### Example Minimal Header
+
+```yaml
+---
+title: Monons 3 — Small Star System Bodies
+summary: ""
+domain: duramons
+category: ""
+tags: []
+vocabulary: []
+updated: 2025-10-24
+status: draft
+version: null
+related: []
+contributors: []
+source: ""
+---
+```
+### Example Maximal Header
+
+```yaml
+---
+title: Stars 4 — Observation and Measurement
+summary: Explains how stellar parameters are measured, recorded, and cross-referenced within the WCB framework.
+domain: stars
+category: observation
+tags: [stars, measurement, data, photometry]
+vocabulary: [luminosity, magnitude, parallax, baseline, calibration]
+updated: 2025-10-24
+status: canonical
+version: 1.2
+related: [Stars 5 — System Architecture, Meta 2 — Math Tools]
+contributors: [G. Conrad, A. Reyes]
+source: https://github.com/wcbcanon/data-stars
+---
+```
+### Formatting Rules
+
+- YAML headers must appear at the **very top** of the file.  
+  No blank lines or comments may precede the opening `---`.  
+- Leave **one blank line after the closing `---`** before the first Markdown header (`# …`).  
+- Use plain ASCII quotes (`"…"`) only when a field contains punctuation or colons.  
+- Lists are bracketed (`[item1, item2]`) or indented using standard YAML list syntax (`- item`).  
+- Dates follow **ISO-8601** (`YYYY-MM-DD`).  
+- Use lowercase field names exactly as listed.  
+- Maintain the specified field order in all files.
+
+> **Reminder:** YAML headers are invisible to end-users but are essential for consistent indexing and cross-referencing within the WCB Canon.
+
+### Header Validation Checklist
+
+Before committing a new or updated article, verify that:
+
+1. The header begins and ends with `---` lines.  
+2. No blank lines or comments precede the opening `---`.  
+3. Exactly one blank line follows the closing `---`.  
+4. All twelve required fields appear in the correct order.  
+5. Empty or unused fields contain valid placeholders (`""`, `[]`, or `null`).  
+6. The `title` matches the first Markdown header in the file.  
+7. Dates follow ISO format (`YYYY-MM-DD`).  
+8. Lists use bracketed or properly indented YAML syntax.  
+9. The file saves cleanly and passes YAML validation (no unbalanced brackets or colons).  
+10. All metadata accurately reflects the article’s content and editorial status.
+
+> **Tip:** Keeping header structure uniform across all articles ensures reliable indexing and makes future automation trivial.
+>
+## Article Structure and Content Order
+
+Each WCB article follows a consistent internal structure to ensure clarity, navigability, and compatibility across the Canon.  
+This structure applies to all article types — conceptual, mathematical, or referential — with optional sections as noted.
+
+### General Principles
+
+- Articles are **modular**: each file should make sense when read on its own, but connect naturally to related topics.  
+- Sections are **hierarchical**: higher-level headings (##, ###) establish conceptual order, while lower-level subsections (####) refine details.  
+- Each article should progress from **overview → detail → application → references**.  
+- Avoid redundancy between articles; use crosslinks (`[[Category — Article Title]]`) instead of re-explaining shared concepts.
+
+### Standard Section Order
+
+1. **Title and Header Block**
+   - Defined in the YAML header and repeated as the first Markdown header (`# …`).
+   - The title should match the `title` field in the YAML header exactly.
+
+2. **Abstract or Introduction**
+   - A short overview (1–3 paragraphs) summarizing the article’s purpose and scope.  
+   - Should answer: *What is this about? Why does it matter?*  
+   - Use plain language and avoid equations unless essential for framing.
+
+3. **Contents Box (Optional but Recommended)**
+   - A short, bulleted summary of the article’s major sections or key ideas.  
+   - Keeps navigation consistent with longer articles.  
+   - Example:
+ ```markdown
+     **Contents**
+     - Overview
+     - Core Equations
+     - Applications
+     - Crosslinks
+ ```
+4. **Explanatory Section(s)**
+   - The main body of the article, divided into clearly titled subsections.  
+   - Explain concepts before presenting formulas or classifications.  
+   - Define every variable or symbol upon first use.  
+   - Keep each subsection focused and self-contained.
+
+5. **Mathematical or Structural Section (if applicable)**
+   - Present equations, derivations, or frameworks that support the article’s main concepts.  
+   - Use KaTeX block equations (`$$ … $$`) with clear definitions below or beside them.  
+   - Example:
+```latex
+     $$
+     a = \frac{F}{m}
+     $$
+     
+     Where:
+      • a = acceleration,  
+      • F = applied force,  
+      • m = mass.
+```
+6. **Applications or Examples**
+   - Demonstrate how the concept or relationship is used within WCB modeling or worldbuilding contexts.  
+   - Keep examples concise, with plain-language explanations following equations.  
+   - Example:
+```markdown
+     **Example:**  
+     A terran planet with double lunar mass (2 μt) exhibits tidal patterns consistent with…
+```
+7. **Terminology / Lexicon Section**
+   - Lists and defines key terms, neolexes, and abbreviations introduced in the article.  
+   - Format as bolded entries with one-sentence explanations.  
+   - Example:
+```markdown
+     **planemon** — A monon that maintains hydrostatic equilibrium but has no self-sustaining fusion.  
+     **duramon** — Any solid-surface monon (e.g., asteroid, moon, or planet).  
+```
+8. **Crosslinks and References**
+   - Provide links to directly related WCB articles or external references.  
+   - Use the `[[Category — Title]]` format for internal crosslinks.  
+   - Example:
+```markdown
+     **See also:** [[Stars 5 — System Architecture]], [[Meta 2 — Math Tools]]
+```
+9. **Version and Contributor Notes**
+   - Optional final block for tracking edit history or attribution beyond YAML metadata.  
+   - Use plain text or a short bullet list.
+
+### Compact Article Template
+
+For quick reference, here’s the full standard article skeleton:
+
+```
+# [Title Here]
+
+## Abstract
+[One or two short paragraphs summarizing the article.]
+
+## Contents
+- Overview
+- Core Concepts
+- Applications
+- Terminology
+- Crosslinks
+
+## Overview
+[Introductory explanation of the main topic.]
+
+## Core Concepts
+[Detailed explanations, equations, or diagrams.]
+
+## Applications
+[Worldbuilding examples and narrative context.]
+
+## Terminology
+**term1** — definition  
+**term2** — definition  
+
+## Crosslinks
+**See also:** [[Related Article 1]], [[Related Article 2]]
+```

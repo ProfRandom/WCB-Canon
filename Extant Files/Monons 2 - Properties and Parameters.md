@@ -75,38 +75,6 @@ And all of these materials have their own inherent densities.  Water, for instan
 
 The following table defines the **official WCB symbolic mass intervals** — logarithmic divisions of monon mass based on powers of ten relative to Earth (⨁). These are used for measurement and comparison only. They are **not categorical classes**, and do **not imply world type**.
 
-| Intervals    | Abbreviation | Min. Mass ≥         | Max. Mass <          | Power | Notes  |
-| ------------ | ------------ | ------------------- | -------------------- | ----- | ------ |
-| deniterran   | dnt          | 0.0000000001        | 0.000000001          | 10⁻¹⁰ | WCB    |
-| nanoterran   | nnt          | 0.000000001         | 0.00000001           | 10⁻⁹  | WCB    |
-| oktiterran   | okt          | 0.00000001          | 0.0000001            | 10⁻⁸  | WCB    |
-| septiterran  | spt          | 0.0000001           | 0.000001             | 10⁻⁷  | WCB    |
-| microterran  | μt           | 0.000001            | 0.00001              | 10⁻⁶  | SI     |
-| pentiterran  | pnt          | 0.00001             | 0.0001               | 10⁻⁵  | WCB    |
-| demiterran   | dmt          | 0.0001              | 0.001                | 10⁻⁴  | WCB    |
-| milliterran  | mmt          | 0.001               | 0.01                 | 10⁻³  | WCB/SI |
-| centiterran  | ctt          | 0.01                | 0.1                  | 10⁻²  | WCB    |
-| deciterran   | dct          | 0.1                 | 1                    | 10⁻¹  | WCB    |
-| terran       | t            | 1                   | 10                   | 10⁰   | WCB    |
-| dekaterran   | dkt          | 10                  | 100                  | 10¹   | WCB    |
-| hectoterran  | hct          | 100                 | 1000                 | 10²   | WCB    |
-| kiloterran   | kt           | 1000                | 10000                | 10³   | SI     |
-| myriaterran  | myt          | 10000               | 100000               | 10⁴   | WCB    |
-| hexaterran   | hxt          | 100000              | 1000000              | 10⁵   | WCB    |
-| megaterran   | Mt           | 1000000             | 10000000             | 10⁶   | SI     |
-| heptoterran  | hpt          | 10000000            | 100000000            | 10⁷   | WCB    |
-| octoterran   | ott          | 100000000           | 1000000000           | 10⁸   | WCB    |
-| gigaterran   | Gt           | 1000000000          | 10000000000          | 10⁹   | SI     |
-| denoterran   | ddt          | 10000000000         | 100000000000         | 10¹⁰  | WCB    |
-| ondoterran   | ont          | 100000000000        | 1000000000000        | 10¹¹  | WCB    |
-| teraterran   | trt          | 1000000000000       | 10000000000000       | 10¹²  | WCB    |
-| triskaterran | tkt          | 10000000000000      | 100000000000000      | 10¹³  | WCB    |
-| quadraterran | qdt          | 100000000000000     | 1000000000000000     | 10¹⁴  | WCB    |
-| petaterran   | Pt           | 1000000000000000    | 10000000000000000    | 10¹⁵  | SI     |
-| sexaterran   | sxt          | 10000000000000000   | 100000000000000000   | 10¹⁶  | WCB    |
-| septaterran  | spt          | 100000000000000000  | 1000000000000000000  | 10¹⁷  | WCB    |
-| exaterran    | Et           | 1000000000000000000 | 10000000000000000000 | 10¹⁸  | SI     |
-
 > Notes:
 > 1. Where official SI prefixes exist (e.g. micro-, milli-, deci-, centi-, kilo-, mega-, giga-, tera-, peta-, exa-), WCB uses them directly.
 > 2. For intermediate powers without SI prefixes, WCB adopts consistent **neologisms** based on the exponent’s magnitude:.
