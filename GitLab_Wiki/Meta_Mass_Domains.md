@@ -52,13 +52,13 @@ $$
 \text{hectoterran} & \text{h}  & 100          & 1000          & 10^{2}   \\
 \text{kiloterran}  & \text{k}  & 1000         & 10000         & 10^{3}   \\
 \text{myriaterran} & \text{Mr} & 10000        & 100000        & 10^{4}   \\
-\text{hexaterran}  & \text{Hx} & 100000       & 1000000       & 10^{5}   \\
+\text{quintaterran}  & \text{Hx} & 100000       & 1000000       & 10^{5}   \\
 \text{megaterran}  & \text{Mt} & 1000000      & 10000000      & 10^{6}   \\
-\text{heptoterran} & \text{Hp} & 10000000     & 100000000     & 10^{7}   \\
-\text{octoterran}  & \text{Oc} & 100000000    & 1000000000    & 10^{8}   \\
+\text{heptaterran} & \text{Hp} & 10000000     & 100000000     & 10^{7}   \\
+\text{octaterran}  & \text{Oc} & 100000000    & 1000000000    & 10^{8}   \\
 \text{gigaterran}  & \text{Gt} & 1000000000   & 10000000000   & 10^{9}   \\
-\text{denoterran}  & \text{Dd} & 10000000000  & 100000000000  & 10^{10}  \\
-\text{ondoterran}  & \text{On} & 100000000000 & 1000000000000 & 10^{11}  \\
+\text{denaterran}  & \text{Dd} & 10000000000  & 100000000000  & 10^{10}  \\
+\text{ondaterran}  & \text{On} & 100000000000 & 1000000000000 & 10^{11}  \\
 \text{teraterran}  & \text{T}  & 1000000000000 & 10000000000000 & 10^{12} \\
 \text{triskaterran}& \text{Tr} & 10000000000000 & 100000000000000 & 10^{13} \\
 \text{quadraterran}& \text{Qd} & 100000000000000 & 1000000000000000 & 10^{14} \\
@@ -86,6 +86,8 @@ $$
      - **Example:** $9.999 990 1 \oplus → 10.0 \oplus$, placing the body in the **dekaterran** interval.  
 6. The **deniterran** marks the lower limit of the scale; bodies smaller than this cannot achieve hydrostatic equilibrium.  
 7. The **exaterran** marks the upper limit, approximating the realistic mass ceiling for Ultra-massive Black Holes (UMBHs), about $10^{12}\,M_\odot$.
+
+
 
 ## The Microterran Subscale
 

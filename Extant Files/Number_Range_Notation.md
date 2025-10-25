@@ -1,4 +1,4 @@
-# Range Constraints & Modifiers
+# Number Range Notation
 
 WCB uses extended symbolic notation to express range relationships, logical connectives, and modal constraints.  The following sections define these conventions for both rendered and plaintext forms.
 

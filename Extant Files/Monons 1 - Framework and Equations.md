@@ -107,20 +107,7 @@ title: ""
 - Complements **Mononic Mass Domaines** and **Mononic Compositions** (**morphotypes**) as monoseries framework foundations.  
 - Ensure consistent usage: “–mon” suffix always denotes singular gravitationally self-bound entities, never systems.  
 
-# Duramon Equations of State
 
-$$
-\begin{array}{c|c|c|c|c}
-\text{Mass }(m) & \text{Radius }(r) & \text{Density }(\rho) & \text{Gravity }(g) & \text{Escape Velocity }(v_e)\\
-\hline
-m = g r^2 & r = \dfrac{g}{\rho} & \rho = \dfrac{m}{r^3} & g = \dfrac{m}{r^2} & v_e = \sqrt{g r}\\
-m = \rho r^3 & r = \sqrt{\dfrac{m}{g}} & \rho = \dfrac{g}{r} & g = r\rho & v_e = \sqrt{\dfrac{m}{r}}\\
-m = \dfrac{g^3}{\rho^2} & r = \sqrt[3]{\dfrac{m}{\rho}} & \rho = \sqrt{\dfrac{g^3}{m}} & g = \sqrt[3]{m\rho^2} & v_e = \dfrac{g}{\sqrt{\rho}}\\
-m = \dfrac{v_e^3}{\sqrt{\rho}} & r = \dfrac{v_e}{\sqrt{\rho}} & \rho = \left(\dfrac{v_e}{r}\right)^2 & g = v_e\sqrt{\rho} & v_e = \sqrt[4]{m g}\\
-m = \dfrac{v_e^4}{g} & r = \dfrac{v_e^2}{g} & \rho = \left(\dfrac{g}{v_e}\right)^2 & g = \dfrac{v_e^2}{r} & v_e = r\sqrt{\rho}\\
-m = r v_e^2 & r = \dfrac{m}{v_e^2} & \rho = \left(\dfrac{v_e^3}{m}\right)^2 & g = \dfrac{v_e^4}{m} & v_e = \sqrt[6]{m^2\rho}
-\end{array}
-$$
 # 🌍 Planemon Framework (Master Map)
 
 All **planemons** (planetary monons) share a **common trunk** — then branch into two complementary classification systems.
@@ -228,20 +215,6 @@ These are intended to categorize monons *in their current configuration*.  A mon
 | ondoterran                  |                 100000000000 |                1000000000000 |                   10¹¹ | beyond -mo classification                  |
 | teraterran                  |                1000000000000 |               10000000000000 |                   10¹² | beyond -mo classification                  |
 
-## Listed by Monoseries
-
-| <center>Monoseries</center> | <center>Min. Mass ≥</center> | <center>Max. Mass <</center> | Exponent Range |
-|----------------------------|------------------------------|------------------------------|----------------|
-| nanomon                    | 0.0000000001                 | 0.000001                     | 10⁻¹⁰ — 10⁻⁶   |
-| micromon                   | 0.000001                     | 0.00001                      | 10⁻⁶ — 10⁻⁵    |
-| midimon                    | 0.00001                      | 0.001                        | 10⁻⁵ — 10⁻³    |
-| mesomon                    | 0.001                        | 0.01                         | 10⁻³ — 10⁻²    |
-| planemon                   | 0.01                         | 4131                         | 10⁻² — 10³     |
-| intermon                   | 4131                         | 266400                       | 10³ — 10⁵      |
-| stellamon                  | 266400                       | 1000000                      | 10⁵ — 10⁶      |
-| supermon                   | 1000000                      | 10000000                     | 10⁶ — 10⁷      |
-| ultramon                   | 10000000                     | 1000000000                   | 10⁷ — 10⁹      |
-| hypermon                   | 1000000000                   | 10000000000                  | 10⁹ — 10¹⁰     |
 
 # Classification Rule — The Monon Condition
 
