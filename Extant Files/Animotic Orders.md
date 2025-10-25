@@ -56,30 +56,30 @@ title: ""
 
 ## Abstract 3
 **Major Topics:** 
-- Defines **Rheatic planemons** as **parahabitable super-Earths**, favorable to robust biospheres but often inhospitable to unmodified humans. 
+- Defines **Argeic planemons** as **parahabitable super-Earths**, favorable to robust biospheres but often inhospitable to unmodified humans. 
 - Parameter corridors: 
  - Mass (m): 1.00–3.00 ⨁ 
  - Density (ρ): 0.85–1.25 ⨁ 
  - Surface Gravity (g): 0.85–1.70 ⨁ 
  - Radius (r): 0.90–1.50 ⨁ 
  - Escape Velocity (vₑ): 0.95–1.50 ⨁ 
-- **Overlap with Gaeans:** ≈13.9% of Rheatics fall within Gaean gravity bounds (0.9–1.1 ⨁), making them unusually favorable worlds with both Earthlike conditions and enhanced biospheric potential. 
+- **Overlap with Gaeans:** ≈13.9% of Argeics fall within Gaean gravity bounds (0.9–1.1 ⨁), making them unusually favorable worlds with both Earthlike conditions and enhanced biospheric potential. 
 - **Core Feature:** Larger, denser terrestrial bodies → broader climatic bands, longer tectonic–volcanic cycling, stronger magnetospheres, and more biospheric resilience (“superhabitable” qualities). 
 - **Implications for settlement:** Human colonization possible but requires adaptation: medical mitigation for high gravity, structural reinforcement, climate control. 
 - **Distinction:** 
- - All Rheatics are Geotics, but skew toward higher mass/density. 
+ - All Argeics are Geotics, but skew toward higher mass/density. 
  - Only a small subset are Gaean. 
  - Serves as the WCB counterpart to **“superhabitable” exoplanets** in the scientific literature. 
 
 **Key Terms & Symbols:** 
-- **Rheatic** — Parahabitable terrestrial super-Earth, biosphere-rich but human-straining. 
+- **Argeic** — Parahabitable terrestrial super-Earth, biosphere-rich but human-straining. 
 - **m, ρ, g, r, vₑ** — Fundamental planemon parameters (Earth-relative). 
 - **Superhabitable Zone** — WCB framing of biosphere-enhancing corridors. 
-- **Overlap Fraction:** ≈13.9% of Rheatics are also Gaean. 
+- **Overlap Fraction:** ≈13.9% of Argeics are also Gaean. 
 
 **Cross-Check Notes:** 
-- Consolidates external “superhabitable” terminology under the WCB neolex **Rheatic**. 
-- Provides numeric corridors to distinguish Rheatics from Geotics and Gaeans. 
+- Consolidates external “superhabitable” terminology under the WCB neolex **Argeic**. 
+- Provides numeric corridors to distinguish Argeics from Geotics and Gaeans. 
 - Complements **Justifying Parahabitable Parameter Limits** by filling in the higher-mass end of the spectrum. 
 
 ## Abstract 4
@@ -93,8 +93,8 @@ title: ""
  - **Escape velocity (vₑ):** ⟨0.20 ∧ 3.00⟩ 
 - Encompasses rocky, metallic, and icy planemons: Earthlike planets, super-Earths, sub-Earths, Mars, Titan, Ganymede, Io, Kepler-20b, etc. 
 - **Core role in canon:** 
- - All **Geotic**, **Gaean**, and **Rheatic** planemons are subsets of Tellurics. 
- - ~4.8% of Tellurics are Geotics; ~0.55% are Gaeans; ~3.6% are Rheatics. 
+ - All **Geotic**, **Gaean**, and **Argeic** planemons are subsets of Tellurics. 
+ - ~4.8% of Tellurics are Geotics; ~0.55% are Gaeans; ~3.6% are Argeics. 
 - Many Tellurics are **parahabitable**: survivable only with life support, domes, or partial terraforming. 
 - Symbolic note: term derives from *Tellus* (Earth-mother), but used **structurally, not biologically**. 
 
@@ -104,11 +104,11 @@ title: ""
 
 **Key Terms & Symbols:** 
 - **Telluric [NEW].** 
-- **Geotic [neo], Gaean [neo], Rheatic [neo], Xenotic [neo], Parahabitable [neo]** (already canonical, here reinforced). 
+- **Geotic [neo], Gaean [neo], Argeic [neo], Xenotic [neo], Parahabitable [neo]** (already canonical, here reinforced). 
 
 **Cross-Check Notes:** 
 - Introduces **Telluric** as a new umbrella category. 
-- Integrates existing WCB planemon types (Geotic, Gaean, Rheatic, Xenotic, Parahabitable) under this umbrella. 
+- Integrates existing WCB planemon types (Geotic, Gaean, Argeic, Xenotic, Parahabitable) under this umbrella. 
 - **Status:** [NEW + EXPANDED] — Telluric is newly defined; expands canon by clarifying relationships among existing planemon classes. 
 
 ## Abstract 5
@@ -151,18 +151,18 @@ title: ""
 
 **Relation to WCB Canon:** 
 - WCB does **not** use the term “superhabitable.” 
-- Instead, these criteria are encompassed within **Rheatic planemons**, which refine the same concept for WCB internal classifications. 
+- Instead, these criteria are encompassed within **Argeic planemons**, which refine the same concept for WCB internal classifications. 
 - External term is acknowledged for context but not adopted into lexicon. 
 
 **Key Terms & Symbols:** 
 - **Superhabitable [exo]:** external concept (Heller & Armstrong, 2014). 
-- **Rheatic planemons [neo]:** WCB equivalent classification. 
+- **Argeic planemons [neo]:** WCB equivalent classification. 
 - **Carbon–Silicate Cycle [sci].** 
 
 **Cross-Check Notes:** 
-- Rheatic planemons are already part of WCB classification. 
+- Argeic planemons are already part of WCB classification. 
 - “Superhabitable” remains external-only, acknowledged but not canonized. 
-- **Status:** [EXPANDED + EXO] — expands habitability framework with external criteria; adopts internal Rheatic equivalent. 
+- **Status:** [EXPANDED + EXO] — expands habitability framework with external criteria; adopts internal Argeic equivalent. 
 
 ## Abstract 7
 **Major Topics:** 
@@ -274,10 +274,10 @@ Approximately 17.7% of all Geotics fall **within or near** the Gravity One Corri
 In short:
 > **The closer a world hugs the Gravity One Corridor, the easier it is to call home.**
 
-# Rheatic planemons
+# Argeic planemons
 
-## Rheatic
-**Rheatic** := ⟨ m ∧ ρ ∧ g ∧ r ∧ vₑ ⟩
+## Argeic
+**Argeic** := ⟨ m ∧ ρ ∧ g ∧ r ∧ vₑ ⟩
 m := ⟨1.00 ∧ 3.00⟩⨁
 ρ := ⟨0.85 ∧ 1.25⟩⨁
 g := ⟨0.85 ∧ 1.70⟩⨁
@@ -285,7 +285,7 @@ r := ⟨0.90 ∧ 1.50⟩⨁
 vₑ := ⟨0.95 ∧ 1.50⟩⨁
 
 $$
-\text{RHEATIC} := \left\{ (m, \rho) \in \mathbb{R}^2 \ \middle|\
+\text{Argeic} := \left\{ (m, \rho) \in \mathbb{R}^2 \ \middle|\
 \begin{aligned}
 &1.00 ≤ m ≤ 3.00 \\
 &0.85 ≤ \rho ≤ 1.25 \\
@@ -295,18 +295,18 @@ $$
 \end{aligned}
 \right\}
 $$
-> *Rheatics* are **parahabitable** planemons — terrestrial super-Earths with conditions **favorable to rich biospheres** but likely **inhospitable to unmodified humans**. They may possess higher surface gravity, thicker atmospheres, and more energetic climates, often demanding mechanical, biological, or infrastructural adaptations for long-term Earthling presence. Nonetheless, they are considered highly conducive to complex, robust life — just not necessarily Earthlike.
+> *Argeics* are **parahabitable** planemons — terrestrial super-Earths with conditions **favorable to rich biospheres** but likely **inhospitable to unmodified humans**. They may possess higher surface gravity, thicker atmospheres, and more energetic climates, often demanding mechanical, biological, or infrastructural adaptations for long-term Earthling presence. Nonetheless, they are considered highly conducive to complex, robust life — just not necessarily Earthlike.
 
 **Overlap with Gaeans**:
-- A **small subset** of Rheatics — **≈13.9%** — fall within the Gaean gravity range (0.9 ≤ g ≤ 1.1⨁). 
+- A **small subset** of Argeics — **≈13.9%** — fall within the Gaean gravity range (0.9 ≤ g ≤ 1.1⨁). 
 - These rare worlds are **massive and dense** enough to support Earth-normal surface conditions **while offering enhanced biospheric potential** — possibly the best of both worlds.
 **Core Feature**:
 - The **“superhabitable” zone**: larger size means broader climatic bands, more plate tectonics, greater magnetic shielding, and longer tectonic–volcanic cycling — all of which may favor biospheric richness and diversity. 
 - **Human settlement** is plausible but typically **requires support**: enhanced structural design, medical mitigation of gravity effects, and climate regulation systems.
 **Distinction from Geotics**:
-- All Rheatics meet **Geotic** compositional constraints, but their **mass and gravity trends upward**. 
-- **Not all Geotics** are Rheatic: Rheatics are a **subset of high-mass, dense, habitable** planemons. 
-- Conversely, **not all Rheatics are Gaean** — only a small slice of them match that precise Earthlike window.
+- All Argeics meet **Geotic** compositional constraints, but their **mass and gravity trends upward**. 
+- **Not all Geotics** are Argeic: Argeics are a **subset of high-mass, dense, habitable** planemons. 
+- Conversely, **not all Argeics are Gaean** — only a small slice of them match that precise Earthlike window.
 
 # Telluric planemons
 
@@ -320,15 +320,15 @@ $$
 
 > Tellurics are parahabitable worlds with solid or semi-solid surfaces — encompassing the full class of rocky, metallic, and icy planemons. 
 > This category includes Earthlike worlds, massive rocky exoplanets, marginal sub-Earths, and bodies like Mars, Ganymede, Titan, or large moons of gas giants. 
-> It defines the geophysical domain of terrestrial planemons — whether habitable or not — and serves as the primary envelope from which Geotic, Gaean, and Rheatic worlds are derived.
+> It defines the geophysical domain of terrestrial planemons — whether habitable or not — and serves as the primary envelope from which Geotic, Gaean, and Argeic worlds are derived.
 
 **Core Feature** 
-- This is a broad categorization — about **4.8%** of Tellurics are Geotics, and only about **0.55%** of all Tellurics are Gaeans — and **3.6%** of Tellurics are Rheatics. 
+- This is a broad categorization — about **4.8%** of Tellurics are Geotics, and only about **0.55%** of all Tellurics are Gaeans — and **3.6%** of Tellurics are Argeics. 
 - These worlds possess defined solid surfaces or lithospheres, with no requirement for biological habitability. 
 - Many are parahabitable — survivable with life-support systems, domes, or partial terraforming. 
 - May include frozen dwarfs, massive dry worlds, or oceanic with no dry land.
 **Relations to Other Types** 
-- Contains all Geotic, Gaean, and Rheatic worlds. 
+- Contains all Geotic, Gaean, and Argeic worlds. 
 - Overlaps with Xenotic worlds in the rocky mass range. 
 - Worlds like Mars, Titan, Io, and Kepler-20b are all Tellurics, despite wildly different surface conditions.
 **Symbolic Use** 
@@ -418,7 +418,7 @@ Lena Noack & Doris Breuer (2011) add:
 > “…the propensity of plate tectonics seems to have a peak between 1 and 5 Earth masses… a geological perspective suggests the optimal mass of a planemon is about 2 M⊕.”
 
 **Relation to WCB Classifications** 
-In *Worlds by the Numbers*, **Rheatic planemons** encompass the superhabitable concept, with parameter refinements for internal consistency within WCB’s classification system. 
+In *Worlds by the Numbers*, **Argeic planemons** encompass the superhabitable concept, with parameter refinements for internal consistency within WCB’s classification system. 
 
 **References** 
 - Heller, René, and John Armstrong. “Superhabitable Worlds.” *PubMed* (National Library of Medicine, December 31, 2013). [https://pubmed.ncbi.nlm.nih.gov/24380533/](https://pubmed.ncbi.nlm.nih.gov/24380533/) 

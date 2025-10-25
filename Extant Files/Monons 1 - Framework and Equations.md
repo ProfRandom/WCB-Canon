@@ -18,7 +18,7 @@ title: ""
 
 **Cross-Check Notes:**  
 - Reinforces **Core Parameter Precedence** by showing equivalences and constraints.  
-- Serves as the mathematical backbone for all mononic monoseries (Geotic, Gaean, Rheatic).  
+- Serves as the mathematical backbone for all mononic monoseries (Geotic, Gaean, Argeic).  
 - Companion to **Geotic Ground States**, which simplifies these identities when one or more parameters = 1.  
 
 ## Abstract  2
@@ -28,8 +28,8 @@ title: ""
   - Orders: Lithic, Astatic, Aetheric, Ulsic.  
   - Forms: Petriform, Carboform, Pagoform, Fluxiform, Transiform, Pneumoform, Haliform, Neutraform, Quarkform, etc.  
 - **Animotic branch** (life-relevance): based on relation to biospheric potential.  
-  - Classes: Geotic, Gaean, Rheatic, Xenotic.  
-  - Types: Subdivisions (e.g., Marginal Geotic, Dense Hot Rheatic).  
+  - Classes: Geotic, Gaean, Argeic, Xenotic.  
+  - Types: Subdivisions (e.g., Marginal Geotic, Dense Hot Argeic).  
   - States (Climostates): Global climate regimes (Cryostate, Hydrostate, Pyrostate, Pluristate, etc.).  
   - Conditions: Atmospheric/seasonal descriptors (Tempestal, Zephyral, Serenal, etc.).  
 - Both branches are independent but complementary lenses for describing the same planemon.  
@@ -44,7 +44,7 @@ title: ""
 **Cross-Check Notes:**  
 - Provides the **master map** for all other monon-related classifications.  
 - Ensures that **physical identity** (Conformation) and **biospheric identity** (Animotic) can coexist without collision.  
-- Anchors subordinate classifications (e.g., Gaean, Rheatic, Hydrostate subtypes).  
+- Anchors subordinate classifications (e.g., Gaean, Argeic, Hydrostate subtypes).  
 
 ## Abstract 3
 **Major Topics:**  
@@ -74,13 +74,13 @@ title: ""
   - **micromon, minimon, midimon, planemon, intermon, stellamon, supermon, ultramon, hypermon.**  
 - Associates each category with its **mass range, radius bounds, and representative examples** (from asteroids to stellar bodies).  
 - Establishes the system of **terracentric prefixes** (centiterran, deciterran, kiloterran, megaterran, etc.) for finer-grained scaling across mass domains.  
-- Connects monoseries (e.g., **telluric, rheatic, gaean**) with their appropriate mass domaines, showing where habitability-relevant subtypes emerge.  
-- Serves as the master framework to which specialized notes (e.g., **Gaean planemons, Rheatic planemons**) attach.  
+- Connects monoseries (e.g., **telluric, argeic, gaean**) with their appropriate mass domaines, showing where habitability-relevant subtypes emerge.  
+- Serves as the master framework to which specialized notes (e.g., **Gaean planemons, Argeic planemons**) attach.  
 
 ### Key Terms & Symbols:**  
 - **Mass domaines:** micromon, minimon, midimon, planemon, intermon, stellamon, supermon, ultramon, hypermon.  
 - **Terracentric scaling prefixes:** centiterran, deciterran, kiloterran, megaterran, etc.  
-- **Ontotype:** compositional subtypes (telluric, rheatic, gaean, xenotic).  
+- **Ontotype:** compositional subtypes (telluric, argeic, gaean, xenotic).  
 - **µT (microterran units):** mass measure used for micromons and smaller classes.  
 
 **Cross-Check Notes:**  
@@ -130,10 +130,10 @@ Focus: **How the planemon relates to life (esp. Earthlike envelopes)**
 - **Class** → Broad livability envelopes
     - Geotic (Earth-normal range)
     - Gaean (Earth-twin slice of Geotic)
-    - Rheatic (super-Earths with biospheric richness)
+    - Argeic (super-Earths with biospheric richness)
     - Xenotic (exotic chemistries / non-carbonic)
 - **Type** → Subdivisions of classes
-    - Marginal Geotic, Dense Hot Rheatic, etc.
+    - Marginal Geotic, Dense Hot Argeic, etc.
 
 - **State (Climostates)** → Global climatic conditions
     - Cryostate (frozen) 

@@ -1,4 +1,4 @@
-## 🌍 Density in Rheatics (Superhabitables)
+## 🌍 Density in Argeics (Superhabitables)
 
 ### 🧭 Ideal Density Range: ρ ∈ ⟨0.800 ∧ 1.100⟩ ⨁
 
@@ -222,7 +222,7 @@
 - Expands surface area but spreads mass thin
 - Tectonics may fail from poor core–mantle structure
 
-### 🧠 Rheatic (Superhabitable) Radius Traits
+### 🧠 Argeic (Superhabitable) Radius Traits
 
 | Trait | Implication |
 |----------------------------------|----------------------------------------------|

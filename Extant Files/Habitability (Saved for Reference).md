@@ -130,7 +130,7 @@ title: ""
 
 **Cross-Check Notes:** 
 - Connects directly with **Gaean planemons** (Earth-like envelope definition) and **Geotic Guidelines** (extended habitability). 
-- Provides *pattern-based classification*, useful alongside **Ground States** and **Rheatic planemons**. 
+- Provides *pattern-based classification*, useful alongside **Ground States** and **Argeic planemons**. 
 - No explicit new symbols; introduces several neolexical classifications (*thalassoplanet, aquaplanet*). 
 - Stages additional glossary updates for **hydrospheric balance** and related world types. 
 

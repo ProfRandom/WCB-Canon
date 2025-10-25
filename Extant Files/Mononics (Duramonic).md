@@ -29,7 +29,7 @@ A third, contextual layer — the **Categorical Envelope** — arises from the i
 
 **Categorical/Environmental Envelope**
 - Defines the contextual synthesis of mononic class and dominant morphotype.
-- Examples: geotic, telluric, rheatic, xenotic
+- Examples: geotic, telluric, argeic, xenotic
 
 ### Examples
 - **Earth:** lithic planemon → *geotic* category.  
@@ -37,7 +37,7 @@ A third, contextual layer — the **Categorical Envelope** — arises from the i
 - **Ceres:** hydruric minimon → *asteroidal* category.  
 
 ### Definitions
-- **Morphotype [neo]:** the primary compositional descriptor of a monon — its dominant physical “substance” or structural character (e.g., *lithic*, *rheatic*, *hydruric*).  
+- **Morphotype [neo]:** the primary compositional descriptor of a monon — its dominant physical “substance” or structural character (e.g., *lithic*, *argeic*, *hydruric*).  
 - **Category / Envelope [meta]:** an emergent classification expressing systemic context and behavior, derived from the combination of a monon’s mass domain and its morphotype (e.g., *geotic*, *telluric*, *xenotic*).  
 
 > **Summary:**  
