@@ -389,7 +389,7 @@ $$
 
 > These are **not bound by Earth-normal biology**. They simply represent physically plausible, self-cohering planemon-scale entities where exotic life — as chemistry permits — might arise.
 
-# Rheatic (Superhabitable) planemons
+# Argeic (Superhabitable) planemons
 
 **Definition** 
 The concept of *superhabitable planemons* was proposed by René Heller and John Armstrong (2014) to describe worlds with physical, orbital, and stellar characteristics that make them **more conducive to rich, diverse biospheres** than Earth — though not necessarily more suitable for humanoid or Earthlike life.
