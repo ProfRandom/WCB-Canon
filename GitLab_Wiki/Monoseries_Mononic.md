@@ -22,3 +22,8 @@ $$
 \end{array}
 $$
 Each monoseries bridges the physical thresholds between compositional regimes — lithic, volatile, metallic, and gaseous — and provides a scaffolding for the WCB’s morphological and habitability classifications.
+
+### Micromon is the umbrella term for all Small Stellar System Bodies (SSSBs).
+
+✔ Distinct from **planemon (planetary-mass objects)** and **stellamon (stellar-mass objects).** 
+✔ Replaces vague vernacular terms like “SSSB” with a **clear mass-series category.**

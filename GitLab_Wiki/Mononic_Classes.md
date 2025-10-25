@@ -2,7 +2,7 @@
 title: ""
 ---
 
-## The Mononic Matrix
+## The Mononic Classes
 
 All physical bodies (*monons*) in the WCB framework are described along two orthogonal axes:  
 their **Mononic class**, which defines scale and self-coherence,  
