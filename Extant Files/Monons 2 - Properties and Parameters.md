@@ -38,35 +38,6 @@ title: ""
 - Integrates habitability and magnetic-field criteria through references to *Planemons 2* and *Stars 6*.  
 - Reinforces consistency between Monon equations (*Monons 1 — Framework and Equations*) and the geotic envelope.
 
-## Physical Properties of Monons
-
-There are five properties of monons that can be thought of as *physical properties* — insofar as they describe the monon physically or a property of the monon that emerges from the other physical properties.  These are:
-
-1. ***Mass*** (m):  The total amount of matter present. (*Mass and weight are not the same — weight depends on gravity; mass does not*.)
-2. ***Density*** (ρ):  The average amount of matter per unit volume — essentially, how tightly packed the monon's materials are. This depends on both composition (e.g. rock, ice, metal) and, for larger bodies, gravitational self-compression.
-3. ***Radius*** (r):  The distance from the monon’s center to its surface.  Technically, this is derived from the monon’s mass and average density — but more on this in a moment.
-4. ***Surface Gravity*** (g):  The strength of gravitational acceleration at the monon’s surface — how strongly it attracts objects located one radius away from its center.
-5. ***Escape Velocity*** (v): The minimum speed needed to completely escape the monon’s gravity when starting from the surface — how much velocity is required to leave the monon entirely.
-
-These are all intricately interrelated in ways that are much more complicated than we need to account for here.  For instance, while **radius** *is* derived from **mass** and **density**, it also matters how strongly the mass of the monon is gravitationally acting on itself.  This causes ***gravitational compression***, which means that the matter is forced into a denser configuration than it would otherwise exhibit *if it were not under such intense gravitational pull*.  So, it is also true that **density** in some sense is derived from **mass** and **radius**.
-
-Surface gravity and escape velocity are also very dependent on both mass and radius.  The farther a point on the surface of the monon is from the monon's center, the less gravitational attraction from the monon it experiences, decreasing according to the ***inverse-square law*** (more on this later).  And the weaker the surface gravity, the less energy it takes to overcome it, so the lower the escape velocity.
-
-For our purposes, it is reasonable to simplify things and say:
-
-> Radius is an *emergent property* of the interaction of mass and density.
-
-... and not be too overly concerned about the subtleties.
-
->  **Keppy**: *Sed ego dico*, right?
-
-Yes; this is our first official invocation of *sed ego dico*, "because I say".  No, it's not *entirely physically accurate*, but it's good enough for what we need to accomplish.
-
-Mass and density are also dependent upon what materials the monon is made of: most monons are composed of several materials (rock, ice, liquid water, etc.).  Rock, itself, can composed of any number of more basic elements and compounds.
-
-And all of these materials have their own inherent densities.  Water, for instance, has a density of about 1.0 g/cm³ (and is, in fact the *standard* for material density in the metric system we're using.)   Iron, on the other hand, has a density of about 7.7 g/cm³  — almost eight times that of water.  So 1 kilogram of water takes up more volume than one kilogram of iron.
-
-> There is an old riddle, which was a favorite of my maternal grandfather: "Which is heavier — a pound of iron or a pound of feathers?"  The trick to the question, of course, is that both *weigh* a pound, but because feathers are less dense than iron, that pound (in its natural state) takes up far more volume than does the iron.
 
 # Principle of Mass Measurement
 
@@ -93,33 +64,9 @@ The following table defines the **official WCB symbolic mass intervals** — log
 > 6. The **deniterran** is the lowest mass on this scale because objects below this mass are not capable of achieving hydrostatic equilibrium under their own gravity.
 > 7.  The exaterran is the largest mass on this scale, corresponding to the realistic upper limit for Ultra-massive Black Holes (UMBHs), about $10^{12}$⊙ masses.
 
-## The Microterran Scale
-Because so many significant bodies in a stellamon system have masses best expressed as a **millionth of a terran** (μ⨁), WCB defines an optional ***microterran scale*** for intuitive symbolic modeling. This scale maps cleanly to the standard symbolic intervals and absolute powers of ten.
-
-| µ-terran Scale | Min. Mass<br>≥ µt | Max. Mass<br>< µt | *Standard<br>Scale* | *Min. Mass<br>≥* ⨁ | *Max. Mass<br><* ⨁ | *Absolute<br>Scale* |
-| -------------- | ----------------- | ----------------- | ------------------- | ------------------ | ------------------ | ------------------- |
-| demimicro      | 0.0001            | 0.001             | *deniterran*        | *0.0000000001*     | *0.000000001*      | *10⁻¹⁰*             |
-| millimicro     | 0.001             | 0.01              | *nanoterran*        | *0.000000001*      | *0.00000001*       | *10⁻⁹*              |
-| centimicro     | 0.01              | 0.1               | *oktiterran*        | *0.00000001*       | *0.0000001*        | *10⁻⁸*              |
-| decimicro      | 0.1               | 1                 | *septiterran*       | *0.0000001*        | *0.000001*         | *10⁻⁷*              |
-| microterran    | 1                 | 10                | *microterran*       | *0.000001*         | *0.00001*          | *10⁻⁶*              |
-| dekamicro      | 10                | 100               | *pentiterran*       | *0.00001*          | *0.0001*           | *10⁻⁵*              |
-| hectomicro     | 100               | 1000              | *demiterran*        | *0.0001*           | *0.001*            | *10⁻⁴*              |
-| kilomicro      | 1000              | 10000             | *milliterran*       | *0.001*            | *0.01*             | *10⁻³*              |
-| myriamicro     | 10000             | 100000            | *centiterran*       | *0.01*             | *0.1*              | *10⁻²*              |
 
 ### Interpretive Guidance
-- The **μ-terran scale** improves readability and narrative clarity for small-mass bodies such as **Vesta**, **Miranda**, and **Ceres**.
-- It is especially useful for monons with masses between **10⁻⁶ ⨁ and 10⁻¹ ⨁**, where decimal ⨁ values become visually dense or cognitively opaque.
-- This symbolic shorthand allows you to say:
-    > “Ceres is about **157 microterrans** (157 μt)”  
-    > instead of  
-    > “Ceres is 0.000157 ⨁”
-- However, even with this scaling, **fractional expressions remain common** at the lowest mass levels:
-    > “Miranda is approximately **0.001 μt** in mass”
-    > is still **easier to read and parse** than:
-    > “Miranda is **1 demimicroterran** in mass.”
-> **In short:** The μt unit supports clarity without abandoning scalar precision — a vital aid to both symbolic modeling and thesiastic storytelling.
+- 
 
 # Estimating Planetary Magnetospheres
 - **Magnetic moment (M)** and how it relates to $B_{surf}$
