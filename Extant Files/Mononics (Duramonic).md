@@ -33,7 +33,7 @@ A third, contextual layer — the **Categorical Envelope** — arises from the i
 
 ### Examples
 - **Earth:** lithic planemon → *geotic* category.  
-- **Jupiter:** aetheric planemon → *haliform* category.  
+- **Jupiter:** aeric planemon → *haliform* category.  
 - **Ceres:** hydruric minimon → *asteroidal* category.  
 
 ### Definitions

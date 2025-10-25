@@ -25,7 +25,7 @@ title: ""
 **Major Topics:**  
 - Outlines the **dual-branch classification system** for monons.  
 - **Conformation branch** (structural/physical): based on composition and physical form.  
-  - Orders: Lithic, Astatic, Aetheric, Ulsic.  
+  - Orders: Lithic, Rheic, Aeric, Ulsic.  
   - Forms: Petriform, Carboform, Pagoform, Fluxiform, Transiform, Pneumoform, Haliform, Neutraform, Quarkform, etc.  
 - **Animotic branch** (life-relevance): based on relation to biospheric potential.  
   - Classes: Geotic, Gaean, Argeic, Xenotic.  
@@ -49,14 +49,14 @@ title: ""
 ## Abstract 3
 **Major Topics:**  
 - Monon composition taxonomy (configuration classes).  
-- Four primary categories: Lithic, Astatic, Aetheric, Ulsic.  
-- Density ranges for Lithic, Astatic, and Aetheric.  
+- Four primary categories: Lithic, Rheic, Aeric, Ulsic.  
+- Density ranges for Lithic, Rheic, and Aeric.  
 - Subclasses (conformations) within each category.  
 
 **Key Terms & Symbols:**  
 - Lithic → Petriform (silicate), Carboform (carbon).  
-- Astatic → Pagoform (ice-rich), Fluxiform (liquid-dominated).  
-- Aetheric → Transiform (gas dwarfs), Pneumoform (ice giants), Haliform (gas giants).  
+- Rheic → Pagoform (ice-rich), Fluxiform (liquid-dominated).  
+- Aeric → Transiform (gas dwarfs), Pneumoform (ice giants), Haliform (gas giants).  
 - Ulsic → placeholder for exotic/degenerate matter (neutron stars, quark stars, black holes).  
 - Densities expressed in g/cm³ and ⨁ (Earth-density units).  
 
@@ -64,7 +64,7 @@ title: ""
 - Canon as of Glossary v1.217.  
 - Complements **Mononic Mass Domaines** (size taxonomy), creating a two-axis classification system (mass × composition).  
 - “Haliform” here = Gas Giants → ensure no confusion with earlier Haliform (halogen-bearing lithic variant).  
-- Overlaps with terms already staged in Glossary: Lithic, Astatic, Aetheric, Ulsic.  
+- Overlaps with terms already staged in Glossary: Lithic, Rheic, Aeric, Ulsic.  
 
 ## Abstract  4
 
@@ -121,8 +121,8 @@ All **planemons** (planetary monons) share a **common trunk** — then branch in
 | Order | Forms |
 | --- | ---		
 | Lithic| Petriform, Carboform
-Astatic|Pagoform, Fluxiform
-Aetheric|Transiform, Pneumoform, Haliform
+Rheic|Pagoform, Fluxiform
+Aeric|Transiform, Pneumoform, Haliform
 Ulsic|Neutraform, Quarkform, Exoticform, etc.
 
 ## 🌱 Animotic Branch (Life-Relevance / Biospheric)
@@ -160,25 +160,25 @@ Focus: **How the planemon relates to life (esp. Earthlike envelopes)**
 All monons should be thought of as falling roughly into one of four categories of ***morphotypes***:
 
 1. ***Lithic*** (from Greek *lithos* "stone, rock") – Fully solid planemons (rocky, carbon-rich, metallic elements).
-2. ***Astatic*** (from Greek *a* "not, none" + *status* "state condition") – Mixed-phase planemons (icy, oceanic, or chemically altered worlds that have no fixed state).
-3. ***Aetheric*** (from Latin *aer* "air") – Gaseous planemons (gas dwarfs, ice giants, and gas giants).
+2. ***Rheic*** (from Greek *a* "not, none" + *status* "state condition") – Mixed-phase planemons (icy, oceanic, or chemically altered worlds that have no fixed state).
+3. ***Aeric*** (from Latin *aer* "air") – Gaseous planemons (gas dwarfs, ice giants, and gas giants).
 4. ***Ulsic*** (from Latin *uls* "beyond") – Exotic or theoretical matter planemons (placeholder for degenerate matter planemons — neutron stars, black holes, quark stars, etc. — if needed).
 
 The first three compositions span specific **density** ranges:
 
 1. **Lithic**: 3.5 g/cm³ – 8.0 g/cm³ (0.6347⨁ – 1.451⨁)
-2. **Astatic**: 1.0 g/cm³ – <3.5 g/cm³ (0.1814⨁ – 0.6347⨁) 
-3. **Aetheric**: 0.1 g/cm³ – 1.0 g/cm³ (0.0181⨁ – 0.1814⨁)
+2. **Rheic**: 1.0 g/cm³ – <3.5 g/cm³ (0.1814⨁ – 0.6347⨁) 
+3. **Aeric**: 0.1 g/cm³ – 1.0 g/cm³ (0.0181⨁ – 0.1814⨁)
 
 And each has subsets, called ***conformations***:
 
 1. **Lithic Morphotype**
 	- ***Petriform***: Rocky, silicate-based planemons.
 	- ***Carboform***: Carbon-dominated (graphite, diamond) planemons 
-2. **Astatic Morphotype**
+2. **Rheic Morphotype**
 	- ***Pagoform***: Ice-rich planemons (frozen volatiles like water, ammonia, methane, etc.)
 	- ***Fluxiform***: Liquid-dominated planemons (H₂O, but also other volatiles)
-3. **Aetheric Morphotype
+3. **Aeric Morphotype
 	- ***Transiform***: Gas Dwarfs
 	- ***Pneumoform***: Ice Giants
 	- ***Haliform***: Gas Giants
