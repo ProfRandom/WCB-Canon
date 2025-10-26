@@ -1,10 +1,10 @@
 ---
-title: Meta 3 — Mass Domains
+title: Mazotic_Domains
 summary: Defines symbolic and numerical mass intervals relative to Earth mass (⨁), including the microterran subscale for small-mass bodies.
 domain: meta
 category: nomenclature
 tags: [mass, terran, units, scales, prefixes]
-vocabulary: [terran, microterran, duramon, scale, mass-domain]
+vocabulary: [terran, microterran, duramon, scale, mazotic-domain]
 updated: 2025-10-25
 status: canonical
 version: 1.0
@@ -20,7 +20,7 @@ The following conventions establish how **World Crafting Basics (WCB)** names an
 These ensure that both scientific notation and symbolic terminology remain intuitive across a vast range of scales.
 
 ## Contents
-1. Mass Domains
+1. Mazotic Domains
 3. Mathematical or Structural Section (if applicable)
 4. Applications or Examples (if applicable)
 5. Terminology/Lexicon Section
@@ -28,7 +28,7 @@ These ensure that both scientific notation and symbolic terminology remain intui
 7. Version/Contributor Notes
 8. External References Section (if applicable)
 
-## Mass Domains
+## Mazotic Mass Domains
 $$
 \begin{array}{l c r r r}
 \textbf{Intervals} &
@@ -87,9 +87,7 @@ $$
 6. The **deniterran** marks the lower limit of the scale; bodies smaller than this cannot achieve hydrostatic equilibrium.  
 7. The **exaterran** marks the upper limit, approximating the realistic mass ceiling for Ultra-massive Black Holes (UMBHs), about $10^{12}\,M_\odot$.
 
-
-
-## The Microterran Subscale
+## The Duramonic Microterran Subscale
 
 Because many **duramons** have masses best expressed as a **millionth of a terran** ($\mu \oplus$), WCB defines an optional *microterran subscale* for intuitive symbolic modeling.
 
@@ -132,7 +130,7 @@ It improves readability and narrative clarity for small-mass bodies such as **Ve
 
 $$
 \begin{array}{lrll}
-\textbf{Example Monon} & \textbf{Mass ($\oplus$)} & \textbf{Symbolic} & \text{Interval}\\
+\textbf{Example Monon} & \textbf{Mass ($\oplus$)} & \textbf{Symbolic} & \text{Domain}\\
 \hline\hline
 \text{Miranda} & 0.0000076 & 7.60\text{\;dnt} & \text{deniterran}\\
 \text{Ceres} & 0.000157 & 1.57 \text{\;dmt} & \text{demiterran}\\

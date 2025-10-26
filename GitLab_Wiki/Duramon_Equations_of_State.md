@@ -2,8 +2,8 @@
 
 $$
 \begin{array}{c|c|c|c|c}
-\text{Mass }(m) & \text{Radius }(r) & \text{Density }(\rho) & \text{Gravity }(g) & \text{Escape Velocity }(v_e)\\
-\hline
+\text{Mass }(m) & \text{Radius }(r) & \text{Density }(\rho) & \text{Gravity }(g) & \text{Escape Velocity }(v_e)\\[0.5em]
+\hline\\[-0.5em]
 m = g r^2 & r = \dfrac{g}{\rho} & \rho = \dfrac{m}{r^3} & g = \dfrac{m}{r^2} & v_e = \sqrt{g r}\\
 m = \rho r^3 & r = \sqrt{\dfrac{m}{g}} & \rho = \dfrac{g}{r} & g = r\rho & v_e = \sqrt{\dfrac{m}{r}}\\
 m = \dfrac{g^3}{\rho^2} & r = \sqrt[3]{\dfrac{m}{\rho}} & \rho = \sqrt{\dfrac{g^3}{m}} & g = \sqrt[3]{m\rho^2} & v_e = \dfrac{g}{\sqrt{\rho}}\\
