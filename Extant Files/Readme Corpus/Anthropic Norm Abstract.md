@@ -24,3 +24,6 @@
 - **Status:** [NEW] — establishes a normative philosophical baseline for worldbuilding.  
 
 The universe and its functioning as we currently perceive it, absent any extreme conditions.
+
+[[The Anthropic Norm and the Mediocritic Principle of State|Anthropic Norm]]
+

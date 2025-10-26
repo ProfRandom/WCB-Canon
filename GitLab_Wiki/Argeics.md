@@ -365,12 +365,15 @@ A planemon might have:
 - The **same total volume of felsic crust** as Earth,
 - The **same hydrospheric volume**,
 - But **very different levels of exposed land**, depending on:
- - Sea level (absolute and relative)
- - Crustal relief
- - Tectonic activity
- - Isostatic balance
+- Sea level (absolute and relative)
+- Crustal relief
+- Tectonic activity
+- Isostatic balance
 
 - **Continents ≠ dry land** — “continent” in geologic terms just means *buoyant crust*, not *exposed crust*.
 - **Flooded cratons** were common for the first half of Earth’s history. 
 - True **emergent landmasses** may have been small islands or microcontinents for much of the Archean and Paleoproterozoic. 
 - **Modern-style continents** with wide uplands, deep interiors, and stable exposure are a **Phanerozoic phenomenon**.
+ 
+[Mononic_Classes](Mononic Classes)
+[[Deep_Time_Geology]]

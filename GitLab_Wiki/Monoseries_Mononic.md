@@ -27,3 +27,6 @@ Each monoseries bridges the physical thresholds between compositional regimes �
 
 ✔ Distinct from **planemon (planetary-mass objects)** and **stellamon (stellar-mass objects).** 
 ✔ Replaces vague vernacular terms like “SSSB” with a **clear mass-series category.**
+
+[Micomons](Micromons)
+[[Mononic_Classes]]
