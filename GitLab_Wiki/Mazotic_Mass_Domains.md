@@ -30,7 +30,7 @@ These ensure that both scientific notation and symbolic terminology remain intui
 
 ## Mazotic Mass Domains
 $$
-\begin{array}{l c r r r}
+\begin{array}{l c r r r l}
 \textbf{Intervals} &
 \textbf{Abbr.} &
 \textbf{Min. Mass} \ge &

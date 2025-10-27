@@ -34,26 +34,34 @@ WCB follows **official SI conventions** where they exist and extends them symmet
 
 ### Standard SI
 
+### Standard SI
+
+The **Standard International (SI)** prefixes define the baseline for all WCB quantitative systems.  
+They describe powers of ten above or below the base unit.
+
 $$
-\begin{array}{l c l}
-\textbf{Prefix} & \textbf{Abbrev.} & \textbf{Power} \\[3pt]
+\begin{array}{l c l l}
+\textbf{Prefix} & \textbf{Abbrev.} & \textbf{Power} & \textbf{Meaning} \\[3pt]
 \hline\hline
-\text{nano-} & \text{n} & 10^{-9} \\
-\text{micro-} & \mu & 10^{-6} \\
-\text{milli-} & \text{m} & 10^{-3} \\
-\text{centi-} & \text{c} & 10^{-2} \\
-\text{deci-} & \text{d} & 10^{-1} \\
+\text{nano-} & \text{n} & 10^{-9} & \text{billionth} \\
+\text{micro-} & \mu & 10^{-6} & \text{millionth} \\
+\text{milli-} & \text{m} & 10^{-3} & \text{thousandth} \\
+\text{centi-} & \text{c} & 10^{-2} & \text{hundredth} \\
+\text{deci-} & \text{d} & 10^{-1} & \text{tenth} \\
 \hline\hline
-\text{deka-} & \text{da} & 10^{1} \\
-\text{hecto-} & \text{h} & 10^{2} \\
-\text{kilo-} & \text{k} & 10^{3} \\
-\text{mega-} & \text{M} & 10^{6} \\
-\text{giga-} & \text{G} & 10^{9} \\
-\text{tera-} & \text{T} & 10^{12} \\
-\text{peta-} & \text{P} & 10^{15} \\
-\text{exa-} & \text{E} & 10^{18}
+\text{deka-} & \text{da} & 10^{1} & \text{ten (decade)} \\
+\text{hecto-} & \text{h} & 10^{2} & \text{hundred} \\
+\text{kilo-} & \text{k} & 10^{3} & \text{thousand} \\
+\text{mega-} & \text{M} & 10^{6} & \text{million} \\
+\text{giga-} & \text{G} & 10^{9} & \text{billion} \\
+\text{tera-} & \text{T} & 10^{12} & \text{trillion} \\
+\text{peta-} & \text{P} & 10^{15} & \text{quadrillion} \\
+\text{exa-} & \text{E} & 10^{18} & \text{quintillion} \\
 \end{array}
 $$
+
+ **Note:**  
+WCB adopts these SI prefixes *exactly as defined* for all quantitative domains (Mazotics, Chronotics, etc.),  extending them symmetrically where intermediate exponents are required.
 
 ### World Crafting Basics Prefixes
 

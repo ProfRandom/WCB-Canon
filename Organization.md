@@ -6,24 +6,29 @@ date: 2025-10-25
 # Mazotics
 ## Basic Framework
 
-The hierarchical structure of Mononics follows the pattern:
-
-- Mazotic Domain
+The hierarchical structure of has only one level ***Mazotic Domain***.  This is a statement of the defined mass range within which a monon resides.  The ranges extend between **deniterrans** — a ten-billionth ($10^{-10}$) of an Earth-mass  —  to **exaterrans** — a *quintillion* (a billion-billion) Earth-masses ($10^{18}$).
 
 ## Terminology
-
 $$
 \begin{array}{ll}
 \textbf{Term} & \textbf{Definition} \\[0.25em]
 \hline\hline\\[-0.6em]
-\text{Terran} & \text{Basic unit of mazotics — 1 terran is one Earth-mass.} \\[0.5em]
-\text{Jovian} & \text{Supplemental unit of mazotics — 1 jovian is one Jupiter-mass.} \\[0.5em]
-\text{Lunar} & \text{Supplemental unit of mazotics — 1 lunar is one Lunar-mass.} \\[0.5em]
-\text{Solar} & \text{Supplemental unit of mazotics — 1 solar is one Solar-mass.} \\[0.5em]
-\text{Mass Class} & \text{Logarithmic mass range.} \\[0.5em]
-\text{Mass Series} & \text{Perceptual mass context.} \\[0.5em]
+\text{Terran (t, $\oplus$)} & \text{Basic unit of mazotics — 1 terran is one Earth-mass.} \\[0.5em]
+\text{Jovian (j, ♃)} & \text{Supplemental unit of mazotics — 1 jovian is one Jupiter-mass.} \\[0.5em]
+\text{Lunar (l, ☾)} & \text{Supplemental unit of mazotics — 1 lunar is one Lunar-mass.} \\[0.5em]
+\text{Solar (s, $\odot$)} & \text{Supplemental unit of mazotics — 1 solar is one Solar-mass.} \\[0.5em]
+\text{Mass Class} & \text{Logarithmic mass range.}
 \end{array}
 $$
+## Examples
+
+- **Earth mass**: $1\oplus$; $81.3☾$
+- **Jupiter mass**: $1♃$; $317.8\oplus$; $25831.14☾$
+- **Sun mass**: $1\odot$; $1047.83♃$; $333000\oplus$
+- **Rigel mass**: $21\odot$; $22002.41♃$; $6993000.00\oplus$
+
+
+
 # Mononics
 
 **Mononics** is the discipline within the WCB framework concerned with the **structure, coherence, and persistence of worlds** — the study of how discrete, self-coherent bodies (*monons*) form, organize, and endure across all scales of matter and energy.  

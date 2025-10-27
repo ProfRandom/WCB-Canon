@@ -226,14 +226,15 @@ This is normal sized text. $\small\text{This text is smaller than the text surro
 
 ```
 $$
-\varphi = \frac{\sqrt{5} + 1}{2} = \Large \boxed{1.61803399}
+\varphi = \frac{\sqrt{5} + 1}{2} = \LARGE \boxed{1.61803399}
 $$
 ```
 Renders as:
 
 $$
-\varphi = \frac{\sqrt{5} + 1}{2} = \Large \boxed{1.61803399}
+\varphi = \frac{\sqrt{5} + 1}{2} = \LARGE \boxed{1.61803399}
 $$
+***You probably don't want to actually use that particular size, it's just presented for illustration purposes.***
 
 ### Lists and Tables
 
