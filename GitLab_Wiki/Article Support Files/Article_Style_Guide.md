@@ -185,21 +185,55 @@ $m^{\frac{2}{3}}$
 ```
 This results in a rendering which conforms to the default line spacing in the rest of the paragraph block, appearing as $m^{\frac{2}{3}}$, but the fractional expoenent can become difficult to discern at small font sizes.
 
-This can be made more readable by pairing the fraction with a text sizing command such as `\normalsize`or `\large`, e.g.:
+This can be made more readable by pairing the fraction with a text sizing command, e.g.:
 ```
-$m^{{\normalsize\frac{2}{3}}}
+$m^{{\footnotesize\frac{2}{3}}}
 
 or
 
-m^{{\large\frac{2}{3}}}$
+$m^{{\small\frac{2}{3}}}
 ```
-These are a passable workarounds, but as can be seen from this text block example using the full fraction results in rendering such as $m^{{\normalsize\frac{2}{3}}}$ or $m^{{\large\frac{2}{3}}}$, which can be problematic if there is a line of text above the sentence in which the exponent appears. This adjustment can still be **difficult to interpret** in complex expressions and should therefore be used **sparingly and with intent**.
+These are a passable workarounds,: as can be seen from this text block example using the full fraction results in renderings such as $m^{{\footnotesize\frac{2}{3}}}$ or $m^{{\small\frac{2}{3}}}$ (compare to $m^{\frac{2}{3}}$).  This *can* cause a slight discontinuity in the line spacing of the text block, which can be problematic if there is a line of text above the sentence in which the exponent appears, but it is not terribly jarring in most cases.
 
 A variation:
 ```
 $m^{{}^2/{}_3}$
 ```
- — can be employed.  This renders somewhat more readably than the above, but again, in inline usages, an expression of the form $m^{{}^2/{}_3}$ can cause irregular line spacing (though to a much lesser degree) if a line of text appears above the line bearing the expression.  This is perhaps less jarring than the full fractional expression, however.  This format is also generally cross-renderer compliant, but should be tested before relied upon extensively.
+ — can be employed.  This renders somewhat more readably than the above, but again, in inline usages, an expression of the form $m^{{}^2/{}_3}$ can cause irregular line spacing (though to a lesser degree) if a line of text appears above the line bearing the expression.  This is perhaps less noticeable than the full fractional expression even when rendered `\small` or `\footnotesize`, however. This format is generally cross-renderer compliant, but should be tested before relied upon extensively.
+
+#### Math Block Text Sizing Commands
+These can be used in math blocks or as inline math sequences within text blocks to control the rendered size of text.
+
+$$
+\begin{array}{lcl}
+ \setminus\text{tiny} &\longrightarrow & \tiny \text{Example} \\
+ \setminus\text{scriptsize} &\longrightarrow & \scriptsize \text{Example} \\
+ \setminus\text{footnotesize} &\longrightarrow & \footnotesize \text{Example} \\
+ \setminus\text{small} &\longrightarrow & \small \text{Example} \\
+ \setminus\text{normalsize} &\longrightarrow & \normalsize \text{Example} \\
+ \setminus\text{large} &\longrightarrow & \large \text{Example} \\
+ \setminus\text{Large} &\longrightarrow & \Large \text{Example} \\
+ \setminus\text{LARGE} &\longrightarrow & \LARGE \text{Example} \\
+ \setminus\text{huge} &\longrightarrow & \huge \text{Example} \\
+ \setminus\text{Huge} &\longrightarrow & \Huge \text{Example} \\
+\end{array}
+$$
+##### Examples
+```
+$\small\text{This text is smaller than the text surrounding it.}$
+```
+This is normal sized text. $\small\text{This text is smaller than the text surrounding it.}$ It is also rendered in a different font face.
+
+```
+$$
+\varphi = \frac{\sqrt{5} + 1}{2} = \Large \boxed{1.61803399}
+$$
+```
+Renders as:
+
+$$
+\varphi = \frac{\sqrt{5} + 1}{2} = \Large \boxed{1.61803399}
+$$
 
 ### Lists and Tables
 
