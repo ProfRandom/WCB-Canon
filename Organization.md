@@ -10,13 +10,13 @@ The hierarchical structure of has only one level ***Mazotic Domain***.  This is 
 
 ## Terminology
 $$
-\begin{array}{ll}
+\begin{array}{lll}
 \textbf{Term} & \textbf{Definition} \\[0.25em]
 \hline\hline\\[-0.6em]
-\text{Terran (t, $\oplus$)} & \text{Basic unit of mazotics — 1 terran is one Earth-mass.} \\[0.5em]
-\text{Jovian (j, ♃)} & \text{Supplemental unit of mazotics — 1 jovian is one Jupiter-mass.} \\[0.5em]
-\text{Lunar (l, ☾)} & \text{Supplemental unit of mazotics — 1 lunar is one Lunar-mass.} \\[0.5em]
-\text{Solar (s, $\odot$)} & \text{Supplemental unit of mazotics — 1 solar is one Solar-mass.} \\[0.5em]
+\text{Terran (t, $\oplus$)} & \text{Basic unit of mazotics} & \text{1 terran is one Earth-mass.} \\[0.5em]
+\text{Jovian (j, ♃)} & \text{Supplemental unit of mazotics} & \text{1 jovian is one Jupiter-mass.} \\[0.5em]
+\text{Lunar (l, ☾)} & \text{Supplemental unit of mazotics} & \text{1 lunar is one Lunar-mass.} \\[0.5em]
+\text{Solar (s, $\odot$)} & \text{Supplemental unit of mazotics} & \text{1 solar is one Solar-mass.} \\[0.5em]
 \text{Mass Class} & \text{Logarithmic mass range.}
 \end{array}
 $$

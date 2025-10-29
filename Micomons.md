@@ -1,19 +1,16 @@
 ### Micromon Mass & Radius Boundaries
 
-$$
-\begin{array}{lrrr}
-\textbf{Micromon Mass Range} & \textbf{Max Mass (μt)} & \textbf{Max Mass (t)} & \textbf{Max Radius (km)} \\
-\hline\hline
-\text{Maximum} & 250\mu t & 0.00025\; t & 600\; km \\
-\text{Minimum} & \text{Meteroid scale} & <0.0000001 & <1\; km
-\end{array}
-$$
+| | | | |
+|---|---|---|---|
+|**micromon Mass Range**|**Max Mass (µT)**|**Max Mass (T)**|**Max Radius (km)**|
+|**Maximum micromon**|250 µT|0.00025 T|600 km|
+|**Minimum micromon**|Meteoroid Scale|<0.0000001 T|<1 km|
 
 - **Maximum micromon Mass:** **≤250 µT (0.00025 T)**, based on the smallest planetary-mass object (Charon).
 - **Maximum micromon Radius:** **≤600 km**, following Tim deBenedictis' planetary-class threshold.
 - **Everything smaller than this remains a micromon.**
 - **Meteoroids (sub-meter objects) remain a size-based category, not a conformation.**
-### **✅ 3. Ulsoid Micromons (For Exotic/Mysterious Objects)**
+### **✅ 3. Ulsoid micromons (For Exotic/Mysterious Objects)**
 
 ✔ **Exotoid Ulsoid** → Hypothetical exotic matter objects (dark matter, strangelets). 
 ✔ **Cryptoid Ulsoid** → Unusual, unidentified micromons (e.g., ‘Oumuamua).

@@ -26,60 +26,51 @@ It is the fundamental *unit of being.*
 The suffix **–cule** (from *–culon*, “small body”) marks a directly bound group of *similar* monons.  
 Cules are **homogeneous** systems: members of the same Mononic Class bound together.
 
-$$
-\begin{array}{lll}
-	\textbf{Example} & \textbf{Canonical Term} & \text{Description} \\
-    \hline\hline
-    \text{Two planets} & \text{duacule ← duaculon} & \text{Pair of duramons} \\
-    \text{Three stars} & \text{ternacule ← ternaculon} & \text{Trinary of stellamons} \\
-    \text{Four or more} & \text{multicule ← multiculon} & \text{Homogenous multiple} \\
-    \text{Spoken contractions} & \text{quadrule, quinule} & \text{Vowel-prefix elision for euphony}
-\end{array}
-$$
+| Example | Canonical Term | Description |
+|:--|:--|:--|
+| two planets | **duacule < duaculon** | pair of Duramons (double planet) |
+| three stars | **ternacule < ternaculon** | trinary of Stellamons |
+| four or more | **multicule < multiculon** | homogeneous multiple |
+| spoken contractions | *quadrule*, *quinule* | vowel-prefix elision for euphony |
 
-**Euphonic rule:**  
-* When a vowel-ending prefix precedes –cule, the *c* may be dropped (*quadrule* < *quadracule*).  
-* **Concept:** Cules express *unity by resemblance* — kinship and symmetry among equals.
+> **Euphonic rule:**  
+> When a vowel-ending prefix precedes –cule, the *c* may be dropped (*quadrule* < *quadracule*).  
+>  
+> **Concept:** Cules express *unity by resemblance* — kinship and symmetry among equals.
 
-**Terminology note:**  
-* The older term **Duomon** (two-body system) is synonymous with **Duacule**, used when both members remain gravitationally bound and dynamically coupled.
+> **Terminology note:**  
+> The older term **Duomon** (two-body system) is synonymous with **Duacule**,  
+> used when both members remain gravitationally bound and dynamically coupled.
 
 ## 3 · Lexes — Unity by Connection
 The suffix **–lex** (from *–plexon*, related to *complex*, “to weave, intertwine”) marks a bound group of *unlike* monons or cules.  
 Lexes are **heterogeneous** systems: members of differing Mononic Classes woven by shared fields.
 
-$$
-\begin{array}{lll}
-	\textbf{Example} & \textbf{Canonical Term} & \text{Description} \\
-    \hline\hline
-    \text{Star and planets} & \text{stellalex ← stellalexon} & \text{Stellamon primary with duramons or peramons} \\
-    \text{Planet and moons} & \text{duralex ← duralexon} & \text{Duramon primary with satellites} \\
-    \text{Resonance chain} & \text{peralex ← peralexon} & \text{Peramonic network (e.g. binary black holes)} \\
-    \text{Trinary stars and planets} & \text{stellar ternalex} & \text{Three stars and planets} \\
-    \text{Spoken contractions} & \text{ternex, quinex} & \text{Vowel-prefix elision allowed}
-\end{array}
-$$
+| Example | Canonical Term | Description |
+|:--|:--|:--|
+| star + planets | **Stellalex < Stellalexon** | Stellamon primary with Duramons or Peramons |
+| planet + moons | **Duralex < Duralexon** | Duramon primary with satellites |
+| resonance chain | **Peralex < Peralexon** | Peramonic network (e.g., binary black holes) |
+| trinary stars + planets | **Stellar Ternalex < Stellar Ternalexon** | three stars + planets |
+| spoken contractions | *quinex*, *ternex* | vowel-prefix elision allowed |
 
-**Euphonic rule:**  
-* When a vowel-ending prefix precedes –lex, the *l* may be dropped (*quinex* < *quinalex*).
-* **Concept:** Lexes express *unity by relationship* — interdependence and function within diversity.
+> **Euphonic rule:**  
+> When a vowel-ending prefix precedes –lex, the *l* may be dropped (*quinex* < *quinalex*).  
+>  
+> **Concept:** Lexes express *unity by relationship* — interdependence and function within diversity.
 
 ## 4 · Gates — Unity by Context
 The suffix **–gate** (from *aggregate*, Latin *aggregare*, “to bring together”) denotes macro-systems composed of multiple Lexes or Cules.  
 Gates and **Aggregations** are large-scale, often statistical domains.
 
-$$
-\begin{array}{lll}
-	\textbf{Example} & \textbf{Canonical Term} & \text{Description} \\
-    \hline\hline
-    \text{Pair of galaxies} & \text{duate ← duagate} & \text{Double aggregate} \\
-    \text{Triple galaxy system} & \text{ternate ← ternagate} & \text{Trinary aggregate} \\
-    \text{Galaxy cluster} & \text{multate ← multigate} & \text{Many-membered aggregate)} \\
-    \text{Cosmic filament} & \text{stellate, perate} & \text{Vast stellar or peramonic collective}
-\end{array}
-$$
+| Example | Canonical Term | Description |
+|:--|:--|:--|
+| pair of galaxies | **Duagate < Duagation** | binary aggregate |
+| triple galaxy system | **Ternate < Ternagation** | triple aggregate |
+| galaxy cluster | **Multigate < Multigation** | many-membered aggregate |
+| cosmic filament | **Stellagate / Peragate** | vast stellar or peramonic collective |
 
-* **Concept:** Gates express *unity by context* — coherence arising from shared fields or large-scale topology.
+> **Concept:** Gates express *unity by context* — coherence arising from shared fields or large-scale topology.
 
 ## 5 · Summary Hierarchy
 

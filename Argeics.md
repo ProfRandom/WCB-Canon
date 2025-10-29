@@ -1,6 +1,3 @@
-\[\[\_TOC\_]]
-
-
 ## 🌍 Density in Argeics (Superhabitables)
 
 ### 🧭 Ideal Density Range: ρ ∈ ⟨0.800 ∧ 1.100⟩ ⨁

@@ -1,0 +1,122 @@
+/* === WCB Editing View: Simplified Dark (No custom background) === */
+
+:root {
+  --wiki-font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
+               Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  --wiki-font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+                    "Liberation Mono", monospace;
+  --wiki-font-weight-header: 600;
+  --wiki-font-weight-body: 400;
+
+  /* WCB header colors */
+  --wcb-h1: white;
+  --wcb-h2: white;
+  --wcb-h3: white;
+  --wcb-h4: white;
+  --wcb-h5: white;
+  --wcb-h6: white;
+
+  /* Emphasis colors */
+  --wcb-bold: white;
+  --wcb-italic: red;
+  --wcb-bolditalic: rgb{0,0,255};
+
+  /* Accent colors */
+  --wiki-accent: #58a6ff;
+  --wiki-code-bg: rgba(255,255,255,0.06);
+}
+
+/* === Editor body (no background override!) === */
+.CodeMirror,
+.cm-content,
+.cm-line {
+  color: #e0e0e0 !important;
+  font-family: var(--wiki-font) !important;
+  font-weight: var(--wiki-font-weight-body) !important;
+  font-size: 15px !important;
+  line-height: 1.6 !important;
+}
+
+/* === Headers (WCB palette + wiki font) === */
+.cm-header-1 { color: var(--wcb-h1) !important; font-size: 28px !important; font-weight: var(--wiki-font-weight-header) !important; }
+.cm-header-2 { color: var(--wcb-h2) !important; font-size: 26px !important; font-weight: var(--wiki-font-weight-header) !important; }
+.cm-header-3 { color: var(--wcb-h3) !important; font-size: 24px !important; font-weight: var(--wiki-font-weight-header) !important; }
+.cm-header-4 { color: var(--wcb-h4) !important; font-size: 22px !important; font-weight: var(--wiki-font-weight-header) !important; }
+.cm-header-5 { color: var(--wcb-h5) !important; font-size: 20px !important; font-weight: var(--wiki-font-weight-header) !important; }
+.cm-header-6 { color: var(--wcb-h6) !important; font-size: 18px !important; font-weight: var(--wiki-font-weight-header) !important; }
+
+/* === Links === */
+.cm-link {
+  color: var(--wiki-accent) !important;
+  text-decoration: underline !important;
+}
+
+/* === Inline code and code blocks === */
+.cm-inline-code,
+.cm-monospace,
+.cm-code {
+  font-family: var(--wiki-font-mono) !important;
+  background-color: var(--wiki-code-bg) !important;
+  color: #fff !important;
+  padding: 0 0.25em !important;
+  border-radius: 4px !important;
+}
+
+/* === Emphasis === */
+.cm-strong { color: var(--wcb-bold) !important; font-weight: bold !important; }
+.cm-strong.cm-em { color: var(--wcb-bolditalic) !important; font-weight: bold !important; font-style: italic !important; }
+
+
+/* === Restore selection visibility === */
+.CodeMirror-focused .CodeMirror-selected,
+.cm-selectionBackground,
+::selection {
+  background-color: rgba(88,166,255,0.35) !important;
+}
+
+/* === ZETTLR 3.6.0 (CodeMirror 6) — Italics Color Fix === */
+
+/* Italic emphasis tokens */
+.cm-editor .cm-content .cm-line span.tok-em,
+.cm-editor .cm-content .cm-line span.cm-em,
+.cm-editor .cm-content .cm-line em,
+.cm-editor .cm-content .cm-line i {
+  color: red  !important;
+  font-style: italic !important;
+}
+
+/* Optional: faint glow or stronger visibility */
+.cm-editor .cm-content .cm-line span.tok-em {
+  text-shadow: 0 0 1px rgba(255, 0, 0, 0.4);
+}
+
+/* === WCB emphasis override for internal Asset Manager === */
+
+/* increase selector specificity and ensure it’s parsed last */
+body.theme-dark .cm-editor .cm-content .cm-line span[style*="italic"],
+body.theme-dark .cm-editor .cm-content .cm-line em,
+body.theme-dark .cm-editor .cm-content .cm-line i {
+  color: var(--wcb-italic) !important;
+  font-style: italic !important;
+}
+
+body.theme-dark .cm-editor .cm-content .cm-line span[style*="bold"],
+body.theme-dark .cm-editor .cm-content .cm-line strong,
+body.theme-dark .cm-editor .cm-content .cm-line b {
+  color: var(--wcb-bold) !important;
+  font-weight: bold !important;
+}
+
+body.theme-dark .cm-editor .cm-content .cm-line span[style*="italic"][style*="bold"],
+body.theme-dark .cm-editor .cm-content .cm-line em b,
+body.theme-dark .cm-editor .cm-content .cm-line b em {
+  color: var(--wcb-bolditalic) !important;
+  font-style: italic !important;
+  font-weight: bold !important;
+}
+
+
+
+
+
+
