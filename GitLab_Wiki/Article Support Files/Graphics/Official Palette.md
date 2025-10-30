@@ -4,14 +4,14 @@ title: ""
 
 ### WCB Canon — Accessible 7-Color WONG Palette
 
-![[Color Palette|550]]
+![WCB_Color_Palette.png](../Graphics/WCB_Color_Palette.png)
+
+
 
 **Notes:**
 - Palette designed for color-blind accessibility (passes protanopia, deuteranopia, tritanopia tests).
 - Warm/cool balance follows a golden-ratio hue distribution (~137° separation).
 - Works consistently in print (CMYK), screen (sRGB), and LaTeX vector output.
-
-![[Pasted image 20251018202509.png]]
 
 # Okabe–Ito Palette
 ```
