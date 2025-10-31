@@ -1,5 +1,3 @@
-\[\[\_TOC\_]]
-
 ## 🌍 Density in Argeics (Superhabitables)
 
 ### 🧭 Ideal Density Range: ρ ∈ ⟨0.800 ∧ 1.100⟩ ⨁
@@ -13,20 +11,20 @@
 
  ### Why Not Lower (< 0.800⨁)?
 - Suggests **ice-rich or gas-dominated** composition
-- May lack a dense core → **no magnetosphere**
-- Surface gravity likely drops too low for:
-- Atmospheric retention
-- Ecological complexity
-- Stable liquid water under moderate insolation
-- Better suited to **parahabitable** or **anontogenic** classification
+ - May lack a dense core → **no magnetosphere**
+ - Surface gravity likely drops too low for:
+ - Atmospheric retention
+ - Ecological complexity
+ - Stable liquid water under moderate insolation
+ - Better suited to **parahabitable** or **anontogenic** classification
 
 ### Why Not Higher (> 1.100⨁)?
 - Indicates **iron-heavy or mantle-stripped** structure
 - Often results from **giant impacts** → dynamically unstable past
 - Crust and mantle may be **too thin** to support:
-- Long-lived tectonic activity
-- Robust outgassing cycles
-- Climate regulation via the carbon-silicate cycle
+ - Long-lived tectonic activity
+ - Robust outgassing cycles
+ - Climate regulation via the carbon-silicate cycle
 - Surface gravity may become biomechanically or chemically problematic
 
 ### 🧠 Superhabitable Density Traits

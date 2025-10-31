@@ -233,13 +233,13 @@ Finally, giving each set of zone limits a unique nomenclature:
 
 $$
 \begin{array}{rclcl}
-\leftarrow 0.500\mathcal{N} & \rightarrow & \text{Zone 1} & \rightarrow & \mathcal{Z}_1 \\
-\langle 0.500 \wedge 0.750 \rangle \mathcal{N} & \rightarrow & \text{Zone 2} & \rightarrow & \mathcal{Z}_2 \\
-\langle 0.750 \wedge 0.950 \rangle \mathcal{N} & \rightarrow & \text{Zone 3} & \rightarrow & \mathcal{Z}_3 \\
-\langle 0.950 \wedge 1.385 \rangle \mathcal{N} & \rightarrow & \text{Zone 4} & \rightarrow & \mathcal{Z}_4 \\
-\langle 1.385 \wedge 1.770 \rangle \mathcal{N} & \rightarrow & \text{Zone 5} & \rightarrow & \mathcal{Z}_5 \\
-\langle 1.770 \wedge 4.850 \rangle \mathcal{N} & \rightarrow & \text{Zone 6} & \rightarrow & \mathcal{Z}_6 \\
-4.850\mathcal{N} \rightarrow & \rightarrow & \text{Zone 7} & \rightarrow & \mathcal{Z}_7 \\
+\leftarrow 0.500\mathcal{N} & \rightarrow & \text{Zone 0} & \rightarrow & \mathcal{Z}_0 \\
+\langle 0.500 \wedge 0.750 \rangle \mathcal{N} & \rightarrow & \text{Zone 1} & \rightarrow & \mathcal{Z}_1 \\
+\langle 0.750 \wedge 0.950 \rangle \mathcal{N} & \rightarrow & \text{Zone 2} & \rightarrow & \mathcal{Z}_2 \\
+\langle 0.950 \wedge 1.385 \rangle \mathcal{N} & \rightarrow & \text{Zone 3} & \rightarrow & \mathcal{Z}_3 \\
+\langle 1.385 \wedge 1.770 \rangle \mathcal{N} & \rightarrow & \text{Zone 4} & \rightarrow & \mathcal{Z}_4 \\
+\langle 1.770 \wedge 4.850 \rangle \mathcal{N} & \rightarrow & \text{Zone 5} & \rightarrow & \mathcal{Z}_5 \\
+4.850\mathcal{N} \rightarrow & \rightarrow & \text{Zone 6} & \rightarrow & \mathcal{Z}_6 \\
 \end{array}
 $$
 This gives us our final list of the thermozone nomenclature
@@ -248,37 +248,37 @@ This gives us our final list of the thermozone nomenclature
  - Orbital Range: $\leftarrow 0.500\mathcal{N}$
    - Zone Limits: $\leftarrow H_0$
      - Animozone: *Igniozone*
-       - Zone 1 ($Z_1$)
+       - Zone 0 ($\mathcal{Z}_0$)
 - **Inner Parahabitable Zone**
  - Orbital Range: $\langle 0.500 \wedge 0.750 \rangle \mathcal{N}$
    - Zone Limits: $\langle H_0 \wedge H_1 \rangle$
      - Animozone: *Calorozone*
-       - Zone 2 ($Z_2$)
+       - Zone 1 ($\mathcal{Z}_1$)
 - **Inner Habitable Zone**
  - Orbital Range: $\langle 0.750 \wedge 0.950 \rangle \mathcal{N}$
    - Zone Limits: $\langle H_1 \wedge H_2 \rangle$
      - Animozone: *Heliozone*
-       - Zone 3 ($Z_3$)
+       - Zone 2 ($\mathcal{Z}_2$)
 - **Central Habitable Zone**
  - Orbital Range: $\langle 0.950 \wedge 1.385 \rangle \mathcal{N}$
    - Zone Limits: $\langle H_2 \wedge H_3 \rangle$
      - Animozone: *Solarazone*
-       - Zone 4 ($Z_4$)
+       - Zone 3 ($\mathcal{Z}_4$)
 - **Outer Habitable Zone**
  - Orbital Range: $\langle 1.385 \wedge 1.770 \rangle \mathcal{N}$
    - Zone Limits: $\langle H_3 \wedge H_4 \rangle$
      - Animozone: *Hiberozone*
-       - Zone 5 ($Z_5$)
+       - Zone 4 ($\mathcal{Z}_4$)
 - **Outer Parahabitable Zone**
  - Orbital Range: $\langle 1.770 \wedge 4.850 \rangle \mathcal{N}$
    - Zone Limits: $\langle H_4 \wedge H_5 \rangle$
      - Animozone: *Brumazone*
-       - Zone 6 ($Z_6$)
+       - Zone 5 ($\mathcal{Z}_5$)
 - **Outer Xenotic Zone**
  - Orbital Range: $4.850\mathcal{N}$ →
    - Zone Limits: $H_5 \rightarrow$
      - Animozone: *Cryozone*
-       - Zone 7 ($Z_7$)
+       - Zone 6 ($\mathcal{Z}_6$)
 
 This gives us a very robust way of discussing orbital distances in any star system.
 
@@ -292,9 +292,9 @@ There is one remaining essential star system orbit, which I have called the **pe
 
 $$
 \begin{aligned}
-365.256363004 \quad \text{Ephemeris Days} \\
-or \\
-365^d\;6^h\;9^m\; 9.763545^s
+365.256363004 &\quad \text{Ephemeris Days} \\
+&or \\
+365^d\;6^h\;9^m&\; 9.763545^s
 \end{aligned}
 $$
 > This is *not* a "year" as experienced by inhabitants on the surface of a planemon on this orbit (that is called the **tropical year**, which is in part dependent upon the *rotational period* of the planemon, itself); this is the **sidereal year**.
