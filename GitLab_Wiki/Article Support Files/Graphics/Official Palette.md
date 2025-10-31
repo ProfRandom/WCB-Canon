@@ -4,9 +4,17 @@ title: ""
 
 ### WCB Canon — Accessible 7-Color WONG Palette
 
-![WCB_Color_Palette.png](../Graphics/WCB_Color_Palette.png)
+![WCB_Palette.png](../../Graphics/WCB_Palette.png)
 
-
+WCB_Silver → \#ADADAD
+WCB_Grey → \#808080
+WCB_Orange → \#E69F00
+WCB_Cyan → \#56B4E9
+WCB_Green → \#099E73
+WCB_Yellow → \#F0E442
+WCB_Blue → \#0072B2
+WCB_Red → \#D55E00
+WCB_Violet → \#CC79A7
 
 **Notes:**
 - Palette designed for color-blind accessibility (passes protanopia, deuteranopia, tritanopia tests).

@@ -413,11 +413,14 @@ And, by extension either can be *approximated* from the other by:
 
 $$
 \begin{aligned}
-\mathcal{P} &\approx \sqrt[6]{mathcal{N}^2} \approx \sqrt[3]{\mathcal{N}} \\
+\mathcal{P} &\approx \sqrt[6]{\mathcal{N}^2} \approx \sqrt[3]{\mathcal{N}} \\
 \mathcal{N} &\approx \mathcal{P}^3
 \end{aligned}
 $$
 **REMEMBER**
 - Both 𝒩 and $\mathcal{P}$ are measured in astronomical units, not time!
 - These last four equations are **approximations**; in most cases they'll be "accurate enough", but calculating𝒩 and $\mathcal{P}$ robustly is always advised.
-
+ 
+$$
+\frac{1 - 0.95}{1.385-0.95} = \frac{1 - 0.50}{4.85-0.50} \approx 0.11494
+$$
