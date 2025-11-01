@@ -5,18 +5,18 @@ title: *Binaries 1 - Principles and Properties*
 **Major Topics:** 
 - Defines the **fundamental geometric and mass relationships** governing all binary and barycentric systems in the WCB framework. 
 - Establishes nine primary **dimensional parameters** describing the separations between the two bodies and their barycenter: 
- - **System dimensions (Tₘᵢₙ, 𝒜, Tₘₐₓ)** — minimum, average, and maximum separations between the two bodies. 
+ - **System dimensions (Tₘᵢₙ, A, Tₘₐₓ)** — minimum, average, and maximum separations between the two bodies. 
  - **Primaron dimensions (Pₘᵢₙ, Pₐᵥg, Pₘₐₓ)** — corresponding distances of the primaron from the barycenter. 
  - **Secondron dimensions (Sₘᵢₙ, Sₐᵥg, Sₘₐₓ)** — distances of the secondron from the barycenter. 
 - Introduces the **mass-fraction system**: 
  - **μ = M₂ / (M₁ + M₂)** — secondron mass fraction (defines the primaron’s barycentric orbit). 
  - **ν = M₁ / (M₁ + M₂)** — primaron mass fraction (defines the secondron’s barycentric orbit). 
- - Demonstrates that **Pₐᵥg = μ 𝒜** and **Sₐᵥg = ν 𝒜**, preserving μ + ν = 1. 
+ - Demonstrates that **Pₐᵥg = μ A** and **Sₐᵥg = ν A**, preserving μ + ν = 1. 
 - Defines the complementary **simple mass ratios** for direct comparison: 
  - **ϱ = M₂ / M₁** (secondron-to-primaron ratio). 
  - **φ = M₁ / M₂** (primaron-to-secondron ratio). 
  - Relates these to the barycentric fractions through μ = ϱ / (1 + ϱ) and ν = φ / (1 + φ). 
-- Derives complete expressions for all nine binary dimensions as functions of 𝒜, e, μ, and ν, establishing the standard WCB notation for barycentric geometry. 
+- Derives complete expressions for all nine binary dimensions as functions of A, e, μ, and ν, establishing the standard WCB notation for barycentric geometry. 
 - Provides **eccentricity equivalences** for any paired parameter set and introduces the **Crux Metric (é)** — a measure of orbital tangency and mass asymmetry, identifying the threshold at which primaron and secondron orbits adjoin. 
 - Demonstrates limiting cases (hierarchical vs. co-dominant) and applies the framework to the **Sun–Earth** system as validation. 
 
@@ -24,7 +24,7 @@ title: *Binaries 1 - Principles and Properties*
 - **M₁, M₂** — primaron and secondron masses. 
 - **μ, ν** — barycentric mass fractions (secondron / primaron). 
 - **ϱ, φ** — simple mass ratios (secondron ↔ primaron). 
-- **𝒜** — mean system separation (semi-major axis). 
+- **A** — mean system separation (semi-major axis). 
 - **e** — orbital eccentricity. 
 - **P₍•₎, S₍•₎, T₍•₎** — primaron, secondron, and total orbital dimensions (min/avg/max). 
 - **é (Crux Metric):** eccentricity at which orbits become tangential. 
@@ -45,7 +45,7 @@ When the two objects are of unequal masses ($M_2 < M_1$), the more massive objec
 
 A binary system is described by a total of nine dimensions:
 
-- $T_{min}$ , $\mathcal{A}$ , $T_{max}$ : The minimum, average, and maximum separations of the two bodies from one another
+- $T_{min}$ , $A$ , $T_{max}$ : The minimum, average, and maximum separations of the two bodies from one another
 - $P_{min}$ , $P_{avg}$ , $P_{max}$: The minimum, average, and maximum separations of the primaron ($P$) from the **barycenter** (*ḅ*)
 - $S_{min}$ , $S_{avg}$ , $S_{max}$ : The minimum, average, and maximum separations of the secondron body ($S$) from the **barycenter** (*ḅ*)
 
@@ -69,7 +69,7 @@ $$
 ### Primaron Dimensions
 $$
 \begin{aligned}
-P_{avg} &= \mathcal{A} \times\dfrac{M_2}{M_1+M_2} = \mu\,\mathcal{A} \qquad &&\text{Primaron average distance}\\[1em]
+P_{avg} &= A \times\dfrac{M_2}{M_1+M_2} = \mu\,A \qquad &&\text{Primaron average distance}\\[1em]
 P_{min} &= P_{avg}(1 - e) \qquad &&\text{Primaron minimum distance} \\[1em]
 P_{max} &= P_{avg}(1 + e) \qquad &&\text{Primaron maximum distance} 
 \end{aligned}
@@ -77,7 +77,7 @@ $$
 ### Secondron Dimensions
 $$
 \begin{aligned}
-S_{avg} &= \mathcal{A} \times\dfrac{M_1}{M_1+M_2} = \nu\,\mathcal{A} \qquad &&\text{Secondron average distance}\\[1em]
+S_{avg} &= A \times\dfrac{M_1}{M_1+M_2} = \nu\,A \qquad &&\text{Secondron average distance}\\[1em]
 S_{min} &= S_{avg}(1 - e) \qquad &&\text{Secondron minimum distance} \\[1em]
 S_{max} &= S_{avg}(1 + e) \qquad &&\text{Secondron maximum distance}
 \end{aligned}
@@ -85,11 +85,11 @@ $$
 ### Total (Overall) Dimensions
 $$
 \begin{aligned}
-T_{min} = \mathcal{A}(1 - e)
+T_{min} = A(1 - e)
 = P_{min} + S_{min} = T_{max}\left(\dfrac{1 - e}{1 + e}\right) \\
-T_{max} = \mathcal{A}(1 + e)
+T_{max} = A(1 + e)
 = P_{max} + S_{max} = T_{min}\left(\dfrac{1 + e}{1 - e}\right) \\
-\mathcal{A} = \dfrac{T_{min}}{1 - e}
+A = \dfrac{T_{min}}{1 - e}
 = \dfrac{T_{max}}{1 + e}
 = P_{avg} + S_{avg}\\[0.5em]
 \end{aligned}
@@ -103,10 +103,10 @@ $$
 e &= \dfrac{Max_\bullet - Min_{\bullet}}{Max_\bullet + Min_{\bullet}}
 \;\;=\;\; \left[1 - \dfrac{Min_{\bullet}}{Avg_{\bullet}}\right]
 \;\;=\;\; \left[\dfrac{Max_{\bullet}}{Avg_{\bullet}} - 1\right] \\[1em]
-&= \left(P_{max} \times \dfrac{M_1 + M_2}{\mathcal{A} \times M_2}\right) - 1
-\quad = \quad 1 - \left(P_{min} \times \dfrac{M_1 + M_2}{\mathcal{A} \times M_2}\right) \\[1em]
-&= \left(S_{max} \times \dfrac{M_1 + M_2}{\mathcal{A} \times M_1}\right) - 1
-\quad = \quad 1 - \left(S_{min} \times \dfrac{M_1 + M_2}{\mathcal{A} \times M_1}\right) \\[1em]
+&= \left(P_{max} \times \dfrac{M_1 + M_2}{A \times M_2}\right) - 1
+\quad = \quad 1 - \left(P_{min} \times \dfrac{M_1 + M_2}{A \times M_2}\right) \\[1em]
+&= \left(S_{max} \times \dfrac{M_1 + M_2}{A \times M_1}\right) - 1
+\quad = \quad 1 - \left(S_{min} \times \dfrac{M_1 + M_2}{A \times M_1}\right) \\[1em]
 \end{aligned}
 $$
 #### The Crux Metric ($\acute{e}$)
@@ -128,7 +128,7 @@ There are times (such as when the secondron is less massive than the primaron �
 $$
 \begin{aligned}
 R_{min} = T_{min} \\[0.5em]
-R_{avg} = \mathcal{A} \\[0.5em]
+R_{avg} = A \\[0.5em]
 R_{max} = T_{max} \\
 \end{aligned}
 $$
@@ -136,8 +136,8 @@ For instance, in the case of the Earth-Sun system:
 
 $$
 \begin{aligned}
-\mathcal{A} &= 1.0 AU \\[0.5em]
-P_{avg} &= \mu\,\mathcal{A} \\[1em]
+A &= 1.0 AU \\[0.5em]
+P_{avg} &= \mu\,A \\[1em]
 &= 1.0 \times \frac{1}{333000+1} \\[1em]
 &= 1.0 \times \frac{1}{333001} = 3.009299 \times 10^{-6} AU \\[1.5em]
 1 \text{ AU } &= 1.496 \times 10^6 \text{ km} \\
@@ -285,7 +285,7 @@ Friction within those bulges converts orbital energy into heat, draining the sys
 Circularization timescale roughly scales as
 
 $$
-t_{circ} \propto \left(\frac{\mathcal{a}}{R}\right)^8 \propto P^{\frac{16}{3}}
+t_{circ} \propto \left(\frac{A}{R}\right)^8 \propto P^{\frac{16}{3}}
 $$
 
  — so even a modest change in separation produces a huge difference in damping time. 

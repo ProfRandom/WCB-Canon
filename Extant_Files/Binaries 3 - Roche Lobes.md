@@ -20,9 +20,9 @@ $$
 and defines the individual lobe radii as: 
 
 $$
-R_{L,1} = \mathcal{a}\,f\!\left(\frac{M_1}{M_2}\right)
+R_{L,1} = A\,f\!\left(\frac{M_1}{M_2}\right)
 \quad\text{and}\quad
-R_{L,2} = \mathcal{a}\,f\!\left(\frac{M_2}{M_1}\right)
+R_{L,2} = A\,f\!\left(\frac{M_2}{M_1}\right)
 $$
  
 - Clarifies that **$f(x)$ is asymmetric**, causing unequal lobe volumes for unequal-mass pairs. 
@@ -32,7 +32,7 @@ $$
 **Key Terms & Symbols:** 
 - **$R_L$** — Roche-lobe radius (effective gravitational boundary). 
 - **$L_1$** — inner Lagrange point (mass-transfer interface). 
-- **$\mathcal{a}$** — average separation of the binary stars (AU). 
+- **$A$** — average separation of the binary stars (AU). 
 - **$M_1$, $M_2$** — primaron and secondron stellar masses (solar units). 
 - **$f(x)$** — dimensionless Roche-lobe scaling function. 
 - **Detached / Semi-Detached / Contact** — binary configurations classified by Roche-lobe occupancy. 
@@ -79,14 +79,14 @@ f(x) =
  {0.6\,x^{\tfrac{2}{3}} +
 	 \ln\!\left(1 + x^{\tfrac{1}{3}}\right)
 	 } \\[1em]
-\text{Roche Lobe $M_1$:}&\quad R_{L,1} = \mathcal{a}\,
+\text{Roche Lobe $M_1$:}&\quad R_{L,1} = A\,
 	f\!\left(\frac{M_1}{M_2}\right) \\[1em]
-\text{Roche Lobe $M_2$:}&\quad R_{L,2} = \mathcal{a}\,
+\text{Roche Lobe $M_2$:}&\quad R_{L,2} = A\,
 	f\!\left(\frac{M_2}{M_1}\right)
 \end{aligned}
 $$
 Where:
-- $\mathcal{a}$ = average separation of the binary stars (in AU) 
+- $A$ = average separation of the binary stars (in AU) 
 - $M_1,\,M_2$ = stellar masses (in solar units) 
 - $f(x)$ = dimensionless scaling function describing the fractional Roche-lobe radius 
 

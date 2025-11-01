@@ -56,7 +56,7 @@ title: ""
 **Major Topics:**  
 - Establishes a **symbolic system** for generating orbital radii procedurally via multiplicative steps.  
 - Defines **intrabasal** (inward from baseline) and **extrabasal** (outward from baseline) orbit generation.  
-- Uses **basal orbital radius (B)** and **system cutoff (Ω)** as anchors, with optional use of nucleal orbit (𝒩) as B.  
+- Uses **basal orbital radius (B)** and **system cutoff (Ω)** as anchors, with optional use of nucleal orbit (N) as B.  
 - Expresses orbital placement through **randomized multiplicative factors** (⟨⟨min ∧ max⟩⟩).  
 - Describes strategies: outward-only, inward-only, or bidirectional scaffolding from a central anchor.  
 
@@ -82,7 +82,7 @@ title: ""
 - Climatic implications of eccentricity-driven flux differences.  
 
 **Key Terms & Symbols:**  
-- 𝒜 = average orbital separation (semimajor axis).  
+- A = average orbital separation (semimajor axis).  
 - e = orbital eccentricity.  
 - Rₘᵢₙ, Rₘₐₓ = periastron and apastron distances:contentReference[oaicite:0]{index=0}.  
 - Ḋ = fractional distance asymmetry:contentReference[oaicite:1]{index=1}.  
@@ -364,7 +364,7 @@ r_{i+1} = r_i \cdot ⟨⟨ \text{min} ∧ \text{max} ⟩⟩
 \quad \text{while } r_i ≤ \Omega
 $$
 Where:
-- B = basal orbital radius (e.g. the nucleal orbit $\mathcal{N}$)
+- B = basal orbital radius (e.g. the nucleal orbit $N$)
 - Ω = orbital distance cuttoff (minimum or maximum allowed orbit based on the star system constraints)
 
 ## 🔄 Usage Strategy
@@ -394,15 +394,15 @@ For a planemon orbiting a star (M₂ ⋘ M₁):
 - **Periastron distance**:  
 
 $$
- R_{min} = \mathcal{A}(1 - e)
+ R_{min} = A(1 - e)
 $$
 - **Apastron distance**:  
 
 $$
- R_{max} = \mathcal{A}(1 + e)
+ R_{max} = A(1 + e)
 $$
-Where **𝒜** is the *average orbital separation* between the bodies.  
-When describing a planemon’s orbit, 𝒜 corresponds to the **semimajor axis** of its elliptical path.  
+Where **A** is the *average orbital separation* between the bodies.  
+When describing a planemon’s orbit, A corresponds to the **semimajor axis** of its elliptical path.  
 
 ## Fractional Distance Asymmetry (Ḋ)
 The dimensionless measure of how much closer the planemon is at periastron than at apastron:

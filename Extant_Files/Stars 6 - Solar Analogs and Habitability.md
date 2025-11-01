@@ -5,32 +5,32 @@ title: ""
 ## Abstract 
 **Major Topics:** 
 - Reconstructs the vague astronomical notion of “Sun-like stars” into a clear, mathematically grounded **WCB classification hierarchy** tied to orbital habitability rather than surface resemblance. 
-- Defines nested stellar categories by **ontozonal boundaries** and **perannual orbit ranges (𝒫):** 
+- Defines nested stellar categories by **ontozonal boundaries** and **perannual orbit ranges (P):** 
  - **Solar Analogs:** stars whose perannual orbits span ⟨0.500 ∧ 4.850⟩ AU — the full Parahabitable Zone (H₀–H₅) — corresponding to spectral types F2–K9. 
  - **Solar Cognates:** perannual orbits within ⟨0.750 ∧ 1.770⟩ AU — the Habitable Zone (H₁–H₄) — spectral types F7.6–K1.1. 
  - **Solar Twins:** perannual orbits within ⟨0.950 ∧ 1.385⟩ AU — the Hospitable Zone (H₂–H₃) — spectral types G1.0–G7.7. 
  - All Twins ⊂ Cognates ⊂ Analogs. 
-- Links **stellar luminosity (L)** to **perannual orbit (𝒫)** via $𝒫 = L^{1/11.4}$, allowing direct determination of spectral type for any orbit located on a thermozone boundary (H₀–H₅). 
+- Links **stellar luminosity (L)** to **perannual orbit (P)** via $P = L^{1/11.4}$, allowing direct determination of spectral type for any orbit located on a thermozone boundary (H₀–H₅). 
 - Derives a **generalized scaling relation** between luminosity and the thermozone factor (λ): 
  - $L = \sqrt[-0.4123]{λ}$ and $K = 5800(λ^{-0.3191})$ 
  - These enable forward and inverse calculations of stellar temperature or orbital distance. 
-- Introduces the **Orbital Habitability Index (OHI)** — a continuous scalar (0.00–1.00) quantifying relative habitability as a function of distance from the **nucleal orbit (𝒩 = √L)**: 
+- Introduces the **Orbital Habitability Index (OHI)** — a continuous scalar (0.00–1.00) quantifying relative habitability as a function of distance from the **nucleal orbit (N = √L)**: 
  - Intranucleal: $H_I = 2R − 1$ (for R ≤ 1) 
  - Extranucleal: $H_I = −0.26R + 1.26$ (for R > 1) 
- - Index peaks at 1.00 when 𝒫 = 𝒩, declining to 0.00 at H₀ and H₅. 
+ - Index peaks at 1.00 when P = N, declining to 0.00 at H₀ and H₅. 
 - Establishes the **Thermal Axis for Perannual Orbits**, mapping stellar temperature and spectral class across all habitability zones (H₀–H₅). 
 - Provides a practical framework for evaluating the “Sun-likeness” of a star directly from its habitability potential, not merely its photometric similarity. 
 
 **Key Terms & Symbols:** 
 - **Solar Analog / Cognate / Twin:** nested WCB categories of Sun-like stars based on ontozonal position. 
-- **𝒫 (Perannual Orbit):** period-equivalent orbital distance. 
-- **𝒩 (Nucleal Orbit):** irradiance-equivalent orbital distance. 
+- **P (Perannual Orbit):** period-equivalent orbital distance. 
+- **N (Nucleal Orbit):** irradiance-equivalent orbital distance. 
 - **H₀–H₅ (Thermozones):** reference corridors of orbital habitability. 
-- **λ (Scaling Factor):** ratio of 𝒫 to 𝒩. 
+- **λ (Scaling Factor):** ratio of P to N. 
 - **OHI (Orbital Habitability Index):** 0–1 scalar quantifying orbital habitability. 
 
 **Cross-Check Notes:** 
-- Builds directly upon *Stars 1 — Fundamental Orbits* (definitions of 𝒩 and 𝒫) and *Stars 2 — Spectral Frameworks* (luminosity–temperature relations). 
+- Builds directly upon *Stars 1 — Fundamental Orbits* (definitions of N and P) and *Stars 2 — Spectral Frameworks* (luminosity–temperature relations). 
 - Introduces new glossary terms: Solar Analog, Solar Cognate, Solar Twin, and OHI. 
 - Serves as the conceptual and computational bridge between **stellar classification** and **habitability analysis**, forming the gateway to *Stars 5 — System Architecture* and *Planemons 2 — Habitability.*
 
@@ -81,7 +81,7 @@ For thesiastic purposes, our classifications relate directly to the *habitabilit
 Previously, in [[M002 - Stars — 06 Relating the Nucleal and Perannual Orbits ✓]], we established that the *distance* of the perannual orbit can be approximated by:
 
 $$
-\mathcal{P} = \sqrt[3]{M}
+P = \sqrt[3]{M}
 $$
 … and in [[M002 - Stars — 07 Fine-tuning Stellar Parameters ✓]], we established the relationship:
 
@@ -91,9 +91,9 @@ $$
 … which lets us calculate that:
 
 $$
-\mathcal{P} = \sqrt[3]{\sqrt[3.8]{L}} = \sqrt[11.4]{L}
+P = \sqrt[3]{\sqrt[3.8]{L}} = \sqrt[11.4]{L}
 $$
-In [[M002 - Stars — 04 Thermozone Orbits ✓]], we established that the thermozone limits are calculated by applying fixed scaling factors to the **nucleal orbit distance** ($\mathcal{N}$), which is calculated from the square-root of the luminosity:
+In [[M002 - Stars — 04 Thermozone Orbits ✓]], we established that the thermozone limits are calculated by applying fixed scaling factors to the **nucleal orbit distance** ($N$), which is calculated from the square-root of the luminosity:
 
 | Limiting<br>Orbit | Calculation |
 | :---------------: | :-------------: |
@@ -107,7 +107,7 @@ In [[M002 - Stars — 04 Thermozone Orbits ✓]], we established that the thermo
 This means that we can set:
 
 $$
-\mathcal{P} = \sqrt[11.4]{L} \quad \text{equal to} \quad \mathcal{P} = 0.500\sqrt{L}
+P = \sqrt[11.4]{L} \quad \text{equal to} \quad P = 0.500\sqrt{L}
 $$
 … and solve for L:
 
@@ -142,14 +142,14 @@ $$
 
 $$
 \begin{aligned}
-\mathcal{S} &= \dfrac{\kappa - K}{þ}
+S &= \dfrac{\kappa - K}{þ}
 \end{aligned}
 $$
 Where:
 - K = the star's surface temperature in Kelvin
 - κ = the *upper bound* temperature of the relevant spectral class
 - þ = the thermal interval constant for the relevant spectral class
-- $\mathcal{S}$ = the spectral *type* number
+- $S$ = the spectral *type* number
 
 Taken from the table:
 
@@ -171,7 +171,7 @@ Our Kelvin temperature is $7235.97\;K$ which is an F-type star, so
 - þ = 150
 
 $$
-\mathcal{S} = \dfrac{\kappa - K}{þ} = \dfrac{7500 - 7235.97}{150} = \dfrac{264.03}{150} = 1.76
+S = \dfrac{\kappa - K}{þ} = \dfrac{7500 - 7235.97}{150} = \dfrac{264.03}{150} = 1.76
 $$
 So the spectral type of a star with a perannual orbit at 0.500 AU is F 1.76 ✓.
 
@@ -179,7 +179,7 @@ So the spectral type of a star with a perannual orbit at 0.500 AU is F 1.76 ✓.
 This means that we can set:
 
 $$
-\mathcal{P} = \sqrt[11.4]{L} \quad \text{equal to} \quad \mathcal{P} = 4.850\sqrt{L}
+P = \sqrt[11.4]{L} \quad \text{equal to} \quad P = 4.850\sqrt{L}
 $$
 … and solve for L:
 
@@ -212,7 +212,7 @@ $$
 … which is a K-Class star with a $\kappa = 5000 \text{ and } þ = 150$, from which we can calculate the spectral type by:
 
 $$
-\mathcal{S} = \dfrac{\kappa - K}{þ} = \dfrac{5000 - 3503.85}{150} = \dfrac{1496.185}{150} = 9.975
+S = \dfrac{\kappa - K}{þ} = \dfrac{5000 - 3503.85}{150} = \dfrac{1496.185}{150} = 9.975
 $$
 So the spectral type of a star with a perannual orbit at $4.850$ AU is K9.975 ✓.
 
@@ -274,15 +274,15 @@ This diagram shows the stellar surface temperatures (*K*) and corresponding spec
 ### Orbital Habitability Index (OHI)
 The Orbital Habitability Index (OHI) is a measure of how likely a planemon is to be habitable based on its orbit, with the nucleal orbit assumed to be 100% habitable and orbits closer-in and farther-out becoming progressively less habitable. It is calculated using one of two equations, depending on whether the orbit in question is *intranucleal* or *extranucleal*:
 
-The OHI provides a scalar measure (0.00–1.00) of the *relative biological viability* of a planemon orbit based on its distance from the nucleal orbit $\mathcal{N} = \sqrt{L}$​. It assumes a peak habitability of 1.00 (100%) at 1.000N, declining linearly in each direction.
+The OHI provides a scalar measure (0.00–1.00) of the *relative biological viability* of a planemon orbit based on its distance from the nucleal orbit $N = \sqrt{L}$​. It assumes a peak habitability of 1.00 (100%) at 1.000N, declining linearly in each direction.
 
 $$
 H_I =
 \begin{cases}
- \quad 2\dfrac{D}{\mathcal{N}} - 1 & \text{if } {D} ≤ {\mathcal{N}} \quad \text{(intranucleal)} \\[1em]
- -0.26\dfrac{D}{\mathcal{N}} + 1.26 & \text{if } {D} > {\mathcal{N}} \quad \text{(extranucleal)}
+ \quad 2\dfrac{D}{N} - 1 & \text{if } {D} ≤ {N} \quad \text{(intranucleal)} \\[1em]
+ -0.26\dfrac{D}{N} + 1.26 & \text{if } {D} > {N} \quad \text{(extranucleal)}
 \end{cases}
-\text{Where } R = \dfrac{D}{\mathcal{N}}: \quad H_I =
+\text{Where } R = \dfrac{D}{N}: \quad H_I =
 \begin{cases}
  \quad 2R - 1 & \text{if } R ≤ 1 \quad \text{(intranucleal)} \\
  -0.26R + 1.26 & \text{if } R > 1 \quad \text{(extranucleal)}
@@ -292,17 +292,17 @@ $$
 Where:
 - $H_I$ = the numeric value of the orbit's habitability index
 - *$D$* = the orbit's distance in AU
-- $\mathcal{N}$ = the nucleal orbit's distance in AU
+- $N$ = the nucleal orbit's distance in AU
 
-Values of *D* < 0.500$\mathcal{N}$ and > 4.850$\mathcal{N}$ return *negative numbers* for $H_I$, indicating that the orbit is not hospitable, habitable, or parahabitable for Earth-type lifeforms.
+Values of *D* < 0.500$N$ and > 4.850$N$ return *negative numbers* for $H_I$, indicating that the orbit is not hospitable, habitable, or parahabitable for Earth-type lifeforms.
 
 | Orbit<br>Type | Orbit<br>Distance | Habitability<br>Index |
-| :-----------: | :----------------: | :-------------------: |
-| Intranucleal | 0.500$\mathcal{N}$ | 0.00 |
-| Intranucleal | 0.750$\mathcal{N}$ | 0.50 |
-| Intranucleal | 0.950$\mathcal{N}$ | 0.90 |
-| Nucleal | 1.000$\mathcal{N}$ | 1.00 |
-| Extranucleal | 1.385$\mathcal{N}$ | 0.90 |
-| Extranucleal | 1.770$\mathcal{N}$ | 0.80 |
-| Extranucleal | 4.850$\mathcal{N}$ | 0.00 |
+| :-----------: | :---------------: | :-------------------: |
+| Intranucleal |     0.500$N$      | 0.00 |
+| Intranucleal |     0.750$N$      | 0.50 |
+| Intranucleal |     0.950$N$      | 0.90 |
+| Nucleal |     1.000$N$      | 1.00 |
+| Extranucleal |     1.385$N$      | 0.90 |
+| Extranucleal |     1.770$N$      | 0.80 |
+| Extranucleal |     4.850$N$      | 0.00 |
 

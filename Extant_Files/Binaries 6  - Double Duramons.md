@@ -17,12 +17,12 @@ title: Binaries 6
 - Provides algebraic relations for barycentric distances  
 
 $$
-  B_{avg} = \mu\,\mathcal{a}, \quad  
+  B_{avg} = \mu\,A, \quad  
   B_{min} = B_{avg}(1-e), \quad  
   B_{max} = B_{avg}(1+e),
   $$
   
- — with $\mathcal{a}$ expressed in primaron radii, supporting direct scaling across planemonic and sub-stellar systems.
+ — with $A$ expressed in primaron radii, supporting direct scaling across planemonic and sub-stellar systems.
 
 **Key Terms & Symbols:**  
 - **primaron (P):** dominant body of the pair ($M_1, ν$).  
@@ -52,11 +52,11 @@ In binary monon systems (of all mass classes), where $M_2 ≈ M_1$, it is often 
 
 The barycenter's orbit describes an ellipse with its center denoted by $B_{avg}$, the vertex closest to the primaron's center-of-mass being denoted as $B_{min}$ and the vertex farthest from the primaron's center-of-mass being denoted as $B_{max}$.
 
-In this frame translation, the equations of the barycenter's orbit are similar to those of the primaron's orbit in the barycenter-static frame, except that the average distance between the two monons ($\mathcal{a}$) is expressed in terms of the radius of the primaron body.  For clarity, we use a *B* for these distances, rather than a *P*:
+In this frame translation, the equations of the barycenter's orbit are similar to those of the primaron's orbit in the barycenter-static frame, except that the average distance between the two monons ($A$) is expressed in terms of the radius of the primaron body.  For clarity, we use a *B* for these distances, rather than a *P*:
 
 $$
 \begin{array}{ll}
-B_{avg} = \mu\,\mathcal{a} \qquad &\text{Barycenter average separation}\\[0.5em]
+B_{avg} = \mu\,A \qquad &\text{Barycenter average separation}\\[0.5em]
 B_{min} = B_{avg}(1 - e) \qquad &\text{Barycenter minimum separation} \\[0.5em]
 B_{max} = B_{avg}(1 + e) \qquad &\text{Barycenter maximum separation} 
 \end{array}
@@ -64,7 +64,7 @@ $$
 
 Where:
 - $\mu = \dfrac{M_2}{M_1 + M_2}$, the secondron mass-fraction
-- $\mathcal{a}$ = the average separation between the two bodies (in primaron radii)
+- $A$ = the average separation between the two bodies (in primaron radii)
 - $e$ = the eccentricity of the system orbits
 
 We compare the values of $B_{min}, B_{avg}, \text{ and } B_{max}$ to the radius of the primaron ($R_P$) to determine the barycenter's *locus* and *motility*.

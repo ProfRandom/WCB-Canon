@@ -89,10 +89,10 @@ This allows for relatively simple mathematical treatment of the relationship bet
 
 $$
 \begin{aligned}
-\mathcal{S} &= \dfrac{\kappa - K}{þ} \\ \\
-\kappa & = \mathcal{S} þ + K \\ \\
-K &= \kappa - \mathcal{S} þ \\ \\
-þ &= \dfrac{\kappa - K}{\mathcal{S}} \\
+S &= \dfrac{\kappa - K}{þ} \\ \\
+\kappa & = S þ + K \\ \\
+K &= \kappa - S þ \\ \\
+þ &= \dfrac{\kappa - K}{S} \\
 \end{aligned}
 $$
 
@@ -100,7 +100,7 @@ Where:
 - K = the star's surface temperature in Kelvin
 - κ = the *upper bound* temperature of the relevant spectral class
 - þ = the thermal interval constant for the relevant spectral class
-- $\mathcal{S}$ = the spectral *type* number
+- $S$ = the spectral *type* number
 
 #### The Thermal Interval Constant (þ)
 Where does þ come from?
@@ -134,22 +134,22 @@ Let's run the numbers for the Sun
 - Checking the table, 5800K falls between 5000K and 6000K, so the Sun is spectral class G
 - The high temperature (κ) for spectral class G is κ 6000K
 - The thermal interval constant (þ) for spectral class G is þ = 100
-- What is the Sun's spectral type ($\mathcal{S}$)
+- What is the Sun's spectral type ($S$)
 Running the numbers:
 
 $$
 \begin{aligned}
-\mathcal{S} &= \dfrac{\kappa - K}{þ} \\
-\mathcal{S} &= \dfrac{6000 - 5800}{100} \\
-\mathcal{S} &= \dfrac{200}{100} \\
-\mathcal{S} &= 2\;✓
+S &= \dfrac{\kappa - K}{þ} \\
+S &= \dfrac{6000 - 5800}{100} \\
+S &= \dfrac{200}{100} \\
+S &= 2\;✓
 \end{aligned}
 $$
 The Sun is spectral type *G2*.
 
 **Reversing the process:**
 - The known spectral class of the Sun is G
-- The known spectral type of the Sun is $\mathcal{S}$ = 2
+- The known spectral type of the Sun is $S$ = 2
 - The high temperature (κ) for spectral class G is κ 6000K
 - The thermal interval constant (þ) for spectral class G is þ = 100
 - What is the Sun's Kelvin temperature (K)
@@ -157,7 +157,7 @@ Running the numbers:
 
 $$
 \begin{aligned}
-K &= \kappa - \mathcal{S} þ \\
+K &= \kappa - S þ \\
 K &= 6000 - (2)(100) \\
 K &= 6000 - 200 \\
 K &= 5800\;✓
@@ -192,7 +192,7 @@ Working through the equation:
 
 $$
 \begin{aligned}
-K &= \kappa - \mathcal{S} þ \\
+K &= \kappa - S þ \\
 K &= 7500 - (3.65)(150) \\
 K &= 7500 - 547.5 \\
 K &= 6952.5\;✓
@@ -232,10 +232,10 @@ The spectral type is:
 
 $$
 \begin{aligned}
-\mathcal{S} &= \dfrac{\kappa - K}{þ} \\ \\
-\mathcal{S} &= \dfrac{6000 - 5080.8}{100} \\ \\
-\mathcal{S} &= \dfrac{919.2}{100} \\ \\
-\mathcal{S} &= 9.192\;✓
+S &= \dfrac{\kappa - K}{þ} \\ \\
+S &= \dfrac{6000 - 5080.8}{100} \\ \\
+S &= \dfrac{919.2}{100} \\ \\
+S &= 9.192\;✓
 \end{aligned}
 $$
 Essel's spectral type is *G9.192*.
@@ -280,7 +280,7 @@ In *Spectral Classes*, we covered spectral classes and spectral types and their 
 - **Mass** — How much material is there? (M)
 - **Luminosity** — How bright is it? (L)
 - **Radius** — How big is it? (R)
-- **Lifetime** — How long does it shine? ($\mathcal{Q}$)
+- **Lifetime** — How long does it shine? ($Q$)
 	- Chiefly relevant to *Main Sequence* stars, particularly stars that are **Solar Cognates** (more on this below.)
 
 > Notes:
@@ -322,11 +322,11 @@ Here are the promised equations:
 $$
 \begin{array}{c|c|c|c}
 \text{Temperature} &\text{Mass} &\text{Radius} &\text{Lifetime} \\[0.1em]
-\text{(T)} &\text{(M)} &\text{(R)} & \text{($\mathcal{Q}$)} \\[0.5em] 
+\text{(T)} &\text{(M)} &\text{(R)} & \text{($Q$)} \\[0.5em] 
 \hline\\[-2pt]
-T=\sqrt[1.98]{M} & M=\sqrt[0.9]{R} & R=M^{0.9} & \mathcal{Q}=M^{-2.5} \\[0.5em]
-T=\sqrt[1.8]{R} & M=T^{1.98} & R=T^{1.8} & \mathcal{Q} \approx \sqrt[-0.36]{R} \\[0.5em]
-T=\mathcal{Q}^{-0.2} & M=\mathcal{Q}^{-0.4} & R=\mathcal{Q}^{-0.36} & \mathcal{Q}=T^{-5}
+T=\sqrt[1.98]{M} & M=\sqrt[0.9]{R} & R=M^{0.9} & Q=M^{-2.5} \\[0.5em]
+T=\sqrt[1.8]{R} & M=T^{1.98} & R=T^{1.8} & Q \approx \sqrt[-0.36]{R} \\[0.5em]
+T=Q^{-0.2} & M=Q^{-0.4} & R=Q^{-0.36} & Q=T^{-5}
 \end{array}
 $$
 > > **NOTE**:
@@ -387,7 +387,7 @@ T &= \dfrac{K}{5800} \quad or \quad K = 5800T \\
 R &= T^{1.8} \\
 L &= R^2T^4 \\
 M &= T^{1.98} \quad or \quad M = \sqrt[0.9]{R} \\
-\mathcal{Q} &= T^{-5} \quad or \quad \mathcal{Q} = M^{-2.5}
+Q &= T^{-5} \quad or \quad Q = M^{-2.5}
 \end{aligned}
 $$
 #### Starting with Mass (*M*)
@@ -403,7 +403,7 @@ Q &= T^{-5} \quad or \quad Q = M^{-2.5}
 \end{aligned}
 $$
 #### Starting with Radius (*R*)
-**Primary dependency chain**: R → T → K → L → M → 𝒬
+**Primary dependency chain**: R → T → K → L → M → Q
 
 $$
 \begin{aligned}
@@ -411,7 +411,7 @@ T &= \sqrt[1.8]{R} \\
 K &= 5800T \\
 L &= R^2T^4 \\
 M &= T^{1.98} \\
-\mathcal{Q} &= T^{-5} \quad or \quad \mathcal{Q} = M^{-2.5}
+Q &= T^{-5} \quad or \quad Q = M^{-2.5}
 \end{aligned}
 $$
 #### Starting With Luminosity (*L*)
@@ -423,18 +423,18 @@ T &= \sqrt[7.6]{L} \\
 K &= 5800T \\
 R &= T^{1.8} \\
 M &= T^{1.98} \\
-\mathcal{Q} &= T^{-5} \quad or \quad \mathcal{Q} = M^{-2.5}
+Q &= T^{-5} \quad or \quad Q = M^{-2.5}
 \end{aligned}
 $$
-#### Starting with Lifetime (𝒬)
+#### Starting with Lifetime (Q)
 **As soon as you assume you'd never want to do this, you'll find a case for doing it.**
-**Primary dependency chain**: 𝒬 → T → K → R → L → M
+**Primary dependency chain**: Q → T → K → R → L → M
 
 $$
 \begin{aligned}
-T &= \mathcal{Q}^{-0.2} \\
+T &= Q^{-0.2} \\
 K &= 5800 T \\
-R &= \mathcal{Q}^{-0.36} \\
+R &= Q^{-0.36} \\
 L &= R^2 T^4 \\
 M &= \sqrt[3]{L}
 \end{aligned}
@@ -446,11 +446,11 @@ The Standard Parameter Equations:
 $$
 \begin{array}{c|c|c|c}
 \text{Temperature} &\text{Mass} &\text{Radius} &\text{Lifetime} \\[0.1em]
-\text{(T)} &\text{(M)} &\text{(R)} & \text{($\mathcal{Q}$)} \\[0.5em] 
+\text{(T)} &\text{(M)} &\text{(R)} & \text{($Q$)} \\[0.5em] 
 \hline\\[-2pt]
-T=\sqrt[1.98]{M} & M=\sqrt[0.9]{R} & R=M^{0.9} & \mathcal{Q}=M^{-2.5} \\[0.5em]
-T=\sqrt[1.8]{R} & M=T^{1.98} & R=T^{1.8} & \mathcal{Q} \approx \sqrt[-0.36]{R} \\[0.5em]
-T=\mathcal{Q}^{-0.2} & M=\mathcal{Q}^{-0.4} & R=\mathcal{Q}^{-0.36} & \mathcal{Q}=T^{-5}
+T=\sqrt[1.98]{M} & M=\sqrt[0.9]{R} & R=M^{0.9} & Q=M^{-2.5} \\[0.5em]
+T=\sqrt[1.8]{R} & M=T^{1.98} & R=T^{1.8} & Q \approx \sqrt[-0.36]{R} \\[0.5em]
+T=Q^{-0.2} & M=Q^{-0.4} & R=Q^{-0.36} & Q=T^{-5}
 \end{array}
 $$
 … *generally* work well for most **Main Sequence** stars, but a survey of known stars in the Solar neighborhood —
@@ -463,12 +463,12 @@ $$
 $$
 \begin{array}{c|c|c|c|c}
 \text{Temperature} &\text{Mass} &\text{Radius} &\text{Lifetime} & \text{Lifetime} \\[0.1em]
-\text{(T)} &\text{(M)} &\text{(R)} & \text{($\mathcal{Q}$)} &\text{(L)} \\[0.5em] 
+\text{(T)} &\text{(M)} &\text{(R)} & \text{($Q$)} &\text{(L)} \\[0.5em] 
 \hline\\[-2pt]
-T=\sqrt{M} & M=\sqrt[0.9]{R} & R=M^{0.9} & \mathcal{Q}=M^{-2.5} & L - M^{3.8} \\[0.5em]
-T=\sqrt[1.8]{R} & M=T^{1.98} & R=T^{1.8} & \mathcal{Q} \approx \sqrt[-0.36]{R} & L \approx R^{4.\bar{2}} \\[0.5em]
-T=\mathcal{Q}^{-0.2} & M=\mathcal{Q}^{-0.4} & R=\mathcal{Q}^{-0.36} & \mathcal{Q}=T^{-5} & L = T^{7/6} \\[0.5em]
-T= \sqrt[7.6]{L} & M = \sqrt[3.8]{L} & R \approx \sqrt[4.\bar{2}]{L} & \mathcal{Q} = L^{-1.52} & L = \sqrt[-1.52]{\mathcal{Q}}
+T=\sqrt{M} & M=\sqrt[0.9]{R} & R=M^{0.9} & Q=M^{-2.5} & L - M^{3.8} \\[0.5em]
+T=\sqrt[1.8]{R} & M=T^{1.98} & R=T^{1.8} & Q \approx \sqrt[-0.36]{R} & L \approx R^{4.\bar{2}} \\[0.5em]
+T=Q^{-0.2} & M=Q^{-0.4} & R=Q^{-0.36} & Q=T^{-5} & L = T^{7/6} \\[0.5em]
+T= \sqrt[7.6]{L} & M = \sqrt[3.8]{L} & R \approx \sqrt[4.\bar{2}]{L} & Q = L^{-1.52} & L = \sqrt[-1.52]{Q}
 \end{array}
 $$
 **Notes**:

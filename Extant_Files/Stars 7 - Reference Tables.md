@@ -17,9 +17,9 @@ title: *Stars 6 — Reference Tables*
  - $M = L^{1/3.8}$ $R = M^{0.9}$ $Q = M^{-2.5}$ 
  - $T = K / 5800$ ↔ $K = 5800T$ 
  - Exact refined exponents: 7.5778 and 3.7889. 
-- Lists **standardized thermozone boundaries (H₀–H₅)** normalized to the nucleal orbit (𝒩 = 1.0): 
- - ⟨0.500 ∧ 4.850⟩𝒩, spanning Igniozone → Cryozone. 
-- Provides a unified **symbol index** for the entire *Stars* sequence (Modules 1–5), including 𝒩, 𝒫, H₀–H₅, OHI, þ, κ, and 𝓢. 
+- Lists **standardized thermozone boundaries (H₀–H₅)** normalized to the nucleal orbit (N = 1.0): 
+ - ⟨0.500 ∧ 4.850⟩N, spanning Igniozone → Cryozone. 
+- Provides a unified **symbol index** for the entire *Stars* sequence (Modules 1–5), including N, P, H₀–H₅, OHI, þ, κ, and 𝓢. 
 - Clarifies distinctions between **absolute** (Kelvin) and **relative** (solar-normalized) scales, and between theoretical and worldbuilding approximations. 
 - Functions as both an **analytic tool** and a **cross-canon bridge**, ensuring internal coherence between stellar classification, orbital generation, and habitability models. 
 
@@ -28,7 +28,7 @@ title: *Stars 6 — Reference Tables*
 - **𝓢:** Spectral type index (0–9 continuous). 
 - **κ:** Upper temperature bound of spectral class. 
 - **K, T, M, R, L, Q:** Temperature, mass, radius, luminosity, and lifetime in solar-relative form. 
-- **𝒩 (Nucleal Orbit), 𝒫 (Perannual Orbit):** fundamental orbital references. 
+- **N (Nucleal Orbit), P (Perannual Orbit):** fundamental orbital references. 
 - **H₀–H₅:** Thermozone boundaries, Igniozone → Cryozone. 
 - **OHI:** Orbital Habitability Index (0–1 scalar). 
 
@@ -81,34 +81,34 @@ title: *Stars 6 — Reference Tables*
 | Mass (M) | Lifetime (Q) | $Q = M^{-2.5}$ |
 | Kelvin (K) ↔ Solar (T) | $T = K / 5800$ and $K = 5800 T$ |
 
-## 4 Thermozone Boundaries (normalized to 𝒩 = 1.0)
+## 4 Thermozone Boundaries (normalized to N = 1.0)
 
-| Label | Orbit Multiple (×𝒩) | Animozone | Common Name |
-|:--:|:--:|:--|:--|
-| H₀ | 0.500 | Inner Xenotic | Igniozone |
-| H₁ | 0.750 | Inner Parahabitable | Calorozone |
-| H₂ | 0.950 | Inner Habitable | Heliozone |
-| H₃ | 1.385 | Hospitable | Solarazone |
-| H₄ | 1.770 | Outer Habitable | Hiberozone |
-| H₅ | 4.850 | Outer Parahabitable / Xenotic | Brumazone → Cryozone |
+| Label | Orbit Multiple (×N) | Animozone | Common Name |
+| :---: | :-----------------: | :---------------------------- | :------------------- |
+| H₀ |        0.500        | Inner Xenotic | Igniozone |
+| H₁ |        0.750        | Inner Parahabitable | Calorozone |
+| H₂ |        0.950        | Inner Habitable | Heliozone |
+| H₃ |        1.385        | Hospitable | Solarazone |
+| H₄ |        1.770        | Outer Habitable | Hiberozone |
+| H₅ |        4.850        | Outer Parahabitable / Xenotic | Brumazone → Cryozone |
 
 ## 5 Symbol Index (Stars Modules 1–5)
 
-| Symbol | Meaning | Units / Scale |
+| Symbol | Meaning | Units / Scale                |
 |:--:|:--|:--|
-| K | Surface temperature | Kelvin (K) |
-| T | Relative temperature | Solar units (⊙ = 1.0) |
-| M | Mass | Solar masses (⊙) |
-| R | Radius | Solar radii (⊙) |
-| L | Luminosity | Solar luminosities (⊙) |
-| Q | Lifetime | Solar lifetimes (⊙) |
-| þ | Thermal Interval Constant | Kelvin per spectral subclass |
-| κ | Upper temperature bound of class | K |
-| 𝓢 | Spectral type number | 0–9 (continuous) |
-| 𝒩 | Nucleal orbit | AU |
-| 𝒫 | Perannual orbit | AU |
-| H₀–H₅ | Thermozone limits | AU (×𝒩) |
-| OHI | Orbital Habitability Index | 0–1 scalar |
+|   K    | Surface temperature | Kelvin (K)                   |
+|   T    | Relative temperature | Solar units (⊙ = 1.0)        |
+|   M    | Mass | Solar masses (⊙)             |
+|   R    | Radius | Solar radii (⊙)              |
+|   L    | Luminosity | Solar luminosities (⊙)       |
+|   Q    | Lifetime | Solar lifetimes (⊙)          |
+|   þ    | Thermal Interval Constant | Kelvin per spectral subclass |
+|   κ    | Upper temperature bound of class | K                            |
+|   𝓢   | Spectral type number | 0–9 (continuous)             |
+|   N    | Nucleal orbit | AU                           |
+|   P   | Perannual orbit | AU                           |
+| H₀–H₅  | Thermozone limits | AU (N�)                      |
+|  OHI   | Orbital Habitability Index | 0–1 scalar                   |
 
 ## 6 Usage Notes
 This reference file is designed for direct consultation during world-modeling. All tables and exponents reflect the **WCB linearized stellar framework** used across the *Stars 1–5* modules. Values may differ slightly from canonical astrophysical data; they are optimized for internal consistency and symbolic clarity within the WCB cosmology.

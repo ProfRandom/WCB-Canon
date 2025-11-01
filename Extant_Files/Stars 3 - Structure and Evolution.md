@@ -158,10 +158,10 @@ Applying our Spectral Class calculation from Kelvin temperature:
 
 $$
 \begin{aligned}
-\mathcal{S} &= \dfrac{\kappa - K}{þ} \\ \\
+S &= \dfrac{\kappa - K}{þ} \\ \\
  &= \dfrac{7500 - 7379}{150} \\ \\
  &= \dfrac{121}{150} \\ \\
-\mathcal{S} &= 0.807 \\ \\
+S &= 0.807 \\ \\
 \end{aligned}
 $$
 So, no Main Sequence star above spectral type F0.81 will have *total Main Sequence lifetime* long enough to qualify as *habitable*.
@@ -260,7 +260,7 @@ Thus, were Aldebaran to replace the Sun in the Solar system, its surface would f
 
 >Aldebaran’s true mass is measured at $1.16 M⊙$​. If, however, we incorrectly applied the main-sequence radius–mass scaling, we’d get $M \approx 67.34⊙$\​; the main-sequence luminosity–mass scaling would give $M \approx 4.959⊙$​. Both are wildly wrong — illustrating why Main Sequence relations must only be applied to Main Sequence stars; using them on evolved stars like Aldebaran gives wildly misleading results.
 
-Using Aldebaran's correct (measured) mass value, its perannual orbit falls at $\mathcal{P} =\sqrt[3]{1.16} = 1.051$ AU, which is only $0.845$ AU beyond the star’s surface.
+Using Aldebaran's correct (measured) mass value, its perannual orbit falls at $P =\sqrt[3]{1.16} = 1.051$ AU, which is only $0.845$ AU beyond the star’s surface.
 
 Aldebaran’s habitable zone limits and nucleal orbit calculate to be:
 
@@ -278,7 +278,7 @@ $$
 The orbital period of the nucleal orbit is:
 
 $$
-\mathcal{N}_p = \sqrt{\dfrac{20.952^3}{1.16}} = \sqrt{\dfrac{9197.94}{1.16}} = \sqrt{7929} = 89.05 \text{ years}
+N_p = \sqrt{\dfrac{20.952^3}{1.16}} = \sqrt{\dfrac{9197.94}{1.16}} = \sqrt{7929} = 89.05 \text{ years}
 $$
 … or about $54\%$ of Neptune's orbital period.
 
@@ -317,7 +317,7 @@ $$
 … but a perannual orbit of only
 
 $$
-\mathcal{P} = \sqrt[3]{M} = \sqrt[3]{200} = 5.848\;\text{AU}
+P = \sqrt[3]{M} = \sqrt[3]{200} = 5.848\;\text{AU}
 $$
 … which is **18.152 AU _inside_** the minimum estimated 24 AU radius of such a star.
 
@@ -338,7 +338,7 @@ $$
 … and a perannual orbit of:
 
 $$
-\mathcal{P} = \sqrt[3]{M} = \sqrt[3]{45} = 3.557\;\text{AU}
+P = \sqrt[3]{M} = \sqrt[3]{45} = 3.557\;\text{AU}
 $$
 … 6.442 AU *inside* the radius of the star.
 

@@ -1,3 +1,3 @@
 # Default Font
 
-Noto Sans Regular ()
+Noto Sans Regular (with decorations)

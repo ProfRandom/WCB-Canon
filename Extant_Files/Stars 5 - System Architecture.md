@@ -9,33 +9,33 @@ title: ""
  - **Conservative:** ⟨1.4 ∧ 2.0⟩ AU 
  - **Medial:** ⟨1.2 ∧ 3.5⟩ AU 
  - **Optimistic:** ⟨1.0 ∧ 5.0⟩ AU 
-- Defines formal methods for generating additional orbits relative to a known **basal orbit** (usually the nucleal 𝒩 or perannual 𝒫 orbit): 
+- Defines formal methods for generating additional orbits relative to a known **basal orbit** (usually the nucleal N or perannual P orbit): 
  - **Intrabasal process:** successive inward division. 
  - **Extrabasal process:** successive outward multiplication. 
  - Both constrained by user-chosen minimum and maximum orbit limits (Ω). 
 - Provides pseudocode-style formulae for iteratively constructing **complete orbital ladders** from any anchor orbit, ensuring intervals remain statistically realistic. 
 - Demonstrates the method through a **worked Solar-type example**, producing an eleven-orbit system consistent with WCB habitability and spacing criteria. 
 - Integrates thermozone boundaries (H₀–H₅) and animozones to classify each orbit’s environmental potential within the generated system. 
-- Derives stellar and orbital parameters for the example star (𝒩 = 0.834 AU, L = 0.696 ⊙, T = 0.953 ⊙, Spectral Type G4.7) and analyzes its planemon spacing. 
+- Derives stellar and orbital parameters for the example star (N = 0.834 AU, L = 0.696 ⊙, T = 0.953 ⊙, Spectral Type G4.7) and analyzes its planemon spacing. 
 - Highlights the interplay between **nucleal** and **perannual** orbits: shows that both cannot host planemons simultaneously when their interval I < 1.5 AU, emphasizing the design trade-offs between orbital flux and orbital period. 
 - Provides quantitative and symbolic tools for deciding when to retain, remove, or shift worlds to maintain physical and narrative plausibility in a star system. 
 
 **Key Terms & Symbols:** 
-- **𝒩 (Nucleal Orbit):** irradiance-equivalent orbit. 
-- **𝒫 (Perannual Orbit):** period-equivalent orbit. 
+- **N (Nucleal Orbit):** irradiance-equivalent orbit. 
+- **P (Perannual Orbit):** period-equivalent orbit. 
 - **H₀–H₅ (Thermozones):** standardized thermal corridors. 
 - **Ω:** limiting inner or outer system boundary. 
 - **I:** orbital interval ratio between adjacent orbits. 
 - **Intrabasal / Extrabasal:** inward vs. outward orbit-generation processes. 
 
 **Cross-Check Notes:** 
-- Builds on *Stars 1 — Fundamental Orbits* (definitions of 𝒩 and 𝒫) and *Stars 3 — Solar Analogs and Habitability* (OHI and thermozonal structure). 
+- Builds on *Stars 1 — Fundamental Orbits* (definitions of N and P) and *Stars 3 — Solar Analogs and Habitability* (OHI and thermozonal structure). 
 - Forms the **link between stellar physics and planetary distribution**, preparing for later modules on **resonance, binaries, and system evolution.** 
 - Requires no new glossary entries; applies previously defined symbols in procedural form. 
 
 # Fleshing Out A Star System
 
-We've established spectral classes and types, thermozones, animozones, habitability indices, and the two critical orbital distances, *nucleal* ($\mathcal{N}$) and *perannual* ($\mathcal{P}$).
+We've established spectral classes and types, thermozones, animozones, habitability indices, and the two critical orbital distances, *nucleal* ($N$) and *perannual* ($P$).
 
 But planemons don't orbit only at these discreet distances – they're all over the place. Here's a breakdown of our own Solar system's planemon orbit data:
 
@@ -111,7 +111,7 @@ r_{i+1} = r_i \cdot ⟨⟨ \text{min} ∧ \text{max} ⟩⟩
 \quad \text{while } r_{i+1} ≤ \Omega
 $$
 Where:
-- *B* = basal orbital radius (e.g. the nucleal orbit $\mathcal{N}$)
+- *B* = basal orbital radius (e.g. the nucleal orbit $N$)
 - *Ω* = orbital distance cuttoff (minimum or maximum allowed orbit based on the star system constraints)
 
 ### Usage Strategy
@@ -146,7 +146,7 @@ Where:
 >> *If not starting from the perannual or nucleal orbit, always check randomized orbits against either (or both) to ensure proper interval gaps fall to either side of that orbit, and adjust accordingly!*
 
 ## Worked Example
-Let us say we've identified our nucleal orbit ($\mathcal{N}$) as $\mathcal{N} = 0.834\;AU$, and we want to calculate orbits interior-to and exterior-to that orbit, and we've chosen $a = 0.100\;AU$ as our innermost safe orbit.
+Let us say we've identified our nucleal orbit ($N$) as $N = 0.834\;AU$, and we want to calculate orbits interior-to and exterior-to that orbit, and we've chosen $a = 0.100\;AU$ as our innermost safe orbit.
 
 ### Working Inward
 $$
@@ -214,16 +214,16 @@ C'mon, you had to know I'd use that pun at *some point* didn't you?
 With this method, a worldmaker can quickly generate a full planemon system that is physically plausible, statistically grounded, and symbolically consistent with WCB cosmology.
 
 # Calculating the Thermozones
-Since we know our nucleal orbit is $\mathcal{N} = 0.834\;AU$, we can calculate the thermozone limits:
+Since we know our nucleal orbit is $N = 0.834\;AU$, we can calculate the thermozone limits:
 
 $$
 \begin{aligned}
-H_0 = 0.500\mathcal{N} &= 0.500(0.834) = 0.417\;AU \\
-H_1 = 0.750\mathcal{N} &= 0.750(0.834) = 0.626\;AU \\
-H_2 = 0.950\mathcal{N} &= 0.950(0.834) = 0.792\;AU \\
-H_3 = 1.385\mathcal{N} &= 1.385(0.834) = 1.115\;AU \\
-H_4 = 1.770\mathcal{N} &= 1.770(0.834) = 1.476\;AU \\
-H_5 = 4.850\mathcal{N} &= 4.850(0.834) = 4.045\;AU \quad \text{Frost Line} \\
+H_0 = 0.500N &= 0.500(0.834) = 0.417\;AU \\
+H_1 = 0.750N &= 0.750(0.834) = 0.626\;AU \\
+H_2 = 0.950N &= 0.950(0.834) = 0.792\;AU \\
+H_3 = 1.385N &= 1.385(0.834) = 1.115\;AU \\
+H_4 = 1.770N &= 1.770(0.834) = 1.476\;AU \\
+H_5 = 4.850N &= 4.850(0.834) = 4.045\;AU \quad \text{Frost Line} \\
 \end{aligned}
 $$
 And we can add these to our orbits table from above and determine the thermozones and animozones of the orbits:
@@ -237,7 +237,7 @@ And we can add these to our orbits table from above and determine the thermozone
 | 4 | 0.482 | Calorozone | Inner Parahabitable |
 | $H_1$ | 0.626 | | |
 | $H_2$ | 0.792 | | |
-| 5 (*$\mathcal{N}$) | 0.834 | Solarazone | Hospitable |
+| 5 (*$N$) | 0.834 | Solarazone | Hospitable |
 | $H_3$ | 1.115 | | |
 | $H_4$ | 1.476 | | |
 | 6 | 1.525 | Brumazone | Outer Parahabitable |
@@ -253,7 +253,7 @@ And, we can calculate the perannual orbital distance and the star's spectral typ
 
 $$
 \begin{aligned}
-L &= \mathcal{N}^2 = 0.834^2 = 0.696 \\
+L &= N^2 = 0.834^2 = 0.696 \\
 M &= \sqrt[3.8]{L} = \sqrt[3.8]{0.696} = 0.909 \\
 A &= \sqrt[3]{0.909} = 0.969\;AU\;✓
 \end{aligned}
@@ -267,7 +267,7 @@ $$
 L &= 0.696 \\
 T &= \sqrt[7.6]{L} = \sqrt[7.6]{0.696} = 0.953\odot \\
 K &= 5800T = 5800(0.953) = 5529.92 \quad \text{Spectral Class G: κ = 6000; þ = 100} \\[2em]
-\mathcal{S} &= \dfrac{\kappa - K}{100} = \dfrac{6000 - 5529.92}{100} = \dfrac{470.08}{100} = 4.701\\
+S &= \dfrac{\kappa - K}{100} = \dfrac{6000 - 5529.92}{100} = \dfrac{470.08}{100} = 4.701\\
 \end{aligned}
 $$
 The spectral type of our star is $G4.701$.
@@ -278,7 +278,7 @@ Excellent catch!
 
 > **Keppy**: What....?
 
-Check this out: we already know that our nucleal orbit is at $\mathcal{N} = 0.834\;AU$. *If* we put planemon on the perannual orbit at $A = 0.969\;AU$ the interval between the nucleal orbit and the perannual orbit is only:
+Check this out: we already know that our nucleal orbit is at $N = 0.834\;AU$. *If* we put planemon on the perannual orbit at $A = 0.969\;AU$ the interval between the nucleal orbit and the perannual orbit is only:
 
 $$
 I = \dfrac{0.969}{0.834} = 1.162\;AU\;✓
@@ -306,7 +306,7 @@ Excellent thought... let's work that through. Here's a modified orbit table taki
 | 4 | 0.482 | Calorozone | Inner Parahabitable | 1.616 |
 | $H_1$ | 0.626 | | | |
 | $H_2$ | 0.792 | | | |
-| 5 ($\mathcal{A}$) | 0.969 | Solarazone | Hospitable | »1.927« |
+| 5 ($A$) | 0.969 | Solarazone | Hospitable | »1.927« |
 | $H_3$ | 1.115 | | | |
 | $H_4$ | 1.476 | | | |
 | 6 | 1.525 | Brumazone | Outer Parahabitable | »1.574« |
@@ -354,7 +354,7 @@ $$
 
 $$
 \begin{aligned}
-H_I = -0.26\dfrac{D}{\mathcal{N}} + 1.26 = -0.26\dfrac{0.969}{0.834} + 1.26 = -0.26(1.162) + 1.26 = -0.302 + 1.26 = 0.958
+H_I = -0.26\dfrac{D}{N} + 1.26 = -0.26\dfrac{0.969}{0.834} + 1.26 = -0.26(1.162) + 1.26 = -0.302 + 1.26 = 0.958
 \end{aligned}
 $$
 … an orbital habitability index of 95.8% that of the nucleal orbit. Slightly cooler, but not drastically so.

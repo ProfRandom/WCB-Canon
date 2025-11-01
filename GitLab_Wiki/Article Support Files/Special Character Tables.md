@@ -1,6 +1,6 @@
 
-⊖ ⊝ 𝒬 $P_\blacklozenge$ $P_\circ$ $P_\Box$  $\dots$  $\ddots$   $\Box$  $\blacksquare$ $\tilde{P}$ $P_\mathcal{M}$
-$P_\mathcal{M}$
+⊖ ⊝ Q $P_\blacklozenge$ $P_\circ$ $P_\Box$  $\dots$  $\ddots$   $\Box$  $\blacksquare$ $\tilde{P}$ $P_M$
+$P_M$
 
 ̄α β 𝛾 ɣ δ ε ϵ ϶ ζ η θ ɩ κ λ μ ν ξ ο π ϖ ρ σ ς τ ʊ υ φ ϕ χ ѱ ω ɷ ϙ Ϟ ϛ ᶿ ᵠ ᵩ ᶲ
 Α Β Γ Ɣ Δ Ε Ζ Η Θ Ɩ Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Ʊ Υ Φ Χ Ѱ Ω Ϙ ϟ Ϛ

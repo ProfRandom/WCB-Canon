@@ -2,9 +2,9 @@
 title: ""
 ---
 
-### WCB Canon — Accessible 7-Color WONG Palette
+### WCB Canon — Accessible 9-Color WONG Palette
 
-![WCB_Palette.png](WCB_Palette.png)
+![WCB_t0_Color.png](./WCB_t0_Color.png)
 
 WCB_Silver → \#ADADAD
 WCB_Grey → \#808080

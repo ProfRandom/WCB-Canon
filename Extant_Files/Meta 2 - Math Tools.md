@@ -6,7 +6,7 @@ title: ""
 **Major Topics:**  
 - Consolidates all mathematical and procedural conventions used across the Worldmaking Canon (WCB), forming a unified reference for equations, units, and symbolic notation.  
 - Defines **core numerical systems**:  
-  - Canonical units (⨁, ⊙, ⟂, 𝒫) for mass, luminosity, gravity, and orbital period.  
+  - Canonical units (⨁, ⊙, ⟂, P) for mass, luminosity, gravity, and orbital period.  
   - Scaling conventions for micro- to gigaterran magnitudes.  
 - Introduces and standardizes **notation for proportionality, equivalence, and relational operators** (≈, ∝, ≡, ≤, ≥), establishing consistency across scientific and narrative texts.  
 - Formalizes **range constraints** and **random assignment protocols** (`Rnd{x::y}`), formerly in *Monons 2*, for probabilistic or stochastic modeling of planetary and stellar parameters.  
@@ -19,7 +19,7 @@ title: ""
 
 **Key Terms & Symbols:**  
 - **Rnd{x::y}** — random assignment operator (uniform probability).  
-- **⨁, ⊙, 𝒫, 𝒩** — canonical Earth, Sun, and orbital constants.  
+- **⨁, ⊙, P, N** — canonical Earth, Sun, and orbital constants.  
 - **≈, ∝, ≡, ≤, ≥** — standardized relational and equivalence operators.  
 - **Ω** — limiting boundary value for a given system parameter.  
 - **σ, μ, I** — statistical variance, mean, and interval metrics used in orbital analysis.  
