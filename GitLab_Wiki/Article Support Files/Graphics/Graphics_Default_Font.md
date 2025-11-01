@@ -1,3 +1,3 @@
 # Default Font
 
-Tex Gyre Pagella
+Noto Sans Regular ()
