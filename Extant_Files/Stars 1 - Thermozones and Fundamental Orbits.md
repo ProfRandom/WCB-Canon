@@ -263,7 +263,7 @@ This gives us our final list of the thermozone nomenclature
  - Orbital Range: $\langle 0.950 \wedge 1.385 \rangle \mathcal{N}$
    - Zone Limits: $\langle H_2 \wedge H_3 \rangle$
      - Animozone: *Solarazone*
-       - Zone 3 ($\mathcal{Z}_4$)
+       - Zone 3 ($\mathcal{Z}_3$)
 - **Outer Habitable Zone**
  - Orbital Range: $\langle 1.385 \wedge 1.770 \rangle \mathcal{N}$
    - Zone Limits: $\langle H_3 \wedge H_4 \rangle$
