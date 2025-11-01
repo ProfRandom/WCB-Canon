@@ -1,19 +1,23 @@
 ---
-title: Meta 0 — Article Structure and Editing
-summary: Defines the standard order, length, and editorial practices for WCB articles, including table editing, KaTeX handling, and version control procedures.
+title: Meta 0 — Article Structure and Editing (Architect’s Appendix)
+summary: Defines the standard order, length, and editorial practices for WCB articles, including table editing, KaTeX handling, and version control procedures.  Serves as the operational reference for maintaining the Architect’s Appendix.
 domain: meta
 category: structure
-tags: [articles, formatting, editing, structure]
-vocabulary: [article, section, table, KaTeX, revision]
-updated: 2025-10-24
-status: draft
-version: 1.0
-related: [Meta 0 — WCB Style Guide]
+tags: [articles, formatting, editing, structure, appendix]
+vocabulary: [article, section, table, KaTeX, revision, appendix]
+updated: 2025-11-01
+status: canonical
+version: 1.1
+related: [Foundations — World Crafting Basics, Architect’s Appendix]
 contributors: [M. Conrad]
 source: ""
 ---
 
-# WCB Style Guide
+# WCB Article Structure and Editing  
+*(Architect’s Appendix Reference)*
+
+
+# WCB Article Style Guide
 ## Purpose of this Style Guide
 
 The WCB Style Guide defines the editorial, mathematical, and structural conventions used across all documents in the World-Crafting Basics canon.  Its purpose is not to impose rigidity but to ensure clarity, coherence, and interoperability among articles, editors, and publication formats.
@@ -465,18 +469,25 @@ source: ""
 
 ```yaml
 ---
-title: Stars 4 — Observation and Measurement
-summary: Explains how stellar parameters are measured, recorded, and cross-referenced within the WCB framework.
-domain: stars
-category: observation
-tags: [stars, measurement, data, photometry]
-vocabulary: [luminosity, magnitude, parallax, baseline, calibration]
-updated: 2025-10-24
-status: canonical
-version: 1.2
-related: [Stars 5 — System Architecture, Meta 2 — Math Tools]
-contributors: [G. Conrad, A. Reyes]
-source: https://github.com/wcbcanon/data-stars
+title: ""
+summary: ""
+domain: ""
+category: ""
+function: definitive        # definitive | descriptive | meta
+scope: []                   # e.g., [ontic, duramonic]
+tags: []
+vocabulary: []
+updated: 2025-__
+reviewed: null              # optional review date
+status: draft
+version: 0.1
+related: []
+parent: null
+children: []
+contributors: [M. Conrad]
+editorial_notes: ""
+license: "CC BY-SA 4.0"
+source: ""
 ---
 ```
 ### Formatting Rules

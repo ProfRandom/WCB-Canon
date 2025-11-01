@@ -2,6 +2,16 @@
 title: ""
 ---
 
+
+**Categorical/Environmental Envelope**
+- Defines the contextual synthesis of mononic class and dominant morphotype.
+- Examples: geotic, telluric, argeic, xenotic
+
+### Examples
+- **Earth:** lithic planemon → *geotic* category.  
+- **Jupiter:** aeric planemon → *haliform* category.  
+- **Ceres:** hydruric minimon → *asteroidal* category.  
+
 # Duramon Morphotype Mapping
 
 ## Nanomons → Deni-, Nano-, Okti-, Septiterrans

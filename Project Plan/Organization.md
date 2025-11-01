@@ -3,6 +3,14 @@ title: "Corpus Organization"
 date: 2025-10-25
 ---
 
+1. Mazotics
+2. Mononics
+3. Morphotics
+4. Conformics
+5. Animotics
+6. 
+
+
 # Mazotics
 ## Basic Framework
 

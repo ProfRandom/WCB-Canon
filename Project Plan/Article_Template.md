@@ -1,17 +1,21 @@
 ---
-title: ""
-summary: ""
-domain: ""
-category: ""
-tags: []
-vocabulary: []
-updated: 2025-__
-status: draft
-version: 0.1
-related: []
+title: Meta 0 — Article Template (Architect’s Appendix)
+summary: Master template for new WCB Canon articles. Includes required YAML fields, standard section order, and example placeholders for all content types.
+domain: meta
+category: appendix
+function: meta
+tags: [template, structure, appendix, article]
+vocabulary: [template, yaml, section, structure, outline]
+updated: 2025-11-01
+reviewed: null
+status: canonical
+version: 1.1
+related: [Meta 0 — Article Basic Outline, Meta 0 — Article Structure and Editing]
 contributors: [M. Conrad]
+license: "CC BY-SA 4.0"
 source: ""
 ---
+
 
 # (Article Title)
 

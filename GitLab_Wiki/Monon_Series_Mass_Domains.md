@@ -36,4 +36,4 @@ Each monon series bridges the physical thresholds between compositional regimes 
 ✔ Replaces vague vernacular terms like “SSSB” with a **clear mass-series category.**
 
 [Micomons](Micromons)
-[[Mononic_Classes]]
+[[Ontic_Classes]]
