@@ -29,7 +29,7 @@ title: ""
 	- Euphrosyne (0.000010⨁)
 
 ## Minimons → Pentiterrans
-**Mass:** 0.00001–0.0001 M⨁
+**Mass:** 0.0001–0.001 M⨁
 - *Examples:* 
 	- Miranda (0.000011⨁)
 	- Hygiea (0.000015⨁)

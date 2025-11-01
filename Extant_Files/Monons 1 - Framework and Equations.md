@@ -2,112 +2,6 @@
 title: ""
 ---
 
-## Abstract  1
-**Major Topics:**  
-- Core algebraic relationships linking the five fundamental **mononic** parameters: **mass (m), radius (r), density (ρ), surface gravity (g), and escape velocity (vₑ)**.  
-- Provides multiple equivalent formulations, allowing any parameter to be derived from any two others.  
-- Functions as the canonical **equation-of-state matrix** for monon design.  
-- Establishes normalized Earth-relative scaling (⨁ units).  
-
-**Key Terms & Symbols:**  
-- **m** — monon mass (⨁).  
-- **r** — monon radius (⨁).  
-- **ρ** — Mean density (⨁).  
-- **g** — Surface gravity (⨁).  
-- **vₑ** — Escape velocity (⨁).  
-
-**Cross-Check Notes:**  
-- Reinforces **Core Parameter Precedence** by showing equivalences and constraints.  
-- Serves as the mathematical backbone for all mononic monoseries (Geotic, Gaean, Argeic).  
-- Companion to **Geotic Ground States**, which simplifies these identities when one or more parameters = 1.  
-
-## Abstract  2
-**Major Topics:**  
-- Outlines the **dual-branch classification system** for monons.  
-- **Conformation branch** (structural/physical): based on composition and physical form.  
-  - Orders: Lithic, Rheic, Aeric, Ulsic.  
-  - Forms: Petriform, Carboform, Pagoform, Fluxiform, Transiform, Pneumoform, Haliform, Neutraform, Quarkform, etc.  
-- **Animotic branch** (life-relevance): based on relation to biospheric potential.  
-  - Classes: Geotic, Gaean, Argeic, Xenotic.  
-  - Types: Subdivisions (e.g., Marginal Geotic, Dense Hot Argeic).  
-  - States (Climostates): Global climate regimes (Cryostate, Hydrostate, Pyrostate, Pluristate, etc.).  
-  - Conditions: Atmospheric/seasonal descriptors (Tempestal, Zephyral, Serenal, etc.).  
-- Both branches are independent but complementary lenses for describing the same planemon.  
-
-**Key Terms & Symbols:**  
-- **Planemon** — planetary monon, trunk-level category.  
-- **Conformation** — physical/chemical classification.  
-- **Animotics** — life-relevance classification.  
-- **Orders/Forms** — structural breakdown of planemon types.  
-- **Classes/Types/States/Conditions** — biospheric breakdown of livability.  
-
-**Cross-Check Notes:**  
-- Provides the **master map** for all other monon-related classifications.  
-- Ensures that **physical identity** (Conformation) and **biospheric identity** (Animotic) can coexist without collision.  
-- Anchors subordinate classifications (e.g., Gaean, Argeic, Hydrostate subtypes).  
-
-## Abstract 3
-**Major Topics:**  
-- Monon composition taxonomy (configuration classes).  
-- Four primary categories: Lithic, Rheic, Aeric, Ulsic.  
-- Density ranges for Lithic, Rheic, and Aeric.  
-- Subclasses (conformations) within each category.  
-
-**Key Terms & Symbols:**  
-- Lithic → Petriform (silicate), Carboform (carbon).  
-- Rheic → Pagoform (ice-rich), Fluxiform (liquid-dominated).  
-- Aeric → Transiform (gas dwarfs), Pneumoform (ice giants), Haliform (gas giants).  
-- Ulsic → placeholder for exotic/degenerate matter (neutron stars, quark stars, black holes).  
-- Densities expressed in g/cm³ and ⨁ (Earth-density units).  
-
-**Cross-Check Notes:**  
-- Canon as of Glossary v1.217.  
-- Complements **Mononic Mass Domaines** (size taxonomy), creating a two-axis classification system (mass × composition).  
-- “Haliform” here = Gas Giants → ensure no confusion with earlier Haliform (halogen-bearing lithic variant).  
-- Overlaps with terms already staged in Glossary: Lithic, Rheic, Aeric, Ulsic.  
-
-## Abstract  4
-
-### Major Topics:  
-- Provides the **canonical reference table** for **monon mass domaines and monoseries**, establishing the taxonomy framework used across WCB.  
-- Defines the hierarchical structure of **–moic categories** by mass domain:  
-  - **micromon, minimon, midimon, planemon, intermon, stellamon, supermon, ultramon, hypermon.**  
-- Associates each category with its **mass range, radius bounds, and representative examples** (from asteroids to stellar bodies).  
-- Establishes the system of **terracentric prefixes** (centiterran, deciterran, kiloterran, megaterran, etc.) for finer-grained scaling across mass domains.  
-- Connects monoseries (e.g., **telluric, argeic, gaean**) with their appropriate mass domaines, showing where habitability-relevant subtypes emerge.  
-- Serves as the master framework to which specialized notes (e.g., **Gaean planemons, Argeic planemons**) attach.  
-
-### Key Terms & Symbols:**  
-- **Mass domaines:** micromon, minimon, midimon, planemon, intermon, stellamon, supermon, ultramon, hypermon.  
-- **Terracentric scaling prefixes:** centiterran, deciterran, kiloterran, megaterran, etc.  
-- **Ontotype:** compositional subtypes (telluric, argeic, gaean, xenotic).  
-- **µT (microterran units):** mass measure used for micromons and smaller classes.  
-
-**Cross-Check Notes:**  
-- This file provides the **systemic backbone** for all WCB classification work.  
-- All major terms are already present in the glossary as of v1.222.  
-- Future consideration: whether **terracentric prefixes** warrant their own glossary entry or remain embedded in this reference note.  
-
-## Abstract 5
-**Major Topics:**  
-- Definition of the **mononic condition**: all WCB monoseries (planemon, intermon, stellamon, etc.) apply only to single, gravitationally coherent bodies.  
-- Scope clarification: monoseries exclude multi-body systems, aggregates, and regions.  
-- Distinction between *ontological object* vs. *mathematical abstraction*.  
-- Ontological boundary rule: barycentered approximations ≠ monoseries.  
-
-**Key Terms & Symbols:**  
-- –mon suffix = monoseries indicator (e.g., planemon, stellamon, intermon).  
-- Center of mass (singular) = necessary condition for –mon classification.  
-- Cryptomon, supermon, ultramon, hypermon = monoseries variants.  
-- Barycenter = mathematical construct; not a physical monon.  
-
-**Cross-Check Notes:**  
-- Canonical clarification: multi-body systems (binaries, clusters, galaxies, nebulae) are **not mononic**, even if composed of mononic members.  
-- Rule resolves ambiguity: a system of planemons is not itself a planemon.  
-- Complements **Mononic Mass Domaines** and **Mononic Compositions** (**morphotypes**) as monoseries framework foundations.  
-- Ensure consistent usage: “–mon” suffix always denotes singular gravitationally self-bound entities, never systems.  
-
-
 # 🌍 Planemon Framework (Master Map)
 
 All **planemons** (planetary monons) share a **common trunk** — then branch into two complementary classification systems.
@@ -185,11 +79,11 @@ And each has subsets, called ***conformations***:
 
 These are intended to categorize monons *in their current configuration*.  A monon may (usually will) assume different qualities depending on its age and environment.
 
-# Monon Mass Domaines and monoseries
+# Monon Mass Domains and Monon Series
 
 ## Listed by Mass Domain (Duplicated in Monons 2)
 
-| <center>Mass Domain</center> | <center>Min. Mass ≥</center> | <center>Max. Mass <</center> | <center>Power</center> | <center>Monoseries</center>                 |
+| <center>Mass Domain</center> | <center>Min. Mass ≥</center> | <center>Max. Mass <</center> | <center>Power</center> | <center>Monon Series</center>                 |
 | --------------------------- | ---------------------------: | ---------------------------: | ---------------------: | ------------------------------------------ |
 | deniterran                  |                 0.0000000001 |                  0.000000001 |                  10⁻¹⁰ | nanomon                                    |
 | nanoterran                  |                  0.000000001 |                   0.00000001 |                   10⁻⁹ | nanomon                                    |

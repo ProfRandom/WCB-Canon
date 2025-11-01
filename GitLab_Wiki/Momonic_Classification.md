@@ -1,6 +1,6 @@
 # Classification Rule — The Monon Condition
 
-> **All WCB monoseries (planemon, intermon, stellamon, etc.) refer exclusively to individual, gravitationally coherent bodies — not to multi-body systems, collections, or regions.**
+> **All WCB monon series (planemon, intermon, stellamon, etc.) refer exclusively to individual, gravitationally coherent bodies — not to multi-body systems, collections, or regions.**
 
 ---
 
@@ -26,7 +26,7 @@ A **monon** is defined by:
 
 ---
 
-## **WCB Monon Rule (Monoseries Scope Clarification)**
+## **WCB Monon Rule (Monon Series Scope Clarification)**
 
 > **All mononic classifications** (*planemon, intermon, stellamon, cryptomon, etc.*)  
 > apply only to **individual, contiguous, gravitationally self-bound objects**.  
@@ -37,7 +37,7 @@ A **monon** is defined by:
 
 ### 🧠 Key Principles
 
-1. **Monoseries is not emergent.**  
+1. **Monon Series is not emergent.**  
    A *system of planemons* is not a larger planemon.  
    A *binary of stellamons* is not a single, larger stellamon.
 
