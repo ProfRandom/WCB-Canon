@@ -10,7 +10,7 @@ and their **Morphological character**, which defines material composition and st
 
 > At the broadest scale, all monons fall into one of three **mass domains** governed by the physics of self-gravitation and fusion onset.  
 > - **Duramons** — all monons with masses below the stellar ignition threshold (**< 0.08 ⊙**); this collective includes every non-fusional body from brown dwarfs and planemons to micromons and asteroids.  
-> - **Stellamons** — all monons with masses in the stable hydrogen-fusion range (**⟨0.08 ∧ 300⟩ ⊙**); these are subdivided by the **spectral-class system** (q.v.) that defines their thermodynamic and photometric behavior. 
+> - **Fusamons** — all monons with masses in the stable hydrogen-fusion range (**⟨0.08 ∧ 300⟩ ⊙**); these are subdivided by the **spectral-class system** (q.v.) that defines their thermodynamic and photometric behavior. 
 > - **Peramons** — all monons whose masses exceed the upper stellar-stability limit (**> 300 ⊙**); these represent the **trans-stellar regime** of radiative instability, pair-creation collapse, or exotic compact states.  
 >  
 > Together, these three domains describe the **Mononic Continuum** from sub-stellar to trans-stellar mass, uniting all self-gravitating bodies under a single hierarchical grammar.

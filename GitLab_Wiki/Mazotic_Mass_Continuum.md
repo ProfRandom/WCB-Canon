@@ -13,13 +13,15 @@ contributors: [M. Conrad]
 source: https://gitlab.com/wcbcanon/meta
 ---
 
-# Introduction
+# Mazotic Mass Continuum
+
+## Introduction
 
 The following conventions establish how **World Crafting Basics (WCB)** names and interprets mass intervals relative to Earth’s mass ($\oplus$).
 
 These ensure that both scientific notation and symbolic terminology remain intuitive across a vast range of scales.
 
-## Contents
+### Contents
 1. Mazotic Domains
 3. Mathematical or Structural Section (if applicable)
 4. Applications or Examples (if applicable)
@@ -28,7 +30,7 @@ These ensure that both scientific notation and symbolic terminology remain intui
 7. Version/Contributor Notes
 8. External References Section (if applicable)
 
-## Mazotic Mass Domains
+### Mazotic Mass Domains
 $$
 \begin{array}{l c r r r l}
 \textbf{Intervals} &
