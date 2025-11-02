@@ -2,34 +2,6 @@
 title: ""
 ---
 
-## Abstract  
-**Major Topics:**  
-- Consolidates all mathematical and procedural conventions used across the Worldmaking Canon (WCB), forming a unified reference for equations, units, and symbolic notation.  
-- Defines **core numerical systems**:  
-  - Canonical units (⨁, ⊙, ⟂, P) for mass, luminosity, gravity, and orbital period.  
-  - Scaling conventions for micro- to gigaterran magnitudes.  
-- Introduces and standardizes **notation for proportionality, equivalence, and relational operators** (≈, ∝, ≡, ≤, ≥), establishing consistency across scientific and narrative texts.  
-- Formalizes **range constraints** and **random assignment protocols** (`Rnd{x::y}`), formerly in *Monons 2*, for probabilistic or stochastic modeling of planetary and stellar parameters.  
-- Defines canonical forms for **dimensional analysis**, **conversion constants**, and **rounding precision** in calculations involving luminosity, mass, and orbital ratios.  
-- Outlines **hierarchies of mathematical context**:  
-  - *Descriptive* (empirical correlations and symbolic shorthand).  
-  - *Prescriptive* (model equations governing worldmaking mechanics).  
-  - *Procedural* (algorithms or random generation rules for simulation).  
-- Establishes the **cross-disciplinary role** of math tools in binding the physical, morphological, and systemic frameworks of WCB.
-
-**Key Terms & Symbols:**  
-- **Rnd{x::y}** — random assignment operator (uniform probability).  
-- **⨁, ⊙, P, N** — canonical Earth, Sun, and orbital constants.  
-- **≈, ∝, ≡, ≤, ≥** — standardized relational and equivalence operators.  
-- **Ω** — limiting boundary value for a given system parameter.  
-- **σ, μ, I** — statistical variance, mean, and interval metrics used in orbital analysis.  
-
-**Cross-Check Notes:**  
-- Complements *Meta 1 — Principles* by grounding symbolic consistency across Canon files.  
-- Supersedes mathematical content previously embedded in *Monons 2 — Properties and Parameters*.  
-- Provides the foundational grammar for all quantitative derivations used in *Orbits*, *Binaries*, and *Stars* modules.  
-- No new glossary terms required; consolidates and harmonizes prior notation.
-
 # 🧭 Ellipse Geometry Solver — WCB Reference
 
 This reference provides a complete algebraic toolkit for solving any ellipse — geometric or orbital — from any two independent parameters. All terms match the diagram above.  

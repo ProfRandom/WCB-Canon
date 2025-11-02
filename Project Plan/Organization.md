@@ -3,7 +3,7 @@ title: title: Corpus Organization — Ontic and Descriptive Domains
 date: 2025-11-01
 ---
 
-# Definitive Domains
+# Definitive Regimes
 1. Ontics: being and coherence
 2. Categorics: classification and relation
 
@@ -78,7 +78,7 @@ where Ontics defines *being*, Categorics defines *belonging*.
 
 **In short:** Ontics defines *what is*; Categorics defines *how it is related.*
 
-# Descriptive Domains
+# Descriptive Regimes
 1. Metrics
 2. Morphotics
 3. Conformics

@@ -2,44 +2,6 @@
 title: Binaries 6
 ---
 
-## Abstract  
-**Major Topics:**  
-- Defines **double-duramonic systems**—pairs of sub-stellar monons bound in mutual orbit—and classifies them according to both **mass ratio** and **barycentric geometry**.  
-- Distinguishes two principal mass-ratio regimes:  
-  - **Sobrinic duramons:** mass ratio $\varrho = \frac{M_2}{M_1} \le 100:1$; co-dominant or near-binary systems.  
-  - **Parensic duramons:** mass ratio $\varrho = \frac{M_2}{M_1} > 100:1$; hierarchical or satellite-like systems.  
-- Introduces **primaron** and **secondron** as the canonical terms for the dominant and subordinate members of a binary monon pair, maintaining continuity with barycentric notation from *Binaries 1 — Principles and Properties*.  
-- Establishes barycentric parameters $B_{min}$, $B_{avg}$, and $B_{max}$ expressed in units of the primaron’s radius ($R_P$), allowing direct comparison between barycenter position and the physical extent of the primaron.  
-- Defines two complementary descriptors:  
-  - **Barycenter locus** — whether $B_{avg}$ lies inside (interior) or outside (exterior) the primaron’s radius.  
-  - **Barycenter motility** — the extent to which the barycenter’s orbit is confined, ambulatory, or free relative to the primaron’s surface.  
-- Combines these to yield **four canonical barycentric configurations**—interior-confined, interior-ambulatory, exterior-ambulatory, and exterior-free—and demonstrates how their intersection with the sobrinic/parensic ratio regime produces the **eightfold duramonic-pair taxonomy**.  
-- Provides algebraic relations for barycentric distances  
-
-$$
-  B_{avg} = \mu\,A, \quad  
-  B_{min} = B_{avg}(1-e), \quad  
-  B_{max} = B_{avg}(1+e),
-  $$
-  
- — with $A$ expressed in primaron radii, supporting direct scaling across planemonic and sub-stellar systems.
-
-**Key Terms & Symbols:**  
-- **primaron (P):** dominant body of the pair ($M_1, ν$).  
-- **Secondron (S):** subordinate body ($M_2, μ$).  
-- **ϱ:** secondron simple mass ratio ($M_2/M_1$).  
-- **𝛗:** primaron simple mass ratio ($M_1/M_2$). 
-- **μ, ν:** barycentric mass fractions.  
-- **Bₘᵢₙ, Bₐᵥg, Bₘₐₓ:** barycentric distances relative to the primaron.  
-- **$R_P$:** primaron radius used as the scaling unit.  
-- **Locus:** interior vs. exterior position of the barycenter.  
-- **Motility:** confined, ambulatory, or free orbital motion.  
-
-**Cross-Check Notes:**  
-- Extends the barycentric framework of *Binaries 1* to sub-stellar mass domains defined in *Meta 1 — Principles* and *Planemons 3 — Parameter Boundaries*.  
-- Establishes the formal geometric basis for subsequent modules on **Barycentric Regimes** and **duramonic Dynamics**.  
-- Integrates terminology consistent with the **Primaron–Secondron convention** for mass-pair systems.
-
 # Double Duramons
 Paired duramons may be of two types
 - Sobrinic: mass-ratio $\varrho = \frac{M_2}{M_1} \le 100:1$

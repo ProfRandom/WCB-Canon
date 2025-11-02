@@ -13,78 +13,146 @@ contributors: [M. Conrad, GPT-5]
 source: ""
 ---
 
-# The Eidara Reference System
+# The Eikon-Eidara Reference System
 
-**Eidara** is the canonical *World Crafting Basics* reference system — a balanced, habitable world and its parent star, used as the model for all practical equations, demonstrations, and systemic relationships across the Canon.
+## Building From The Planemon
 
-It provides a single, internally consistent framework through which *Ontic*, *Metric*, and *Descriptive* principles can be illustrated without cross-file inconsistency.  
-Just as physics textbooks use the Earth–Sun–Moon system for examples, WCB uses **Eidara** and its sunlike **fusamon** as the universal reference.
+### Constants
+- $C_\oplus = 365.256363004$ days
+- $M_\odot = 333000 m\oplus$
 
----
+## Process
 
-## System Overview
+We begin with two known parameters for the planemon:
 
-| **Parameter** | **Symbol / Unit** | **Value (Eidara)** | **Comparison (Solar System)** |
-|:--|:--|:--|:--|
-| Stellar Type | G2V fusamon | — | Sun-like star |
-| Stellar Mass | $M_\star$ | 1.03 ⊙ | Slightly heavier than Sol |
-| Stellar Luminosity | $L_\star$ | 1.30 ⊙ | ≈30 % brighter than Sol |
-| Planetary Type | Lithic–Rheic duramon | — | Earth-like planemon |
-| Planetary Mass | $M_p$ | 1.05 ⊕ | Slightly denser than Earth |
-| Planetary Radius | $R_p$ | 1.02 ⊕ | Slightly larger than Earth |
-| Semimajor Axis | $a$ | 1.10 AU | Orbital period ≈ 420 days |
-| Eccentricity | $e$ | 0.05 | Mildly elliptical orbit |
-| Axial Tilt | $\theta$ | 23.4° | Earth-like seasons |
-| Rotation Period | $P_{rot}$ | 24.6 h | Slightly slower than Earth |
-| Satellite | "Ithea" | 1 major moon, 0.25 ⊕ mass | Tidally stabilizing |
-| Equilibrium Temperature | $T_{eq}$ | 279 K | ~6 °C average surface |
-| Surface Composition | — | 63 % ocean, 37 % land | Comparable to Earth |
-| Atmospheric Mix | — | 77 % N₂, 20 % O₂, 1 % Ar + trace CO₂ | Breathable |
-| Animotic Order | Biotic (Gaean Province) | — | Carbon–water life |
-| Milieutic Context | Inner habitable zone of a stable, single-star system | — |
+$$
+\begin{aligned}
+	m &= 1.05\oplus \\[0.5em]
+  \therefore m_\odot &= \frac{m}{333000} = 3.153 \times 10^{-6}\odot \\[0.5em]
+  r &= 1.02\oplus \\[0.5em]
+   &\text{And one known parameter for its orbital axis:} \\[0.5em]
+  D &= 1.1\; \text{AU}
+\end{aligned}
+$$
+ —  and one known parameter for its orbital axis:
 
----
+$$
+\begin{aligned}
+  D &= 1.1\; \text{AU}
+\end{aligned}
+$$
+ 
+- **This is also specified to be the system *nucleal orbit axis*** ($N$).
 
-## Ontic Definition
+The other three parameters are calculated from these two:
 
-Eidara is a **duramonic monon** within a **fusamonic system**, exhibiting a single, stable **center of mass** and full **self-coherence** under gravitational binding.  
-It serves as the standard example of a *lithic–rheic ontic body* capable of hosting animotic equilibrium within a stable milieutic context.
+$$
+\begin{aligned}
+	\rho &= \frac{m}{r^3} = 0.989 \\
+	g &= \frac{m}{r^2} = 1.009 \\
+	v_e &= \sqrt{\frac{m}{r}} = 1.015
+\end{aligned}
+$$
+We cannot calculate the orbital period (Chronum; $C$) for Eidara by without knowing the mass of the star, because:
 
----
+$$
+	P = \sqrt{\frac{D^3}{\mathbf{M} + m\odot}}
+$$
+ — and we cannot calculate the mass of the star by rearranging this equation, because that requires that we know $P$ which is the very quantity we're seeking.
 
-## Descriptive Expression Across the Seven Domains
+ However, there is one stellar parameter that we *can* calculate directly from what information we already have:
 
-| **Domain** | **Focus in Eidara System** |
-|:--|:--|
-| **Ontics** | Defines Eidara as a duramonic monon orbiting a G-class fusamon; one moon; single barycenter. |
-| **Categorics** | Member of a single-star, two-planet system with moderate resonance and a stable dynamical hierarchy. |
-| **Metrics** | Provides the canonical normalization for all WCB unit examples (1 Eidara = 1 E⊕). |
-| **Morphotics** | Slightly oblate lithic–rheic sphere with polar flattening and seasonal symmetry. |
-| **Conformics** | Lithic crust, rheic mantle, metallic core, aeric atmosphere; stable solid–liquid–gas equilibrium. |
-| **Animotics** | Biotic Order (Gaean Province): carbon–water vitality within temperature range 250–320 K. |
-| **Milieutics** | Inner-habitable orbital zone with balanced tidal, radiative, and rotational dynamics; climatically temperate. |
+$$
+ 	L = N^2
+$$
+ —  and since we've already specified that the planemon's orbital axis *is* the nucleal orbit axis:
 
----
+$$
+ 	L = N^2 = 1.1^2 = 1.21\; \odot
+$$
+ — and once we know the star's luminosity, we can calculate its mass:
 
-## Narrative Context
+$$
+\begin{aligned}
+	M &= \sqrt[3.7889]{1.21} = 1.051 \\
+\end{aligned}
+$$
+Using this mass, we can now calculate an orbital period ($C$) for the planemon:
 
-> **Eidara** represents the *centerline of plausibility* in WCB design.  
-> It is neither extreme nor idealized — the benchmark of environmental stability, physical coherence, and animotic potential.  
-> Every comparative parameter (luminosity, mass, orbital distance, etc.) is expressed relative to Eidara units for narrative and mathematical consistency.
+$$
+\begin{aligned}
+	C &= \sqrt{\frac{D^3}{M + m\odot}} \\
+    &= \sqrt{\frac{1.1^3}{1.051 + 3.153 \times 10^{-6}}} \\
+    &= \sqrt{\frac{1.331}{1.051003153}} \\
+    &= \sqrt{1.2664} \\
+  C &= 1.125  
+\end{aligned}
+$$
+ — which is:
 
-**Example use:**  
-- When deriving equations for orbital period, use $a_{Eidara}$ = 1.10 AU as the baseline.  
-- When defining equilibrium temperatures, $T_{eq,Eidara}$ = 279 K becomes the nominal “temperate reference.”  
-- All derived energies, luminosities, and surface gravities normalize to Eidara values unless explicitly noted.
+$$
+	C_d = C \times C_\oplus = 1.125 \times 365.256363004 = 411.041\; \text{days}
+$$
+We can calculate the rest of the star's parameters from the luminosity: 
 
----
+$$
+\begin{aligned}
+  T &= \sqrt[7.5778]{L} = \sqrt[7.5778]{1.21} = 1.025 \\
+  R &= \sqrt[4.\overline{2}]{L} = \sqrt[4.\overline{2}]{1.21} = 1.046 \\
+  Q &= L^{-1.52} = 1.21^{-1.52} = 0.749 \times 10^{10} = 7.49\; \text{Ga}
+\end{aligned}
+$$
+We can *approximate* the perannual orbit for Eikon by:
 
-## Crosslinks
+$$
+	A_\approx = \sqrt[3]{M} = \sqrt[3]{1.051} = 1.017\; \text{AU}
+$$
+ — it is technically more accurate to calculate it from the orbital period ($C$) and the summed masses ($M + m\odot$).  In this case we're looking for the orbital axis of an orbit with $C = 1$, so we can leave that parameter out:
 
-- [[Ontics — The Study of Being and Coherence]]  
-- [[Categorics — The Study of Relation and Classification]]  
-- [[Metrics — The Study of Measure and Scale]]  
-- [[Morphotics — The Study of Form and Configuration]]  
-- [[Conformics — The Study of Material State and Cohesion]]  
-- [[Animotics — The Study of Vitality and Equilibrium]]  
-- [[Milieutics — The Study of Context and Environment]]
+$$
+ \begin{aligned}
+ 	A &= \sqrt[3]{M + m\odot} \\
+  	&= \sqrt[3]{1.051 + 3.153 \times 10^{-6}} \\
+  A &= \sqrt[3]{1.051003153} = 1.017\; \text{AU}
+\end{aligned} 
+$$
+ The two results come out the same because the mass of the planemon contributes so little to the equation that it can safely be ignored.
+
+Taking the two equations out to absurd numbers of decimal places:
+
+$$
+\begin{array}{clc}
+  A &= \sqrt[3]{1.051003153} &= 1.01671994\; \text{AU} \\
+  A &= \sqrt[3]{1.051} &= 1.01671892\; \text{AU}
+\end{array}
+$$
+
+ — a difference of $0.00000102$ AU, or about $152.11$ km
+ 
+## Results
+From this process we arrive at the following known parameters:
+
+### Eidara
+- Specified Parameters
+  - $m = 1.05\oplus$; $m_\odot = 3.153 \times 10^{-6}$
+  - $r = 1.02\oplus$
+- Calculated Parameters
+  - $\rho = 0.989\oplus$
+  - $g = 1.009\oplus$
+  - $v_e = 1.015\oplus$
+- Specified Orbit (= to nucleal orbit)
+  - $D = N = 1.1$ AU
+- Calculated Orbital Period (Chronum; $C$)
+    - $C = 1.125$ years
+    - $C_d = 411.041$ days
+
+### Eikon
+- Calculated Parameters
+  - $L = N^2 = 1.21\odot$ → Used to calculate $C$ for Eidara
+  - $K = 5916.551$ K
+  - $S = \text{G}0.834$
+  - $T = 1.025\odot$
+  - $M = 1.051\odot$
+  - $R = 1.046\odot$
+  - $Q = 0.749\odot; 7.49$ Ga
+  - $A = 1.017$ AU

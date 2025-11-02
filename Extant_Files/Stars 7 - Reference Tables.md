@@ -2,42 +2,6 @@
 title: *Stars 6 — Reference Tables*
 ---
 
-## Abstract 
-**Major Topics:** 
-- Serves as the **numerical and symbolic compendium** for all prior *Stars* modules, consolidating stellar, orbital, and thermodynamic data into a single reference framework. 
-- Presents complete **stellar parameters by spectral class (O–M, LTY)**, including: 
- - Effective temperature (K, T⊙) 
- - Radius (R⊙) 
- - Luminosity (L⊙) 
- - Mass (M⊙) 
- - Main sequence lifetime (Q⊙) 
-- Defines **Thermal Interval Constants (þ)** for calculating subclass increments and supports precise interpolation across the WCB linearized spectral sequence. 
-- Summarizes all key **cross-conversion equations** among stellar parameters, including: 
- - $L = T^{7.6}$ $M = T^{2.0}$ $R = T^{1.8}$ $Q = T^{-5}$ 
- - $M = L^{1/3.8}$ $R = M^{0.9}$ $Q = M^{-2.5}$ 
- - $T = K / 5800$ ↔ $K = 5800T$ 
- - Exact refined exponents: 7.5778 and 3.7889. 
-- Lists **standardized thermozone boundaries (H₀–H₅)** normalized to the nucleal orbit (N = 1.0): 
- - ⟨0.500 ∧ 4.850⟩N, spanning Igniozone → Cryozone. 
-- Provides a unified **symbol index** for the entire *Stars* sequence (Modules 1–5), including N, P, H₀–H₅, OHI, þ, κ, and 𝓢. 
-- Clarifies distinctions between **absolute** (Kelvin) and **relative** (solar-normalized) scales, and between theoretical and worldbuilding approximations. 
-- Functions as both an **analytic tool** and a **cross-canon bridge**, ensuring internal coherence between stellar classification, orbital generation, and habitability models. 
-
-**Key Terms & Symbols:** 
-- **þ (thorn):** Thermal Interval Constant, subclass temperature increment. 
-- **𝓢:** Spectral type index (0–9 continuous). 
-- **κ:** Upper temperature bound of spectral class. 
-- **K, T, M, R, L, Q:** Temperature, mass, radius, luminosity, and lifetime in solar-relative form. 
-- **N (Nucleal Orbit), P (Perannual Orbit):** fundamental orbital references. 
-- **H₀–H₅:** Thermozone boundaries, Igniozone → Cryozone. 
-- **OHI:** Orbital Habitability Index (0–1 scalar). 
-
-**Cross-Check Notes:** 
-- Integrates and formalizes data from *Stars 1–6*; supersedes earlier reference fragments. 
-- Acts as the quantitative foundation for all higher-level modeling (e.g., *Orbits*, *Planemons*, *Binaries*). 
-- No new terms introduced; compiles existing WCB symbols into a stable numeric and linguistic standard. 
-- Designed for use as a **canonical lookup table** and computational cross-verification resource in the broader WCB cosmology.
-
 ## 1 Spectral Class Temperature Ranges
 
 | Spectral Class | Low K | High K | Thermal Interval Constant (þ K) |

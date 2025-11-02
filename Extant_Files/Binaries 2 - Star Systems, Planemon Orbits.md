@@ -3,48 +3,6 @@ title: ""
 ---
 
 
-## Abstract  
-**Major Topics:**  
-- Defines the **Chaos Zone** — the dynamically unstable region between circumstellar (S-type) and circumbinary (P-type) orbital regimes in binary systems.  
-- Establishes the empirical stability range:  
-  $$0.3\,A \lesssim \alpha \lesssim 3.0\,A$$  
-  within which long-term planetary orbits are generally impossible.  
-- Distinguishes between:  
-  - **S-type orbits** — planets bound to one star of a wide binary.  
-  - **P-type orbits** — planets orbiting both stars of a close binary.  
-- Explains that orbital stability depends primarily on the **ratio of the planetary semi-major axis** ($\alpha$) to the **average stellar separation** ($A$).  
-- Summarizes **Holman & Wiegert (1999)** numerical results for circumbinary (P-type) stability, introducing the full empirical relation:  
-  $$\frac{a_{crit}}{A} = 1.60 + 5.10e - 2.22e^2 + 4.12\mu - 4.27e\mu - 5.09\mu^2 + 4.61e^2\mu^2$$  
-  and the simplified canonical form:  
-  $$\alpha \ge F(e)\,A, \qquad F(e) = 4.1e^2 + 2.0e + 3.5$$  
-- Provides tabulated $F(e)$ values for typical binary eccentricities, showing that stability boundaries rise roughly quadratically with $e$.  
-- Notes a simplified linear approximation ($\alpha >rsim A(3.5 + 4.0e)$) for rapid estimation.  
-- Incorporates **Quarles et al. (2018, 2020)** results defining the **S-type stability limit** for wide binaries:  
-
-$$
-Q_{L} = 0.08 \qquad A = 0.08 \left(\frac{T_{min}}{1 - e}\right)
-$$
-
-  —  linking circumstellar orbital stability directly to the stars’ *closest approach* ($T_{\min}$).  
-- Introduces the **Quarles Eccentricity Limit** ($Q_e = 0.92$), the maximum binary eccentricity at which *any* stable circumstellar orbit can exist.  
-- Emphasizes that the **inner and outer stability boundaries** (Holman–Wiegert vs. Quarles) form the **complete architecture of binary orbital habitability**.
-
-**Key Terms & Symbols:**  
-- **$A$** — average stellar separation (AU).  
-- **$\alpha$** — planetary orbital semi-major axis (AU).  
-- **$a_{crit}$** — critical semi-major axis for P-type stability.  
-- **$T_{\min}$** — minimum stellar separation at periastron.  
-- **$e$** — binary eccentricity.  
-- **$\mu$** — binary mass ratio ($M_2 / (M_1 + M_2)$).  
-- **$F(e)$** — stability function for circumbinary (P-type) orbits.  
-- **$Q_L$** — Quarles Stability Limit (outer boundary for S-type).  
-- **$Q_e$** — Quarles Eccentricity Limit (max $e$ for circumstellar stability).  
-
-**Cross-Check Notes:**  
-- Complements **Binaries 2 — Star Systems, General** by extending from stellar–stellar dynamics to **planetary–binary interactions**.  
-- Provides quantitative criteria for **stable orbital zones** around and within binary systems.  
-- Serves as the foundation for later sections on **Roche geometry**, **Hill spheres**, and **habitable zone modeling** in multi-star environments.  
-
 ## Chaos Zone
 $$
 0.3\,A \lesssim \alpha \lesssim 3.0\,A

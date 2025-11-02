@@ -2,38 +2,6 @@
 title: ""
 ---
 
-## Abstract 
-**Major Topics:** 
-- Reconstructs the vague astronomical notion of “Sun-like stars” into a clear, mathematically grounded **WCB classification hierarchy** tied to orbital habitability rather than surface resemblance. 
-- Defines nested stellar categories by **ontozonal boundaries** and **perannual orbit ranges (P):** 
- - **Solar Analogs:** stars whose perannual orbits span ⟨0.500 ∧ 4.850⟩ AU — the full Parahabitable Zone (H₀–H₅) — corresponding to spectral types F2–K9. 
- - **Solar Cognates:** perannual orbits within ⟨0.750 ∧ 1.770⟩ AU — the Habitable Zone (H₁–H₄) — spectral types F7.6–K1.1. 
- - **Solar Twins:** perannual orbits within ⟨0.950 ∧ 1.385⟩ AU — the Hospitable Zone (H₂–H₃) — spectral types G1.0–G7.7. 
- - All Twins ⊂ Cognates ⊂ Analogs. 
-- Links **stellar luminosity (L)** to **perannual orbit (P)** via $P = L^{1/11.4}$, allowing direct determination of spectral type for any orbit located on a thermozone boundary (H₀–H₅). 
-- Derives a **generalized scaling relation** between luminosity and the thermozone factor (λ): 
- - $L = \sqrt[-0.4123]{λ}$ and $K = 5800(λ^{-0.3191})$ 
- - These enable forward and inverse calculations of stellar temperature or orbital distance. 
-- Introduces the **Orbital Habitability Index (OHI)** — a continuous scalar (0.00–1.00) quantifying relative habitability as a function of distance from the **nucleal orbit (N = √L)**: 
- - Intranucleal: $H_I = 2R − 1$ (for R ≤ 1) 
- - Extranucleal: $H_I = −0.26R + 1.26$ (for R > 1) 
- - Index peaks at 1.00 when P = N, declining to 0.00 at H₀ and H₅. 
-- Establishes the **Thermal Axis for Perannual Orbits**, mapping stellar temperature and spectral class across all habitability zones (H₀–H₅). 
-- Provides a practical framework for evaluating the “Sun-likeness” of a star directly from its habitability potential, not merely its photometric similarity. 
-
-**Key Terms & Symbols:** 
-- **Solar Analog / Cognate / Twin:** nested WCB categories of Sun-like stars based on ontozonal position. 
-- **P (Perannual Orbit):** period-equivalent orbital distance. 
-- **N (Nucleal Orbit):** irradiance-equivalent orbital distance. 
-- **H₀–H₅ (Thermozones):** reference corridors of orbital habitability. 
-- **λ (Scaling Factor):** ratio of P to N. 
-- **OHI (Orbital Habitability Index):** 0–1 scalar quantifying orbital habitability. 
-
-**Cross-Check Notes:** 
-- Builds directly upon *Stars 1 — Fundamental Orbits* (definitions of N and P) and *Stars 2 — Spectral Frameworks* (luminosity–temperature relations). 
-- Introduces new glossary terms: Solar Analog, Solar Cognate, Solar Twin, and OHI. 
-- Serves as the conceptual and computational bridge between **stellar classification** and **habitability analysis**, forming the gateway to *Stars 5 — System Architecture* and *Planemons 2 — Habitability.*
-
 # Solar Analogs, Cognates, and Twins
 
 The published literature often speaks of *solar analog* stars, but tends to be distressingly vague about exactly what the term means. Generally speaking, it means *a star very much like the Sun*.

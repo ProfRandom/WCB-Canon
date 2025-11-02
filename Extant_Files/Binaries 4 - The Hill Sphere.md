@@ -1,46 +1,6 @@
 ---
 title: ""
 ---
-## Abstract  
-**Major Topics:**  
-- Defines the **Hill sphere** as the spatial region surrounding a smaller body where its self-gravity dominates over the tidal forces of a larger primaron.  
-- Establishes that within the Hill sphere, satellites, rings, and other debris can maintain **stable orbits** about the secondron body.  
-- Describes the **Hill sphere** as the **circum-orbital analog of the Roche lobe**:  
-  - The Roche lobe governs gravitational domains between *comparable masses* (binary stars).  
-  - The Hill sphere applies when the **mass ratio is extreme** (e.g., planet–star or moon–planet).  
-- Presents the **classical Hill sphere equation**:  
-
-$$
-  H_r = \alpha\!\left(\frac{M_2}{3M_1}\right)^{\!\tfrac{1}{3}}
-$$
-
- — defining the limiting radius of stable orbital influence for the smaller body.  
-- Interprets $H_r$ as the **outer stability boundary** for circumsecondronic orbits — the point beyond which tidal shear from the primaron dominates.  
-- Introduces a practical constraint for **long-term stability** of satellites:  
-
-$$
-  r_{\text{sat}} \lesssim 0.5\,H_r
-$$
- — indicating that stable moons typically orbit well within half the Hill radius.  
-- Note that for **eccentric orbits**, the Hill radius should be evaluated at **periapsis** ($\alpha(1 - e)$), where tidal stress is greatest.  
-- Compares the **Hill sphere** and **Roche lobe** in both physical regime and geometric form:  
-  - Roche lobes → teardrop-shaped equipotential regions between comparable masses.  
-  - Hill spheres → near-spherical zones for extreme mass ratios ($M_2 \ll M_1$).  
-- Provides a worked example using **Earth’s Hill sphere**, showing that $H_r \approx 0.01$ AU (≈ $1.5×10^6$ km), comfortably encompassing the Moon’s orbit.  
-
-**Key Terms & Symbols:**  
-- **$H_r$** — Hill-sphere radius (outer limit of stable circumsecondronic orbits).  
-- **$\alpha$** — orbital semi-major axis of the secondron (AU).  
-- **$M_1$, $M_2$** — primaron and secondron masses.  
-- **$e$** — orbital eccentricity.  
-- **$r_{\text{sat}}$** — orbital radius of a satellite.  
-- **Hill Sphere** — stability domain for a low-mass secondron.  
-- **Roche Lobe** — mutual gravitational domain in a binary pair.  
-
-**Cross-Check Notes:**  
-- Complements **Roche Lobe Geometry** by describing the analogous stability boundary in **extreme mass-ratio systems**.  
-- Forms the theoretical foundation for satellite-system design, ring stability, and capture mechanics in both planetary and stellar contexts.  
-- Serves as a bridge to later sections on **Roche Limits** and **gravitational capture thresholds**. 
 
 ## Hill Sphere
 In any multi-body system, the **Hill sphere** defines the region around a smaller body within which its own gravity dominates over the tidal influence of a larger primaron.  Within this sphere, satellites, rings, or retained debris can maintain long-term stable orbits around the smaller body.

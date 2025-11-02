@@ -2,30 +2,6 @@
 title: ""
 ---
 
-## Abstract  
-**Major Topics:**  
-- Defines **asteroids** as **Small Star System Bodies (S3Bs)**—the smallest, most numerous members of a stellar system’s mononic population.  
-- Describes them as **lithic or carbonic monons** occupying the **micromonon–minimonon** mass range, typically cohesion-bound and non-hydrostatic.  
-- Establishes the **Asteroidal Morphotype**, encompassing multiple **conformations** that vary by primordial composition and formation zone.  
-- Identifies principal conformations: **C-type, S-type, M-type, D-type, P-type, V-type**, and transitional intermediates.  
-- Explains that these conformations represent gradients of **volatility, metallicity, and thermal history**, producing the compositional zoning seen in mature asteroid belts.  
-- Notes that S³Bs collectively serve as **chemical and dynamical fossils** of stellar-system evolution, illustrating how minor bodies preserve the record of protoplanetary processes.  
-
-**Key Terms & Symbols:**  
-- **S3B (Small Star System Body)** — colloquial collective for subplanetary monons within a stellar system.  
-- **Asteroidal Morphotype [mono].**  
-- **C-, S-, M-, D-, P-, V-type Conformations [conf].**  
-- **Micromonon, Minimonon [mono].**  
-- **Volatility Gradient [chem].**  
-- **Thermal History [evo].**  
-
-**Cross-Check Notes:**  
-- **Asteroidal Morphotype [mono]** formally defined in *Meta 3 — Morphotypes*.  
-- **S3B [mono]** usage consistent with *planemons 1 — Framework and Equations*.  
-- **C–P-type Conformations [conf]** align with established lithic and carbonic forms.  
-- **Density and composition correlations [phys]** cross-referenced with *Monons 2 — Properties and Parameters*.  
-- **Status:** [EXPANDED] — adds physical detail, compositional taxonomy, and system-level context for small-body populations.  
-
 ## 🪨 Asteroid Types  
 
 Asteroids — or, more broadly, **Small Star System Bodies (S3Bs)** — are not all alike.  

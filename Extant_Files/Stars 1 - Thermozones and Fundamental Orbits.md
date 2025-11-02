@@ -2,44 +2,6 @@
 title: ""
 ---
 
-## Abstract  
-**Major Topics:**  
-- Defines the **two fundamental orbital benchmarks** that anchor all WCB stellar-system design:  
-  - **N (Nucleal Orbit):** the distance at which a planemon receives the same irradiance from its star as Earth from the Sun.  
-  - **P (Perannual Orbit):** the distance at which a planemon completes one Earth-length sidereal year.  
-- Establishes **thermal vs. temporal** reference frameworks:  
-  - N ∝ √L (luminosity-based, thermal equilibrium)  
-  - P ∝ ³√M (mass-based, dynamical period)  
-  - Cross-relations via the mass–luminosity approximation $M ≈ L^{1/3}$ yield
-    - $P ≈ L^{1/6}$ and $N ≈ M^{3/2}$ as usable estimators.  
-- Introduces the **habitable-zone hierarchy**, proportional to N:  
-  - **Habitable Zone:** ⟨0.750 ∧ 1.770⟩ N.  
-  - **Hospitable Zone:** ⟨0.950 ∧ 1.385⟩ N — the inner, most life-friendly corridor.  
-  - **Frost Line (ϝ):** 4.850 N — outer limit for liquid-water stability.  
-- Establishes the **Animozone notation** (Zone 1 through Zone 7) to classify orbital environments: xenotic, parahabitable, habitable, and hospitable.  
-- Defines the **Thermozones** — mnemonic names and limits for these corridors (H₀–H₅):  
-  - *Igniozone*, *Calorozone*, *Heliozone*, *Solarazone*, *Hiberozone*, *Brumazone*, *Cryozone.*  
-- Demonstrates how **N** and **P** interlock: one defines stellar flux, the other orbital cadence. Together they form the dual coordinate system for WCB planetary design.  
-- Provides practical heuristics:  
-  - Use N for climatic and energy modeling.  
-  - Use P for calendar, resonance, and temporal modeling.  
-  - Evaluate divergence (P / N) to gauge whether a world’s “Earth-year” and “Earth-flux” coincide.  
-- Bridges analytic astrophysics and worldbuilding application, yielding a coherent orbital nomenclature that ties thermodynamics, habitability, and chronology into a single schema.  
-
-**Key Terms & Symbols:**  
-- **N (Nucleal Orbit)** — irradiance-equivalent orbital distance.  
-- **P (Perannual Orbit)** — period-equivalent orbital distance.  
-- **ϝ (Frost Line)** — outer liquid-water limit ≈ 4.850 N.  
-- **H₀–H₅** — Thermozone limit notation.  
-- **Z₍IX … OX₎** — Animozone identifiers.  
-- **Thermozones:** Ignio-, Caloro-, Helio-, Solara-, Hibero-, Bruma-, Cryozone.  
-- **Intranucleal / Extranucleal** — P inside or outside N.  
-
-**Cross-Check Notes:**  
-- Extends *Stars 0–2 (Parameters & Spectral Framework)* into orbital mechanics.  
-- Establishes foundational links to *Planemons 2 (Habitability)* and *Orbits 1–3 (Dynamics & Resonance).*  
-- Forms the thermal–temporal baseline for all subsequent worldbuilding modules.
-
 # The Nucleal Orbit
 The average distance from Earth to the Sun — about $1.496 \times 10^8$ km — is defined as one **astronomical unit (AU)**. Due to Earth’s slightly elliptical orbit, this distance varies by approximately ±2.5 million km between Earth's closest approach to and farthest distance from the Sun.
 

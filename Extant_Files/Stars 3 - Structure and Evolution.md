@@ -2,54 +2,6 @@
 title: ""
 ---
 
-## Abstract 
-**Major Topics:** 
-- Expands the WCB stellar canon into a complete **structural and evolutionary framework** for classifying and evaluating stars across both physical and temporal axes. 
-- Introduces the **Stellamon Framework** — the master taxonomy for stellar monons (stellamons): 
- - **Spectral Branch:** defines *what a star is* (temperature, color, composition). 
- - **Luminosity Branch:** defines *what a star does* (brightness, radius, evolutionary state). 
- - **Spectral Type (e.g., G2V)** = intersection of both branches. 
-- Establishes a **dual-branch hierarchy:** 
- - *Spectral Class → Subclass → Type* (OBAFGKM + LTY). 
- - *Luminosity Class (0–VII)* + optional *Evolutionary Phase* (Protostar → Main Sequence → Giant → Remnant). 
-- Introduces **stellar populations and generations** as a metallicity-based evolutionary sequence: 
- - **Population I / Generation III:** high-metallicity, young stars (e.g., the Sun). 
- - **Population II / Generation II:** low-metallicity, older halo stars. 
- - **Population III / Generation I:** primordial, zero-metallicity stars. 
- - Clarifies that numbering reverses between astronomical “Populations” and WCB “Generations” for intuitive chronology. 
-- Reframes **stellar lifetimes (Q)** as biological and narrative constraints: 
- - Stars with $Q < 3.0$ Ga cannot host mature biospheres. 
- - **Threshold:** F0.81 and later (cooler) → main-sequence lifetime ≥ 3.0 Ga. 
- - G, K, M, and L classes provide the most stable, life-permitting spans. 
-- Links stellar age to **biospheric evolution milestones:** 
- - Aerobic atmospheres require ≈2.0 Ga planetary age. 
- - Indigenous complex life typically requires ≥4.0 Ga. 
- - Human-colonizable systems → stars with $Q ≥ 3.0$ Ga. 
-- Models **stellar luminosity evolution** and its impact on **thermozones (H₀–H₅)** over time: 
- - Early Sun: 0.767 ⊙ → inward-shifted HZ. 
- - Future Sun (10 Ga): 2.02 ⊙ → outward-shifted HZ. 
- - Demonstrates dynamic habitability windows and “moving nucleal orbits.” 
-- Extends thermozone calculations to **giant and supergiant stars**, introducing the **Terran-hospitable vs. mathematically parahabitable** distinction: 
- - Large radii and short lifetimes make giants unsuitable for Earthlike life, though their zones remain computationally definable. 
- - Worked examples: *Aldebaran (K5 III)*, *Stephenson 2-18 (M6 Ia)*, and theoretical 200 M⊙ limits. 
-- Concludes with a **critique of the traditional OBAFGKM sequence**, arguing for WCB’s **linearized spectral scale** to ensure symbolic clarity and mathematical consistency across subclasses.
-
-**Key Terms & Symbols:** 
-- **Stellamon [neo]:** stellar monon, root unit of stellar classification. 
-- **Spectral Branch / Luminosity Branch:** complementary classification axes. 
-- **Spectral Type:** intersection of class and luminosity class (e.g., G2V). 
-- **Population / Generation:** metallicity-based stellar epochs (I–III ↔ III–I). 
-- **Q:** stellar lifetime (Ga or solar-relative). 
-- **Thermozones (H₀–H₅):** standardized habitable-zone intervals. 
-- **N (Nucleal Orbit):** √L equilibrium orbit. 
-- **Terran-hospitable / Parahabitable:** WCB habitability distinctions. 
-- **Linearized Spectral System:** WCB’s continuous, mathematically regular subclass scale.
-
-**Cross-Check Notes:** 
-- Integrates material from earlier *Stars 2–4* (spectral physics, orbits, and habitability) and prepares for *Binaries 1–5* (multi-star systems). 
-- Introduces **stellamon** and **generation terminology**, expanding the taxonomic and temporal dimensions of stellar modeling. 
-- Establishes the long-term cosmological perspective of WCB: star systems evolve, age, and migrate through habitability phases — all calculable within a single symbolic grammar.
-
 # ⭐ Stellamon Framework (Master Map)
 All **stellamons** (stellar monons) share a **common trunk** — then branch into two complementary classification systems.
 

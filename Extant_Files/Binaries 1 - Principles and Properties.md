@@ -1,39 +1,6 @@
 ---
 title: *Binaries 1 - Principles and Properties*
 ---
-## Abstract 
-**Major Topics:** 
-- Defines the **fundamental geometric and mass relationships** governing all binary and barycentric systems in the WCB framework. 
-- Establishes nine primary **dimensional parameters** describing the separations between the two bodies and their barycenter: 
- - **System dimensions (Tₘᵢₙ, A, Tₘₐₓ)** — minimum, average, and maximum separations between the two bodies. 
- - **Primaron dimensions (Pₘᵢₙ, Pₐᵥg, Pₘₐₓ)** — corresponding distances of the primaron from the barycenter. 
- - **Secondron dimensions (Sₘᵢₙ, Sₐᵥg, Sₘₐₓ)** — distances of the secondron from the barycenter. 
-- Introduces the **mass-fraction system**: 
- - **μ = M₂ / (M₁ + M₂)** — secondron mass fraction (defines the primaron’s barycentric orbit). 
- - **ν = M₁ / (M₁ + M₂)** — primaron mass fraction (defines the secondron’s barycentric orbit). 
- - Demonstrates that **Pₐᵥg = μ A** and **Sₐᵥg = ν A**, preserving μ + ν = 1. 
-- Defines the complementary **simple mass ratios** for direct comparison: 
- - **ϱ = M₂ / M₁** (secondron-to-primaron ratio). 
- - **φ = M₁ / M₂** (primaron-to-secondron ratio). 
- - Relates these to the barycentric fractions through μ = ϱ / (1 + ϱ) and ν = φ / (1 + φ). 
-- Derives complete expressions for all nine binary dimensions as functions of A, e, μ, and ν, establishing the standard WCB notation for barycentric geometry. 
-- Provides **eccentricity equivalences** for any paired parameter set and introduces the **Crux Metric (é)** — a measure of orbital tangency and mass asymmetry, identifying the threshold at which primaron and secondron orbits adjoin. 
-- Demonstrates limiting cases (hierarchical vs. co-dominant) and applies the framework to the **Sun–Earth** system as validation. 
-
-**Key Terms & Symbols:** 
-- **M₁, M₂** — primaron and secondron masses. 
-- **μ, ν** — barycentric mass fractions (secondron / primaron). 
-- **ϱ, φ** — simple mass ratios (secondron ↔ primaron). 
-- **A** — mean system separation (semi-major axis). 
-- **e** — orbital eccentricity. 
-- **P₍•₎, S₍•₎, T₍•₎** — primaron, secondron, and total orbital dimensions (min/avg/max). 
-- **é (Crux Metric):** eccentricity at which orbits become tangential. 
-
-**Cross-Check Notes:** 
-- Supersedes earlier drafts that duplicated barycentric expressions. 
-- Aligns μ, ν, ϱ, φ notation with the **Stellamonic** and **duramonic** frameworks of *Meta 1 — Principles*. 
-- Provides the algebraic foundation for subsequent modules: *Binaries 2 — Star Systems and Planemon Orbits* and *Binaries 6 — Barycentric Geometry*. 
-
 # The Basics
 This section focuses on binary systems in general. While higher-multiplicity arrangements are common and fascinating, they introduce significant mathematical and physical complexity beyond the current scope of this guide.
 

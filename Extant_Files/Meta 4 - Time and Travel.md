@@ -2,32 +2,6 @@
 title: ""
 ---
 
-## Abstract  
-**Major Topics:**  
-- Explores challenges of interstellar travel across vast distances, starting from sublight limitations (Voyager, relativistic travel).  
-- Surveys **FTL drive archetypes** across fiction and theory:  
-  - **Warp drive (ST:TOS, ST:TNG, Voyager)** with formulas and time-to-destination calculations.  
-  - **Alcubierre metric [sci]:** spacetime bubble mechanics, energy constraints, time dilation consequences.  
-  - **Hyperdrives, jump drives, fold engines, wormholes [exo]:** speculative traversal models with narrative implications.  
-- Worked worldbuilding examples:  
-  - **Vault drive (Serelem Union):** chained jumps with recharge mechanics.  
-  - **Kaltai Entente:** civilizational reach limited by FTL lag.  
-- Detailed treatment of **relativistic effects**: Lorentz term, time dilation, length contraction, relativistic mass.  
-- Implications for **culture, politics, and storytelling**: bioage vs. scope vs. span, asynchronous signals vs. returning ships.  
-- Hazards of relativistic travel: **microparticle impacts**, red/blue shift of starlight, radiation exposure.  
-
-**Key Terms & Symbols:**  
-- **γ (gamma):** Lorentz factor [sci].  
-- **β (beta):** velocity ratio v/c [sci].  
-- **Vault drive [neo]:** hypothetical chained-jump FTL with recharge intervals.  
-- **Bioage, scope, span [neo]:** narrative distinctions between biological, proper, and chronological age under relativistic effects.  
-
-**Cross-Check Notes:**  
-- No collisions with existing canon.  
-- Expands **Meta 2 — Math Tools** by applying relativistic equations to travel/narrative contexts.  
-- Introduces new [neo] and [exo] terms, but all clearly marked.  
-- Serves as a **bridge between real physics (sci) and fictional FTL (exo/neo)** in WCB.  
-
 # Interstellar Distances
 The universe is a very big place — very, very big; okay, very, very, *very* big.
 

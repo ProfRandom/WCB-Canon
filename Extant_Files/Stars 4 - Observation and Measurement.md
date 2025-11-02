@@ -2,46 +2,6 @@
 title: ""
 ---
 
-## Abstract 
-**Major Topics:** 
-- Expands the WCB stellar‐observation framework from stellar photometry to **applied visibility analysis** for non-luminous bodies. 
-- Reviews the historical and mathematical development of **stellar magnitude systems**, connecting the subjective Hipparchian scale to the modern **logarithmic Pogson ratio (2.512)**. 
-- Defines and differentiates: 
- - **Apparent magnitude (m)** — brightness as seen from a given distance. 
- - **Absolute magnitude (M)** — brightness standardized to 10 parsecs. 
- - **Distance modulus** $m − M = 5\log_{10}d − 5$ — formal link between them. 
-- Demonstrates relationships among **magnitude**, **luminosity**, and **flux** using solar units for clarity: 
- $M = 4.83 − 2.5\log_{10}L$; $L = 85.54 × 2.512^{−M}$. 
-- Introduces **relative apparent brightness** as a normalized, designer-friendly inverse-square law: 
- $B_{A⊙}=L/D^2$, enabling quick comparison of illumination levels across systems. 
-- Establishes the **Naked-Eye Limit** — the empirical magnitude boundary for unaided human vision (≈ mag 6 under ideal skies) — and correlates this perceptual threshold with quantitative flux ratios. 
-- Derives the **Naked-Eye Visibility Law**, expressing apparent flux as a dimensionless ratio: 
- $F_{rel}=L R^2(A/A_C)(D_{std}/D)^4$. 
- - $F_{rel}=1$: body just visible. 
- - $F_{rel}>1$: brighter, visible farther. 
- - $F_{rel}<1$: fainter, must be nearer. 
-- Extends this to practical **Albedo-Scaling Equations** for planetary visibility: 
- - **Giant Planets:** $D_{eye}=19\sqrt{R/11}\sqrt[4]{A L/(0.48 F_{rel})}$. 
- - **Terrestrial Planets:** $D_{eye}=2\sqrt{R}\sqrt[4]{A L/(0.25 F_{rel})}$. 
-- Demonstrates how radius, albedo, stellar luminosity, and observer threshold jointly determine the maximum visible range of non-luminous worlds. 
-- Culminates with a **Canonical Commentary** linking mathematical visibility to the philosophical theme of perception—light received, not just light emitted.
-
-**Key Terms & Symbols:** 
-- **m, M** — apparent and absolute magnitude. 
-- **L** — luminosity in solar units. 
-- **d, D** — distance (parsecs / AU). 
-- **Bₐ⊙** — apparent brightness in solar units. 
-- **$F_{rel}$** — dimensionless relative flux. 
-- **$D_{eye}$** — maximum unaided-visibility distance. 
-- **A, A_C** — planetary and reference albedos (0.25 Terran; 0.48 Jovian). 
-- **R** — planetary radius (Terrans). 
-- **$D_{std}$** — standard naked-eye threshold distance (2 AU / 19 AU). 
-
-**Cross-Check Notes:** 
-- Integrates observational, photometric, and perceptual aspects of stellar measurement within a single symbolic grammar. 
-- Connects **Stars 2–3** (spectral physics and luminosity) to **Planemon visibility modeling**, bridging astrophysical and experiential domains. 
-- Provides a foundation for future appendices on **instrumental detection limits**, **visual magnitude conversion**, and **aesthetic sky modeling** within WCB. 
-
 # Stellar Magnitude and The Distance Modulus
 You've probably encountered the term *magnitude* in relation to stars before, perhaps even heard mention of the two types: *absolute magnitude (M)* and *apparent magnitude (m)*. Simply put, a star's **absolute magnitude** is how visibly bright it actually is, and its **apparent magnitude** is how bright it appears.
 

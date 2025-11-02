@@ -2,46 +2,6 @@
 title: ""
 ---
 
-## Abstract 
-**Major Topics:** 
-- Introduces the concept of the **Roche lobe** — the gravitational domain surrounding each star in a binary system within which orbiting material remains bound to that star. 
-- Defines the **inner Lagrange point** ($L_1$) as the contact point between the two lobes where mass exchange can occur. 
-- Explains how material crossing $L_1$ initiates **mass transfer**, shaping the evolution of close-binary systems. 
-- Classifies binary configurations by Roche-lobe occupancy: 
- - **Detached binaries** — both stars remain within their lobes. 
- - **Semi-detached binaries** — one star fills its lobe and transfers mass through $L_1$. 
- - **Contact binaries** — both stars fill or overflow their lobes, sharing a common envelope. 
-- Provides a **summary table** linking each configuration type to Roche-lobe status, mass-transfer behavior, and representative system examples. 
-- Presents **Eggleton’s (1983)** empirical approximation for the Roche-lobe radius ($R_L$), accurate to within 1% for most mass ratios:
-
-$$
-f(x) = \frac{0.49\,x^{\tfrac{2}{3}}} {0.6\,x^{\tfrac{2}{3}} + \ln\!\left(1 + x^{\tfrac{1}{3}}\right)}
-$$
-and defines the individual lobe radii as: 
-
-$$
-R_{L,1} = A\,f\!\left(\frac{M_1}{M_2}\right)
-\quad\text{and}\quad
-R_{L,2} = A\,f\!\left(\frac{M_2}{M_1}\right)
-$$
- 
-- Clarifies that **$f(x)$ is asymmetric**, causing unequal lobe volumes for unequal-mass pairs. 
-- Emphasizes that equal-mass systems ($M_1 = M_2$) have mirror-symmetric lobes sharing a single interface at $L_1$. 
-- Highlights that lower-mass stars possess **larger fractional Roche lobes**, explaining why accretion from the smaller to the larger star is common in semi-detached systems. 
-
-**Key Terms & Symbols:** 
-- **$R_L$** — Roche-lobe radius (effective gravitational boundary). 
-- **$L_1$** — inner Lagrange point (mass-transfer interface). 
-- **$A$** — average separation of the binary stars (AU). 
-- **$M_1$, $M_2$** — primaron and secondron stellar masses (solar units). 
-- **$f(x)$** — dimensionless Roche-lobe scaling function. 
-- **Detached / Semi-Detached / Contact** — binary configurations classified by Roche-lobe occupancy. 
-
-**Cross-Check Notes:** 
-- Extends **Binaries 2 — Star Systems, General** by introducing the first **gravitational-boundary function** used in close-binary modeling. 
-- Provides the theoretical foundation for subsequent sections on **Roche limits**, **mass transfer**, and **accretion physics**. 
-- Connects geometric configuration to **observational categories** (Algol-type, W Ursae Majoris-type). 
-
 ## Roche Lobe Geometry
 When two stellar bodies share a gravitational system, each defines a **Roche lobe**—the three-dimensional region around it within which orbiting material remains gravitationally bound to that star. Beyond this boundary, the gravitational influence of the companion star dominates. 
 
