@@ -43,8 +43,6 @@ The value of φ may be any angle from 0° to 359°, depending on the planet’s 
 
 The Obliquity Azimuth ($\phi$) therefore acts as a **phase offset** between the orbit’s eccentric anomaly and the planet’s seasonal cycle, determining whether perihelion aligns with summer or winter in each hemisphere.
 
-
-
 ### Step 1 — Choose True Anomalies
 Pick the true anomalies ($\nu$) for the four seasonal markers, offset by obliquity azimuth $\phi$:
 
@@ -59,13 +57,19 @@ n = 3; \;\text{winter solstice} \\
 \end{cases}
 \end{align}
 $$
+
 ### Step 2 — Convert to Eccentric Anomaly
 For each $\nu$, compute the eccentric anomaly $E$:
 
 $$
-E = 2 \arctan \!\left( \sqrt{\dfrac{1-e}{1+e}} \;\tan \dfrac{\nu}{2} \right)
+\begin{aligned}
+E &= 2 \arctan \!\left( \sqrt{\dfrac{1-e}{1+e}} \;\tan \dfrac{\nu}{2} \right) \\[1em]
+\nu &= 2 \arctan \!\left( \sqrt{\dfrac{1+e}{1-e}} \;\tan \dfrac{E}{2} \right)
+\end{aligned}
 $$
+
 ### Step 3 — Convert to Mean Anomaly
+
 Translate $E$ into mean anomaly $M$, which grows linearly with time:
 
 $$

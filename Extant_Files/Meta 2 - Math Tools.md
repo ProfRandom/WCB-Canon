@@ -108,6 +108,10 @@ $$r(\theta) = \dfrac{p}{1 + e \cos \theta} \quad \text{where } p = \dfrac{b^2}{a
 
 A reference sheet of exponent and logarithm rules useful in constructing systems of thermal, gravitational, orbital, and energetic relationships in scientifically-grounded worldbuilding.
 
+
+
+
+
 ## 🔢 Rules of Exponents
 
 ### ➕ Product & Quotient Rules
