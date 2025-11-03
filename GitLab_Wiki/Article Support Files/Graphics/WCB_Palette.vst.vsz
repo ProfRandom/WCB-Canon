@@ -1,0 +1,14 @@
+# Veusz custom definitions (version 4.2)
+# Saved at 2025-10-30T22:39:33.791181
+
+AddCustom('color', 'WCB_Silver', '#ADADAD')
+AddCustom('color', 'WCB_Grey', '#808080')
+AddCustom('color', 'WCB_Black', '#000000')
+AddCustom('color', 'WCB_White', '#FFFFFF')
+AddCustom('color', 'WCB_Orange', '#E69F00')
+AddCustom('color', 'WCB_Cyan', '#56B4E9')
+AddCustom('color', 'WCB_Green', '#009E73')
+AddCustom('color', 'WCB_Yellow', '#F0E442')
+AddCustom('color', 'WCB_Blue', '#0072B2')
+AddCustom('color', 'WCB_Red', '#D55E00')
+AddCustom('color', 'WCB_Violet', '#CC79A7')

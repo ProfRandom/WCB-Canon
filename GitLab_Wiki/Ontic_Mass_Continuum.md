@@ -30,31 +30,6 @@ These ensure that both scientific notation and symbolic terminology remain intui
 7. Version/Contributor Notes
 8. External References Section (if applicable)
 
-# Principle of Mass Measurement
-
-> **Monon masses are purely numerically defined.**  
-> They **measure** a body's physical magnitude; they do **not categorize** or **qualify** its nature or type.
-
-The following table defines the **official WCB symbolic mass intervals** — logarithmic divisions of monon mass based on powers of ten relative to Earth (⨁). These are used for measurement and comparison only. They are **not categorical classes**, and do **not imply world type**.
-
-> Notes:
-> 1. Where official SI prefixes exist (e.g. micro-, milli-, deci-, centi-, kilo-, mega-, giga-, tera-, peta-, exa-), WCB uses them directly.
-> 2. For intermediate powers without SI prefixes, WCB adopts consistent **neologisms** based on the exponent’s magnitude:.
-> 	• Exponents **below zero** use an **-i** ending (unless overridden by SI, e.g. *micro*, not *micri*).
-> 	• Exponents **above zero** use an **-o** ending (unless overridden by SI, e.g. *mega*, not *mego*).
-> 3. While SI defines prefixes beyond **tera-** (e.g. *peta-*, *exa-*), WCB does not typically use them in monon contexts. Even the observable universe spans only ~46.5 **giga**lightyears (Gly) in radius — three orders of magnitude short of **teraterran** mass or volume relevance.
-> 4. Conversely, the **negative intervals are symbolically essential**, as many moons, asteroids, and micro-monons fall well below 1 ⨁ in mass. It is often more meaningful to say
-> 	• “The body is **1 microterran** (μ⨁)”
-> 		$\qquad$than
-> 	• “The body is **0.000001 ⨁**”.
-> 5. For **practical purposes**, WCB defines the upper bound of each mass interval as **one demiterran (0.00001 ⨁)** below the next power of ten.
-> 	• In other words, the *terran* interval spans from **1.0 ⨁ to 9.99999 ⨁**. 
-> 	• Any value exceeding that threshold — even slightly — is considered to **round up** to the next symbolic interval.
-> 		• **Example:**
-> 		$\qquad$ 9.9999901 ⨁ → **10.0 ⨁**, placing the body in the **dekaterran** interval.
-> 6. The **deniterran** is the lowest mass on this scale because objects below this mass are not capable of achieving hydrostatic equilibrium under their own gravity.
-> 7.  The exaterran is the largest mass on this scale, corresponding to the realistic upper limit for Ultra-massive Black Holes (UMBHs), about $10^{12}$⊙ masses.
-
 ### Mazotic Mass Domains
 $$
 \begin{array}{l c r r r l}
