@@ -3,6 +3,14 @@ This process assumes that you have already determined the duration of your plane
 
 # Eccentric Anomaly Conversion (Kepler's Method)
 
+**Tempostat** *(n.)* —
+The first cardinal seasonal event occurring after periapsis, marking the temporal origin of a planet’s annual cycle.  In Milieutic terms, it represents the **moment** that season begins; in Ontic terms, it corresponds to a fixed **chronex** in the orbit.
+
+**Chronex** *(n.)* —
+The orbital locus (true anomaly, ν = $ϖ_{chronex}$​) of the tempostat — the spatial coordinate where the planet crosses the first post-periapsis cardinal point.
+
+The **tempostat–chronex dyad** does something most “season” systems never achieve: it defines the *geometry of seasons* in purely orbital–mechanical terms, entirely independent of where or who is doing the observing.
+
 This more precise method uses full orbital geometry to determine **season lengths** and **solar flux variations** throughout the year.
 
 ## Eccentric Anomaly (E)
@@ -24,31 +32,30 @@ $$
 The eccentric anomaly acts as the mathematical bridge between the **uniform time variable** ($M$) and the **actual orbital position** ($ν$). 
 It allows us to calculate how much of the orbital period has elapsed at any given geometric position — even when the orbit is not circular.
 
+## Obliquity Orientation ($\zeta$)
 
-## Obliquity Azimuth (φ)
-
-The *obliquity azimuth* defines the orbital longitude where the planet’s northern hemisphere is tilted directly away from its star.  
-If this occurs at **periastron**, then φ = 0°.
+The *obliquity orientation* defines the orbital longitude where the planet’s northern hemisphere is tilted directly away from its star.  
+If this occurs at **periastron**, then $\zeta = 0^\circ$.
 
 $$
 \begin{array}{l r l}
-\phi = &0^\circ & \text{Northern hemisphere tilted directly \textit{away} from the star at periastron.} \\
-\phi = &90^\circ & \text{Tilted away at one-fourth orbit \textit{after} periastron.} \\
-\phi = &180^\circ & \text{Tilted away at one-half orbit \textit{after} periastron (apastron).} \\
-\phi = &270^\circ & \text{Tilted away at three-fourths orbit \textit{after} periastron.}
+\zeta = &0^\circ & \text{Northern hemisphere tilted directly \textit{away} from the star at periastron.} \\
+\zeta = &90^\circ & \text{Tilted away at one-fourth orbit \textit{after} periastron.} \\
+\zeta = &180^\circ & \text{Tilted away at one-half orbit \textit{after} periastron (apastron).} \\
+\zeta = &270^\circ & \text{Tilted away at three-fourths orbit \textit{after} periastron.}
 \end{array}
 $$
 
-The value of φ may be any angle from 0° to 359°, depending on the planet’s **axial precession**.
+The value of $\zeta$ may be any angle from 0° to 359°, depending on the planet’s **axial precession**.
 
-The Obliquity Azimuth ($\phi$) therefore acts as a **phase offset** between the orbit’s eccentric anomaly and the planet’s seasonal cycle, determining whether perihelion aligns with summer or winter in each hemisphere.
+The obliquity orientation ($\zeta$) therefore acts as a **phase offset** between the orbit’s eccentric anomaly and the planet’s seasonal cycle, determining whether perihelion aligns with summer or winter in each hemisphere.
 
 ### Step 1 — Choose True Anomalies
-Pick the true anomalies ($\nu$) for the four seasonal markers, offset by obliquity azimuth $\phi$:
+Pick the true anomalies ($\nu$) for the four seasonal markers, offset by obliquity orientation $\zeta$:
 
 $$
 \begin{align}
-&\nu = (\phi + 90n) \bmod 360 \\[1em]
+&\nu = (\zeta + 90n) \bmod 360 \\[1em]
 &\begin{cases}
 n = 0; \;\text{spring equinox} \\
 n = 1; \;\text{summer solstice} \\
@@ -120,15 +127,15 @@ $$
 
 #### Worked Example: Earth (Kepler’s Method, Sidereal Year)
 Given:  
-- $\phi = 0^\circ$  
+- $\zeta = 0^\circ$  
 - $C = 365.2564$ days (sidereal year)  
 - $e = 0.0167$  
 
 **Step 1 — True Anomalies**
-Seasonal markers from $\phi = 0^\circ$:  
+Seasonal markers from $\zeta = 0^\circ$:  
 
 $$
-\nu = (\phi + 90n) \bmod 360
+\nu = (\zeta + 90n) \bmod 360
 $$
 
 $$
@@ -212,16 +219,16 @@ Observed Earth season lengths (tropical year):
 
 #### Worked Example: Rosetta (Kepler’s Method, Sidereal Chronum)
 Given:  
-- $\phi = 180^\circ$  
+- $\zeta = 180^\circ$  
 - $C = 492$ diurns (sidereal chronum)  
 - $e = 0.05$  
 
 **Step 1 — True Anomalies**
-Seasonal markers from $\phi = 180^\circ$:  
+Seasonal markers from $\zeta = 180^\circ$:  
 
 $$
 \begin{gather}
-&\nu = (\phi + 90n) \bmod 360 \\[1em]
+&\nu = (\zeta + 90n) \bmod 360 \\[1em]
 &\begin{cases}
 n &= 0 & \nu = 0^\circ & \text{spring equinox} \\
 n &= 1 & \nu = 90^\circ & \text{summer solstice} \\
