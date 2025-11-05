@@ -7,7 +7,7 @@ This process assumes that you have already determined the duration of your plane
 The first cardinal seasonal event occurring after periapsis, marking the temporal origin of a planet’s annual cycle.  In Milieutic terms, it represents the **moment** that season begins; in Ontic terms, it corresponds to a fixed **chronex** in the orbit.
 
 **Chronex** *(n.)* —
-The orbital locus (true anomaly, ν = $ϖ_{chronex}$​) of the tempostat — the spatial coordinate where the planet crosses the first post-periapsis cardinal point.
+The orbital locus (true anomaly, $ν = ϖ_{chronex}$​) of the tempostat — the spatial coordinate where the planet crosses the first post-periapsis cardinal point.
 
 The **tempostat–chronex dyad** does something most “season” systems never achieve: it defines the *geometry of seasons* in purely orbital–mechanical terms, entirely independent of where or who is doing the observing.
 
@@ -54,7 +54,7 @@ The obliquity orientation ($\zeta$) therefore acts as a **phase offset** between
 Pick the true anomalies ($\nu$) for the four seasonal markers, offset by obliquity orientation $\zeta$:
 
 $$
-\begin{align}
+\begin{aligned}
 &\nu = (\zeta + 90n) \bmod 360 \\[1em]
 &\begin{cases}
 n = 0; \;\text{spring equinox} \\
@@ -62,38 +62,51 @@ n = 1; \;\text{summer solstice} \\
 n = 2; \;\text{autumn equinox} \\
 n = 3; \;\text{winter solstice} \\
 \end{cases}
-\end{align}
+\end{aligned}
 $$
 
-### Step 2 — Convert to Eccentric Anomaly
+### Step 2 — Calculate The Eccentric Tangent Factor ($\xi$)
+
+$$
+\xi = \sqrt{\frac{1 - e}{1 + e}}, \qquad \xi^{-1} = \sqrt{\frac{1 + e}{1 - e}} \\
+
+$$
+
+### Step 3 — Convert to Eccentric Anomaly
 For each $\nu$, compute the eccentric anomaly $E$:
 
 $$
 \begin{aligned}
-E &= 2 \arctan \!\left( \sqrt{\dfrac{1-e}{1+e}} \;\tan \dfrac{\nu}{2} \right) \\[1em]
-\nu &= 2 \arctan \!\left( \sqrt{\dfrac{1+e}{1-e}} \;\tan \dfrac{E}{2} \right)
+E &= 2 \arctan \!\left( \xi \;\tan \frac{\nu}{2} \right)
 \end{aligned}
 $$
 
-### Step 3 — Convert to Mean Anomaly
+*The inverse relation, useful when converting from eccentric to true anomaly, is:*
+
+$$
+\nu = 2 \arctan \!\left( \xi^{-1} \;\tan \frac{E}{2} \right)
+$$
+
+### Step 4 — Convert to Mean Anomaly
 
 Translate $E$ into mean anomaly $M$, which grows linearly with time:
 
 $$
 M = E - e \sin E
 $$
-### Step 4 — Find Season Fractions
+### Step 5 — Find Season Fractions
 
 Once you have the mean anomalies for each seasonal marker:
 
 $$
-\begin{align}
+\begin{aligned}
 &M_\text{spring} \\
 &M_\text{summer} \\
 &M_\text{autumn} \\
 &M_\text{winter} 
-\end{align}
+\end{aligned}
 $$
+
 subtract them in sequence to get the fractional year lengths:
 
 $$
@@ -110,22 +123,21 @@ Where:
 - The denominator $2\pi$ normalizes the full orbit to 1.  
 - The $+2\pi$ in the autumn term closes the loop back to the next winter.
 
----
-
-### Step 5 — Scale to Year Length
+### Step 6 — Scale to Year Length
 
 Multiply each fraction by the chronum ($C$) to convert fractions into diurns:
 
 $$
-\begin{gather}
+\begin{gathered}
 \Delta t_\text{spring} = f_\text{spring}\,C, \\
 \Delta t_\text{summer} = f_\text{summer}\,C, \\
 \Delta t_\text{autumn} = f_\text{autumn}\,C, \\
 \Delta t_\text{winter} = f_\text{winter}\,C
-\end{gather}
+\end{gathered}
 $$
 
 #### Worked Example: Earth (Kepler’s Method, Sidereal Year)
+
 Given:  
 - $\zeta = 0^\circ$  
 - $C = 365.2564$ days (sidereal year)  
@@ -172,18 +184,19 @@ $$
 Numerical results:  
 
 $$
-\begin{align}
-&F_\text{spring} \approx 0.2553, \\[.5em]
-&F_\text{summer} \approx 0.2553, \\[.5em]
-&F_\text{autumn} \approx 0.2447 \\[0.5em]
-&F_\text{winter} \approx 0.2447, \\[.5em]
-\end{align}
+\begin{gathered}
+F_\text{spring} &\approx 0.2553, \\[.5em]
+F_\text{summer} &\approx 0.2553, \\[.5em]
+F_\text{autumn} &\approx 0.2447 \\[0.5em]
+F_\text{winter} &\approx 0.2447, \\[.5em]
+\end{gathered}
 $$
+
 **Step 5 — Scale to chronum length**
 Multiply each fraction by $C$ to get season lengths in diurns:  
 
 $$
-\begin{gather}
+\begin{gathered}
 \Delta t = F \times C \\[1em]
 \begin{cases}
 \Delta t_\text{spring} &\approx 0.2553 \times 365.2564 = 93.3 \\
@@ -191,7 +204,7 @@ $$
 \Delta t_\text{autumn} &≈ 0.2447 \times 365.2564 = 89.4 \\
 \Delta t_\text{winter} &≈ 0.2447 \times 365.2564 = 89.4
 \end{cases}
-\end{gather}
+\end{gathered}
 $$
 **Result:**  
 - Spring ≈ 93.3 d  
@@ -227,7 +240,7 @@ Given:
 Seasonal markers from $\zeta = 180^\circ$:  
 
 $$
-\begin{gather}
+\begin{gathered}
 &\nu = (\zeta + 90n) \bmod 360 \\[1em]
 &\begin{cases}
 n &= 0 & \nu = 0^\circ & \text{spring equinox} \\
@@ -235,7 +248,7 @@ n &= 1 & \nu = 90^\circ & \text{summer solstice} \\
 n &= 2 & \nu = 180^\circ & \text{autumn equinox} \\
 n &= 3 & \nu = 270^\circ & \text{winter solstice}
 \end{cases}
-\end{gather}
+\end{gathered}
 $$
 **Step 2 — Convert to Eccentric Anomaly**
 
@@ -262,12 +275,12 @@ $$
 Numerical results:  
 
 $$
-\begin{align}
+\begin{aligned}
 &F_\text{spring} \approx 0.2180, \\
 &F_\text{summer} \approx 0.2537, \\
 &F_\text{autumn} \approx 0.2820, \\
 &F_\text{winter} \approx 0.2463
-\end{align}
+\end{aligned}
 $$
 **Step 5 — Scale to Year Length**
 Multiply each fraction by $C$:  

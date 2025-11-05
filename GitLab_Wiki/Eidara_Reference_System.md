@@ -145,6 +145,9 @@ From this process we arrive at the following known parameters:
 - Calculated Orbital Period (Chronum; $C$)
     - $C = 1.125$ years
     - $C_d = 411.041$ days
+- Obliquity: $\varepsilon_{27}$
+
+
 
 ### Eikon
 - Calculated Parameters

@@ -4,7 +4,7 @@ title: *Binaries 1 - Principles and Properties*
 # The Basics
 This section focuses on binary systems in general. While higher-multiplicity arrangements are common and fascinating, they introduce significant mathematical and physical complexity beyond the current scope of this guide.
 
-Binary systems consist of two bodies bound in a mutual gravitational relationship, each tracing an orbital path around a shared center of mass known as the **barycenter** (*ḅ*). This point, , *always* lies along the line connecting the centers of the two bodies and is not a massive object itself, but a calculated position determined by the masses and separation of the components.
+Binary systems consist of two bodies bound in a mutual gravitational relationship, each tracing an orbital path around a shared center of mass known as the **barycenter** (*ḅ*). This point *always* lies along the line connecting the centers of the two bodies and is not a massive object itself, but a calculated position determined by the masses and separation of the components.
 
 When two monons are in a gravitational relationship, we refer to the more massive of the pair as the *primaron* and the other as the *secondron*. If the two monons are of equal mass, the distinction is purely arbitrary.
 
@@ -28,7 +28,7 @@ These are related through a series of equations, which may seem daunting at firs
 ### Mass-fraction Equations
 $$
 \begin{array}{ll}
-&\nu = \dfrac{M_1}{M_1 + M_2} & \text{Primaron mass-fraction} \\[1em]
+&\eta= \dfrac{M_1}{M_1 + M_2} & \text{Primaron mass-fraction} \\[1em]
 &\mu = \dfrac{M_2}{M_1 + M_2} & \text{Secondron mass-fraction}
 \end{array}
 $$
@@ -44,7 +44,7 @@ $$
 ### Secondron Dimensions
 $$
 \begin{aligned}
-S_{avg} &= A \times\dfrac{M_1}{M_1+M_2} = \nu\,A \qquad &&\text{Secondron average distance}\\[1em]
+S_{avg} &= A \times\dfrac{M_1}{M_1+M_2} = \eta\,A \qquad &&\text{Secondron average distance}\\[1em]
 S_{min} &= S_{avg}(1 - e) \qquad &&\text{Secondron minimum distance} \\[1em]
 S_{max} &= S_{avg}(1 + e) \qquad &&\text{Secondron maximum distance}
 \end{aligned}
@@ -52,15 +52,17 @@ $$
 ### Total (Overall) Dimensions
 $$
 \begin{aligned}
-T_{min} = A(1 - e)
-= P_{min} + S_{min} = T_{max}\left(\dfrac{1 - e}{1 + e}\right) \\
-T_{max} = A(1 + e)
-= P_{max} + S_{max} = T_{min}\left(\dfrac{1 + e}{1 - e}\right) \\
-A = \dfrac{T_{min}}{1 - e}
+\lambda &= \dfrac{1 - e}{1 + e}, \quad \gamma = \dfrac{1 + e}{1 - e} \\[1em]
+T_{min} &= A(1 - e)
+= P_{min} + S_{min} = \lambda\;T_{max} \\[1em]
+T_{max} &= A(1 + e)
+= P_{max} + S_{max} = \gamma\;T_{min} \\[1em]
+A &= \dfrac{T_{min}}{1 - e}
 = \dfrac{T_{max}}{1 + e}
-= P_{avg} + S_{avg}\\[0.5em]
+= P_{avg} + S_{avg}\\
 \end{aligned}
 $$
+
 ### Eccentricity Relationships
 In the equations below a subscript dot $X_\bullet$ means any two matching parameters ; e.g. $Max_{\bullet} - Min_{\bullet}$ means any maximum value minus any minimum value of the same parameter, such as $P_{max} - P_{min}$.
 
@@ -94,9 +96,9 @@ There are times (such as when the secondron is less massive than the primaron �
 
 $$
 \begin{aligned}
-R_{min} = T_{min} \\[0.5em]
-R_{avg} = A \\[0.5em]
-R_{max} = T_{max} \\
+R_{min} &= T_{min} \\[0.5em]
+R_{avg} &= A \\[0.5em]
+R_{max} &= T_{max} \\
 \end{aligned}
 $$
 For instance, in the case of the Earth-Sun system:
@@ -126,11 +128,11 @@ $$
 $$
 \begin{aligned}
 &\mu = \frac{P_\circ}{T_\circ} = \frac{M_2}{M_1 + M_2} \qquad
-&&\nu = \frac{S_\circ}{T_\circ} = \frac{M_1}{M_1 + M_2} \\[1em]
+&&\eta = \frac{S_\circ}{T_\circ} = \frac{M_1}{M_1 + M_2} \\[1em]
 &\frac{T_\circ}{S_\circ} = \frac{M_2}{M_1} + 1 = \varrho + 1 \qquad
 &&\frac{T_\circ}{P_\circ} = \frac{M_1}{M_2} + 1 = \varphi + 1 \\[3em]
-&\frac{Min_\bullet}{Max_\bullet} = \frac{1 - e}{1 + e} \qquad
-&&\frac{Max_\bullet}{Min_\bullet} = \frac{1 + e}{1 - e}
+&\frac{Min_\bullet}{Max_\bullet} = \frac{1 - e}{1 + e} = \lambda \qquad
+&&\frac{Max_\bullet}{Min_\bullet} = \frac{1 + e}{1 - e} = \gamma
 \end{aligned}
 $$
 
