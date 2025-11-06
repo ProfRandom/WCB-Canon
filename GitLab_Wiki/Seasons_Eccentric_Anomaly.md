@@ -3,6 +3,8 @@ This process assumes that you have already determined the duration of your plane
 
 # Eccentric Anomaly Conversion (Kepler's Method)
 
+## Vocabulary
+
 **Tempostat** *(n.)* —
 The first cardinal seasonal event occurring after periapsis, marking the temporal origin of a planet’s annual cycle.  In Milieutic terms, it represents the **moment** that season begins; in Ontic terms, it corresponds to a fixed **chronex** in the orbit.
 
@@ -23,7 +25,7 @@ In other words:
 
 - The *true anomaly* ($ν$) is the angle measured **at the focus** — from periastron to the planet itself.  
 - The *eccentric anomaly* ($E$) is measured **at the center** — from periastron to the projected point on the reference circle.  
-- The *mean anomaly* ($M$) increases uniformly with time and connects to $E4 through Kepler’s Equation:
+- The *mean anomaly* ($M$) increases uniformly with time and connects to $E$ through Kepler’s Equation:
 
 $$
 M = E - e\,\sin E

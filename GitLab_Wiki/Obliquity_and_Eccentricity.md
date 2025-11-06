@@ -77,10 +77,14 @@ This is directly related to the **Solstitial Angle** ($\Psi_n$).
 The **solstitial angle** describes the angular alignment of a monon’s *precessional orientation* relative to its orbit’s **periaptic axis**.  
 It is defined as the angle between **periapsis** (the line of apsides) and the direction in the orbital plane where the planet’s projected **north pole is tilted directly away** from its star — the ***prime solstice***.  
 
-- $\Psi = 0$ — *(periaptic zero)*: the northern solstice occurs at periastron.  
-- $\Psi = 90$ — the solstitial alignment has precessed 90° forward along the orbit.  
-- $\Psi = 180$ — the northern solstice occurs at apastron.  
-- $\Psi = 270$ — the solstitial alignment has precessed 270° forward along the orbit.
+$$
+\begin{array}{l r l}
+\Psi = &0^\circ &\text{periaptic zero: the prime solstice occurs at periastron} \\
+\Psi = &90^\circ &\text{the solstitial alignment has precessed $90^\circ$ along the orbit} \\
+\Psi = &180^\circ &\text{the prime solstice occurs at apastron} \\
+\Psi = &270^\circ &\text{the solstitial alignment has precessed $270^\circ$ forward along the orbit} \\
+\end{array}
+$$
 
 For notational convenience, the solstitial angle is sometimes indicated by appending the angular measure as a subscript to the symbol, e.g. $\Psi_{90}$ is the same as $\Psi = 90^\circ$.
 
@@ -215,17 +219,17 @@ For Earth:
 $$
 \varepsilon_\tau = \frac{24.5 - 22.1}{41000} ≈ 0.0000585^\circ/\text{yr} \;=\; 0.00585^\circ/\text{kyr}
 $$
-## Obliquity Magnitude ($\varepsilon_\mu$) 
+## Obliquity Magnitude ($\varepsilon_\rho$) 
 
 The ratio of the current obliquity to its maximum value, expressed as a percentage, with an arrow showing whether the trend is increasing $\uparrow$ or decreasing $\downarrow$:
 
 $$
-\varepsilon_\mu = \dfrac{\varepsilon}{\varepsilon_{max}}\times 100 \; (\uparrow,\downarrow)
+\varepsilon_\rho = \dfrac{\varepsilon}{\varepsilon_{max}}\times 100 \; (\uparrow,\downarrow)
 $$
 
 For Earth: 
 
 $$
-\varepsilon_\mu = \dfrac{23.5}{24.5}\times 100 \approx 95.9\text{\%}\;\downarrow
+\varepsilon_\rho = \dfrac{23.5}{24.5}\times 100 \approx 95.9\text{\%}\;\downarrow
 $$
 
