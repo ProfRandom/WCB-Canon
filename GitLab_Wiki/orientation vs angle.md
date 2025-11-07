@@ -1,4 +1,16 @@
-## Obliquity Orientation ($\zeta$)
+### **Distinguishing the Solstitial Angle (Ψ) from the Chronex (ζ)**
+
+Although both Ψ and ζ describe angular relations within an orbit, they refer to *different coordinate frames*:
+
+* The **Solstitial Angle** (Ψ) expresses the *geometric alignment* of a planet’s rotational axis relative to the line of apsides. It marks the orbital longitude at which the planet’s north pole is tilted maximally away from its star — the **prime solstice**.
+
+* The **Chronex** (ζ) expresses the *temporal phase* of the planet’s annual cycle. It marks the true anomaly of the first cardinal seasonal event (**tempostat**) following periastron — the **starting point of the year** in the orbital frame.
+
+The two parameters coincide (*ζ = Ψ*) only when the prime solstice itself defines the year’s beginning.\
+Otherwise, ζ differs from Ψ by ±90°, ±180°, etc., depending on which cardinal event initiates the chronum.
+
+
+<!-- ## Obliquity Orientation ($\zeta$)
 
 The *obliquity orientation* defines the orbital longitude where the planet’s northern hemisphere is tilted directly away from its star.  
 If this occurs at **periastron**, then $\zeta = 0^\circ$.
@@ -14,7 +26,7 @@ $$
 
 The value of $\zeta$ may be any angle from 0° to 359°, depending on the planet’s **axial precession**.
 
-The obliquity orientation ($\zeta$) therefore acts as a **phase offset** between the orbit’s eccentric anomaly and the planet’s seasonal cycle, determining whether perihelion aligns with summer or winter in each hemisphere.
+The obliquity orientation ($\zeta$) therefore acts as a **phase offset** between the orbit’s eccentric anomaly and the planet’s seasonal cycle, determining whether perihelion aligns with summer or winter in each hemisphere. -->
 
 ## Solstitial Angle ($\Psi$)  
 

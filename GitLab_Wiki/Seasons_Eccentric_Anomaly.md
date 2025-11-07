@@ -1,19 +1,116 @@
+---
+title: "Orbits-4 — Kepler’s Eccentric Anomaly Method"
+summary: Step-by-step procedure for estimating seasonal durations using Kepler’s relations between true, eccentric, and mean anomalies.
+domain: metric
+category: methods
+status: canonical
+version: 1.0
+updated: 2025-11-06
+contributors: [M. Conrad, GPT-5]
+---
+
+## 1 · Context and Purpose
+
+The **Eccentric Anomaly Method** provides a geometric and temporal framework for estimating **seasonal durations** on worlds whose orbits are **non-circular**.
+
+In the *World Crafting Basics* system, it serves as the **canonical procedure** for converting a planet’s **orbital geometry** into **time fractions** of its *chronum* — the sidereal year.
+
+In any elliptical orbit, the planet’s orbital speed varies: it moves **faster near periapsis** (closest to the star) and **slower near apoapsis** (farthest away).
+
+Because of this, the four “seasons” or **quarta** — equal in angular measure but not in orbital time — do not occupy equal fractions of the year.
+
+The difference in season length arises purely from the **eccentricity** of the orbit, independent of axial tilt or climate.
+
+The eccentric anomaly ($E$) is the key intermediary that links **spatial position** (true anomaly, $ν$) with **temporal progress** (mean anomaly, $M^{\!\theta}$).  
+
+**Kepler’s relation**
+
+$$
+M^{\theta} = E - e \sin E
+$$
+
+… translates the varying orbital motion into a **uniform time variable**, allowing direct calculation of how much of the year has elapsed at any given point on the ellipse.
+
+For **worldmakers**, this method turns abstract orbital parameters into practical narrative data:  
+- It determines how long each season lasts on a given world.  
+- It shows how eccentricity can create longer summers and shorter winters — or vice versa — without altering obliquity.  
+- It provides a foundation for climate timing, cultural calendars, and the rhythm of a planet’s year.
+
+By pairing **Kepler’s geometry** with **WCB’s chronum–quartum framework**, the eccentric anomaly method gives a clear, reproducible way to convert orbital shape into lived temporal experience — the heartbeat of a world’s cycle.
+
+## Vocabulary
+
+## 2 · Vocabulary
+
+## 2 · Vocabulary
+
+- **Chronum** *($C$)* —  
+  One complete sidereal orbit; the planet’s **year** expressed in diurns.  
+  *Domain:* Metric
+
+- **Quartum** *(pl. quarta)* —  
+  One quarter of a planet’s orbital period; a **non-climatological “season.”**  
+  Each quartum spans one-fourth of the chronum (≈ 90° in true anomaly).  
+  *Domain:* Milieutic
+
+- **Tempostat** —  
+  The **onset of the first quartum** following periapsis; marks the temporal origin of the planet’s annual cycle.  
+  *Domain:* Milieutic / Metric
+
+- **Chronex** *($\zeta$)* —  
+  The **true anomaly** of the tempostat — the orbital coordinate of the first post-periapsis quartal event.  
+  *Domain:* Metric / Milieutic
+
+- **Eccentricity** *($e$)* —  
+  Describes how far the orbit departs from circularity (0 = circle, < 1 = ellipse).  
+  *Domain:* Metric
+
+- **True Anomaly** *($\nu$)* —  
+  The **spatial angle** between periapsis and the planet’s actual position, measured at the focus.  
+  *Domain:* Metric
+
+- **Eccentric Anomaly** *($E$)* —  
+  The **geometric angle** measured at the ellipse’s center to the projected point on its circumscribed circle; simplifies Kepler’s relations.  
+  *Domain:* Metric
+
+- **Mean Anomaly** *($M^{\theta}$)* —  
+  The **temporal angle** that increases uniformly with time, defining a constant angular rate around the orbit.  
+  *Domain:* Metric
+
+- **Eccentric Tangent Factor** *($\xi$)* —  
+  $$\displaystyle \xi = \sqrt{\frac{1 - e}{1 + e}}, \qquad \displaystyle \xi^{-1} = \sqrt{\frac{1 + e}{1 - e}}$$  
+  A helper constant linking true and eccentric anomalies.  
+  *Domain:* Metric
+
+- **Obliquity** *($\varepsilon$)* —  
+  The axial tilt between a planet’s spin vector and orbital normal; influences climatic seasons but not quartal geometry.  
+  *Domain:* Metric / Milieutic
+
+> *Italicized variables are scalar; boldface (not used here) would denote vector quantities.*
+
+==resume here==
+
 📖 Season-Length Estimation Methods
 This process assumes that you have already determined the duration of your planet's orbit around its star (its *sidereal chronum*, $C$).
 
 # Eccentric Anomaly Conversion (Kepler's Method)
 
-## Vocabulary
 
-**Tempostat** *(n.)* —
-The first cardinal seasonal event occurring after periapsis, marking the temporal origin of a planet’s annual cycle.  In Milieutic terms, it represents the **moment** that season begins; in Ontic terms, it corresponds to a fixed **chronex** in the orbit.
 
-**Chronex** *(n.)* —
-The orbital locus (true anomaly, $ν = ϖ_{chronex}$​) of the tempostat — the spatial coordinate where the planet crosses the first post-periapsis cardinal point.
+## Process
 
-The **tempostat–chronex dyad** does something most “season” systems never achieve: it defines the *geometry of seasons* in purely orbital–mechanical terms, entirely independent of where or who is doing the observing.
+This method of estimating **quartum durations** involves working with five parameters:
 
-This more precise method uses full orbital geometry to determine **season lengths** and **solar flux variations** throughout the year.
+- **$e$** — orbital **eccentricity**, describing how far the planet’s orbit departs from circularity.  
+- **$\zeta$** — the **chronex**, the true anomaly angle of the first cardinal event (*tempostat*) to occur after the planet passes periapsis.  
+- **$\nu_n$** — the **true anomalies** of each of the four quartum onsets (separated by 90° intervals from $\zeta$).
+- $C$ — your planet's *chronum*, the length of its *sidereal* year (best expressed in days) 
+
+— and, to a lesser extent:
+
+- **$\varepsilon$** — the planet’s **obliquity** (axial tilt), since a planet with no tilt ($\varepsilon = 0$) has no seasons — and therefore no quarta — in the usual sense.
+
+
 
 ## Eccentric Anomaly (E)
 
@@ -28,36 +125,19 @@ In other words:
 - The *mean anomaly* ($M$) increases uniformly with time and connects to $E$ through Kepler’s Equation:
 
 $$
-M = E - e\,\sin E
+M^\theta = \frac{E - e\,\sin E}{360}
 $$
 
 The eccentric anomaly acts as the mathematical bridge between the **uniform time variable** ($M$) and the **actual orbital position** ($ν$). 
 It allows us to calculate how much of the orbital period has elapsed at any given geometric position — even when the orbit is not circular.
 
-## Obliquity Orientation ($\zeta$)
-
-The *obliquity orientation* defines the orbital longitude where the planet’s northern hemisphere is tilted directly away from its star.  
-If this occurs at **periastron**, then $\zeta = 0^\circ$.
-
-$$
-\begin{array}{l r l}
-\zeta = &0^\circ & \text{Northern hemisphere tilted directly \textit{away} from the star at periastron.} \\
-\zeta = &90^\circ & \text{Tilted away at one-fourth orbit \textit{after} periastron.} \\
-\zeta = &180^\circ & \text{Tilted away at one-half orbit \textit{after} periastron (apastron).} \\
-\zeta = &270^\circ & \text{Tilted away at three-fourths orbit \textit{after} periastron.}
-\end{array}
-$$
-
-The value of $\zeta$ may be any angle from 0° to 359°, depending on the planet’s **axial precession**.
-
-The obliquity orientation ($\zeta$) therefore acts as a **phase offset** between the orbit’s eccentric anomaly and the planet’s seasonal cycle, determining whether perihelion aligns with summer or winter in each hemisphere.
 
 ### Step 1 — Choose True Anomalies
 Pick the true anomalies ($\nu$) for the four seasonal markers, offset by obliquity orientation $\zeta$:
 
 $$
 \begin{aligned}
-&\nu = (\zeta + 90n) \bmod 360 \\[1em]
+&\nu = (\zeta + 90n) \bmod 360 \$$1em]
 &\begin{cases}
 n = 0; \;\text{spring equinox} \\
 n = 1; \;\text{summer solstice} \\
@@ -113,10 +193,10 @@ subtract them in sequence to get the fractional year lengths:
 
 $$
 \begin{aligned}
-f_\text{spring} &= \frac{M_\text{summer} - M_\text{spring}}{2\pi} \\[6pt]
-f_\text{summer} &= \frac{M_\text{autumn} - M_\text{summer}}{2\pi} \\[6pt]
-f_\text{autumn} &= \frac{(M_\text{winter}+2\pi) - M_\text{autumn}}{2\pi} \\[6pt]
-f_\text{winter} &= \frac{M_\text{spring} - M_\text{winter}}{2\pi} \\[6pt]
+f_\text{spring} &= \frac{M_\text{summer} - M_\text{spring}}{2\pi} [6pt]
+f_\text{summer} &= \frac{M_\text{autumn} - M_\text{summer}}{2\pi} [6pt]
+f_\text{autumn} &= \frac{(M_\text{winter}+2\pi) - M_\text{autumn}}{2\pi} [6pt]
+f_\text{winter} &= \frac{M_\text{spring} - M_\text{winter}}{2\pi} [6pt]
 \end{aligned}
 $$
 
@@ -177,9 +257,9 @@ Subtract successive $M$ values and normalize by $2\pi$:
 
 $$
 \begin{aligned}
-F_\text{spring} &= \frac{M_\text{summer} - M_\text{spring}}{2\pi} \\[6pt]
-F_\text{summer} &= \frac{M_\text{autumn} - M_\text{summer}}{2\pi} \\[6pt]
-F_\text{autumn} &= \frac{(M_\text{winter}+2\pi) - M_\text{autumn}}{2\pi} \\[6pt]
+F_\text{spring} &= \frac{M_\text{summer} - M_\text{spring}}{2\pi} [6pt]
+F_\text{summer} &= \frac{M_\text{autumn} - M_\text{summer}}{2\pi} [6pt]
+F_\text{autumn} &= \frac{(M_\text{winter}+2\pi) - M_\text{autumn}}{2\pi} [6pt]
 F_\text{winter} &= \frac{M_\text{spring} - M_\text{winter}}{2\pi}
 \end{aligned}
 $$
@@ -187,10 +267,10 @@ Numerical results:
 
 $$
 \begin{gathered}
-F_\text{spring} &\approx 0.2553, \\[.5em]
-F_\text{summer} &\approx 0.2553, \\[.5em]
-F_\text{autumn} &\approx 0.2447 \\[0.5em]
-F_\text{winter} &\approx 0.2447, \\[.5em]
+F_\text{spring} &\approx 0.2553, \$$.5em]
+F_\text{summer} &\approx 0.2553, \$$.5em]
+F_\text{autumn} &\approx 0.2447 \$$0.5em]
+F_\text{winter} &\approx 0.2447, \$$.5em]
 \end{gathered}
 $$
 
@@ -199,7 +279,7 @@ Multiply each fraction by $C$ to get season lengths in diurns:
 
 $$
 \begin{gathered}
-\Delta t = F \times C \\[1em]
+\Delta t = F \times C \$$1em]
 \begin{cases}
 \Delta t_\text{spring} &\approx 0.2553 \times 365.2564 = 93.3 \\
 \Delta t_\text{summer} &\approx 0.2553 \times 365.2564 = 93.3 \\
@@ -243,7 +323,7 @@ Seasonal markers from $\zeta = 180^\circ$:
 
 $$
 \begin{gathered}
-&\nu = (\zeta + 90n) \bmod 360 \\[1em]
+&\nu = (\zeta + 90n) \bmod 360 \$$1em]
 &\begin{cases}
 n &= 0 & \nu = 0^\circ & \text{spring equinox} \\
 n &= 1 & \nu = 90^\circ & \text{summer solstice} \\
@@ -268,9 +348,9 @@ Subtract successive $M$ values and normalize by $2\pi$:
 
 $$
 \begin{aligned}
-F_\text{spring} &= \frac{M_\text{summer} - M_\text{spring}}{2\pi} \\[6pt]
-F_\text{summer} &= \frac{M_\text{autumn} - M_\text{summer}}{2\pi} \\[6pt]
-F_\text{autumn} &= \frac{(M_\text{winter}+2\pi) - M_\text{autumn}}{2\pi} \\[6pt]
+F_\text{spring} &= \frac{M_\text{summer} - M_\text{spring}}{2\pi} [6pt]
+F_\text{summer} &= \frac{M_\text{autumn} - M_\text{summer}}{2\pi} [6pt]
+F_\text{autumn} &= \frac{(M_\text{winter}+2\pi) - M_\text{autumn}}{2\pi} [6pt]
 F_\text{winter} &= \frac{M_\text{spring} - M_\text{winter}}{2\pi} 
 \end{aligned}
 $$

@@ -2,61 +2,6 @@
 title: 
 ---
 
-# Obliquity — Planetary Orientation
-
-*Throughout WCB, derived obliquity parameters are denoted by Greek subscripts: η (envelope), δ (scope), σ (cycle), τ (tempo), μ (magnitude).*
-
-
-## Orientation of the Orbital Normal
-
-**Orbital Normal ( N )**
-The vector perpendicular to the orbital plane, defined by the **right-hand rule**: when the fingers of the right hand curl in the direction of **orbital motion**, the extended thumb points toward **orbital north**. Formally:
-
-$$
-\mathbf{N} = \frac{\mathbf{r} \,\boldsymbol{\times}\, \mathbf{v}}{|\mathbf{r} \,\boldsymbol{\times}\, \mathbf{v}|}
-$$
-
-This establishes a concrete mathematical object, such that:
-
-$$
-\begin{array}{l c l}
-	+ x &= &\text{barycenter} \rightarrow \text{periapsis} \\[0.25em]
- + y &= &\text{direction of motion \textit{at} periapsis} \\[0.25em]
-	+ z &= &\mathbf{N}
-\end{array}
-$$
-
-### Why the Right-hand Rule is Necessary
-
-In an isotropic universe there’s no intrinsic “up,” “north,” or “clockwise.” Every plane in space has *two* equally valid perpendiculars, and they point in opposite directions. Without an external asymmetry (a magnetic field, angular momentum, etc.), you can’t say which one is “positive.”
-
-The right-hand rule supplies that missing **orientation convention**:
-* If you curl the fingers of your right hand in the direction of orbital motion,
-* Your thumb points along the **positive normal** — the **orbital north**.
-
-This convention doesn’t imply that the cosmos *prefers* that direction; it merely provides a shared geometric rule so we can speak consistently about “north,” “tilt,” and “anticlockwise.”
-
-## Defining Obliquity
-
-Once $\mathbf{N}$ is defined, **obliquity** ($\varepsilon$) becomes an immediate vector relationship:
-
-$$
-\begin{gathered}
-\\cos \varepsilon = \mathbf{s} \!\cdot\! \mathbf{N}, \\[1em]
-\mathbf{s} =
-\bigl(
-\sin|\varepsilon| \cos\phi,\,
-\sin|\varepsilon| \sin\phi,\,
-\operatorname{sgn}(\varepsilon)\cos|\varepsilon|
-\bigr)
-\end{gathered}
-$$
-
-Where:
-- $\phi$ = the **solstitial angle**, the angular offset of the spin-axis projection from the +x-axis (the barycenter–periapsis line) within the orbital plane.
-
-This ties tilt, azimuth, and the coordinate frame together cleanly.
-
 ### Special Cases and Degeneracies
 $$
 \begin{array}{l l l}
@@ -70,7 +15,7 @@ $$
 $$
 When both e and ε vanish, the system becomes fully symmetric. The orbital normal $\textbf{N}$ remains defined, but there is no intrinsic direction within the orbital plane; any 0° longitude must be chosen arbitrarily or inherited from a higher-order reference frame.
 
-This is directly related to the **Solstitial Angle** ($\Psi_n$).
+This is directly related to the **Solstitial Angle** ($\Psi$).
 
 ## Solstitial Angle ($\Psi$)  
 
@@ -144,6 +89,62 @@ Thus, after about **13,000 years**, Earth’s northern summer will occur near De
 > while the **obliquity orientation ($\zeta$)** specifies *where that solstice occurs* in the orbit.  
 >  
 > Together, they define both the **spatial** and **temporal** components of a planet’s seasonal geometry.  
+
+
+# Obliquity — Planetary Orientation
+
+*Throughout WCB, derived obliquity parameters are denoted by Greek subscripts: η (envelope), δ (scope), σ (cycle), τ (tempo), μ (magnitude).*
+
+
+## Orientation of the Orbital Normal
+
+**Orbital Normal ( N )**
+The vector perpendicular to the orbital plane, defined by the **right-hand rule**: when the fingers of the right hand curl in the direction of **orbital motion**, the extended thumb points toward **orbital north**. Formally:
+
+$$
+\mathbf{N} = \frac{\mathbf{r} \,\boldsymbol{\times}\, \mathbf{v}}{|\mathbf{r} \,\boldsymbol{\times}\, \mathbf{v}|}
+$$
+
+This establishes a concrete mathematical object, such that:
+
+$$
+\begin{array}{l c l}
+	+ x &= &\text{barycenter} \rightarrow \text{periapsis} \\[0.25em]
+ + y &= &\text{direction of motion \textit{at} periapsis} \\[0.25em]
+	+ z &= &\mathbf{N}
+\end{array}
+$$
+
+### Why the Right-hand Rule is Necessary
+
+In an isotropic universe there’s no intrinsic “up,” “north,” or “clockwise.” Every plane in space has *two* equally valid perpendiculars, and they point in opposite directions. Without an external asymmetry (a magnetic field, angular momentum, etc.), you can’t say which one is “positive.”
+
+The right-hand rule supplies that missing **orientation convention**:
+* If you curl the fingers of your right hand in the direction of orbital motion,
+* Your thumb points along the **positive normal** — the **orbital north**.
+
+This convention doesn’t imply that the cosmos *prefers* that direction; it merely provides a shared geometric rule so we can speak consistently about “north,” “tilt,” and “anticlockwise.”
+
+## Defining Obliquity
+
+Once $\mathbf{N}$ is defined, **obliquity** ($\varepsilon$) becomes an immediate vector relationship:
+
+$$
+\begin{gathered}
+\\cos \varepsilon = \mathbf{s} \!\cdot\! \mathbf{N}, \\[1em]
+\mathbf{s} =
+\bigl(
+\sin|\varepsilon| \cos\phi,\,
+\sin|\varepsilon| \sin\phi,\,
+\operatorname{sgn}(\varepsilon)\cos|\varepsilon|
+\bigr)
+\end{gathered}
+$$
+
+Where:
+- $\phi$ = the **solstitial angle**, the angular offset of the spin-axis projection from the +x-axis (the barycenter–periapsis line) within the orbital plane.
+
+This ties tilt, azimuth, and the coordinate frame together cleanly.
 
 ## Obliquity Progression
 
