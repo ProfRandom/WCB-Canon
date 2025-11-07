@@ -1,0 +1,5 @@
+# Equations
+
+$$
+	e = \sqrt{1 - \frac{a^2}{b^2}}
+$$

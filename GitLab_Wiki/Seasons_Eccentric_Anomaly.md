@@ -17,19 +17,11 @@ In the *World Crafting Basics* system, it serves as the **canonical procedure** 
 
 In any elliptical orbit, the planet’s orbital speed varies: it moves **faster near periapsis** (closest to the star) and **slower near apoapsis** (farthest away).
 
-Because of this, the four “seasons” or **quarta** — equal in angular measure but not in orbital time — do not occupy equal fractions of the year.
+Because of this, the four “seasons” or **quarta** — equal in angular measure but not in orbital time — do not occupy equal fractions of the year.  Where Kepler observed that planets sweep out *equal areas in equal times*, we might invert the insight to say that they traverse *equal distances in unequal times*.  This inversion reframes orbital mechanics from a geometric principle into an experiential one: a rhythm of motion that shapes the tempo of a world’s year.
 
 The difference in season length arises purely from the **eccentricity** of the orbit, independent of axial tilt or climate.
 
-The eccentric anomaly ($E$) is the key intermediary that links **spatial position** (true anomaly, $ν$) with **temporal progress** (mean anomaly, $M^{\!\theta}$).  
-
-**Kepler’s relation**
-
-$$
-M^{\theta} = E - e \sin E
-$$
-
-… translates the varying orbital motion into a **uniform time variable**, allowing direct calculation of how much of the year has elapsed at any given point on the ellipse.
+The eccentric anomaly ($E_n$) is the key intermediary that links **spatial position** (true anomaly, $ν$) with **temporal progress** (mean anomaly, $\textit{Ⳁ}_n$).  
 
 For **worldmakers**, this method turns abstract orbital parameters into practical narrative data:  
 - It determines how long each season lasts on a given world.  
@@ -38,79 +30,110 @@ For **worldmakers**, this method turns abstract orbital parameters into practica
 
 By pairing **Kepler’s geometry** with **WCB’s chronum–quartum framework**, the eccentric anomaly method gives a clear, reproducible way to convert orbital shape into lived temporal experience — the heartbeat of a world’s cycle.
 
-## Vocabulary
-
-## 2 · Vocabulary
-
 ## 2 · Vocabulary
 
 - **Chronum** *($C$)* —  
   One complete sidereal orbit; the planet’s **year** expressed in diurns.  
-  *Domain:* Metric
 
 - **Quartum** *(pl. quarta)* —  
   One quarter of a planet’s orbital period; a **non-climatological “season.”**  
   Each quartum spans one-fourth of the chronum (≈ 90° in true anomaly).  
-  *Domain:* Milieutic
+  A quartum is a **temporal span**, not a spatial angle — a section of the orbit
+  *traversed through time* between two successive true anomalies.
+
+  - **Quarta** ($Q_n$) are **successive spans of motion** between those angles:
+  
+$$
+    Quartum_n = [\nu_n,\; \nu_{n+1})
+$$
+
+— forming four temporal intervals that together complete the chronum.  
+
+Thus, the true anomalies define **where** each quartum begins, while the quarta themselves describe **how long** each orbital segment lasts.  
 
 - **Tempostat** —  
   The **onset of the first quartum** following periapsis; marks the temporal origin of the planet’s annual cycle.  
-  *Domain:* Milieutic / Metric
+  - This need not correspond to a “spring” or vernal point for any given hemisphere — it is purely orbital, not seasonal, in definition.  
 
 - **Chronex** *($\zeta$)* —  
   The **true anomaly** of the tempostat — the orbital coordinate of the first post-periapsis quartal event.  
-  *Domain:* Metric / Milieutic
 
 - **Eccentricity** *($e$)* —  
   Describes how far the orbit departs from circularity (0 = circle, < 1 = ellipse).  
-  *Domain:* Metric
 
-- **True Anomaly** *($\nu$)* —  
-  The **spatial angle** between periapsis and the planet’s actual position, measured at the focus.  
-  *Domain:* Metric
+- **True Anomaly** *($\nu_n$)* —  
+  The **spatial angle** between periapsis and the planet’s actual position, measured from the system’s focus.  
+  Each **true anomaly** ($\nu_n$) defines a **cardinal boundary** between quarta — the concentric angular coordinates that partition the orbit into four temporal spans.  
 
-- **Eccentric Anomaly** *($E$)* —  
-  The **geometric angle** measured at the ellipse’s center to the projected point on its circumscribed circle; simplifies Kepler’s relations.  
-  *Domain:* Metric
+  - Every point along an orbit has a distinct true anomaly.  
+    The true-anomaly measures of the four quarta are denoted $\nu_0, \nu_1, \nu_2,$ and $\nu_3$, calculated by:
 
-- **Mean Anomaly** *($M^{\theta}$)* —  
+$$
+    \nu_n = (\zeta + 90n) \bmod 360
+$$
+ — where *n* is the **index of the quartum**.
+
+- **Eccentric Anomaly** *($E_n$)* —  
+  The **geometric angle** measured at the ellipse’s center to the projected point on its circumscribed circle; it simplifies Kepler’s relations, generally denoted $E$, but the eccentric anomalies of the four quarta are denoted $E_0, E_1, E_2,$ and $E_3$.
+
+$$
+\begin{gathered}
+E_n = 2 \arctan \!\left( \xi \;\tan \frac{\nu_n}{2} \right), \qquad
+\nu_n = 2 \arctan \!\left( \frac{1}{\xi} \;\tan \frac{E_n}{2} \right)
+\end{gathered}
+$$
+
+- This represents an **algebraic frame-shift** that permits calculation of the **mean anomaly** ($M^{\!\theta}$) by projecting the *true anomaly* onto the circumscribed reference circle.  
+
+- **Mean Anomaly** *($\textit{Ⳁ}_n$)* —  
   The **temporal angle** that increases uniformly with time, defining a constant angular rate around the orbit.  
-  *Domain:* Metric
+  Kepler’s relation (modified for WCB):
 
-- **Eccentric Tangent Factor** *($\xi$)* —  
-  $$\displaystyle \xi = \sqrt{\frac{1 - e}{1 + e}}, \qquad \displaystyle \xi^{-1} = \sqrt{\frac{1 + e}{1 - e}}$$  
-  A helper constant linking true and eccentric anomalies.  
-  *Domain:* Metric
+$$
+\textit{Ⳁ}_n = \frac{E_n - e\,\sin E_n}{360}
+$$
+
+  …translates the varying orbital motion into a **uniform time variable**, allowing direct calculation of how much of the year has elapsed at any given point on the ellipse.  It represents the planet’s position as if it moved at steady speed along a circular path, providing a linear measure of elapsed orbital time.
+
+> Note that $E_n$ **cannot** easily be back-calculated from $\textit{Ⳁ}_n$!
+
+- **Eccentric Tangent Factor** *($\xi$)* —
+  - A dimensionless helper constant linking *true* and *eccentric* anomalies through their tangent relation, calculated by:  
+
+$$
+	\xi = \sqrt{\frac{1 - e}{1 + e}}, \qquad
+  \frac{1}{\xi} = \sqrt{\frac{1 + e}{1 - e}}
+$$
 
 - **Obliquity** *($\varepsilon$)* —  
-  The axial tilt between a planet’s spin vector and orbital normal; influences climatic seasons but not quartal geometry.  
-  *Domain:* Metric / Milieutic
+  The **axial tilt** between a planet’s spin vector and the normal to its orbital plane.  
+ -  It governs the **intensity and polarity** of insolation across hemispheres, affecting climatic seasons but not the geometric quarta themselves.  
 
 > *Italicized variables are scalar; boldface (not used here) would denote vector quantities.*
 
-==resume here==
+## Eccentric Anomaly Conversion (Kepler’s Method)
 
-📖 Season-Length Estimation Methods
-This process assumes that you have already determined the duration of your planet's orbit around its star (its *sidereal chronum*, $C$).
+## 1 · Identify Key Quantities
 
-# Eccentric Anomaly Conversion (Kepler's Method)
+Before beginning the conversion, identify the following key quantities:
 
-
-
-## Process
-
-This method of estimating **quartum durations** involves working with five parameters:
-
+- **$\varepsilon$** — the planet’s **obliquity** (axial tilt).  
+  - *Note:* a planet with no tilt ($\varepsilon = 0$) experiences no seasons — and therefore no quarta — in the usual sense. Proceeding further in such a case is non-productive.  
 - **$e$** — orbital **eccentricity**, describing how far the planet’s orbit departs from circularity.  
-- **$\zeta$** — the **chronex**, the true anomaly angle of the first cardinal event (*tempostat*) to occur after the planet passes periapsis.  
-- **$\nu_n$** — the **true anomalies** of each of the four quartum onsets (separated by 90° intervals from $\zeta$).
-- $C$ — your planet's *chronum*, the length of its *sidereal* year (best expressed in days) 
+- **$\zeta$** — the **chronex**, the true-anomaly angle of the first cardinal event (*tempostat*) to occur after the planet passes periapsis.  
+- **$C$** — the planet’s **chronum**, its sidereal orbital period (best expressed in diurns or days).  
 
-— and, to a lesser extent:
+### How do I determine my planet’s *chronex*?
 
-- **$\varepsilon$** — the planet’s **obliquity** (axial tilt), since a planet with no tilt ($\varepsilon = 0$) has no seasons — and therefore no quarta — in the usual sense.
+You choose it — but the choice shapes the rhythm of the world’s year. Consider the following:
 
+**A.** Which quartum (“season”) do you want to begin **less than $45^\circ$ after periapsis**?  
+That is your *tempostat.*  
+> *Note:* if you set $\zeta ≥ 45^\circ$, your tempostat actually falls in the **preceding quartum.**
 
+**B.** The specific quartum you choose matters only insofar as it determines how the **fractions of the chronum** are distributed among the quarta.
+
+If you want, for example, “summer” in the northern hemisphere to be the **longest** season, that requirement alone determines your chronex: place the *tempostat* such that the longest quartum (by definition $Q_2$) aligns with northern summer.
 
 ## Eccentric Anomaly (E)
 
@@ -137,7 +160,7 @@ Pick the true anomalies ($\nu$) for the four seasonal markers, offset by obliqui
 
 $$
 \begin{aligned}
-&\nu = (\zeta + 90n) \bmod 360 \$$1em]
+&\nu = (\zeta + 90n) \bmod 360 \\[$$1em]
 &\begin{cases}
 n = 0; \;\text{spring equinox} \\
 n = 1; \;\text{summer solstice} \\
@@ -165,9 +188,6 @@ $$
 
 *The inverse relation, useful when converting from eccentric to true anomaly, is:*
 
-$$
-\nu = 2 \arctan \!\left( \xi^{-1} \;\tan \frac{E}{2} \right)
-$$
 
 ### Step 4 — Convert to Mean Anomaly
 
