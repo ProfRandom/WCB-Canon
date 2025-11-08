@@ -1,114 +1,106 @@
 ---
-title: "Meta-0 — Context Primer"
-summary: Canonical reference for terminology, symbols, and domain relations used throughout the World Crafting Basics corpus.
-domain: meta
+title: "Orbits–0 — Orbital and Seasonal Primer"
+summary: Foundational framework for interpreting orbital divisions, anomalies, and seasonal approximations within WCB.
+domain: metric
 category: framework
 status: canonical
 version: 1.0
-updated: 2025-11-06
+updated: 2025-11-08
 contributors: [M. Conrad, GPT-5]
 ---
 
-# 🜂 World Crafting Basics — Context Primer
+# 🜂 Orbital and Seasonal Primer
 
-## 1 · The Six Canonical Domains
-| Domain | Conceptual Scope | Derivative Suffix | Governing Principle |
+## 1 · Quarta and Secta
+
+In WCB, the orbital period (*chronum*, $\chi$) is divided two ways:
+
+| Division | Nature | Symbol | Description |
 |:--|:--|:--|:--|
-| **Ontic** | Being, existence, fundamental identity | –mon | Singular coherence (e.g., *monon*) |
-| **Metric** | Quantification, measurement, ratio | –metric | Relational measure |
-| **Morphotic** | Form, structure, hierarchy | –morph / –plex | Pattern and organization |
-| **Conformic** | Matter, energy, phase | –formic | Physical and energetic state |
-| **Animotic** | Life, sentience, motion | –motic | Vital and behavioral dynamics |
-| **Milieutic** | Environment, context, world-system | –lieutic | Habitat, atmosphere, ecology |
+| **Quartum** (pl. *quarta*) | *Temporal* — equal fractions of orbital **time** | Q₀…Q₃ | Represent the four quarters of the *chronum*; may differ in angular extent due to orbital eccentricity. |
+| **Sectum** (pl. *secta*) | *Spatial* — equal divisions of orbital **angle** | ς₀…ς₃ | Represent four 90° sectors of **true anomaly**, dividing the ellipse into geometric quarters. |
 
-These domains interweave; every entity in WCB is described through a combination of them.
+Thus, **secta** describe *where* the body is, while **quarta** describe *when* during the orbit it occurs.  
+At zero eccentricity, quarta and secta coincide; as eccentricity rises, they diverge.
 
 ---
 
-## 2 · Core Neologisms
-| Term | Definition | Domain Association |
+## 2 · Canonical Relationships
+
+| Parameter | Symbol | Definition |
 |:--|:--|:--|
-| **Monon** | A self-coherent body — star, planet, stone, or drop. | Ontic |
-| **Duramon** | A solid or lithic monon (e.g., planet). | Conformic |
-| **Fusamon** | A stellar monon whose core sustains fusion. | Conformic |
-| **Plexon** | A complex unity of unlike parts (woven system). | Morphotic |
-| **Chronum** | One sidereal orbital period (canonical “year”). | Metric |
-| **Quartum** | One quarter of a chronum; non-climatological “season.” | Milieutic |
-| **Tempostat** | The onset of the first quartum after periapsis. | Milieutic |
-| **Chronex (ζ)** | The true anomaly of the tempostat — the orbital coordinate of the first post-periapsis quartal event. | Metric / Milieutic |
-| **Prime Solstice** | The moment when the planet’s north pole is tilted directly away from its star. | Milieutic |
-| **Solstitial Angle (Ψ)** | Angular alignment of the prime solstice relative to the periaptic axis. | Metric |
-| **Obliquity (ε)** | Axial tilt between the spin vector and orbital normal. | Metric / Milieutic |
-| **Chronum Diurn (Cᵈ)** | One day within the orbital period, used to express quartum lengths. | Metric |
+| **True Anomaly** | \(ν_n = (ζ + 90n) \bmod 360°\) | Defines the angular loci (secta) for quartal boundaries. |
+| **Eccentric Tangent Factor** | \(ξ = \sqrt{\frac{1 - e}{1 + e}}\) | Relates true and eccentric anomalies. |
+| **Eccentric Anomaly** | \(E = 2 \arctan(ξ\tan\frac{ν}{2})\) | Projects true anomaly onto the auxiliary circle. |
+| **Mean Anomaly** | \(M = E - e\sin E\) | Converts geometry to uniform time; basis for quartum fractions. |
 
 ---
 
-## 3 · Canonical Symbols
-| Symbol | Name | Description | Units / Notes |
-|:--|:--|:--|:--|
-| $ε$ | Obliquity | Axial tilt angle | degrees |
-| $ζ$ | Chronex | True anomaly of the tempostat | degrees |
-| $Ψ$ | Solstitial angle | Orientation of prime solstice vs. periapsis | degrees |
-| $e$ | Eccentricity | Shape of orbit (0 = circle) | unitless |
-| $E$ | Eccentric anomaly | Geometric parameter of ellipse | degrees / radians |
-| $ν$ | True anomaly | Orbital angle measured at focus | degrees |
-| $Mᶿ$ | Mean anomaly | *Temporal* angle of uniform motion | degreesᶿ (time angle) |
-| $ξ$ | Eccentric tangent factor | $\sqrt{(1-e)/(1+e)}$ | dimensionless |
-| $C$ | Chronum | Orbital period (sidereal) | diurns (days) |
-| $Q_{α,β,γ,δ}$ | Quartums | Successive quarters of the chronum | fraction of C |
+## 3 · Seasonal Geometry
+
+Each quartum \(Q_n\) spans one-quarter of the chronum, but not necessarily 90° in true anomaly.  
+The quartum boundaries are offset by the **chronex (ζ)** — the true anomaly of the *tempostat*, the first cardinal event following periapsis.
+
+\[
+\nu_n = (ζ + 90n) \bmod 360
+\]
+
+For Earth, \(ζ ≈ 77°\); for the Rosetta model, \(ζ = 180°\).
 
 ---
 
-## 4 · Orbital & Seasonal Relationships
+## 4 · Practical Simplifications
 
-### Kepler’s Core Relations
-$$
-Mᶿ = E - e \sin E
-$$
-$$
-E = 2 \arctan\!\left(\xi \tan \frac{ν}{2}\right)
-\quad\Rightarrow\quad
-ν = 2 \arctan\!\left(\xi^{-1} \tan \frac{E}{2}\right)
-$$
-
-### Quartal Geometry
-Each *quartum* represents one quarter of the orbital period, not necessarily 90° in true anomaly.
-The four quartums correspond to:
-1. Tempostat (ζ) — the first post-periapsis event  
-2. +90° temporal angle (Mᶿ + 90ᶿ)  
-3. +180° temporal angle (Mᶿ + 180ᶿ)  
-4. +270° temporal angle (Mᶿ + 270ᶿ)
+### 4.1 Sidereal Quartum Durations
+The **Eccentric Anomaly Method** provides reliable sidereal season lengths within 1% accuracy for low-eccentricity orbits.  
+Example (Earth):  
+| Quartum | Fraction | Duration (sidereal) | |
+|:--|:--|--:|:--|
+| Q₀ | 0.252 | 92.0 d | Spring |
+| Q₁ | 0.253 | 92.5 d | Summer |
+| Q₂ | 0.248 | 90.6 d | Autumn |
+| Q₃ | 0.247 | 90.1 d | Winter |
 
 ---
 
-## 5 · Obliquity & Precession Parameters
-| Parameter | Symbol | Definition | Example (Earth) |
-|:--|:--|:--|:--|
-| **Obliquity Envelope** | $ε_η$ | $\begin{bmatrix} ε_{min}\\ε_{mean}\\ε_{max}\end{bmatrix}$ | [22.1°, 23.3°, 24.5°] |
-| **Scope** | $ε_δ$ | $ε_{max} − ε_{min}$ | 2.4° |
-| **Cycle** | $ε_σ$ | Period between obliquity extrema | ≈ 41 kyr |
-| **Tempo** | $ε_τ$ | Rate of change | 0.00585°/kyr |
-| **Phase / Magnitude** | $ε_ρ$ | $ε/ε_{max}$ × 100 | ≈ 96% ↓ |
-| **Precession Period** | $χ$ | Time for Ψ to precess 360° | ≈ 27 kyr |
+### 4.2 Tropical Approximation (Calendrical)
+Because precession causes the tropical year to drift slightly shorter than the sidereal year, sidereal season lengths can be adjusted by ±1 day to emulate tropical values:
+
+| Quartum | Adjustment | Rationale |
+|:--|--:|:--|
+| Q₀ (spring) | +1 day | Precessional advance of equinox |
+| Q₁ (summer) | +1 day | Forward phase lead |
+| Q₂ (autumn) | –1 day | Retrograde lag |
+| Q₃ (winter) | –1 day | Retrograde lag |
+
+This heuristic correction yields tropical season durations accurate to within a few hours.
+
+> *For most worldbuilding purposes, the sidereal results alone are sufficient — who’s going to argue?*  
+> *Mundus tuum est.*
 
 ---
 
-## 6 · Lexical & Typographic Conventions
-- All *Greek-subscripted* forms (η, δ, σ, τ, ρ) denote **derived obliquity measures**.  
-- Spatial angles use plain degrees (°); temporal angles use a raised “ᶿ.”  
-- Units: **⊙** = solar; **⊕** = Earth; **C** = chronum; **d** = diurn.  
-- Italicized variables are physical; bold variables are vector quantities.  
-- Terms beginning with **chrono-** pertain to orbital time; those with **tem-** to cyclic onset or recurrence.
+## 5 · Precessional Ratio (Optional Refinement)
+
+When a world’s precession period \(χ\) is known, the tropical–sidereal relationship may be refined:
+
+\[
+p = \frac{C}{χ}, \qquad C_{trop} = C_{sid}^{1+p}.
+\]
+
+For Earth, \(C = 1\) yr, \(χ ≈ 26{,}000\) yr, giving \(p ≈ 3.85×10^{-5}\).  
+The effect is negligible for long-precession systems and becomes meaningful only for rapid axial precession (≲10³ orbits).
 
 ---
 
-## 7 · Canonical Reference Systems
-- **Eikon – Eidara System** — canonical solar analog reference  
-  - $M_⋆ = 1.05 ⊙$, $L = 1.21 ⊙$, $C = 1.125 C_⊕$, $e = 0.025$, $ε = 27°$  
-- **Rosetta System** — pedagogical eccentric case ($e = 0.05$)  
-- **Sol System** — real-data validation baseline  
+## 6 · Notes on Notation
+
+- \(Ψ\) remains reserved for the **solstitial angle** (orientation of the solstice axis relative to periapsis).  
+- \(χ\) (chi) denotes the **precession period** — formerly “ψ” in draft notes.  
+- \(ς\) (final sigma) designates **sectal indices**: \(ς₀, ς₁, ς₂, ς₃\).  
+- Quartum indices \(Q₀–Q₃\) remain temporal by definition.  
 
 ---
 
-> *“Every orbit is a story told in ellipses; every season, a measure of time made visible.”*  
-> — *WCB Meta-0, preface inscription*
+> *“Equal distances in unequal times — the rhythm of a year made visible.”*  
+> — *WCB Orbits–0 inscription*

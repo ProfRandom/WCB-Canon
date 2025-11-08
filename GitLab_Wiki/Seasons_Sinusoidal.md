@@ -1,5 +1,5 @@
 📖 Season-Length Estimation Methods
-This process assumes that you have already determined the duration of your planet's orbit around its star (its *sidereal chronum*, $C$).
+This process assumes that you have already determined the duration of your planet's orbit around its star (its *sidereal chronum*, $\chi$).
 ## Obliquity azimuth ($\phi$)
 The *obliquity azimuth* of your planet's obliquity is determined by the point in its orbit when the northern hemisphere is tilted directly away from the star. If your planet's northern hemisphere is tilted away from the star when it is at the closest point in its orbit (its *periastron*), then its obliquity azimuth is $\phi = 0$.
 
@@ -15,10 +15,10 @@ The *obliquity azimuth* of your planet's obliquity is determined by the point in
 Here is a quick, algebra-only method that captures the *main effect of eccentricity* on seasons:
 
 $$
-\Delta t \;\approx\; \dfrac{C}{4} + \left(\dfrac{2e}{\pi} C \times \sin \nu\right)
+\Delta t \;\approx\; \dfrac{\chi}{4} + \left(\dfrac{2e}{\pi} \chi \times \sin \nu\right)
 $$
 Where:  
-- $C$ = year length (chronum, in diurns or days)  
+- $\chi$ = year length (chronum, in diurns or days)  
 - $e$ = orbital eccentricity  
 - $\nu$ = central true anomaly of the season (0° = perihelion, 180° = aphelion)  
 
@@ -26,7 +26,7 @@ Where:
 Equal quarter of the chronum:
 
 $$
-\dfrac{C}{4}
+\dfrac{\chi}{4}
 $$
 ### Step 2 — Correction Factor
 This is a dimensionless ratio determined by eccentricity:
@@ -34,7 +34,7 @@ This is a dimensionless ratio determined by eccentricity:
 $$
 \dfrac{2e}{\pi}
 $$
-To get the actual correction in diurns, it is multiplied by the full length of the chronum ($C$) in the main equation.
+To get the actual correction in diurns, it is multiplied by the full length of the chronum ($\chi$) in the main equation.
 
 ### Step 3 — Seasonal Adjustment
 True anomaly of each season midpoint is tied to the obliquity azimuth $\phi$:
@@ -53,18 +53,18 @@ $$
 #### Worked Example: Earth (Sinusoidal Approximation, Sidereal Chronum)
 Given:  
 - $\phi = 0$  
-- $C = 365.2564$ d (sidereal year)  
+- $\chi = 365.2564$ d (sidereal year)  
 - $e = 0.0167$  
 
 **Step 1 — Baseline**
 
 $$
-\frac{C}{4} = \frac{365.2564}{4} = 91.31
+\frac{\chi}{4} = \frac{365.2564}{4} = 91.31
 $$
 **Step 2 — Correction Factor**
 
 $$
-\frac{2e}{\pi} C = \frac{2 \times 0.0167}{\pi} \times 365.2564 = 3.88
+\frac{2e}{\pi} \chi = \frac{2 \times 0.0167}{\pi} \times 365.2564 = 3.88
 $$
 **Step 3 — Seasonal Adjustments (Earth)**
 True anomalies from $\phi = 0$:
@@ -83,7 +83,7 @@ $$
 **Step 4 — Apply the Formula**
 
 $$
-\Delta t \;\approx\; \frac{C}{4} + \left(\frac{2e}{\pi} C \times \sin\nu\right)
+\Delta t \;\approx\; \frac{\chi}{4} + \left(\frac{2e}{\pi} \chi \times \sin\nu\right)
 $$
 $$
 \begin{cases}
@@ -120,7 +120,7 @@ When using the sinusoidal method, you have two options:
 
 1. **Accept the values as returned.**  
    - This keeps the math simple and transparent.  
-   - The approximation will always add up to the correct year length ($C$).  
+   - The approximation will always add up to the correct year length ($\chi$).  
    - Errors are usually small if $e \leq 0.1$ (a few diurns at most for Earth-like orbits).  
 
 2. **Apply the generalized fudge factor.**  
@@ -131,7 +131,7 @@ $$
      f = 10e
 $$
 
-- Subtract $f \times \left(\tfrac{2e}{\pi}C\right)$ from the long seasons (those with $\sin\nu = +1$).  
+- Subtract $f \times \left(\tfrac{2e}{\pi}\chi\right)$ from the long seasons (those with $\sin\nu = +1$).  
 - Add the same amount to the short seasons (those with $\sin\nu = -1$).  
 - Baseline seasons (where $\sin\nu = 0$) remain unchanged.  
 
@@ -151,66 +151,3 @@ If you’re working with a strongly eccentric orbit, leave the fudge aside — t
 Ultimately, whether you ‘fudge’ is up to you as the worldbuilder: do you want clean numbers, or do you want raw extremes? Both choices are defensible.
 
 ---
-#### Worked Example: Rosetta (Sinusoidal Approximation, Sidereal Chronum)
-Given:  
-- $\phi = 180^\circ$  
-- $C = 492$ diurns (sidereal chronum)  
-- $e = 0.05$  
-
-**Step 1 — Baseline**
-
-$$
-\frac{C}{4} = \frac{492}{4} = 123.0
-$$
-**Step 2 — Correction Factor**
-
-$$
-\frac{2e}{\pi} C = \frac{2 \times 0.05}{\pi} \times 492 = 15.66
-$$
-**Step 3 — Seasonal Adjustments (Rosetta)**
-True anomalies from $\phi = 180^\circ$:
-
-$$
-\nu = (\phi + 90n) \bmod 360
-$$
-$$
-\begin{cases}
-n = 0 & \nu = 0^\circ & \text{spring equinox} \\
-n = 1 & \nu = 90^\circ & \text{summer solstice} \\
-n = 2 & \nu = 180^\circ   & \text{autumn equinox} \\
-n = 3 & \nu = 270^\circ  & \text{winter solstice}
-\end{cases}
-$$
-**Step 4 — Apply the Formula**
-
-$$
-\Delta t \;\approx\; \frac{C}{4} + \left(\frac{2e}{\pi} C \times \sin\nu\right)
-$$
-
-$$
-\begin{cases}
-n=0;\;\nu=0^\circ;\;\sin\nu=-1 & \Delta t_\text{spring} \approx 123.0 - 15.66 = 107.3 \\
-n=1;\;\nu=90^\circ;\;\sin\nu=0 & \Delta t_\text{summer} \approx 123.0 \\
-n=2;\;\nu=180^\circ;\;\sin\nu=1 & \Delta t_\text{autumn} \approx 123.0 + 15.66 = 138.7 \\
-n=3;\;\nu=270^\circ;\;\sin\nu=0 & \Delta t_\text{winter} \approx 123.0 \\
-\end{cases}
-$$
-**Result:**  
-- Spring ≈ 107.3 diurns  
-- Summer ≈ 123.0 diurns  
-- Autumn ≈ 138.7 diurns  
-- Winter ≈ 123.0 diurns
-(Total = 492 diurns)
-
-**Conclusion**
-The sinusoidal approximation predicts for Rosetta:
-- Two baseline seasons (winter, summer ≈ 123 diurns)  
-- One shorter season (spring ≈ 107 diurns)  
-- One longer season (autumn ≈ 139 diurns)
-- The difference between the longest and shortest seasons is **over 31 diurns** — nearly a whole “weke” longer or shorter than the baseline!
-- This is much more dramatic than Earth’s ±2–3 day distortions, because Rosetta’s orbital eccentricity ($e=0.05$) is about **3× larger than Earth’s**.
-
-**Advice**
-- You can **accept these values directly**, which already tell the story of a planet with noticeably uneven seasons.  
-- Or you can **tweak them** slightly (redistributing a fraction of the correction term) to break the symmetry of the paired seasons and produce four distinct values, closer to what the Kepler method would return.  
-- Either way, the results remain *SANC* — Simple, Approximate, Notationally Clear — while giving Rosettan cultures a real seasonal asymmetry to reckon with.

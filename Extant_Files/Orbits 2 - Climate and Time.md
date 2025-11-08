@@ -3,7 +3,7 @@ title: ""
 ---
 
 # 📖 Season-Length Estimation Methods
-This process assumes that you have already determined the duration of your planet's orbit around its star (its *sidereal chronum*, $C$).
+This process assumes that you have already determined the duration of your planet's orbit around its star (its *sidereal chronum*, $\chi$).
 
 ## Obliquity azimuth ($\phi$)
 The *obliquity azimuth* of your planet's obliquity is determined by the point in its orbit when the northern hemisphere is tilted directly away from the star. If your planet's northern hemisphere is tilted away from the star when it is at the closest point in its orbit (its *periastron*), then its obliquity azimuth is $\phi = 0$.
@@ -19,10 +19,10 @@ The *obliquity azimuth* of your planet's obliquity is determined by the point in
 Here is a quick, algebra-only method that captures the *main effect of eccentricity* on seasons:
 
 $$
-\Delta t \;\approx\; \dfrac{C}{4} + \left(\dfrac{2e}{\pi} C \times \sin \nu\right)
+\Delta t \;\approx\; \dfrac{\chi}{4} + \left(\dfrac{2e}{\pi} \chi \times \sin \nu\right)
 $$
 Where:  
-- $C$ = year length (chronum, in diurns or days)  
+- $\chi$ = year length (chronum, in diurns or days)  
 - $e$ = orbital eccentricity  
 - $\nu$ = central true anomaly of the season (0° = perihelion, 180° = aphelion)  
 
@@ -30,7 +30,7 @@ Where:
 Equal quarter of the chronum:
 
 $$
-\dfrac{C}{4}
+\dfrac{χ}{4}
 $$
 ### Step 2 — Correction Factor
 This is a dimensionless ratio determined by eccentricity:
@@ -38,7 +38,7 @@ This is a dimensionless ratio determined by eccentricity:
 $$
 \dfrac{2e}{\pi}
 $$
-To get the actual correction in diurns, it is multiplied by the full length of the chronum ($C$) in the main equation.
+To get the actual correction in diurns, it is multiplied by the full length of the chronum ($χ$) in the main equation.
 
 ### Step 3 — Seasonal Adjustment
 True anomaly of each season midpoint is tied to the obliquity azimuth $\phi$:
@@ -57,18 +57,18 @@ $$
 #### Worked Example: Earth (Sinusoidal Approximation, Sidereal Chronum)
 Given:  
 - $\phi = 0$  
-- $C = 365.2564$ d (sidereal year)  
+- $\chi = 365.2564$ d (sidereal year)  
 - $e = 0.0167$  
 
 **Step 1 — Baseline**
 
 $$
-\frac{C}{4} = \frac{365.2564}{4} = 91.31
+\frac{\chi}{4} = \frac{365.2564}{4} = 91.31
 $$
 **Step 2 — Correction Factor**
 
 $$
-\frac{2e}{\pi} C = \frac{2 \times 0.0167}{\pi} \times 365.2564 = 3.88
+\frac{2e}{\pi} \chi = \frac{2 \times 0.0167}{\pi} \times 365.2564 = 3.88
 $$
 **Step 3 — Seasonal Adjustments (Earth)**
 True anomalies from $\phi = 0$:
@@ -88,7 +88,7 @@ $$
 **Step 4 — Apply the Formula**
 
 $$
-\Delta t \;\approx\; \frac{C}{4} + \left(\frac{2e}{\pi} C \times \sin\nu\right)
+\Delta t \;\approx\; \frac{\chi}{4} + \left(\frac{2e}{\pi} \chi \times \sin\nu\right)
 \begin{cases}
 n=0;\;\nu=270^\circ;\;\sin\nu=1 & \Delta t_\text{spring} \approx 91.31 + 3.88 = 95.20 \\
 n=1;\;\nu=0^\circ;\;\sin\nu=0 & \Delta t_\text{summer} \approx 91.31 \\
@@ -121,15 +121,18 @@ When using the sinusoidal method, you have two options:
 
 1. **Accept the values as returned.**  
    - This keeps the math simple and transparent.  
-   - The approximation will always add up to the correct year length ($C$).  
+   - The approximation will always add up to the correct year length ($\chi$).  
    - Errors are usually small if $e ≤ 0.1$ (a few diurns at most for Earth-like orbits).  
 
 2. **Apply the generalized fudge factor.**  
    - To break the “paired seasons” pattern and create four distinct values, redistribute part of the correction term.  
-   - Use the rule:   $$
+   - Use the rule:
+   
+$$
      f = 10e
-     $$
-- Subtract $f \times \left(\tfrac{2e}{\pi}C\right)$ from the long seasons (those with $\sin\nu = +1$).  
+$$
+
+- Subtract $f \times \left(\tfrac{2e}{\pi}\chi\right)$ from the long seasons (those with $\sin\nu = +1$).  
 - Add the same amount to the short seasons (those with $\sin\nu = -1$).  
 - Baseline seasons (where $\sin\nu = 0$) remain unchanged.  
 
@@ -146,17 +149,17 @@ Ultimately, whether you ‘fudge’ is up to you as the worldbuilder: do you wan
 #### Worked Example: Rosetta (Sinusoidal Approximation, Sidereal Chronum)
 Given:  
 - $\phi = 180^\circ$  
-- $C = 492$ diurns (sidereal chronum)  
+- $\chi = 492$ diurns (sidereal chronum)  
 - $e = 0.05$  
 **Step 1 — Baseline**
 
 $$
-\frac{C}{4} = \frac{492}{4} = 123.0
+\frac{\chi}{4} = \frac{492}{4} = 123.0
 $$
 **Step 2 — Correction Factor**
 
 $$
-\frac{2e}{\pi} C = \frac{2 \times 0.05}{\pi} \times 492 = 15.66
+\frac{2e}{\pi} \chi = \frac{2 \times 0.05}{\pi} \times 492 = 15.66
 $$
 **Step 3 — Seasonal Adjustments (Rosetta)**
 True anomalies from $\phi = 180^\circ$:
@@ -176,7 +179,7 @@ $$
 **Step 4 — Apply the Formula**
 
 $$
-\Delta t \;\approx\; \frac{C}{4} + \left(\frac{2e}{\pi} C \times \sin\nu\right)
+\Delta t \;\approx\; \frac{\chi}{4} + \left(\frac{2e}{\pi} \chi \times \sin\nu\right)
 \begin{cases}
 n=0;\;\nu=0^\circ;\;\sin\nu=-1 & \Delta t_\text{spring} \approx 123.0 - 15.66 = 107.3 \\
 n=1;\;\nu=90^\circ;\;\sin\nu=0 & \Delta t_\text{summer} \approx 123.0 \\
@@ -267,20 +270,20 @@ Where:
 
 ### Step 5 — Scale to Year Length
 
-Multiply each fraction by the chronum ($C$) to convert fractions into diurns:
+Multiply each fraction by the chronum ($\chi$) to convert fractions into diurns:
 
 $$
 \begin{aligned}
-&\Delta t_\text{spring} = f_\text{spring}\,C, \\
-&\Delta t_\text{summer} = f_\text{summer}\,C, \\
-&\Delta t_\text{autumn} = f_\text{autumn}\,C, \\
-&\Delta t_\text{winter} = f_\text{winter}\,C
+&\Delta t_\text{spring} = f_\text{spring}\,\chi, \\
+&\Delta t_\text{summer} = f_\text{summer}\,\chi, \\
+&\Delta t_\text{autumn} = f_\text{autumn}\,\chi, \\
+&\Delta t_\text{winter} = f_\text{winter}\,\chi
 \end{aligned}
 $$
 #### Worked Example: Earth (Kepler’s Method, Sidereal Year)
 Given:  
 - $\phi = 0^\circ$  
-- $C = 365.2564$ days (sidereal year)  
+- $\chi = 365.2564$ days (sidereal year)  
 - $e = 0.0167$  
 
 **Step 1 — True Anomalies**
@@ -336,7 +339,7 @@ $$
 Multiply each fraction by $C$ to get season lengths in diurns:  
 
 $$
-\Delta t = F \times C \quad
+\Delta t = F \times \chi \quad
 \left\{
 \begin{array}{lll}
 \Delta t_\text{spring} & \approx & 0.2553 \times 365.2564 = 93.3 \\
@@ -374,7 +377,7 @@ Observed Earth season lengths (tropical year):
 #### Worked Example: Rosetta (Kepler’s Method, Sidereal Chronum)
 Given:  
 - $\phi = 180^\circ$  
-- $C = 492$ diurns (sidereal chronum)  
+- $\chi = 492$ diurns (sidereal chronum)  
 - $e = 0.05$  
 
 **Step 1 — True Anomalies**
@@ -427,7 +430,7 @@ $$
 \end{aligned}
 $$
 **Step 5 — Scale to Year Length**
-Multiply each fraction by $C$:  
+Multiply each fraction by $\chi$:  
 
 $$
 \begin{cases}
@@ -470,13 +473,13 @@ This is exactly the kind of asymmetry you would expect on a world with such an o
 #### **Step 1: Input**
 - **Obliquity ($\varepsilon_x$)**: The planet’s axial tilt.
 - **Latitude ($\lambda$)**: Observer’s *latitude*, degrees north or south of the equator.
-- **Fraction of the apical chronum ($C_f$)**: Time since the summer solstice, as a fraction of the chronum.
+- **Fraction of the apical chronum ($\chi_f$)**: Time since the summer solstice, as a fraction of the chronum.
 
 #### **Step 2: Calculate Star’s Declination**
 Over the course of the apical chronum, a star’s declination shifts north and south of the celestial equator in a sinusoidal pattern. This north–south swing is what causes the east–west drift of the star’s rising and setting azimems along the horizon.
 
 $$
-\delta = \epsilon \cos(2 \pi C_f)
+\delta = \epsilon \cos(2 \pi \chi_f)
 $$
 #### **Step 3: Calculate Maximum and Minimum Altitudes**
 1. **Maximum Altitude ($h_\text{max}$):**

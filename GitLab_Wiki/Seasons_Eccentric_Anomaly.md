@@ -107,7 +107,9 @@ $$
 
 - **Obliquity** *($\varepsilon$)* —  
   The **axial tilt** between a planet’s spin vector and the normal to its orbital plane.  
- -  It governs the **intensity and polarity** of insolation across hemispheres, affecting climatic seasons but not the geometric quarta themselves.  
+ -  It governs the **intensity and polarity** of insolation across hemispheres, affecting climatic seasons but not the geometric quarta themselves.
+
+
 
 > *Italicized variables are scalar; boldface (not used here) would denote vector quantities.*
 
@@ -121,7 +123,7 @@ Before beginning the conversion, identify the following key quantities:
   - *Note:* a planet with no tilt ($\varepsilon = 0$) experiences no seasons — and therefore no quarta — in the usual sense. Proceeding further in such a case is non-productive.  
 - **$e$** — orbital **eccentricity**, describing how far the planet’s orbit departs from circularity.  
 - **$\zeta$** — the **chronex**, the true-anomaly angle of the first cardinal event (*tempostat*) to occur after the planet passes periapsis.  
-- **$C$** — the planet’s **chronum**, its sidereal orbital period (best expressed in diurns or days).  
+- **$\chi$** — the planet’s **chronum**, its sidereal orbital period (best expressed in diurns or days).  
 
 ### How do I determine my planet’s *chronex*?
 
@@ -227,14 +229,14 @@ Where:
 
 ### Step 6 — Scale to Year Length
 
-Multiply each fraction by the chronum ($C$) to convert fractions into diurns:
+Multiply each fraction by the chronum ($\chi$) to convert fractions into diurns:
 
 $$
 \begin{gathered}
-\Delta t_\text{spring} = f_\text{spring}\,C, \\
-\Delta t_\text{summer} = f_\text{summer}\,C, \\
-\Delta t_\text{autumn} = f_\text{autumn}\,C, \\
-\Delta t_\text{winter} = f_\text{winter}\,C
+\Delta t_\text{spring} = f_\text{spring}\,\chi, \\
+\Delta t_\text{summer} = f_\text{summer}\,\chi, \\
+\Delta t_\text{autumn} = f_\text{autumn}\,\chi, \\
+\Delta t_\text{winter} = f_\text{winter}\,\chi
 \end{gathered}
 $$
 
@@ -242,7 +244,7 @@ $$
 
 Given:  
 - $\zeta = 0^\circ$  
-- $C = 365.2564$ days (sidereal year)  
+- $\chi = 365.2564$ days (sidereal year)  
 - $e = 0.0167$  
 
 **Step 1 — True Anomalies**
@@ -277,9 +279,9 @@ Subtract successive $M$ values and normalize by $2\pi$:
 
 $$
 \begin{aligned}
-F_\text{spring} &= \frac{M_\text{summer} - M_\text{spring}}{2\pi} [6pt]
-F_\text{summer} &= \frac{M_\text{autumn} - M_\text{summer}}{2\pi} [6pt]
-F_\text{autumn} &= \frac{(M_\text{winter}+2\pi) - M_\text{autumn}}{2\pi} [6pt]
+F_\text{spring} &= \frac{M_\text{summer} - M_\text{spring}}{2\pi} \\[6pt]
+F_\text{summer} &= \frac{M_\text{autumn} - M_\text{summer}}{2\pi} \\[6pt]
+F_\text{autumn} &= \frac{(M_\text{winter}+2\pi) - M_\text{autumn}}{2\pi} \\[6pt]
 F_\text{winter} &= \frac{M_\text{spring} - M_\text{winter}}{2\pi}
 \end{aligned}
 $$
@@ -287,19 +289,19 @@ Numerical results:
 
 $$
 \begin{gathered}
-F_\text{spring} &\approx 0.2553, \$$.5em]
-F_\text{summer} &\approx 0.2553, \$$.5em]
-F_\text{autumn} &\approx 0.2447 \$$0.5em]
-F_\text{winter} &\approx 0.2447, \$$.5em]
+F_\text{spring} &\approx 0.2553, \\[0.5em]
+F_\text{summer} &\approx 0.2553, \\[0.5em]
+F_\text{autumn} &\approx 0.2447 \\[0.5em]
+F_\text{winter} &\approx 0.2447
 \end{gathered}
 $$
 
 **Step 5 — Scale to chronum length**
-Multiply each fraction by $C$ to get season lengths in diurns:  
+Multiply each fraction by $\chi$ to get season lengths in diurns:  
 
 $$
 \begin{gathered}
-\Delta t = F \times C \$$1em]
+\Delta t = F \times \chi \\[1em]
 \begin{cases}
 \Delta t_\text{spring} &\approx 0.2553 \times 365.2564 = 93.3 \\
 \Delta t_\text{summer} &\approx 0.2553 \times 365.2564 = 93.3 \\
@@ -308,6 +310,7 @@ $$
 \end{cases}
 \end{gathered}
 $$
+
 **Result:**  
 - Spring ≈ 93.3 d  
 - Summer ≈ 93.3 d  
@@ -335,7 +338,7 @@ Observed Earth season lengths (tropical year):
 #### Worked Example: Rosetta (Kepler’s Method, Sidereal Chronum)
 Given:  
 - $\zeta = 180^\circ$  
-- $C = 492$ diurns (sidereal chronum)  
+- $\chi = 492$ diurns (sidereal chronum)  
 - $e = 0.05$  
 
 **Step 1 — True Anomalies**
@@ -343,7 +346,7 @@ Seasonal markers from $\zeta = 180^\circ$:
 
 $$
 \begin{gathered}
-&\nu = (\zeta + 90n) \bmod 360 \$$1em]
+&\nu = (\zeta + 90n) \bmod 360 \\[1em]
 &\begin{cases}
 n &= 0 & \nu = 0^\circ & \text{spring equinox} \\
 n &= 1 & \nu = 90^\circ & \text{summer solstice} \\
@@ -368,9 +371,9 @@ Subtract successive $M$ values and normalize by $2\pi$:
 
 $$
 \begin{aligned}
-F_\text{spring} &= \frac{M_\text{summer} - M_\text{spring}}{2\pi} [6pt]
-F_\text{summer} &= \frac{M_\text{autumn} - M_\text{summer}}{2\pi} [6pt]
-F_\text{autumn} &= \frac{(M_\text{winter}+2\pi) - M_\text{autumn}}{2\pi} [6pt]
+F_\text{spring} &= \frac{M_\text{summer} - M_\text{spring}}{2\pi} \\[6pt]
+F_\text{summer} &= \frac{M_\text{autumn} - M_\text{summer}}{2\pi} \\[6pt]
+F_\text{autumn} &= \frac{(M_\text{winter}+2\pi) - M_\text{autumn}}{2\pi} \\[6pt]
 F_\text{winter} &= \frac{M_\text{spring} - M_\text{winter}}{2\pi} 
 \end{aligned}
 $$
@@ -385,7 +388,7 @@ $$
 \end{aligned}
 $$
 **Step 5 — Scale to Year Length**
-Multiply each fraction by $C$:  
+Multiply each fraction by $\chi$:  
 
 $$
 \begin{cases}

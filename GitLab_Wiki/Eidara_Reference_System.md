@@ -18,7 +18,7 @@ source: ""
 ## Building From The Planemon
 
 ### Constants
-- $C_\oplus = 365.256363004$ days
+- $\chi_\oplus = 365.256363004$ days
 - $M_\odot = 333000 m\oplus$
 
 ## Process
@@ -77,21 +77,21 @@ $$
 	M &= \sqrt[3.7889]{1.21} = 1.051 \\
 \end{aligned}
 $$
-Using this mass, we can now calculate an orbital period ($C$) for the planemon:
+Using this mass, we can now calculate an orbital period ($P$) for the planemon:
 
 $$
 \begin{aligned}
-	C &= \sqrt{\frac{D^3}{M + m\odot}} \\
+	\chi &= \sqrt{\frac{D^3}{M + m\odot}} \\
     &= \sqrt{\frac{1.1^3}{1.051 + 3.153 \times 10^{-6}}} \\
     &= \sqrt{\frac{1.331}{1.051003153}} \\
     &= \sqrt{1.2664} \\
-  C &= 1.125  
+  \chi &= 1.125  
 \end{aligned}
 $$
  — which is:
 
 $$
-	C_d = C \times C_\oplus = 1.125 \times 365.256363004 = 411.041\; \text{days}
+	\chi_d = \chi \times \chi_\oplus = 1.125 \times 365.256363004 = 411.041\; \text{days}
 $$
 We can calculate the rest of the star's parameters from the luminosity: 
 
@@ -107,7 +107,7 @@ We can *approximate* the perannual orbit for Eikon by:
 $$
 	A_\approx = \sqrt[3]{M} = \sqrt[3]{1.051} = 1.017\; \text{AU}
 $$
- — it is technically more accurate to calculate it from the orbital period ($C$) and the summed masses ($M + m\odot$).  In this case we're looking for the orbital axis of an orbit with $C = 1$, so we can leave that parameter out:
+ — it is technically more accurate to calculate it from the orbital period ($\chi$) and the summed masses ($M + m\odot$).  In this case we're looking for the orbital axis of an orbit with $\chi = 1$, so we can leave that parameter out:
 
 $$
  \begin{aligned}
@@ -142,9 +142,9 @@ From this process we arrive at the following known parameters:
   - $v_e = 1.015\oplus$
 - Specified Orbit (= to nucleal orbit)
   - $D = N = 1.1$ AU
-- Calculated Orbital Period (Chronum; $C$)
-    - $C = 1.125$ years
-    - $C_d = 411.041$ days
+- Calculated Orbital Period (Chronum; $\chi$)
+    - $\chi = 1.125$ years
+    - $\chi_d = 411.041$ days
 - Obliquity: $\varepsilon_{27}$
 
 
