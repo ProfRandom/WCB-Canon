@@ -90,7 +90,7 @@ $$
   Kepler’s relation (modified for WCB):
 
 $$
-\textit{Ⳁ}_n = \frac{E_n - e\,\sin E_n}{360}
+\textit{Ⳁ}_n = \frac{(E_n - e\,\sin E_n) \bmod 360}{360}
 $$
 
   …translates the varying orbital motion into a **uniform time variable**, allowing direct calculation of how much of the year has elapsed at any given point on the ellipse.  It represents the planet’s position as if it moved at steady speed along a circular path, providing a linear measure of elapsed orbital time.
