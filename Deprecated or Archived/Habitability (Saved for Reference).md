@@ -49,7 +49,7 @@ title: ""
 ## Abstract 3
 **Major Topics:** 
 - Extended parameters for defining geotic (human-hospitable) conditions.
-- Habitability ranges for rotation period (D), orbital eccentricity (e), orbital period (C), axial tilt (εₓ), precession cycle (χ), and obliquity azimuth (ζₙ).
+- Habitability ranges for rotation period (D), orbital eccentricity (e), orbital period (C), axial tilt (εₓ), precession cycle (Ϣ), and obliquity azimuth (ζₙ).
 - Magnetosphere strength (Bsurf) as radiation shielding criterion.
 - Atmospheric baseline conditions: pressure, scale height, composition, ozone presence.
 - Surface balance of land and water.

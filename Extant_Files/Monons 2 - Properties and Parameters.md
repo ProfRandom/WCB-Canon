@@ -67,7 +67,7 @@ Or simply provide example profiles:
 | **Rotational period/Length of day (d)**                                                                                        | 24ʰ (synodic)<br>23ʰ  56ᵐ 4.091ˢ (sidereal)                                                                                                                                                                       |
 | **Orbital Period (C)**<br>(all the variations explained later)                                                                 | 365ᵈ 5ʰ 49ᵐ 12ˢ (ephemeris)<br>365ᵈ 5ʰ 48ᵐ 45ˢ (tropical)<br>365ᵈ 6ʰ 9ᵐ 9.764ˢ (sidereal)                                                                                                                         |
 | **Orbital Eccentricity (e)**                                                                                                   | 0.0167 ↓<br>e ∈ ⟨0.01 ∧ 0.0⟩/413 ky<br>e ∈ ⟨0.02 ∧ 0.05⟩/100 ky                                                                                                                                                   |
-| **Axial precession period (χ)**                                                                                                | 25.772 ky                                                                                                                                                                                                         |
+| **Axial precession period (Ϣ)**                                                                                                | 25.772 ky                                                                                                                                                                                                         |
 | **Magnetosphere (radiation shielding) ($B_{surf}$)**                                                                           | ≈ ⟨25 ∧ 65⟩ μT (microtesla)                                                                                                                                                                                       |
 | **Land (lithosphere)-water (hydrosphere) proportion**                                                                          | 30%-70%                                                                                                                                                                                                           |
 | **Hydrospheric distribution**                                                                                                  | Five major oceans<br>Numerous smaller seas                                                                                                                                                                        |
@@ -143,7 +143,7 @@ $$C = \sqrt{\dfrac{a^3}{M}}$$	...However, if the monon's mass exceeds ≈ 10% of
 - I include *C* here not because it's adjustable, but because it’s **crucial to the seasonal dynamics** of a world:
     - It modulates how **axial tilt ($\varepsilon_x$)** and **eccentricity (e)** express over time
     - It defines the **length of seasons**, and whether rotation (D) is **fast or slow relative to the year**  
-    - It affects the **precession timescale (χ)** through long-term resonances
+    - It affects the **precession timescale (Ϣ)** through long-term resonances
 - In short: *IF* you *declare C*, that choice *constrains what kind of star your system can have*.
 	- See *Sidebar Module – Stars, Planetary Orbits, and Habitable Zones* for details
 - *Note that the masses of other monons in the system have no effect in this equation!*
@@ -158,7 +158,7 @@ $$C = \sqrt{\dfrac{a^3}{M}}$$	...However, if the monon's mass exceeds ≈ 10% of
 
 A monon does not *have* to have an axial tilt, but most do, because their mass isn't evenly distributed throughout their volume, and that mass is tugged on by the host star(s), companion Moons, other monons in their star system, etc.
 
-**Precession Cycle (χ)**
+**Precession Cycle (Ϣ)**
 - χ ∈ ⟨15 ∧ 60⟩ ky — General Geotics range
 - χ ∈ ⟨20 ∧ 30⟩ ky — Earth-clone ideal range
 	- Note: If your monon has an axial tilt ($\varepsilon_x ≠ 0$), it *will* have an axial precession period.
