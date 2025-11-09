@@ -11,7 +11,7 @@ A **geometric orientation event** in which a planet’s rotational axis attains 
   One quarter of a planet’s orbital period (denoted $Q_0, Q_1, Q_2, Q_3$); a **non-climatological “quartal.”**  
     A quartum is a **temporal span**, not a spatial angle — a section of the orbit *traversed through time* between two successive chronal stations.
 
-**Tempostat** —\
+**Tempostat** —
 The **onset event** of the first quartum following periapsis; marks the temporal origin of the planet’s annual cycle.
 * Defined by its **chronex (ζ)** — the true anomaly of the planet at the moment the first axial station occurs post-periapsis.
 * The tempostat is an *event*, not a variable; it establishes the chromum’s temporal phase reference.

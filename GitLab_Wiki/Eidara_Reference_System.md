@@ -144,8 +144,13 @@ From this process we arrive at the following known parameters:
   - $D = N = 1.1$ AU
 - Calculated Orbital Period (Chronum; $\chi$)
     - $\chi = 1.125$ years
-    - $\chi_d = 411.041$ days
+    - $\chi_d = 410.9134$ days
 - Obliquity: $\varepsilon_{27}$
+- Chronex: $\zeta = 35^\circ$
+- Orbital Eccentricity:
+  - $e = 0.050$
+- Precession Span:
+  - $\psi = ?$
 
 ### Eikon
 - Calculated Parameters

@@ -1,6 +1,6 @@
 ---
 title: "Orbits-4 — Kepler’s Eccentric Anomaly Method"
-summary: Step-by-step procedure for estimating seasonal durations using Kepler’s relations between true, eccentric, and mean anomalies.
+summary: Step-by-step procedure for estimating quartal durations using Kepler’s relations between true, eccentric, and mean anomalies.
 domain: metric
 category: methods
 status: canonical
@@ -9,9 +9,9 @@ updated: 2025-11-06
 contributors: [M. Conrad, GPT-5]
 ---
 
-## 1 · Context and Purpose
+# 1 · Context and Purpose
 
-The **Eccentric Anomaly Method** provides a geometric and temporal framework for estimating **seasonal durations** on worlds whose orbits are **non-circular**.
+The **Eccentric Anomaly Method** provides a geometric and temporal framework for estimating **quartal durations** on worlds whose orbits are **non-circular**.
 
 In the *World Crafting Basics* system, it serves as the **canonical procedure** for converting a planet’s **orbital geometry** into **time fractions** of its *chronum* — the sidereal year.
 
@@ -33,25 +33,20 @@ By pairing **Kepler’s geometry** with **WCB’s chronum–quartum framework**,
 ## 2 · Vocabulary
 
 - **Chronum** *($\chi$)* —  
-  One complete sidereal orbit; the planet’s **year** expressed in diurns.  
+  One complete sidereal orbit; the planet’s **year** expressed in diurns.
 
+- **Station (Chronal)** *($\varsigma_n$)* —
+A **geometric orientation event** in which a planet’s rotational axis attains one of four characteristic alignments relative to its star, *as viewed from above the planet’s right-hand-rule north pole*. 
+- Each **station** ($\varsigma_n$) corresponds to an **axial alignment angle** ($Ⲁ_n$) separated by 90° in orbital longitude, marking a **temporal node** that bounds successive quarta within a chromum.
+  
 - **Quartum** *(pl. quarta)* —  
   One quarter of a planet’s orbital period (denoted $Q_0, Q_1, Q_2, Q_3$); a **non-climatological “season.”**  
     A quartum is a **temporal span**, not a spatial angle — a section of the orbit *traversed through time* between two successive chronal stations.
+  - Quartum₀ begins with the tempostat (q.v.), and ends with the onset of the next chronal station.
 
-  - **Quarta** ($Q_n$) are **successive spans of motion** between those angles:
-  
-$$
-    Quartum_n = [\nu_n,\; \nu_{n+1})
-$$
-
-— forming four temporal intervals that together complete the chronum.  
-
-Thus, the true anomalies define **where** each quartum begins, while the quarta themselves describe **how long** each orbital segment lasts.  
-
-- **Tempostat** *($t$)* —  
+- **Tempostat** —  
   The **onset of the first quartum** following periapsis; marks the temporal origin of the planet’s annual cycle.  
-  - This need not correspond to a “spring” or vernal point for any given hemisphere — it is purely orbital and axial, not seasonal, in definition.  
+  - This need not correspond to a “spring” or vernal point for any given hemisphere — it is purely orbital and axial, not quartal, in definition.  
 
 - **Chronex** *($\zeta$)* —  
   The **true anomaly** of the tempostat.  
@@ -60,11 +55,9 @@ Thus, the true anomalies define **where** each quartum begins, while the quarta 
   Describes how far the orbit departs from circularity (0 = circle, < 1 = ellipse).  
 
 - **True Anomaly** *($\nu$)* —  
-  The **spatial angle** between periapsis and the planet’s actual position, measured from the system’s focus.  
-  Each **true anomaly** ($\nu$) defines a **cardinal boundary** between quarta — the concentric angular coordinates that partition the orbit into four temporal spans.  
-
-  - Every point along an orbit has a distinct true anomaly.  
-    The true-anomaly measures of the four quarta are denoted $Ⲁ_0, Ⲁ_1, Ⲁ_2,\;\text{and}\; Ⲁ_3$, calculated by:
+  The **spatial angle** between periapsis and the planet’s actual position, measured from the system’s focus.
+Some true anomalies are associated with specific locations on the orbit where significant geometric transisions occur, but every position of a planet along its orbital path corresponds to a specific true-anomaly angle.
+  - The true-anomaly measures of the four quarta are denoted $Ⲁ_0, Ⲁ_1, Ⲁ_2,\;\text{and}\; Ⲁ_3$, calculated by:
 
 $$
     Ⲁ_n = (\zeta + 90n) \bmod 360
@@ -72,7 +65,7 @@ $$
  — where *n* is the **index of the quartum**.
 
 - **Eccentric Anomaly** *($E_n$)* —  
-  The **geometric angle** measured at the ellipse’s center to the projected point on its circumscribed circle; it simplifies Kepler’s relations, generally denoted $E$, but the eccentric anomalies of the four quarta are denoted $E_0, E_1, E_2,$ and $E_3$.
+  The **geometric angle** measured at the ellipse’s center to the projected point on its circumscribed circle; it simplifies Kepler’s relations and is generally denoted $E$, but the eccentric anomalies of the four quarta are denoted $E_0, E_1, E_2,$ and $E_3$.
 
 $$
 \begin{gathered}
@@ -80,8 +73,9 @@ E_n = 2 \arctan \!\left( \xi \;\tan \frac{\nu_n}{2} \right), \qquad
 \nu_n = 2 \arctan \!\left( \frac{1}{\xi} \;\tan \frac{E_n}{2} \right)
 \end{gathered}
 $$
+*All angular measures in WCB are expressed in degrees unless otherwise specificially noted.*
 
-- This represents an **algebraic frame-shift** that permits calculation of the **mean anomaly** ($M^{\!\theta}$) by projecting the *true anomaly* onto the circumscribed reference circle.  
+- This represents an **algebraic frame-shift** that permits calculation of the **mean anomaly** ($\textit{Ⳁ}_n$) of a given quartum by projecting the *true anomaly* onto the circumscribed reference circle.
 
 - **Mean Anomaly** *($\textit{Ⳁ}_n$)* —  
   The **temporal angle** that increases uniformly with time, defining a constant angular rate around the orbit.  
@@ -91,7 +85,7 @@ $$
 \textit{Ⳁ}_n = \frac{(E_n - e\,\sin E_n) \bmod 360}{360}
 $$
 
-  …translates the varying orbital motion into a **uniform time variable**, allowing direct calculation of how much of the year has elapsed at any given point on the ellipse.  It represents the planet’s position as if it moved at steady speed along a circular path, providing a linear measure of elapsed orbital time.
+  This translates the varying orbital motion into a **uniform time variable**, allowing direct calculation of how much of the chronum has elapsed at any given point on the ellipse.  It represents the planet’s position as if it moved at steady speed along a circular path, providing a linear measure of elapsed orbital time.
 
 > Note that $E_n$ **cannot** easily be back-calculated from $\textit{Ⳁ}_n$!
 
@@ -105,17 +99,17 @@ $$
 
 - **Obliquity** *($\varepsilon$)* —  
   The **axial tilt** between a planet’s spin vector and the normal to its orbital plane.  
- -  It governs the **intensity and polarity** of insolation across hemispheres, affecting climatic seasons but not the geometric quarta themselves.
+-  It governs the **intensity and polarity** of insolation across hemispheres, affecting climatic seasons but not the geometric quarta themselves.
 
-**Station (Chronal)** *($ς\_n$)* —
-A **geometric orientation event** in which a planet’s rotational axis attains one of four characteristic alignments relative to its star, *as viewed from above the planet’s right-hand-rule north pole*. 
-- Each **station** ($ς\_n$) corresponds to an **axial alignment angle** ($Ⲁ\_n$) separated by 90° in orbital longitude, marking a **temporal node** that bounds successive quarta within a chromum.
+- **Prime Solstice** —  
+  The moment in a planet’s chromum when its rotational axis is tilted **directly away** from the star, as viewed from above the planet’s right-hand-rule north pole.  
+  - It marks the **maximum negative tilt** of the northern hemisphere relative to the star and serves as the reference orientation for defining chronal stations and obliquity-based chronal events.
 
-> *Italicized variables are scalar; boldface (not used here) would denote vector quantities.*
+These quantities together define the **Kepler frame** — the bridge between spatial geometry and temporal rhythm in the chromum.
 
-## Eccentric Anomaly Conversion (Kepler’s Method)
+# Eccentric Anomaly Conversion (Kepler’s Method)
 
-## 1 · Identify Key Quantities
+## 1. Identify Key Quantities
 
 Before beginning the conversion, identify the following key quantities:
 
@@ -123,122 +117,101 @@ Before beginning the conversion, identify the following key quantities:
   - *Note:* a planet with no tilt ($\varepsilon = 0$) experiences no seasons — and therefore no quarta — in the usual sense. Proceeding further in such a case is non-productive.  
 - **$e$** — orbital **eccentricity**, describing how far the planet’s orbit departs from circularity.  
 - **$\zeta$** — the **chronex**, the true-anomaly angle of the first cardinal event (*tempostat*) to occur after the planet passes periapsis.  
-- **$\chi$** — the planet’s **chronum**, its sidereal orbital period (best expressed in diurns or days).  
+- **$\chi$** — the planet’s **chronum**, its sidereal orbital period, best expressed in diurns (days).  
 
 ### How do I determine my planet’s *chronex*?
 
 You choose it — but the choice shapes the rhythm of the world’s year. Consider the following:
 
-**A.** Which quartum (“season”) do you want to begin **less than $45^\circ$ after periapsis**?  
+**A.** Which quartum (“season”) do you want to begin **less than $90^\circ$ after periapsis**?  
 That is your *tempostat.*  
-> *Note:* if you set $\zeta ≥ 45^\circ$, your tempostat actually falls in the **preceding quartum.**
+> **Requirement:**  
+> The chronex must fall within the first 90° of true anomaly after periapsis $(\zeta < 90°).$  
+> This ensures that the tempostat — the first chronal station following periapsis — anchors the start of the chromum correctly.
+
+If you’re designing a world from its quartal behavior outward, start by deciding **which quartum you want a particular season to occupy.**  From that, work backward to locate the first chronal station after periapsis — this determines **ζ**, the chronex of the tempostat. *(See the next section for calculation steps.)*
+
+> **Requirement:**  
+> The chronex must fall within the first 90° of true anomaly after periapsis ($\zeta < 90°$).  
+> This ensures that the tempostat — the first chronal station following periapsis — properly anchors the start of the chromum.
 
 **B.** The specific quartum you choose matters only insofar as it determines how the **fractions of the chronum** are distributed among the quarta.
 
-If you want, for example, “summer” in the northern hemisphere to be the **longest** season, that requirement alone determines your chronex: place the *tempostat* such that the longest quartum (by definition $Q_2$) aligns with northern summer.
+Sorted by duration, shortest-to-longest, the quarta are:
+- **$Q_3$** — periapsis always falls in this quartum  
+- **$Q_2$**  
+- **$Q_0$**  
+- **$Q_1$** — apoapsis always falls in this quartum  
 
-## Eccentric Anomaly (E)
+Thus, if you want your planet’s northern hemisphere summer to be the longest season, design its orbital geometry so that the *prime solstice* occurs during **$Q_3$** — the periaptic quartum.
 
-The **eccentric anomaly**, $E$, is an angular coordinate that describes a body’s position along an **elliptical orbit** in a way that keeps Kepler’s equation simple.
+## 2. Calculate Quarta ($Q_n$)
 
-Imagine a circle drawn around the ellipse with the same center and major axis. If you project the planet’s position *up* to that circle by a line drawn perpendicular to the major axis, the angle at the center of the ellipse between that line and the direction of periastron is the **eccentric anomaly**.
-
-In other words:
-
-- The *true anomaly* ($ν$) is the angle measured **at the focus** — from periastron to the planet itself.  
-- The *eccentric anomaly* ($E$) is measured **at the center** — from periastron to the projected point on the reference circle.  
-- The *mean anomaly* ($M$) increases uniformly with time and connects to $E$ through Kepler’s Equation:
+### Step 1 — Calculate The Eccentric Tangent Factor ($\xi$)
 
 $$
-M^\theta = \frac{E - e\,\sin E}{360}
+\xi = \sqrt{\frac{1 - e}{1 + e}}
 $$
 
-The eccentric anomaly acts as the mathematical bridge between the **uniform time variable** ($M$) and the **actual orbital position** ($ν$). 
-It allows us to calculate how much of the orbital period has elapsed at any given geometric position — even when the orbit is not circular.
-
-
-### Step 1 — Choose True Anomalies
-Pick the true anomalies ($\nu$) for the four seasonal markers, offset by obliquity orientation $\zeta$:
+### Step 2 — Calculate True Anomalies of the Chronal Stations
+Calculate the true anomalies ($Ⲁ_n$) for the four quartal markers, offset by the chronex of the tempostat $\zeta$:
 
 $$
 \begin{aligned}
-&\nu = (\zeta + 90n) \bmod 360 \\[$$1em]
+&Ⲁ_n = (\zeta + 90n) \bmod 360 \\[1em]
 &\begin{cases}
-n = 0; \;\text{spring equinox} \\
-n = 1; \;\text{summer solstice} \\
-n = 2; \;\text{autumn equinox} \\
-n = 3; \;\text{winter solstice} \\
+n = 0; \;\text{Quartum₀} \\
+n = 1; \;\text{Quartum₁} \\
+n = 2; \;\text{Quartum₂} \\
+n = 3; \;\text{Quartum₃} \\
 \end{cases}
 \end{aligned}
 $$
 
-### Step 2 — Calculate The Eccentric Tangent Factor ($\xi$)
-
-$$
-\xi = \sqrt{\frac{1 - e}{1 + e}}, \qquad \xi^{-1} = \sqrt{\frac{1 + e}{1 - e}} \\
-
-$$
-
-### Step 3 — Convert to Eccentric Anomaly
-For each $\nu$, compute the eccentric anomaly $E$:
+### Step 3 — Convert the True Anomalies to Eccentric Anomalies
+For each $Ⲁ_n$, compute the eccentric anomaly $E_n$:
 
 $$
 \begin{aligned}
-E &= 2 \arctan \!\left( \xi \;\tan \frac{\nu}{2} \right)
+E_n &= 2 \arctan \!\left( \xi \;\tan \frac{Ⲁ_n}{2} \right) \\[1em]
+Ⲁ_n &= 2 \arctan \!\left( \frac{1}{\xi}\;\tan \frac{E_n}{2}\right) \qquad \text{Inverse Relation}
 \end{aligned}
 $$
-
-*The inverse relation, useful when converting from eccentric to true anomaly, is:*
-
+*All angular measures in WCB are expressed in degrees unless otherwise specificially noted.*
 
 ### Step 4 — Convert to Mean Anomaly
-
-Translate $E$ into mean anomaly $M$, which grows linearly with time:
-
-$$
-M = E - e \sin E
-$$
-### Step 5 — Find Season Fractions
-
-Once you have the mean anomalies for each seasonal marker:
+Translate each $E_n$ into mean anomaly $\textit{Ⳁ}_n$, which grows linearly with time:
 
 $$
-\begin{aligned}
-&M_\text{spring} \\
-&M_\text{summer} \\
-&M_\text{autumn} \\
-&M_\text{winter} 
-\end{aligned}
+\textit{Ⳁ}_n = \frac{E_n - (e \sin E_n)}{360}
 $$
 
-subtract them in sequence to get the fractional year lengths:
+The resulting mean anomalies ($\textit{Ⳁ}\_n$) represent the fractional progress through the chronum at each chronal station.  The differences between successive values yield the four quartal durations.
+
+### Step 5 — Find Chronal Fractions ($f_n$)
+Once you have the mean anomalies for each quartal marker, subtract them in sequence to get the fractional year lengths:
 
 $$
 \begin{aligned}
-f_\text{spring} &= \frac{M_\text{summer} - M_\text{spring}}{2\pi} \\[6pt]
-f_\text{summer} &= \frac{M_\text{autumn} - M_\text{summer}}{2\pi} \\[6pt]
-f_\text{autumn} &= \frac{(M_\text{winter}+2\pi) - M_\text{autumn}}{2\pi} \\[6pt]
-f_\text{winter} &= \frac{M_\text{spring} - M_\text{winter}}{2\pi}
+f_0 &= \textit{Ⳁ}_1 - \textit{Ⳁ}_0 \\[6pt]
+f_1 &= \textit{Ⳁ}_2 - \textit{Ⳁ}_1 \\[6pt]
+f_2 &= \textit{Ⳁ}_3 - \textit{Ⳁ}_2 \\[6pt]
+f_3 &= 1 + \textit{Ⳁ}_4 - \textit{Ⳁ}_3
 \end{aligned}
 $$
 
 Where:  
-- Each $f$ = fraction of the year occupied by that season.  
-- The denominator $2\pi$ normalizes the full orbit to 1.  
-- The $+2\pi$ in the autumn term closes the loop back to the next winter.
+- Each $f_n$ = fraction of the year occupied by that quartum.  
 
 ### Step 6 — Scale to Year Length
 
 Multiply each fraction by the chronum ($\chi$) to convert fractions into diurns:
 
 $$
-\begin{gathered}
-\Delta t_\text{spring} = f_\text{spring}\,\chi, \\
-\Delta t_\text{summer} = f_\text{summer}\,\chi, \\
-\Delta t_\text{autumn} = f_\text{autumn}\,\chi, \\
-\Delta t_\text{winter} = f_\text{winter}\,\chi
-\end{gathered}
+Q_n = \chi \times f_n
 $$
+
+These $Q_n$ values represent the lengths of the four quarta — the unequal segments of the chromum defined by the planet’s orbital eccentricity and tempostatic orientation.
 
 #### Worked Example: Earth (Kepler’s Method, Sidereal Year)
 
@@ -248,7 +221,7 @@ Given:
 - $e = 0.0167$  
 
 **Step 1 — True Anomalies**
-Seasonal markers from $\zeta = 0^\circ$:  
+Quartal markers from $\zeta = 0^\circ$:  
 
 $$
 \nu = (\zeta + 90n) \bmod 360
@@ -272,7 +245,7 @@ $$
 $$
 M = E - e \sin E
 $$
-This gives the “time angle” at each seasonal marker.
+This gives the “time angle” at each quartal marker.
 
 **Step 4 — Find Season Fractions**
 Subtract successive $M$ values and normalize by $2\pi$:  
@@ -342,7 +315,7 @@ Given:
 - $e = 0.05$  
 
 **Step 1 — True Anomalies**
-Seasonal markers from $\zeta = 180^\circ$:  
+Quartal markers from $\zeta = 180^\circ$:  
 
 $$
 \begin{gathered}
@@ -424,6 +397,6 @@ The Kepler method and sinusoidal shortcut agree closely for Rosetta, but Kepler 
 - Winter is slightly shorter, summer slightly longer, compared to the sinusoidal baseline.  
 - Spring and autumn remain nearly identical.  
 
-With Rosetta’s higher eccentricity ($e = 0.05$), the **seasonal spread is extreme** — from 107 d to 139 d — a difference of over 30 diurns.  
+With Rosetta’s higher eccentricity ($e = 0.05$), the **quartal spread is extreme** — from 107 d to 139 d — a difference of over 30 diurns.  
 
 This is exactly the kind of asymmetry you would expect on a world with such an orbit, and it needs **no fudge at all**.
