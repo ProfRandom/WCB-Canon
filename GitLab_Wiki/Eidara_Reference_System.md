@@ -53,7 +53,7 @@ $$
 	v_e &= \sqrt{\frac{m}{r}} = 1.015
 \end{aligned}
 $$
-We cannot calculate the orbital period (Chronum; $C$) for Eidara by without knowing the mass of the star, because:
+We cannot calculate the orbital period (Chronum; $\chi$) for Eidara by without knowing the mass of the star, because:
 
 $$
 	P = \sqrt{\frac{D^3}{\mathbf{M} + m\odot}}
@@ -146,8 +146,6 @@ From this process we arrive at the following known parameters:
     - $\chi = 1.125$ years
     - $\chi_d = 411.041$ days
 - Obliquity: $\varepsilon_{27}$
-
-
 
 ### Eikon
 - Calculated Parameters

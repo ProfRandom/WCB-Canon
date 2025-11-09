@@ -17,7 +17,7 @@ In the *World Crafting Basics* system, it serves as the **canonical procedure** 
 
 In any elliptical orbit, the planet’s orbital speed varies: it moves **faster near periapsis** (closest to the star) and **slower near apoapsis** (farthest away).
 
-Because of this, the four “seasons” or **quarta** — equal in angular measure but not in orbital time — do not occupy equal fractions of the year.  Where Kepler observed that planets sweep out *equal areas in equal times*, we might invert the insight to say that they traverse *equal distances in unequal times*.  This inversion reframes orbital mechanics from a geometric principle into an experiential one: a rhythm of motion that shapes the tempo of a world’s year.
+Because of this, the four “seasons” or **quarta** do not occupy equal fractions of the year.  Where Kepler observed that planets sweep out *equal areas in equal times*, we might invert the insight to say that they traverse *equal distances in unequal times*.  This inversion reframes orbital mechanics from a geometric principle into an experiential one: a rhythm of motion that shapes the tempo of a world’s year.
 
 The difference in season length arises purely from the **eccentricity** of the orbit, independent of axial tilt or climate.
 
@@ -32,14 +32,12 @@ By pairing **Kepler’s geometry** with **WCB’s chronum–quartum framework**,
 
 ## 2 · Vocabulary
 
-- **Chronum** *($C$)* —  
+- **Chronum** *($\chi$)* —  
   One complete sidereal orbit; the planet’s **year** expressed in diurns.  
 
 - **Quartum** *(pl. quarta)* —  
-  One quarter of a planet’s orbital period; a **non-climatological “season.”**  
-  Each quartum spans one-fourth of the chronum (≈ 90° in true anomaly).  
-  A quartum is a **temporal span**, not a spatial angle — a section of the orbit
-  *traversed through time* between two successive true anomalies.
+  One quarter of a planet’s orbital period (denoted $Q_0, Q_1, Q_2, Q_3$); a **non-climatological “season.”**  
+    A quartum is a **temporal span**, not a spatial angle — a section of the orbit *traversed through time* between two successive chronal stations.
 
   - **Quarta** ($Q_n$) are **successive spans of motion** between those angles:
   
@@ -51,25 +49,25 @@ $$
 
 Thus, the true anomalies define **where** each quartum begins, while the quarta themselves describe **how long** each orbital segment lasts.  
 
-- **Tempostat** —  
+- **Tempostat** *($t$)* —  
   The **onset of the first quartum** following periapsis; marks the temporal origin of the planet’s annual cycle.  
-  - This need not correspond to a “spring” or vernal point for any given hemisphere — it is purely orbital, not seasonal, in definition.  
+  - This need not correspond to a “spring” or vernal point for any given hemisphere — it is purely orbital and axial, not seasonal, in definition.  
 
 - **Chronex** *($\zeta$)* —  
-  The **true anomaly** of the tempostat — the orbital coordinate of the first post-periapsis quartal event.  
+  The **true anomaly** of the tempostat.  
 
 - **Eccentricity** *($e$)* —  
   Describes how far the orbit departs from circularity (0 = circle, < 1 = ellipse).  
 
-- **True Anomaly** *($\nu_n$)* —  
+- **True Anomaly** *($\nu$)* —  
   The **spatial angle** between periapsis and the planet’s actual position, measured from the system’s focus.  
-  Each **true anomaly** ($\nu_n$) defines a **cardinal boundary** between quarta — the concentric angular coordinates that partition the orbit into four temporal spans.  
+  Each **true anomaly** ($\nu$) defines a **cardinal boundary** between quarta — the concentric angular coordinates that partition the orbit into four temporal spans.  
 
   - Every point along an orbit has a distinct true anomaly.  
-    The true-anomaly measures of the four quarta are denoted $\nu_0, \nu_1, \nu_2,$ and $\nu_3$, calculated by:
+    The true-anomaly measures of the four quarta are denoted $Ⲁ_0, Ⲁ_1, Ⲁ_2,\;\text{and}\; Ⲁ_3$, calculated by:
 
 $$
-    \nu_n = (\zeta + 90n) \bmod 360
+    Ⲁ_n = (\zeta + 90n) \bmod 360
 $$
  — where *n* is the **index of the quartum**.
 
@@ -109,7 +107,9 @@ $$
   The **axial tilt** between a planet’s spin vector and the normal to its orbital plane.  
  -  It governs the **intensity and polarity** of insolation across hemispheres, affecting climatic seasons but not the geometric quarta themselves.
 
-
+**Station (Chronal)** *($ς\_n$)* —
+A **geometric orientation event** in which a planet’s rotational axis attains one of four characteristic alignments relative to its star, *as viewed from above the planet’s right-hand-rule north pole*. 
+- Each **station** ($ς\_n$) corresponds to an **axial alignment angle** ($Ⲁ\_n$) separated by 90° in orbital longitude, marking a **temporal node** that bounds successive quarta within a chromum.
 
 > *Italicized variables are scalar; boldface (not used here) would denote vector quantities.*
 
@@ -215,10 +215,10 @@ subtract them in sequence to get the fractional year lengths:
 
 $$
 \begin{aligned}
-f_\text{spring} &= \frac{M_\text{summer} - M_\text{spring}}{2\pi} [6pt]
-f_\text{summer} &= \frac{M_\text{autumn} - M_\text{summer}}{2\pi} [6pt]
-f_\text{autumn} &= \frac{(M_\text{winter}+2\pi) - M_\text{autumn}}{2\pi} [6pt]
-f_\text{winter} &= \frac{M_\text{spring} - M_\text{winter}}{2\pi} [6pt]
+f_\text{spring} &= \frac{M_\text{summer} - M_\text{spring}}{2\pi} \\[6pt]
+f_\text{summer} &= \frac{M_\text{autumn} - M_\text{summer}}{2\pi} \\[6pt]
+f_\text{autumn} &= \frac{(M_\text{winter}+2\pi) - M_\text{autumn}}{2\pi} \\[6pt]
+f_\text{winter} &= \frac{M_\text{spring} - M_\text{winter}}{2\pi}
 \end{aligned}
 $$
 
