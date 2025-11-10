@@ -1,4 +1,4 @@
-### Special Cases and Degeneracies
+### Special Cases and Degeneracies (DEPRECATED)
 $$
 \begin{array}{l l l}
 	\textbf{Case} & \textbf{Meaning} & \textbf{Effect on N} \\

@@ -35,9 +35,9 @@ By pairing **Kepler’s geometry** with **WCB’s chronum–sectal framework**, 
 - **Chronum** *($\chi$)* —  
   One complete sidereal orbit; the planet’s **year** expressed in diurns.
 
-- **Station (Chronal)** *($\varsigma_n$)* —
+- **Station (Chronal)** *($ϛ_n$)* —
 A **geometric orientation event** in which a planet’s rotational axis attains one of four characteristic alignments relative to its star, *as viewed from above the planet’s right-hand-rule north pole*. 
-- Each **station** ($\varsigma_n$) corresponds to an **axial alignment angle** ($Ⲁ_n$) separated by 90° in orbital longitude, marking a **temporal node** that bounds successive secta within a chromum.
+- Each **station** ($ϛ_n$) corresponds to an **axial alignment angle** ($Ⲁ_n$) separated by 90° in orbital longitude, marking a **temporal node** that bounds successive secta within a chromum.
   
 - **Sectal** *(pl. secta)* —  
   One quarter of a planet’s orbital period (denoted $S_0, S_1, S_2, S_3$); a **non-climatological “season.”**  
@@ -145,7 +145,7 @@ Sorted by duration, shortest-to-longest, the secta are:
 
 Thus, if you want your planet’s northern hemisphere summer to be the longest season, design its orbital geometry so that the *prime solstice* occurs during **$S_3$** — the periaptic sectal.
 
-## 2. Calculate Quarta ($S_n$)
+## 2. Calculate Secta ($Ⲁ_n$)
 
 ### Step 1 — Calculate The Eccentric Tangent Factor ($\xi$)
 
@@ -158,7 +158,7 @@ Calculate the true anomalies ($Ⲁ_n$) for the four sectal markers, offset by th
 
 $$
 \begin{aligned}
-&Ⲁ_n = (\zeta + 90n) \bmod 360 \\[1em]
+&ϛ_n = (\zeta + 90n) \bmod 360 \\[1em]
 &\begin{cases}
 n = 0; \;\text{Sectal₀} \\
 n = 1; \;\text{Sectal₁} \\
@@ -173,8 +173,8 @@ For each $Ⲁ_n$, compute the eccentric anomaly $E_n$:
 
 $$
 \begin{aligned}
-E_n &= 2 \arctan \!\left( \xi \;\tan \frac{Ⲁ_n}{2} \right) \\[1em]
-Ⲁ_n &= 2 \arctan \!\left( \frac{1}{\xi}\;\tan \frac{E_n}{2}\right) \qquad \text{Inverse Relation}
+E_n &= 2 \arctan \!\left( \xi \;\tan \frac{ϛ_n}{2} \right) \\[1em]
+ϛ_n &= 2 \arctan \!\left( \frac{1}{\xi}\;\tan \frac{E_n}{2}\right) \qquad \text{Inverse Relation}
 \end{aligned}
 $$
 *All angular measures in WCB are expressed in degrees unless otherwise specificially noted.*
@@ -188,20 +188,20 @@ $$
 
 The resulting mean anomalies ($\textit{Ⳁ}\_n$) represent the fractional progress through the chronum at each chronal station.  The differences between successive values yield the four sectal durations.
 
-### Step 5 — Find Chronal Fractions ($f_n$)
+### Step 5 — Calculate the Sectal Durations ($ɣ_n$)
 Once you have the mean anomalies for each sectal marker, subtract them in sequence to get the fractional year lengths:
 
 $$
 \begin{aligned}
-f_0 &= \textit{Ⳁ}_1 - \textit{Ⳁ}_0 \\[6pt]
-f_1 &= \textit{Ⳁ}_2 - \textit{Ⳁ}_1 \\[6pt]
-f_2 &= \textit{Ⳁ}_3 - \textit{Ⳁ}_2 \\[6pt]
-f_3 &= 1 + \textit{Ⳁ}_4 - \textit{Ⳁ}_3
+ɣ_0 &= \textit{Ⳁ}_1 - \textit{Ⳁ}_0 \\[6pt]
+ɣ_1 &= \textit{Ⳁ}_2 - \textit{Ⳁ}_1 \\[6pt]
+ɣ_2 &= \textit{Ⳁ}_3 - \textit{Ⳁ}_2 \\[6pt]
+ɣ_3 &= 1 + \textit{Ⳁ}_4 - \textit{Ⳁ}_3
 \end{aligned}
 $$
 
 Where:  
-- Each $f_n$ = fraction of the year occupied by that sectal.  
+- Each $ɣ_n$ = fraction of the year occupied by that sectal.  
 
 ### Step 6 — Scale to Year Length
 
@@ -400,3 +400,6 @@ The Kepler method and sinusoidal shortcut agree closely for Rosetta, but Kepler 
 With Rosetta’s higher eccentricity ($e = 0.05$), the **sectal spread is extreme** — from 107 d to 139 d — a difference of over 30 diurns.  
 
 This is exactly the kind of asymmetry you would expect on a world with such an orbit, and it needs **no fudge at all**.
+
+
+$333^\triangledown$

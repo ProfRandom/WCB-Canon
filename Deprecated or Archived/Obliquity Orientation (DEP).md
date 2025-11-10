@@ -1,4 +1,4 @@
-## Obliquity Orientation ($\zeta$)
+## Obliquity Orientation (DEPRECATED) ($\zeta$)
 
 The *obliquity orientation* defines the orbital longitude where the planet’s northern hemisphere is tilted directly away from its star.  
 If this occurs at **periastron**, then $\zeta = 0^\circ$.
