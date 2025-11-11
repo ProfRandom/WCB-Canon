@@ -35,10 +35,6 @@ By pairing **Kepler’s geometry** with **WCB’s chronum–sectal framework**, 
 - **Chronum** *($\chi$)* —  
   One complete sidereal orbit; the planet’s **year** expressed in diurns.
 
-- **Station (Chronal)** *($ϛ_n$)* —
-A **geometric orientation event** in which a planet’s rotational axis attains one of four characteristic alignments relative to its star, *as viewed from above the planet’s right-hand-rule north pole*. 
-- Each **station** ($ϛ_n$) corresponds to an **axial alignment angle** ($Ⲁ_n$) separated by 90° in orbital longitude, marking a **temporal node** that bounds successive secta within a chromum.
-  
 - **Sectal** *(pl. secta)* —  
   One quarter of a planet’s orbital period (denoted $S_0, S_1, S_2, S_3$); a **non-climatological “season.”**  
     A sectal is a **temporal span**, not a spatial angle — a section of the orbit *traversed through time* between two successive chronal stations.
@@ -69,8 +65,8 @@ $$
 
 $$
 \begin{gathered}
-E_n = 2 \arctan \!\left( \xi \;\tan \frac{\nu_n}{2} \right), \qquad
-\nu_n = 2 \arctan \!\left( \frac{1}{\xi} \;\tan \frac{E_n}{2} \right)
+E_n = 2 \arctan \!\left( \xi \;\tan \frac{Ⲁ_n}{2} \right), \qquad
+Ⲁ_n = 2 \arctan \!\left( \frac{1}{\xi} \;\tan \frac{E_n}{2} \right)
 \end{gathered}
 $$
 *All angular measures in WCB are expressed in degrees unless otherwise specificially noted.*
@@ -158,7 +154,7 @@ Calculate the true anomalies ($Ⲁ_n$) for the four sectal markers, offset by th
 
 $$
 \begin{aligned}
-&ϛ_n = (\zeta + 90n) \bmod 360 \\[1em]
+&Ⲁ_n = (\zeta + 90n) \bmod 360 \\[1em]
 &\begin{cases}
 n = 0; \;\text{Sectal₀} \\
 n = 1; \;\text{Sectal₁} \\
@@ -173,8 +169,8 @@ For each $Ⲁ_n$, compute the eccentric anomaly $E_n$:
 
 $$
 \begin{aligned}
-E_n &= 2 \arctan \!\left( \xi \;\tan \frac{ϛ_n}{2} \right) \\[1em]
-ϛ_n &= 2 \arctan \!\left( \frac{1}{\xi}\;\tan \frac{E_n}{2}\right) \qquad \text{Inverse Relation}
+E_n &= 2 \arctan \!\left( \xi \;\tan \frac{Ⲁ_n}{2} \right) \\[1em]
+Ⲁ_n &= 2 \arctan \!\left( \frac{1}{\xi}\;\tan \frac{E_n}{2}\right) \qquad \text{Inverse Relation}
 \end{aligned}
 $$
 *All angular measures in WCB are expressed in degrees unless otherwise specificially noted.*
@@ -209,7 +205,7 @@ Where:
 Multiply each fraction by the chronum ($\chi$) to convert fractions into diurns:
 
 $$
-S_n = \chi\, \gamma_n
+S_n = \chi \cdot \gamma_n
 $$
 
 These $S_n$ values represent the lengths of the four secta — the **unequal** segments of the chromum defined by the planet’s orbital eccentricity and tempostatic orientation.
@@ -225,12 +221,12 @@ Given:
 Sectal markers from $\zeta = 33^\circ$:  
 
 $$
-ϛ_n = (\zeta + 90n) \bmod 360 \qquad
+Ⲁ_n = (\zeta + 90n) \bmod 360 \qquad
 \begin{cases}
-n = 0 & ϛ_0 = 33^\circ \\
-n = 1 & ϛ_1 = 123^\circ \\
-n = 2 & ϛ_2 = 213^\circ \\
-n = 3 & ϛ_3 = 303^\circ
+n = 0 & Ⲁ_0 = 33^\circ \\
+n = 1 & Ⲁ_1 = 123^\circ \\
+n = 2 & Ⲁ_2 = 213^\circ \\
+n = 3 & Ⲁ_3 = 303^\circ
 \end{cases}
 $$
 > Note that these are not associated with any particular "season" at this time, they are just geometric divisions of the orbit.
@@ -239,7 +235,7 @@ $$
 Kepler’s orbit runs faster near periapsis and slower near apoapsis, so we next translate the true anomalies into **eccentric anomalies**, which measure angles on the auxiliary circle.
 
 $$
-E_n = 2 \arctan \!\left( \xi \;\tan \dfrac{ϛ_n}{2} \right) \qquad
+E_n = 2 \arctan \!\left( \xi \;\tan \dfrac{Ⲁ_n}{2} \right) \qquad
 \begin{cases}
 E_0 = 19.4^\circ \\
 E_1 = 93.5^\circ \\
