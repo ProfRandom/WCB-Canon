@@ -27,10 +27,10 @@ We begin with two known parameters for the planemon:
 
 $$
 \begin{aligned}
-	m &= 1.05\oplus \\[0.5em]
-  \therefore m_\odot &= \frac{m}{333000} = 3.153 \times 10^{-6}\odot \\[0.5em]
-  r &= 1.02\oplus \\[0.5em]
-   &\text{And one known parameter for its orbital axis:} \\[0.5em]
+	m &= 1.05\oplus \\[0.5ex]
+  \therefore m_\odot &= \frac{m}{333000} = 3.153 \times 10^{-6}\odot \\[0.5ex]
+  r &= 1.02\oplus \\[0.5ex]
+   &\text{And one known parameter for its orbital axis:} \\[0.5ex]
   D &= 1.1\; \text{AU}
 \end{aligned}
 $$
@@ -142,19 +142,37 @@ From this process we arrive at the following known parameters:
   - $v_e = 1.015\oplus$
 - Specified Orbit (= to nucleal orbit)
   - $D = N = 1.1$ AU
-- Calculated Orbital Period (Chronum; $\chi$)
+- Calculated Orbital Period (Chrona; $\chi$, $\chi_{trop}$)
     - $\chi = 1.125$ years
     - $\chi_d = 410.9134$ days
-- Obliquity: $\varepsilon_{27}$
-- Chronex: $\zeta = 35^\circ$
+    - $\chi_{trop}$ = 410.8987 days (22ᵐ 57.55ˢ shorter)
+- Obliquity: $\varepsilon = 27^\circ$
+- Tempostat: Primary Equinox
+- Chronex of the Tempostat: $\zeta = 35^\circ$
 - Orbital Eccentricity:
   - $e = 0.050$
 - Precession Span:
-  - $\psi = ?$
+  - $Ϣ = 28994$ years
+- Sectals:
+  - Kepler:
+    - $S_0 = 101.8317$ d (Primary Equinox)
+    - $S_1 = 107.4456$ d (Secondary Solstice)
+    - $S_2 = 103.4658$ d (Primary Equinox)
+    - $S_3 = 98.1706$ d (Primary Solstice)
+  - Sinusoidal:
+    - $S_0 = 110.2306$ d (Primary Equinox)
+    - $S_1 = 113.4427$ d (Secondary Solstice)
+    - $S_2 = 95.2261$ d (Primary Equinox)
+    - $S_3 = 92.0140$ d (Primary Solstice)
+  - Moons: 2
+    - Eis:
+      - Sidereal period: $11.72$ d
+    - Eisen:
+      - Sidereal period: $24.36$ d
 
 ### Eikon
 - Calculated Parameters
-  - $L = N^2 = 1.21\odot$ → Used to calculate $C$ for Eidara
+  - $L = 1.21\odot$ → Used to calculate $\chi$ for Eidara
   - $K = 5916.551$ K
   - $S = \text{G}0.834$
   - $T = 1.025\odot$
@@ -162,3 +180,15 @@ From this process we arrive at the following known parameters:
   - $R = 1.046\odot$
   - $Q = 0.749\odot; 7.49$ Ga
   - $A = 1.017$ AU
+- Basal Orbital Configuration:
+  - Nucleal: $1.1$ AU
+  - Perannual: $1.017$ AU
+- Thermozones:
+  - $H_0 = 0.524$ AU
+  - $H_1 = 0.787$ AU
+  - $H_2 = 0.996$ AU
+    - ($N = 1.1$ AU)
+    - ($A = 1.017$ AU)
+  - $H_3 = 1.453$ AU
+  - $H_4 = 1.856$ AU
+  - $H_5 = 5.087$ AU

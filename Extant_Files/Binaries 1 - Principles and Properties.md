@@ -52,7 +52,7 @@ $$
 ### Total (Overall) Dimensions
 $$
 \begin{aligned}
-\lambda &= \dfrac{1 - e}{1 + e}, \quad \gamma = \dfrac{1 + e}{1 - e} \\[1em]
+\lambda &= \dfrac{1 - e}{1 + e} \qquad \frac{1}{\lambda} = \dfrac{1 + e}{1 - e} \\[1em]
 T_{min} &= A(1 - e)
 = P_{min} + S_{min} = \lambda\;T_{max} \\[1em]
 T_{max} &= A(1 + e)

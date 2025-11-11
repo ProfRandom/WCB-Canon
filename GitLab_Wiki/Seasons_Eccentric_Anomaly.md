@@ -188,218 +188,127 @@ $$
 
 The resulting mean anomalies ($\textit{Ⳁ}\_n$) represent the fractional progress through the chronum at each chronal station.  The differences between successive values yield the four sectal durations.
 
-### Step 5 — Calculate the Sectal Durations ($ɣ_n$)
+### Step 5 — Calculate the Sectal Durations ($\gamma_n$)
 Once you have the mean anomalies for each sectal marker, subtract them in sequence to get the fractional year lengths:
 
 $$
 \begin{aligned}
-ɣ_0 &= \textit{Ⳁ}_1 - \textit{Ⳁ}_0 \\[6pt]
-ɣ_1 &= \textit{Ⳁ}_2 - \textit{Ⳁ}_1 \\[6pt]
-ɣ_2 &= \textit{Ⳁ}_3 - \textit{Ⳁ}_2 \\[6pt]
-ɣ_3 &= 1 + \textit{Ⳁ}_4 - \textit{Ⳁ}_3
+\gamma_0 &= \frac{\textit{Ⳁ}_1 - \textit{Ⳁ}_0}{360} \\[1em]
+\gamma_1 &= \frac{\textit{Ⳁ}_2 - \textit{Ⳁ}_1}{360} \\[1em]
+\gamma_2 &= \frac{\textit{Ⳁ}_3 - \textit{Ⳁ}_2}{360} \\[1em]
+\gamma_3 &= \frac{1 + \textit{Ⳁ}_0 - \textit{Ⳁ}_3}{360}
 \end{aligned}
 $$
 
 Where:  
-- Each $ɣ_n$ = fraction of the year occupied by that sectal.  
+- Each $\gamma =$ fraction of the year occupied by that sectal.
+> The first three differences are straightforward because each $Ⳁ$ increases through the orbit.
+> The *last* subtraction crosses the $360^\circ \rightarrow 0^\circ$  boundary, so we add $1$ (representing $360^\circ$) before subtracting — ensuring the final sectal wraps correctly and the four $\gamma_n$ sum to **1.000** (the whole chronum).
 
 ### Step 6 — Scale to Year Length
-
 Multiply each fraction by the chronum ($\chi$) to convert fractions into diurns:
 
 $$
-S_n = \chi \times f_n
+S_n = \chi\, \gamma_n
 $$
 
-These $S_n$ values represent the lengths of the four secta — the unequal segments of the chromum defined by the planet’s orbital eccentricity and tempostatic orientation.
+These $S_n$ values represent the lengths of the four secta — the **unequal** segments of the chromum defined by the planet’s orbital eccentricity and tempostatic orientation.
 
-#### Worked Example: Earth (Kepler’s Method, Sidereal Year)
-
+# Worked Example
 Given:  
-- $\zeta = 0^\circ$  
-- $\chi = 365.2564$ days (sidereal year)  
-- $e = 0.0167$  
+- $\zeta = 33^\circ$  
+- $\chi = 360$ days (sidereal year)  
+- $e = 0.5$
+  - Note that this is an *extreme* eccentricity, used solely for the purposes of demonstration!  
 
 **Step 1 — True Anomalies**
-Quartal markers from $\zeta = 0^\circ$:  
+Sectal markers from $\zeta = 33^\circ$:  
 
 $$
-\nu = (\zeta + 90n) \bmod 360
-$$
-
-$$
+ϛ_n = (\zeta + 90n) \bmod 360 \qquad
 \begin{cases}
-n = 0 & \nu = 270^\circ & \text{spring equinox} \\
-n = 1 & \nu = 0^\circ & \text{summer solstice} \\
-n = 2 & \nu = 90^\circ & \text{autumn equinox} \\
-n = 3 & \nu = 180^\circ & \text{winter solstice}
+n = 0 & ϛ_0 = 33^\circ \\
+n = 1 & ϛ_1 = 123^\circ \\
+n = 2 & ϛ_2 = 213^\circ \\
+n = 3 & ϛ_3 = 303^\circ
 \end{cases}
 $$
+> Note that these are not associated with any particular "season" at this time, they are just geometric divisions of the orbit.
+ 
 **Step 2 — Convert to Eccentric Anomaly**
+Kepler’s orbit runs faster near periapsis and slower near apoapsis, so we next translate the true anomalies into **eccentric anomalies**, which measure angles on the auxiliary circle.
 
 $$
-E = 2 \arctan \!\left( \sqrt{\tfrac{1-e}{1+e}} \;\tan \tfrac{\nu}{2} \right)
+E_n = 2 \arctan \!\left( \xi \;\tan \dfrac{ϛ_n}{2} \right) \qquad
+\begin{cases}
+E_0 = 19.4^\circ \\
+E_1 = 93.5^\circ \\
+E_2 = 234.8^\circ \\
+E_3 = 325.5^\circ
+\end{cases}
 $$
+> The eccentric anomaly is a *geometric intermediary*: it preserves the orbital geometry but lets us connect angle to time through Kepler’s equation.
+
 **Step 3 — Convert to Mean Anomaly**
+The **mean anomaly ($Ⳁ$)** increases uniformly with time, making it the “clock angle” of the orbit.
+Note the use of the symbol ⛛ here which denotes that these are **temporal angles**, not spatial ones.
 
 $$
-M = E - e \sin E
+Ⳁ_n = E_n - (e \sin E_n) \qquad
+\begin{cases}
+Ⳁ_0 = 19.22^\triangledown \\
+Ⳁ_1 = 92.94^\triangledown \\
+Ⳁ_2 = 234.32^\triangledown \\
+Ⳁ_3 = 325.19^\triangledown
+\end{cases}
 $$
-This gives the “time angle” at each sectal marker.
+
+> These Ⳁ values show *where in time* each station occurs within the chronum.  Notice that the increments between them are **unequal**, reflecting the planet’s varying speed at different times in its journey around its orbit.
 
 **Step 4 — Find Season Fractions**
-Subtract successive $M$ values and normalize by $2\pi$:  
+Subtract successive $Ⳁ$ values to find the fraction of the *chronum* spent in each sectal:
 
 $$
 \begin{aligned}
-F_\text{spring} &= \frac{M_\text{summer} - M_\text{spring}}{2\pi} \\[6pt]
-F_\text{summer} &= \frac{M_\text{autumn} - M_\text{summer}}{2\pi} \\[6pt]
-F_\text{autumn} &= \frac{(M_\text{winter}+2\pi) - M_\text{autumn}}{2\pi} \\[6pt]
-F_\text{winter} &= \frac{M_\text{spring} - M_\text{winter}}{2\pi}
+\gamma_0 &= \frac{\textit{Ⳁ}_1 - \textit{Ⳁ}_0}{360}
+= \frac{92.94 - 19.22}{360} = \boxed{0.2048}\\[1em]
+\gamma_1 &= \frac{\textit{Ⳁ}_2 - \textit{Ⳁ}_1}{360}
+= \frac{234.32 - 92.94}{360} = \boxed{0.3940}\\[1em]
+\gamma_2 &= \frac{\textit{Ⳁ}_3 - \textit{Ⳁ}_2}{360}
+= \frac{325.19 - 234.32}{360} = \boxed{0.2520}\\[1em]
+\gamma_3 &= \frac{1 + \textit{Ⳁ}_0 - \textit{Ⳁ}_3}{360}
+= \frac{1+ 19.22 - 325.19}{360} = \boxed{0.1492}
 \end{aligned}
 $$
-Numerical results:  
+> The first three differences are straightforward because each $Ⳁ$ increases through the orbit.
+> The *last* subtraction crosses the $360^\circ \rightarrow 0^\circ$  boundary, so we add $1$ (representing $360^\circ$) before subtracting — ensuring the final sectal wraps correctly and the four $\gamma_n$ sum to **1.000** (the whole chronum).
 
+**Step 5 — Scale by the Chronum Length**
+Each $\gamma_n$ expresses a *fraction* of the chronum ($\chi$).
+Multiplying converts them into actual durations:
+ 
 $$
-\begin{gathered}
-F_\text{spring} &\approx 0.2553, \\[0.5em]
-F_\text{summer} &\approx 0.2553, \\[0.5em]
-F_\text{autumn} &\approx 0.2447 \\[0.5em]
-F_\text{winter} &\approx 0.2447
-\end{gathered}
-$$
-
-**Step 5 — Scale to chronum length**
-Multiply each fraction by $\chi$ to get season lengths in diurns:  
-
-$$
-\begin{gathered}
-\Delta t = F \times \chi \\[1em]
+S_n = \chi\, \gamma_n \qquad
 \begin{cases}
-\Delta t_\text{spring} &\approx 0.2553 \times 365.2564 = 93.3 \\
-\Delta t_\text{summer} &\approx 0.2553 \times 365.2564 = 93.3 \\
-\Delta t_\text{autumn} &≈ 0.2447 \times 365.2564 = 89.4 \\
-\Delta t_\text{winter} &≈ 0.2447 \times 365.2564 = 89.4
-\end{cases}
-\end{gathered}
-$$
-
-**Result:**  
-- Spring ≈ 93.3 d  
-- Summer ≈ 93.3 d  
-- Autumn ≈ 89.4 d  
-- Winter ≈ 89.4 d 
-(Total = 365.26 d)
-
-**Comparison to Actuals**
-Observed Earth season lengths (tropical year):  
-- Spring ≈ 92.8 d  
-- Summer ≈ 93.6 d  
-- Autumn ≈ 89.9 d  
-- Winter ≈ 89.0 d
-
-**Errors:**  
-- Spring: +0.5 d  
-- Summer: –0.3 d  
-- Autumn: –0.5 d  
-- Winter: +0.4 d 
-
-**Conclusion**
-- The Kepler method reproduces Earth’s observed seasons within **half a day per season**.  
-- It captures the correct pattern — two longer seasons and two shorter — without needing any fudge factors.
-
-#### Worked Example: Rosetta (Kepler’s Method, Sidereal Chronum)
-Given:  
-- $\zeta = 180^\circ$  
-- $\chi = 492$ diurns (sidereal chronum)  
-- $e = 0.05$  
-
-**Step 1 — True Anomalies**
-Quartal markers from $\zeta = 180^\circ$:  
-
-$$
-\begin{gathered}
-&\nu = (\zeta + 90n) \bmod 360 \\[1em]
-&\begin{cases}
-n &= 0 & \nu = 0^\circ & \text{spring equinox} \\
-n &= 1 & \nu = 90^\circ & \text{summer solstice} \\
-n &= 2 & \nu = 180^\circ & \text{autumn equinox} \\
-n &= 3 & \nu = 270^\circ & \text{winter solstice}
-\end{cases}
-\end{gathered}
-$$
-**Step 2 — Convert to Eccentric Anomaly**
-
-$$
-E = 2 \arctan \!\left( \sqrt{\tfrac{1-e}{1+e}} \;\tan \tfrac{\nu}{2} \right)
-$$
-**Step 3 — Convert to Mean Anomaly**
-
-$$
-M = E - e \sin E
-$$
-
-**Step 4 — Find Season Fractions**
-Subtract successive $M$ values and normalize by $2\pi$:  
-
-$$
-\begin{aligned}
-F_\text{spring} &= \frac{M_\text{summer} - M_\text{spring}}{2\pi} \\[6pt]
-F_\text{summer} &= \frac{M_\text{autumn} - M_\text{summer}}{2\pi} \\[6pt]
-F_\text{autumn} &= \frac{(M_\text{winter}+2\pi) - M_\text{autumn}}{2\pi} \\[6pt]
-F_\text{winter} &= \frac{M_\text{spring} - M_\text{winter}}{2\pi} 
-\end{aligned}
-$$
-Numerical results:  
-
-$$
-\begin{aligned}
-&F_\text{spring} \approx 0.2180, \\
-&F_\text{summer} \approx 0.2537, \\
-&F_\text{autumn} \approx 0.2820, \\
-&F_\text{winter} \approx 0.2463
-\end{aligned}
-$$
-**Step 5 — Scale to Year Length**
-Multiply each fraction by $\chi$:  
-
-$$
-\begin{cases}
-\Delta t_\text{spring} \approx 107.3 \\
-\Delta t_\text{summer} \approx 124.9 \\
-\Delta t_\text{autumn} \approx 138.6 \\
-\Delta t_\text{winter} \approx 121.2
+S_0 = 360 \cdot 0.2048 = 73.72\; \text{days} \\
+S_1 = 360 \cdot 0.3940 = 141.85\; \text{days (apoaptic)} \\
+S_2 = 360 \cdot 0.2520 = 90.73\; \text{days} \\
+S_3 = 360 \cdot 0.1493 = 53.70\; \text{days (periaptic)}
 \end{cases}
 $$
-(Total = 492.0 d)
 
-**Result (Kepler):**  
-- Spring ≈ 107.3 d  
-- Summer ≈ 124.9 d  
-- Autumn ≈ 138.6 d  
-- Winter ≈ 121.2 d
+> These are the temporal divisions of the orbit.
+Note that the planet spends almost **three times longer near apoapsis** (S₁) than near periapsis (S₃) — a direct expression of Kepler’s Second Law.
+>
+## Applying Seasons
 
-**Comparison to Sinusoidal**
-From the sinusoidal shortcut (no fudge):  
-- Spring ≈ 107.3 d  
-- Summer ≈ 123.0 d  
-- Autumn ≈ 138.7 d  
-- Winter ≈ 123.0 d
 
-**Differences:**  
-- Spring: 0.0 d  
-- Summer: +1.9 d  
-- Autumn: –0.1 d  
-- Winter: –1.8 d
 
-**Conclusion**
-The Kepler method and sinusoidal shortcut agree closely for Rosetta, but Kepler adds nuance:  
+<!-- **Conclusion**
+The Kepler method and sinusoidal shortcut agree closely but not exactly; but Kepler adds nuance:  
 - Winter is slightly shorter, summer slightly longer, compared to the sinusoidal baseline.  
 - Spring and autumn remain nearly identical.  
 
 With Rosetta’s higher eccentricity ($e = 0.05$), the **sectal spread is extreme** — from 107 d to 139 d — a difference of over 30 diurns.  
 
-This is exactly the kind of asymmetry you would expect on a world with such an orbit, and it needs **no fudge at all**.
-
-
-$333^\triangledown$
+This is exactly the kind of asymmetry you would expect on a world with such an orbit, and it needs **no fudge at all**. -->
