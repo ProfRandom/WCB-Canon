@@ -33,6 +33,8 @@ The *base time unit* ($T$), may be years, months, days, even hours or minutes.
 
 The interval between such instances of alignment is called the *synodic period*; here, we'll refer to it as a *synodion* $\Sigma$ (pl: *synodia*), for reasons which will become clear presently.  The moment of alignment, when the two orbitons are closest to one another, we call a *synodos* (pl: *synodoi*).
 
+The **Synodian** ($Σ$) describes non-integer resonant interactions — orbital beats that produce repeating alignments without true commensurability. The corresponding **synodion** is the interval between alignments; the **synodos**, the moment itself.
+
 Thus, the synodion represents the time it takes for the two orbitons to return to the same relative configuration, such as having their centers fall on a line that includes the center of the central body.  While synodia are still predictable, their periodicity is less intuitive that in mean motion resonance systems, requiring more precise calculations.
 
 The best way to grasp these concepts is by working through an example.  By appling the rules of synodic periods to a specific pair of orbiting bodies, we can illustrate how to calculate a synodion, and explore the patterns it reveals.
@@ -59,7 +61,7 @@ We can already make some determinations about our system:
 $$
 \begin{aligned}
 P_\delta = P_\alpha - P_\beta = 24.36 - 11.72 = 12.64\; \text{days} \\
-P_Q = \dfrac{P_\beta}{P_\alpha} = \dfrac{11.72}{24.36} = 0.481\; \text{days}
+P_Q = \dfrac{P_\beta}{P_\alpha} = \dfrac{11.72}{24.36} = 0.481
 \end{aligned}
 $$
 The ratio of their orbits ($P_Q$) is not an integer, so these orbitons are not in a mean motion resonance; for every orbit of $M_\beta$, $M_\alpha$ only completes $0.481$ of its orbit, because $M_\alpha$ takes $12.64$ days longer to orbit the centron than does $M_\beta$.
@@ -121,7 +123,7 @@ $$
 \begin{aligned}
 \begin{split}
 \Sigma &= \dfrac{P_\alpha \times P_\beta}{|P_\alpha - P_\beta|} \\
-&= \dfrac{24.36 \times 11.72}{|24.26 - 11.72|} \\
+&= \dfrac{24.36 \times 11.72}{|24.36 - 11.72|} \\
 &= \dfrac{285.499}{12.64} \\
 \Sigma &= 22.587\; \text{days ✓}
 \end{split}
@@ -150,7 +152,7 @@ What the synodial fraction tells us is that synodos $T_1$ occurs $1.9272$ orbits
 orbits of $M_\alpha$ from their starting time ($T_0$) and place (the base angle $B^\theta$).  Multiplying the synodial fraction by the number of degrees in a circle:
 
 $$
-\Theta = F_\Sigma \times 360^\circ = (0.9272)(333.7975^\circ) \qquad \text{The \emph{synodial angle}}
+\Theta = F_\Sigma \times 360^\circ = (0.9272)(360^\circ) \qquad \text{The \emph{synodial angle}}
 $$
 Subtracting the synodial angle from $360^\circ$:
 
