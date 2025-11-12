@@ -3,10 +3,6 @@ This process assumes that you have already determined the duration of your plane
 
 ## Chronex of the Tempostat
 
-**Station (Chronal)** *($\varsigma_n$)* —
-A **geometric orientation event** in which a planet’s rotational axis attains one of four characteristic alignments relative to its star, *as viewed from above the planet’s right-hand-rule north pole*. 
-- Each **station** ($\varsigma_n$) corresponds to an **axial alignment angle** ($Ⲁ_n$) separated by 90° in orbital longitude, marking a **temporal node** that bounds successive secta within a chromum.
-
 - **Sectal** *(pl. secta)* —  
   One quarter of a planet’s orbital period (denoted $S_0, S_1, S_2, S_3$); a **non-climatological “sectal.”**  
     A sectal is a **temporal span**, not a spatial angle — a section of the orbit *traversed through time* between two successive chronal stations.

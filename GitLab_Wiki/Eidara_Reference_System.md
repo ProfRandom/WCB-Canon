@@ -187,8 +187,23 @@ From this process we arrive at the following known parameters:
   - $H_0 = 0.524$ AU
   - $H_1 = 0.787$ AU
   - $H_2 = 0.996$ AU
-    - ($N = 1.1$ AU)
     - ($A = 1.017$ AU)
+    - ($N = 1.1$ AU)
   - $H_3 = 1.453$ AU
   - $H_4 = 1.856$ AU
   - $H_5 = 5.087$ AU
+- System Orbits:
+  1. $0.130$ AU — Igniozone
+  2. $0.207$ AU — Igniozone
+  3. $0.361$ AU — Igniozone
+  4. $0.615$ AU — Calorozone
+  5. $1.017$ (A) AU — Solarazone
+  6. $1.100$ (N) AU — Solarazone
+  7. $1.817$ AU — Hiberozone
+  8. $3.024$ AU — Brumazone
+      Main Micromon Belt
+       - Inner Edge:
+       - Outer Edge:
+  9. $5.953$ AU — Cryozone
+  10. $11.665$ AU — Cryozone
+  11. $17.474$ AU — Cryozone

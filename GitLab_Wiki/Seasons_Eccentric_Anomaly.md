@@ -21,7 +21,7 @@ Because of this, the four “seasons” or **secta** do not occupy equal fractio
 
 The difference in season length arises purely from the **eccentricity** of the orbit, independent of axial tilt or climate.
 
-The eccentric anomaly ($E_n$) is the key intermediary that links **spatial position** (true anomaly, $ν$) with **temporal progress** (mean anomaly, $\textit{Ⳁ}_n$).  
+The eccentric anomaly ($E_n$) is the key intermediary that links **spatial position** (true anomaly, $ν$) with **temporal progress** (mean anomaly, $\textit{ϛ}_n$).  
 
 For **worldmakers**, this method turns abstract orbital parameters into practical narrative data:  
 - It determines how long each season lasts on a given world.  
@@ -71,19 +71,19 @@ E_n = 2 \arctan \!\left( \xi \;\tan \frac{Ⲁ_n}{2} \right), \qquad
 $$
 *All angular measures in WCB are expressed in degrees unless otherwise specificially noted.*
 
-- This represents an **algebraic frame-shift** that permits calculation of the **mean anomaly** ($\textit{Ⳁ}_n$) of a given sectal by projecting the *true anomaly* onto the circumscribed reference circle.
+- This represents an **algebraic frame-shift** that permits calculation of the **mean anomaly** ($\textit{ϛ}_n$) of a given sectal by projecting the *true anomaly* onto the circumscribed reference circle.
 
-- **Mean Anomaly** *($\textit{Ⳁ}_n$)* —  
+- **Mean Anomaly** *($\textit{ϛ}_n$)* —  
   The **temporal angle** that increases uniformly with time, defining a constant angular rate around the orbit.  
   Kepler’s relation (modified for WCB):
 
 $$
-\textit{Ⳁ}_n = \frac{(E_n - e\,\sin E_n) \bmod 360}{360}
+\textit{ϛ}_n = \frac{(E_n - e\,\sin E_n) \bmod 360}{360}
 $$
 
   This translates the varying orbital motion into a **uniform time variable**, allowing direct calculation of how much of the chronum has elapsed at any given point on the ellipse.  It represents the planet’s position as if it moved at steady speed along a circular path, providing a linear measure of elapsed orbital time.
 
-> Note that $E_n$ **cannot** easily be back-calculated from $\textit{Ⳁ}_n$!
+> Note that $E_n$ **cannot** easily be back-calculated from $\textit{ϛ}_n$!
 
 - **Eccentric Tangent Factor** *($\xi$)* —
   - A dimensionless helper constant linking *true* and *eccentric* anomalies through their tangent relation, calculated by:  
@@ -176,29 +176,29 @@ $$
 *All angular measures in WCB are expressed in degrees unless otherwise specificially noted.*
 
 ### Step 4 — Convert to Mean Anomaly
-Translate each $E_n$ into mean anomaly $\textit{Ⳁ}_n$, which grows linearly with time:
+Translate each $E_n$ into mean anomaly $\textit{ϛ}_n$, which grows linearly with time:
 
 $$
-\textit{Ⳁ}_n = \frac{E_n - (e \sin E_n)}{360}
+\textit{ϛ}_n = \frac{E_n - (e \sin E_n)}{360}
 $$
 
-The resulting mean anomalies ($\textit{Ⳁ}\_n$) represent the fractional progress through the chronum at each chronal station.  The differences between successive values yield the four sectal durations.
+The resulting mean anomalies ($\textit{ϛ}\_n$) represent the fractional progress through the chronum at each chronal station.  The differences between successive values yield the four sectal durations.
 
 ### Step 5 — Calculate the Sectal Durations ($\gamma_n$)
 Once you have the mean anomalies for each sectal marker, subtract them in sequence to get the fractional year lengths:
 
 $$
 \begin{aligned}
-\gamma_0 &= \frac{\textit{Ⳁ}_1 - \textit{Ⳁ}_0}{360} \\[1em]
-\gamma_1 &= \frac{\textit{Ⳁ}_2 - \textit{Ⳁ}_1}{360} \\[1em]
-\gamma_2 &= \frac{\textit{Ⳁ}_3 - \textit{Ⳁ}_2}{360} \\[1em]
-\gamma_3 &= \frac{1 + \textit{Ⳁ}_0 - \textit{Ⳁ}_3}{360}
+\gamma_0 &= \frac{\textit{ϛ}_1 - \textit{ϛ}_0}{360} \\[1em]
+\gamma_1 &= \frac{\textit{ϛ}_2 - \textit{ϛ}_1}{360} \\[1em]
+\gamma_2 &= \frac{\textit{ϛ}_3 - \textit{ϛ}_2}{360} \\[1em]
+\gamma_3 &= \frac{1 + \textit{ϛ}_0 - \textit{ϛ}_3}{360}
 \end{aligned}
 $$
 
 Where:  
 - Each $\gamma =$ fraction of the year occupied by that sectal.
-> The first three differences are straightforward because each $Ⳁ$ increases through the orbit.
+> The first three differences are straightforward because each $ϛ$ increases through the orbit.
 > The *last* subtraction crosses the $360^\circ \rightarrow 0^\circ$  boundary, so we add $1$ (representing $360^\circ$) before subtracting — ensuring the final sectal wraps correctly and the four $\gamma_n$ sum to **1.000** (the whole chronum).
 
 ### Step 6 — Scale to Year Length
@@ -246,37 +246,37 @@ $$
 > The eccentric anomaly is a *geometric intermediary*: it preserves the orbital geometry but lets us connect angle to time through Kepler’s equation.
 
 **Step 3 — Convert to Mean Anomaly**
-The **mean anomaly ($Ⳁ$)** increases uniformly with time, making it the “clock angle” of the orbit.
+The **mean anomaly ($ϛ$)** increases uniformly with time, making it the “clock angle” of the orbit.
 Note the use of the symbol ⛛ here which denotes that these are **temporal angles**, not spatial ones.
 
 $$
-Ⳁ_n = E_n - (e \sin E_n) \qquad
+ϛ_n = E_n - (e \sin E_n) \qquad
 \begin{cases}
-Ⳁ_0 = 19.22^\triangledown \\
-Ⳁ_1 = 92.94^\triangledown \\
-Ⳁ_2 = 234.32^\triangledown \\
-Ⳁ_3 = 325.19^\triangledown
+ϛ_0 = 19.22^\triangledown \\
+ϛ_1 = 92.94^\triangledown \\
+ϛ_2 = 234.32^\triangledown \\
+ϛ_3 = 325.19^\triangledown
 \end{cases}
 $$
 
-> These Ⳁ values show *where in time* each station occurs within the chronum.  Notice that the increments between them are **unequal**, reflecting the planet’s varying speed at different times in its journey around its orbit.
+> These ϛ values show *where in time* each station occurs within the chronum.  Notice that the increments between them are **unequal**, reflecting the planet’s varying speed at different times in its journey around its orbit.
 
 **Step 4 — Find Season Fractions**
-Subtract successive $Ⳁ$ values to find the fraction of the *chronum* spent in each sectal:
+Subtract successive $ϛ$ values to find the fraction of the *chronum* spent in each sectal:
 
 $$
 \begin{aligned}
-\gamma_0 &= \frac{\textit{Ⳁ}_1 - \textit{Ⳁ}_0}{360}
+\gamma_0 &= \frac{\textit{ϛ}_1 - \textit{ϛ}_0}{360}
 = \frac{92.94 - 19.22}{360} = \boxed{0.2048}\\[1em]
-\gamma_1 &= \frac{\textit{Ⳁ}_2 - \textit{Ⳁ}_1}{360}
+\gamma_1 &= \frac{\textit{ϛ}_2 - \textit{ϛ}_1}{360}
 = \frac{234.32 - 92.94}{360} = \boxed{0.3940}\\[1em]
-\gamma_2 &= \frac{\textit{Ⳁ}_3 - \textit{Ⳁ}_2}{360}
+\gamma_2 &= \frac{\textit{ϛ}_3 - \textit{ϛ}_2}{360}
 = \frac{325.19 - 234.32}{360} = \boxed{0.2520}\\[1em]
-\gamma_3 &= \frac{1 + \textit{Ⳁ}_0 - \textit{Ⳁ}_3}{360}
+\gamma_3 &= \frac{1 + \textit{ϛ}_0 - \textit{ϛ}_3}{360}
 = \frac{1+ 19.22 - 325.19}{360} = \boxed{0.1492}
 \end{aligned}
 $$
-> The first three differences are straightforward because each $Ⳁ$ increases through the orbit.
+> The first three differences are straightforward because each $ϛ$ increases through the orbit.
 > The *last* subtraction crosses the $360^\circ \rightarrow 0^\circ$  boundary, so we add $1$ (representing $360^\circ$) before subtracting — ensuring the final sectal wraps correctly and the four $\gamma_n$ sum to **1.000** (the whole chronum).
 
 **Step 5 — Scale by the Chronum Length**
@@ -295,7 +295,50 @@ $$
 
 > These are the temporal divisions of the orbit.
 Note that the planet spends almost **three times longer near apoapsis** (S₁) than near periapsis (S₃) — a direct expression of Kepler’s Second Law.
->
+
+# Orbital Eccentricity and Seasonal Effects
+
+For a planemon orbiting a star (M₂ ⋘ M₁):
+- **Periastron distance**:  
+
+$$
+ R_{min} = A(1 - e)
+$$
+- **Apastron distance**:  
+
+$$
+ R_{max} = A(1 + e)
+$$
+Where **A** is the *average orbital separation* between the bodies.  
+When describing a planemon’s orbit, A corresponds to the **semimajor axis** of its elliptical path.  
+
+## Fractional Distance Asymmetry (Ḋ)
+The dimensionless measure of how much closer the planemon is at periastron than at apastron:
+
+$$
+\dot{D} = \frac{R_{max}}{R_{min}} - 1 = \frac{2e}{1-e}
+$$
+- Earth ($e = 0.0167$):  $\dot{D} \approx 0.034$ → **3.4% closer at periastron**  
+- Rosetta ($e = 0.05$):  $\dot{D} \approx 0.105$ → **10.5% closer at periastron**
+
+## Flux Ratio
+Because stellar flux $F ∝ 1/R^2$, the insolation contrast between periastron and apastron is:
+
+$$
+\frac{F_{min}}{F_{max}} = \left(\frac{R_{max}}{R_{min}}\right)^2
+$$
+- Earth ($e = 0.0167$):  $\frac{F_{min}}{F_{max}} \approx 1.068$ → **6.8% stronger insolation at periastron**  
+- Rosetta ($e = 0.05$): $\frac{F_{min}}{F_{max}} \approx 1.23$ → **23% stronger insolation at periastron**
+
+## WCB Note
+
+- **Distance form (Ḋ)** → intuitive “how much closer/farther” language.  
+- **Flux form ($\frac{F_{min}}{F_{max}}$)** → climatic impact (“how much hotter/colder”).  
+- **Canonical terminology**: use *periastron/apastron* with $R_{min}$ and $R_{max}$ in star–planemon systems.  
+- Avoid $r_p$, $r_a$, or ß notations; these are legacy/derivation-only.  
+- In WCB canon, Ḋ is the preferred symbol for distance asymmetry.
+
+
 ## Applying Seasons
 
 
