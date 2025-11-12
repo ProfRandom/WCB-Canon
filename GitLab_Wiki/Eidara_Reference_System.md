@@ -202,8 +202,8 @@ From this process we arrive at the following known parameters:
   7. $1.817$ AU — Hiberozone
   8. $3.024$ AU — Brumazone
       Main Micromon Belt
-       - Inner Edge:
-       - Outer Edge:
+       - Inner Edge: 3.657 (est)
+       - Outer Edge: 4.848 (est)
   9. $5.953$ AU — Cryozone
   10. $11.665$ AU — Cryozone
   11. $17.474$ AU — Cryozone

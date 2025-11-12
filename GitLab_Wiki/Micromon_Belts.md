@@ -5,20 +5,20 @@
 $$
 \begin{aligned}
 a_i &= &&\text{Inner orbit distance} \\
-a_o &= &&\text{Outer orbit distance} \\[0.5em]
+a_o &= &&\text{Outer orbit distance} \$$0.5ex]
 m_i &= &&\text{Mass of inner body in Terrans} \\
-m_o &= &&\text{Mass of outer body in Terrans} \\[0.5em]
-M_* & = 333000M⊙ \qquad &&\text{Mass of star in Terrans} \\[0.5em]
-a_c &= \frac{a_i + a_o}{2} \qquad &&\text{Average of the two orbits} \\[0.5em]
-\Delta a &= a_o - a_i \qquad &&\text{Difference between the two orbits} \\[0.5em]
-a_\Delta &= \frac{\Delta a}{2} \qquad &&\text{Midrange of the two orbits} \\[0.5em] 
-a_s &= a_c + a_\Delta \left(\frac{m_o - m_i}{m_o + m_i}\right) \qquad &&\text{Asymmetric central orbit} \\[0.5em]
-m_\mu &= \frac{m_i + m_o}{M_*} \qquad &&\text{Dimensionless systemic mass ratio} \\[0.5em]
+m_o &= &&\text{Mass of outer body in Terrans} \$$0.5ex]
+M_* & = 333000M⊙ \qquad &&\text{Mass of star in Terrans} \$$0.5ex]
+a_c &= \frac{a_i + a_o}{2} \qquad &&\text{Average of the two orbits} \$$0.5ex]
+\Delta a &= a_o - a_i \qquad &&\text{Difference between the two orbits} \$$0.5ex]
+a_\Delta &= \frac{\Delta a}{2} \qquad &&\text{Midrange of the two orbits} \$$0.5ex] 
+a_s &= a_c + a_\Delta \left(\frac{m_o - m_i}{m_o + m_i}\right) \qquad &&\text{Asymmetric central orbit} \$$0.5ex]
+m_\mu &= \frac{m_i + m_o}{M_*} \qquad &&\text{Dimensionless systemic mass ratio} \$$0.5ex]
 \beta &= 1 - (C \times \sqrt[3]{m_\mu}) \qquad &&\text{Where C} \in \{1, 2, 3\} \\
-&&&\text{Belt width scaler} \\[0.5em]
-W_{belt} &= \Delta a \times \beta \qquad &&\text{Belt width calculation}\\[0.5em]
-w_i &= \frac{m_i}{m_i + m_o} \qquad w_o = \frac{m_o}{m_i + m_o} \quad &&\text{Belt inner and outer edge adjustments} \\[0.5em]
-W_i &= W_{belt} \times w_i \qquad W_o = W_{belt} \times w_o \quad && \text{Belt inner and outer edge offset calculations}\\[0.5em]
+&&&\text{Belt width scaler} \$$0.5ex]
+W_{belt} &= \Delta a \times \beta \qquad &&\text{Belt width calculation}\$$0.5ex]
+w_i &= \frac{m_i}{m_i + m_o} \qquad w_o = \frac{m_o}{m_i + m_o} \quad &&\text{Belt inner and outer edge adjustments} \$$0.5ex]
+W_i &= W_{belt} \times w_i \qquad W_o = W_{belt} \times w_o \quad && \text{Belt inner and outer edge offset calculations}\$$0.5ex]
 B_i &= a_s - W_i \qquad B_o = a_s + W_o \qquad &&\text{Belt inner and outer edge calculations}
 \end{aligned}
 $$
@@ -44,7 +44,7 @@ Using the **inner perturber** with period $P_i$.
 
 $$
 \begin{aligned}
-a_x &= \sqrt[3]{P_x^2 \, M\odot}, \quad P_x = P_i \times k \\[1em]
+a_x &= \sqrt[3]{P_x^2 \, M\odot}, \quad P_x = P_i \times k \$$1ex]
 \text{Where: } k &\in \{1.67, 2.00, 2.25, 2.33, 2.50, 2.67, 3.00, 3.50, 4.00, 5.00\}
 \end{aligned}
 $$
@@ -61,7 +61,7 @@ Using from the **outer perturber** with period $P_o$.
 
 $$
 \begin{aligned}
-a_x &= \sqrt[3]{P_x^2 \, M\odot}, \quad P_x = \frac{P_o}{k} \\[1em]
+a_x &= \sqrt[3]{P_x^2 \, M\odot}, \quad P_x = \frac{P_o}{k} \$$1ex]
 \text{Where: } k &\in \{1.67, 2.00, 2.25, 2.33, 2.50, 2.67, 3.00, 3.50, 4.00, 5.00\}
 \end{aligned}
 $$
@@ -78,14 +78,14 @@ Where:
 ##### Inner Orbit Resonances
 $$
 \begin{aligned}
-a_x &= \sqrt[3]{\Big((P_i \times k)^2 \, M\odot\Big)} \\[0.5em]
+a_x &= \sqrt[3]{\Big((P_i \times k)^2 \, M\odot\Big)} \$$0.5ex]
  \text{Where: } k &\in \{1.67, 2.00, 2.25, 2.33, 2.50, 2.67, 3.00, 3.50, 4.00, 5.00\}
 \end{aligned}
 $$
 ##### Outer Orbit Resonances
 $$
 \begin{aligned}
-a_x &= \sqrt[3]{\left(\frac{P_o}{k}\right)^2 M\odot} \\[0.5em]
+a_x &= \sqrt[3]{\left(\frac{P_o}{k}\right)^2 M\odot} \$$0.5ex]
  \text{Where: } k &\in \{1.67, 2.00, 2.25, 2.33, 2.50, 2.67, 3.00, 3.50, 4.00, 5.00\}
  \end{aligned}
 $$
@@ -161,8 +161,8 @@ or
 
 $$
 \begin{aligned}
-g_i &= a \times \sqrt{\frac{m_i}{333000M⊙}} \\[1em]
-g_o &= a \times \sqrt{\frac{m_o}{333000M⊙}} \\[1em]
+g_i &= a \times \sqrt{\frac{m_i}{333000M⊙}} \$$1ex]
+g_o &= a \times \sqrt{\frac{m_o}{333000M⊙}} \$$1ex]
 g_{quad} &= \sqrt{g_i^2 + g_o^2}
 \end{aligned}
 $$
@@ -171,99 +171,71 @@ Both methods are algebraically equivalent: the $g_{quad}$ form expands ***exactl
 $$
 g_{quad} = \sqrt{g_i^2 + g_o^2} = \sqrt{\left(a^2 \frac{m_i}{M_*}\right) + \left(a^2 \frac{m_o}{M_*}\right)} = a \times \sqrt{\frac{m_i + m_o}{M_*}} = g_w \; \checkmark
 $$
-# Harmonic Periods
+# Estimating When Perturber Masses Are Unknown
+## Micromon Belt Placement — Massless Geometric Approximation
 
-*Harmonic periods* are crucial for understanding how a planet's rotational and orbital cycles synchronize.  The harmonic period $H$ is the time interval over which the two independent motions align in their periodicity.
+When planetary masses are unknown or uncertain, belt placement can be estimated purely from orbital geometry.  
+This approach assumes that stable belts tend to occupy the middle of wide orbital gaps, where non-resonant orbits persist.
 
+### 1. Parameters
 $$
-H = \dfrac{P_1 \times P_2}{|P_1 - P_2|}
-$$
-Where:
-- $P_1$ = length of the solar day
-- $P_2$ = length of the sidereal day
-- $H$ = harmonic period
-
-> Yes, this is actually the same equation as the synodic period.
-
-## Example
-Using Earth's solar day and sidereal day:
-
-$$
-\begin{array}{l l}
-P_1 = 86400^s &\text{solar day}\\
-P_2 = 86164.090531^s &\text{sidereal day}
-\end{array}
 \begin{aligned}
-\begin{split}
-H &= \dfrac{P_1 \times P_2}{|P_1 - P_2|} \\[0.5em]
-&= \dfrac{86400 \times 86164.090531}{|86400 - 86164.090531|} \\[0.5em]
-&= \dfrac{7444577422}{235.9094692} \\[0.5em]
-H &= 31556924.9854376^s\; \checkmark
-\end{split}
+&\textbf{Symbol} && \textbf{Meaning} \\
+&a_i && \text{Inner perturber orbit (AU)} \\
+&a_o && \text{Outer perterber orbit (AU)} \\
+&a_c && \text{Logarithmic (geometric) midpoint between $a_i$ and $a_o$} \\
+&W_{belt} && \text{Total belt width} \\
+&b_i,\;b_o && \text{Inner and Outer belt edges} \\
+&k_b && \text{Belt width fraction (0.30.5 typical)}
 \end{aligned}
 $$
-… we find that the harmonic period between the solar day and the sidereal day is approximately the length of the *tropical year*, differing from the official value of $31556925.216^s$ by an excess of only $0.2306^s$.
-
-Similarly, calculating the harmonic period between Earth's solar day and the *stellar day*:
+### 2. Core Relations
 
 $$
-\begin{array}{l l}
-P_1 = 86400^s &\text{solar day}\\
-P_2 = 86164.0989^s &\text{stellar day}
-\end{array}
 \begin{aligned}
-\begin{split}
-H &= \dfrac{P_1 \times P_2}{|P_1 - P_2|} \\[0.5em]
-&= \dfrac{86400 \times 86164.0989}{|86400 - 86164.0989|} \\[0.5em]
-&= \dfrac{7444578145}{235.901096} \\[0.5em]
-H &= 31558048.1047344^s\; \checkmark
-\end{split}
+a_c &= \sqrt{a_i a_o} &&\text{Central orbit (geometric mean)} \\[0.5ex]
+\Delta a &= a_o - a_i &&\text{Orbital gap width} \\[0.5ex]
+W_{belt} &= k_b \times \Delta a &&\text{Belt width fraction (30–50 \% of gap)} \\[0.5ex]
+B_i &= a_c - \frac{W_{belt}}{2} \\[1ex]
+B_o &= a_c + \frac{W_{belt}}{2} &&\text{Inner / outer edges}
 \end{aligned}
 $$
-… a difference of only $101.65737^s$ longer than the official length of the *sidereal year*: $31558149.7635456^s$.
 
-# Orbit Randomization Notation
-This symbolic system defines how to procedurally generate a sequence of orbital radii using randomized multiplicative (or divisive) steps from a baseline (**basal**) value. It distinguishes between **intrabasal** (moving inward) and **extrabasal** (moving outward) orbit generation.
-
-The notation is fully symbolic and compatible with WCB's randomization and range assignment grammar.
-
-**Intrabasal**
+*Optional refinement:* bias toward one side by adding a small asymmetry factor
 
 $$
-r_i = B;\; \Omega = \text{«▢»}: \qquad
-r_{i-1} = \frac{r_i}{⟨⟨ \text{min} ∧ \text{max} ⟩⟩}
-\quad \text{while } r_i ≥ \Omega
+\delta = \frac{a_o / a_c - a_c / a_i}{a_o / a_i} \\
+
+B_i = a_c - \frac{W_{belt}}{2}(1+\delta), \qquad B_o = a_c + \frac{W_{belt}}{2}(1-\delta)
 $$
 
-**Extrabasal**
+### 3. Example — Eikon System
 
 $$
-r_i = B;\; \Omega = \text{«▢»}: \qquad
-r_{i+1} = r_i \cdot ⟨⟨ \text{min} ∧ \text{max} ⟩⟩
-\quad \text{while } r_i ≤ \Omega
-$$
-Where:
-- B = basal orbital radius (e.g. the nucleal orbit $N$)
-- Ω = orbital distance cuttoff (minimum or maximum allowed orbit based on the star system constraints)
-
-## 🔄 Usage Strategy
-
-The **intrabasal** and **extrabasal** forms can be used independently depending on your desired anchoring strategy:
-
-- 🧭 **Outward-Only Generation**  
-  If you begin at the **innermost permissible orbit** (e.g. a thermal, Roche, or design constraint), use the **extrabasal** form to expand outward via multiplicative steps:
-
-$$
-  r_0 = «inner limit»;\; L = «system edge»:
-  \quad r_{i+1} = r_i \cdot ⟨⟨min ∧ max⟩⟩, \text{ while } r_{i+1} ≤ L
-$$
-- 🧭 **Outward-Only Generation**  
-  If you begin at the **outermost permissible orbit** (e.g. a thermal or design constraint), use the **extrabasal** form to expand outward via multiplicative steps:
-
-$$
-  r_0 = «inner limit»;\; L = «system edge»:
-  \quad r_{i-1} = \dfrac{r_i} {⟨⟨min ∧ max⟩⟩}, \text{ while } r_{i+1} ≤ L
+\begin{aligned}
+a_i &= 3.024\ \text{AU}, \quad a_o = 5.953\ \text{AU} \\
+a_c &= \sqrt{1.817\times5.953} = 4.243\ \text{AU} \\
+\Delta a &= 2.929\ \text{AU} \\
+&\text{For $k_b = 0.4$} \\
+W_{belt} &= 0.4 \cdot 2.929 = 1.171\ \text{AU} \\  
+B_i &= 4.242 - 0.586 = 3.657\ \text{AU} \\
+B_o &= 4.242 + 0.586 = 4.828\ \text{AU}
+\end{aligned}
 $$
 
-> Either method can fully define a system — or both can be combined with a central anchor (e.g. nucleal orbit) to scaffold a bidirectional structure.
+**Result:**  
+A stable **Main Micromon Belt** extending from **≈ 3.7 AU to 4.8 AU**,  
+centered near 3.3 AU with a total width of ≈ 1.6 AU.
+
+### 4. Interpretation
+
+This method yields dynamically reasonable belts without requiring planetary mass estimates.  
+Use $k_b$ to tune the belt’s compactness:
+
+- $k_b = 0.3$: narrow, resonance-bound belt  
+- $k_b = 0.4$: Solar-analog main belt  
+- $k_b = 0.5$: broad debris-rich belt  
+
+When perturber masses become known, the geometric model can be refined by substituting the full mass-based method.
+
 
