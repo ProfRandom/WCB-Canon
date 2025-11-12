@@ -14,6 +14,22 @@ source: https://gitlab.com/wcbcanon/mononics
 
 # 🪐 The Hierarchy of Mononic Systems
 
+# Ontic Regimes
+
+**Ontic Regimes** describe the dominant cohesive forces that define how matter and energy maintain unity.  
+> They mark the transition from subatomic to cosmic coherence — from the nucleus that holds together to the star that endures.
+
+| **Regime** | **Binding Force** | **Scale** | **Examples** |
+|:--|:--|:--|:--|
+| **Nuclear Regime** | Strong and weak nuclear forces | Atomic nuclei | neutronium, fusion cores |
+| **Molecular Regime** | Electromagnetic bonding | Molecular and crystalline matter | lithic, rheic, aeric bodies |
+| **Gravitational Regime** | Self-gravitation | Planetary and stellar bodies | planemons, stellamons, peramons |
+| **Field Regime** | Energetic or spacetime curvature fields | Relativistic or exotic matter | black holes, cryptomons, hyperstellamons |
+
+Each regime represents a distinct **mode of coherence**, determined by the dominant physical interaction at its scale.  
+Together they form the backbone of **Ontic hierarchy**, linking the smallest bound particle to the largest self-coherent body.
+
+
 ## 1 · Monons — The Singular
 A **Monon** is any independent, self-coherent body: a planet, star, grain of sand, or drop of water.  
 It is the fundamental *unit of being.*
@@ -90,16 +106,44 @@ Each suffix is **dimensionless** — it defines the *type of coherence*, not its
 
 > **Monon → Cule → Lex → Gate**  
 > — from the One that endures, to the Few that cohere, to the Many that connect, to the Vast that contains.
-<!--  
-## 🪶 Mythosophic Reflection — *The Grammar of Being*
 
-> **Lexemic Principle — The Grammar of Being**  
-> Every suffix marks a degree of ontic coherence:  
-> **–mon** (*selfhood*), **–cule** (*kinship*), **–lex** (*relationship*), **–gate** (*context*).  
->  
-> Together they articulate the world’s passage from the **individual** to the **infinite** —  
-> the grammar by which existence conjugates itself into form.
--->
+---
+title: ""
+---
+
+## The Ontic Classes
+
+All physical bodies (*monons*) in the WCB framework are described along two orthogonal axes:  
+their **Ontic class**, which defines scale and self-coherence, and their **Morphological character**, which defines material composition and structure.  
+
+At the broadest scale, all monons fall into one of three Ontic classes governed by the physics of self-gravitation and fusion onset.  
+- **Duramons** — all monons with masses below the stellar ignition threshold (**< 0.08 ⊙**); this collective includes every non-fusional body from brown dwarfs and planemons to micromons and asteroids.  
+- **Fusamons** — all monons with masses in the stable hydrogen-fusion range (**⟨0.08 ∧ 300⟩ ⊙**); these are subdivided by the **spectral-class system** (q.v.) that defines their thermodynamic and photometric behavior. 
+- **Peramons** — all monons whose masses exceed the upper stellar-stability limit (**> 300 ⊙**); these represent the **trans-stellar regime** of radiative instability, pair-creation collapse, or exotic compact states.  
+
+**Ontic Axis (Vertical)**
+* Defines scale/mass domain — the degree of self-coherence under gravity.
+* Examples: micromons, minimons, planemons, stellamons, untramons.
+* Field: Mononics
+
+**Mophological Axis (Horizontal)**
+- Defines material/structural composition — what the body is made of.
+- Examples: lithic, hydruric, cryic, metalluric.
+- Field: Morphotics
+
+
+
+### Definitions
+- **Morphotype [neo]:** the primary compositional descriptor of a monon — its dominant physical “substance” or structural character (e.g., *lithic*, *argeic*, *hydruric*).  
+- **Category / Envelope [meta]:** an emergent classification expressing systemic context and behavior, derived from the combination of a monon’s mass domain and its morphotype (e.g., *geotic*, *telluric*, *xenotic*).  
+
+> **Summary:**  
+> The *Mononic axis* quantifies — how massive and self-coherent a body is.  
+> The *Morphological axis* qualifies — what the body is made of.  
+> The *Categorical envelope* contextualizes — how those traits express within a stellar system.
+
+
+
 
 ### Crosslink Topics
 - **Monon Condition** — defines singular coherence  

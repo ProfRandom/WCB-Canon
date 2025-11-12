@@ -37,7 +37,7 @@ Each level marks a **mode of coherence**, not a scale of size — defining how m
     - *Hyperstellamons* — extreme-mass fusion objects  
     - *Cryptomons* — collapse or exotic-state remnants  
 3. **Ontic Regimes** — Identifies the dominant binding forces that maintain coherence at each scale.  [[Ontic_Regimes]]
-4. **Ontic Metrics** — Provides descriptive parameters (mass, radius, density) linking Ontics to measurable physics. (eLink to [[Ontic_Mass_Continuum]] )
+4. **Ontic Metrics** — Provides descriptive parameters (mass, radius, density) linking Ontics to measurable physics. (eLink to [[Mazotic_Mass_Continuum]] )
 
 > > **Ontics** — The definitive field of WCB that defines the existence and coherence of all self-bound entities (*monons*); it establishes *what is*, forming the basis for all descriptive domains.
 
@@ -89,7 +89,7 @@ where Ontics defines *being*, Categorics defines *belonging*.
 
 ### Metric Subfields
 
-1. **Mass Metrics** — Quantifies ontic bodies by total quantity of matter or equivalent energy; defines standard units (Terran, Jovian, Solar).  [[Ontic_Mass_Continuum]]; [[Metric_Mass_Units]]  
+1. **Mass Metrics** — Quantifies ontic bodies by total quantity of matter or equivalent energy; defines standard units (Terran, Jovian, Solar).  [[Mazotic_Mass_Continuum]]; [[Metric_Mass_Units]]  
 2. **Dimensional Metrics** — Measures spatial extent and proportion: radius, diameter, volume, surface area, and shape factors.  [[Metric_Spatial_Scales]]  
 3. **Energetic Metrics** — Defines radiative, kinetic, and potential energy parameters; includes luminosity, temperature, and orbital energy.  [[Metric_Energy_Scales]]  
 4. **Temporal Metrics** — Establishes periodic and chronological measures such as rotation, revolution, and systemic timescales.  [[Metric_Temporal_Scales]]

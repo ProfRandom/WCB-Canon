@@ -2,7 +2,7 @@
 **Monon Series** are tiered groupings of monons organized by characteristic **mass domain** and **structural regime**. Each series spans a particular range of magnitudes within which bodies share broadly similar self-gravity, shape, and formation behavior. Taken together, the monon series trace a continuous progression from cohesion-bound fragments to the largest theoretical gravitational monons.
 
 
-![Monon_Series_Mass_Domains.png](./Monon_Series_Mass_Domains.png)
+![Monon_Series_Mass_Domains.png](./Monon_Series_Mass_Domains.png "Monon_Series_Mass_Domains.png")
 
 $$
 \begin{array}{l r r c l}

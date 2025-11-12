@@ -4,7 +4,7 @@ title: ""
 
 # Fleshing Out A Star System
 
-We've established spectral classes and types, thermozones, animozones, habitability indices, and the two critical orbital distances, *nucleal* ($N$) and *perannual* ($P$).
+We've established spectral classes and types, thermozones, animozones, habitability indices, and the two critical orbital distances, *nucleal* ($N$) and *perannual* ($A$).
 
 But planemons don't orbit only at these discreet distances – they're all over the place. Here's a breakdown of our own Solar system's planemon orbit data:
 
@@ -114,75 +114,7 @@ Where:
 >> **IMPORTANT**
 >> *If not starting from the perannual or nucleal orbit, always check randomized orbits against either (or both) to ensure proper interval gaps fall to either side of that orbit, and adjust accordingly!*
 
-## Worked Example
-Let us say we've identified our nucleal orbit ($N$) as $N = 0.834\;AU$, and we want to calculate orbits interior-to and exterior-to that orbit, and we've chosen $a = 0.100\;AU$ as our innermost safe orbit.
-
-### Working Inward
-$$
- r_0 = 0.834;\; \Omega = 0.100:
- \quad r_{i-1} = \dfrac{r_i} {⟨⟨1.200 ∧ 3.500⟩⟩}, \text{ while } r_{i-1} ≥ 0.100
-\begin{aligned}
-r_{i-1} &= \dfrac{0.834} {1.723} = 0.482\;AU \qquad 1.732 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
-r_{i-1} &= \dfrac{0.482} {1.616} = 0.298\;AU \qquad 1.616 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
-r_{i-1} &= \dfrac{0.298} {1.573} = 0.190\;AU \qquad 1.573 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
-r_{i-1} &= \dfrac{0.190} {1.884} = 0.101\;AU \qquad 1.884 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
-r_{i-1} &= \dfrac{0.101} {1.963} = 0.051\;AU \qquad 1.963 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU}\;✘ \\[1em]
-\end{aligned}
-$$
-We stop at the fourth randomized orbit, because the next orbit randomly generated fails the $r ≥ 0.100\;AU$ test.
-We now have a system of five orbits:
-
-| Orbit | Distance |
-| :-----: | :------: |
-| 1 | 0.101 |
-| 2 | 0.190 |
-| 3 | 0.298 |
-| 4 | 0.482 |
-| 5 (*N*) | 0.834 |
-
-We could stop here and have a fully legitimate star system, but let's say we want extranucleal orbits, as well. Again, beginning with the nucleal orbit $B = 0.834\;AU$, and setting an outermost orbit of $\Omega = 35.0\;AU$:
-
-$$
- r_0 = 0.834;\; \Omega = 35.0:
- \quad r_{i+1} = r_i \cdot ⟨⟨1.200 ∧ 3.500⟩⟩, \text{ while } r_{i+1} ≤ 35.0
-\begin{aligned}
-r_{i+1} &= 0.834(1.829) = 1.525\;AU \qquad 1.829 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
-r_{i+1} &= 1.525(1.969) = 3.003\;AU \qquad 1.969 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
-r_{i+1} &= 3.003(1.578) = 4.739\;AU \qquad 1.578 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
-r_{i+1} &= 4.739(1.547) = 7.332\;AU \qquad 1.547 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
-r_{i+1} &= 7.332(1.552) = 11.379\;AU \qquad 1.552 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
-r_{i+1} &= 11.379(1.608) = 18.298\;AU \qquad 1.608 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
-r_{i+1} &= 18.298(1.823) = 33.357\;AU \qquad 1.823 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
-r_{i+1} &= 33.357(1.778) = 59.309\;AU \qquad 1.778 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \; ✘ \\[1em]
-\end{aligned}
-$$
-We stop at the seventh iteration, as the next value exceeds $\Omega = 35.0\;AU$.
-
-This expands our system to 11 orbits:
-
-| Orbit | Distance |
-| :-----: | :------: |
-| 1 | 0.101 |
-| 2 | 0.190 |
-| 3 | 0.298 |
-| 4 | 0.482 |
-| 5 (*N*) | 0.834 |
-| 6 | 1.525 |
-| 7 | 3.003 |
-| 8 | 4.739 |
-| 9 | 11.379 |
-| 10 | 18.298 |
-| 11 | 33.357 |
-
-… and we can proceed to design planemons for each orbit, or eliminate some orbits and install asteroid belts, or adjust orbital intervals to suit our needs.... the sky's the limit.
-
-> **Hippy**: Oh, ha-ha...
-
-C'mon, you had to know I'd use that pun at *some point* didn't you?
-
-With this method, a worldmaker can quickly generate a full planemon system that is physically plausible, statistically grounded, and symbolically consistent with WCB cosmology.
-
-# Calculating the Thermozones
+<!-- # Calculating the Thermozones ***** Duplicated process/information?
 Since we know our nucleal orbit is $N = 0.834\;AU$, we can calculate the thermozone limits:
 
 $$
@@ -326,5 +258,5 @@ $$
 H_I = -0.26\dfrac{D}{N} + 1.26 = -0.26\dfrac{0.969}{0.834} + 1.26 = -0.26(1.162) + 1.26 = -0.302 + 1.26 = 0.958
 \end{aligned}
 $$
-… an orbital habitability index of 95.8% that of the nucleal orbit. Slightly cooler, but not drastically so.
+… an orbital habitability index of 95.8% that of the nucleal orbit. Slightly cooler, but not drastically so. -->
 
