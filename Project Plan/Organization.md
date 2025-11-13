@@ -51,7 +51,7 @@ It describes the **modes of coherence** — the ways entities endure, combine, a
 
 In the WCB framework, Ontics serves as the **foundation of all other domains**: descriptive fields such as Metrics, Morphotics, Conformics, and Animotics all depend on Ontic definition.  
 
-**In short:** Ontics defines *what exists*; all other disciplines describe *how it behaves.
+**In short:** Ontics defines *what exists*; all other disciplines describe *how it behaves*.
 
 ## Categorics — The Study of Relation and Classification
 
@@ -284,16 +284,6 @@ It transforms existence into experience — defining the space in which worlds a
 | **Meso-milieu** | Regional or planetary environment | Climates, ecosystems, surface systems |
 | **Macro-milieu** | Systemic or orbital environment | Planetary systems, resonant orbits |
 | **Meta-milieu** | Cosmic or cultural environment | Galactic context, mythic perception, civilization-scale systems |
-
----
-
-### Example Crosslinks
-
-- [[Metrics — Mass and Energy Scales]]  
-- [[Morphotics — Spatial Configuration]]  
-- [[Conformics — Material State and Cohesion]]  
-- [[Animotics — Vitality and Equilibrium]]  
-- [[Ontics — The Study of Being and Coherence]]
 
 ---
 

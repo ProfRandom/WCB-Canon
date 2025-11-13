@@ -219,7 +219,7 @@ The answer is "yes" and we can calculate that, too.
 
 ## The Synodial Epoch
 
-The *synodial epoch* ($Y$) is the time interval after which a synodion occurs at the base angle $B^\theta$ agin, completing a full cycle.
+The *synodial epoch* ($Y$) is the time interval after which a synodion occurs at the base angle $B^\theta$ again, completing a full cycle.
 
 The *epochal aggregate* ($Y_0$) is the total number of synodia that transpire within a synodial epoch.
 

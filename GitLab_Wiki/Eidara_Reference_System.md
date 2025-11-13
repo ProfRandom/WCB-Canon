@@ -19,7 +19,110 @@ source: ""
 
 ### Constants
 - $\chi_\oplus = 365.256363004$ days
+- $\chi_{\oplus-trop} = 365.21219$ days
 - $M_\odot = 333000 m\oplus$
+
+### The Star Eikon
+- Calculated Parameters
+  - $L = 1.21\odot$ → Used to calculate $\chi$ for Eidara
+  - $K = 5916.551$ K
+  - $S = \text{G}0.834$
+  - $T = 1.025\odot$
+  - $M = 1.051\odot$
+  - $R = 1.046\odot$
+    - Apparent diameter: $0.508$° $\left(\frac{0.508}{0.533} = 0.9531 \right)$
+  - $Q = 0.749\odot; 7.49$ Ga
+  - $A = 1.017$ AU
+- Basal Orbital Configuration:
+  - Nucleal: $1.1$ AU
+  - Perannual: $1.017$ AU
+- Thermozones:
+  - $H_0 = 0.524$ AU
+  - $H_1 = 0.787$ AU
+  - $H_2 = 0.996$ AU
+    - ($A = 1.017$ AU)
+    - ($N = 1.1$ AU)
+  - $H_3 = 1.453$ AU
+  - $H_4 = 1.856$ AU
+  - $H_5 = 5.087$ AU
+- System Orbits:
+  1. $0.130$ AU — Igniozone
+  2. $0.207$ AU — Igniozone
+  3. $0.361$ AU — Igniozone
+  4. $0.615$ AU — Calorozone
+  5. $1.017$ (A) AU — Solarazone
+  6. $1.100$ (N) AU — Solarazone
+     *This is Eidara's orbit*
+  7. $1.817$ AU — Hiberozone
+  8. $3.024$ AU — Brumazone
+      Main Micromon Belt
+       - Inner Edge: 3.657 (est)
+       - Outer Edge: 4.848 (est)
+  9. $5.953$ AU — Cryozone
+  10. $11.665$ AU — Cryozone
+  11. $17.474$ AU — Cryozone
+
+
+### The Planet Eidara
+- Specified Parameters
+  - $m = 1.05\oplus$; $m_\odot = 3.153 \times 10^{-6}$
+  - $r = 1.02\oplus$; $6498.42$ km
+- Calculated Parameters
+  - $\rho = 0.989\oplus$
+  - $g = 1.009\oplus$
+  - $v_e = 1.015\oplus$
+- Specified Orbit (= to nucleal orbit)
+  - $D = N = 1.1$ AU
+- Rotational Period: 1.125⨁ ($27$ hours); 1 *diurn* (ד)
+- Calculated Orbital Period (Chrona; $\chi$, $\chi_{trop}$)
+    - $\chi = 1.125$ years
+    - $\chi_d = 410.9134$ days; $365.2564$ diurns
+    - $\chi_{trop}$ = 410.8987 days ($22$ᵐ $57.55$ˢ shorter); $365.24219$ diurns
+- Obliquity: $\varepsilon = 27^\circ$
+- Tempostat: Primary Equinox
+- Chronex of the Tempostat: $\zeta = 35^\circ$
+- Orbital Eccentricity:
+  - $e = 0.050$
+- Precession Span:
+  - $Ϣ = 28994$ years
+- Sectals:
+  - Kepler:
+    - $S_0 = 101.8317$ d (Primary Equinox)
+    - $S_1 = 107.4456$ d (Secondary Solstice)
+    - $S_2 = 103.4658$ d (Primary Equinox)
+    - $S_3 = 98.1706$ d (Primary Solstice)
+  - Sinusoidal:
+    - $S_0 = 110.2306$ d (Primary Equinox)
+    - $S_1 = 113.4427$ d (Secondary Solstice)
+    - $S_2 = 95.2261$ d (Primary Equinox)
+    - $S_3 = 92.0140$ d (Primary Solstice)
+  - Moons: 2
+    - Eis:
+      - Mass: $0.0314$⨁; $0.0299$ Eidaran
+      - Density: $0.72$⨁
+      - Radius: $2311$ km; $0.3627$⨁
+      - Sidereal period: $11.72$ d; $10.418$ diurns
+      - α = $220,563.7$ km; $33.95$ Eidaran radii
+      - Apparent Diameter: 1.201°
+    - Eisen:
+      - Mass: $0.0380$⨁; $0.0362$ Eidaran
+      - Density: $0.77$⨁
+      - Radius: $2362$ km; $0.3709$⨁
+      - Sidereal period: $24.36$ d; $21.653$ diurns
+      - α = $360,007.3$ km; $55.41$ Eidaran radii
+      - Apparent Diameter: 0.752°
+    - Synodic Period: $22.587$ days; $20.09$ diurns
+      - $18.19$ synodia/chronum
+    - Synodial Epoch:
+      - Aggregate: $7137.48$ days; $6344.427$ diurns
+        - $19.54$ years; 17.369 chrona
+      - Epochal interval ($\Psi$): $316$ synodia
+      - Quarter synodial epoch: $4.89$ years; $4.347$ chrona
+      - Quarter epochal interval: $79$ synodoi
+
+
+
+
 
 ## Process
 
@@ -131,79 +234,3 @@ $$
  
 ## Results
 From this process we arrive at the following known parameters:
-
-### Eidara
-- Specified Parameters
-  - $m = 1.05\oplus$; $m_\odot = 3.153 \times 10^{-6}$
-  - $r = 1.02\oplus$
-- Calculated Parameters
-  - $\rho = 0.989\oplus$
-  - $g = 1.009\oplus$
-  - $v_e = 1.015\oplus$
-- Specified Orbit (= to nucleal orbit)
-  - $D = N = 1.1$ AU
-- Calculated Orbital Period (Chrona; $\chi$, $\chi_{trop}$)
-    - $\chi = 1.125$ years
-    - $\chi_d = 410.9134$ days
-    - $\chi_{trop}$ = 410.8987 days (22ᵐ 57.55ˢ shorter)
-- Obliquity: $\varepsilon = 27^\circ$
-- Tempostat: Primary Equinox
-- Chronex of the Tempostat: $\zeta = 35^\circ$
-- Orbital Eccentricity:
-  - $e = 0.050$
-- Precession Span:
-  - $Ϣ = 28994$ years
-- Sectals:
-  - Kepler:
-    - $S_0 = 101.8317$ d (Primary Equinox)
-    - $S_1 = 107.4456$ d (Secondary Solstice)
-    - $S_2 = 103.4658$ d (Primary Equinox)
-    - $S_3 = 98.1706$ d (Primary Solstice)
-  - Sinusoidal:
-    - $S_0 = 110.2306$ d (Primary Equinox)
-    - $S_1 = 113.4427$ d (Secondary Solstice)
-    - $S_2 = 95.2261$ d (Primary Equinox)
-    - $S_3 = 92.0140$ d (Primary Solstice)
-  - Moons: 2
-    - Eis:
-      - Sidereal period: $11.72$ d
-    - Eisen:
-      - Sidereal period: $24.36$ d
-
-### Eikon
-- Calculated Parameters
-  - $L = 1.21\odot$ → Used to calculate $\chi$ for Eidara
-  - $K = 5916.551$ K
-  - $S = \text{G}0.834$
-  - $T = 1.025\odot$
-  - $M = 1.051\odot$
-  - $R = 1.046\odot$
-  - $Q = 0.749\odot; 7.49$ Ga
-  - $A = 1.017$ AU
-- Basal Orbital Configuration:
-  - Nucleal: $1.1$ AU
-  - Perannual: $1.017$ AU
-- Thermozones:
-  - $H_0 = 0.524$ AU
-  - $H_1 = 0.787$ AU
-  - $H_2 = 0.996$ AU
-    - ($A = 1.017$ AU)
-    - ($N = 1.1$ AU)
-  - $H_3 = 1.453$ AU
-  - $H_4 = 1.856$ AU
-  - $H_5 = 5.087$ AU
-- System Orbits:
-  1. $0.130$ AU — Igniozone
-  2. $0.207$ AU — Igniozone
-  3. $0.361$ AU — Igniozone
-  4. $0.615$ AU — Calorozone
-  5. $1.017$ (A) AU — Solarazone
-  6. $1.100$ (N) AU — Solarazone
-  7. $1.817$ AU — Hiberozone
-  8. $3.024$ AU — Brumazone
-      Main Micromon Belt
-       - Inner Edge: 3.657 (est)
-       - Outer Edge: 4.848 (est)
-  9. $5.953$ AU — Cryozone
-  10. $11.665$ AU — Cryozone
-  11. $17.474$ AU — Cryozone
