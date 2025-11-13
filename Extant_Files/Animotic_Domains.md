@@ -2,13 +2,38 @@
 title: ""
 ---
 
+## Telluric Domain
+
+m := ⟨0.01 ∧ 10.00⟩⨁ 
+ρ := ⟨0.50 ∧ 7.00⟩⨁ 
+g := ⟨0.15 ∧ 8.00⟩⨁ 
+r := ⟨0.15 ∧ 3.00⟩⨁
+vₑ := ⟨0.20 ∧ 3.00⟩⨁
+
+> Tellurics are parahabitable worlds with solid or semi-solid surfaces — encompassing the full class of rocky, metallic, and icy planemons. 
+> This category includes Earthlike worlds, massive rocky exoplanets, marginal sub-Earths, and bodies like Mars, Ganymede, Titan, or large moons of gas giants. 
+> It defines the geophysical domain of terrestrial planemons — whether habitable or not — and serves as the primary envelope from which Geotic, Gaean, and Argeic worlds are derived.
+
+**Core Feature** 
+- This is a broad categorization — about **4.8%** of Tellurics are Geotics, and only about **0.55%** of all Tellurics are Gaeans — and **3.6%** of Tellurics are Argeics. 
+- These worlds possess defined solid surfaces or lithospheres, with no requirement for biological habitability. 
+- Many are parahabitable — survivable with life-support systems, domes, or partial terraforming. 
+- May include frozen dwarfs, massive dry worlds, or oceanic with no dry land.
+**Relations to Other Types** 
+- Contains all Geotic, Gaean, and Argeic worlds. 
+- Overlaps with Xenotic worlds in the rocky mass range. 
+- Worlds like Mars, Titan, Io, and Kepler-20b are all Tellurics, despite wildly different surface conditions.
+**Symbolic Use** 
+- The term draws from *Tellus*, the Latin Earth-mother, but in this context is **geostructural**, not biological. 
+- When contrasted with *Xenotic*, the distinction is about **structure** (rocky vs. exotic or gaseous), not life-hosting potential.
+
 ## Geotic Realm
-**Geotic** := ⟨ m ∧ ρ ∧ g ∧ r ∧ vₑ ⟩
-  m := ⟨0.30 ∧ 3.35⟩⨁
-  ρ := ⟨0.85 ∧ 1.25⟩⨁
-  g := ⟨0.60 ∧ 1.65⟩⨁
-  r := ⟨0.60 ∧ 1.50⟩⨁
-  vₑ := ⟨0.65 ∧ 1.50⟩⨁
+
+m := ⟨0.30 ∧ 3.35⟩⨁
+ρ := ⟨0.85 ∧ 1.25⟩⨁
+g := ⟨0.60 ∧ 1.65⟩⨁
+r := ⟨0.60 ∧ 1.50⟩⨁
+vₑ := ⟨0.65 ∧ 1.50⟩⨁
 
 $$
 \text{GEOTIC} := \left\{ (m, \rho) \in \mathbb{R}^2 \ \middle|\
@@ -35,12 +60,12 @@ $$
 - But Geotics may include conditions beyond optimal comfort — requiring adaptation or technology to sustain human colonization.
 
 ## Gaean Province
-**Gaean** := ⟨ m ∧ ρ ∧ g ∧ r ∧ vₑ ⟩
-  m := ⟨0.45 ∧ 1.85⟩⨁
-  ρ := ⟨0.85 ∧ 1.25⟩⨁
-  g := ⟨0.90 ∧ 1.10⟩⨁
-  r := ⟨0.70 ∧ 1.30⟩⨁
-  vₑ := ⟨0.80 ∧ 1.20⟩⨁
+
+m := ⟨0.45 ∧ 1.85⟩⨁
+ρ := ⟨0.85 ∧ 1.25⟩⨁
+g := ⟨0.90 ∧ 1.10⟩⨁
+r := ⟨0.70 ∧ 1.30⟩⨁
+vₑ := ⟨0.80 ∧ 1.20⟩⨁
 
 $$
 \text{GAEAN} := \left\{ (m, \rho) \in \mathbb{R}^2 \ \middle|\
@@ -85,7 +110,7 @@ In short:
 > **The closer a world hugs the Gravity One Corridor, the easier it is to call home.**
 
 ## Argeic Realm
-**Argeic** := ⟨ m ∧ ρ ∧ g ∧ r ∧ vₑ ⟩
+
 m := ⟨1.00 ∧ 3.00⟩⨁
 ρ := ⟨0.85 ∧ 1.25⟩⨁
 g := ⟨0.85 ∧ 1.70⟩⨁
@@ -116,33 +141,43 @@ $$
 - **Not all Geotics** are Argeic: Argeics are a **subset of high-mass, dense, habitable** planemons. 
 - Conversely, **not all Argeics are Gaean** — only a small slice of them match that precise Earthlike window.
 
-## Telluric Realm
-**Telluric** := ⟨ m ∧ ρ ∧ g ∧ r ∧ vₑ ⟩ 
-	m := ⟨0.01 ∧ 10.00⟩⨁ 
-	ρ := ⟨0.50 ∧ 7.00⟩⨁ 
-	g := ⟨0.15 ∧ 8.00⟩⨁ 
-	r := ⟨0.15 ∧ 3.00⟩⨁
-	vₑ := ⟨0.20 ∧ 3.00⟩⨁
+# Argeic (Superhabitable) planemons
 
-> Tellurics are parahabitable worlds with solid or semi-solid surfaces — encompassing the full class of rocky, metallic, and icy planemons. 
-> This category includes Earthlike worlds, massive rocky exoplanets, marginal sub-Earths, and bodies like Mars, Ganymede, Titan, or large moons of gas giants. 
-> It defines the geophysical domain of terrestrial planemons — whether habitable or not — and serves as the primary envelope from which Geotic, Gaean, and Argeic worlds are derived.
+**Definition** 
+The concept of *superhabitable planemons* was proposed by René Heller and John Armstrong (2014) to describe worlds with physical, orbital, and stellar characteristics that make them **more conducive to rich, diverse biospheres** than Earth — though not necessarily more suitable for humanoid or Earthlike life.
 
-**Core Feature** 
-- This is a broad categorization — about **4.8%** of Tellurics are Geotics, and only about **0.55%** of all Tellurics are Gaeans — and **3.6%** of Tellurics are Argeics. 
-- These worlds possess defined solid surfaces or lithospheres, with no requirement for biological habitability. 
-- Many are parahabitable — survivable with life-support systems, domes, or partial terraforming. 
-- May include frozen dwarfs, massive dry worlds, or oceanic with no dry land.
-**Relations to Other Types** 
-- Contains all Geotic, Gaean, and Argeic worlds. 
-- Overlaps with Xenotic worlds in the rocky mass range. 
-- Worlds like Mars, Titan, Io, and Kepler-20b are all Tellurics, despite wildly different surface conditions.
-**Symbolic Use** 
-- The term draws from *Tellus*, the Latin Earth-mother, but in this context is **geostructural**, not biological. 
-- When contrasted with *Xenotic*, the distinction is about **structure** (rocky vs. exotic or gaseous), not life-hosting potential.
+**Stellar Criteria** 
+- Host star mass range: ⟨0.359 ∧ 0.817⟩⊙ (spectral classes M0∧G9)
+- Host star lifespan: ⟨1.656 ∧ 12.934⟩⊙ years 
+- Stellar age: Older than the Sun’s 4.5 Ga but younger than 7 Ga 
 
-## Xenotic Realm
-**Xenotic** := ⟨ m ∧ ρ ∧ g ∧ r ∧ vₑ ⟩
+**Planemon Characteristics** 
+- **Mass**: ⟨2.0 ∧ 3.0⟩⨁ (optimum ≈ 2.0⨁) 
+- **Radius**: ⟨1.260 ∧ 1.442⟩⨁ (maintains Earthlike density and gravity) 
+- **Geology**: Larger tectonic–volcanic cycling, longer plate tectonic activity, strong carbon–silicate cycle, thicker atmosphere retention. 
+- **Magnetic Field**: Stronger due to larger liquid core and higher internal heat. 
+- **Surface Geography**: Flatter topography, shallower oceans, widely distributed ocean coverage (~71% surface area) without large continuous land masses. 
+- **Temperature**: Mean ≈ 25 °C (77 °F). 
+- **Atmosphere**: Thicker than Earth’s; O₂ concentration > 20.95%. 
+- **Orbit**: Closer to the center of the host system’s habitable zone than Earth is in the Solar System. 
+ - Solar System example: center of optimistic HZ ≈ 1.26 AU; center of conservative HZ ≈ 1.16 AU.
+
+**Scientific Rationale** 
+From Heller & Armstrong (2014): 
+> “Terrestrial planemons that are slightly more massive than Earth, up to 2 or 3 M⊕, are preferably superhabitable due to the longer tectonic activity, a carbon–silicate cycle active on a longer timescale, enhanced magnetic shielding, larger surface area, smoother surface, thicker atmosphere, and the positive effects of non-intelligent life on habitability.”
+
+Lena Noack & Doris Breuer (2011) add: 
+> “…the propensity of plate tectonics seems to have a peak between 1 and 5 Earth masses… a geological perspective suggests the optimal mass of a planemon is about 2 M⊕.”
+
+**Relation to WCB Classifications** 
+In *Worlds by the Numbers*, **Argeic planemons** encompass the superhabitable concept, with parameter refinements for internal consistency within WCB’s classification system. 
+
+**References** 
+- Heller, René, and John Armstrong. “Superhabitable Worlds.” *PubMed* (National Library of Medicine, December 31, 2013). [https://pubmed.ncbi.nlm.nih.gov/24380533/](https://pubmed.ncbi.nlm.nih.gov/24380533/) 
+- Noack, Lena, and Doris Breuer. “Plate Tectonics on Earth-Like Planets.” *ResearchGate*, January 2011. [https://www.researchgate.net/publication/225001335_Plate_Tectonics_on_Earth-like_Planets_Implications_for_the_Habitability](https://www.researchgate.net/publication/225001335_Plate_Tectonics_on_Earth-like_Planets_Implications_for_the_Habitability)
+
+## Xenotic Domain
+
 m := ⟨0.0001 ∧ 4131⟩⨁
 ρ := ⟨0.01 ∧ 7.00⟩⨁
 g := ⟨0.02 ∧ 60.00⟩⨁
@@ -194,38 +229,5 @@ $$
 
 > These are **not bound by Earth-normal biology**. They simply represent physically plausible, self-cohering planemon-scale entities where exotic life — as chemistry permits — might arise.
 
-# Argeic (Superhabitable) planemons
 
-**Definition** 
-The concept of *superhabitable planemons* was proposed by René Heller and John Armstrong (2014) to describe worlds with physical, orbital, and stellar characteristics that make them **more conducive to rich, diverse biospheres** than Earth — though not necessarily more suitable for humanoid or Earthlike life.
-
-**Stellar Criteria** 
-- Host star mass range: ⟨0.359 ∧ 0.817⟩⊙ (spectral classes M0 – G9)
-- Host star lifespan: ⟨1.656 ∧ 12.934⟩⊙ years 
-- Stellar age: Older than the Sun’s 4.5 Ga but younger than 7 Ga 
-
-**Planemon Characteristics** 
-- **Mass**: ⟨2.0 ∧ 3.0⟩⨁ (optimum ≈ 2.0⨁) 
-- **Radius**: ⟨1.260 ∧ 1.442⟩⨁ (maintains Earthlike density and gravity) 
-- **Geology**: Larger tectonic–volcanic cycling, longer plate tectonic activity, strong carbon–silicate cycle, thicker atmosphere retention. 
-- **Magnetic Field**: Stronger due to larger liquid core and higher internal heat. 
-- **Surface Geography**: Flatter topography, shallower oceans, widely distributed ocean coverage (~71% surface area) without large continuous land masses. 
-- **Temperature**: Mean ≈ 25 °C (77 °F). 
-- **Atmosphere**: Thicker than Earth’s; O₂ concentration > 20.95%. 
-- **Orbit**: Closer to the center of the host system’s habitable zone than Earth is in the Solar System. 
- - Solar System example: center of optimistic HZ ≈ 1.26 AU; center of conservative HZ ≈ 1.16 AU.
-
-**Scientific Rationale** 
-From Heller & Armstrong (2014): 
-> “Terrestrial planemons that are slightly more massive than Earth, up to 2 or 3 M⊕, are preferably superhabitable due to the longer tectonic activity, a carbon–silicate cycle active on a longer timescale, enhanced magnetic shielding, larger surface area, smoother surface, thicker atmosphere, and the positive effects of non-intelligent life on habitability.”
-
-Lena Noack & Doris Breuer (2011) add: 
-> “…the propensity of plate tectonics seems to have a peak between 1 and 5 Earth masses… a geological perspective suggests the optimal mass of a planemon is about 2 M⊕.”
-
-**Relation to WCB Classifications** 
-In *Worlds by the Numbers*, **Argeic planemons** encompass the superhabitable concept, with parameter refinements for internal consistency within WCB’s classification system. 
-
-**References** 
-- Heller, René, and John Armstrong. “Superhabitable Worlds.” *PubMed* (National Library of Medicine, December 31, 2013). [https://pubmed.ncbi.nlm.nih.gov/24380533/](https://pubmed.ncbi.nlm.nih.gov/24380533/) 
-- Noack, Lena, and Doris Breuer. “Plate Tectonics on Earth-Like Planets.” *ResearchGate*, January 2011. [https://www.researchgate.net/publication/225001335_Plate_Tectonics_on_Earth-like_Planets_Implications_for_the_Habitability](https://www.researchgate.net/publication/225001335_Plate_Tectonics_on_Earth-like_Planets_Implications_for_the_Habitability)
 
