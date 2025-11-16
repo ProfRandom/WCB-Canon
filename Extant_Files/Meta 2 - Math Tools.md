@@ -823,6 +823,27 @@ Where:
 
 > Because ⟨⟨0 ∧ 1⟩⟩ represents a continuous uniform variable, and because the exponent $p \in (0, \infty)$ continuously reshapes that distribution, the **biasing space** is symmetric about $p = 1$: bias toward *a* for $0 < p < 1$, bias toward *b* for $p > 1$.
 
+## 🎯 Precision and Rounding Guidelines
+
+> [!axiom] **Minimum Meaningful Precision**  
+> State numerical values to the number of decimal places where *rounding becomes a deliberate choice.*  
+> This preserves clarity while giving worldwrights the freedom to choose their own working precision.
+
+This guideline aligns with the **GEWE** principle:
+- Too many decimal places = faux-precision that adds noise.  
+- Too few = loss of meaningful proportionality.  
+- The last digit signals the **decision boundary** between narrative scale and mechanical scale.
+
+### Examples
+- Use **365.242** rather than 365.24 or 365 — the final digit marks the rounding choice.  
+- Use **1.014** rather than 1.0 or 1.014891 — readable, and still mechanically meaningful.  
+- Use **0.047** rather than 0.05 — preserves meaningful difference without unnecessary granularity.
+
+> [!note]  
+> This guideline is the “notation-side” expression of GEWE:  
+> **precision should invite, not impose.**
+
+
 ## 🔬 Precision Inference Rule
 
 > The **decimal precision of a randomized result** is inferred from the **most precise** range endpoint.
