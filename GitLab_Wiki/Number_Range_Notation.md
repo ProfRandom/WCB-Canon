@@ -4,37 +4,25 @@ WCB uses extended symbolic notation to express range relationships, logical conn
 
 ## Range Connectives
 
-**Inclusive Interior**  
-* $\langle a \wedge b \rangle$
-* Value must lie between *a* and *b*, including both *a* and *b*.
+Inclusive:
+* $(a \leq x \leq b)$
+	* Value must lie **inside** the range between *a* and *b*, including both *a* and *b*.
+* $(a < x \leq b)$
+	* Value must lie **inside** the range between *a* and *b*, **excluding** *a* and **including** *b*.
+* $(a \leq x < b)$
+	* Value must lie **inside** the range between *a* and *b*, **including** *a* and **excluding** *b*.
+* $(a < x < b)$
+	* Value must lie **inside** the range between *a* and *b*, excluding both *a* and *b*.
 
-**Exclusive Interior**  
-* $\langle > a\; \wedge <b \rangle$
-* Value must lie between *a* and *b*, excluding both *a* and *b*.
-
-**Inclusive Exterior**  
-* $\langle a \vee b \rangle$
-* Value must lie outside the range between *a* and *b*, including both *a* and *b*.
-
-**Exclusive Exterior**  
-* $\langle <a\; \vee >b\rangle$
-* Value must lie outside the range between *a* and *b*, excluding both *a* and *b*.
-
-**Left-Exclusive Interior**  
-* $\langle >a \wedge b \rangle$
-* Value must lie between *a* and *b*, **excluding** *a* and **including** *b*.
-
-**Right-Exclusive Interior**  
-* $\langle a\; \wedge <b \rangle$
-* Value must lie between *a* and *b*, **including** *a* and **excluding** *b*.
-
-**Left-Exclusive Exterior**  
-* $\langle <a \vee b \rangle$
-* Value must lie **outside** the range between *a* and *b*, **excluding** *a* and **including** *b*.
-
-**Right-Exclusive Exterior**  
-* $\langle a\; \vee >b \rangle$
-* Value must lie **outside** the range between *a* and *b*, **including** *a* and **excluding** *b*.
+Exclusive:
+* $(a \leq x \geq b)$
+	* Value must lie **outside** the range between *a* and *b*, including both *a* and *b*.
+* $(a < x > b)$
+	* * Value must lie **outside** the range between *a* and *b*, excluding both *a* and *b*.
+* $(a < x \geq b)$
+	* Value must lie **outside** the range between *a* and *b*, **excluding** *a* and **including** *b*.
+* $(a \leq x > b)$
+	* Value must lie **outside** the range between *a* and *b*, **including** *a* and **excluding** *b*.
 
 ## Modifiers
 ### Negation
