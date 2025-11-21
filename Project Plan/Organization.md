@@ -11,7 +11,7 @@ date: 2025-11-01
 
 ### Ontic Subfields
 
-1. **Ontic Hierarchy** — Defines the structural grammar of being: monon, cule, lex, gate.  [[The Hierarchy of Ontic Systems]]
+1. **Ontic Hierarchy** — Defines the structural grammar of being: monon, cule, lex, gate.  [[The Hierarchy of Ontic Systems ✓]]
 - The Ontic Hierarchy extends beyond individual bodies (*monons*) to describe how coherence manifests in larger, relational, and collective systems.
 
 - **Monons** — the singular and self-coherent  

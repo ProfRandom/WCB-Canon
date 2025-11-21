@@ -1,8 +1,8 @@
 # Duramonic Physical Parameters
 
-There are five parameters that describe a **duramon** — either intrinsic to its substance or consequent/emergent from its physical nature.
+Duramonic bodies are defined by five quantitative parameters, each belonging to a distinct tier of causality. Two of these — mass and density — describe the duramon’s intrinsic matter. Their interaction produces the consequent parameter, surface gravity. And together, these three generate the emergent geometric and energetic properties: radius and escape velocity.
 
-These are divided into three causal tiers: **primary**, **consequent**, and **emergent**.
+Duramonic parameters are grouped into tiers not by convenience, but by causality: primaries _define_ the consequent, and together they _generate_ the emergent.
 
 ## Primary Parameters
 
@@ -37,6 +37,7 @@ Although it may appear independent, radius is actually a *derived property*, eme
 $$
 r = \frac{g}{ρ} = \sqrt{\frac{m}{g}} = \sqrt[3]{\frac{m}{ρ}}
 $$
+A duramon’s radius is not an independent trait — it’s the geometric expression of how much matter the body contains _given_ how tightly it is packed.
 
 **Escape Velocity** ($v_e$):  
 The minimum speed required to escape the duramon’s gravitational field when starting from its surface.  
@@ -45,10 +46,30 @@ This parameter emerges from the same consequentials:
 $$
 v_e = \frac{g}{\sqrt{ρ}} = \sqrt[4]{m\,g} = \sqrt[6]{m^{2}ρ}
 $$
-
+Escape velocity represents the energy threshold imposed by the duramon’s gravitational well — the “height” of its gravity.
 ## Hierarchy of Dependence
 
 Duramonic parameters follow a clear causal chain, in which the **primary** parameters *define* the **consequent** parameter, and together these *form* the **emergent** parameters:
+
+```mermaid
+flowchart TD
+	MASS
+	DENSITY
+	GRAVITY
+subgraph Primary
+	direction LR
+	MASS <--> DENSITY
+end
+subgraph Consequent
+	Primary --> GRAVITY
+end
+subgraph Emergent
+	RADIUS
+	E(ESCAPE VELOCIY)
+end
+	Consequent --> RADIUS
+	Consequent --> E
+```
 
 $$
 \begin{gathered}
@@ -64,13 +85,6 @@ The *fundamental mapping* of the physical properties of **mass** and **density**
 - **Radius** and **escape velocity** *emerge* from the interaction of all three.
 
 Together these define the duramon’s **physical identity** — its body, field, and limit.
-
-## Relation to Other Disciplines
-
-- **Morphotics** defines the materials and internal layering that determine density.  
-- **Conformics** defines the physical and thermal state (solid, liquid, gaseous).  
-- **Mazotics** defines the absolute mass interval (microterran, terran, kiloterran, etc.).  
-- **Mononics** integrates all of these into a coherent model of duramonic behavior.
 
 ### A familiar analogy
 
