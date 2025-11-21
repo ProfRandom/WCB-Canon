@@ -12,12 +12,13 @@ All **planemons** (planetary monons) share a **common trunk** — then branch in
 
 ## 🪨 Conformation Branch (Structural / Physical)
 
-| Order | Forms |
-| --- | ---		
-| Lithic| Petriform, Carboform
-Rheic|Pagoform, Fluxiform
-Aeric|Transiform, Pneumoform, Haliform
-Ulsic|Neutraform, Quarkform, Exoticform, etc.
+
+| Order  | Forms                |
+| ------ | -------------------- |
+| Lithic | Petriform, Carboform |
+|Rheic|Pagoform, Fluxiform|
+|Aeric|Transiform, Pneumoform, Haliform|
+|Ulsic|Neutraform, Quarkform, Exoticform, etc.|
 
 ## 🌱 Animotic Branch (Life-Relevance / Biospheric)
 Focus: **How the planemon relates to life (esp. Earthlike envelopes)**
@@ -29,14 +30,14 @@ Focus: **How the planemon relates to life (esp. Earthlike envelopes)**
 - **Type** → Subdivisions of classes
     - Marginal Geotic, Dense Hot Argeic, etc.
 
-- **State (Climostates)** → Global climatic conditions
+- **Somatics** → Global physical conditions
     - Cryostate (frozen) 
     - Hydrostate (temperate hydrosphere)
     - Pyrostate (runaway greenhouse)
     - Pluristate (diverse climates)
     - etc.
 
-- **Condition** → Finer descriptors of atmospheric/seasonal character 
+- **Climatics** → Finer descriptors of atmospheric/seasonal character 
     - Tempestal (storm-dominated)
     - Zephyral (mild winds, gentle climate)
     - Serenal (stable, calm, serene environment)
