@@ -32,7 +32,7 @@ True anomaly of each **sectal onset** is determined from the **chronex** (ζ):
 
 $$
 \begin{aligned}
-&Ⲁ_n = (\zeta + 90n) \bmod 360 \\[1em]
+&\nu_n = (\zeta + 90n) \bmod 360 \\[1em]
 &\begin{cases}
 n = 1 & S_0 \\
 n = 0 & S_1 \\
@@ -59,28 +59,28 @@ Given:
 True anomalies from $\zeta = 0$:
 
 $$
-Ⲁ_n = (\zeta + 90n) \bmod 360
+\nu_n = (\zeta + 90n) \bmod 360
 $$
 $$
 \begin{cases}
-n = 1 & Ⲁ_1 = 167^\circ & \quad S_0 \\
-n = 2 & Ⲁ_2 = 77^\circ & \quad S_1 \\
-n = 3 & Ⲁ_3 = 347^\circ & \quad S_2 \\
-n = 0 & Ⲁ_0 = 357^\circ & \quad S_3
+n = 1 & \nu_1 = 167^\circ & \quad S_0 \\
+n = 2 & \nu_2 = 77^\circ & \quad S_1 \\
+n = 3 & \nu_3 = 347^\circ & \quad S_2 \\
+n = 0 & \nu_0 = 357^\circ & \quad S_3
 \end{cases}
 $$
 
 **Step 4 — Apply the Formula**
 
 $$
-S_n \;\approx\; \frac{\chi}{4} + \left(\frac{2\!\;\chi\!\;e}{\pi} \times \sin Ⲁ_n \right)
+S_n \;\approx\; \frac{\chi}{4} + \left(\frac{2\!\;\chi\!\;e}{\pi} \times \sin \nu_n \right)
 $$
 $$
 \begin{cases}
-n=1;\;Ⲁ_1 = 167^\circ;\;\sinⲀ_1 = 0.2250 & S_0 \approx 92.18 \\
-n=2;\;Ⲁ_2 = 257^\circ;\;\sinⲀ_2 = 0.9744 & S_1 \approx 87.53 \\
-n=3;\;Ⲁ_3 = 347^\circ;\;\sinⲀ_3 = -0.225 & S_2 \approx 90.44 \\
-n=0;\;Ⲁ_0 = 77^\circ;\;\sinⲀ_0 = -0.9744 & S_3 \approx 95.09
+n=1;\;\nu_1 = 167^\circ;\;\sin\nu_1 = 0.2250 & S_0 \approx 92.18 \\
+n=2;\;\nu_2 = 257^\circ;\;\sin\nu_2 = 0.9744 & S_1 \approx 87.53 \\
+n=3;\;\nu_3 = 347^\circ;\;\sin\nu_3 = -0.225 & S_2 \approx 90.44 \\
+n=0;\;\nu_0 = 77^\circ;\;\sin\nu_0 = -0.9744 & S_3 \approx 95.09
 \end{cases}
 $$
 
@@ -113,7 +113,7 @@ Discrepancies:
 The sinusoidal tempostatic equation:
 
 $$
-S_n \;\approx\; \frac{χ}{4} + \frac{2\!\,\chi\!\;e}{\pi} \sinⲀ_n
+S_n \;\approx\; \frac{χ}{4} + \frac{2\!\,\chi\!\;e}{\pi} \sin\nu_n
 $$
 
 produces two identical sectal durations whenever the **tempostat chronex ζ** lies at a 90° multiple — that is, when $ζ \bmod 360° = 0°, 90°, 180°, 270°$.

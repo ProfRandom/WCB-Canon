@@ -91,7 +91,7 @@ $$
 \end{bmatrix}
 $$
 
-## Obliquity Scope ($\varepsilon_\delta$)
+## Obliquity Span ($\varepsilon_\delta$)
 
 Simply the difference between the maximum and minimum obliquity extents:
 

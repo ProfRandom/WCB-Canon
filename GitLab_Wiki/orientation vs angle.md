@@ -28,7 +28,7 @@ The value of $\zeta$ may be any angle from 0° to 359°, depending on the planet
 
 The obliquity orientation ($\zeta$) therefore acts as a **phase offset** between the orbit’s eccentric anomaly and the planet’s seasonal cycle, determining whether perihelion aligns with summer or winter in each hemisphere. -->
 
-## Solstitial Angle ($\Psi$)  
+## Solstitial Angle ($\Psi$)  (replaced by Chronex)
 
 The **solstitial angle** describes the angular alignment of a monon’s *precessional orientation* relative to its orbit’s **periaptic axis**.  
 It is defined as the angle between **periapsis** (the line of apsides) and the direction in the orbital plane where the planet’s projected **north pole is tilted directly away** from its star — the ***prime solstice***.

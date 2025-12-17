@@ -67,54 +67,10 @@ source: ""
   11. $17.474$ AU — Cryozone — Xenotic – Gas Giant (P = $69.28$y)
 
 
-### The Planet Eidara
-- Specified Parameters
-  - $m = 1.05\oplus$; $m_\odot = 3.153 \times 10^{-6}$
-  - $r = 1.02\oplus$; $6498.42$ km
-- Calculated Parameters
-  - $\rho = 0.989\oplus$
-  - $g = 1.009\oplus$
-  - $v_e = 1.015\oplus$
-- Specified Orbit (= to nucleal orbit)
-  - $D = N = 1.1$ AU
-- Rotational Period: 1.125⨁ ($27$ hours); 1 *diurn* (ד)
-- Calculated Orbital Period (Chrona; $\chi$, $\chi_{trop}$)
-    - $\chi = 1.125$ years
-    - $\chi_d = 410.9134$ days; $365.2564$ diurns
-    - $\chi_{trop}$ = 410.8987 days ($22$ᵐ $57.55$ˢ shorter); $365.24219$ diurns
-- Obliquity: $\varepsilon = 27^\circ$
-- Tempostat: Primary Equinox
-- Chronex of the Tempostat: $\zeta = 35^\circ$
-- Orbital Eccentricity:
-  - $e = 0.050$
-- Precession Span:
-  - $Ϣ = 28994$ years
-- Sectals:
-  - Kepler:
-    - $S_0 = 101.8317$ d (Primary Equinox)
-    - $S_1 = 107.4456$ d (Secondary Solstice)
-    - $S_2 = 103.4658$ d (Primary Equinox)
-    - $S_3 = 98.1706$ d (Primary Solstice)
-  - Sinusoidal:
-    - $S_0 = 110.2306$ d (Primary Equinox)
-    - $S_1 = 113.4427$ d (Secondary Solstice)
-    - $S_2 = 95.2261$ d (Primary Equinox)
-    - $S_3 = 92.0140$ d (Primary Solstice)
+
   - Moons: 2
-    - Eis:
-      - Mass: $0.0314$⨁; $0.0299$ Eidaran
-      - Density: $0.72$⨁
-      - Radius: $2311$ km; $0.3627$⨁
-      - Sidereal period: $11.72$ d; $10.418$ diurns
-      - α = $220,563.7$ km; $33.95$ Eidaran radii
-      - Apparent Diameter: 1.201°
-    - Eisen:
-      - Mass: $0.0380$⨁; $0.0362$ Eidaran
-      - Density: $0.77$⨁
-      - Radius: $2362$ km; $0.3709$⨁
-      - Sidereal period: $24.36$ d; $21.653$ diurns
-      - α = $360,007.3$ km; $55.41$ Eidaran radii
-      - Apparent Diameter: 0.752°
+    - 
+    - 
     - Synodic Period: $22.587$ days; $20.09$ diurns
       - $18.19$ synodia/chronum
     - Synodial Epoch:

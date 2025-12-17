@@ -53,10 +53,10 @@ By pairing **Kepler’s geometry** with **WCB’s chronum–sectal framework**, 
 - **True Anomaly** *($\nu$)* —  
   The **spatial angle** between periapsis and the planet’s actual position, measured from the system’s focus.
 Some true anomalies are associated with specific locations on the orbit where significant geometric transisions occur, but every position of a planet along its orbital path corresponds to a specific true-anomaly angle.
-  - The true-anomaly measures of the four secta are denoted $Ⲁ_0, Ⲁ_1, Ⲁ_2,\;\text{and}\; Ⲁ_3$, calculated by:
+  - The true-anomaly measures of the four secta are denoted $\nu_0, \nu_1, \nu_2,\;\text{and}\; \nu_3$, calculated by:
 
 $$
-    Ⲁ_n = (\zeta + 90n) \bmod 360
+    \nu_n = (\zeta + 90n) \bmod 360
 $$
  — where *n* is the **index of the sectal**.
 
@@ -65,8 +65,8 @@ $$
 
 $$
 \begin{gathered}
-E_n = 2 \arctan \!\left( \xi \;\tan \frac{Ⲁ_n}{2} \right), \qquad
-Ⲁ_n = 2 \arctan \!\left( \frac{1}{\xi} \;\tan \frac{E_n}{2} \right)
+E_n = 2 \arctan \!\left( \xi \;\tan \frac{\nu_n}{2} \right), \qquad
+\nu_n = 2 \arctan \!\left( \frac{1}{\xi} \;\tan \frac{E_n}{2} \right)
 \end{gathered}
 $$
 *All angular measures in WCB are expressed in degrees unless otherwise specificially noted.*
@@ -154,7 +154,7 @@ Calculate the true anomalies ($Ⲁ_n$) for the four sectal markers, offset by th
 
 $$
 \begin{aligned}
-&Ⲁ_n = (\zeta + 90n) \bmod 360 \\[1em]
+&\nuⲀ_n = (\zeta + 90n) \bmod 360 \\[1em]
 &\begin{cases}
 n = 0; \;\text{Sectal₀} \\
 n = 1; \;\text{Sectal₁} \\
@@ -169,8 +169,8 @@ For each $Ⲁ_n$, compute the eccentric anomaly $E_n$:
 
 $$
 \begin{aligned}
-E_n &= 2 \arctan \!\left( \xi \;\tan \frac{Ⲁ_n}{2} \right) \\[1em]
-Ⲁ_n &= 2 \arctan \!\left( \frac{1}{\xi}\;\tan \frac{E_n}{2}\right) \qquad \text{Inverse Relation}
+E_n &= 2 \arctan \!\left( \xi \;\tan \frac{\nu_n}{2} \right) \\[1em]
+\nu_n &= 2 \arctan \!\left( \frac{1}{\xi}\;\tan \frac{E_n}{2}\right) \qquad \text{Inverse Relation}
 \end{aligned}
 $$
 *All angular measures in WCB are expressed in degrees unless otherwise specificially noted.*
@@ -221,12 +221,12 @@ Given:
 Sectal markers from $\zeta = 33^\circ$:  
 
 $$
-Ⲁ_n = (\zeta + 90n) \bmod 360 \qquad
+\nu_n = (\zeta + 90n) \bmod 360 \qquad
 \begin{cases}
-n = 0 & Ⲁ_0 = 33^\circ \\
-n = 1 & Ⲁ_1 = 123^\circ \\
-n = 2 & Ⲁ_2 = 213^\circ \\
-n = 3 & Ⲁ_3 = 303^\circ
+n = 0 & \nu_0 = 33^\circ \\
+n = 1 & \nu_1 = 123^\circ \\
+n = 2 & \nu_2 = 213^\circ \\
+n = 3 & \nu_3 = 303^\circ
 \end{cases}
 $$
 > Note that these are not associated with any particular "season" at this time, they are just geometric divisions of the orbit.
@@ -235,7 +235,7 @@ $$
 Kepler’s orbit runs faster near periapsis and slower near apoapsis, so we next translate the true anomalies into **eccentric anomalies**, which measure angles on the auxiliary circle.
 
 $$
-E_n = 2 \arctan \!\left( \xi \;\tan \dfrac{Ⲁ_n}{2} \right) \qquad
+E_n = 2 \arctan \!\left( \xi \;\tan \dfrac{\nu_n}{2} \right) \qquad
 \begin{cases}
 E_0 = 19.4^\circ \\
 E_1 = 93.5^\circ \\
@@ -313,7 +313,7 @@ Where **A** is the *average orbital separation* between the bodies.
 When describing a planemon’s orbit, A corresponds to the **semimajor axis** of its elliptical path.  
 
 ## Fractional Distance Asymmetry (Ḋ)
-The dimensionless measure of how much closer the planemon is at periastron than at apastron:
+The dimensionless measure of how much closer the planemon is to the star at periastron than at apastron:
 
 $$
 \dot{D} = \frac{R_{max}}{R_{min}} - 1 = \frac{2e}{1-e}
